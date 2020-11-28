@@ -1,9 +1,6 @@
-## Setting up Scratch
+## Debugging
 
-Online, inc tab switching, side-by-side working
-Tablets
-Raspberry Pi
-Offline - download
+Basic tips from Rik's Scratch debugging presentation
 
 --- task ---
  

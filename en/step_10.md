@@ -1,9 +1,6 @@
-## Setting up Scratch
+## Backpack
 
-Online, inc tab switching, side-by-side working
-Tablets
-Raspberry Pi
-Offline - download
+Liz's backpack instructions
 
 --- task ---
  

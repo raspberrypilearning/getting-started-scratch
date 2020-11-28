@@ -1,9 +1,10 @@
-## Setting up Scratch
+## Using Scratch
 
-Online, inc tab switching, side-by-side working
-Tablets
-Raspberry Pi
-Offline - download
+Key concepts sprite, Stage etc
+Colour coding
+Snapping blocks
+Event hat blocks to make things happen
+etc
 
 --- task ---
  

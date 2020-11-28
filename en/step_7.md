@@ -1,9 +1,6 @@
-## Setting up Scratch
+## Paint editor
 
-Online, inc tab switching, side-by-side working
-Tablets
-Raspberry Pi
-Offline - download
+Similar to Useful code but paint tips
 
 --- task ---
  

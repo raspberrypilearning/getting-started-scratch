@@ -1,9 +1,6 @@
-## Setting up Scratch
+## Sharing and comments
 
-Online, inc tab switching, side-by-side working
-Tablets
-Raspberry Pi
-Offline - download
+Include existing ingredients
 
 --- task ---
  

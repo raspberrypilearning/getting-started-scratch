@@ -7,5 +7,14 @@ copyedit: false
 last_tested: "2020-11-28"
 steps:
   - title: Introduction
-  - title: Step title
+  - title: Setting up Scratch
+  - title: Introducing Scratch
+  - title: Using Scratch
+  - title: Useful code
+  - title: Block reference
+  - title: Paint editor
+  - title: Debugging
+  - title: Accounts and saving
+  - title: Backpack
+  - title: Sharing and commenting
   - title: What next?

@@ -1,9 +1,4 @@
-## Setting up Scratch
-
-Online, inc tab switching, side-by-side working
-Tablets
-Raspberry Pi
-Offline - download
+## Saving and accounts
 
 --- task ---
  
