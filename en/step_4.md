@@ -27,7 +27,7 @@ turn right (15) degrees
 
 <div style="float:left; width:50%">
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="242" height="201" src="https://scratch.mit.edu/projects/embed/456215257/?autostart=true" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="320" height="265" src="https://scratch.mit.edu/projects/embed/456215257/?autostart=true" frameborder="0"></iframe>
 </div>
 </div>
 </div>
