@@ -66,7 +66,7 @@ wait (1) seconds
 clear graphic effects
 ```
 
-Or, you can `play sound until done`{:class="block3sounds"} instead of using `wait`{:class="block3control"}. 
+Or, you can `play sound until done`{:class="block3sound"} instead of using `wait`{:class="block3control"}. 
 
 
 ### Keep changing
