@@ -1,9 +1,11 @@
 ## Setting up Scratch
 
+<mark>
 Online, inc tab switching, side-by-side working
 Tablets
 Raspberry Pi
 Offline - download
+</mark>
 
 --- task ---
  

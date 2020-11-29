@@ -1,6 +1,6 @@
 ## Backpack
 
-Liz's backpack instructions
+<mark>Liz's backpack instructions</mark>
 
 --- task ---
  

@@ -1,17 +1,17 @@
 ## Paint editor
 
-Similar to Useful code but paint tips
+<mark>Similar to Useful code but paint tips. Cover the techniques used in the first three skills projects and first two challenges</mark>
 
---- task ---
- 
-![starter project](images/starter_project.png)
+Use the paint editor to create your own backdrops and costumes and to edit existing backdrops and costumes. 
 
---- /task ---
+### Editting an existing costume
 
---- task ---
+### Creating a simple backdrop
 
-Step content...
+### Using geometric shapes
 
---- /task ---
+### Creating lines and shapes with the line tool
 
---- save ---
+### Using the text tool
+
+### Copy and paste

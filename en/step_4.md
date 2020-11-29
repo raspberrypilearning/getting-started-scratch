@@ -3,7 +3,8 @@
 Key concepts sprite, Stage etc
 Colour coding
 Snapping blocks
-Event hat blocks to make things happen
+Click on code blocks to run them
+Event hat blocks to start scripts
 etc
 
 --- task ---
