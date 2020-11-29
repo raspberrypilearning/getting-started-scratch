@@ -62,7 +62,7 @@ change [colour v] effect by (25)
 ```blocks3
 when this sprite clicked
 set [fisheye v] effect to (20)
-wait(1)
+wait (1) seconds
 clear graphic effects
 ```
 
