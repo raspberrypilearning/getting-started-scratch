@@ -15,7 +15,22 @@ etc
 
 --- task ---
 
-Step content...
+<mark>Just testing</mark>
+
+<div style="width: 100%; overflow: hidden;">
+<div style="float:left; width:50%">
+```blocks3
+when this sprite clicked
+turn right (15) degrees
+```
+</div>
+
+<div style="float:left; width:50%">
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="242" height="201" src="https://scratch.mit.edu/projects/embed/456215257/?autostart=true" frameborder="0"></iframe>
+</div>
+</div>
+</div>
 
 --- /task ---
 
