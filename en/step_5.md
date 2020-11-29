@@ -75,11 +75,11 @@ Or, you can `play sound until done`{:class="block3sounds"} instead of using `wai
 when flag clicked
 forever
 set size to (110)%
-set brightness to (20)
-wait (0.25)
+set [brightness v] effect to (20)
+wait (0.25) seconds
 set size to (100)%
-set brightness to (0)
-wait (0.25)
+set [brightness v] effect to (0)
+wait (0.25) seconds
 ```
 
 ### Move in a circle
