@@ -56,8 +56,4 @@ You can download the completed project [here](http://rpf.io/p/en/projectName-get
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
 
-[download the completed project here](http://rpf.io/p/en/serene-scene-get){:target="_blank"}
-
-[download the completed project here](https://rpf.io/p/en/serene-scene-get){:target="_blank"}
-
 --- /collapse ---
