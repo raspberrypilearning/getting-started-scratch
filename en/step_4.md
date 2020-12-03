@@ -1,5 +1,7 @@
 ## Using Scratch
 
+<mark>Mention that you can just start one of our beginner Scratch pathways that take you through step by step</mark>
+
 Key concepts sprite, Stage etc
 Colour coding
 Snapping blocks
@@ -14,23 +16,15 @@ etc
 --- /task ---
 
 --- task ---
+Open a new Scratch project
+--- /task ---
 
-<mark>Just testing</mark>
+--- task ---
 
-<div style="width: 100%; overflow: hidden;">
-<div style="float:left; width:50%">
-```blocks3
+```blocks
 when this sprite clicked
-turn right (15) degrees
+move (10) steps
 ```
-</div>
-
-<div style="float:left; width:50%">
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="320" height="265" src="https://scratch.mit.edu/projects/embed/456215257/?autostart=true" frameborder="0"></iframe>
-</div>
-</div>
-</div>
 
 --- /task ---
 
