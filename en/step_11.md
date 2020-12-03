@@ -1,17 +1,5 @@
 ## Sharing and comments
 
-<mark>Include existing ingredients</mark>
+[[[share-scratch]]]
 
---- task ---
- 
-![starter project](images/starter_project.png)
-
---- /task ---
-
---- task ---
-
-Step content...
-
---- /task ---
-
---- save ---
+[[[comments-feedback-scratch]]]
