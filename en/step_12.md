@@ -1,6 +1,28 @@
-## What next?
+## Important words
 
-<mark>Should there also be a glossary of definitions? Glossaries could be defined in guide projects and then referenced from other projects?</mark>
+**Sprite**
 
-Projects!
+**Stage**
+
+**Costume**
+
+**Backdrop**
+
+**code**
+
+**block**
+
+**script**
+
+**Hat blocks** start code running when a particular event happens. Hat blocks have a different shape. Examples:
+
+```blocks
+when flag clicked
+
+when this sprite clicked
+```
+
+**loop**
+
+
 
