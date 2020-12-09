@@ -9,6 +9,8 @@ Click on code blocks to run them
 Event hat blocks to start scripts
 etc
 
+[[[scratch-delete]]]
+
 --- task ---
  
 ![starter project](images/starter_project.png)
