@@ -72,33 +72,125 @@ set [pixelate v] effect to (50)
 
 --- /collapse ---
 
+--- /task ---
+
+--- task ---
+Add code to your sprite to create an animation effect. If you don't think your sprite needs an animation, you can skip this task. 
+
+Use one of the animation effects below as a starting point:
+
 --- collapse ---
 ---
-title: Use the Fill tool to change the colours in a costume
+title: Change looks to create an animation effect
 ---
 
-Select your sprite under the Stage and then click on **Costumes**. 
+**Beating heart**: [See inside](https://scratch.mit.edu/projects/435725413/editor){:target="_blank"}
 
-Change the colour of your sprite. Click on the second sprite in the Sprite menu. Then select its **Costumes** tab.
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435725413/?autostart=false" frameborder="0"></iframe>
+</div>
 
-Use the **Arrow** tool to highlight whichever part of the costume you want to change colour.
+You can use the `set size`{:class="block3looks"} or `change size`{:class="block3looks"} block to create a pulsing effect, such as a beating heart.
 
-![Image showing Arrow tool in Paint editor](images/challenge1-arrow-tool.png){:width="200px"}
+**Note:** The `set size`{:class="block3looks"} block sets size to a specific value, while `change size`{:class="block3looks"} changes the value from what it previously was, e.g. `change size by 10`{:class="block3looks"} adds `10` to the value of size.
 
-![Image showing Arrow tool selecting shape](images/challenge1-arrow-tool-selecting-shape.png){:width="300px"}
+```blocks3
+when green flag clicked
+set size to (160) %
+forever
+change size by (40)
+wait (0.2) seconds
+change size by (20)
+wait (0.2) seconds
+change size by (-20)
+wait (0.2) seconds
+change size by (-40)
+wait (0.2) seconds
+end
+```
 
-Go to the **Fill** tool and select the colour. It will automatically fill the shape that you have selected.
+This code uses a series of `change size`{:class="block3looks"} and `wait`{:class="block3control"} blocks to make the heart grow and shrink. Try to create your own pulsating sprite.
 
-![Image showing Fill tool in Paint editor](images/challenge1-fill-tool.png){:width="300px"}
+You could also try change the `graphic effects`{:class="block3looks"} to create a sprite that continues to change its appearance. 
 
-Repeat the steps above with any part of the costume you have missed or for any other part of the costume you want to change the colour of.
+```blocks3
+when green flag clicked
+change [ghost v] effect by (75)
+wait (1) seconds
+change [ghost v] effect by (-75)
+```
 
-![Image showing shape colour changing](images/challenge1-select-another-shape.png){:width="300px"}
+**Note:** If you use code that changes a graphic effect and then changes it back again, don't forget to use a `wait`{:class="block3control"} block in between, otherwise it will happen so fast that you won't see it!
 
-![Image showing shape colour changing](images/challenge1-change-shape-colour.png){:width="300px"}
+You can use a `clear graphic effects`{:class="block3looks"} block at any time to reset the effects.
 
-![Image showing final change](images/challenge1-change-costume-colour.png){:width="300px"}
+```blocks3
+clear graphic effects
+```
 
+--- /collapse ---
+
+--- collapse ---
+---
+title: Change costumes to make a simple animation
+---
+
+Some Scratch sprites have costumes that can be used to create a simple animation. 
+
+**Avery walking**: [See inside](https://scratch.mit.edu/projects/436256679/editor){:target="_blank"}
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/436256679/?autostart=false" frameborder="0"></iframe>
+</div>
+
+
+Use `next costume`{:class="block3looks"} inside a `forever`{:class="block3control"} loop with a `wait`{:class="block3control"} block to create an animation: 
+
+```blocks3
+when green flag clicked
+forever
+next costume
+wait (0.3) seconds
+```
+
+One second is often too long to wait before changing to the next costume, so you need to use numbers smaller than `1` in the `wait`{:class="block3control"} block. A wait of `0.1` is one tenth of a second, and `0.5` is half a second. If you wait `0.2` seconds, then the sprite will change costumes five times every second. 
+
+When a sprite reaches its last costume, the `next costume`{:class="block3looks"} block goes back to the first costume, so the sprite continues to move. 
+
+You can combine animation with movement to create sprites that walk or fly.
+
+--- /collapse ---
+
+If your sprite doesn't have costumes that are suitable for animation, then you can make your own:
+
+--- collapse ---
+---
+title: Duplicate and edit a costume to use in an animation
+---
+
+Some Scratch sprites just have one costume or have multiple sprites that don't work as an animation. If you choose one costume, then duplicate it and make a small change, it can create an animation effect. 
+
+**Robot animation**: [See inside](https://scratch.mit.edu/projects/436260207/editor){:target="_blank"}
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/436260207/?autostart=false" frameborder="0"></iframe>
+</div>
+
+Switch to the **Costumes** tab for your sprite. 
+
+The **Robot** sprite comes with costumes for three different robots and you only want to use one of them. Delete any costumes that you will not use in your animation. 
+
+Right-click on the costume, and choose **Duplicate**. 
+
+Make small changes to the costume, you could move, rotate, or change all or part of the costume. Alternatively, you could add movement lines. 
+
+If your costume uses vector graphics, then you can select parts of a costume to change. 
+
+![Animated gif showing changes to Robot costume](images/edit-robot-costume.gif)
+
+You can duplicate the costume again and make more changes to add more frames to your animation.
+
+You can now use your costumes in a simple sprite animation.
 
 --- /collapse ---
 

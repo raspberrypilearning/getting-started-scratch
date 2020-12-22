@@ -45,3 +45,34 @@ To layer your words, use the **Forward** and **Backward** tools:
 --- /collapse ---
 
 ### Copy and paste
+
+
+--- collapse ---
+---
+title: Use the Fill tool to change the colours in a costume
+---
+
+Select your sprite under the Stage and then click on **Costumes**. 
+
+Change the colour of your sprite. Click on the second sprite in the Sprite menu. Then select its **Costumes** tab.
+
+Use the **Arrow** tool to highlight whichever part of the costume you want to change colour.
+
+![Image showing Arrow tool in Paint editor](images/challenge1-arrow-tool.png){:width="200px"}
+
+![Image showing Arrow tool selecting shape](images/challenge1-arrow-tool-selecting-shape.png){:width="300px"}
+
+Go to the **Fill** tool and select the colour. It will automatically fill the shape that you have selected.
+
+![Image showing Fill tool in Paint editor](images/challenge1-fill-tool.png){:width="300px"}
+
+Repeat the steps above with any part of the costume you have missed or for any other part of the costume you want to change the colour of.
+
+![Image showing shape colour changing](images/challenge1-select-another-shape.png){:width="300px"}
+
+![Image showing shape colour changing](images/challenge1-change-shape-colour.png){:width="300px"}
+
+![Image showing final change](images/challenge1-change-costume-colour.png){:width="300px"}
+
+
+--- /collapse ---
