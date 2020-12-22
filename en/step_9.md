@@ -1,5 +1,6 @@
 ## Motion
 
+--- task ---
 
 Add code to make your sprite bounce and/or spin around the Stage in the way you want it to. 
 
