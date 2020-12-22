@@ -195,3 +195,30 @@ You can now use your costumes in a simple sprite animation.
 --- /collapse ---
 
 --- /task ---
+
+--- task ---
+
+Change how your second sprite appears in relation to the first sprite. Layering sprites helps them appear three-dimensional in relation to each other and within the backdrop.
+
+--- collapse ---
+---
+
+title: Layers
+
+---
+There are two ways to create layering.
+
+**Option one:** In the Stage area, click on the sprite you want as the front layer. Drag it over the front of the other sprite. This layering will stay when you run the program next time.
+
+![Image showing how to drag sprites to create layering](images/challenge1-change-layers.gif){:width="300px"}
+
+
+**Option two:** Use a `go to front layer`{:class="block3looks"} block to the relevant sprite and select either a drop-down `front`{:class="block3looks"} or `back`{:class="block3looks"} block, and add it to the set-up under a `when green flag clicked`{:class="block3events"} block.
+
+```blocks3
+go to [front v] layer
+```
+
+--- /collapse ---
+
+--- /task ---
