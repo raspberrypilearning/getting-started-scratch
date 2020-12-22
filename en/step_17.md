@@ -34,6 +34,38 @@ You can also quickly set the size of a sprite using the **Size** button undernea
 
 --- /collapse ---
 
+<mark>Alternatively this from 3D scene</mark>
+
+Resize sprites to get the effect that you want. Some sprites can stay the same size.
+
+--- collapse ---
+---
+title: Set the size of your sprites
+---
+
+**Numbers in a row**: [See inside](https://scratch.mit.edu/projects/445071529/editor){:target="_blank"}
+
+<div class="scratch-preview">
+  <iframe src="https://scratch.mit.edu/projects/445071529/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+</div>
+
+Select the sprite that you want to resize and click on its **Code** tab. Add a `set size to`{:class="block3looks"} block and change the value in the block to the size for that sprite, as a percentage (%).
+
+Add a percentage value below `100` to decrease its size:
+
+``` blocks3
+when green flag clicked
++set size to (80)%
+```
+
+Add a percentage value above `100` to increase its size:
+
+``` blocks3
+when green flag clicked
++set size to (120)%
+```
+--- /collapse ---
+
 --- collapse ---
 ---
 title: Set graphic effects
@@ -217,6 +249,76 @@ There are two ways to create layering.
 
 ```blocks3
 go to [front v] layer
+```
+
+--- /collapse ---
+
+<mark>And more on layers from 3D scene</mark>
+
+When you add a new sprite, it goes to the front layer. When you drag a sprite on the Stage, it jumps to the front.
+
+To make sure that your sprites go to the correct layer, you can program them. 
+
+A simple approach is to send some sprites to the front and some sprites to the back:
+
+--- collapse ---
+---
+title: Use front and back layers to position your sprites
+--- 
+
+**Through the window**: [See inside](https://scratch.mit.edu/projects/451497627/editor){:target="_blank"}
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451497627/?autostart=false" frameborder="0"></iframe>
+</div>
+
+In the example, the **Window frame** sprite appears at the front. The **Avery Walking** sprite appears at the back behind the **Window frame** sprite.
+
+Select the sprite that you want at the front and click on its **Code** tab. Add a `go to front layer`{:class="block3looks"} block:
+
+``` blocks3
+when green flag clicked
+go to [front v] layer
+```
+
+Select the sprite(s) that you want at the back and click on its **Code** tab. Add a `go to back layer`{:class="block3looks"} block:
+
+``` blocks3
+when green flag clicked
+go to [back v] layer
+```
+
+--- /collapse ---
+
+When you have lots of overlapping sprites, you can program your sprites into more layers:
+
+--- collapse ---
+---
+title: Program your sprites into layers
+---
+
+**Through the window with tree**: [See inside](https://scratch.mit.edu/projects/454188775/editor){:target="_blank"}
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/454188775/?autostart=false" frameborder="0"></iframe>
+</div>
+
+In the example, the **Window frame** sprite appears at the front and the **Sun** sprite appears at the back. The **Avery Walking** and **Tree** sprites are each in their own layers between the **Window frame** sprite and the **Sun** sprite.
+
+Use the `go backward`{:class="block3looks"}`1``layers`{:class="block3looks"} block to place a sprite one layer behind the sprite at the front:
+
+``` blocks3
+when green flag clicked
+go to [front v] layer
++go [backward v] (1) layers
+```
+
+Change the value in the `go backward`{:class="block3looks"}`1``layers`{:class="block3looks"} block for each sprite depending on where you want it to be positioned in relation to other sprites:
+
+``` blocks3
+when green flag clicked
+go to [front v] layer
++go [backward v] (2) layers
 ```
 
 --- /collapse ---
