@@ -1,5 +1,17 @@
-## Sharing and comments
+## Saving and accounts
 
-[[[share-scratch]]]
+<mark>Ingredients</mark>
 
-[[[comments-feedback-scratch]]]
+--- task ---
+ 
+![starter project](images/starter_project.png)
+
+--- /task ---
+
+--- task ---
+
+Step content...
+
+--- /task ---
+
+--- save ---

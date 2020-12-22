@@ -1,6 +1,5 @@
-## What next?
+## Sharing and comments
 
-Pathways at next level of difficulty
+[[[share-scratch]]]
 
-+ Scratch module 2
-+ LAY 2 (or Animation?)
+[[[comments-feedback-scratch]]]

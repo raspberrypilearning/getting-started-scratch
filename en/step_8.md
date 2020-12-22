@@ -1,19 +1,22 @@
-## Debugging
+## Sound
 
-<mark>Basic tips from Rik's Scratch debugging presentation / blog post but updated for Scratch 3
-https://docs.google.com/document/d/1j1s9cEr-hlG0MIClhcLifnus5QlSmlw32imM81LJv_4/edit
-</mark>
+--- collapse ---
+---
+title: Record a sound
+---
 
---- task ---
- 
-![starter project](images/starter_project.png)
+Select the sprite that you want to add recorded sound to. Click on its **Sounds** tab, go to the menu in the bottom left-hand corner, and select **Record**:
+![Show Record](images/from-me-record.png){:width="200px"}
 
---- /task ---
+To start recording, click the red circle button:
+![Show play Record](images/from-me-start-sound.png){:width="200px"}
 
---- task ---
+To stop recording, click the red square button:
+![Show stop  Record](images/from-me-stop-sound.png){:width="200px"}
 
-Step content...
+You can now **Re-record**, **Play** the recording, and/or **Save** your sound.
 
---- /task ---
+Name your sound:
+![Show name sound](images/from-me-name-sound.png){:width="300px"}
 
---- save ---
+--- /collapse ---

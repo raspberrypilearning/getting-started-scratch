@@ -23,13 +23,32 @@ Open a new Scratch project
 
 --- task ---
 
-```blocks
+```blocks3
 when this sprite clicked
 move (10) steps
 ```
 
 --- /task ---
 
+--- task ---
+
+Add a block for **when** your sprite should do something.
+
+--- collapse ---
+---
+title: Start code with Hat blocks
+---
+
+```blocks3
+when green flag clicked
+when this sprite clicked
+```
+
+These blocks have a different shape — they are sometimes called **Hat blocks**. They start code running when a particular event happens, such as a user clicking.
+
+--- /collapse ---
+
+--- /task ---
 
 --- save ---
 
