@@ -5,7 +5,7 @@ In this step, you will add some `sounds`{:class="block3sound"} to your project. 
 --- collapse ---
 
 ---
-title: Add a sound
+title: Add a sound from the Sound Library
 ---
 
 First, select the sprite that you want to have the new sound and select the **Sounds** tab. Each sprite starts with a default sound.
@@ -32,6 +32,26 @@ You can also add sounds to the **Stage**.
 
 --- /collapse ---
  
+--- collapse ---
+---
+title: Record a sound
+---
+
+Select the sprite that you want to add recorded sound to. Click on its **Sounds** tab, go to the menu in the bottom left-hand corner, and select **Record**:
+![Show Record](images/from-me-record.png){:width="200px"}
+
+To start recording, click the red circle button:
+![Show play Record](images/from-me-start-sound.png){:width="200px"}
+
+To stop recording, click the red square button:
+![Show stop  Record](images/from-me-stop-sound.png){:width="200px"}
+
+You can now **Re-record**, **Play** the recording, and/or **Save** your sound.
+
+Name your sound:
+![Show name sound](images/from-me-name-sound.png){:width="300px"}
+
+--- /collapse ---
 --- task ---
 Add code to run `Sound`{:class="block3sound"} blocks where you want sound in your project.
   
@@ -196,27 +216,6 @@ play sound (Drum Funky v) until done
 + The `pitch`{:class="block3sound"} effect controls how high or low a sound is. Setting the pitch to a higher value also makes a sound faster. You can `set pitch effect to`{:class="block3sound"} values between `-360` (very low) and `360` (very high).
 
 + The `pan left/right`{:class="block3sound"} effect allows you to control whether a sound comes out of a left- or right-hand speaker or headphone or both. You can `set pan left/right effect to`{:class="block3sound"} values from `-100` (all sound from the left) to `100` (all sound from the right).
-
---- /collapse ---
-
---- collapse ---
----
-title: Record a sound
----
-
-Select the sprite that you want to add recorded sound to. Click on its **Sounds** tab, go to the menu in the bottom left-hand corner, and select **Record**:
-![Show Record](images/from-me-record.png){:width="200px"}
-
-To start recording, click the red circle button:
-![Show play Record](images/from-me-start-sound.png){:width="200px"}
-
-To stop recording, click the red square button:
-![Show stop  Record](images/from-me-stop-sound.png){:width="200px"}
-
-You can now **Re-record**, **Play** the recording, and/or **Save** your sound.
-
-Name your sound:
-![Show name sound](images/from-me-name-sound.png){:width="300px"}
 
 --- /collapse ---
 
