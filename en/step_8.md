@@ -1,14 +1,10 @@
 ## Paint editor
 
-<mark>Similar to Useful code but paint tips. Cover the techniques used in the first three skills projects and first two challenges</mark>
+Use the paint editor to create your own backdrops and costumes and also to edit existing backdrops and costumes. 
 
-Use the paint editor to create your own backdrops and costumes and to edit existing backdrops and costumes. 
-
-### Editting an existing costume
+### Editing an existing costume
 
 --- task ---
-
-Use the Paint editor to create your own backdrop and scenery sprites or **Choose a Backdrop** and **Choose a Sprite** from the Scratch Libraries.
 
 --- collapse ---
 ---
@@ -43,12 +39,6 @@ Add a horizon line if it fits in with your 3D scenery idea:
 
 --- /task ---
 
-### Creating a simple backdrop
-
-### Using geometric shapes
-
-### Creating lines and shapes with the line tool
-
 --- collapse ---
 ---
 title: Using the Text tool
@@ -80,9 +70,6 @@ To layer your words, use the **Forward** and **Backward** tools:
 ![Show forward/backward](images/from-me-paint-editor-forward-backward.png){:width="400px"}
 
 --- /collapse ---
-
-### Copy and paste
-
 
 --- collapse ---
 ---
@@ -240,9 +227,6 @@ In the real world, objects that are further away appear lighter in colour. To ac
 ![Hide sprites](images/hideSprites.png){:width="300px"}
 
 --- task ---
-As you add more sprites, you will need to think about how they will work together in your scene. 
-
-Here is another example:
 
 --- collapse ---
 ---
