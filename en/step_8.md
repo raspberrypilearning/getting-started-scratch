@@ -2,7 +2,7 @@
 
 Use the paint editor to create your own backdrops and costumes and also to edit existing backdrops and costumes. 
 
-#--- task ---
+--- task ---
 
 --- collapse ---
 ---
@@ -71,6 +71,8 @@ Repeat the steps above with any part of the costume you have missed or for any o
 ![Image showing final change](images/challenge1-change-costume-colour.png){:width="300px"}
 
 --- /collapse ---
+
+--- /task ---
 
 --- task ---
 Use the Paint editor tips below to create your own designs for your sprites.
