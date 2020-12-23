@@ -75,6 +75,7 @@ Repeat the steps above with any part of the costume you have missed or for any o
 --- /task ---
 
 --- task ---
+
 Use the Paint editor tips below to create your own designs for your sprites.
 
 --- collapse ---
@@ -107,8 +108,6 @@ To make your own **Hill** sprite, shown in the example above, you can use the **
 + Remember to name your sprite(s).
 
 --- /collapse ---
-
-Here are some other creative tips:
 
 --- collapse ---
 ---
