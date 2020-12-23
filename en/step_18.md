@@ -98,22 +98,6 @@ clear graphic effects
 
 --- task ---
 
---- collapse ---
----
-title: Change your sprite's costume
----
 
-Get your sprite to change costumes:
-
-```blocks3
-when green flag clicked
-forever
-next costume
-wait (0.3) seconds
-```
-
-For more information on animation, explore [Animate using looks](https://projects.raspberrypi.org/en/projects/interactive-animation/5){:target="_blank"} in Interactive animation (Challenge project 1).
-
---- /collapse ---
 
 --- /task ---
