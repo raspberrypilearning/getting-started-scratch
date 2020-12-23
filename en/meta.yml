@@ -14,7 +14,7 @@ steps:
   - title: Block reference
   - title: Paint editor
   - title: Motion
-  - title: Sound
+  - title: Looks for editing and relocation
   - title: Debugging
   - title: Accounts and saving
   - title: Backpack
@@ -22,6 +22,6 @@ steps:
   - title: Important words
   - title: What next?
   - title: Sprites and backdrops for editing and relocating
-  - title: Looks for editing and relocation
   - title: Miscellaneous dropdowns seeking new home
   - title: Variables
+  - title: Sound
