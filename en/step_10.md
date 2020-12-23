@@ -323,4 +323,32 @@ go to [front v] layer
 
 --- /collapse ---
 
+--- collapse ---
+---
+
+title: Click to change and then change back
+
+---
+
+You can add actions that make a change to a sprite and then reverse them, such as growing, waiting, and then shrinking. 
+
+**Squash ball when clicked**: [See inside](https://scratch.mit.edu/projects/435723273/editor){:target="_blank"}
+
+<div class="scratch-preview">
+  <iframe src="https://scratch.mit.edu/projects/435723273/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+</div>
+
+This code will grow a sprite and apply the fisheye effect for one second and then return to normal:
+
+```blocks3
+when this sprite clicked
+set size to (110)
+set [fisheye v] effect to (50)
+wait (0.5) seconds
+set [fisheye v] effect to (0)
+set size to (100)
+```
+
+--- /collapse ---
+
 --- /task ---
