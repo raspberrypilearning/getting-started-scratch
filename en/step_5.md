@@ -108,7 +108,13 @@ go to [front v] layer
 go back (1) layers
 ```
 
+### Sound and motion when clicked
 
+```blocks3
+when this sprite clicked
+play sound [chirp v] until done
+move (-50) steps
+```
 
 
 
