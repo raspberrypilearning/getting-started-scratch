@@ -159,6 +159,34 @@ You can combine animation with movement to create sprites that walk or fly.
 
 --- /collapse ---
 
+--- collapse ---
+---
+
+title: Click to change and then change back
+
+---
+
+You can add actions that make a change to a sprite and then reverse them, such as growing, waiting, and then shrinking. 
+
+**Squash ball when clicked**: [See inside](https://scratch.mit.edu/projects/435723273/editor){:target="_blank"}
+
+<div class="scratch-preview">
+  <iframe src="https://scratch.mit.edu/projects/435723273/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+</div>
+
+This code will grow a sprite and apply the fisheye effect for one second and then return to normal:
+
+```blocks3
+when this sprite clicked
+set size to (110)
+set [fisheye v] effect to (50)
+wait (0.5) seconds
+set [fisheye v] effect to (0)
+set size to (100)
+```
+
+--- /collapse ---
+
 If your sprite doesn't have costumes that are suitable for animation, then you can make your own:
 
 --- collapse ---
@@ -277,38 +305,6 @@ Change the value in the `go backward`{:class="block3looks"}`1``layers`{:class="b
 when green flag clicked
 go to [front v] layer
 +go [backward v] (2) layers
-```
-
---- /collapse ---
-
---- /task ---
-
---- task ---
-
---- collapse ---
----
-
-title: Click to change and then change back
-
----
-
-You can add actions that make a change to a sprite and then reverse them, such as growing, waiting, and then shrinking. 
-
-**Squash ball when clicked**: [See inside](https://scratch.mit.edu/projects/435723273/editor){:target="_blank"}
-
-<div class="scratch-preview">
-  <iframe src="https://scratch.mit.edu/projects/435723273/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-</div>
-
-This code will grow a sprite and apply the fisheye effect for one second and then return to normal:
-
-```blocks3
-when this sprite clicked
-set size to (110)
-set [fisheye v] effect to (50)
-wait (0.5) seconds
-set [fisheye v] effect to (0)
-set size to (100)
 ```
 
 --- /collapse ---
