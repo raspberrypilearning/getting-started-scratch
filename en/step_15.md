@@ -66,7 +66,7 @@ Now, copy the web address. To do this, you can:
 
 --- task ---
 
-Give and receive constructive feedback.
+Give and receive feedback on projects.
 
 [[[comments-feedback-scratch]]]
 
