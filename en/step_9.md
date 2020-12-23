@@ -190,11 +190,6 @@ Change the degrees by which your sprite `moves`{:class="block3motion"} to `1` an
 --- /task ---
 
 --- task ---
-Remember to keep running your project to test it. Is the program working as you had planned?
-
-It might take a few experiments to get suitable behaviour for your sprite.
-
-You could:
 + Drag your sprite to a different starting location on the Stage.
 + Increase the number of steps in `move ( ) steps`{:class="block3motion"} to make your sprite move faster, or decrease it to move slower.
 + Change the number of degrees in `point in direction ( )`{:class="block3motion"} to change the direction that your sprite starts to move in. 
