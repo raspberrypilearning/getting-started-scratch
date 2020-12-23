@@ -280,7 +280,7 @@ When you have lots of overlapping sprites, you can program your sprites into mor
 
 --- collapse ---
 ---
-title: Program your sprites into layers
+title: Program your sprites into a number of layers
 ---
 
 **Through the window with tree**: [See inside](https://scratch.mit.edu/projects/454188775/editor){:target="_blank"}
