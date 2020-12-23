@@ -1,41 +1,6 @@
 ## Sound
 
---- collapse ---
----
-title: Record a sound
----
-
-Select the sprite that you want to add recorded sound to. Click on its **Sounds** tab, go to the menu in the bottom left-hand corner, and select **Record**:
-![Show Record](images/from-me-record.png){:width="200px"}
-
-To start recording, click the red circle button:
-![Show play Record](images/from-me-start-sound.png){:width="200px"}
-
-To stop recording, click the red square button:
-![Show stop  Record](images/from-me-stop-sound.png){:width="200px"}
-
-You can now **Re-record**, **Play** the recording, and/or **Save** your sound.
-
-Name your sound:
-![Show name sound](images/from-me-name-sound.png){:width="300px"}
-
---- /collapse ---
-
 In this step, you will add some `sounds`{:class="block3sound"} to your project. Depending on your plans, this could be a continuous background soundtrack, or sounds that happen at regular intervals.
-
---- task ---
- 
-Think about what kind of soundtrack you want.
- 
-This project has a soundtrack that runs throughout. In addition, the **Hen** sprite makes a sound every three seconds:
- 
-**Hen and farmyard**: [See inside](https://scratch.mit.edu/projects/444559955/editor){:target="_blank"}
- 
-<div class="scratch-preview">
- <iframe src="https://scratch.mit.edu/projects/444559955/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-</div>
- 
---- /task ---
 
 --- collapse ---
 
@@ -134,8 +99,6 @@ End
   
 --- /collapse ---
  
-You may want to play sounds at regular intervals.
-
 --- collapse ---
 
 ---
@@ -172,12 +135,10 @@ The **Whistle** sprite also plays a sound at regular intervals:
 
 --- /collapse ---
 
-You can also `start`{:class="block3sound"} multiple sounds so that they play at the same time!
-
 --- collapse ---
 
 ---
-title: Start multiple sounds
+title: Start multiple sounds to play at the same time
 ---
 
 There are two `Sound`{:class="block3sound"} blocks with an important difference:
@@ -238,10 +199,25 @@ play sound (Drum Funky v) until done
 
 --- /collapse ---
 
---- /task ---
+--- collapse ---
+---
+title: Record a sound
+---
 
---- task ---
+Select the sprite that you want to add recorded sound to. Click on its **Sounds** tab, go to the menu in the bottom left-hand corner, and select **Record**:
+![Show Record](images/from-me-record.png){:width="200px"}
 
-Run your project to test it. Continue to change and test your code until you are happy with the way it sounds.
+To start recording, click the red circle button:
+![Show play Record](images/from-me-start-sound.png){:width="200px"}
+
+To stop recording, click the red square button:
+![Show stop  Record](images/from-me-stop-sound.png){:width="200px"}
+
+You can now **Re-record**, **Play** the recording, and/or **Save** your sound.
+
+Name your sound:
+![Show name sound](images/from-me-name-sound.png){:width="300px"}
+
+--- /collapse ---
 
 --- /task ---
