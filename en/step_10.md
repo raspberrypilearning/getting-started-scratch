@@ -75,7 +75,7 @@ set [pixelate v] effect to (50)
 --- /task ---
 
 --- task ---
-Add code to your sprite to create an animation effect.
+Create an animation effect with your sprite by change its effects and/or by using costumes.
 
 --- collapse ---
 ---
