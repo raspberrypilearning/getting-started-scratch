@@ -13,8 +13,8 @@ steps:
   - title: Useful code
   - title: Block reference
   - title: Paint editor
-  - title: Sound
   - title: Movement
+  - title: Sound
   - title: Debugging
   - title: Accounts and saving
   - title: Backpack
