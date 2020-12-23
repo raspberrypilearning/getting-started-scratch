@@ -224,7 +224,7 @@ You can now use your costumes in a simple sprite animation.
 
 --- task ---
 
-Change how your sprites appears in layers in relation to each other.
+Change how your sprites appear in relation to each other using layers.
 
 --- collapse ---
 ---
@@ -275,8 +275,6 @@ go to [back v] layer
 ```
 
 --- /collapse ---
-
-When you have lots of overlapping sprites, you can program your sprites into more layers:
 
 --- collapse ---
 ---
