@@ -11,7 +11,7 @@ steps:
   - title: Introducing Scratch
   - title: Using Scratch
   - title: Useful code
-  - title: Block reference
+  - title: Accounts and saving
   - title: Sprites and backdrops
   - title: Paint editor
   - title: Motion
@@ -24,6 +24,5 @@ steps:
   - title: What next?
   - title: Debugging
   - title: Miscellaneous dropdowns seeking new home
-  - title: Accounts and saving
-
+  - title: Block reference
  
