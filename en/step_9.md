@@ -201,7 +201,4 @@ You could:
 + Change the number of degrees in `turn right`{:class="block3motion"} or `turn left`{:class="block3motion"} so that your sprite turns faster or slower. 
 + Combine `move ( ) steps`{:class="block3motion"} and `turn right`{:class="block3motion"} or `turn left`{:class="block3motion"} so that your sprite moves and turns. 
 + Experiment with `set rotation style [ ]`{:class="block3motion"} to make sure you understand what the different options do.
-
-**Tip:** It's easier to identify issues if you make one change at a time and then run your program.
-
 --- /task ---
