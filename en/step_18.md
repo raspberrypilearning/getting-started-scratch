@@ -98,28 +98,6 @@ clear graphic effects
 
 --- task ---
 
-To animate your sprite, program it to move or change costumes.
-
---- collapse ---
----
-title: Move your sprite
----
-
-Get your sprite to move:
-
-```blocks3
-when green flag clicked
-point in direction (90)
-set rotation style [left-right v]
-forever
-move (5) steps
-if on edge, bounce
-```
-
-For more information on motion, explore [Animate using motion](https://projects.raspberrypi.org/en/projects/interactive-animation/3){:target="_blank"} in Interactive animation (Challenge project 1).
-
---- /collapse ---
-
 --- collapse ---
 ---
 title: Change your sprite's costume
