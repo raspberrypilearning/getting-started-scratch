@@ -73,9 +73,7 @@ Repeat the steps above with any part of the costume you have missed or for any o
 --- /collapse ---
 
 --- task ---
-Use the Paint editor to create any additional sprites that you need as scenery. This could be hills or mountains in the distance, or smaller sprites, such as trees or flowers. 
-
-Think about whether you want to create your scenery as one sprite **or** whether you want to create separate scenery sprites. If you create separate scenery sprites, some of your sprites will be able to move through and behind the 3D scenery. That will make it easier for you to move sprites around later, depending on your ideas for your project.
+Use the Paint editor tips below to create your own designs for your sprites.
 
 --- collapse ---
 ---
