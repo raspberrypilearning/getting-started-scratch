@@ -116,7 +116,23 @@ play sound [chirp v] until done
 move (-50) steps
 ```
 
+### Change size and brightness, sound and dissappear when clicked
 
+```blocks3
+when this sprite clicked
+change size by (10)
+change [brightness v] effect by (25)
+wait (0.1) seconds
+play sound [pop v] until done
+set [ghost v] effect to (100)
+```
+
+### Set up code so sprite goes back to original size and looks when green flag clicked
+
+```blocks3
+when flag clicked
+set size to (100)
+clear graphic effects
 
 
 
