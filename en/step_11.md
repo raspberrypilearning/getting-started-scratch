@@ -1,6 +1,10 @@
 ## Sound
 
-In this step, you will add some `sounds`{:class="block3sound"} to your project. Depending on your plans, this could be a continuous background soundtrack, or sounds that happen at regular intervals.
+You can add `sounds`{:class="block3sound"} blocks to your project to create a continuous background soundtrack, or sounds that happen at regular intervals.
+
+--- task ---
+
+Begin by choosing or recording a sound:
 
 --- collapse ---
 
@@ -52,6 +56,9 @@ Name your sound:
 ![Show name sound](images/from-me-name-sound.png){:width="300px"}
 
 --- /collapse ---
+
+--- /task ---
+
 --- task ---
 Add code to run `Sound`{:class="block3sound"} blocks where you want sound in your project.
   
