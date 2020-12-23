@@ -1,18 +1,6 @@
 ## Variables
 
-In this step, you will add one or more `variables`{:class="block3variables"} with sliders to control something in your scene such as graphic effects, sound effects, movement, or timing. 
-
---- task --- 
-
-Look at the example below. The `speed`{:class="block3variables"} variable controls how fast the snowman moves, `snowflake`{:class="block3variables"} controls the snowflake size, and `music`{:class="block3variables"} controls the pitch of the music that is playing.
-
-**Winter scene**: [See inside](https://scratch.mit.edu/projects/451563340/editor){:target="_blank"}
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451563340/?autostart=false" frameborder="0"></iframe>
-</div>
-
---- /task ---
+Add one or more `variables`{:class="block3variables"} with sliders to control something in your scene such as size or graphic effects, sound effects, movement, or timing. 
 
 --- task ---
 
