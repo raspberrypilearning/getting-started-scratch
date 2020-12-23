@@ -1,4 +1,4 @@
-## Miscellaneous dropdowns
+## Miscellaneous Information
 
 --- task ---
 
