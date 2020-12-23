@@ -192,10 +192,6 @@ In the real world, objects that are further away appear lighter in colour. To ac
 
 --- /task ---
 
-**Tip:** If you find it hard to manage the sprites on your Stage, such as having a large sprite that keeps covering a much smaller one, you can click on **Hide** so that you don't see the sprite or sprites. Then, when you have finished, click on **Show** again.
-
-![Hide sprites](images/hideSprites.png){:width="300px"}
-
 --- task ---
 
 --- collapse ---
@@ -259,3 +255,7 @@ To create a type of masking sprite:
 --- /collapse ---
 
 --- /task ---
+
+**Tip:** If you find it hard to manage the sprites on your Stage, such as having a large sprite that keeps covering a much smaller one, you can click on **Hide** so that you don't see the sprite or sprites. Then, when you have finished, click on **Show** again.
+
+![Hide sprites](images/hideSprites.png){:width="300px"}
