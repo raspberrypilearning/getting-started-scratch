@@ -1,7 +1,7 @@
 ## Sharing and comments
 
 --- task ---
-Click on **See Project Page**, where you can add more information. Fill in the **Instructions** to explain how to use your digital card, and complete your project's **Notes and Credits**.
+Click on your Scratch project's **See Project Page**, where you can add more information. Fill in the **Instructions** to explain how to use your project and complete your project's **Notes and Credits**.
 
 --- collapse ---
 ---
@@ -22,13 +22,28 @@ In the **Notes and Credits** box:
 
 --- /task ---
 
-[[[share-scratch]]]
-
-[[[comments-feedback-scratch]]]
-
 --- task ---
 
-Use the project's unique web address to share the project with other people.
+Let others access your project by making it public. You can also share your project's unique web address with other people.
+
+[[[share-scratch]]]
+
+--- collapse ---
+---
+title: Share your Scratch project's web address
+---
++ Your project will always start in the position that you last saved it in, so make sure that you save your project in the right starting position
++ Go to **See Project Page**
++ Click in the browser bar of your project and the web address of your project will appear:
+![Show web address](images/from-me-webaddress.png){:width="400px"}
+
+Now, copy the web address. To do this, you can:
++ Write down the web address and give it to the person who you want to share the project with
++ Or, you can copy the web address and paste it into an email
+
+**Tip:** You can access completed Scratch projects on a computer or mobile device. 
+
+--- /collapse ---
 
 --- collapse ---
 ---
@@ -48,3 +63,13 @@ Now, copy the web address. To do this, you can:
 --- /collapse ---
 
 --- /task ---
+
+--- task ---
+
+Give and receive constructive feedback.
+
+[[[comments-feedback-scratch]]]
+
+--- task ---
+
+
