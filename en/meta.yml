@@ -12,6 +12,7 @@ steps:
   - title: Using Scratch
   - title: Useful code
   - title: Block reference
+  - title: Sprites and backdrops
   - title: Paint editor
   - title: Motion
   - title: Looks
@@ -21,7 +22,6 @@ steps:
   - title: Sharing and commenting
   - title: Important words
   - title: What next?
-  - title: Sprites and backdrops for editing and relocating
   - title: Debugging
   - title: Miscellaneous dropdowns seeking new home
   - title: Accounts and saving
