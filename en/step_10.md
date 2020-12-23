@@ -1,8 +1,10 @@
 ## Looks
 
+Add code to your sprites to change the way they look.
+
 --- task ---
 
-Add code to your sprites to change the way they look. You can use these examples to get started:
+Set the size and/or effect for your sprites.
 
 --- collapse ---
 ---
