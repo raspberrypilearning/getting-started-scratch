@@ -276,7 +276,7 @@ go to [back v] layer
 
 --- collapse ---
 ---
-title: Program your sprites into a number of layers
+title: Number your layers to create layers for many sprites
 ---
 
 **Through the window with tree**: [See inside](https://scratch.mit.edu/projects/454188775/editor){:target="_blank"}
