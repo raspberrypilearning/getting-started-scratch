@@ -4,7 +4,7 @@ You can add `sounds`{:class="block3sound"} blocks to your project to create a co
 
 --- task ---
 
-Begin by choosing or recording a sound:
+Begin by selecting a sound from the Sound Library or by recording your own sound.
 
 --- collapse ---
 
