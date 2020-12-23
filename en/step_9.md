@@ -2,7 +2,7 @@
 
 --- task ---
 
-`Motion`{:class="block3motion"} blocks allow you to make your sprite bounce and/or spin around the Stage. See some of the motions below which you can create.
+`Motion`{:class="block3motion"} blocks allow you to move your sprite so it can bounce and/or spin around the Stage. See some of ways in which you can get your sprite moving:
 
 --- collapse ---
 ---
