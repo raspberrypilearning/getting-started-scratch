@@ -44,6 +44,8 @@ title: Debugging tips
 
 --- /collapse ---
 
+**Tip:** It's easier to identify issues if you make one change at a time and then run your program.
+
 --- /task ---
 
 --- save ---
