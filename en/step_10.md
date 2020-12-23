@@ -196,12 +196,12 @@ You can now use your costumes in a simple sprite animation.
 
 --- task ---
 
-Change how your second sprite appears in relation to the first sprite. Layering sprites helps them appear three-dimensional in relation to each other and within the backdrop.
+Change how your sprites appears in layers in relation to each other.
 
 --- collapse ---
 ---
 
-title: Layers
+title: Layering sprites
 
 ---
 There are two ways to create layering.
@@ -218,14 +218,6 @@ go to [front v] layer
 ```
 
 --- /collapse ---
-
-<mark>And more on layers from 3D scene</mark>
-
-When you add a new sprite, it goes to the front layer. When you drag a sprite on the Stage, it jumps to the front.
-
-To make sure that your sprites go to the correct layer, you can program them. 
-
-A simple approach is to send some sprites to the front and some sprites to the back:
 
 --- collapse ---
 ---
@@ -288,6 +280,10 @@ go to [front v] layer
 ```
 
 --- /collapse ---
+
+--- /task ---
+
+--- task ---
 
 --- collapse ---
 ---
