@@ -2,13 +2,11 @@
 
 --- task ---
 
-Add code to your sprite to change the way it looks. Only make changes to your sprite if it makes sense. If you are already happy with the way your sprite looks, you can move on to the next task.
-
-You can use these examples to get started:
+Add code to your sprites to change the way they look. You can use these examples to get started:
 
 --- collapse ---
 ---
-title: Set size
+title: Set size of your sprite
 ---
 
 When you add a sprite to your project its size is set to `100` percent. This may be too big or too small for your project. 
@@ -34,55 +32,10 @@ You can also quickly set the size of a sprite using the **Size** button undernea
 
 --- /collapse ---
 
-<mark>Alternatively this from 3D scene</mark>
-
-Resize sprites to get the effect that you want. Some sprites can stay the same size.
-
---- collapse ---
----
-title: Set the size of your sprites
----
-
-**Numbers in a row**: [See inside](https://scratch.mit.edu/projects/445071529/editor){:target="_blank"}
-
-<div class="scratch-preview">
-  <iframe src="https://scratch.mit.edu/projects/445071529/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-</div>
-
-Select the sprite that you want to resize and click on its **Code** tab. Add a `set size to`{:class="block3looks"} block and change the value in the block to the size for that sprite, as a percentage (%).
-
-Add a percentage value below `100` to decrease its size:
-
-``` blocks3
-when green flag clicked
-+set size to (80)%
-```
-
-Add a percentage value above `100` to increase its size:
-
-``` blocks3
-when green flag clicked
-+set size to (120)%
-```
---- /collapse ---
-
 --- collapse ---
 ---
 title: Set graphic effects
 ---
-
-**Rooster effects**: [See inside](https://scratch.mit.edu/projects/435730522/editor){:target="_blank"}
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435730522/?autostart=false" frameborder="0"></iframe>
-</div>
-
-Place a `set graphic effects`{:class="block3looks"} block under a `when green flag clicked`{:class="block3events"} block to set the size of a sprite when the project is started:
-
-```blocks3
-when green flag clicked
-set [ghost v] effect to (25)
-```
 
 The `set color`{:class="block3looks"} and `color`{:class="block3looks"} blocks both have drop-down boxes where you can choose from a range of different graphic effects that can be used to change your sprite's appearance.
 
