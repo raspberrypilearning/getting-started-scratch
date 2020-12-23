@@ -2,14 +2,29 @@
 
 --- task ---
 
-Add code to make your sprite bounce and/or spin around the Stage in the way you want it to. 
+`Motion`{:class="block3motion"} blocks allow you to make your sprite bounce and/or spin around the Stage. See some of the motions below which you can create.
 
-If you need a reminder about how to create your sprite's movement when it bounces on the edge of the Stage, then click the below for **Information**.
+--- collapse ---
+---
+title: Move your sprite
+---
+
+Get your sprite to move:
+
+```blocks3
+when green flag clicked
+point in direction (90)
+set rotation style [left-right v]
+forever
+move (5) steps
+if on edge, bounce
+```
+--- /collapse ---
 
 --- collapse ---
 ---
 
-title: Bounce across the Stage
+title: Bounce on edge of the Stage
 
 ---
 --- no-print ---
