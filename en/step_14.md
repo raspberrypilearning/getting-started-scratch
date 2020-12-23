@@ -2,6 +2,12 @@
 
 [[[scratch-backpack]]]
 
+--- collapse ---
+
+---
+title: Backpack
+---
+
 - Your Scratch backpack can be used to store costumes, sprites, sounds and scripts that you want to copy between projects.
 
 - You can only access your own backpack and must be logged into your Scratch account to use it.
@@ -89,3 +95,5 @@
 ![hide backpack.png](images/hide-backpack.png)
 
 --- /print-only ---
+
+--- /collapse ---
