@@ -133,6 +133,6 @@ set [ghost v] effect to (100)
 when flag clicked
 set size to (100)
 clear graphic effects
-
+```
 
 
