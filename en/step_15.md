@@ -1,4 +1,4 @@
-## Share and feedback
+## Sharing and feedback
 
 --- task ---
 Click on your Scratch project's **See Project Page**, where you can add more information. Fill in the **Instructions** to explain how to use your project and complete your project's **Notes and Credits**.
