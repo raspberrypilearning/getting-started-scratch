@@ -39,7 +39,7 @@ Add a horizon line if it fits in with your 3D scenery idea:
 
 --- task ---
 
-Edit an existing costume.
+Use the Paint editor to edit an existing costume.
 
 ## Collapse for editing an existing costume - to create animation?
 
