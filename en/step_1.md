@@ -4,7 +4,9 @@
   
  This 'Getting started with Scatch' guide aims to support you working with Scratch on our projects as well as on your own projects.
 
-If you're new to Scratch, start with our beginner pathway [Look after yourself](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"}. The six projects take you through from introductory level to working independently, with support, where required from this Getting started with Scatch guide.
+If you're new to Scratch, start with our beginner pathway [Look after yourself](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"} creating projects that will help you to relax and take care of your wellbeing. The six projects take you through from introductory level to working independently, with support, where required from this Getting started with Scatch guide.
+
+Or Learn how to program your own interactive stories, games and animations with [Scratch Module 1](https://projects.raspberrypi.org/en/codeclub/scratch-module-1).
 
 If you have completed all the projects in the 'Look after yourself' pathway, then move on to the environmentally themed pathway, [Protect our planet](https://projects.raspberrypi.org/en/pathways/protect-our-planet){:target="_blank"}. In this pathway, you will harness the power of computing to explore our planet, whilst being introduced to procedures and clones.</mark>
 
