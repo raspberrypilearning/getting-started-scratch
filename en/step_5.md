@@ -15,7 +15,7 @@ The **Stage** is the area where the sprites are active in Scratch. The Stage can
 
 --- task ---
 
-**Blocks** refers to the visual code blocks that are put together in Scratch to give instructions to the stage and the sprites.
+**Blocks** refer to the visual code blocks that are put together in Scratch to give instructions to the stage and the sprites.
 
 There are colour coded categories of blocks: `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, `Sound`{:class="block3sound"}, `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Variables`{:class="block3variables"}, and `My Blocks`{:class="block3myblocks"}. There are also most blocks in `Extensions`{:class="block3extensions"}.
 
