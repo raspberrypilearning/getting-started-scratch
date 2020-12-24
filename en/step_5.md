@@ -1,6 +1,7 @@
 ## What is what in Scratch
 
 --- task ---
+
 **Sprites** are characters and objects that appear on the stage which can be controlled by Scratch blocks, including being moved.
 
 Sprites may have multiple **costumes**. Changing the costume changes the appearance of a sprite, and can be used for effects such as giving the appearance of walking.
@@ -60,6 +61,9 @@ set [color v] effect to (100)
 
 ```blocks3
 forever
+```
+
+```blocks3
 repeat until ()
 ```
 --- /task ---
