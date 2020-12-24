@@ -11,8 +11,6 @@ The **Stage** is the area where the sprites are active in Scratch. The Stage can
 
 **code** is made up of Scratch blocks that give instructions to the sprites and the stage to perform a certain function, such as moving around the stage. 
 
-**Loops** are blocks that make code repeat itself in a loop. The most simple repeat loops make a piece of code repeat a set number of times or repeat forever (until the programme is stopped).
-
 --- /task ---
 
 --- task ---
@@ -58,4 +56,10 @@ set [color v] effect to (100)
 + `brightness`{:class="block3looks"}: 0 is no effect, bigger numbers up to 100 make the sprite lighter and negative numbers down to -100 make the sprite darker 
 + `ghost`{:class="block3looks"}: 0 is no effect, bigger numbers up to 100 make the sprite more transparent
 
+**Loops** are blocks that make code repeat itself in a loop. The most simple repeat loop `forever`{:class="block3control"} repeats the code inside it forever (until the programme is stopped). Another useful loop is `repeat until`{:class="block3control"} which repeats the code inside it a set number of times.
+
+```blocks3
+forever
+repeat until ()
+```
 --- /task ---
