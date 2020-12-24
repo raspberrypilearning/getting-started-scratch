@@ -1,12 +1,5 @@
 ## Start a new project
 
-<mark>
-Scratch 3 version of Code Club Book chapter
-https://www.raspberrypi.org/magpi-issues/CC_Book_of_Scratch_v1.pdf
-Prep was done for CC Book 2
-https://docs.google.com/document/d/1TXxO2pR78mpkA-w_JB557S4csB2VzckcQeL212YEPLI/edit
-</mark>
-
 --- task ---
 
 Open a new Scratch project. Go to Scratch [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
