@@ -1,4 +1,4 @@
-## New project with sprites and backdrops, naming and saving
+## Start a new project
 
 <mark>
 Scratch 3 version of Code Club Book chapter
