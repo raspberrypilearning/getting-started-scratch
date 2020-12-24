@@ -2,7 +2,7 @@
 
 --- task ---
 
-Open a new Scratch project. Go to Scratch [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
+Open a new Scratch project. Go to Scratch [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"}
 
 --- /task ---
 
