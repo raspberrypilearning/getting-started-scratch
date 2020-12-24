@@ -1,4 +1,4 @@
-## Saving and accounts
+## Scratch accounts
 
 <mark>Ingredients</mark>
 
