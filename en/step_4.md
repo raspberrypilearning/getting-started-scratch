@@ -1,11 +1,5 @@
 ## Using Scratch
 
-This 'Getting started with Scatch' guide aims to support you working with Scratch on our projects as well as more independently.
-
-If you're new to Scratch, start with our beginner pathway [Look after yourself](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"} where six projects take you through from introductory level to working independently, with support, where required from this Getting started with Scatch guide.
-
-If you have completed all the projects in the 'Look after yourself' pathway, then move on to the environmentally themed pathway, [Protect our planet](https://projects.raspberrypi.org/en/pathways/protect-our-planet){:target="_blank"}. In this pathway, you will harness the power of computing to explore our planet, whilst being introduced to procedures and clones.
-
 Sprites are characters and objects that appear on the stage which can be controlled by Scratch blocks, including being moved.
 
 The Stage is the area where the sprites are active in Scratch. The Stage can have backdrops and can be controlled using Scratch blocks but the Stage cannot move.
