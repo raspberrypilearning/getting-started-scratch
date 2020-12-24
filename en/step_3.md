@@ -1,5 +1,6 @@
 ## What is what in Scratch
 
+--- task ---
 **Sprites** are characters and objects that appear on the stage which can be controlled by Scratch blocks, including being moved.
 
 Sprites may have multiple **costumes**. Changing the costume changes the appearance of a sprite, and can be used for effects such as giving the appearance of walking.
@@ -10,7 +11,13 @@ The **Stage** is the area where the sprites are active in Scratch. The Stage can
 
 **code** is made up of Scratch blocks that give instructions to the sprites and the stage to perform a certain function, such as moving around the stage. 
 
-**blocks** refers to the visual code blocks that are put together in Scratch to give instructions to the stage and the sprites.
+**Loops** are blocks that make code repeat itself in a loop. The most simple repeat loops make a piece of code repeat a set number of times or repeat forever (until the programme is stopped).
+
+--- /task ---
+
+--- task ---
+
+**Blocks** refers to the visual code blocks that are put together in Scratch to give instructions to the stage and the sprites.
 
 There are colour coded categories of blocks: `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, `Sound`{:class="block3sound"}, `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Variables`{:class="block3variables"}, and `My Blocks`{:class="block3myblocks"}. There are also most blocks in `Extensions`{:class="block3extensions"}.
 
@@ -27,5 +34,28 @@ when this sprite clicked
 
 A **script** is a series of blocks that are joined together to give instructions to the stage or sprites. The stage and sprites may each have many different scripts.
 
-**Loops** are blocks that make code repeat itself in a loop. The most simple repeat loops make a piece of code repeat a set number of times or repeat forever (until the programme is stopped).
+Some blocks have **input** ranges. For instance, in the `Looks`{:class="block3looks"} blocks:
 
+```blocks3
+set size to (100)%
+```
+
+100% is the normal size (edit the costume to change how big this is).
+50% is half the normal size
+200% is double the normal size
+
+Some blocks have **drop-down** options and **input** ranges. For instance, in the `Looks`{:class="block3looks"} blocks:
+
+```blocks3
+set [color v] effect to (100)
+```
+
++ `color`{:class="block3looks"}: from 0 to 199 (bigger numbers will wrap around so 200 is the same as 0)
++ `fisheye`{:class="block3looks"}: 0 is no effect and bigger numbers give a bigger 'bulge' effect
++ `whirl`{:class="block3looks"}: 0 is no effect, big number give a big whirl to the left, big negative number give a big whirl to the right
++ `pixelate`{:class="block3looks"}: 0 is no effect, bigger numbers give more pixels
++ `mosaic`{:class="block3looks"}: 0 is no effect, bigger numbers create more copies
++ `brightness`{:class="block3looks"}: 0 is no effect, bigger numbers up to 100 make the sprite lighter and negative numbers down to -100 make the sprite darker 
++ `ghost`{:class="block3looks"}: 0 is no effect, bigger numbers up to 100 make the sprite more transparent
+
+--- /task ---
