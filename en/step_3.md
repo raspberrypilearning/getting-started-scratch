@@ -1,4 +1,4 @@
-## Scratch account
+## Set up a Scratch account
 
 --- task ---
 
