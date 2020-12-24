@@ -1,15 +1,29 @@
 ## Using Scratch
 
-<mark>Mention that you can just start one of our beginner Scratch pathways that take you through step by step</mark>
+This 'Getting started with Scatch' guide aims to support you working with Scratch on our projects as well as more independently.
 
-Key concepts sprite, Stage etc
-Colour coding
-Snapping blocks
-Click on code blocks to run them
-Event hat blocks to start scripts
-etc
+If you're new to Scratch, start with our beginner pathway [Look after yourself](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"} where six projects take you through from introductory level to working independently, with support, where required from this Getting started with Scatch guide.
 
-[[[scratch-delete]]]
+If you have completed all the projects in the 'Look after yourself' pathway, then move on to the environmentally themed pathway, [Protect our planet](https://projects.raspberrypi.org/en/pathways/protect-our-planet){:target="_blank"}. In this pathway, you will harness the power of computing to explore our planet, whilst being introduced to procedures and clones.
+
+Sprites are characters and objects that appear on the stage which can be controlled by Scratch blocks, including being moved.
+
+The Stage is the area where the sprites are active in Scratch. The Stage can have backdrops and can be controlled using Scratch blocks but the Stage cannot move.
+
+There are colour coded categories of blocks: `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, `Sound`{:class="block3sound"}, `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Sensing`{:class="block3sensing"}, `Operators`{:class="block3operators"}, `Variables`{:class="block3variables"}, and `My Blocks`{:class="block3myblocks"}. There are also most blocks in `Extensions`{:class="block3extensions"}.
+
+You can drag blocks towards each other o make programs - they snap together.
+
+Click on code blocks to run them. You can also click on the `when green flag clicked`{:class="block3events"} to run your program.
+
+`Event`{:class="block3events"} blocks start all scripts. They have a different top shape which is rounded. You always need to add an `Event`{:class="block3events"} block for **when** your sprite should do something. `Event`{:class="block3events"} blocks start code running when a particular event happens, such as a user clicking.
+
+```blocks3
+when green flag clicked
+when this sprite clicked
+```
+
+To deelete your project [[[scratch-delete]]]
 
 --- task ---
  
