@@ -2,6 +2,8 @@
 
 **Debugging** is finding and fixing mistakes in your code that are called **bugs**.
 
+**Tip:** It's easier to identify issues if you make one change at a time and then run your program.
+
 --- task ---
 
 --- collapse ---
@@ -33,10 +35,6 @@ title: Debugging tips
 
 **Tip**: Keep running your project to test your new code. Is it running as you imagined?
 
-**Tip:** It's easier to identify issues if you make one change at a time and then run your program.
-
-**Tip**: It might take a few experiments to get suitable behaviour for your sprite.
+**Tip**: It might take a few experiments to get the sprite's to behave the way you planned.
 
 --- /task ---
-
---- save ---
