@@ -15,8 +15,6 @@ Open a new Scratch project. Go to Scratch [online](http://rpf.io/scratchon){:tar
 
 --- task ---
 
-Add a backdrop of your choice. Don't worry about it too much, as you can change it as you develop your idea. Below are some **Information** tips, you can use these if you need a reminder, or to understand blocks in more detail.
-
 --- collapse ---
 ---
 
@@ -38,8 +36,6 @@ You can search for a backdrop, or browse for one by category or theme. Click on 
 
 --- task ---
 
-Add your first sprite. You will be able to change the way it looks or add more sprites later.
-
 --- collapse ---
 ---
 
@@ -60,8 +56,6 @@ You can search or browse sprites by theme. Click on a sprite to add it to your p
 --- /task ---
 
 --- task ---
-
-Give your project a name that matches your theme and save it.
 
 --- collapse ---
 ---
