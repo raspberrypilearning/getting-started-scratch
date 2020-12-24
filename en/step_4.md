@@ -1,4 +1,4 @@
-## Start a new project
+## Start a new Scratch project
 
 --- task ---
 
