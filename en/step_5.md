@@ -8,6 +8,10 @@ Try changing the numbers and drop-down options in these useful scripts to get di
 
 Remember, you can add code to sprites and to the Stage. 
 
+You can delete code at any time.
+
+[[[scratch-delete]]]
+
 ### Playing a sound
 
 ```blocks3
