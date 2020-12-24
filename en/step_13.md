@@ -4,26 +4,6 @@
 https://docs.google.com/document/d/1j1s9cEr-hlG0MIClhcLifnus5QlSmlw32imM81LJv_4/edit
 </mark>
 
-**Tip**: Keep running your project to test it. Is the program working as you had planned?
-
-**Tip**: It might take a few experiments to get suitable behaviour for your sprite.
-
-
---- task ---
- 
-![starter project](images/starter_project.png)
-
---- /task ---
-
---- task ---
-
-Step content...
-
---- /task ---
-
---- task ---
-Test your new code. Is it running as you imagined? 
-
 **Debugging** is finding and fixing mistakes in your code that are called **bugs**.
 
 --- collapse ---
@@ -49,7 +29,15 @@ title: Debugging tips
 
 --- /collapse ---
 
+--- /task ---
+
+--- task ---
+
+**Tip**: Keep running your project to test your new code. Is it running as you imagined?
+
 **Tip:** It's easier to identify issues if you make one change at a time and then run your program.
+
+**Tip**: It might take a few experiments to get suitable behaviour for your sprite.
 
 --- /task ---
 
