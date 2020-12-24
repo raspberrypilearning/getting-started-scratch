@@ -1,4 +1,11 @@
-## Sprites and backdrops
+## New project, sprites and backdrops
+
+--- task ---
+Open a new Scratch project
+
+You can return to this guide when you need to remind yourself of the skills you learn in these projects. 
+
+--- /task ---
 
 --- task ---
 
