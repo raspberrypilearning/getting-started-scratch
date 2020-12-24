@@ -11,7 +11,7 @@ steps:
   - title: Introducing Scratch
   - title: What is what in Scratch
   - title: Useful code
-  - title: Accounts and saving
+  - title: Scratch account
   - title: New project, sprites and backdrops
   - title: Paint editor
   - title: Motion
@@ -21,6 +21,5 @@ steps:
   - title: Debugging
   - title: Duplicate sprites and reuse code
   - title: Sharing and commenting
-  - title: Important words
   - title: What next?
   - title: Block reference
