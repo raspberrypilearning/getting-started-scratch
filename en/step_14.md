@@ -1,4 +1,4 @@
-## Duplicate sprites and reuse code
+## Duplicate sprites and copy code
 
 [[[scratch-backpack]]]
 
