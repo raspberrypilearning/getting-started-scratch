@@ -7,11 +7,10 @@ copyedit: false
 last_tested: "2020-11-28"
 steps:
   - title: Introduction
-  - title: Setting up Scratch
-  - title: Introducing Scratch
+  - title: Set up Scratch
   - title: What is what in Scratch
   - title: Scratch account
-  - title: New project with sprites and backdrops, naming and saving
+  - title: Start a new project
   - title: Useful code
   - title: Paint editor
   - title: Motion
