@@ -1,9 +1,7 @@
 ## New project, sprites and backdrops
 
 --- task ---
-Open a new Scratch project
-
-You can return to this guide when you need to remind yourself of the skills you learn in these projects. 
+Open a new Scratch project. Go to Scratch [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 --- /task ---
 
@@ -55,7 +53,7 @@ You can search or browse sprites by theme. Click on a sprite to add it to your p
 
 --- task ---
 
-Give your project a name that matches your theme. 
+Give your project a name. 
 
 --- collapse ---
 ---
@@ -73,3 +71,5 @@ If you share your project, then others will also see this name, so make sure it 
 --- /collapse --- 
 
 --- /task ---
+
+--- save ---
