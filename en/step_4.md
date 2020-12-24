@@ -8,23 +8,17 @@ There are colour coded categories of blocks: `Motion`{:class="block3motion"}, `L
 
 You can drag blocks together to make programs - as you drag them towards each other they snap together.
 
-Click on code blocks to run them. You can also click on the `when green flag clicked`{:class="block3events"} to run your program.
-
-`Event`{:class="block3events"} blocks start all scripts. They have a different top shape which is rounded. You always need to add an `Event`{:class="block3events"} block for **when** your sprite should do something. `Event`{:class="block3events"} blocks start code running when a particular event happens, such as a user clicking.
+`Event`{:class="block3events"} blocks like `when green flag clicked`{:class="block3events"} to run your program start all scripts. `Event`{:class="block3events"} blocks have a runded top shape which means you cannt add a block above them. You always need an `Event`{:class="block3events"} block for **when** your sprite or backdrop does something. `Event`{:class="block3events"} blocks start code running when a particular event happens, such as `when this sprite clicked`{:class="block3events"}.
 
 ```blocks3
 when green flag clicked
 when this sprite clicked
 ```
 
+When you are developing your programs you can click on the code blocks to run them. 
+
 To delete your project following these instructions:
 [[[scratch-delete]]]
-
---- task ---
- 
-![starter project](images/starter_project.png)
-
---- /task ---
 
 --- task ---
 Open a new Scratch project
