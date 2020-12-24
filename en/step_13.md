@@ -6,6 +6,8 @@ https://docs.google.com/document/d/1j1s9cEr-hlG0MIClhcLifnus5QlSmlw32imM81LJv_4/
 
 **Debugging** is finding and fixing mistakes in your code that are called **bugs**.
 
+--- task ---
+
 --- collapse ---
 ---
 
