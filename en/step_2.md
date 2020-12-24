@@ -1,4 +1,4 @@
-## Set up Scratch on device
+## Set up Scratch on your device
 
 <mark>
 Online, inc tab switching, side-by-side working
