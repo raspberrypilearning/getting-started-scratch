@@ -1,4 +1,4 @@
-## New project, sprites and backdrops
+## New project with sprites and backdrops, naming and saving
 
 --- task ---
 Open a new Scratch project. Go to Scratch [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
@@ -71,5 +71,16 @@ If you share your project, then others will also see this name, so make sure it 
 --- /collapse --- 
 
 --- /task ---
+
+<mark>Save your project
+
+--- collapse ---
+---
+
+title: How do I save my project?
+
+---
+
+--- /collapse --- </mark>
 
 --- save ---
