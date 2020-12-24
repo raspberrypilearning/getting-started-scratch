@@ -1,4 +1,4 @@
-## Debugging
+## Debug
 
 **Debugging** is finding and fixing mistakes in your code that are called **bugs**.
 
