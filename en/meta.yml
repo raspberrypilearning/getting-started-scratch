@@ -7,9 +7,9 @@ copyedit: false
 last_tested: "2020-11-28"
 steps:
   - title: Introduction
-  - title: Set up Scratch on device
-  - title: Set up a Scratch account
-  - title: Start a new project
+  - title: Set up Scratch on your device
+  - title: Set up a Scratch online account
+  - title: Start a new Scratch project
   - title: What is what in Scratch
   - title: Useful code
   - title: Paint editor
