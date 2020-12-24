@@ -10,11 +10,18 @@
 
 <mark>Remember to check the **Information** collapses where you need help.</mark>
 
+--- collapse ---
+---
+title: Background on Scratch
+---
+
 Scratch is a graphical programming language developed by the Lifelong Kindergarten group at the Massachusetts Institute of Technology. In Scratch, you can drag and combine code blocks to make a range of programs, including animations, stories, musical instruments, and games. It’s a bit like the programming equivalent of LEGO!
 
 Scratch is used in many schools as part of the curriculum. It is free, and young people can use it at home as well as in clubs.
 
 Scratch allows young people to learn coding concepts and create interactive projects without needing to learn a text-based programming language. This means they won’t be slowed down by their keyboard skills or their ability to remember complex code.
+
+--- /collapse ---
 
 ### What you will make
 If you have not used Scratch before then you will get set up and create your first Scratch project. You will be able to continue to our Scratch pathways to develop your Scratch skills.
