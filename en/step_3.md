@@ -1,4 +1,4 @@
-## Set up a Scratch account
+## Set up an online Scratch account
 
 --- task ---
 
