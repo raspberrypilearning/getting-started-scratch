@@ -1,4 +1,4 @@
-## What is what in Scratch
+## Important words
 
 --- task ---
 
@@ -12,6 +12,11 @@ The **Stage** is the area where the sprites are active in Scratch. The Stage can
 
 **code** is made up of Scratch blocks that give instructions to the sprites and the stage to perform a certain function, such as moving around the stage. 
 
+<mark>
+Repeated in Blocks step...
 **Blocks** refer to the visual code blocks that are put together in Scratch to give instructions to the stage and the sprites.
+
+A **script** is a series of blocks that are joined together to give instructions to the stage or sprites. The stage and sprites may each have many different scripts.
+</mark>
 
 --- /task ---
