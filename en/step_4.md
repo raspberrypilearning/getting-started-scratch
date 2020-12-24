@@ -20,26 +20,3 @@ When you are developing your programs you can click on the code blocks to run th
 To delete your project following these instructions:
 [[[scratch-delete]]]
 
---- task ---
-Open a new Scratch project
---- /task ---
-
---- task ---
-
-```blocks3
-when this sprite clicked
-move (10) steps
-```
-
---- /task ---
-
---- save ---
-
---- task ---
-<mark>Should this be a separate step?</mark>
-
-Now choose a Scratch beginner pathway to develop your skills:
-
-You can return to this guide when you need to remind yourself of the skills you learn in these projects. 
---- /task ---
-
