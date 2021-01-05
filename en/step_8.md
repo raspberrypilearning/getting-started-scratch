@@ -2,6 +2,8 @@
 
 Use the paint editor to create your own backdrops and costumes and also to edit existing backdrops and costumes. 
 
+![Labelled Costume tab](images/Scratch-Costume-tab.png){:width="400px"}
+
 --- task ---
 
 --- collapse ---
