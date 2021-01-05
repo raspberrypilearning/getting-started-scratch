@@ -2,7 +2,7 @@
 
 It's useful to know your way around the Scratch editor.  
 
-![Scratch resize code blocks](images/zoom-code-area.png)
+![Scratch resize code blocks](images/scratch-interface.png)
 
 The **Stage** is where the action takes place in your project. The Stage has one or more background images called **backdrops** 
 
