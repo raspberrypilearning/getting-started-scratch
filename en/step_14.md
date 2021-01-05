@@ -1,13 +1,10 @@
 ## Duplicate sprites and copy code
 
-[[[scratch-backpack]]]
-
-Choose one of these three methods to create your second sprite: 
-+ Duplicate your first sprite if you want multiples of the same sprite
-+ Create a new sprite and copy over the first sprite's code 
-+ Create a new sprite and start coding it from the beginning
+Choose one of these three methods to copy code:
 
 --- task ---
+
+Duplicate your first sprite if you want multiples of the same sprite
 
 --- collapse ---
 ---
@@ -32,6 +29,8 @@ Your second sprite has exactly the same code as your first sprite. Do not run th
 
 --- /collapse ---
 
+Create a new sprite and copy over all or some of the first sprite's code 
+
 --- collapse ---
 ---
 
@@ -47,6 +46,8 @@ Click the first sprite and go to its **Code** tab. Drag the code that is in the 
 Your second sprite has exactly the same code as your first sprite. Do not run the program until you have begun to alter the second sprite — you will not see the second sprite because it is sitting underneath the first sprite.
 
 --- /collapse ---
+
+Drag into a **backpack** costumes, sprites, sounds and scripts that you want to copy between projects:
 
 --- collapse ---
 
