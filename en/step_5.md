@@ -1,6 +1,4 @@
-## Getting started with Scratch
-
-It's useful to know your way around the Scratch editor.  
+## The Scratch editor
 
 ![Scratch resize code blocks](images/scratch-interface.png)
 
