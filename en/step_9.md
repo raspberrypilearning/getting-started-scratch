@@ -1,199 +1,273 @@
-## Motion
+## Variables
+
+Add one or more `variables`{:class="block3variables"} with sliders to control something in your scene such as size or graphic effects, sound effects, movement, or timing. 
 
 --- task ---
 
-`Motion`{:class="block3motion"} blocks allow you to move your sprite so it can bounce and/or spin around the Stage. See some of ways in which you can get your sprite moving:
+Decide what you want your variable to control.  
+
+Create a new `variable`{:class="block3variables"} and give it a name that matches its use. For example: 
+
++ If it will control the `volume`{:class="block3sound"} of a sound, name it `noise`{:class="block3variables"}
++ If it will control the length of a `wait`{:class="block3control"}, name it `delay`{:class="block3variables"}
++ If it will control how many degrees a sprite will `turn`{:class="block3motion"}, name it `angle`{:class="block3variables"}
 
 --- collapse ---
----
-title: Move your sprite
----
-
-Get your sprite to move:
-
-```blocks3
-when green flag clicked
-point in direction (90)
-set rotation style [left-right v]
-forever
-move (5) steps
-if on edge, bounce
-```
---- /collapse ---
-
---- collapse ---
----
-
-title: Bounce on edge of the Stage
 
 ---
---- no-print ---
 
-**Girl moving across the Stage**: [See inside](https://scratch.mit.edu/projects/433535326/editor){:target="_blank"}
+title: Add a new variable
 
-<div class="scratch-preview">
-  <iframe src="https://scratch.mit.edu/projects/433535326/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-</div>
+---
 
---- /no-print ---
+Click on the **Code** tab for any **sprite** or the **Stage**. 
 
-This code makes a sprite bounce on the left-hand and right-hand edges of the Stage. Because the sprite rotates horizontally, it appears to flip when changing its direction when the green flag is clicked:
+Go to the `Variables`{:class="block3variables"} blocks menu and click on **Make a Variable**.
 
-```blocks3
-when green flag clicked
-point in direction (90)
-set rotation style [left-right v]
-forever
-move (5) steps
-if on edge, bounce
-```
+![Make a variable](images/make-a-variable.png)
 
-The `point in direction`{:class="block3motion"} block automatically points your sprite to the right (`90` degrees) when the green flag is clicked. If you change the number of degrees to `-90`, your sprite will point left.
+Name the `variable`{:class="block3variables"} to match its use, for example, `angle`. 
 
-Add a `set rotation  style`{:class="block3motion"} block and select the drop-down `left-right`{:class="block3motion"} so your sprite won't flip upside down when it bounces off the edge of the Stage.  
+Keep the **For all sprites** box selected. This means that you will be able to use the `variable`{:class="block3variables"} in the code for any of your sprites or the Stage.
 
-**Tip:** You can drag your sprite on the Stage to move it to the y (up-down) position that you want.
+![Turn variable settings](images/turn-variable.png)
+
+Click on **OK** to make the new `variable`{:class="block3variables"}. You will have new `Variables`{:class="block3variables"} blocks available, including an `angle`{:class="block3variables"} block (or whatever you named your variable) that you can drag and use as an input to other blocks. 
+
+![Turn variable blocks](images/turn-variable-blocks.png)
+
 
 --- /collapse ---
 
+--- /task ---
+
+Your new `variable`{:class="block3variables"} will automatically appear on the Stage.
+
+--- task ---
+ 
+Change the `variable`{:class="block3variables"} to a **slider** and **change its range**.
+
 --- collapse ---
----
-
-title: Bounce up and down the Stage
 
 ---
---- no-print ---
 
-**Girl jumping**: [See inside](https://scratch.mit.edu/projects/433595822/editor){:target="_blank"}
+title: Use a slider to set a variable
 
-<div class="scratch-preview">
-  <iframe src="https://scratch.mit.edu/projects/433595822/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-</div>
+---
 
---- /no-print ---
+Right-click or tap and hold on your `variable`{:class="block3variables"} on the Stage. 
 
-This code makes a sprite bounce up and down the Stage when the green flag is clicked:
+Select **slider** in the menu. 
 
-```blocks3
-when green flag clicked
-point in direction (0)
-set rotation style [don't rotate v]
-forever
-move (5) steps
-if on edge, bounce
-```
+![Turn slider](images/variable-slider.png)
 
-Change the number of degrees in the `point in direction`{:class="block3motion"} block to `0` to make a sprite point upwards when the green flag is clicked.
+**Tip:** You can double-click or tap on the `variable`{:class="block3variables"} displayed on the Stage and select **slider**.
 
-Add a `set rotation  style`{:class="block3motion"} block and select the drop-down `don't rotate`{:class="block3motion"} block to stop your sprite rotating, even when it bounces.
+Right-click or tap and hold on the `variable`{:class="block3variables"} displayed on the Stage and select **change slider range**.
 
-**Tip:** You can drag your sprite around the Stage to move it to the x (left-right) position that you want.
+![Speed slider](images/slider-range.png)
+
+To set the range, specify a minimum and maximum value.
+
+A minimum of `1` and a maximum of `10` work fairly well for how quickly a sprite spins.
+
+![Slider range 1 to 10](images/slider-values.png)
+
+The value range that is right for your variable depends on what you are using it for. Sometimes you will need to experiment a little to get it right, but remember that you can change it at any time.
+
+Drag the slider to a convenient position on the Stage.
+
+**Tip:** Variables on the Stage always appear in a layer above all of the sprites. If you have a moving sprite, the sprite will go under any variables on the Stage. 
 
 --- /collapse ---
 
+--- /task ---
+
+--- task ---
+
+Use your rounded `variable`{:class="block3variables"} input block to control something in your project, for example, to change the size of a sprite, the way that it looks, or the volume of a sound.
+
+Here are some examples of how you can use your variable slider: 
+
 --- collapse ---
----
-
-title: Bounce at an angle
 
 ---
 
---- no-print ---
+title: Control graphic effects with a variable
 
-**Football bouncing**: [See inside](https://scratch.mit.edu/projects/433536479/editor){:target="_blank"}
+---
+
+This example changes the `ghost`{:class="block3looks"} graphic effect so you can see through the rainbow.
+
+**Transparent rainbow**: [See inside](https://scratch.mit.edu/projects/451544795/editor){:target="_blank"}
 
 <div class="scratch-preview">
-  <iframe src="https://scratch.mit.edu/projects/433536479/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451544795/?autostart=false" frameborder="0"></iframe>
 </div>
 
---- /no-print ---
-
-This code makes a sprite appear to rotate randomly when the green flag is clicked:
+You can use a `transparent`{:class="block3variables"} variable to control the `ghost effect`{:class="block3looks"} on a sprite at the `front`{:class="block3looks"} and use it to reveal or hide sprites in lower layers. 
 
 ```blocks3
-when green flag clicked
-point in direction (45)
-set rotation style [all around v]
-forever
-move (5) steps
-if on edge, bounce
+when flag clicked
+go to [front v] layer
 ```
-
-If your sprite moves at `45` degrees, you will find it appears to bounces off the edge of the Stage in a random direction. Change the number of degrees in the `point in direction`{:class="block3motion"} block to `45` to make a sprite bounce all around.
-
-Add a `set rotation  style`{:class="block3motion"} block and select the drop-down `all around`{:class="block3motion"} block, so your sprite will turn when it bounces off the edge of the Stage.  
-
---- /collapse ---
-
---- collapse ---
----
-
-title: Spin around
-
----
---- no-print ---
-
-**Bat spinning**: [See inside](https://scratch.mit.edu/projects/435704980/editor){:target="_blank"}
-
-<div class="scratch-preview">
-  <iframe src="https://scratch.mit.edu/projects/435704980/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-</div>
-
---- /no-print ---
-
-This code makes a sprite spin when it is clicked:
 
 ```blocks3
 when flag clicked
 forever
-turn right (1) degrees :: motion
+set [ghost v] effect to (transparent)
 ```
 
-Change the degrees by which your sprite turns to `1` within a `forever`{:class="block3control"} loop and your sprite will appear to spin.
-
-**Tip:** If you don't add a `move`{:class="block3motion"} block, your sprite will spin in the position its in. 
+Try using the same approach with other graphic effects such as `brightness`{:class="block3looks"} or `color`{:class="block3looks"}.
 
 --- /collapse ---
 
 --- collapse ---
----
-
-title: Move in a circle
 
 ---
 
---- no-print ---
+title: Control movement speed with a variable
 
-**Moon orbit**: [See inside](https://scratch.mit.edu/projects/435701055/editor){:target="_blank"}
+---
+
+**Ladybug on a wall**: [See inside](https://scratch.mit.edu/projects/451545341/editor){:target="_blank"}
 
 <div class="scratch-preview">
-  <iframe src="https://scratch.mit.edu/projects/435701055/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451545341/?autostart=false" frameborder="0"></iframe>
 </div>
 
---- /no-print ---
-
-This code makes a sprite fly in a circle when it is clicked:
+Use the `speed`{:class="block3variables"} variable as the input to a `move`{:class="block3motion"} block:
 
 ```blocks3
-when green flag clicked
+when flag clicked
 forever
-move (1) steps
-turn right (1) degrees :: motion
+move (speed) steps
+if on edge, bounce
+```
+Set the minimum and maximum values for the range of the slider to suit your project.
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: Control turn speed with a variable
+---
+
+**Space dog**: [See inside](https://scratch.mit.edu/projects/451543041/editor){:target="_blank"}
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451543041/?autostart=false" frameborder="0"></iframe>
+</div>
+
+Use an `angle`{:class="block3variables"} variable as the input to a `turn right`{:class="block3motion"} block:
+
+```blocks3
+when flag clicked
+forever
+turn right (angle) degrees
 ```
 
-Change the degrees by which your sprite `moves`{:class="block3motion"} to `1` and `turns`{:class="block3motion"} to `1` within a `forever`{:class="block3control"} loop and your sprite will appear to move in a big circle.
+--- /collapse ---
 
-**Tip**: If you want your sprite to always start in the centre of the Stage, you can add `go to x:(0) y: (0)`{:class="block3motion"} before the `forever`{:class="block3control"} block. 
+--- collapse ---
 
---- /collapse --- 
+---
+
+title: Change the delay in a wait block
+
+---
+
+**Skeleton dance**: [See inside](https://scratch.mit.edu/projects/451536565/editor){:target="_blank"}
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451536565/?autostart=false" frameborder="0"></iframe>
+</div>
+
+Use a `delay`{:class="block3variables"} variable as the input to a `wait`{:class="block3control"} block:
+
+```blocks3
+when flag clicked
+forever
+wait (delay) seconds
+next costume
+```
+
+A delay of more than one second is quite a long time. If you include a decimal number in the range of a slider then you can change the value by a 100th of a second at a time. 
+
+A range of `0.0` to `1.0` allows you to choose a delay between `0` seconds (no delay) and `1` second.
+
+![Decimal range](images/decimal-delay.png)
+
+Try changing the numbers to get the maximum and minimum values that you want users to be able to use in your project.
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+
+title: Change sound effects
+
+---
+
+**Drum pitch**: [See inside](https://scratch.mit.edu/projects/451547017/editor){:target="_blank"}
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451547017/?autostart=false" frameborder="0"></iframe>
+</div>
+
+Changing the `pitch`{:class="block3sound"} of a sound makes the notes higher and also speeds the sound up. 
+
+```blocks3
+when flag clicked
+forever
+set [pitch v] effect to (beat) :: sound
+```
+
+Play the sound in a separate `forever`{:class="block3control"} loop so that the pitch will change immediately rather than waiting until the sound has finished playing: 
+
+```blocks3
+when flag clicked
+forever
+play sound [Dance Head Nod v] until done
+```
+
+You can also use a `variable`{:class="block3variables"} to change the `volume`{:class="block3sound"} and `pan`{:class="block3sound"} (tilt) effect.
+
+--- /collapse ---
 
 --- /task ---
+
+You can rename a variable if you change your mind.
+
+--- collapse ---
+
+---
+
+title: Rename a variable
+
+---
+
+Sometimes you think of a better name for a variable. 
+
+You can give a variable a new name: go to the `Variables`{:class="block3variables"} blocks menu, right-click on the `variable`{:class="block3variables"}, and choose **Rename variable**.
+
+![Rename a variable](images/rename-variable.png)
+
+This will change the name of the variable in all the blocks in which you have used it. 
+
+--- /collapse ---
 
 --- task ---
-+ Drag your sprite to a different starting location on the Stage.
-+ Increase the number of steps in `move ( ) steps`{:class="block3motion"} to make your sprite move faster, or decrease it to move slower.
-+ Change the number of degrees in `point in direction ( )`{:class="block3motion"} to change the direction that your sprite starts to move in. 
-+ Change the number of degrees in `turn right`{:class="block3motion"} or `turn left`{:class="block3motion"} so that your sprite turns faster or slower. 
-+ Combine `move ( ) steps`{:class="block3motion"} and `turn right`{:class="block3motion"} or `turn left`{:class="block3motion"} so that your sprite moves and turns. 
-+ Experiment with `set rotation style [ ]`{:class="block3motion"} to make sure you understand what the different options do.
+Add as many `variables`{:class="block3variables"} as you like to control movement, delays, graphic effects, and sound effects. 
+
+Things to consider:
++ Have you given your variables names that match what they are used for?
++ Have you chosen the best maximum and minimum values for your sliders?
++ Are your sliders neatly arranged on the Stage?
++ Is it helpful to use the same variable in multiple places?
+
 --- /task ---
+
+**Tip:** If you are using a computer with a keyboard then you can use the arrow keys to change the value of a slider by `1`. First, click on the slider to select it, then use the <kbd>Left</kbd> arrow key to change the value by `-1` and the <kbd>Right</kbd> arrow key to change the value by `1`.

@@ -1,220 +1,39 @@
-## Looks
+## Paint editor
 
-Add code to your sprites to change the way they look.
+Use the paint editor to create your own backdrops and costumes and also to edit existing backdrops and costumes. 
 
---- task ---
-
-Set the size and/or effect for your sprites.
-
---- collapse ---
----
-title: Set size of your sprite
----
-
-When you add a sprite to your project its size is set to `100` percent. This may be too big or too small for your project. 
-
-You can use code to set the size of a sprite. 
-
-```blocks3
-set size to (50) %
-```
-
-If you set the size of a sprite to `50` percent, it will be half as tall and half as wide. If you set the size of a sprite to `200` percent, it will be twice as tall and twice as wide. 
-
-Place a `set size`{:class="block3looks"} block under a `when green flag clicked`{:class="block3events"} block to set the size of a sprite when the project is started: 
-
-```blocks3
-when green flag clicked
-set size to (50) %
-```
-
-You can also quickly set the size of a sprite using the **Size** button underneath the Stage:
-
-![Sprite Size setting highlighted](images/spriteSize.png){:width="400px"}
-
---- /collapse ---
-
---- collapse ---
----
-title: Set graphic effects
----
-
-**Rooster effects**: [See inside](https://scratch.mit.edu/projects/435730522/editor){:target="_blank"}
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435730522/?autostart=false" frameborder="0"></iframe>
-</div>
-
-Place a `set graphic effects`{:class="block3looks"} block under a `when green flag clicked`{:class="block3events"} block to set the size of a sprite when the project is started:
-
-```blocks3
-when green flag clicked
-set [ghost v] effect to (25)
-```
-
-The `set color`{:class="block3looks"} and `color`{:class="block3looks"} blocks both have drop-down boxes where you can choose from a range of different graphic effects that can be used to change your sprite's appearance.
-
-+ `color`{:class="block3looks"}: From 0 to 199 (bigger numbers will wrap around, so 200 is the same as 0)
-+ `fisheye`{:class="block3looks"}: 0 is no effect, bigger numbers give a bigger 'bulge' effect
-+ `whirl`{:class="block3looks"}: 0 is no effect, big number gives a big whirl to the left, big negative number gives a big whirl to the right
-+ `pixelate`{:class="block3looks"}: 0 is no effect, bigger numbers create more pixels
-+ `mosaic`{:class="block3looks"}: 0 is no effect, bigger numbers create more copies
-+ `brightness`{:class="block3looks"}: 0 is no effect, bigger numbers up to 100 make the sprite lighter, and negative numbers down to -100 make the sprite darker 
-+ `ghost`{:class="block3looks"}: 0 is no effect, bigger numbers up to 100 make the sprite more transparent 
-
-Try `setting`{:class="block3looks"} the different effect values to see what each one does. Explore how different value changes make your sprite look.
-
-```blocks3
-set [whirl v] effect to (100)
-
-set [pixelate v] effect to (50)
-```
-
---- /collapse ---
-
---- /task ---
+![Labelled Costume tab](images/Scratch-Costume-tab.png){:width="600px"}
 
 --- task ---
-Create an animation effect with your sprites by changing their effects and/or by using costumes.
-
---- collapse ---
----
-title: Change looks to create an animation effect
----
-
-**Beating heart**: [See inside](https://scratch.mit.edu/projects/435725413/editor){:target="_blank"}
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435725413/?autostart=false" frameborder="0"></iframe>
-</div>
-
-You can use the `set size`{:class="block3looks"} or `change size`{:class="block3looks"} block to create a pulsing effect, such as a beating heart.
-
-**Note:** The `set size`{:class="block3looks"} block sets size to a specific value, while `change size`{:class="block3looks"} changes the value from what it previously was, e.g. `change size by 10`{:class="block3looks"} adds `10` to the value of size.
-
-```blocks3
-when green flag clicked
-set size to (160) %
-forever
-change size by (40)
-wait (0.2) seconds
-change size by (20)
-wait (0.2) seconds
-change size by (-20)
-wait (0.2) seconds
-change size by (-40)
-wait (0.2) seconds
-end
-```
-
-This code uses a series of `change size`{:class="block3looks"} and `wait`{:class="block3control"} blocks to make the heart grow and shrink. Try to create your own pulsating sprite.
-
-You could also try change the `graphic effects`{:class="block3looks"} to create a sprite that continues to change its appearance. 
-
-```blocks3
-when green flag clicked
-change [ghost v] effect by (75)
-wait (1) seconds
-change [ghost v] effect by (-75)
-```
-
-**Note:** If you use code that changes a graphic effect and then changes it back again, don't forget to use a `wait`{:class="block3control"} block in between, otherwise it will happen so fast that you won't see it!
-
-You can use a `clear graphic effects`{:class="block3looks"} block at any time to reset the effects.
-
-```blocks3
-clear graphic effects
-```
-
---- /collapse ---
 
 --- collapse ---
 ---
 
-title: Click to change and then change back
+title: Create a plain backdrop
 
 ---
 
-You can add actions that make a change to a sprite and then reverse them, such as growing, waiting, and then shrinking. 
+To make your own backdrop:
++ Go to the Stage pane and click on **backdrop1**.
 
-**Squash ball when clicked**: [See inside](https://scratch.mit.edu/projects/435723273/editor){:target="_blank"}
+![Select sprite paint](images/challenge2-backdrop-paint.png){:width="400px"}
 
-<div class="scratch-preview">
-  <iframe src="https://scratch.mit.edu/projects/435723273/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-</div>
++ Click on the **Backdrops** tab.
++ Choose a **Fill** colour. Click on **Outline** and deselect it (to do this, click on the box with the diagonal line in the bottom left-hand corner of the menu).
++ Click on the **Rectangle** tool (shown as an outline in the Paint editor) and draw a rectangle, ensuring that you cover all of the Stage. 
 
-This code will grow a sprite and apply the fisheye effect for one second and then return to normal:
+![Select Fill and Outline](images/challenge2-backdrop-fill-outline.gif){:width="400px"}
 
-```blocks3
-when this sprite clicked
-set size to (110)
-set [fisheye v] effect to (50)
-wait (0.5) seconds
-set [fisheye v] effect to (0)
-set size to (100)
-```
+Add a horizon line if it fits in with your 3D scenery idea:
 
---- /collapse ---
+![Image of horizon](images/challenge2-backdrop-horizon.png){:width="400px"}
 
---- collapse ---
----
-title: Change costumes to make a simple animation
----
++ Again, in **backdrop1**, select a suitable **Fill** colour with no **Outline**.
++ Add a **Rectangle** for flat ground or an **Oval** for a hill.
 
-Some Scratch sprites have costumes that can be used to create a simple animation. 
+![Create horizon in backdrops](images/challenge2-backdrop-create-horizon.png){:width="400px"}
 
-**Avery walking**: [See inside](https://scratch.mit.edu/projects/436256679/editor){:target="_blank"}
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/436256679/?autostart=false" frameborder="0"></iframe>
-</div>
-
-
-Use `next costume`{:class="block3looks"} inside a `forever`{:class="block3control"} loop with a `wait`{:class="block3control"} block to create an animation: 
-
-```blocks3
-when green flag clicked
-forever
-next costume
-wait (0.3) seconds
-```
-
-One second is often too long to wait before changing to the next costume, so you need to use numbers smaller than `1` in the `wait`{:class="block3control"} block. A wait of `0.1` is one tenth of a second, and `0.5` is half a second. If you wait `0.2` seconds, then the sprite will change costumes five times every second. 
-
-When a sprite reaches its last costume, the `next costume`{:class="block3looks"} block goes back to the first costume, so the sprite continues to move. 
-
-You can combine animation with movement to create sprites that walk or fly.
-
---- /collapse ---
-
---- collapse ---
----
-title: Duplicate and edit a costume to use in an animation
----
-
-Some Scratch sprites just have one costume or have multiple sprites that don't work as an animation. If you choose one costume, then duplicate it and make a small change, it can create an animation effect. 
-
-**Robot animation**: [See inside](https://scratch.mit.edu/projects/436260207/editor){:target="_blank"}
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/436260207/?autostart=false" frameborder="0"></iframe>
-</div>
-
-Switch to the **Costumes** tab for your sprite. 
-
-The **Robot** sprite comes with costumes for three different robots and you only want to use one of them. Delete any costumes that you will not use in your animation. 
-
-Right-click on the costume, and choose **Duplicate**. 
-
-Make small changes to the costume, you could move, rotate, or change all or part of the costume. Alternatively, you could add movement lines. 
-
-If your costume uses vector graphics, then you can select parts of a costume to change. 
-
-![Animated gif showing changes to Robot costume](images/edit-robot-costume.gif)
-
-You can duplicate the costume again and make more changes to add more frames to your animation.
-
-You can now use your costumes in a simple sprite animation.
++ Remember to name your backdrop.
 
 --- /collapse ---
 
@@ -222,87 +41,225 @@ You can now use your costumes in a simple sprite animation.
 
 --- task ---
 
-Change how your sprites appear in relation to each other using layers.
+Use the Paint editor to edit an existing costume.
+
+<mark>Collapse needed for editing an existing costume to create animation?</mark>
+<mark>See - https://learning-admin.raspberrypi.org/en/projects/interactive-animation/5 - Duplicate and edit a costume to use in an animation</mark>
 
 --- collapse ---
 ---
-
-title: Layering sprites
-
----
-There are two ways to create layering.
-
-**Option one:** In the Stage area, click on the sprite you want as the front layer. Drag it over the front of the other sprite. This layering will stay when you run the program next time.
-
-![Image showing how to drag sprites to create layering](images/challenge1-change-layers.gif){:width="300px"}
-
-
-**Option two:** Use a `go to front layer`{:class="block3looks"} block to the relevant sprite and select either a drop-down `front`{:class="block3looks"} or `back`{:class="block3looks"} block, and add it to the set-up under a `when green flag clicked`{:class="block3events"} block.
-
-```blocks3
-go to [front v] layer
-```
-
---- /collapse ---
-
---- collapse ---
----
-title: Use front and back layers to position your sprites
---- 
-
-**Through the window**: [See inside](https://scratch.mit.edu/projects/451497627/editor){:target="_blank"}
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451497627/?autostart=false" frameborder="0"></iframe>
-</div>
-
-In the example, the **Window frame** sprite appears at the front. The **Avery Walking** sprite appears at the back behind the **Window frame** sprite.
-
-Select the sprite that you want at the front and click on its **Code** tab. Add a `go to front layer`{:class="block3looks"} block:
-
-``` blocks3
-when green flag clicked
-go to [front v] layer
-```
-
-Select the sprite(s) that you want at the back and click on its **Code** tab. Add a `go to back layer`{:class="block3looks"} block:
-
-``` blocks3
-when green flag clicked
-go to [back v] layer
-```
-
---- /collapse ---
-
---- collapse ---
----
-title: Number your layers to create layers for many sprites
+title: Use the Fill tool to change the colours in a costume
 ---
 
-**Through the window with tree**: [See inside](https://scratch.mit.edu/projects/454188775/editor){:target="_blank"}
+Select your sprite under the Stage and then click on **Costumes**. 
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/454188775/?autostart=false" frameborder="0"></iframe>
-</div>
+Change the colour of your sprite. Click on the second sprite in the Sprite menu. Then select its **Costumes** tab.
 
-In the example, the **Window frame** sprite appears at the front and the **Sun** sprite appears at the back. The **Avery Walking** and **Tree** sprites are each in their own layers between the **Window frame** sprite and the **Sun** sprite.
+Use the **Arrow** tool to highlight whichever part of the costume you want to change colour.
 
-Use the `go backward`{:class="block3looks"}`1``layers`{:class="block3looks"} block to place a sprite one layer behind the sprite at the front:
+![Image showing Arrow tool in Paint editor](images/challenge1-arrow-tool.png){:width="200px"}
 
-``` blocks3
-when green flag clicked
-go to [front v] layer
-+go [backward v] (1) layers
-```
+![Image showing Arrow tool selecting shape](images/challenge1-arrow-tool-selecting-shape.png){:width="300px"}
 
-Change the value in the `go backward`{:class="block3looks"}`1``layers`{:class="block3looks"} block for each sprite depending on where you want it to be positioned in relation to other sprites:
+Go to the **Fill** tool and select the colour. It will automatically fill the shape that you have selected.
 
-``` blocks3
-when green flag clicked
-go to [front v] layer
-+go [backward v] (2) layers
-```
+![Image showing Fill tool in Paint editor](images/challenge1-fill-tool.png){:width="300px"}
+
+Repeat the steps above with any part of the costume you have missed or for any other part of the costume you want to change the colour of.
+
+![Image showing shape colour changing](images/challenge1-select-another-shape.png){:width="300px"}
+
+![Image showing shape colour changing](images/challenge1-change-shape-colour.png){:width="300px"}
+
+![Image showing final change](images/challenge1-change-costume-colour.png){:width="300px"}
 
 --- /collapse ---
 
 --- /task ---
+
+--- task ---
+
+Use the Paint editor tips below to create your own designs for your sprites.
+
+--- collapse ---
+---
+
+title: Create scenery as sprites
+
+---
+
+**Hill as a sprite**: [See inside](https://scratch.mit.edu/projects/452582516/editor){:target="_blank"}
+
+![Hills image](images/challenge2-sprite-hill.png){:width="400px"}
+
+To make your own **Hill** sprite, shown in the example above, you can use the **Circle** and **Rectangle** tools in the Paint editor:
+
++ Go to **Choose a Sprite** and select **Paint** to create a new sprite costume.
+
+![Make a hill as one sprite costumes](images/challenge2-backdrop-sprite-costume.gif){:width="400px"}
+
++ Choose a **Fill** colour. Click on **Outline** and deselect it (to do this, click on the box with the diagonal line in the bottom left-hand corner of the menu). Now, draw an oval using the **Circle** tool. Then, select the **Rectangle** tool to draw a rectangle underneath the oval.
+
++ If you use varying colours for the shapes, you may need to use the **Front** and **Back** tools in the Paint editor to move your shapes forward or backward so that they are positioned correctly within your background.
+
++ You can select all the shapes and **Group** them together so that you can adjust them or move them as one shape.
+
+![Group shapes](images/challenge2-group-shapes.png){:width="400px"}
+
++ Now, make other sprites for your scenery, if this fits in with your project idea.
+
++ Remember to name your sprite(s).
+
+--- /collapse ---
+
+--- collapse ---
+---
+
+title: Use the Line tool to create a triangle
+
+---
+
+You can create polygons such as a triangle and use these shapes to create roofs or mountains.
+
+Go to **Choose a Sprite** and select **Paint** to create a new sprite costume. In this example, you will make houses.
+
+**House**: [See inside](https://scratch.mit.edu/projects/453595663/editor){:target="_blank"}
+
+![Make houses as one sprite costumes](images/challenge2-backdrop-sprite-costumes-line-tool.gif){:width="400px"}
+
+If you follow the instructions below, you can use the **Line** tool to create any shape:
++ Choose a **Fill** colour. To choose the colour black, decrease the **Brightness** to zero (0).
+
+![Colour to black](images/challenge2-black.png){:width="150px"}
+
++ Select **No outline**.
+
+![No outline to black](images/challenge2-nooutline.png){:width="200x"}
+
++ Use the **Rectangle** tool to draw a rectangle.
++ Use the **Line** tool to draw a triangle. Make sure that you complete the triangle, otherwise it will not fill with colour.
++ Move the two shapes together.
++ Select the **Fill (Bucket)** tool and fill the triangle with colour.
++ Use the **Rectangle** tool to draw another rectangle for the chimney.
++ You can use the **Front** and **Back** tools in the Paint editor to move your shapes forward or backward so that they are positioned correctly. In this example, you will not need to do this because the shapes are black for the silhouette.
++ Select all the shapes and **Group** them together so that you can adjust them or move them as one shape.
+
+To create duplicate shapes of your house (for example, to make a skyline), follow the **Information** under 'Duplicate shapes to create a scenery costume' below.
+
+--- /collapse ---
+
+--- collapse ---
+---
+
+title: Duplicate shapes to create a scenery costume
+
+---
+
+In your 3D scene, you may want to duplicate shapes within a costume so that your scenery appears busier or more crowded.
+
+**Multiple clouds**: [See inside](https://scratch.mit.edu/projects/447278432/editor){:target="_blank"}
+
+![Multiple cloud shapes](images/challenge2-sprite-costume-multiples.png){:width="400px"}
+
+The effect of multiplying shapes is used by professional animators to create the impression of weather patterns such as rain or clouds, a cluster of objects such as buildings or a wood, as well as a crowd of people in a scene.
+
+--- no-print ---
+
+![Costume with multiple cloud shapes](images/challenge2-sprite-costume-multiples.gif)
+
+--- /no-print ---
+
+To multiply any type of shape:
++ Go to **Choose a Sprite** and select, in this example, the **Cloud** sprite.
++ In the **Costumes** tab, use the **Select** tool to highlight the whole of the shape.
++ Use the **Copy** and **Paste** tools to create duplicates of the shape.
++ Use the **Select** tool to move the shape within the Stage.
++ You can vary the size of the shapes to help to create a greater sense of 3D effects.
++ You can select all the shapes and **Group** them together so that you can adjust them or move them as one shape.
+
+--- /collapse ---
+
+--- collapse ---
+---
+
+title: Use Saturation and Brightness to create depth
+
+---
+
+In the real world, objects that are further away appear lighter in colour. To achieve more realistic 3D scenery, you can **decrease** the colour **Saturation** and/or **Brightness** of each sprite so that they appear further and further away.
+
+![Make hills saturated](images/challenge2-saturation.png){:width="400px"}
+
+--- /collapse ---
+
+[[[scratch-crosshair]]]
+
+--- /task ---
+
+--- task ---
+
+--- collapse ---
+---
+title: Using the Text tool
+---
+
+Click on the **Fill** colour chooser and select the first colour that you want for your text:
+![Show Fill colour](images/from-me-fill-colour.png){:width="150px"}
+
+Select the **Text** tool:
+![Show Text tool](images/from-me-text-tool.png){:width="150px"}
+
+Click on the Paint editor and start typing.
+
+Click on the drop-down menu and select the font that you want:
+![Show Font](images/from-me-text-font.png){:width="300px"}
+
+Click on the **Select (Arrow)** tool and select your text. Drag the corner handles to resize your text:
+![Show Arrow tool and resize handles](images/from-me-arrow-resize.png){:width="300px"}
+
+Do you want to change the **Fill** colour? Select the **Fill (Bucket)** tool and hover over your text. It will automatically change colour. Click on the text to make the change:
+![Show Fill (bucket) tool](images/from-me-fill-bucket.png){:width="150px"}
+
+If you want each word in your message to be a different colour, size, and font, then follow the process above for each word in your message.
+
+Position your text and/or group of words with the cross hairs in the centre of the Paint editor:
+![Show crosshair](images/from-me-paint-editor-centre.png){:width="400px"}
+
+To layer your words, use the **Forward** and **Backward** tools:
+![Show forward/backward](images/from-me-paint-editor-forward-backward.png){:width="400px"}
+
+--- /collapse ---
+
+--- collapse ---
+---
+
+title: Create a sprite with gaps that you can see through
+
+---
+
+You can view your 3D scene **through** a sprite. If it is positioned as the front layer and is the size of the Stage, it can appear like a view through the bars of a cage or a series of windowpanes.
+
+--- no-print ---
+
+**Caged lion**: [See inside](https://scratch.mit.edu/projects/445680159/editor){:target="_blank"}
+
+![Sprite costume cage](images/challenge2-sprite-costume-mask-cage.gif)
+
+--- /no-print ---
+
+To create a type of masking sprite:
++ Go to **Choose a Sprite** and select **Paint**.
++ Choose a **Fill** colour with no **Outline** and draw a vertical rectangle. 
++ Use the **Copy** and **Paste** tools to repeat this shape. 
++ Use the **Select** tool to move the shapes around.
++ As you place your shapes, make sure that they are touching the edge of the Stage to fit in with your project idea.
+
+![Sprite costume mask copy](images/challenge2-sprite-costume-mask-copy.png)
+
+--- /collapse ---
+
+--- /task ---
+
+**Tip:** If you find it hard to manage the sprites on your Stage, such as having a large sprite that keeps covering a much smaller one, you can click on **Hide** so that you don't see the sprite or sprites. Then, when you have finished, click on **Show** again.
+
+![Hide sprites](images/hideSprites.png){:width="300px"}

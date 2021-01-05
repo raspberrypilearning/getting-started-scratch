@@ -1,72 +1,14 @@
-## Start a new Scratch project
+## The Scratch editor
 
---- task ---
+![Labelled Scratch editor screenshot](images/scratch-interface.png)
 
-Open a new Scratch project. Go to Scratch [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"}
+The **Stage** is where the action takes place in your project. The Stage has one or more background images called **backdrops** 
 
---- /task ---
+**Sprites** are characters and objects which appear on the **Stage**. Sprites are given instructions using Scratch code blocks, this is called programming. 
 
---- task ---
+Drag **Code blocks** from the **Blocks menu** to the **Code area** to program your sprites and the Stage. Code blocks can make a sprite move around, change the way it looks and play sounds. 
 
---- collapse ---
----
+Sprites can have multiple **costumes**. Changing the costume changes the appearance of a sprite, and can be used for effects such as giving the appearance of walking. 
 
-title: Choose a backdrop
+A **script** is a series of blocks that are joined together to give instructions to the stage or sprites. The stage and sprites may each have many different scripts. 
 
----
-
-In the bottom-right corner of the Stage pane, click on **Choose a Backdrop**.
-
-![Image of Choose a Backdrop](images/stage-choose.png)
-
-You can search for a backdrop, or browse for one by category or theme. Click on a backdrop to select it.
-
-![Image of Backdrop Library](images/backdrop.png)
-
---- /collapse --- 
-
---- /task ---
-
---- task ---
-
---- collapse ---
----
-
-title: Choose a sprite
-
----
-
-In the Sprite pane, click **Choose a Sprite** to see the library of all Scratch sprites.
-
-![Image sprite library](images/sprite-library.png)
-
-You can search or browse sprites by theme. Click on a sprite to add it to your project.
-
-![Image sprite library - choose](images/sprite-choose.png)
-
---- /collapse --- 
-
---- /task ---
-
---- task ---
-
---- collapse ---
----
-
-title: How do I name and save my project?
-
----
-
-Go to **File** in the menu. If you have a Scratch account, click on **Save now**. If you do not have an account, click on **Save to your computer**.
-
-Click in the project name box and change the name to match your project. 
-
-![Project name highlighted](images/change-project-name.png)
-
-If you share your project, then other people will also see this name, so make sure that it makes sense. 
-
---- /collapse --- 
-
---- /task ---
-
---- save ---

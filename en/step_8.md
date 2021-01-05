@@ -1,265 +1,231 @@
-## Paint editor
+## Sound
 
-Use the paint editor to create your own backdrops and costumes and also to edit existing backdrops and costumes. 
+You can add sound by using`Sound`{:class="block3sound"} blocks to your project. Create a continuous background soundtrack, or sounds that happen at regular intervals.
 
-![Labelled Costume tab](images/Scratch-Costume-tab.png){:width="600px"}
+![Labelled Sound tab](images/Scratch-Sound-tab.png){:width="600px"}
 
 --- task ---
 
+Begin by selecting a sound from the Sound Library or by recording your own sound.
+
+--- collapse ---
+
+---
+title: Add a sound from the Sound Library
+---
+
+First, select the sprite that you want to have the new sound and select the **Sounds** tab. Each sprite starts with a default sound.
+
+![Sound tab](images/soundTab.png)
+
+To get to the Scratch Sound Library, click the **Choose a Sound** button.
+
+![Choose a sound button](images/chooseASoundButton.png)
+
+Hold your mouse cursor over the play symbol to hear a sound.
+
+![Preview a sound](images/soundPreview.png)
+
+Click on any sound to add it to your sprite. You will be taken straight back to the **Sounds** tab and you will be able to see the sound that you just added.
+
+![Sounds tab with new sound](images/newSoundAdded.png)
+
+If you switch to the **Code** tab and look at the `Sound`{:class="block3sound"} blocks menu, you will be able to select the new sound.
+ 
+![New sound available](images/newSoundBlock.png)
+
+You can also add sounds to the **Stage**. 
+
+--- /collapse ---
+ 
 --- collapse ---
 ---
-
-title: Create a plain backdrop
-
+title: Record a sound
 ---
 
-To make your own backdrop:
-+ Go to the Stage pane and click on **backdrop1**.
+Select the sprite that you want to add recorded sound to. Click on its **Sounds** tab, go to the menu in the bottom left-hand corner, and select **Record**:
+![Show Record](images/from-me-record.png){:width="200px"}
 
-![Select sprite paint](images/challenge2-backdrop-paint.png){:width="400px"}
+To start recording, click the red circle button:
+![Show play Record](images/from-me-start-sound.png){:width="200px"}
 
-+ Click on the **Backdrops** tab.
-+ Choose a **Fill** colour. Click on **Outline** and deselect it (to do this, click on the box with the diagonal line in the bottom left-hand corner of the menu).
-+ Click on the **Rectangle** tool (shown as an outline in the Paint editor) and draw a rectangle, ensuring that you cover all of the Stage. 
+To stop recording, click the red square button:
+![Show stop  Record](images/from-me-stop-sound.png){:width="200px"}
 
-![Select Fill and Outline](images/challenge2-backdrop-fill-outline.gif){:width="400px"}
+You can now **Re-record**, **Play** the recording, and/or **Save** your sound.
 
-Add a horizon line if it fits in with your 3D scenery idea:
-
-![Image of horizon](images/challenge2-backdrop-horizon.png){:width="400px"}
-
-+ Again, in **backdrop1**, select a suitable **Fill** colour with no **Outline**.
-+ Add a **Rectangle** for flat ground or an **Oval** for a hill.
-
-![Create horizon in backdrops](images/challenge2-backdrop-create-horizon.png){:width="400px"}
-
-+ Remember to name your backdrop.
+Name your sound:
+![Show name sound](images/from-me-name-sound.png){:width="300px"}
 
 --- /collapse ---
 
 --- /task ---
 
 --- task ---
-
-Use the Paint editor to edit an existing costume.
-
-<mark>Collapse needed for editing an existing costume to create animation?</mark>
-<mark>See - https://learning-admin.raspberrypi.org/en/projects/interactive-animation/5 - Duplicate and edit a costume to use in an animation</mark>
-
+Add code to run `Sound`{:class="block3sound"} blocks where you want sound in your project.
+  
 --- collapse ---
+
 ---
-title: Use the Fill tool to change the colours in a costume
+title: Add a long sound to create a continuous soundtrack
 ---
+ 
+Click on the green flag to hear the sounds.
 
-Select your sprite under the Stage and then click on **Costumes**. 
+**Radio soundtrack**: [See inside](https://scratch.mit.edu/projects/444581851/editor){:target="_blank"}
+ 
+<div class="scratch-preview">
+ <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/444581851/?autostart=false" frameborder="0"></iframe>
+</div>
+ 
+To make a sound play continuously, use a `play sound until done`{:class="block3sound"} block inside a `forever`{:class="block3control"} loop. Once the sound has finished, the `forever`{:class="block3control"} loop makes the sound start again from the beginning.
 
-Change the colour of your sprite. Click on the second sprite in the Sprite menu. Then select its **Costumes** tab.
+This example uses a single long sound clip repeated as a soundtrack.
+ 
+```blocks3
+when green flag clicked
+forever
+play sound (Dance Snare Beat v) until done
+end
+```
 
-Use the **Arrow** tool to highlight whichever part of the costume you want to change colour.
+**Note:** When you choose a new sound, if you select the **Loops** category, Scratch will only show you the sounds that are suitable for a single looping soundtrack.
 
-![Image showing Arrow tool in Paint editor](images/challenge1-arrow-tool.png){:width="200px"}
+![Loop sounds](images/loopSounds.png)
 
-![Image showing Arrow tool selecting shape](images/challenge1-arrow-tool-selecting-shape.png){:width="300px"}
+--- /collapse ---
+ 
+--- collapse ---
 
-Go to the **Fill** tool and select the colour. It will automatically fill the shape that you have selected.
+---
+title: Add a sequence of short sounds to create a continuous soundtrack
+---
+  
+Click on the green flag to hear the sounds. 
 
-![Image showing Fill tool in Paint editor](images/challenge1-fill-tool.png){:width="300px"}
+**Champ performance**: [See inside](https://scratch.mit.edu/projects/444673165/editor){:target="_blank"}
+ 
+<div class="scratch-preview">
+ <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/444673165/?autostart=false" frameborder="0"></iframe>
+</div>
 
-Repeat the steps above with any part of the costume you have missed or for any other part of the costume you want to change the colour of.
+Select a `forever`{:class="block3control"} block to create a looped sound. Select some sounds that you like and/or experiment. You can either:
++ Create a series of short sounds in a sequence, or 
++ Use different instrument notes and effects to compose a soundtrack
+ 
+```blocks3
+when flag clicked
+forever
+play sound (Low Boing v) until done
+play sound (Low Boing v) until done
+play sound (Drum Buzz v) until done
+play sound (Pop v) until done
+play sound (Bird v) until done
+play sound (Bark v) until done
+play sound (Glug v) until done
+End
+```
+  
+--- /collapse ---
+ 
+--- collapse ---
 
-![Image showing shape colour changing](images/challenge1-select-another-shape.png){:width="300px"}
+---
+title: Add sounds that play at regular intervals
+---
+ 
+**Football sounds**: [See inside](https://scratch.mit.edu/projects/450870079/editor){:target="_blank"}
+ 
+Click on the green flag to hear the sounds. 
 
-![Image showing shape colour changing](images/challenge1-change-shape-colour.png){:width="300px"}
+<div class="scratch-preview">
+ <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/450870079/?autostart=false" frameborder="0"></iframe>
+</div>
+ 
+ In this project, the **Stage** has code to play a sound at regular intervals:
 
-![Image showing final change](images/challenge1-change-costume-colour.png){:width="300px"}
+ ```blocks3
+ when flag clicked
+ forever
+ wait (3) seconds
+ play sound (Cheer v) until done
+ end
+ ```
+
+The **Whistle** sprite also plays a sound at regular intervals:
+
+ ```blocks3
+ when this sprite clicked
+ forever
+ play sound (referee whistle v) until done
+ wait (4) seconds
+ end
+ ```
 
 --- /collapse ---
 
+--- collapse ---
+
+---
+title: Start multiple sounds to play at the same time
+---
+
+There are two `Sound`{:class="block3sound"} blocks with an important difference:
+
++ When you `play sound until done`{:class="block3sound"}, the sound will play all the way through. The next line of code in the script will not run until the sound has finished playing.
+
++ When you `start sound`{:class="block3sound"}, the sound will play but the next block will run immediately and will not wait for the sound to finish playing first.
+
+This means that if you had a series of `start sound`{:class="block3sound"} blocks, the sounds would all play almost at the same time, layered on top of each other. The effect can be interesting and sometimes messy.
+
+Have a play with it sometime!
+
+```blocks3
+when green flag clicked
+start sound (meow v)
+start sound (alien Creak2 v)
+start sound (Boing v)
+start sound (Boom Cloud v)
+start sound (Baa v)
+```
+
+--- /collapse ---
+ 
 --- /task ---
 
 --- task ---
 
-Use the Paint editor tips below to create your own designs for your sprites.
+Once you have chosen your sounds, you may want to change the `volume`{:class="block3sound"}, `pitch`{:class="block3sound"}, or `pan`{:class="block3sound"} (so you hear the sound from the left or the right speakers).
 
 --- collapse ---
----
-
-title: Create scenery as sprites
 
 ---
-
-**Hill as a sprite**: [See inside](https://scratch.mit.edu/projects/452582516/editor){:target="_blank"}
-
-![Hills image](images/challenge2-sprite-hill.png){:width="400px"}
-
-To make your own **Hill** sprite, shown in the example above, you can use the **Circle** and **Rectangle** tools in the Paint editor:
-
-+ Go to **Choose a Sprite** and select **Paint** to create a new sprite costume.
-
-![Make a hill as one sprite costumes](images/challenge2-backdrop-sprite-costume.gif){:width="400px"}
-
-+ Choose a **Fill** colour. Click on **Outline** and deselect it (to do this, click on the box with the diagonal line in the bottom left-hand corner of the menu). Now, draw an oval using the **Circle** tool. Then, select the **Rectangle** tool to draw a rectangle underneath the oval.
-
-+ If you use varying colours for the shapes, you may need to use the **Front** and **Back** tools in the Paint editor to move your shapes forward or backward so that they are positioned correctly within your background.
-
-+ You can select all the shapes and **Group** them together so that you can adjust them or move them as one shape.
-
-![Group shapes](images/challenge2-group-shapes.png){:width="400px"}
-
-+ Now, make other sprites for your scenery, if this fits in with your project idea.
-
-+ Remember to name your sprite(s).
-
---- /collapse ---
-
---- collapse ---
+title: Volume, pitch, and pan
 ---
 
-title: Use the Line tool to create a triangle
+Click on the green flag to hear the sounds. 
 
----
+**Band practice**: [See inside](https://scratch.mit.edu/projects/451697380/editor){:target="_blank"}
 
-You can create polygons such as a triangle and use these shapes to create roofs or mountains.
+<div class="scratch-preview">
+ <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451697380/?autostart=false" frameborder="0"></iframe>
+</div>
 
-Go to **Choose a Sprite** and select **Paint** to create a new sprite costume. In this example, you will make houses.
+The **Drums** sprite uses `volume`{:class="block3sound"} and `sound effects`{:class="block3sound"} to change the `sound`{:class="block3sound"}:
 
-**House**: [See inside](https://scratch.mit.edu/projects/453595663/editor){:target="_blank"}
+```blocks3
+set volume to (80) %
+set [pitch v] effect to (50) :: sound
+set [pan left/right v] effect to (-100) :: sound
+play sound (Drum Funky v) until done
+```
 
-![Make houses as one sprite costumes](images/challenge2-backdrop-sprite-costumes-line-tool.gif){:width="400px"}
++ You can `set volume to`{:class="block3sound"} a value from `0` (silent) to `100` (full volume). This is useful if you want some sounds to play louder than others, or if you want a sprite to appear further away.
 
-If you follow the instructions below, you can use the **Line** tool to create any shape:
-+ Choose a **Fill** colour. To choose the colour black, decrease the **Brightness** to zero (0).
++ The `pitch`{:class="block3sound"} effect controls how high or low a sound is. Setting the pitch to a higher value also makes a sound faster. You can `set pitch effect to`{:class="block3sound"} values between `-360` (very low) and `360` (very high).
 
-![Colour to black](images/challenge2-black.png){:width="150px"}
-
-+ Select **No outline**.
-
-![No outline to black](images/challenge2-nooutline.png){:width="200x"}
-
-+ Use the **Rectangle** tool to draw a rectangle.
-+ Use the **Line** tool to draw a triangle. Make sure that you complete the triangle, otherwise it will not fill with colour.
-+ Move the two shapes together.
-+ Select the **Fill (Bucket)** tool and fill the triangle with colour.
-+ Use the **Rectangle** tool to draw another rectangle for the chimney.
-+ You can use the **Front** and **Back** tools in the Paint editor to move your shapes forward or backward so that they are positioned correctly. In this example, you will not need to do this because the shapes are black for the silhouette.
-+ Select all the shapes and **Group** them together so that you can adjust them or move them as one shape.
-
-To create duplicate shapes of your house (for example, to make a skyline), follow the **Information** under 'Duplicate shapes to create a scenery costume' below.
-
---- /collapse ---
-
---- collapse ---
----
-
-title: Duplicate shapes to create a scenery costume
-
----
-
-In your 3D scene, you may want to duplicate shapes within a costume so that your scenery appears busier or more crowded.
-
-**Multiple clouds**: [See inside](https://scratch.mit.edu/projects/447278432/editor){:target="_blank"}
-
-![Multiple cloud shapes](images/challenge2-sprite-costume-multiples.png){:width="400px"}
-
-The effect of multiplying shapes is used by professional animators to create the impression of weather patterns such as rain or clouds, a cluster of objects such as buildings or a wood, as well as a crowd of people in a scene.
-
---- no-print ---
-
-![Costume with multiple cloud shapes](images/challenge2-sprite-costume-multiples.gif)
-
---- /no-print ---
-
-To multiply any type of shape:
-+ Go to **Choose a Sprite** and select, in this example, the **Cloud** sprite.
-+ In the **Costumes** tab, use the **Select** tool to highlight the whole of the shape.
-+ Use the **Copy** and **Paste** tools to create duplicates of the shape.
-+ Use the **Select** tool to move the shape within the Stage.
-+ You can vary the size of the shapes to help to create a greater sense of 3D effects.
-+ You can select all the shapes and **Group** them together so that you can adjust them or move them as one shape.
-
---- /collapse ---
-
---- collapse ---
----
-
-title: Use Saturation and Brightness to create depth
-
----
-
-In the real world, objects that are further away appear lighter in colour. To achieve more realistic 3D scenery, you can **decrease** the colour **Saturation** and/or **Brightness** of each sprite so that they appear further and further away.
-
-![Make hills saturated](images/challenge2-saturation.png){:width="400px"}
-
---- /collapse ---
-
-[[[scratch-crosshair]]]
-
---- /task ---
-
---- task ---
-
---- collapse ---
----
-title: Using the Text tool
----
-
-Click on the **Fill** colour chooser and select the first colour that you want for your text:
-![Show Fill colour](images/from-me-fill-colour.png){:width="150px"}
-
-Select the **Text** tool:
-![Show Text tool](images/from-me-text-tool.png){:width="150px"}
-
-Click on the Paint editor and start typing.
-
-Click on the drop-down menu and select the font that you want:
-![Show Font](images/from-me-text-font.png){:width="300px"}
-
-Click on the **Select (Arrow)** tool and select your text. Drag the corner handles to resize your text:
-![Show Arrow tool and resize handles](images/from-me-arrow-resize.png){:width="300px"}
-
-Do you want to change the **Fill** colour? Select the **Fill (Bucket)** tool and hover over your text. It will automatically change colour. Click on the text to make the change:
-![Show Fill (bucket) tool](images/from-me-fill-bucket.png){:width="150px"}
-
-If you want each word in your message to be a different colour, size, and font, then follow the process above for each word in your message.
-
-Position your text and/or group of words with the cross hairs in the centre of the Paint editor:
-![Show crosshair](images/from-me-paint-editor-centre.png){:width="400px"}
-
-To layer your words, use the **Forward** and **Backward** tools:
-![Show forward/backward](images/from-me-paint-editor-forward-backward.png){:width="400px"}
-
---- /collapse ---
-
---- collapse ---
----
-
-title: Create a sprite with gaps that you can see through
-
----
-
-You can view your 3D scene **through** a sprite. If it is positioned as the front layer and is the size of the Stage, it can appear like a view through the bars of a cage or a series of windowpanes.
-
---- no-print ---
-
-**Caged lion**: [See inside](https://scratch.mit.edu/projects/445680159/editor){:target="_blank"}
-
-![Sprite costume cage](images/challenge2-sprite-costume-mask-cage.gif)
-
---- /no-print ---
-
-To create a type of masking sprite:
-+ Go to **Choose a Sprite** and select **Paint**.
-+ Choose a **Fill** colour with no **Outline** and draw a vertical rectangle. 
-+ Use the **Copy** and **Paste** tools to repeat this shape. 
-+ Use the **Select** tool to move the shapes around.
-+ As you place your shapes, make sure that they are touching the edge of the Stage to fit in with your project idea.
-
-![Sprite costume mask copy](images/challenge2-sprite-costume-mask-copy.png)
++ The `pan left/right`{:class="block3sound"} effect allows you to control whether a sound comes out of a left- or right-hand speaker or headphone or both. You can `set pan left/right effect to`{:class="block3sound"} values from `-100` (all sound from the left) to `100` (all sound from the right).
 
 --- /collapse ---
 
 --- /task ---
-
-**Tip:** If you find it hard to manage the sprites on your Stage, such as having a large sprite that keeps covering a much smaller one, you can click on **Hide** so that you don't see the sprite or sprites. Then, when you have finished, click on **Show** again.
-
-![Hide sprites](images/hideSprites.png){:width="300px"}

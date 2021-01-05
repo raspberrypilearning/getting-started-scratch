@@ -9,15 +9,13 @@ steps:
   - title: Introduction
   - title: Set up Scratch
   - title: Set up a Scratch online account
-  - title: Start a new Scratch project
   - title: The Scratch editor
-  - title: Blocks
-  - title: Useful code
-  - title: Paint editor
+  - title: Your first Scratch project
   - title: Motion
   - title: Looks
   - title: Sound
   - title: Variables
+  - title: Paint editor
   - title: Debug
   - title: Duplicate sprites and copy code
   - title: Sharing and commenting
