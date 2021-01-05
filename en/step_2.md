@@ -1,4 +1,4 @@
-## Run Scratch
+## Set up Scratch
 You can use Scratch on a laptop or desktop computer or on a tablet. You can also use Scratch on a Raspberry Pi Computer.
 
 --- task ---
@@ -24,7 +24,7 @@ title: Scratch on Raspberry Pi
 
 If you are using a Raspberry Pi computer then you may already have Scratch installed. Click on the Raspberry menu and then 'Programming' and choose Scratch 3.
 
-If you need to install Scratch then click on the Raspberry menu and then choose 'Preferences -> Recommended Software' and then select 'Scratch 3' and click on 'OK'.
+If you need to install Scratch then click on the Raspberry menu and then choose 'Preferences > Recommended Software' and then select 'Scratch 3' and click on 'OK'.
 
 ![Recommended Software Scratch 3](images/recommended-software-scratch3.png)
 
@@ -49,6 +49,7 @@ Click or tap on the title of a browser tab to switch between the Scratch editor 
 --- /collapse ---
 
 --- collapse ---
+
 If your screen is big enough then you can have Scratch side by side with project instructions. 
 
 On Windows 10, drag the Scratch tab in your web browser so that it is in a separate Window. Then hold the 'Windows' key and tap the 'light arrow' key. This will make Scratch appear in a window in the right half of your screen.
