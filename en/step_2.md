@@ -49,6 +49,9 @@ Click or tap on the title of a browser tab to switch between the Scratch editor 
 --- /collapse ---
 
 --- collapse ---
+--- 
+title: Side by side instructions and Scratch
+---
 
 If your screen is big enough then you can have Scratch side by side with project instructions. 
 
