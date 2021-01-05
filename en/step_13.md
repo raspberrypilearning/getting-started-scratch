@@ -14,6 +14,8 @@ A set of blocks can be tested on their own by dragging them away from their **co
 
 * Slow down the **execution** of your code when it's run by adding a temporary `wait`{:class="block3control"} or `wait until key pressed`{:class="block3control"} block.
 
+* It might take a few experiments to your project to work in the way you planned.
+
 --- task ---
 
 --- collapse ---
@@ -42,9 +44,5 @@ title: Debugging tips
 --- /task ---
 
 --- task ---
-
-**Tip**: Keep running your project to test your new code. Is it running as you imagined?
-
-**Tip**: It might take a few experiments to get the sprite's to behave the way you planned.
 
 --- /task ---
