@@ -4,15 +4,15 @@
 
 * It's easier to identify issues if you make one change at a time and then run your program.
 
-You don't have to run a whole program just to check whether the last few newly added blocks work. 
+* You don't have to run a whole program to check whether the last few new blocks you have added work. 
 
-* Click on a block in the **Code editor** to run the block - it's a quick way to check the block is working as you expect it to.
+Click on a block in the **Code editor** to run it - it's a quick way to check the block is working as you expect it to.
 
-A set of blocks in a script can be dragged from  they **containing** script and clicked, allowing them to be tested in isolation. They can then be dragged back into the main script once they have been tested.
+A set of blocks can be tested on their own by dragging them away from their **containing** script, tested by clicking on them, and then dragged back to the main script.
 
-Add comments to blocks, sets of blocks and/or scripts using everyday language stating what the purpose of the code it i.e. what does it 'do'.
+* Add comments to blocks, sets of blocks and/or scripts. Use everyday language to explain what the purpose of the code is i.e. what does it 'do'.
 
-You can slow down the execution of your code when it's run by adding a temporary `wait`{:class="block3control"} or `wait until key pressed`{:class="block3control"} block.
+* Slow down the **execution** of your code when it's run by adding a temporary `wait`{:class="block3control"} or `wait until key pressed`{:class="block3control"} block.
 
 --- task ---
 
