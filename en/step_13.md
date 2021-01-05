@@ -2,11 +2,11 @@
 
 **Debugging** is finding and fixing mistakes in your code that are called **bugs**.
 
-**Tip:** It's easier to identify issues if you make one change at a time and then run your program.
+* It's easier to identify issues if you make one change at a time and then run your program.
 
-You don't have to run a whole program just to check whether the last few newly added blocks work as expected. 
+You don't have to run a whole program just to check whether the last few newly added blocks work. 
 
-Clicking on a block in the **Code editor** will runthe block - it's quick way to check the block will work as you expect it to.
+* Click on a block in the **Code editor** to run the block - it's a quick way to check the block is working as you expect it to.
 
 A set of blocks in a script can be dragged from  they **containing** script and clicked, allowing them to be tested in isolation. They can then be dragged back into the main script once they have been tested.
 
