@@ -8,4 +8,15 @@ You can share your projects and receive feedback as well as comment on projects 
 
 [[[create-scratch-account]]]
 
+If you are an educator then you can set up teacher and student accounts. 
+
+--- collapse ---
+---
+title: Scratch Teacher accounts
+---
+
+Please see the [Scratch Teacher account FAQ](https://scratch.mit.edu/educators/faq){:target="_blank"} for information on setting up an account that gives educators additional features for managing student participation on Scratch.
+
+--- /collapse ---
+
 --- /task ---
