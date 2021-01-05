@@ -8,7 +8,7 @@ Open a web browser on your computer or tablet and visit [rpf.io/scratch-new](htt
 
 --- collapse ---
 ---
-title: Working offline (without an internet connection)
+title: Working offline without an internet connection
 ---
 
 If you need to work offline (without an internet connection) then you can [download Scratch](https://scratch.mit.edu/download){:target="_blank"} and install it on a computer. 
