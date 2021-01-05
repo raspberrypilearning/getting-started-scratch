@@ -1,22 +1,16 @@
-## Important words
+## Getting started with Scratch
 
---- task ---
+It's useful to know your way around the Scratch editor.  
 
-**Sprites** are characters and objects that appear on the stage which can be controlled by Scratch blocks, including being moved.
+![Scratch resize code blocks](images/zoom-code-area.png)
 
-Sprites may have multiple **costumes**. Changing the costume changes the appearance of a sprite, and can be used for effects such as giving the appearance of walking.
+The **Stage** is where the action takes place in your project. The Stage has one or more background images called **backdrops** 
 
-The **Stage** is the area where the sprites are active in Scratch. The Stage can have backdrops and can be controlled using Scratch blocks but the Stage cannot move.
+**Sprites** are characters and objects which appear on the **Stage**. Sprites are given instructions using Scratch code blocks, this is called programming. 
 
-**Backdrop**. The stage can have a backdrop or even mulitple backdrops. Changing the backdrop can be used for effects such as changing the location in a story, or moving onto a new level of a game.
+Drag **Code blocks** from the **Blocks menu** to the **Code area** to program your sprites and the Stage. Code blocks can make a sprite move around, change the way it looks and play sounds. 
 
-**code** is made up of Scratch blocks that give instructions to the sprites and the stage to perform a certain function, such as moving around the stage. 
+Sprites can have multiple **costumes**. Changing the costume changes the appearance of a sprite, and can be used for effects such as giving the appearance of walking. 
 
-<mark>
-Repeated in Blocks step...
-**Blocks** refer to the visual code blocks that are put together in Scratch to give instructions to the stage and the sprites.
+A **script** is a series of blocks that are joined together to give instructions to the stage or sprites. The stage and sprites may each have many different scripts. 
 
-A **script** is a series of blocks that are joined together to give instructions to the stage or sprites. The stage and sprites may each have many different scripts.
-</mark>
-
---- /task ---
