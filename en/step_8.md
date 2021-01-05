@@ -44,6 +44,7 @@ Add a horizon line if it fits in with your 3D scenery idea:
 Use the Paint editor to edit an existing costume.
 
 <mark>Collapse needed for editing an existing costume to create animation?</mark>
+<mark>See - https://learning-admin.raspberrypi.org/en/projects/interactive-animation/5 - Duplicate and edit a costume to use in an animation</mark>
 
 --- collapse ---
 ---
