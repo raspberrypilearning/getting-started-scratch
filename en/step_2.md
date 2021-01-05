@@ -59,7 +59,6 @@ You can resize the windows to get them just the way you want.
 
 ![Side by side instructions and Scratch](images/side-by-side.png)
 
-
 --- /collapse ---
 
 Try it now and see how you prefer to work.
