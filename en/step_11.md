@@ -2,7 +2,7 @@
 
 You can add sound by using`Sound`{:class="block3sound"} blocks to your project. Create a continuous background soundtrack, or sounds that happen at regular intervals.
 
-![Labelled Costume tab](images/Scratch-Sound-tab.png){:width="600px"}
+![Labelled Sound tab](images/Scratch-Sound-tab.png){:width="600px"}
 
 --- task ---
 
