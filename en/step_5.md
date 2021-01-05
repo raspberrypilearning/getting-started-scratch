@@ -1,6 +1,6 @@
 ## Your first Scratch project
 
-![Scratch editor with key features labelled](images/scratch-feature.png)
+![Scratch editor with key features labelled](images/scratch-features.png)
 
 --- task ---
 When you create a new Scratch project it includes a cat sprite. 
