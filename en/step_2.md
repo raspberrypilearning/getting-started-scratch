@@ -70,13 +70,21 @@ Try it now and see how you prefer to work.
 --- /task ---
 
 --- task ---
+
 When you are using Scratch in a web browser you can zoom in or out to adjust the size. 
 
 To zoom on Windows in google Chrome or Microsoft Edge, hold down the 'Ctrl' key and tap '+' or '-'.
 
+--- collapse ---
+---
+title: Zooming in the code area
+---
+
 You can also use the zoom controls on the Scratch coding area to just change the size of the coding blocks.
 
 ![Scratch resize code blocks](images/zoom-code-area.png)
+
+--- /collapse ---
 
 --- /task ---
 
