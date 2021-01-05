@@ -36,8 +36,6 @@ You can add more sprites to your project and you can also add a backdrop.
 
 --- task ---
 
---- task ---
-
 --- collapse ---
 ---
 
@@ -57,6 +55,7 @@ You can search or browse sprites by theme. Click on a sprite to add it to your p
 
 --- /task ---
 
+--- task ---
 
 --- collapse ---
 ---
