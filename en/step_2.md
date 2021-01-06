@@ -55,13 +55,15 @@ title: Side by side instructions and Scratch
 
 If your screen is big enough then you can have Scratch side by side with project instructions. 
 
-On Windows 10, drag the Scratch tab in your web browser so that it is in a separate Window. Then hold the 'Windows' key and tap the 'light arrow' key. This will make Scratch appear in a window in the right half of your screen.
+![Side by side instructions and Scratch](images/side-by-side.png)
 
-Now click on your project instructions window and hold the 'Windows' key and tap the 'left arrow' key. 
+On Windows 10, drag the Scratch tab in your web browser so that it is in a separate Window, keep dragging until the cursor reaches the right of your screen, the window will then be positioned on the right hand side of the screen. 
+
+Now drag the window containing this guide, or your project instructions to the left of your screen until the cursor reaches the left edge, the window will take up the left half of your screen.
 
 You can resize the windows to get them just the way you want.
 
-![Side by side instructions and Scratch](images/side-by-side.png)
+**Tip:** You can also hold the 'Windows' key and tap the 'left arrow' or 'right arrow' key to position a window on the left or right half of your screen.
 
 --- /collapse ---
 
