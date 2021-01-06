@@ -6,28 +6,61 @@
 
 * It might take a few experiments to your project to work in the way you planned.
 
-<mark>The below could be a collaspe 'How to quickly check your code is working'.</mark>
+Here are some tips that can help you to debug a project when it isn't doing what you want it to do:
 
-You don't have to run a whole program to check whether the last few new blocks you have added work. 
+--- collapse ---
+---
+title: Run smaller pieces of code
+---
+
+You don't have to run a whole program to check whether the last few new blocks you have added work 
 
 * Click on a block in the **Code editor** to run it - it's a quick way to check a block is working as you expect it to.
 
 * A set of blocks can be tested on their own by dragging them away from their **containing** script, tested by clicking on them, and then dragged back to the main script.
 
-<mark>The below could be a collaspe 'How to quickly check your code is working'.</mark>
+--- /collapse ---
 
-<mark>We haven't shown how to add comments. This could be added to as a collapse in the Invent project. 'How to add comments to your program.'</mark>
-
-* Add comments to blocks, sets of blocks and/or scripts. Use everyday language to explain what the purpose of the code is i.e. what does it 'do'. Comments can be useful for you when coming back to a program or for other wanting to understand your program.
+--- collapse ---
+---
+title: Add temporary delays
+---
 
 * Slow down the **execution** of your code when it's run by adding a temporary `wait`{:class="block3control"} or `wait until key pressed`{:class="block3control"} block.
 
---- task ---
+--- /collapse ---
+
+--- collapse ---
+--- 
+title: Show variables on the stage
+---
+
+If your project uses variables to store data then it can be helpful to show those variables on the stage. 
+
+Click on the checkbox next to a variable in the Variables menu to show or hide it on the stage. 
+
+Does the variable always have the value that you expect?
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Add comments
+---
+
+Add comments to blocks, sets of blocks and/or scripts. Use everyday language to explain what the code does. Sometimes this will make you realise that your code doesn't actually do what you want it to do!
+
+Comments are useful for when you want to understand your code later and they help others to understand your projects.
+
+--- /collapse ---
+
+
+There are common problems that lots of beginners (and experts!) experience in Scratch. 
 
 --- collapse ---
 ---
 
-title: Debugging tips
+title: Debugging tips for specific problems
 
 ---
 
@@ -47,4 +80,5 @@ title: Debugging tips
 
 --- /collapse ---
 
---- /task ---
+**Tip**: If you can't find the problem after trying these techniques then take a break or work on a different part of your project. When you come back you might find the bug straight away!
+
