@@ -4,17 +4,23 @@
 
 * It's easier to identify issues if you make one change at a time and then run your program.
 
-* You don't have to run a whole program to check whether the last few new blocks you have added work. 
+* It might take a few experiments to your project to work in the way you planned.
 
-Click on a block in the **Code editor** to run it - it's a quick way to check the block is working as you expect it to.
+<mark>The below could be a collaspe 'How to quickly check your code is working'.</mark>
 
-A set of blocks can be tested on their own by dragging them away from their **containing** script, tested by clicking on them, and then dragged back to the main script.
+You don't have to run a whole program to check whether the last few new blocks you have added work. 
 
-* Add comments to blocks, sets of blocks and/or scripts. Use everyday language to explain what the purpose of the code is i.e. what does it 'do'.
+* Click on a block in the **Code editor** to run it - it's a quick way to check a block is working as you expect it to.
+
+* A set of blocks can be tested on their own by dragging them away from their **containing** script, tested by clicking on them, and then dragged back to the main script.
+
+<mark>The below could be a collaspe 'How to quickly check your code is working'.</mark>
+
+<mark>We haven't shown how to add comments. This could be added to as a collapse in the Invent project. 'How to add comments to your program.'</mark>
+
+* Add comments to blocks, sets of blocks and/or scripts. Use everyday language to explain what the purpose of the code is i.e. what does it 'do'. Comments can be useful for you when coming back to a program or for other wanting to understand your program.
 
 * Slow down the **execution** of your code when it's run by adding a temporary `wait`{:class="block3control"} or `wait until key pressed`{:class="block3control"} block.
-
-* It might take a few experiments to your project to work in the way you planned.
 
 --- task ---
 
