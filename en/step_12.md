@@ -1,12 +1,24 @@
 ## Duplicate sprites and copy code
 
-Choose one of these three methods to copy code:
+Choose one of these four methods to copy code:
 
 --- task ---
 
-Duplicate your first sprite if you want multiples of the same sprite
+Duplicate blocks or sets of blocks to reuse in a sprite's program:
 
---- collapse ---
+<mark>the below task could be turned into a collapse and introduced in one of the Design projects</mark>
+
+* Go to the **Code** tab.
+* Right-click on the first block you want to copy (or if you are using a tablet, tap and hold). It will copy all the blocks below it as well.
+* Select 'Duplicate' from the dropdown options.
+![Image select duplicate](images/scratchguide-duplicate){:width="400px"}
+* Drag the duplicated code where you want it to go.
+![Image select duplicate](images/scratchguide-drag){:width="400px"}
+* Delete any blocks you don't require.
+
+ Duplicate your first sprite if you want multiples of the same sprite:
+ 
+  --- collapse ---
 ---
 
 title: Duplicate a sprite
@@ -29,7 +41,7 @@ Your second sprite has exactly the same code as your first sprite. Do not run th
 
 --- /collapse ---
 
-Create a new sprite and copy over all or some of the first sprite's code 
+Create a new sprite and copy over all or some of the first sprite's code:
 
 --- collapse ---
 ---
