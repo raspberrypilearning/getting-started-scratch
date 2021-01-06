@@ -10,7 +10,7 @@ Duplicate blocks or sets of blocks to reuse in a sprite's program:
 
 * Go to the **Code** tab.
 * Right-click on the first block you want to copy (or if you are using a tablet, tap and hold). It will copy all the blocks below it as well.
-* Select 'Duplicate' from the dropdown options.
+* Select **Duplicate** from the dropdown options.
 ![Image select duplicate](images/scratchguide-duplicate.png){:width="300px"}
 * Drag the duplicated code where you want it to go.
 ![Image select duplicate](images/scratchguide-drag.png){:width="300px"}
