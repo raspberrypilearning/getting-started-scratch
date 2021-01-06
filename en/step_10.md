@@ -41,10 +41,36 @@ Add a horizon line if it fits in with your 3D scenery idea:
 
 --- task ---
 
-Use the Paint editor to edit an existing costume.
+--- collapse ---
+---
+title: Duplicate and edit a costume to use in an animation
+---
 
-<mark>Collapse needed for editing an existing costume to create animation?</mark>
-<mark>See - https://learning-admin.raspberrypi.org/en/projects/interactive-animation/5 - Duplicate and edit a costume to use in an animation</mark>
+Some Scratch sprites just have one costume or have multiple sprites that don't work as an animation. If you choose one costume, then duplicate it and make a small change, it can create an animation effect. 
+
+**Robot animation**: [See inside](https://scratch.mit.edu/projects/436260207/editor){:target="_blank"}
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/436260207/?autostart=false" frameborder="0"></iframe>
+</div>
+
+Switch to the **Costumes** tab for your sprite. 
+
+The **Robot** sprite comes with costumes for three different robots and you only want to use one of them. Delete any costumes that you will not use in your animation. 
+
+Right-click on the costume, and choose **Duplicate**. 
+
+Make small changes to the costume, you could move, rotate, or change all or part of the costume. Alternatively, you could add movement lines. 
+
+If your costume uses vector graphics, then you can select parts of a costume to change. 
+
+![Animated gif showing changes to Robot costume](images/edit-robot-costume.gif)
+
+You can duplicate the costume again and make more changes to add more frames to your animation.
+
+You can now use your costumes in a simple sprite animation.
+
+--- /collapse ---
 
 --- collapse ---
 ---
