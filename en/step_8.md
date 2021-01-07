@@ -195,7 +195,7 @@ start sound (Baa v)
 
 --- task ---
 
-Once you have chosen your sounds, you may want to change the `volume`{:class="block3sound"}, `pitch`{:class="block3sound"}, or `pan`{:class="block3sound"} (so you hear the sound from the left or the right speakers).
+Once you have chosen your sounds, you may want to change the volume, pitch, or pan (so you hear the sound from the left- or right-hand speaker).
 
 --- collapse ---
 
