@@ -6,7 +6,7 @@ You can add sound by using `Sound`{:class="block3sound"} blocks to your project.
 
 --- task ---
 
-Begin by selecting a sound from the Sound Library or by recording your own sound.
+First, select a sound from the Sound Library, or record your own sound.
 
 --- collapse ---
 
