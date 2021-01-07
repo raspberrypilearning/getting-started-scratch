@@ -1,6 +1,6 @@
 ## Paint editor
 
-Use the paint editor to create your own backdrops and costumes and also to edit existing backdrops and costumes. 
+Use the Paint editor to create your own backdrops and costumes, and to edit existing backdrops and costumes. 
 
 ![Labelled Costume tab](images/Scratch-Costume-tab.png){:width="600px"}
 
@@ -226,7 +226,7 @@ In the real world, objects that are further away appear lighter in colour. To ac
 
 --- collapse ---
 ---
-title: Using the Text tool
+title: Use the Text tool
 ---
 
 Click on the **Fill** colour chooser and select the first colour that you want for your text:
