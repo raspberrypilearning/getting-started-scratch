@@ -2,7 +2,7 @@
 
 --- task ---
 
-`Motion`{:class="block3motion"} blocks allow you to move your sprite so it can bounce and/or spin around the Stage. See some of ways in which you can get your sprite moving:
+`Motion`{:class="block3motion"} blocks allow you to move your sprite so that it can bounce and/or spin around the Stage. See some of the ways in which you can get your sprite to move:
 
 --- collapse ---
 ---
@@ -24,7 +24,7 @@ if on edge, bounce
 --- collapse ---
 ---
 
-title: Bounce on edge of the Stage
+title: Bounce on the edge of the Stage
 
 ---
 --- no-print ---
@@ -50,7 +50,7 @@ if on edge, bounce
 
 The `point in direction`{:class="block3motion"} block automatically points your sprite to the right (`90` degrees) when the green flag is clicked. If you change the number of degrees to `-90`, your sprite will point left.
 
-Add a `set rotation  style`{:class="block3motion"} block and select the drop-down `left-right`{:class="block3motion"} so your sprite won't flip upside down when it bounces off the edge of the Stage.  
+Add a `set rotation style`{:class="block3motion"} block and select the drop-down `left-right`{:class="block3motion"} so your sprite won't flip upside down when it bounces off the edge of the Stage.  
 
 **Tip:** You can drag your sprite on the Stage to move it to the y (up-down) position that you want.
 
@@ -85,7 +85,7 @@ if on edge, bounce
 
 Change the number of degrees in the `point in direction`{:class="block3motion"} block to `0` to make a sprite point upwards when the green flag is clicked.
 
-Add a `set rotation  style`{:class="block3motion"} block and select the drop-down `don't rotate`{:class="block3motion"} block to stop your sprite rotating, even when it bounces.
+Add a `set rotation style`{:class="block3motion"} block and select the drop-down `don't rotate`{:class="block3motion"} block to stop your sprite rotating, even when it bounces.
 
 **Tip:** You can drag your sprite around the Stage to move it to the x (left-right) position that you want.
 
@@ -121,7 +121,7 @@ if on edge, bounce
 
 If your sprite moves at `45` degrees, you will find it appears to bounces off the edge of the Stage in a random direction. Change the number of degrees in the `point in direction`{:class="block3motion"} block to `45` to make a sprite bounce all around.
 
-Add a `set rotation  style`{:class="block3motion"} block and select the drop-down `all around`{:class="block3motion"} block, so your sprite will turn when it bounces off the edge of the Stage.  
+Add a `set rotation style`{:class="block3motion"} block and select the drop-down `all around`{:class="block3motion"} block, so your sprite will turn when it bounces off the edge of the Stage.  
 
 --- /collapse ---
 
