@@ -1,6 +1,6 @@
 ## Looks
 
-Add code to your sprites to change the way they look.
+Add code to your sprites to change the way that they look.
 
 --- task ---
 
@@ -8,7 +8,7 @@ Set the size and/or effect for your sprites.
 
 --- collapse ---
 ---
-title: Set size of your sprite
+title: Set the size of your sprite
 ---
 
 When you add a sprite to your project its size is set to `100` percent. This may be too big or too small for your project. 
@@ -227,7 +227,7 @@ Change how your sprites appear in relation to each other using layers.
 --- collapse ---
 ---
 
-title: Layering sprites
+title: Layer sprites
 
 ---
 There are two ways to create layering.
