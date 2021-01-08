@@ -35,9 +35,9 @@ title: Add temporary delays
 title: Show variables on the Stage
 ---
 
-If your project uses variables to store data, then it can be helpful to show those variables on the Stage. 
+If your project uses `variables`{:class="block3variables"} to store data, then it can be helpful to show those `variables`{:class="block3variables"} on the Stage. 
 
-Click on the checkbox next to a variable in the `Variables`{:class="block3variables"} blocks menu to show or hide it on the Stage. 
+Click on the checkbox next to a `variable`{:class="block3variables"} in the `Variables`{:class="block3variables"} blocks menu to show or hide it on the Stage. 
 
 Does the variable always have the value that you expect?
 
