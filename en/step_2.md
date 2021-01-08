@@ -1,10 +1,10 @@
 ## Set up Scratch
-You can use Scratch on a laptop or desktop computer or on a tablet. You can also use Scratch on a Raspberry Pi Computer.
+You can use Scratch on a laptop or desktop computer or on a tablet. You can also use Scratch on a Raspberry Pi computer.
 
 --- task ---
 Open a web browser on your computer or tablet and visit [rpf.io/scratch-new](https://rpf.io/scratch-new){:target="_blank"} to open the Scratch editor with a new project. Scratch will open in a new tab in your web browser.
 
-**Tip:** You can also visit [scratch.mit.edu](https://scratch.mit.edu/){:target="_blank"} and then click 'Create'.
+**Tip:** You can also visit [scratch.mit.edu](https://scratch.mit.edu/){:target="_blank"} and then click on **Create**.
 
 --- collapse ---
 ---
@@ -35,7 +35,7 @@ See [Scratch 3 for Raspberry Pi Desktop](https://www.raspberrypi.org/blog/scratc
 --- /task ---
 
 --- task ---
-When using Scratch with this guide or one of our projects you will need to switch between Scratch and the project instructions. 
+When you use Scratch with this guide or one of our projects, you will need to switch between Scratch and the project instructions. 
 
 --- collapse ---
 ---
@@ -73,13 +73,13 @@ Try it now and see how you prefer to work.
 
 --- task ---
 
-When you are using Scratch in a web browser you can zoom in or out to adjust the size. 
+When you are using Scratch in a web browser, you can zoom in or out to adjust the size. 
 
-To zoom on Windows in google Chrome or Microsoft Edge, hold down the 'Ctrl' key and tap '+' or '-'.
+To zoom on Windows in Google Chrome or Microsoft Edge, hold down the <kbd>Ctrl</kbd> key and tap <kbd>+</kbd> or <kbd>-</kbd>.
 
 --- collapse ---
 ---
-title: Zooming in the code area
+title: Zooming in the Code area
 ---
 
 You can also use the zoom controls on the Scratch coding area to just change the size of the coding blocks.
