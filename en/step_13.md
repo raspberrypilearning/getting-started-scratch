@@ -1,7 +1,7 @@
-## Sharing and commenting
+## Share and comment
 
 --- task ---
-Click on your Scratch project's **See Project Page**, where you can add more information. Fill in the **Instructions** to explain how to use your project, and complete your project's **Notes and Credits**.
+Click on **See Project Page** at the top of the screen. On the Project Page, you can add more information. Fill in the **Instructions** to explain how to use your project, and complete your project's **Notes and Credits**.
 
 --- collapse ---
 ---
