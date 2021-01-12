@@ -4,7 +4,7 @@
 
 The **Stage** is where the action takes place in your project. The Stage has one or more background images called **backdrops**.
 
-**Sprites** are characters and objects that appear on the **Stage**. Sprites are given instructions using Scratch code blocks. This is called programming. 
+**Sprites** are characters and objects that appear on the **Stage**. Sprites are given instructions using Scratch code blocks. This is called **programming**. 
 
 Drag **code blocks** from the **Blocks menu** to the **Code area** to program your sprites and the Stage. Code blocks can make a sprite move around, change the way it looks, and play sounds. 
 
