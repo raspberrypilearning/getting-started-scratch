@@ -195,11 +195,11 @@ next costume
 
 A delay of more than one second is quite a long time. If you include a decimal number in the range of a slider then you can change the value by a 100th of a second at a time. 
 
-A range of `0.0` to `1.0` allows you to choose a delay between `0` seconds (no delay) and `1` second.
+A range of `0.00` to `1.00` allows you to choose a delay between `0` seconds (no delay) and `1` second.
 
 ![Decimal range](images/decimal-delay.png)
 
-Try changing the numbers to get the maximum and minimum values that you want users to be able to use in your project.
+Change the numbers to get the maximum and minimum values that you want users to be able to use in your project.
 
 --- /collapse ---
 
@@ -217,7 +217,7 @@ title: Change sound effects
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451547017/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Changing the `pitch`{:class="block3sound"} of a sound makes the notes higher and also speeds the sound up. 
+You can use a `variable`{:class="block3variables"} in a `set pitch effect to`{:class="block3sound"} block. If you increase the pitch of a sound, the notes get higher and the sound speeds up.
 
 ```blocks3
 when flag clicked
@@ -233,7 +233,7 @@ forever
 play sound [Dance Head Nod v] until done
 ```
 
-You can also use a `variable`{:class="block3variables"} to change the `volume`{:class="block3sound"} and `pan`{:class="block3sound"} (tilt) effect.
+You can also use a `variable`{:class="block3variables"} to change the volume and pan (tilt) effect.
 
 --- /collapse ---
 
