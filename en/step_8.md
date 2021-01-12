@@ -1,6 +1,6 @@
 ## Sound
 
-You can add sound by using `Sound`{:class="block3sound"} blocks to your project. Create a continuous background soundtrack, or sounds that happen at regular intervals.
+To add sound to your project, use `Sound`{:class="block3sound"} blocks. For example, you can create a continuous background soundtrack, or add sounds that happen at regular intervals.
 
 ![Labelled Sound tab](images/Scratch-Sound-tab.png){:width="600px"}
 
@@ -80,7 +80,7 @@ Click on the green flag to hear the sounds.
  
 To make a sound play continuously, use a `play sound until done`{:class="block3sound"} block inside a `forever`{:class="block3control"} loop. Once the sound has finished, the `forever`{:class="block3control"} loop makes the sound start again from the beginning.
 
-This example uses a single long sound clip repeated as a soundtrack.
+This code uses a single long sound clip repeated as a soundtrack:
  
 ```blocks3
 when green flag clicked
@@ -109,9 +109,9 @@ Click on the green flag to hear the sounds.
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/444673165/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Select a `forever`{:class="block3control"} block to create a looped sound. Select some sounds that you like and/or experiment. You can either:
-+ Create a series of short sounds in a sequence, or 
-+ Use different instrument notes and effects to compose a soundtrack
+Use a `forever`{:class="block3control"} block to create a looped sound. Select some sounds that you like and/or experiment. You can:
++ Create a series of short sounds in a sequence 
++ Or, use different instrument notes and effects to compose a soundtrack
  
 ```blocks3
 when flag clicked
@@ -211,7 +211,7 @@ Click on the green flag to hear the sounds.
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451697380/?autostart=false" frameborder="0"></iframe>
 </div>
 
-The **Drums** sprite uses `volume`{:class="block3sound"} and `sound effects`{:class="block3sound"} to change the `sound`{:class="block3sound"}:
+The **Drums** sprite uses `set volume to`{:class="block3sound"} and `set sound effect to`{:class="block3sound"} blocks to change the sound:
 
 ```blocks3
 set volume to (80) %
