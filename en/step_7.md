@@ -107,7 +107,7 @@ wait (0.2) seconds
 end
 ```
 
-This code uses a series of `change size by`{:class="block3looks"} and `wait`{:class="block3control"} blocks to make the heart grow and shrink. Try to create your own pulsating sprite.
+This code uses a series of `change size by`{:class="block3looks"} and `wait`{:class="block3control"} blocks to make the heart grow and shrink. Try to create your own pulsing sprite.
 
 You could also use the `change graphic effect by`{:class="block3looks"} block to create a sprite that continues to change its appearance. 
 
@@ -118,7 +118,7 @@ wait (1) seconds
 change [ghost v] effect by (-75)
 ```
 
-**Note:** If you use code that changes a graphic effect and then changes it back again, don’t forget to use a `wait`{:class="block3control"} block in between the `change graphic effect by`{:class="block3looks"} blocks, otherwise it will happen so fast that you won’t see it!
+**Note:** If you use code that changes a graphic effect and then changes it back again, don't forget to use a `wait`{:class="block3control"} block in between the `change graphic effect by`{:class="block3looks"} blocks, otherwise it will happen so fast that you won't see it!
 
 You can use a `clear graphic effects`{:class="block3looks"} block at any time to reset the effects.
 
@@ -179,7 +179,7 @@ next costume
 wait (0.3) seconds
 ```
 
-One second is often too long to wait before changing to the next costume, so you need to use numbers smaller than `1` in the `wait`{:class="block3control"} block. A wait of `0.1` is one tenth of a second, and `0.5` is half a second. If you use a `wait` block{:class="block3control"} that is set to `0.2` seconds, then the sprite will change costumes five times every second.
+One second is often too long to wait before changing to the next costume, so you need to use numbers smaller than `1` in the `wait`{:class="block3control"} block. A wait of `0.1` is one tenth of a second, and `0.5` is half a second. If you use a `wait`{:class="block3control"} block that is set to `0.2` seconds, then the sprite will change costumes five times every second.
 
 When a sprite reaches its last costume, the `next costume`{:class="block3looks"} block goes back to the first costume, so the sprite continues to move. 
 
