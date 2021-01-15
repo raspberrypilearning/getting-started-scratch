@@ -183,7 +183,7 @@ turn right (1) degrees :: motion
 
 Change the values in a `move`{:class="block3motion"} block and `turn`{:class="block3motion"} block within a `forever`{:class="block3control"} loop to `1` and your sprite will appear to move in a big circle.
 
-**Tip:** If you want your sprite to always start in the centre of the Stage, you can add `go to x:`{:class="block3motion"} `0` `y:`{:class="block3motion"} `0` before the `forever`{:class="block3control"} block. 
+**Tip:** If you want your sprite to always start in the centre of the Stage, you can add `go to x:`{:class="block3motion"}`0``y:`{:class="block3motion"}`0` before the `forever`{:class="block3control"} block. 
 
 --- /collapse --- 
 
