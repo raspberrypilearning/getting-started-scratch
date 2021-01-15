@@ -105,7 +105,7 @@ This example changes the `ghost`{:class="block3looks"} graphic effect so you can
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451544795/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can use a `transparent`{:class="block3variables"} variable to control the `ghost effect`{:class="block3looks"} on a sprite at the `front`{:class="block3looks"} and use it to reveal or hide sprites in lower layers. 
+You can use a `transparent`{:class="block3variables"} variable to control the `ghost`{:class="block3looks"} effect on a sprite at the `front`{:class="block3looks"} and use it to reveal or hide sprites in lower layers. 
 
 ```blocks3
 when flag clicked
@@ -199,7 +199,7 @@ A range of `0.00` to `1.00` allows you to choose a delay between `0` seconds (no
 
 ![Decimal range](images/decimal-delay.png)
 
-Change the numbers to get the maximum and minimum values that you want users to be able to use in your project.
+Change the numbers to get the minimum and maximum values that you want users to be able to use in your project.
 
 --- /collapse ---
 
@@ -264,10 +264,10 @@ Add as many `variables`{:class="block3variables"} as you like to control movemen
 
 Things to consider:
 + Have you given your variables names that match what they are used for?
-+ Have you chosen the best maximum and minimum values for your sliders?
++ Have you chosen the best minimum and maximum values for your sliders?
 + Are your sliders neatly arranged on the Stage?
 + Is it helpful to use the same variable in multiple places?
 
 --- /task ---
 
-**Tip:** If you are using a computer with a keyboard then you can use the arrow keys to change the value of a slider by `1`. First, click on the slider to select it, then use the <kbd>Left</kbd> arrow key to change the value by `-1` and the <kbd>Right</kbd> arrow key to change the value by `1`.
+**Tip:** If you are using a computer with a keyboard, then you can use the arrow keys to change the value of a slider by `1`. First, click on the slider to select it, then use the <kbd>Left</kbd> arrow key to change the value by `-1` and the <kbd>Right</kbd> arrow key to change the value by `1`.
