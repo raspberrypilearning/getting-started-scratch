@@ -26,7 +26,7 @@ You do not have to run a whole program to check whether the last few new blocks 
 title: Add temporary delays
 ---
 
-* Slow down the **execution** of your code when it is run. To do this, add a `wait`{:class="block3control"} or `wait until key pressed`{:class="block3control"} block, then remove the block when you have finished debugging your code.
+Slow down the **execution** of your code when it is run. To do this, add a `wait`{:class="block3control"} or `wait until key pressed`{:class="block3control"} block, then remove the block when you have finished debugging your code.
 
 --- /collapse ---
 
