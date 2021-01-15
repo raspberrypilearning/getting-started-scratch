@@ -14,7 +14,7 @@ First, select a sound from the Sound Library, or record your own sound.
 title: Add a sound from the Sound Library
 ---
 
-First, select the sprite that you want to have the new sound and select the **Sounds** tab. Each sprite starts with a default sound.
+First, select the sprite that you want to have the new sound and click on the **Sounds** tab. Each sprite starts with a default sound.
 
 ![Sound tab](images/soundTab.png)
 
