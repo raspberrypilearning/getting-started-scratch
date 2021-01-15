@@ -56,7 +56,7 @@ Click on the first sprite and go to its **Code** tab. Drag the code that is in t
 
 ![Image copy code to sprite](images/challenge1-sprite-list.gif){:width="300px"}
 
-Your second sprite has exactly the same code as your first sprite. Do not run the program until you have started to change the second sprite's code — you will not see the second sprite because it is positioned underneath the first sprite.
+Your second sprite will now have exactly the same code as your first sprite. Do not run the program until you have started to change the second sprite's code — you will not see the second sprite because it is positioned underneath the first sprite.
 
 --- /collapse ---
 
@@ -70,7 +70,7 @@ title: Use your Backpack
 
 - You can use your Scratch Backpack to store costumes, sprites, sounds, and scripts that you want to copy between projects.
 
-- You can only access your own Backpack, and must be logged into your Scratch account to use it.
+- You can only access your own Backpack, and must be logged in to your Scratch account to use it.
 
 - To open your Backpack, click on the **Backpack** tab at the bottom of the screen.
 
