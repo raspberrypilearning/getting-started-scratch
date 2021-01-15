@@ -151,7 +151,7 @@ turn right (1) degrees :: motion
 
 In a `turn`{:class="block3motion"} block within a `forever`{:class="block3control"} loop, change the number of degrees to `1` and your sprite will appear to spin.
 
-**Tip:** If you don't add a `move`{:class="block3motion"} block, your sprite will spin in the position its in. 
+**Tip:** If you do not add a `move`{:class="block3motion"} block, your sprite will spin in the position that it is in. 
 
 --- /collapse ---
 
@@ -195,5 +195,5 @@ Change the values in a `move`{:class="block3motion"} block and `turn`{:class="bl
 + Change the number of degrees in a `point in direction`{:class="block3motion"} block to change the direction that your sprite starts to move in. 
 + Change the number of degrees in a `turn right`{:class="block3motion"} or `turn left`{:class="block3motion"} block so that your sprite turns faster or slower. 
 + Combine `move`{:class="block3motion"} and `turn right`{:class="block3motion"} or `turn left`{:class="block3motion"} blocks so that your sprite moves and turns. 
-+ Experiment with the `set rotation style`{:class="block3motion"} block to make sure you understand what the different options do.
++ Experiment with the `set rotation style`{:class="block3motion"} block to make sure that you understand what the different options do.
 --- /task ---
