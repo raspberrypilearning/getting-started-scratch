@@ -11,7 +11,7 @@ Set the size and/or effect for your sprites.
 title: Set the size of your sprite
 ---
 
-When you add a sprite to your project its size is set to `100` percent. This may be too big or too small for your project. 
+When you add a sprite to your project, its size is set to `100` percent. This may be too big or too small for your project. 
 
 You can use code to set the size of a sprite. To do this, use a `set size to`{:class="block3looks"} block:
 
@@ -56,7 +56,7 @@ The `set color effect to`{:class="block3looks"} and `change color effect by`{:cl
 
 + `color`{:class="block3looks"}: from `0` to `199` (bigger numbers will wrap around, so `200` is the same as `0`)
 + `fisheye`{:class="block3looks"}: `0` is no effect, bigger numbers give a bigger 'bulge' effect
-+ `whirl`{:class="block3looks"}: `0` is no effect, big numbers gives a big whirl to the left, big negative numbers give a big whirl to the right
++ `whirl`{:class="block3looks"}: `0` is no effect, big numbers give a big whirl to the left, big negative numbers give a big whirl to the right
 + `pixelate`{:class="block3looks"}: `0` is no effect, bigger numbers create more pixels
 + `mosaic`{:class="block3looks"}: `0` is no effect, bigger numbers create more copies
 + `brightness`{:class="block3looks"}: `0` is no effect, bigger numbers up to `100` make the sprite lighter, and negative numbers down to `-100` make the sprite darker 
@@ -90,7 +90,7 @@ title: Change looks to create an animation effect
 
 You can use the `set size to`{:class="block3looks"} or `change size by`{:class="block3looks"} block to create a pulsing effect, such as a beating heart.
 
-**Note:** The `set size to`{:class="block3looks"} block sets the size to a specific value, while the `change size by`{:class="block3looks"} block changes the value from what it was before, e.g. `change size by`{:class="block3looks"}`10` adds 10 to the value of the size.
+**Note:** The `set size to`{:class="block3looks"} block sets the size to a specific value, while the `change size by`{:class="block3looks"} block changes the value from what it was before, e.g. `change size by`{:class="block3looks"} `10` adds 10 to the value of the size.
 
 ```blocks3
 when green flag clicked
@@ -118,7 +118,7 @@ wait (1) seconds
 change [ghost v] effect by (-75)
 ```
 
-**Note:** If you use code that changes a graphic effect and then changes it back again, don't forget to use a `wait`{:class="block3control"} block in between the `change graphic effect by`{:class="block3looks"} blocks, otherwise it will happen so fast that you won't see it!
+**Note:** If you use code that changes a graphic effect and then changes it back again, remember to use a `wait`{:class="block3control"} block in between the `change graphic effect by`{:class="block3looks"} blocks, otherwise it will happen so fast that you won't see it!
 
 You can use a `clear graphic effects`{:class="block3looks"} block at any time to reset the effects.
 
