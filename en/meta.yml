@@ -1,6 +1,6 @@
 title: Getting started with Scratch
-hero_image: images/banner.png
-description: Learn about Scratch and become an independent Scratch beginner.
+hero_image: images/ScratchGuide_Banner.png
+description: Learn about Scratch and develop your skills to use Scratch independently
 version: 4
 listed: false
 copyedit: false
@@ -18,5 +18,5 @@ steps:
   - title: Paint editor
   - title: Debug
   - title: Duplicate sprites and copy code
-  - title: Sharing and commenting
+  - title: Share and comment
   - title: What next?

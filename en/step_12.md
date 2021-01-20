@@ -10,12 +10,12 @@ title: Duplicate blocks
 Duplicate blocks or sets of blocks to reuse in a sprite's program:
 
 * Go to the **Code** tab.
-* Right-click on the first block you want to copy (or if you are using a tablet, tap and hold). It will copy all the blocks below it as well.
-* Select **Duplicate** from the dropdown options.
+* Right-click on the first block that you want to copy (or if you are using a tablet, tap and hold). It will select all the blocks below it too.
+* Select **Duplicate** in the drop-down menu.
 ![Image select duplicate](images/scratchguide-duplicate.png){:width="300px"}
 * Drag the duplicated code where you want it to go.
 ![Image select duplicate](images/scratchguide-drag.png){:width="300px"}
-* Delete any blocks you don't require.
+* Delete any blocks that you do not need.
 
 --- /collapse ---
 
@@ -29,7 +29,7 @@ title: Duplicate a sprite
 Right-click on your first sprite in the Sprite list below the Stage (or if you are using a tablet, tap and hold):
 ![Image right click first sprite](images/challenge1-right-click-sprite.png){:width="300px"}
 
-Select **duplicate**. This will create a copy of your first sprite with the suffix '2':
+Select **duplicate**. This will create a copy of your first sprite with the suffix "2":
 ![Image duplicate sprite](images/challenge1-duplicate-sprite.png){:width="300px"}
 
 Rename your sprite:
@@ -38,41 +38,41 @@ Rename your sprite:
 Your sprite's name will change in the Sprite list:
 ![Image change name in list](images/challenge1-sprite-list.png){:width="300px"}
 
-Your second sprite has exactly the same code as your first sprite. Do not run the program until you have begun to alter the second sprite — you will not see the second sprite because it is sitting underneath the first sprite.
+Your second sprite has exactly the same code as your first sprite. Do not run the program until you have started to change the second sprite's code — you will not see the second sprite because it is positioned underneath the first sprite.
 
 --- /collapse ---
 
-Create a new sprite and copy over all or some of the first sprite's code:
+Create a new sprite and copy over all or some of the first sprite's code.
 
 --- collapse ---
 ---
 
-title: Copy sprite code
+title: Copy a sprite's code
 
 ---
 In the Sprite pane, go to **Choose a Sprite** and select your second sprite.
 
-Click the first sprite and go to its **Code** tab. Drag the code that is in the first sprite to the second sprite. You may have one script that starts with a `when the green flag clicked`{:class="block3events"} block, as well as another script that starts with `when this sprite clicked`{:class="block3events"}. Make sure you copy **all** the code scripts that you have created. 
+Click on the first sprite and go to its **Code** tab. Drag the code that is in the first sprite's Code area to the image of the second sprite in the Sprite list, then release the mouse button. You may have one script that starts with a `when green flag clicked`{:class="block3events"} block, as well as another script that starts with `when this sprite clicked`{:class="block3events"}. Make sure that you copy **all** the code scripts that you have created. 
 
 ![Image copy code to sprite](images/challenge1-sprite-list.gif){:width="300px"}
 
-Your second sprite has exactly the same code as your first sprite. Do not run the program until you have begun to alter the second sprite — you will not see the second sprite because it is sitting underneath the first sprite.
+Your second sprite will now have exactly the same code as your first sprite. Do not run the program until you have started to change the second sprite's code — you will not see the second sprite because it is positioned underneath the first sprite.
 
 --- /collapse ---
 
-Drag into a **backpack** costumes, sprites, sounds and scripts that you want to copy between projects:
+Drag into a **Backpack** costumes, sprites, sounds, and scripts that you want to copy between projects.
 
 --- collapse ---
 
 ---
-title: Backpack
+title: Use your Backpack
 ---
 
-- Your Scratch backpack can be used to store costumes, sprites, sounds and scripts that you want to copy between projects.
+- You can use your Scratch Backpack to store costumes, sprites, sounds, and scripts that you want to copy between projects.
 
-- You can only access your own backpack and must be logged into your Scratch account to use it.
+- You can only access your own Backpack, and must be logged in to your Scratch account to use it.
 
-- Open your backpack by clicking on the **Backpack** tab at the bottom of the screen.
+- To open your Backpack, click on the **Backpack** tab at the bottom of the screen.
 
 --- no-print ---
 
@@ -86,7 +86,7 @@ title: Backpack
 
 --- /print-only ---
 
-- To add a sprite, drag the sprite from the Sprite pane to the backpack. This will store the full sprite in your backpack including all costumes, sounds and script.
+- To add a sprite, drag the sprite from the Sprite list to the Backpack. This will store the full sprite in your Backpack, including all costumes, sounds, and scripts.
 
 --- no-print ---
 
@@ -100,7 +100,7 @@ title: Backpack
 
 --- /print-only ---
 
-- To add a backdrop to your backpack, select the Backdrops pane and click on the **Costumes** tab choose the backdrop you want and drag it to your backpack.
+- To add a backdrop to your Backpack, select the Backdrops pane and click on the **Backdrops** tab, then choose the backdrop that you want and drag it to your Backpack.
 
 --- no-print ---
 
@@ -114,7 +114,7 @@ title: Backpack
 
 --- /print-only ---
 
-- To use your backpack items in another project, open the project and drag items you need to their correct pane or tab.
+- To use your Backpack items in another project, open the project and drag items you need to their correct pane or tab.
 
 --- no-print ---
 
@@ -128,7 +128,7 @@ title: Backpack
 
 --- /print-only ---
 
-- To delete items from your backpack, find the item in the **Backpack** tab then right-click and select delete.
+- To delete items from your Backpack, find the item in the **Backpack** tab, then right-click on the item and select **delete**.
 
 --- no-print ---
 
@@ -142,7 +142,7 @@ title: Backpack
 
 --- /print-only ---
 
-- You can hide your backpack when you're not using it by clicking on the **Backpack** tab at the bottom of the screen.
+- You can hide your Backpack when you are not using it. To do this, click on the **Backpack** tab at the bottom of the screen.
 
 --- no-print ---
 

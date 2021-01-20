@@ -1,6 +1,6 @@
 ## Paint editor
 
-Use the paint editor to create your own backdrops and costumes and also to edit existing backdrops and costumes. 
+Use the Paint editor to create your own backdrops and costumes, and to edit existing backdrops and costumes. 
 
 ![Labelled Costume tab](images/Scratch-Costume-tab.png){:width="600px"}
 
@@ -58,9 +58,9 @@ Switch to the **Costumes** tab for your sprite.
 
 The **Robot** sprite comes with costumes for three different robots and you only want to use one of them. Delete any costumes that you will not use in your animation. 
 
-Right-click on the costume, and choose **Duplicate**. 
+Right-click on the costume, and choose **duplicate**. 
 
-Make small changes to the costume, you could move, rotate, or change all or part of the costume. Alternatively, you could add movement lines. 
+Make small changes to the costume. For example, you could move, rotate, or change all or part of the costume. Alternatively, you could add movement lines. 
 
 If your costume uses vector graphics, then you can select parts of a costume to change. 
 
@@ -77,17 +77,15 @@ You can now use your costumes in a simple sprite animation.
 title: Use the Fill tool to change the colours in a costume
 ---
 
-Select your sprite under the Stage and then click on **Costumes**. 
+You can change the colour of your sprite. First, select your sprite in the Sprite list below the Stage and then click on the **Costumes** tab.
 
-Change the colour of your sprite. Click on the second sprite in the Sprite menu. Then select its **Costumes** tab.
-
-Use the **Arrow** tool to highlight whichever part of the costume you want to change colour.
+Use the **Select (Arrow)** tool to highlight the part of the costume you want to change colour.
 
 ![Image showing Arrow tool in Paint editor](images/challenge1-arrow-tool.png){:width="200px"}
 
 ![Image showing Arrow tool selecting shape](images/challenge1-arrow-tool-selecting-shape.png){:width="300px"}
 
-Go to the **Fill** tool and select the colour. It will automatically fill the shape that you have selected.
+Go to the **Fill** colour chooser and select the colour. It will automatically fill the shape that you have selected.
 
 ![Image showing Fill tool in Paint editor](images/challenge1-fill-tool.png){:width="300px"}
 
@@ -105,7 +103,7 @@ Repeat the steps above with any part of the costume you have missed or for any o
 
 --- task ---
 
-Use the Paint editor tips below to create your own designs for your sprites.
+Use the tips below to help you to create your own designs for your sprites in the Paint editor.
 
 --- collapse ---
 ---
@@ -124,7 +122,7 @@ To make your own **Hill** sprite, shown in the example above, you can use the **
 
 ![Make a hill as one sprite costumes](images/challenge2-backdrop-sprite-costume.gif){:width="400px"}
 
-+ Choose a **Fill** colour. Click on **Outline** and deselect it (to do this, click on the box with the diagonal line in the bottom left-hand corner of the menu). Now, draw an oval using the **Circle** tool. Then, select the **Rectangle** tool to draw a rectangle underneath the oval.
++ Choose a **Fill** colour. Click on **Outline** and deselect it (to do this, click on the box with the diagonal line in the bottom left-hand corner of the menu). Now, use the **Circle** tool to draw an oval. Then, select the **Rectangle** tool and draw a rectangle underneath the oval.
 
 + If you use varying colours for the shapes, you may need to use the **Front** and **Back** tools in the Paint editor to move your shapes forward or backward so that they are positioned correctly within your background.
 
@@ -181,7 +179,7 @@ title: Duplicate shapes to create a scenery costume
 
 ---
 
-In your 3D scene, you may want to duplicate shapes within a costume so that your scenery appears busier or more crowded.
+You may want to duplicate shapes within a costume so that your scenery appears busier or more crowded.
 
 **Multiple clouds**: [See inside](https://scratch.mit.edu/projects/447278432/editor){:target="_blank"}
 
@@ -200,7 +198,7 @@ To multiply any type of shape:
 + In the **Costumes** tab, use the **Select** tool to highlight the whole of the shape.
 + Use the **Copy** and **Paste** tools to create duplicates of the shape.
 + Use the **Select** tool to move the shape within the Stage.
-+ You can vary the size of the shapes to help to create a greater sense of 3D effects.
++ You can vary the size of the shapes to help to create a greater sense of 3D effects, for example.
 + You can select all the shapes and **Group** them together so that you can adjust them or move them as one shape.
 
 --- /collapse ---
@@ -226,7 +224,7 @@ In the real world, objects that are further away appear lighter in colour. To ac
 
 --- collapse ---
 ---
-title: Using the Text tool
+title: Use the Text tool
 ---
 
 Click on the **Fill** colour chooser and select the first colour that you want for your text:
@@ -248,7 +246,7 @@ Do you want to change the **Fill** colour? Select the **Fill (Bucket)** tool and
 
 If you want each word in your message to be a different colour, size, and font, then follow the process above for each word in your message.
 
-Position your text and/or group of words with the cross hairs in the centre of the Paint editor:
+Position your text and/or group of words with the crosshair in the centre of the Paint editor:
 ![Show crosshair](images/from-me-paint-editor-centre.png){:width="400px"}
 
 To layer your words, use the **Forward** and **Backward** tools:
@@ -263,7 +261,7 @@ title: Create a sprite with gaps that you can see through
 
 ---
 
-You can view your 3D scene **through** a sprite. If it is positioned as the front layer and is the size of the Stage, it can appear like a view through the bars of a cage or a series of windowpanes.
+You can create a sprite that has gaps that you can see through. If it is positioned as the front layer and is the size of the Stage, it can appear like a view through the bars of a cage or a series of windowpanes.
 
 --- no-print ---
 
