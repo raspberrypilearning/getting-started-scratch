@@ -13,6 +13,8 @@ To try an example, drag a `move`{:class="block3motion"} block from the `Motion`{
 
 You can click on blocks in the Code area to run them. Click on the `move`{:class="block3motion"} block and the cat will move. 
 
+**Tip:** If you are using Scratch on a tablet, you can tap an item to click on it.
+
 **Hat blocks** run the blocks below them when a particular event happens. The `when green flag clicked`{:class="block3events"} block runs code when you click on the green flag above the Stage to run your project. 
 
 Drag a `when green flag clicked`{:class="block3events"} block above the `move`{:class="block3motion"} block so that they snap together.
@@ -99,7 +101,7 @@ If you share your project, then other people will also see this name, so make su
 
 You have created your first Scratch project!
 
-You are now ready to learn Scratch. We recommend that you start with our [Scratch: Module 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} or 
+You are now ready to learn Scratch. We recommend that you start with our [Scratch: Module 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} and/or 
  [Look after yourself](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"} pathways, which are designed for beginners.
 
  You can return to this guide if you need help using Scratch when you are working on our pathway projects or your own independent projects. 
