@@ -55,21 +55,21 @@ title: Use a slider to set a variable
 
 ---
 
-Right-click or tap and hold on your `variable`{:class="block3variables"} on the Stage. 
+Right-click (or on a tablet, tap and hold) on your `variable`{:class="block3variables"} on the Stage.
 
 Select **slider** in the menu. 
 
 ![Turn slider](images/variable-slider.png)
 
-**Tip:** You can double-click or tap on the `variable`{:class="block3variables"} displayed on the Stage and select **slider**.
+**Tip:** You can double-click (or on a tablet, tap) on the `variable`{:class="block3variables"} displayed on the Stage and select **slider**.
 
-Right-click or tap and hold on the `variable`{:class="block3variables"} displayed on the Stage and select **change slider range**.
+Right-click on the `variable`{:class="block3variables"} displayed on the Stage and select **change slider range**.
 
 ![Speed slider](images/slider-range.png)
 
 To set the range, specify a minimum and maximum value.
 
-A minimum of `1` and a maximum of `10` work fairly well for how quickly a sprite spins.
+For example, a minimum of `1` and a maximum of `10` work fairly well for how quickly a sprite spins.
 
 ![Slider range 1 to 10](images/slider-values.png)
 
