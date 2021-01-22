@@ -1,6 +1,6 @@
 ## Sound
 
-To add sound to your project, use `Sound`{:class="block3sound"} blocks. For example, you can create a continuous background soundtrack, or add sounds that happen at regular intervals.
+To add sound to your project, use `Sound`{:class="block3sound"} blocks. For example, you can create a continuous background soundtrack, or add sounds that play at regular intervals.
 
 ![Labelled Sound tab](images/Scratch-Sound-tab.png){:width="600px"}
 
@@ -26,7 +26,7 @@ Hold your mouse cursor over the play symbol to hear a sound.
 
 ![Preview a sound](images/soundPreview.png)
 
-Click on any sound to add it to your sprite. You will be taken straight back to the **Sounds** tab and you will be able to see the sound that you just added.
+Click on any sound to add it to your sprite. You will be taken back to the **Sounds** tab and you will be able to see the sound that you just added.
 
 ![Sounds tab with new sound](images/newSoundAdded.png)
 
@@ -111,7 +111,7 @@ Click on the green flag to hear the sounds.
 
 Use a `forever`{:class="block3control"} block to create a looped sound. Select some sounds that you like and/or experiment. You can:
 + Create a series of short sounds in a sequence 
-+ Or, use different instrument notes and effects to compose a soundtrack
++ Or, use different instrument notes and effects to make a soundtrack
  
 ```blocks3
 when flag clicked
@@ -167,7 +167,7 @@ The **Whistle** sprite also plays a sound at regular intervals:
 --- collapse ---
 
 ---
-title: Start multiple sounds to play at the same time
+title: Add sounds that start to play at the same time
 ---
 
 There are two `Sound`{:class="block3sound"} blocks with an important difference:
