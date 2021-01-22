@@ -21,7 +21,7 @@ set size to (50) %
 
 If you set the size of a sprite to `50` percent, it will be half as tall and half as wide. If you set the size of a sprite to `200` percent, it will be twice as tall and twice as wide. 
 
-Place a `set size to`{:class="block3looks"} block under a `when green flag clicked`{:class="block3events"} block to set the size of a sprite when the project is started: 
+To set the size of a sprite when the project is started, place a `set size to`{:class="block3looks"} block under a `when green flag clicked`{:class="block3events"} block: 
 
 ```blocks3
 when green flag clicked
@@ -45,7 +45,7 @@ title: Set graphic effects
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435730522/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Place a `set graphic effect to`{:class="block3looks"} block under a `when green flag clicked`{:class="block3events"} block to set the graphic effect of a sprite when the project is started:
+To set the graphic effect of a sprite when the project is started, place a `set graphic effect to`{:class="block3looks"} block under a `when green flag clicked`{:class="block3events"} block:
 
 ```blocks3
 when green flag clicked
@@ -55,12 +55,12 @@ set [ghost v] effect to (25)
 The `set color effect to`{:class="block3looks"} and `change color effect by`{:class="block3looks"} blocks both have drop-down menus where you can choose from a range of different graphic effects that can be used to change your sprite's appearance.
 
 + `color`{:class="block3looks"}: from `0` to `199` (bigger numbers will wrap around, so `200` is the same as `0`)
-+ `fisheye`{:class="block3looks"}: `0` is no effect, bigger numbers give a bigger 'bulge' effect
-+ `whirl`{:class="block3looks"}: `0` is no effect, big numbers give a big whirl to the left, big negative numbers give a big whirl to the right
-+ `pixelate`{:class="block3looks"}: `0` is no effect, bigger numbers create more pixels
-+ `mosaic`{:class="block3looks"}: `0` is no effect, bigger numbers create more copies
-+ `brightness`{:class="block3looks"}: `0` is no effect, bigger numbers up to `100` make the sprite lighter, and negative numbers down to `-100` make the sprite darker 
-+ `ghost`{:class="block3looks"}: `0` is no effect, bigger numbers up to `100` make the sprite more transparent 
++ `fisheye`{:class="block3looks"}: `0` means no effect, bigger numbers cause a bigger 'bulge' effect
++ `whirl`{:class="block3looks"}: `0` means no effect, big numbers make a big whirl to the left, big negative numbers make a big whirl to the right
++ `pixelate`{:class="block3looks"}: `0` means no effect, bigger numbers create more pixels
++ `mosaic`{:class="block3looks"}: `0` means no effect, bigger numbers create more copies
++ `brightness`{:class="block3looks"}: `0` means no effect, numbers up to `100` make the sprite lighter, and negative numbers down to `-100` make the sprite darker 
++ `ghost`{:class="block3looks"}: `0` means no effect, numbers up to `100` make the sprite more transparent 
 
 Try to `set`{:class="block3looks"} the different effect values to see what each one does. Explore how different effect changes make your sprite look.
 
@@ -192,7 +192,7 @@ You can combine animation with movement to create sprites that walk or fly.
 title: Duplicate and edit a costume to use in an animation
 ---
 
-Some Scratch sprites just have one costume or have multiple sprites that don't work as an animation. If you choose one costume, then duplicate it and make a small change, it can create an animation effect. 
+Some Scratch sprites just have one costume, or have multiple costumes that don't work as an animation. If you choose one costume, then duplicate it (make a copy of it) and make a small change, it can create an animation effect.
 
 **Robot animation**: [See inside](https://scratch.mit.edu/projects/436260207/editor){:target="_blank"}
 
@@ -202,13 +202,13 @@ Some Scratch sprites just have one costume or have multiple sprites that don't w
 
 Switch to the **Costumes** tab for your sprite. 
 
-The **Robot** sprite comes with costumes for three different robots and you only want to use one of them. Delete any costumes that you will not use in your animation. 
+Choose the costume that you want to use, and delete the other costumes, because you will not need them for your animation. For example, the **Robot** sprite comes with costumes for three different robots, so you should choose one of the costumes and delete the other costumes.
 
-Right-click on the costume, and choose **duplicate**. 
+Right-click on the costume (or on a tablet, tap and hold), and choose **duplicate**. 
 
-Make small changes to the costume. For example, you could move, rotate, or change all or part of the costume. Alternatively, you could add movement lines. 
+Make small changes to the copy of the costume. For example, you can move, rotate, or change all or part of the costume. You can also add movement lines. 
 
-If your costume uses vector graphics, then you can select parts of a costume to change. 
+If your costume uses vector graphics, then you can select parts of a costume and change each part separately.
 
 ![Animated gif showing changes to Robot costume](images/edit-robot-costume.gif)
 
