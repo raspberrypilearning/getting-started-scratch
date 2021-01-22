@@ -20,11 +20,11 @@ To make your own backdrop:
 
 + Click on the **Backdrops** tab.
 + Choose a **Fill** colour. Click on **Outline** and deselect it (to do this, click on the box with the diagonal line in the bottom left-hand corner of the menu).
-+ Click on the **Rectangle** tool (shown as an outline in the Paint editor) and draw a rectangle, ensuring that you cover all of the Stage. 
++ Click on the **Rectangle** tool (shown as an outline in the Paint editor) and draw a rectangle that covers all of the Stage.
 
 ![Select Fill and Outline](images/challenge2-backdrop-fill-outline.gif){:width="400px"}
 
-Add a horizon line if it fits in with your 3D scenery idea:
+Add a horizon line if it fits in with your scenery idea:
 
 ![Image of horizon](images/challenge2-backdrop-horizon.png){:width="400px"}
 
@@ -46,7 +46,7 @@ Add a horizon line if it fits in with your 3D scenery idea:
 title: Duplicate and edit a costume to use in an animation
 ---
 
-Some Scratch sprites just have one costume or have multiple sprites that don't work as an animation. If you choose one costume, then duplicate it and make a small change, it can create an animation effect. 
+Some Scratch sprites just have one costume, or have multiple costumes that don't work as an animation. If you choose one costume, then duplicate it (make a copy of it) and make a small change, it can create an animation effect.
 
 **Robot animation**: [See inside](https://scratch.mit.edu/projects/436260207/editor){:target="_blank"}
 
@@ -56,13 +56,13 @@ Some Scratch sprites just have one costume or have multiple sprites that don't w
 
 Switch to the **Costumes** tab for your sprite. 
 
-The **Robot** sprite comes with costumes for three different robots and you only want to use one of them. Delete any costumes that you will not use in your animation. 
+Choose the costume that you want to use, and delete the other costumes, because you will not need them for your animation. For example, the **Robot** sprite comes with costumes for three different robots, so you should choose one of the costumes and delete the other costumes.
 
-Right-click on the costume, and choose **duplicate**. 
+Right-click on the costume (or on a tablet, tap and hold), and choose **duplicate**. 
 
-Make small changes to the costume. For example, you could move, rotate, or change all or part of the costume. Alternatively, you could add movement lines. 
+Make small changes to the copy of the costume. For example, you can move, rotate, or change all or part of the costume. You can also add movement lines. 
 
-If your costume uses vector graphics, then you can select parts of a costume to change. 
+If your costume uses vector graphics, then you can select parts of a costume and change each part separately.
 
 ![Animated gif showing changes to Robot costume](images/edit-robot-costume.gif)
 
@@ -85,11 +85,11 @@ Use the **Select (Arrow)** tool to highlight the part of the costume you want to
 
 ![Image showing Arrow tool selecting shape](images/challenge1-arrow-tool-selecting-shape.png){:width="300px"}
 
-Go to the **Fill** colour chooser and select the colour. It will automatically fill the shape that you have selected.
+Go to the **Fill** colour chooser and select a colour. It will automatically fill the shape that you have selected.
 
 ![Image showing Fill tool in Paint editor](images/challenge1-fill-tool.png){:width="300px"}
 
-Repeat the steps above with any part of the costume you have missed or for any other part of the costume you want to change the colour of.
+Repeat the steps above for any part of the costume you have missed, or for any other part of the costume you want to change colour.
 
 ![Image showing shape colour changing](images/challenge1-select-another-shape.png){:width="300px"}
 
@@ -130,9 +130,9 @@ To make your own **Hill** sprite, shown in the example above, you can use the **
 
 ![Group shapes](images/challenge2-group-shapes.png){:width="400px"}
 
-+ Now, make other sprites for your scenery, if this fits in with your project idea.
+Now, make other sprites for your scenery, if this fits in with your project idea.
 
-+ Remember to name your sprite(s).
+Remember to name your sprite(s).
 
 --- /collapse ---
 
@@ -197,7 +197,7 @@ To multiply any type of shape:
 + Go to **Choose a Sprite** and select, in this example, the **Cloud** sprite.
 + In the **Costumes** tab, use the **Select** tool to highlight the whole of the shape.
 + Use the **Copy** and **Paste** tools to create duplicates of the shape.
-+ Use the **Select** tool to move the shape within the Stage.
++ Use the **Select** tool to move the shape within the Paint editor.
 + You can vary the size of the shapes to help to create a greater sense of 3D effects, for example.
 + You can select all the shapes and **Group** them together so that you can adjust them or move them as one shape.
 
