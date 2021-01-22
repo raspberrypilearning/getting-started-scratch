@@ -50,7 +50,7 @@ Create a new sprite and copy over all or some of the first sprite's code.
 title: Copy a sprite's code
 
 ---
-In bottom left-hand corner of the Sprite list, click on **Choose a Sprite** and select the sprite that you want to add.
+In the bottom left-hand corner of the Sprite list, click on **Choose a Sprite** and select the sprite that you want to add.
 
 Click on the first sprite and go to its **Code** tab. Drag the code that is in the first sprite's Code area to the image of the second sprite in the Sprite list, then let go of the code to finish copying it to the second sprite. You may have one script that starts with a `when green flag clicked`{:class="block3events"} block, as well as another script that starts with `when this sprite clicked`{:class="block3events"}. Make sure that you copy **all** the code scripts that you have created. 
 
