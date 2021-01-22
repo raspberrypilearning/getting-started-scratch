@@ -10,7 +10,7 @@ title: Duplicate blocks
 Duplicate blocks or sets of blocks to reuse in a sprite's program:
 
 * Go to the **Code** tab.
-* Right-click on the first block that you want to copy (or if you are using a tablet, tap and hold). It will select all the blocks below it too.
+* Right-click (or on a tablet, tap and hold) on the first block that you want to copy. It will select all the blocks below it too.
 * Select **Duplicate** in the drop-down menu.
 ![Image select duplicate](images/scratchguide-duplicate.png){:width="300px"}
 * Drag the duplicated code where you want it to go.
@@ -26,7 +26,7 @@ title: Duplicate a sprite
 
 ---
 
-Right-click on your first sprite in the Sprite list below the Stage (or if you are using a tablet, tap and hold):
+Right-click (or on a tablet, tap and hold) on your first sprite in the Sprite list below the Stage:
 ![Image right click first sprite](images/challenge1-right-click-sprite.png){:width="300px"}
 
 Select **duplicate**. This will create a copy of your first sprite with the suffix "2":
@@ -50,13 +50,13 @@ Create a new sprite and copy over all or some of the first sprite's code.
 title: Copy a sprite's code
 
 ---
-In the Sprite pane, go to **Choose a Sprite** and select your second sprite.
+In bottom left-hand corner of the Sprite list, click on **Choose a Sprite** and select the sprite that you want to add.
 
-Click on the first sprite and go to its **Code** tab. Drag the code that is in the first sprite's Code area to the image of the second sprite in the Sprite list, then release the mouse button. You may have one script that starts with a `when green flag clicked`{:class="block3events"} block, as well as another script that starts with `when this sprite clicked`{:class="block3events"}. Make sure that you copy **all** the code scripts that you have created. 
+Click on the first sprite and go to its **Code** tab. Drag the code that is in the first sprite's Code area to the image of the second sprite in the Sprite list, then let go of the code to finish copying it to the second sprite. You may have one script that starts with a `when green flag clicked`{:class="block3events"} block, as well as another script that starts with `when this sprite clicked`{:class="block3events"}. Make sure that you copy **all** the code scripts that you have created. 
 
 ![Image copy code to sprite](images/challenge1-sprite-list.gif){:width="300px"}
 
-Your second sprite will now have exactly the same code as your first sprite. Do not run the program until you have started to change the second sprite's code — you will not see the second sprite because it is positioned underneath the first sprite.
+Your second sprite will now have exactly the same code as your first sprite. Do not run the program until you have started to change the second sprite's code — you might not see the second sprite because it is positioned underneath the first sprite.
 
 --- /collapse ---
 
@@ -100,7 +100,7 @@ title: Use your Backpack
 
 --- /print-only ---
 
-- To add a backdrop to your Backpack, select the Backdrops pane and click on the **Backdrops** tab, then choose the backdrop that you want and drag it to your Backpack.
+- To add a backdrop to your Backpack, first, click on the Stage pane (on the right-hand side of the screen, below the Stage). Then, click on the **Backdrops** tab, then choose the backdrop that you want and drag it to your Backpack.
 
 --- no-print ---
 
@@ -114,7 +114,7 @@ title: Use your Backpack
 
 --- /print-only ---
 
-- To use your Backpack items in another project, open the project and drag items you need to their correct pane or tab.
+- To use an item in your Backpack in another project, open the project and drag the item to the correct pane or tab.
 
 --- no-print ---
 
@@ -128,7 +128,7 @@ title: Use your Backpack
 
 --- /print-only ---
 
-- To delete items from your Backpack, find the item in the **Backpack** tab, then right-click on the item and select **delete**.
+- To delete an item from your Backpack, find the item in the **Backpack** tab, then right-click on the item and select **delete**.
 
 --- no-print ---
 
