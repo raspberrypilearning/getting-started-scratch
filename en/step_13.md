@@ -24,7 +24,7 @@ In the **Notes and Credits** box:
 
 --- task ---
 
-Let other people access your project by making your project public. You can also share your project's unique web address with other people.
+To let other people access your project, make your project public. You can also share your project's unique web address with other people.
 
 [[[share-scratch]]]
 
