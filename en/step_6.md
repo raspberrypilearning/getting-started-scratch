@@ -52,7 +52,7 @@ In this example, the `point in direction`{:class="block3motion"} block automatic
 
 Add a `set rotation style`{:class="block3motion"} block and select `left-right`{:class="block3motion"} in the drop-down menu, so that your sprite will not flip upside down when it bounces on the edge of the Stage. 
 
-**Tip:** You can drag your sprite on the Stage to move it to the y (up-down) position that you want.
+**Tip:** You can drag your sprite on the Stage to move it to the y (up–down) position that you want.
 
 --- /collapse ---
 
@@ -87,7 +87,7 @@ Change the number of degrees in the `point in direction`{:class="block3motion"} 
 
 Add a `set rotation style`{:class="block3motion"} block and select `don't rotate`{:class="block3motion"} in the drop-down menu to stop your sprite rotating, even when it bounces.
 
-**Tip:** You can drag your sprite around the Stage to move it to the x (left-right) position that you want.
+**Tip:** You can drag your sprite around the Stage to move it to the x (left–right) position that you want.
 
 --- /collapse ---
 
