@@ -49,7 +49,7 @@ In the Sprite pane, click on **Choose a Sprite** to see the library of all Scrat
 
 ![Image sprite library](images/sprite-library.png)
 
-You can search or browse sprites by theme. Click on a sprite to add it to your project.
+You can search for a sprite, or browse by category or theme. Click on a sprite to add it to your project.
 
 ![Image sprite library - choose](images/sprite-choose.png)
 
@@ -70,7 +70,7 @@ In the bottom right-hand corner of the Stage pane, click on **Choose a Backdrop*
 
 ![Image of Choose a Backdrop](images/stage-choose.png)
 
-You can search for a backdrop, or browse for one by category or theme. Click on a backdrop to select it.
+You can search for a backdrop, or browse by category or theme. Click on a backdrop to select it.
 
 ![Image of Backdrop Library](images/backdrop.png)
 
