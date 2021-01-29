@@ -50,17 +50,17 @@ Create a new sprite and copy over all or some of the first sprite's code.
 title: Copy a sprite's code
 
 ---
-In the bottom left-hand corner of the Sprite list, click on **Choose a Sprite** and select the sprite that you want to add.
+In the bottom right-hand corner of the Sprite list, click on **Choose a Sprite** and select the sprite that you want to add.
 
 Click on the first sprite and go to its **Code** tab. Drag the code that is in the first sprite's Code area to the image of the second sprite in the Sprite list, then let go of the code to finish copying it to the second sprite. You may have one script that starts with a `when green flag clicked`{:class="block3events"} block, as well as another script that starts with `when this sprite clicked`{:class="block3events"}. Make sure that you copy **all** the code scripts that you have created. 
 
 ![Image copy code to sprite](images/challenge1-sprite-list.gif){:width="300px"}
 
-Your second sprite will now have exactly the same code as your first sprite. Do not run the program until you have started to change the second sprite's code — you might not see the second sprite because it is positioned underneath the first sprite.
+Your second sprite will now have exactly the same code as your first sprite. Do not run the program until you have started to change the second sprite's code — you might not see the second sprite because it might be positioned underneath the first sprite.
 
 --- /collapse ---
 
-Drag into a **Backpack** costumes, sprites, sounds, and scripts that you want to copy between projects.
+If you want to copy costumes, sprites, sounds, and scripts between projects, drag them into the **Backpack**.
 
 --- collapse ---
 
@@ -70,7 +70,7 @@ title: Use your Backpack
 
 - You can use your Scratch Backpack to store costumes, sprites, sounds, and scripts that you want to copy between projects.
 
-- You can only access your own Backpack, and must be logged in to your Scratch account to use it.
+- You can only access your own Backpack, and you must be logged in to your Scratch account to use it.
 
 - To open your Backpack, click on the **Backpack** tab at the bottom of the screen.
 
