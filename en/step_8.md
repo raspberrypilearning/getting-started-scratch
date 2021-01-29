@@ -22,7 +22,7 @@ To get to the Scratch Sound Library, click the **Choose a Sound** button.
 
 ![Choose a sound button](images/chooseASoundButton.png)
 
-Hold your mouse cursor over the play symbol to hear a sound.
+To hear a sound, hold your mouse cursor over the play symbol (or on a tablet, tap the play symbol).
 
 ![Preview a sound](images/soundPreview.png)
 
