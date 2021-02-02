@@ -1,6 +1,6 @@
 ## Variables
 
-Add one or more `variables`{:class="block3variables"} with sliders to control something in your scene such as size or graphic effects, sound effects, movement, or timing. 
+Add one or more `variables`{:class="block3variables"} with sliders to control something in your project such as size or graphic effects, sound effects, movement, or timing. 
 
 --- task ---
 
@@ -251,7 +251,7 @@ title: Rename a variable
 
 Sometimes you think of a better name for a variable. 
 
-You can give a variable a new name: go to the `Variables`{:class="block3variables"} blocks menu, right-click on the `variable`{:class="block3variables"}, and choose **Rename variable**.
+You can give a variable a new name: go to the `Variables`{:class="block3variables"} blocks menu, right-click (or on a tablet, tap and hold) on the `variable`{:class="block3variables"}, and choose **Rename variable**.
 
 ![Rename a variable](images/rename-variable.png)
 
