@@ -70,7 +70,7 @@ In the bottom right-hand corner of the Stage pane, click on **Choose a Backdrop*
 
 ![Image of Choose a Backdrop](images/stage-choose.png)
 
-You can search for a backdrop, or browse by category or theme. Click on a backdrop to select it.
+You can search for a backdrop, or browse by category or theme. Click on a backdrop to add it to your project.
 
 ![Image of Backdrop Library](images/backdrop.png)
 
