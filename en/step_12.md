@@ -86,7 +86,7 @@ title: Use your Backpack
 
 --- /print-only ---
 
-- To add a sprite, drag the sprite from the Sprite list to the Backpack. This will store the full sprite in your Backpack, including all costumes, sounds, and scripts.
+- To add a sprite to your Backpack, drag the sprite from the Sprite list to the Backpack. This will store the full sprite in your Backpack, including all costumes, sounds, and scripts.
 
 --- no-print ---
 
@@ -128,7 +128,7 @@ title: Use your Backpack
 
 --- /print-only ---
 
-- To delete an item from your Backpack, find the item in the **Backpack** tab, then right-click on the item and select **delete**.
+- To delete an item in your Backpack, find the item in the **Backpack** tab, then right-click on the item and select **delete**.
 
 --- no-print ---
 
