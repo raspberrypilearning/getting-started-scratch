@@ -204,7 +204,7 @@ Switch to the **Costumes** tab for your sprite.
 
 Choose the costume that you want to use, and delete the other costumes, because you will not need them for your animation. For example, the **Robot** sprite comes with costumes for three different robots, so you should choose one of the costumes and delete the other costumes.
 
-Right-click on the costume (or on a tablet, tap and hold), and choose **duplicate**. 
+Right-click (or on a tablet, tap and hold) on the costume, and choose **duplicate**. 
 
 Make small changes to the copy of the costume. For example, you can move, rotate, or change all or part of the costume. You can also add movement lines. 
 
@@ -295,7 +295,7 @@ go to [front v] layer
 +go [backward v] (1) layers
 ```
 
-Change the value in the `go backward`{:class="block3looks"}`1``layers`{:class="block3looks"} block for each sprite depending on where you want it to be positioned in relation to other sprites:
+Change the value in the `go backward`{:class="block3looks"}`1``layers`{:class="block3looks"} block for each sprite, depending on where you want it to be positioned in relation to other sprites:
 
 ``` blocks3
 when green flag clicked
