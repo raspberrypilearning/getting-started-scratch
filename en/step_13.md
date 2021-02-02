@@ -33,7 +33,7 @@ To let other people access your project, make your project public. You can also 
 title: Share your Scratch project's web address
 ---
 + Your project will always start in the position that you last saved it in, so make sure that you save your project in the right starting position.
-+ Go to **See Project Page**.
++ Click on **See Project Page**.
 + Click in the browser bar of your project and the web address of your project will appear:
 ![Show web address](images/from-me-webaddress.png){:width="400px"}
 
