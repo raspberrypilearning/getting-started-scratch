@@ -133,7 +133,7 @@ title: Spin around
 ---
 --- no-print ---
 
-**Bat spinning**: [See inside](https://scratch.mit.edu/projects/435704980/editor){:target="_blank"}
+**Spinning bat**: [See inside](https://scratch.mit.edu/projects/435704980/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/435704980/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -172,7 +172,7 @@ title: Move in a circle
 
 --- /no-print ---
 
-This code makes a sprite fly in a circle when it is clicked:
+This code makes a sprite fly in a circle when the green flag is clicked:
 
 ```blocks3
 when green flag clicked
