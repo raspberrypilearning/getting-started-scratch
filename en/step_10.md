@@ -29,7 +29,7 @@ Add a horizon line if it fits in with your scenery idea:
 ![Image of horizon](images/challenge2-backdrop-horizon.png){:width="400px"}
 
 + Again, in **backdrop1**, select a suitable **Fill** colour with no **Outline**.
-+ Add a **Rectangle** for flat ground or an **Oval** for a hill.
++ Add a **Rectangle** for flat ground or a **Circle** for a hill.
 
 ![Create horizon in backdrops](images/challenge2-backdrop-create-horizon.png){:width="400px"}
 
@@ -58,7 +58,7 @@ Switch to the **Costumes** tab for your sprite.
 
 Choose the costume that you want to use, and delete the other costumes, because you will not need them for your animation. For example, the **Robot** sprite comes with costumes for three different robots, so you should choose one of the costumes and delete the other costumes.
 
-Right-click on the costume (or on a tablet, tap and hold), and choose **duplicate**. 
+Right-click (or on a tablet, tap and hold) on the costume, and choose **duplicate**. 
 
 Make small changes to the copy of the costume. For example, you can move, rotate, or change all or part of the costume. You can also add movement lines. 
 
