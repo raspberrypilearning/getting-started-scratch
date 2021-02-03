@@ -60,7 +60,7 @@ title: Side-by-side instructions and Scratch
 
 If your screen is big enough, you can view Scratch next to the project instructions.  
 
-![Side by side instructions and Scratch](images/side-by-side.png)
+![Side-by-side instructions and Scratch](images/side-by-side.png)
 
 If you are using Microsoft Windows 10, drag the Scratch tab in your web browser so that it is in a separate window, and keep dragging until the cursor reaches the right-hand edge of your screen. The window will then be positioned on the right-hand side of the screen. 
 
@@ -80,7 +80,7 @@ Try it now and see how you prefer to work.
 
 When you are using Scratch in a web browser, you can zoom in or out to adjust the size. 
 
-To use zoom on a webpage in Google Chrome or Microsoft Edge, hold down the <kbd>Ctrl</kbd> key and press the <kbd>+</kbd> key or <kbd>-</kbd> key.
+For example, if you are using Microsoft Windows and you want to use zoom on a webpage in Google Chrome or Microsoft Edge, hold down the <kbd>Ctrl</kbd> key and press the <kbd>+</kbd> key or <kbd>-</kbd> key to zoom in or out.
 
 --- collapse ---
 ---
