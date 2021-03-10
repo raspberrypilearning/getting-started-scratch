@@ -165,7 +165,7 @@ If you follow the instructions below, you can use the **Line** tool to create an
 + Move the two shapes together.
 + Select the **Fill (Bucket)** tool and fill the triangle with colour.
 + Use the **Rectangle** tool to draw another rectangle for the chimney.
-+ You can use the **Front** and **Back** tools in the Paint editor to move your shapes forward or backward so that they are positioned correctly. In this example, you will not need to do this because the shapes are black for the silhouette.
++ You can use the **Front** and **Back** tools in the Paint editor to move your shapes forward or backward so that they are positioned correctly. In this example, you will not need to do this because the shapes are black to make a silhouette.
 + Select all the shapes and **Group** them together so that you can adjust them or move them as one shape.
 
 To create duplicate shapes of your house (for example, to make a skyline), follow the **Information** under 'Duplicate shapes to create a scenery costume' below.
@@ -185,7 +185,7 @@ You may want to duplicate shapes within a costume so that your scenery appears b
 
 ![Multiple cloud shapes](images/challenge2-sprite-costume-multiples.png){:width="400px"}
 
-The effect of multiplying shapes is used by professional animators to create the impression of weather patterns such as rain or clouds, a cluster of objects such as buildings or a wood, as well as a crowd of people in a scene.
+The effect of multiplying shapes is used by professional animators to create the impression of weather patterns such as rain or clouds, a cluster of objects such as buildings or a wood, or a crowd of people in a scene.
 
 --- no-print ---
 
