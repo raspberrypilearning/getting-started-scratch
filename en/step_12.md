@@ -128,7 +128,7 @@ title: Use your Backpack
 
 --- /print-only ---
 
-- To delete an item in your Backpack, find the item in the **Backpack** tab, then right-click on the item and select **delete**.
+- To delete an item in your Backpack, find the item in the **Backpack** tab, then right-click (or on a tablet, tap and hold) on the item and select **delete**.
 
 --- no-print ---
 
