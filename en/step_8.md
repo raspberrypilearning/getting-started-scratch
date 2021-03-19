@@ -8,35 +8,7 @@ To add sound to your project, use `Sound`{:class="block3sound"} blocks. For exam
 
 First, select a sound from the Sound Library, or record your own sound.
 
---- collapse ---
-
----
-title: Add a sound from the Sound Library
----
-
-First, select the sprite that you want to have the new sound and click on the **Sounds** tab. Each sprite starts with a default sound.
-
-![Sound tab](images/soundTab.png)
-
-To get to the Scratch Sound Library, click the **Choose a Sound** button.
-
-![Choose a sound button](images/chooseASoundButton.png)
-
-To hear a sound, hold your mouse cursor over the play symbol (or on a tablet, tap the play symbol).
-
-![Preview a sound](images/soundPreview.png)
-
-Click on any sound to add it to your sprite. You will be taken back to the **Sounds** tab and you will be able to see the sound that you just added.
-
-![Sounds tab with new sound](images/newSoundAdded.png)
-
-If you switch to the **Code** tab and look at the `Sound`{:class="block3sound"} blocks menu, you will be able to select the new sound.
- 
-![New sound available](images/newSoundBlock.png)
-
-You can also add sounds to the **Stage**. 
-
---- /collapse ---
+[[[scratch3-add-sound]]]
  
 --- collapse ---
 ---
