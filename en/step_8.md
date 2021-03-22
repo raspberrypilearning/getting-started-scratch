@@ -4,36 +4,14 @@ To add sound to your project, use `Sound`{:class="block3sound"} blocks. For exam
 
 ![Labelled Sound tab](images/Scratch-Sound-tab.png){:width="600px"}
 
---- task ---
+
 
 First, select a sound from the Sound Library, or record your own sound.
 
 [[[scratch3-add-sound]]]
  
---- collapse ---
----
-title: Record a sound
----
+[[[scratch3-record-sound]]]
 
-Select the sprite that you want to add recorded sound to. Click on its **Sounds** tab, go to the menu in the bottom left-hand corner, and select **Record**:
-![Show Record](images/from-me-record.png){:width="200px"}
-
-To start recording, click the red circle button:
-![Show play Record](images/from-me-start-sound.png){:width="200px"}
-
-To stop recording, click the red square button:
-![Show stop  Record](images/from-me-stop-sound.png){:width="200px"}
-
-You can now **Re-record**, **Play** the recording, and/or **Save** your sound.
-
-Name your sound:
-![Show name sound](images/from-me-name-sound.png){:width="300px"}
-
---- /collapse ---
-
---- /task ---
-
---- task ---
 Add code to run `Sound`{:class="block3sound"} blocks where you want sound in your project.
   
 --- collapse ---
@@ -200,4 +178,7 @@ play sound (Drum Funky v) until done
 
 --- /collapse ---
 
---- /task ---
+You can also use the Text to Speech extension:
+
+[[[scratch3-text-to-speech]]]
+
