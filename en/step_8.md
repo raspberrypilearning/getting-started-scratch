@@ -4,8 +4,6 @@ To add sound to your project, use `Sound`{:class="block3sound"} blocks. For exam
 
 ![Labelled Sound tab](images/Scratch-Sound-tab.png){:width="600px"}
 
-
-
 First, select a sound from the Sound Library, or record your own sound.
 
 [[[scratch3-add-sound]]]
@@ -141,10 +139,6 @@ start sound (Baa v)
 
 --- /collapse ---
  
---- /task ---
-
---- task ---
-
 Once you have chosen your sounds, you may want to change the `volume`{:class="block3sound"}, `pitch`{:class="block3sound"}, or `pan`{:class="block3sound"} (so you hear the sound from the left- or right-hand speaker).
 
 --- collapse ---
