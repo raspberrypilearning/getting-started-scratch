@@ -2,8 +2,6 @@
 
 Add code to your sprites to change the way that they look.
 
---- task ---
-
 Set the size and/or effect for your sprites.
 
 --- collapse ---
@@ -36,10 +34,10 @@ You can also quickly set the size of a sprite in the **Size** box in the Sprite 
 
 [[[scratch3-graphic-effects]]]
 
---- /task ---
 
---- task ---
 To create an animation effect with your sprites, you can change their graphic effects and/or use costumes.
+
+[[[scratch3-change-costumes-to-show-mood]]]
 
 --- collapse ---
 ---
@@ -122,12 +120,6 @@ set size to (100)
 
 [[[scratch3-animate-movement-costumes]]]
 
-[[[scratch3-copy-parts-between-sprite-costumes]]]
-
---- /task ---
-
---- task ---
-
 To change how your sprites appear in relation to each other, you can use layers.
 
 [[[scratch3-positioning-with-layers]]]
@@ -192,4 +184,3 @@ go to [front v] layer
 
 --- /collapse ---
 
---- /task ---
