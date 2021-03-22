@@ -6,40 +6,21 @@ Use the Paint editor to create your own backdrops and costumes, and to edit exis
 
 --- task ---
 
---- collapse ---
----
+[[[scratch3-paint-a-new-backdrop-extended]]]
 
-title: Create a plain backdrop
+[[[scratch3-backdrops-and-sprites-using-shapes]]]
 
----
+[[[scratch3-use-text-tool]]]
 
-To make your own backdrop:
-+ Go to the Stage pane and click on **backdrop1**.
+[[[scratch3-add-costumes-to-a-sprite]]]
 
-![Select sprite paint](images/challenge2-backdrop-paint.png){:width="400px"}
-
-+ Click on the **Backdrops** tab.
-+ Choose a **Fill** colour. Click on **Outline** and deselect it (to do this, click on the box with the diagonal line in the bottom left-hand corner of the menu).
-+ Click on the **Rectangle** tool (shown as an outline in the Paint editor) and draw a rectangle that covers all of the Stage.
-
-![Select Fill and Outline](images/challenge2-backdrop-fill-outline.gif){:width="400px"}
-
-Add a horizon line if it fits in with your scenery idea:
-
-![Image of horizon](images/challenge2-backdrop-horizon.png){:width="400px"}
-
-+ Again, in **backdrop1**, select a suitable **Fill** colour with no **Outline**.
-+ Add a **Rectangle** for flat ground or a **Circle** for a hill.
-
-![Create horizon in backdrops](images/challenge2-backdrop-create-horizon.png){:width="400px"}
-
-+ Remember to name your backdrop.
-
---- /collapse ---
+[[[scratch-crosshair]]]
 
 --- /task ---
 
 --- task ---
+
+[[[scratch3-copy-parts-between-sprite-costumes]]]
 
 --- collapse ---
 ---
@@ -216,43 +197,9 @@ In the real world, objects that are further away appear lighter in colour. To ac
 
 --- /collapse ---
 
-[[[scratch-crosshair]]]
-
 --- /task ---
 
 --- task ---
-
---- collapse ---
----
-title: Use the Text tool
----
-
-Click on the **Fill** colour chooser and select the first colour that you want for your text:
-![Show Fill colour](images/from-me-fill-colour.png){:width="150px"}
-
-Select the **Text** tool:
-![Show Text tool](images/from-me-text-tool.png){:width="150px"}
-
-Click on the Paint editor and start typing.
-
-Click on the drop-down menu and select the font that you want:
-![Show Font](images/from-me-text-font.png){:width="300px"}
-
-Click on the **Select (Arrow)** tool and select your text. Drag the corner handles to resize your text:
-![Show Arrow tool and resize handles](images/from-me-arrow-resize.png){:width="300px"}
-
-Do you want to change the **Fill** colour? Select the **Fill (Bucket)** tool and hover over your text. It will automatically change colour. Click on the text to make the change:
-![Show Fill (bucket) tool](images/from-me-fill-bucket.png){:width="150px"}
-
-If you want each word in your message to be a different colour, size, and font, then follow the process above for each word in your message.
-
-Position your text and/or group of words with the crosshair in the centre of the Paint editor:
-![Show crosshair](images/from-me-paint-editor-centre.png){:width="400px"}
-
-To layer your words, use the **Forward** and **Backward** tools:
-![Show forward/backward](images/from-me-paint-editor-forward-backward.png){:width="400px"}
-
---- /collapse ---
 
 --- collapse ---
 ---
@@ -261,7 +208,7 @@ title: Create a sprite with gaps that you can see through
 
 ---
 
-You can create a sprite that has gaps that you can see through. If it is positioned as the front layer and is the size of the Stage, it can appear like a view through the bars of a cage or a series of windowpanes.
+You can create a sprite that has gaps that you can see through. If it is positioned as the front layer and is the size of the Stage, it can appear like a view through the bars of a cage or a series 
 
 --- no-print ---
 
