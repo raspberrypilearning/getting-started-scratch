@@ -1,25 +1,8 @@
 ## Motion
 
---- task ---
-
 `Motion`{:class="block3motion"} blocks allow you to move your sprite so that it can bounce and/or spin around the Stage. See some of the ways in which you can get your sprite to move:
 
---- collapse ---
----
-title: Move your sprite
----
-
-Get your sprite to `move`{:class="block3motion"}:
-
-```blocks3
-when green flag clicked
-point in direction (90)
-set rotation style [left-right v]
-forever
-move (5) steps
-if on edge, bounce
-```
---- /collapse ---
+[[[scratch3-animate-movement-costumes]]]
 
 --- collapse ---
 ---
@@ -187,9 +170,8 @@ Change the values in a `move`{:class="block3motion"} block and `turn`{:class="bl
 
 --- /collapse --- 
 
---- /task ---
-
 --- task ---
+**Try:***
 + Drag your sprite to a different starting position on the Stage.
 + Increase the number of steps in a `move`{:class="block3motion"} block to make your sprite move faster, or decrease the number to make your sprite move slower.
 + Change the number of degrees in a `point in direction`{:class="block3motion"} block to change the direction that your sprite starts to move in. 
