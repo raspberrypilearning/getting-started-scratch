@@ -33,7 +33,7 @@ You can also quickly set the size of a sprite in the **Size** box in the Sprite 
 ![Sprite Size setting highlighted](images/spriteSize.png){:width="400px"}
 
 --- /collapse ---
--
+
 [[[scratch3-graphic-effects]]]
 
 --- /task ---
@@ -131,28 +131,6 @@ set size to (100)
 To change how your sprites appear in relation to each other, you can use layers.
 
 [[[scratch3-positioning-with-layers]]]
-<mark> wasn't sure where to put this ingredient and which ones to delete </mark>
-
---- collapse ---
----
-
-title: Layer sprites
-
----
-There are two ways to create layering.
-
-**Option one:** On the Stage, click on the sprite that you want as the front layer. Drag it over the front of the other sprites. This layering will stay when you run the program next time.
-
-![Image showing how to drag sprites to create layering](images/challenge1-change-layers.gif){:width="300px"}
-
-
-**Option two:** Select a `go to front layer`{:class="block3looks"} block for the relevant sprite and select `front`{:class="block3looks"} or `back`{:class="block3looks"} in the drop-down menu, then add the block to the setup under a `when green flag clicked`{:class="block3events"} block.
-
-```blocks3
-go to [front v] layer
-```
-
---- /collapse ---
 
 --- collapse ---
 ---
@@ -185,7 +163,7 @@ go to [back v] layer
 
 --- collapse ---
 ---
-title: Number your layers to create layers for many sprites
+title: Position in layers for many sprites
 ---
 
 **Through the window with tree**: [See inside](https://scratch.mit.edu/projects/454188775/editor){:target="_blank"}
