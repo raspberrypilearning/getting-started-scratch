@@ -171,7 +171,7 @@ Change the values in a `move`{:class="block3motion"} block and `turn`{:class="bl
 --- /collapse --- 
 
 --- task ---
-**Try:***
+**Try:**
 + Drag your sprite to a different starting position on the Stage.
 + Increase the number of steps in a `move`{:class="block3motion"} block to make your sprite move faster, or decrease the number to make your sprite move slower.
 + Change the number of degrees in a `point in direction`{:class="block3motion"} block to change the direction that your sprite starts to move in. 
