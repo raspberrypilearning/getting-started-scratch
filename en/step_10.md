@@ -4,8 +4,6 @@ Use the Paint editor to create your own backdrops and costumes, and to edit exis
 
 ![Labelled Costume tab](images/Scratch-Costume-tab.png){:width="600px"}
 
---- task ---
-
 [[[scratch3-paint-a-new-backdrop-extended]]]
 
 [[[scratch3-backdrops-and-sprites-using-shapes]]]
@@ -15,10 +13,6 @@ Use the Paint editor to create your own backdrops and costumes, and to edit exis
 [[[scratch3-add-costumes-to-a-sprite]]]
 
 [[[scratch-crosshair]]]
-
---- /task ---
-
---- task ---
 
 [[[scratch3-copy-parts-between-sprite-costumes]]]
 
@@ -79,10 +73,6 @@ Repeat the steps above for any part of the costume you have missed, or for any o
 ![Image showing final change](images/challenge1-change-costume-colour.png){:width="300px"}
 
 --- /collapse ---
-
---- /task ---
-
---- task ---
 
 Use the tips below to help you to create your own designs for your sprites in the Paint editor.
 
@@ -197,10 +187,6 @@ In the real world, objects that are further away appear lighter in colour. To ac
 
 --- /collapse ---
 
---- /task ---
-
---- task ---
-
 --- collapse ---
 ---
 
@@ -228,8 +214,6 @@ To create a type of masking sprite:
 ![Sprite costume mask copy](images/challenge2-sprite-costume-mask-copy.png)
 
 --- /collapse ---
-
---- /task ---
 
 **Tip:** If you find it hard to manage the sprites on your Stage, such as having a large sprite that keeps covering a much smaller one, you can click on **Hide** so that you don't see the sprite or sprites. Then, when you have finished, click on **Show** again.
 
