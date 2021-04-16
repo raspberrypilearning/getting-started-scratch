@@ -28,7 +28,7 @@ set size to (50) %
 
 You can also quickly set the size of a sprite in the **Size** box in the Sprite pane below the Stage:
 
-![Sprite Size setting highlighted](images/spriteSize.png){:width="400px"}
+![The Size box highlighted in the Sprite pane.](images/spriteSize.png){:width="400px"}
 
 --- /collapse ---
 
@@ -52,7 +52,7 @@ title: Change looks to create an animation effect
 
 You can use the `set size to`{:class="block3looks"} or `change size by`{:class="block3looks"} block to create a pulsing effect, such as a beating heart.
 
-**Note:** The `set size to`{:class="block3looks"} block sets the size to a specific value, while the `change size by`{:class="block3looks"} block changes the value from what it was before, e.g. `change size by`{:class="block3looks"}`10` adds 10 to the value of the size.
+**Note:** The `set size to`{:class="block3looks"} block sets the size to a specific value, while the `change size by`{:class="block3looks"} block changes the value from what it was before, e.g. `change size by`{:class="block3looks"} `10` adds 10 to the value of the size.
 
 ```blocks3
 when green flag clicked
@@ -82,7 +82,7 @@ change [ghost v] effect by (-75)
 
 **Note:** If you use code that changes a graphic effect and then changes it back again, remember to use a `wait`{:class="block3control"} block in between the `change graphic effect by`{:class="block3looks"} blocks, otherwise it will happen so fast that you won't see it!
 
-You can use a `clear graphic effects`{:class="block3looks"} block at any time to reset the effects.
+You can use a `clear graphic effects`{:class="block3looks"} block at any time to reset the effects:
 
 ```blocks3
 clear graphic effects
@@ -105,7 +105,7 @@ You can add actions that make a change to a sprite and then reverse them, such a
   <iframe src="https://scratch.mit.edu/projects/435723273/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 </div>
 
-This code will grow a sprite and apply the `fisheye`{:class="block3looks"} effect for 0.5 seconds and then return the sprite to normal:
+This code will grow a sprite and apply the `fisheye`{:class="block3looks"} effect for 0.5 seconds and then return the sprite to its starting appearance:
 
 ```blocks3
 when this sprite clicked
@@ -155,7 +155,7 @@ go to [back v] layer
 
 --- collapse ---
 ---
-title: Position in layers for many sprites
+title: Position sprites in many layers
 ---
 
 **Through the window with tree**: [See inside](https://scratch.mit.edu/projects/454188775/editor){:target="_blank"}
@@ -166,7 +166,7 @@ title: Position in layers for many sprites
 
 In the example, the **Window frame** sprite appears at the front and the **Sun** sprite appears at the back. The **Avery Walking** and **Tree** sprites are each in their own layers between the **Window frame** sprite and the **Sun** sprite.
 
-Use the `go backward`{:class="block3looks"}`1``layers`{:class="block3looks"} block to place a sprite one layer behind the sprite at the front:
+Use the `go backward`{:class="block3looks"} `1` `layers`{:class="block3looks"} block to place a sprite one layer behind the sprite at the front:
 
 ``` blocks3
 when green flag clicked
@@ -174,7 +174,7 @@ go to [front v] layer
 +go [backward v] (1) layers
 ```
 
-Change the value in the `go backward`{:class="block3looks"}`1``layers`{:class="block3looks"} block for each sprite, depending on where you want it to be positioned in relation to other sprites:
+Change the value in the `go backward`{:class="block3looks"} `1` `layers`{:class="block3looks"} block for each sprite, depending on where you want it to be positioned in relation to other sprites:
 
 ``` blocks3
 when green flag clicked

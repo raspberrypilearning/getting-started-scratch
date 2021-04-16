@@ -24,17 +24,17 @@ Click on the **Code** tab for any **sprite** or the **Stage**.
 
 Go to the `Variables`{:class="block3variables"} blocks menu and click on **Make a Variable**.
 
-![Make a variable](images/make-a-variable.png)
+![The 'Make a Variable' button.](images/make-a-variable.png)
 
 Name the `variable`{:class="block3variables"} to match its use, for example, `angle`. 
 
 Keep the **For all sprites** box selected. This means that you will be able to use the `variable`{:class="block3variables"} in the code for any of your sprites or the Stage.
 
-![Turn variable settings](images/turn-variable.png)
+![The 'angle' variable settings.](images/turn-variable.png)
 
 Click on **OK** to make the new `variable`{:class="block3variables"}. You will have new `Variables`{:class="block3variables"} blocks available, including an `angle`{:class="block3variables"} block (or whatever you named your variable) that you can drag and use as an input to other blocks. 
 
-![Turn variable blocks](images/turn-variable-blocks.png)
+![The 'angle' variable block in the 'Variables' blocks menu.](images/turn-variable-blocks.png)
 
 
 --- /collapse ---
@@ -59,19 +59,19 @@ Right-click (or on a tablet, tap and hold) on your `variable`{:class="block3vari
 
 Select **slider** in the menu. 
 
-![Turn slider](images/variable-slider.png)
+![Selecting 'slider' in the menu.](images/variable-slider.png)
 
 **Tip:** You can double-click (or on a tablet, tap) on the `variable`{:class="block3variables"} displayed on the Stage and select **slider**.
 
 Right-click on the `variable`{:class="block3variables"} displayed on the Stage and select **change slider range**.
 
-![Speed slider](images/slider-range.png)
+![Selecting 'change slider range' in the menu.](images/slider-range.png)
 
 To set the range, specify a minimum and maximum value.
 
 For example, a minimum of `1` and a maximum of `10` work fairly well for how quickly a sprite spins.
 
-![Slider range 1 to 10](images/slider-values.png)
+![Changing the slider range to 1 to 10.](images/slider-values.png)
 
 The value range that is right for your variable depends on what you are using it for. Sometimes you will need to experiment a little to get it right, but remember that you can change it at any time.
 
@@ -85,7 +85,7 @@ Drag the slider to a convenient position on the Stage.
 
 --- task ---
 
-Use your rounded `variable`{:class="block3variables"} input block to control something in your project, for example, to change the size of a sprite, the way that it looks, or the volume of a sound.
+Use your rounded `variable`{:class="block3variables"} input block to control something in your project, for example, to change the size of a sprite, the way that a sprite looks, or the volume of a sound.
 
 Here are some examples of how you can use your variable slider: 
 
@@ -193,11 +193,11 @@ wait (delay) seconds
 next costume
 ```
 
-A delay of more than one second is quite a long time. If you include a decimal number in the range of a slider then you can change the value by a 100th of a second at a time. 
+A delay of more than one second is quite a long time. If you include a decimal number in the range of a slider, then you can change the value by a 100th of a second at a time. 
 
 A range of `0.00` to `1.00` allows you to choose a delay between `0` seconds (no delay) and `1` second.
 
-![Decimal range](images/decimal-delay.png)
+![Changing the slider range to 0.00 to 1.00.](images/decimal-delay.png)
 
 Change the numbers to get the minimum and maximum values that you want users to be able to use in your project.
 
@@ -253,7 +253,7 @@ Sometimes you think of a better name for a variable.
 
 You can give a variable a new name: go to the `Variables`{:class="block3variables"} blocks menu, right-click (or on a tablet, tap and hold) on the `variable`{:class="block3variables"}, and choose **Rename variable**.
 
-![Rename a variable](images/rename-variable.png)
+![Selecting 'Rename variable' in the menu.](images/rename-variable.png)
 
 This will change the name of the variable in all the blocks in which you have used it. 
 

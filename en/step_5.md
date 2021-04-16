@@ -1,15 +1,15 @@
 ## Your first Scratch project
 
-![Scratch editor with key features labelled](images/scratch-features.png)
+![An annotated screenshot of the Scratch editor, with key features labelled.](images/scratch-features.png)
 
 --- task ---
-When you create a new Scratch project, it includes a cat sprite. 
+When you create a new Scratch project, it includes a **cat** sprite. 
 
 Drag blocks from the Blocks menu to the Code area to make the cat do something. 
 
 To try an example, drag a `move`{:class="block3motion"} block from the `Motion`{:class="block3motion"} blocks menu. The blocks are colour-coded to help you find them.
 
-![Move block](images/move-block.png)
+![A 'move' block in the Code area.](images/move-block.png)
 
 You can click on blocks in the Code area to run them. Click on the `move`{:class="block3motion"} block and the cat will move. 
 
@@ -19,7 +19,7 @@ You can click on blocks in the Code area to run them. Click on the `move`{:class
 
 Drag a `when green flag clicked`{:class="block3events"} block above the `move`{:class="block3motion"} block so that they snap together.
 
-![Flag clicked](images/move-block.png)
+![The 'move' block in the Code area.](images/move-block.png)
 
 Your code should look like this:
 
@@ -45,13 +45,13 @@ title: Choose a sprite
 
 ---
 
-In the Sprite pane, click on **Choose a Sprite** to see the library of all Scratch sprites.
+In the Sprite list, click on **Choose a Sprite** to see the library of all Scratch sprites.
 
-![Image sprite library](images/sprite-library.png)
+![The 'Choose a Sprite' icon.](images/sprite-library.png)
 
 You can search for a sprite, or browse by category or theme. Click on a sprite to add it to your project.
 
-![Image sprite library - choose](images/sprite-choose.png)
+![The Sprite Library.](images/sprite-choose.png)
 
 --- /collapse --- 
 
@@ -68,11 +68,11 @@ title: Choose a backdrop
 
 In the bottom right-hand corner of the Stage pane, click on **Choose a Backdrop**.
 
-![Image of Choose a Backdrop](images/stage-choose.png)
+![The 'Choose a Backdrop' icon.](images/stage-choose.png)
 
 You can search for a backdrop, or browse by category or theme. Click on a backdrop to add it to your project.
 
-![Image of Backdrop Library](images/backdrop.png)
+![The Backdrop Library.](images/backdrop.png)
 
 --- /collapse --- 
 
@@ -91,7 +91,7 @@ Go to **File** in the menu. If you have a Scratch account, click on **Save now**
 
 Click in the project name box and change the name to match your project. 
 
-![Project name highlighted](images/change-project-name.png)
+![The project name box highlighted.](images/change-project-name.png)
 
 If you share your project, then other people will also see this name, so make sure that it makes sense. 
 

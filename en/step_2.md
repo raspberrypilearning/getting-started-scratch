@@ -31,7 +31,7 @@ If you need to install Scratch, follow this process:
 + Select **Scratch 3**
 + Click on **OK**
 
-![Recommended Software Scratch 3](images/recommended-software-scratch3.png)
+![](images/recommended-software-scratch3.png)
 
 See [Scratch 3 Desktop for Raspberry Pi](https://www.raspberrypi.org/blog/scratch-3-desktop-for-raspbian-on-raspberry-pi/) for more information.
 
@@ -49,7 +49,7 @@ title: Switch between browser tabs
 
 Click on (or on a tablet, tap) the title of a browser tab to switch between the Scratch editor and project instructions.
 
-![Browser with two tabs](images/two-tabs.png)
+![A browser with two tabs.](images/two-tabs.png)
 
 --- /collapse ---
 
@@ -60,7 +60,7 @@ title: Side-by-side instructions and Scratch
 
 If your screen is big enough, you can view Scratch next to the project instructions.  
 
-![Side-by-side instructions and Scratch](images/side-by-side.png)
+![Side-by-side instructions and Scratch.](images/side-by-side.png)
 
 If you are using Microsoft Windows 10, drag the Scratch tab in your web browser so that it is in a separate window, and keep dragging until the cursor reaches the right-hand edge of your screen. The window will then be positioned on the right-hand side of the screen. 
 
@@ -89,7 +89,7 @@ title: Use zoom in the Code area
 
 You can also use the zoom controls in the Code area in Scratch to change the size of the code blocks in the Code area.
 
-![Scratch resize code blocks](images/zoom-code-area.png)
+![The zoom controls in the Code area.](images/zoom-code-area.png)
 
 --- /collapse ---
 

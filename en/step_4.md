@@ -1,6 +1,6 @@
 ## The Scratch editor
 
-![Labelled Scratch editor screenshot](images/scratch-interface.png)
+![An annotated screenshot of the Scratch editor.](images/scratch-interface.png)
 
 The **Stage** is where the action takes place in your project. The Stage has one or more background images called **backdrops**.
 

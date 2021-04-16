@@ -4,7 +4,7 @@
 
 * It's easier to identify issues if you make one change at a time and then run your program.
 
-* It might take a few experiments for your project to work in the way you planned.
+* It might take a few experiments for your project to work in the way that you planned.
 
 Here are some tips that can help you to debug a project when it is not doing what you want it to do:
 
@@ -66,17 +66,17 @@ title: Debugging tips for specific problems
 
 + **My sprite is going upside down** — Add a `set rotation style left-right`{:class="block3motion"} or `set rotation style don't rotate`{:class="block3motion"} block.
 
-+ **My sprite 'jumps' when it changes costume or bounces** — Make sure that the costume is centred in the Paint editor (line up the blue cross with the crosshair in the centre of the Paint editor).
++ **My sprite 'jumps' when it changes costume or bounces** — Make sure that the costume is centred in the Paint editor (line up the blue cross in the costume with the crosshair in the centre of the Paint editor).
 
 + **My sprite stops when it gets to the edge of the Stage** — Add an `if on edge, bounce`{:class="block3motion"} block.
 
-+ **My sound does not play** — Have you added a block to `play sound`{:class="block3sound"} when the sprite is clicked? If you have copied code from another sprite, you will need to add the sound to this sprite in the **Sounds** tab. Check the volume on your computer or tablet and make sure that you have not lowered the volume with code — try `set volume to`{:class="block3sound"}`100`.
++ **My sound does not play** — Have you added a block to `play sound`{:class="block3sound"} when the sprite is clicked? If you have copied code from another sprite, you will need to add the sound to this sprite in the **Sounds** tab. Check the volume on your computer or tablet, and make sure that you have not lowered the volume with code — try `set volume to`{:class="block3sound"} `100`.
 
 + **Other sprites keep going in front of my sprite** — Use a `go to front layer`{:class="block3looks"} block.
 
-+ **My sprite only moves/changes once** — Put your code inside a `forever`{:class="block3control"} block so it keeps running.
++ **My sprite only moves/changes once** — Put your code inside a `forever`{:class="block3control"} block so that it keeps running.
 
-+ **My sprite does not change when I move a variable slider** — Put your code inside a `forever`{:class="block3control"} block so it keeps updating. 
++ **My sprite does not change when I move a variable slider** — Put your code inside a `forever`{:class="block3control"} block so that it keeps updating. 
 
 --- /collapse ---
 

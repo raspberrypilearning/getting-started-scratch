@@ -12,9 +12,9 @@ Duplicate blocks or sets of blocks to reuse in a sprite's program:
 * Go to the **Code** tab.
 * Right-click (or on a tablet, tap and hold) on the first block that you want to copy. It will select all the blocks below it too.
 * Select **Duplicate** in the drop-down menu.
-![Image select duplicate](images/scratchguide-duplicate.png){:width="300px"}
+![Selecting 'Duplicate' in the menu.](images/scratchguide-duplicate.png){:width="300px"}
 * Drag the duplicated code where you want it to go.
-![Image select duplicate](images/scratchguide-drag.png){:width="300px"}
+![Moving the duplicated code.](images/scratchguide-drag.png){:width="300px"}
 * Delete any blocks that you do not need.
 
 --- /collapse ---
@@ -33,7 +33,7 @@ In the bottom right-hand corner of the Sprite list, click on **Choose a Sprite**
 
 Click on the first sprite and go to its **Code** tab. Drag the code that is in the first sprite's Code area to the image of the second sprite in the Sprite list, then let go of the code to finish copying it to the second sprite. You may have one script that starts with a `when green flag clicked`{:class="block3events"} block, as well as another script that starts with `when this sprite clicked`{:class="block3events"}. Make sure that you copy **all** the code scripts that you have created. 
 
-![Image copy code to sprite](images/challenge1-sprite-list.gif){:width="300px"}
+![Copying code to another sprite.](images/challenge1-sprite-list.gif){:width="300px"}
 
 Your second sprite will now have exactly the same code as your first sprite. Do not run the program until you have started to change the second sprite's code — you might not see the second sprite because it might be positioned underneath the first sprite.
 

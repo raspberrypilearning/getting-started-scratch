@@ -2,7 +2,7 @@
 
 To add sound to your project, use `Sound`{:class="block3sound"} blocks. For example, you can create a continuous background soundtrack, or add sounds that play at regular intervals.
 
-![Labelled Sound tab](images/Scratch-Sound-tab.png){:width="600px"}
+![An annotated screenshot of the Sounds tab.](images/Scratch-Sound-tab.png){:width="600px"}
 
 First, select a sound from the Sound Library, or record your own sound.
 
@@ -39,7 +39,7 @@ end
 
 **Note:** When you choose a new sound, if you select the **Loops** category, Scratch will only show you the sounds that are suitable for a single looping soundtrack.
 
-![Loop sounds](images/loopSounds.png)
+![The 'Loops' category in the Sound Library.](images/loopSounds.png)
 
 --- /collapse ---
  
@@ -58,8 +58,8 @@ Click on the green flag to hear the sounds.
 </div>
 
 Use a `forever`{:class="block3control"} block to create a looped sound. Select some sounds that you like and/or experiment. You can:
-+ Create a series of short sounds in a sequence 
-+ Or, use different instrument notes and effects to make a soundtrack
++ Create a series of short sounds in a sequence, or 
++ Use different instrument notes and effects to make a soundtrack
  
 ```blocks3
 when flag clicked
@@ -105,7 +105,7 @@ The **Whistle** sprite also plays a sound at regular intervals:
  ```blocks3
  when this sprite clicked
  forever
- play sound (referee whistle v) until done
+ play sound (Referee Whistle v) until done
  wait (4) seconds
  end
  ```
@@ -122,7 +122,7 @@ There are two `Sound`{:class="block3sound"} blocks with an important difference:
 
 + When you `play sound until done`{:class="block3sound"}, the sound will play all the way through. The next line of code in the script will not run until the sound has finished playing.
 
-+ When you `start sound`{:class="block3sound"}, the sound will play but the next block will run immediately and will not wait for the sound to finish playing first.
++ When you `start sound`{:class="block3sound"}, the sound will play, but the next block will run immediately and will not wait for the sound to finish playing first.
 
 This means that if you had a series of `start sound`{:class="block3sound"} blocks, the sounds would all play almost at the same time, layered on top of each other. The effect can be interesting and sometimes messy.
 
@@ -130,8 +130,8 @@ Have a play with it sometime!
 
 ```blocks3
 when green flag clicked
-start sound (meow v)
-start sound (alien Creak2 v)
+start sound (Meow v)
+start sound (Alien Creak2 v)
 start sound (Boing v)
 start sound (Boom Cloud v)
 start sound (Baa v)
@@ -172,7 +172,7 @@ play sound (Drum Funky v) until done
 
 --- /collapse ---
 
-You can also use the Text to Speech extension:
+You can also use the `Text to Speech`{:class="block3extensions"} extension:
 
 [[[scratch3-text-to-speech]]]
 
