@@ -1,7 +1,7 @@
 ## Introduction
 Scratch is a graphical programming language developed by the Lifelong Kindergarten group at the MIT Media Lab. In Scratch, you can drag and combine code blocks to make a range of programs, including animations, stories, musical instruments, and games. It's a bit like the programming equivalent of building blocks!
 
-![Screenshot of Scratch](images/showcase_static.png)
+![A screenshot of Scratch.](images/showcase_static.png)
 
 Scratch is used in many schools as part of the curriculum. It is free, and young people can use it at home as well as in clubs.
 

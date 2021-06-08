@@ -1,25 +1,8 @@
 ## Motion
 
---- task ---
-
 `Motion`{:class="block3motion"} blocks allow you to move your sprite so that it can bounce and/or spin around the Stage. See some of the ways in which you can get your sprite to move:
 
---- collapse ---
----
-title: Move your sprite
----
-
-Get your sprite to `move`{:class="block3motion"}:
-
-```blocks3
-when green flag clicked
-point in direction (90)
-set rotation style [left-right v]
-forever
-move (5) steps
-if on edge, bounce
-```
---- /collapse ---
+[[[scratch3-animate-movement-costumes]]]
 
 --- collapse ---
 ---
@@ -37,7 +20,7 @@ title: Bounce on the edge of the Stage
 
 --- /no-print ---
 
-This code makes a sprite bounce on the left-hand and right-hand edges of the Stage. Because the sprite rotates horizontally, it appears to flip when changing its direction when the green flag is clicked:
+This code makes a sprite bounce on the left-hand and right-hand edges of the Stage. Because the sprite rotates horizontally, it appears to flip when it changes its direction when the green flag is clicked:
 
 ```blocks3
 when green flag clicked
@@ -48,11 +31,11 @@ move (5) steps
 if on edge, bounce
 ```
 
-In this example, the `point in direction`{:class="block3motion"} block automatically points your sprite to the right (`90` degrees) when the green flag is clicked. If you change the number of degrees to `-90`, your sprite will point left.
+In this example, the `point in direction`{:class="block3motion"} block automatically points the sprite to the right (`90` degrees) when the green flag is clicked. If you change the number of degrees to `-90`, your sprite will point left.
 
 Add a `set rotation style`{:class="block3motion"} block and select `left-right`{:class="block3motion"} in the drop-down menu, so that your sprite will not flip upside down when it bounces on the edge of the Stage. 
 
-**Tip:** You can drag your sprite on the Stage to move it to the y (up-down) position that you want.
+**Tip:** You can drag your sprite on the Stage to move it to the y (up–down) position that you want.
 
 --- /collapse ---
 
@@ -87,7 +70,7 @@ Change the number of degrees in the `point in direction`{:class="block3motion"} 
 
 Add a `set rotation style`{:class="block3motion"} block and select `don't rotate`{:class="block3motion"} in the drop-down menu to stop your sprite rotating, even when it bounces.
 
-**Tip:** You can drag your sprite around the Stage to move it to the x (left-right) position that you want.
+**Tip:** You can drag your sprite around the Stage to move it to the x (left–right) position that you want.
 
 --- /collapse ---
 
@@ -133,7 +116,7 @@ title: Spin around
 ---
 --- no-print ---
 
-**Bat spinning**: [See inside](https://scratch.mit.edu/projects/435704980/editor){:target="_blank"}
+**Spinning bat**: [See inside](https://scratch.mit.edu/projects/435704980/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/435704980/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -172,7 +155,7 @@ title: Move in a circle
 
 --- /no-print ---
 
-This code makes a sprite fly in a circle when it is clicked:
+This code makes a sprite fly in a circle when the green flag is clicked:
 
 ```blocks3
 when green flag clicked
@@ -183,17 +166,12 @@ turn right (1) degrees :: motion
 
 Change the values in a `move`{:class="block3motion"} block and `turn`{:class="block3motion"} block within a `forever`{:class="block3control"} loop to `1` and your sprite will appear to move in a big circle.
 
-**Tip:** If you want your sprite to always start in the centre of the Stage, you can add `go to x:`{:class="block3motion"}`0``y:`{:class="block3motion"}`0` before the `forever`{:class="block3control"} block. 
+**Tip:** If you want your sprite to always start in the centre of the Stage, you can add a `go to x:`{:class="block3motion"} `0` `y:`{:class="block3motion"} `0` block before the `forever`{:class="block3control"} block. 
 
 --- /collapse --- 
 
---- /task ---
+You can position sprites on the Stage using x and y coordinates:
 
---- task ---
-+ Drag your sprite to a different starting location on the Stage.
-+ Increase the number of steps in a `move`{:class="block3motion"} block to make your sprite move faster, or decrease it to make it move slower.
-+ Change the number of degrees in a `point in direction`{:class="block3motion"} block to change the direction that your sprite starts to move in. 
-+ Change the number of degrees in a `turn right`{:class="block3motion"} or `turn left`{:class="block3motion"} block so that your sprite turns faster or slower. 
-+ Combine `move`{:class="block3motion"} and `turn right`{:class="block3motion"} or `turn left`{:class="block3motion"} blocks so that your sprite moves and turns. 
-+ Experiment with the `set rotation style`{:class="block3motion"} block to make sure that you understand what the different options do.
---- /task ---
+[[[generic-scratch3-coordinates]]]
+
+[[[scratch3-glide-to-object]]]

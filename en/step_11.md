@@ -1,84 +1,98 @@
-## Debug
+## Sensing
 
-**Debugging** is finding and fixing mistakes in your code that are called **bugs**.
+The blocks in the `Sensing`{:class="block3sensing"} blocks menu are used to get user text input, detect conditions, and report on values in your project.
 
-* It's easier to identify issues if you make one change at a time and then run your program.
+There are several hexagonal `Sensing`{:class="block3sensing"} blocks that you can use in `Control`{:class="block3control"} blocks to make decisions and control when blocks run.
 
-* It might take a few experiments for your project to work in the way you planned.
+The `touching`{:class="block3sensing"} block has options for detecting whether the sprite that owns the script is touching the mouse pointer (where you finger last touched on a tablet), the edge of the Stage or another sprite:
 
-Here are some tips that can help you to debug a project when it is not doing what you want it to do:
+```blocks3
+<touching (mouse-pointer v) ?>
 
---- collapse ---
----
-title: Run smaller pieces of code
----
+<touching (edge v) ?>
 
-You do not have to run a whole program to check whether the last few new blocks that you have added work.
+<touching (Sprite2 v) ?>
+```
 
-* Click on a block in the **Code area** to run it — it is a quick way to check that a block is working as you expect it to.
+There are blocks for detecting whether the sprite that owns the script is touching another colour (on the Stage or another sprite), or whether a colour on this sprite is touching another colour.
 
-* To test a set of blocks on their own, drag them away from their **containing** script, click on them to test them, then drag them back to the main script.
+```blocks3
+<touching color (#c5a97b) ?>
 
---- /collapse ---
+<color (#c219ed) is touching (#62d1e0) ?>
+```
 
---- collapse ---
----
-title: Add temporary delays
----
+The `key pressed`{:class="block3sensing"} block has options for number, letter and arrow keys. You need a keyboard to be able to enter keys. It detects whether the key is currently being pressed:
 
-Slow down the **execution** of your code when it is run. To do this, add a `wait`{:class="block3control"} or `wait until key pressed`{:class="block3control"} block, then remove the block when you have finished debugging your code.
+```blocks3
+<key (space v) pressed?>
+```
 
---- /collapse ---
+The `mouse down`{:class="block3sensing"} block detects whether the mouse is currently pressed, or the screen is being tapped or touched on a touchscreen:
 
---- collapse ---
---- 
-title: Show variables on the Stage
----
+```blocks3
+<mouse down?>
+```
 
-If your project uses `variables`{:class="block3variables"} to store data, then it can be helpful to show those `variables`{:class="block3variables"} on the Stage. 
+The `ask`{:class="block3sensing"} and `answer`{:class="block3sensing"} blocks are used to get text input from the user:
 
-Click on the checkbox next to a `variable`{:class="block3variables"} in the `Variables`{:class="block3variables"} blocks menu to show or hide it on the Stage. 
+Answer is a 'reporter' that you can use as a variable.
 
-Does the variable always have the value that you expect?
+```blocks3
+ask [What's your name] and wait
 
---- /collapse ---
+(answer) // the text the the user typed 
+```
 
---- collapse ---
----
-title: Add comments
----
+The `ask`{:class="block3sensing"} block works with a keyboard or with a virtual on-screen keyboard on a tablet.
 
-Add comments to blocks, sets of blocks, and/or scripts. Use everyday language to explain what the code does. Sometimes, this will make you realise that your code does not actually do what you want it to do!
+[[[scratch3-ask-answer-chat]]]
 
-Comments are useful for when you want to understand your code later, and they help other people to understand your projects.
+The `Sensing`{:class="block3sensing"} blocks menu also contains several 'reporter' blocks that can be used to get values:
 
---- /collapse ---
+```blocks3
+(distance to (mouse-pointer v))
 
+(distance to (Sprite2 v))
+```
 
-There are common problems that lots of beginners (and experts!) experience in Scratch. 
+You can detect the current position of the mouse pointer (or the current or most recent position of your finger on a tablet): 
 
---- collapse ---
----
+```blocks3
+(mouse x)
 
-title: Debugging tips for specific problems
+(mouse y)
+```
 
----
+You can detect the `loudness`{:class="block3sensing"} of sound from the microphone, a pop-up will ask the user for permission to use the microphone:
 
-+ **My sprite is going upside down** — Add a `set rotation style left-right`{:class="block3motion"} or `set rotation style don't rotate`{:class="block3motion"} block.
+```blocks3
+(loudness)
+```
 
-+ **My sprite 'jumps' when it changes costume or bounces** — Make sure that the costume is centred in the Paint editor (line up the blue cross with the crosshair in the centre of the Paint editor).
+The `timer`{:class="block3sensing"} starts counting when the project loads and can be set back to `0` with `reset timer`{:class="block3sensing"}:
 
-+ **My sprite stops when it gets to the edge of the Stage** — Add an `if on edge, bounce`{:class="block3motion"} block.
+```blocks3
+(timer)
 
-+ **My sound does not play** — Have you added a block to `play sound`{:class="block3sound"} when the sprite is clicked? If you have copied code from another sprite, you will need to add the sound to this sprite from the **Sounds** tab. Check the volume on your computer and make sure that you have not lowered the volume with code — try `set volume to`{:class="block3sound"}`100`.
+reset timer
+```
 
-+ **Other sprites keep going in front of my sprite** — Use a `go to front layer`{:class="block3looks"} block.
+You can also access reporters for the Stage and other sprites:
 
-+ **My sprite only moves/changes once** — Put your code inside a `forever`{:class="block3control"} block so it keeps running.
+```blocks3
+([backdrop # v] of (_stage_ v))
 
-+ **My sprite does not change when I move a variable slider** — Put your code inside a `forever`{:class="block3control"} block so it keeps updating. 
+([x position v] of (Sprite2 v))
 
---- /collapse ---
+([costume # v] of (Sprite2 v))
+```
 
-**Tip**: If you cannot find the problem after you have tried these techniques, then take a break or work on a different part of your project. When you come back, you might find the bug straight away!
+There are reporters related to the date and time in the real world, in your local timezone:
+
+```blocks3
+(current [year v]) // hour, minute, ...
+
+(days since 2000)
+```
 
