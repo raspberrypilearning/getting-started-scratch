@@ -14,8 +14,15 @@ steps:
   - title: Motion
   - title: Looks
   - title: Sound
+  - title: Events
+  - title: Control
+  - title: Sensing
+  - title: Operators
   - title: Variables
+  - title: My blocks
+  - title: Extensions
   - title: Paint editor
+  - title: Sound editor
   - title: Debug
   - title: Duplicate sprites and copy code
   - title: Share and comment
