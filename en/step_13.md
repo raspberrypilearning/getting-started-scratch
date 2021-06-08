@@ -73,6 +73,8 @@ Drag the slider to a convenient position on the Stage.
 
 More ideas for using variables:
 
+[[[generic-scratch3-high-score]]]
+
 [[[scratch3-join-text]]]
 
 [[[scratch3-set-variable-with-button]]]

@@ -170,12 +170,8 @@ Change the values in a `move`{:class="block3motion"} block and `turn`{:class="bl
 
 --- /collapse --- 
 
---- task ---
-**Try:**
-+ Drag your sprite to a different starting position on the Stage.
-+ Increase the number of steps in a `move`{:class="block3motion"} block to make your sprite move faster, or decrease the number to make your sprite move slower.
-+ Change the number of degrees in a `point in direction`{:class="block3motion"} block to change the direction that your sprite starts to move in. 
-+ Change the number of degrees in a `turn right`{:class="block3motion"} or `turn left`{:class="block3motion"} block so that your sprite turns faster or slower. 
-+ Combine `move`{:class="block3motion"} and `turn right`{:class="block3motion"} or `turn left`{:class="block3motion"} blocks so that your sprite moves and turns. 
-+ Experiment with the `set rotation style`{:class="block3motion"} block to make sure that you understand what the different options do.
---- /task ---
+You can position sprites on the Stage using x and y coordinates:
+
+[[[generic-scratch3-coordinates]]]
+
+[[[scratch3-glide-to-object]]]
