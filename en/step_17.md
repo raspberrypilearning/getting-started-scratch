@@ -7,6 +7,8 @@ Use the Sound editor to add and edit existing sounds and to record your own soun
 [[[scratch3-add-sound]]]
 [[[scratch3-record-sound]]]
 
+Edit whole sounds or parts of sounds.
+
 [[[scratch3-reverse-sound]]]
 [[[scratch3-crop-sound]]]
 [[[scratch3-sound-effects]]]

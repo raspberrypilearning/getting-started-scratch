@@ -1,4 +1,19 @@
-## Duplicate sprites and copy code
+## Editting tips
+It's useful to learn how to copy and delete code blocks and duplicate sprites. 
+
+**Tip:** You can use <kbd>Ctrl-z</kbd> (hold down the Ctrl key and tap 'z') to undo lots of actions in Scratch. If you accidentally delete a Sprite or other item you can use 'Restore' from the 'Edit' menu to get it back. 
+
+You can delete code blocks you don't need any more:
+
+--- collapse ---
+
+---
+title: Deleting code blocks
+---
+
+To delete a block drag it to the Blocks menu, or right-click and choose 'Delete Block'. On a computer you can also click on a block and then tap <kdb>Delete</kbd> to remove a block.
+
+--- /collapse ---
 
 Duplicating or copying code can save you time when making a project. 
 
@@ -43,3 +58,17 @@ If you want to copy costumes, sprites, sounds, and scripts between projects, dra
 
 [[[scratch-backpack]]]
 
+It's always worth spending some time making sure you have followed best practices so your project is easy to understand. 
+
+--- collapse ---
+
+---
+title: Best practices for Scratch projects
+---
+
+- Name all sprites, costumes, sounds, variables and messages sensibly. It’s much easier to understand projects that use helpful names.
+- Fill in the Project Page with a good title, instructions and notes so that users know how to use your project and where you got ideas from.
+- Add short comments that explain what your code is doing
+- Make sure your scripts are tidy in the ‘Code’ tab. You can right-click and choose ‘Clean up Blocks’ or arrange the scripts in a way that makes sense to you. Try and put similar scripts together.
+
+--- /collapse ---

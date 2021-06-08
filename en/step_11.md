@@ -6,7 +6,7 @@ There are several hexagonal `Sensing`{:class="block3sensing"} blocks that you ca
 
 The `touching`{:class="block3sensing"} block has options for detecting whether the sprite that owns the script is touching the mouse pointer (where you finger last touched on a tablet), the edge of the Stage or another sprite:
 
-```blocks
+```blocks3
 <touching (mouse-pointer v) ?>
 
 <touching (edge v) ?>
@@ -24,13 +24,13 @@ There are blocks for detecting whether the sprite that owns the script is touchi
 
 The `key pressed`{:class="block3sensing"} block has options for number, letter and arrow keys. You need a keyboard to be able to enter keys. It detects whether the key is currently being pressed:
 
-```blocks
+```blocks3
 <key (space v) pressed?>
 ```
 
 The `mouse down`{:class="block3sensing"} block detects whether the mouse is currently pressed, or the screen is being tapped or touched on a touchscreen:
 
-```blocks
+```blocks3
 <mouse down?>
 ```
 
@@ -38,7 +38,7 @@ The `ask`{:class="block3sensing"} and `answer`{:class="block3sensing"} blocks ar
 
 Answer is a 'reporter' that you can use as a variable.
 
-```blocks
+```blocks3
 ask [What's your name] and wait
 
 (answer) // the text the the user typed 
