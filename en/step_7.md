@@ -33,7 +33,7 @@ The sprite will show a speech bubble for two seconds when clicked.
 
 ![The Pico sprite with "Hello" in a speech bubble.](images/pico-say-hello-stage.png)
 
-The `say ()`{:class="block3looks"} and `think ()`{:class="block3looks"} are used to say or think something until another message replaces it. 
+The `say ()`{:class="block3looks"} and `think ()`{:class="block3looks"} blocks are used to say or think something until another message or an empty `say ()`{:class="block3looks"} or `think ()`{:class="block3looks"} block replaces it. 
 
 --- /collapse ---
 
