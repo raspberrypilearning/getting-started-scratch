@@ -4,6 +4,8 @@
 
 ### Movement
 
+The `move`{:class="block3motion"} block is the simplest way to ge started with moving a Sprite:
+
 ```blocks3
 move [10] steps
 ```
@@ -32,6 +34,8 @@ glide [1] secs to x: [0] y: [0]
 You can also change the `direction`{:class="block3motion"} that a sprite is pointing in. This changes the direction that the sprite will move in if you use a `move`{:class="block3motion"} block. It may also change the rotation of the sprite's costume depending on the `rotation-style`{:class="block3motion"} setting.
 
 Directions: 0 is up, 90 is right, 180 is down and 270 is left.
+
+When you add a Sprite it will be facing right (90 degrees). You can change this in the Sprite pane or using code blocks.
 
 ```blocks3
 turn right [15] degrees
