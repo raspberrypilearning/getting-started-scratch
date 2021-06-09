@@ -1,8 +1,51 @@
 ## Looks
 
-Add code to your sprites to change the way that they look.
+Blocks in the `Looks`{:class="block3looks"} blocks menu control the way your sprites change the way that they look.
 
-Set the size and/or effect for your sprites.
+Sprites can communicate using `Looks`{:class="block3looks"}, it may be through a `say`{:class="block3looks"} speech bubble, a `think`{:class="block3looks"} thought bubble or through their `graphic effects`{:class="block3looks"}.
+
+```blocks3
+say () for () seconds
+
+say ()
+
+think () for () seconds
+
+think ()
+```
+
+--- collapse ---
+
+---
+title: Use a speech bubble to communicate
+---
+
+Sprites can `say`{:class="block3looks"} and `think`{:class="block3looks"} to communicate. 
+
+The `say () for () seconds`{:class="block3looks"} and `think () for () seconds`{:class="block3looks"} are used to say or think something for a set amount of time.
+
+```blocks3
+when this sprite clicked
+say [Hello!] for [2] seconds // hide speech after 2 seconds
+```
+
+The sprite will show a speech bubble for two seconds when clicked.
+
+![The Pico sprite with "Hello" in a speech bubble.](images/pico-say-hello-stage.png)
+
+The `say ()`{:class="block3looks"} and `think ()`{:class="block3looks"} blocks are used to say or think something until another message or an empty `say ()`{:class="block3looks"} or `think ()`{:class="block3looks"} block replaces it. 
+
+--- /collapse ---
+
+Set the `size`{:class="block3looks"} and/or `effect`{:class="block3looks"} for your sprites.
+
+```blocks3
+change size by ()
+
+set size to () %
+
+(size)
+```
 
 --- collapse ---
 ---
@@ -32,10 +75,27 @@ You can also quickly set the size of a sprite in the **Size** box in the Sprite 
 
 --- /collapse ---
 
+You can set or change colour, fisheye, whirl, pixelate, mosaic, brightness and ghost effects.
+
+```blocks3
+change [color v] effect by ()
+
+set [color v] effect to ()
+
+clear graphic effects
+```
+
 [[[scratch3-graphic-effects]]]
 
+To create an animation effect with your sprites, you can change their costumes.
 
-To create an animation effect with your sprites, you can change their graphic effects and/or use costumes.
+```blocks3
+switch costume to ( v)
+
+next costume
+
+(costume [number v])
+```
 
 [[[scratch3-change-costumes-to-show-mood]]]
 
@@ -120,7 +180,35 @@ set size to (100)
 
 [[[scratch3-animate-movement-costumes]]]
 
+You can use code to change the backdrop too.
+
+```blocks3
+switch backdrop to ( v)
+
+next backdrop
+
+(backdrop [number v])
+```
+
+[[[scratch3-changing-backdrops-pages-levels]]]
+
+The `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks control the visibility of a sprite.
+
+```blocks3
+show 
+
+hide
+```
+
+[[[scratch3-show-hide-sprites-backdrops]]]
+
 To change how your sprites appear in relation to each other, you can use layers.
+
+```blocks3
+go to [front v] layer
+
+go [forward v] () layers
+```
 
 [[[scratch3-positioning-with-layers]]]
 
