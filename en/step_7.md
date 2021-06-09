@@ -4,6 +4,39 @@ Blocks in the `Looks`{:class="block3looks"} blocks menu control the way your spr
 
 Sprites can communicate using `Looks`{:class="block3looks"}, it may be through a `say`{:class="block3looks"} speech bubble, a `think`{:class="block3looks"} thought bubble or through their `graphic effects`{:class="block3looks"}.
 
+```blocks3
+say () for () seconds
+
+say ()
+
+think () for () seconds
+
+think ()
+```
+
+--- collapse ---
+
+---
+title: Use a speech bubble to communicate
+---
+
+Sprites can `say`{:class="block3looks"} and `think`{:class="block3looks"} to communicate. 
+
+The `say () for () seconds`{:class="block3looks"} and `think () for () seconds`{:class="block3looks"} are used to say or think something for a set amount of time.
+
+```blocks3
+when this sprite clicked
+say [Hello!] for [2] seconds // hide speech after 2 seconds
+```
+
+The sprite will show a speech bubble for two seconds when clicked.
+
+![The Pico sprite with "Hello" in a speech bubble.](images/pico-say-hello-stage.png)
+
+The `say ()`{:class="block3looks"} and `think ()`{:class="block3looks"} are used to say or think something until another message replaces it. 
+
+--- /collapse ---
+
 Set the `size`{:class="block3looks"} and/or `effect`{:class="block3looks"} for your sprites.
 
 ```blocks3

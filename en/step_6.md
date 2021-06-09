@@ -227,7 +227,7 @@ Add a `set rotation style`{:class="block3motion"} block and select `all around`{
 
 ### Using coordinates
 
-You can also `change`{:class="block3motion"} and `set`{:class="block3motion"} the `x`{:class="block3motion"} and `y`{}:class="block3motion"} coordinates and get their values to use in other blocks:
+You can also `change`{:class="block3motion"} and `set`{:class="block3motion"} the `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates and get their values to use in other blocks:
 
 [[[generic-scratch3-coordinates]]]
 
