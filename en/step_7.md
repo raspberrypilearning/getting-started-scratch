@@ -45,7 +45,7 @@ The `say ()`{:class="block3looks"} and `think ()`{:class="block3looks"} blocks a
 
 ### Size
 
-Set the `size`{:class="block3looks"} and/or `effect`{:class="block3looks"} for your sprites.
+Set or change the `size`{:class="block3looks"} of your sprites.
 
 ```blocks3
 change size by ()

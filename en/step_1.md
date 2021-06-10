@@ -7,7 +7,6 @@ Scratch is used in many schools as part of the curriculum. It is free, and young
 
 Scratch allows young people to learn coding concepts and create interactive projects without needing to learn a text-based programming language. You will not need to be able to type quickly or remember complex code to use Scratch.
 
-
 ### How to use this guide
 If you have not used Scratch before, then this guide will help you to set up and create your first project.
 

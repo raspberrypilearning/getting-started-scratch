@@ -49,7 +49,7 @@ point towards (mouse-pointer v)
 set rotation style [left-right v] // or all-around or none
 ```
 
-
+[[[scratch3-sprite-direction]]]
 
 [[[scratch3-left-right-direction]]]
 
