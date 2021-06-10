@@ -2,11 +2,13 @@
 
 A `variable`{:class="block3variables"} is a way of storing numbers and/or text.
 
+You can make your own variables and choose whether they show on the Stage:
 
-You can make your own variables:
+[[[generic-scratch3-add-variable]]]
+
+You should think about whether you need to set a starting value when you make a variable:
 
 [[[scratch3-create-set-variable]]]
-
 
 You can rename a variable if you change your mind:
 
@@ -30,46 +32,12 @@ This will change the name of the variable in all the blocks in which you have us
 
 **Tip:** Make sure you know the difference between `set`{:class="block3variables"} and `change by`{:class="block3variables"}. `set`{:class="block3variables"} will replace the value stored in a variable. `change by`{:class="block3variables"} will change the value of a number variable by the amount you choose, `change by`{:class="block3variables"}`1` will add one to a variable. `change by`{:class="block3variables"}`-1` will take one away from a variable. 
 
-Variable 'monitors' can appear on the Stage:
-
-<mark>scratch3-variable-monitors</mark>
 
 **Tip:** Variables on the Stage always appear in a layer above all of the sprites. If you have a moving sprite, the sprite will go under any variables on the Stage. 
 
---- collapse ---
+You can use a slider to control the value in a variable.
 
----
-
-title: Use a slider to set a variable
-
----
-
-Right-click (or on a tablet, tap and hold) on your `variable`{:class="block3variables"} on the Stage.
-
-Select **slider** in the menu. 
-
-![Selecting 'slider' in the menu.](images/variable-slider.png)
-
-**Tip:** You can double-click (or on a tablet, tap) on the `variable`{:class="block3variables"} displayed on the Stage and select **slider**.
-
-Right-click on the `variable`{:class="block3variables"} displayed on the Stage and select **change slider range**.
-
-![Selecting 'change slider range' in the menu.](images/slider-range.png)
-
-To set the range, specify a minimum and maximum value.
-
-For example, a minimum of `1` and a maximum of `10` work fairly well for how quickly a sprite spins.
-
-![Changing the slider range to 1 to 10.](images/slider-values.png)
-
-The value range that is right for your variable depends on what you are using it for. Sometimes you will need to experiment a little to get it right, but remember that you can change it at any time.
-
-Drag the slider to a convenient position on the Stage.
-
-**Tip:** If you are using a computer with a keyboard, then you can use the arrow keys to change the value of a slider by `1`. First, click on the slider to select it, then use the <kbd>Left</kbd> arrow key to change the value by `-1` and the <kbd>Right</kbd> arrow key to change the value by `1`.
-
---- /collapse ---
-
+[[[scratch3-slider-variable]]]
 
 More ideas for using variables:
 
