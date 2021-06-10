@@ -39,7 +39,7 @@ stop [this script]
 stop [other scripts in sprite]
 ```
 
-The `if...then`{:class="block3control"} and `if...then...else` blocks are used to make decisions about which code blocks to run next. This is sometimes called **selection**. The `if...then`{:class="block3control"} block checks a hexagonal shaped **condition** and runs the code blocks inside if if the condition is **true**. The `if...then..else`{:class="block3control"} block also has a section for code blocks to run if the condition is **false**.are
+The `if...then`{:class="block3control"} and `if...then...else` blocks are used to make decisions about which code blocks to run next. This is sometimes called **selection**. The `if...then`{:class="block3control"} block checks a hexagonal shaped **condition** and runs the code blocks inside if the condition is **true**. The `if...then..else`{:class="block3control"} block also has a section for code blocks to run if the condition is **false**.are
 
 ```blocks3
 if <> then

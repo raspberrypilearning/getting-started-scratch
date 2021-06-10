@@ -26,7 +26,7 @@ Click on the green flag to hear the sounds.
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/444581851/?autostart=false" frameborder="0"></iframe>
 </div>
  
-To make a sound play continuously, use a `play sound until done`{:class="block3sound"} block inside a `forever`{:class="block3control"} loop. Once the sound has finished, the `forever`{:class="block3control"} loop makes the sound start again from the beginning.
+You can use a `play sound until done`{:class="block3sound"} block inside a `forever`{:class="block3control"} loop. Once the sound has finished, the `forever`{:class="block3control"} loop makes the sound start again from the beginning.
 
 This code uses a single long sound clip repeated as a soundtrack:
  
@@ -57,9 +57,9 @@ Click on the green flag to hear the sounds.
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/444673165/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Use a `forever`{:class="block3control"} block to create a looped sound. Select some sounds that you like and/or experiment. You can:
-+ Create a series of short sounds in a sequence, or 
-+ Use different instrument notes and effects to make a soundtrack
+ Use a `forever`{:class="block3control"} block to create a looped sound. You can:
++ Put a series of short sounds in a sequence, or 
++ Use different instrument notes and effects
  
 ```blocks3
 when flag clicked

@@ -194,7 +194,7 @@ title: Create a sprite with gaps that you can see through
 
 ---
 
-You can create a sprite that has gaps that you can see through. If it is positioned as the front layer and is the size of the Stage, it can appear like a view through the bars of a cage or a series of windowpanes.
+You can create a sprite that has gaps that you can see through. If it is positioned as the front layer and is the size of the Stage, it can appear like a view through the bars of a cage or a window.
 
 --- no-print ---
 

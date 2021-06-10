@@ -232,35 +232,6 @@ go [forward v] () layers
 
 --- collapse ---
 ---
-title: Use front and back layers to position your sprites
---- 
-
-**Through the window**: [See inside](https://scratch.mit.edu/projects/451497627/editor){:target="_blank"}
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451497627/?autostart=false" frameborder="0"></iframe>
-</div>
-
-In the example, the **Window frame** sprite appears at the front. The **Avery Walking** sprite appears at the back behind the **Window frame** sprite.
-
-Select the sprite that you want at the front and click on its **Code** tab. Add a `go to front layer`{:class="block3looks"} block:
-
-``` blocks3
-when green flag clicked
-go to [front v] layer
-```
-
-Select the sprite(s) that you want at the back and click on its **Code** tab. Add a `go to back layer`{:class="block3looks"} block:
-
-``` blocks3
-when green flag clicked
-go to [back v] layer
-```
-
---- /collapse ---
-
---- collapse ---
----
 title: Position sprites in many layers
 ---
 
