@@ -4,8 +4,12 @@ Use the Sound editor to add and edit existing sounds and to record your own soun
 
 ![An annotated screenshot of the Sound tab.](images/Scratch-Sound-tab.png){:width="600px"}
 
+### Creating sounds
+
 [[[scratch3-add-sound]]]
 [[[scratch3-record-sound]]]
+
+### Editing sounds
 
 Edit whole sounds or parts of sounds.
 
