@@ -1,8 +1,10 @@
 ## Looks
 
-Blocks in the `Looks`{:class="block3looks"} blocks menu control the way your sprites change the way that they look.
+Blocks in the `Looks`{:class="block3looks"} Blocks menu control the way sprites change the way that they appear on the Stage.
 
 Sprites can communicate using `Looks`{:class="block3looks"}, it may be through a `say`{:class="block3looks"} speech bubble, a `think`{:class="block3looks"} thought bubble or through their `graphic effects`{:class="block3looks"}.
+
+### Say and think
 
 ```blocks3
 say () for () seconds
@@ -22,7 +24,7 @@ title: Use a speech bubble to communicate
 
 Sprites can `say`{:class="block3looks"} and `think`{:class="block3looks"} to communicate. 
 
-The `say () for () seconds`{:class="block3looks"} and `think () for () seconds`{:class="block3looks"} are used to say or think something for a set amount of time.
+The `say () for () seconds`{:class="block3looks"} and `think () for () seconds`{:class="block3looks"} blocks are used to say or think something for a set amount of time.
 
 ```blocks3
 when this sprite clicked
@@ -31,11 +33,17 @@ say [Hello!] for [2] seconds // hide speech after 2 seconds
 
 The sprite will show a speech bubble for two seconds when clicked.
 
-![The Pico sprite with "Hello" in a speech bubble.](images/pico-say-hello-stage.png)
+**Space talk**: Click on the sprites to see them communicate with speech and thought [See inside](https://scratch.mit.edu/projects/485673032/editor){:target="_blank"}
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/485673032/?autostart=false" frameborder="0"></iframe>
+</div>
 
 The `say ()`{:class="block3looks"} and `think ()`{:class="block3looks"} blocks are used to say or think something until another message or an empty `say ()`{:class="block3looks"} or `think ()`{:class="block3looks"} block replaces it. 
 
 --- /collapse ---
+
+### Size
 
 Set the `size`{:class="block3looks"} and/or `effect`{:class="block3looks"} for your sprites.
 
@@ -69,11 +77,13 @@ when green flag clicked
 set size to (50) %
 ```
 
-You can also quickly set the size of a sprite in the **Size** box in the Sprite pane below the Stage:
+You can also quickly set the size of a sprite in the **Size** property in the Sprite pane below the Stage:
 
 ![The Size box highlighted in the Sprite pane.](images/spriteSize.png){:width="400px"}
 
 --- /collapse ---
+
+### Graphic effects
 
 You can set or change colour, fisheye, whirl, pixelate, mosaic, brightness and ghost effects.
 
@@ -86,6 +96,8 @@ clear graphic effects
 ```
 
 [[[scratch3-graphic-effects]]]
+
+### Costumes
 
 To create an animation effect with your sprites, you can change their costumes.
 
@@ -180,6 +192,8 @@ set size to (100)
 
 [[[scratch3-animate-movement-costumes]]]
 
+### Backdrops
+
 You can use code to change the backdrop too.
 
 ```blocks3
@@ -192,6 +206,8 @@ next backdrop
 
 [[[scratch3-changing-backdrops-pages-levels]]]
 
+### Visibility
+
 The `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks control the visibility of a sprite.
 
 ```blocks3
@@ -201,6 +217,8 @@ hide
 ```
 
 [[[scratch3-show-hide-sprites-backdrops]]]
+
+### Layers
 
 To change how your sprites appear in relation to each other, you can use layers.
 

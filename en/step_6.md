@@ -33,9 +33,7 @@ glide [1] secs to x: [0] y: [0]
 ### Rotation
 You can also change the `direction`{:class="block3motion"} that a sprite is pointing in. This changes the direction that the sprite will move in if you use a `move`{:class="block3motion"} block. It may also change the rotation of the sprite's costume depending on the `rotation-style`{:class="block3motion"} setting.
 
-Directions: 0 is up, 90 is right, 180 is down and 270 is left.
-
-When you add a Sprite it will be facing right (90 degrees). You can change this in the Sprite pane or using code blocks.
+When you add a Sprite it will be facing right (90 degrees). You can change this in the sprite pane or using code blocks.
 
 ```blocks3
 turn right [15] degrees
@@ -50,6 +48,10 @@ point towards (mouse-pointer v)
 
 set rotation style [left-right v] // or all-around or none
 ```
+
+
+
+[[[scratch3-left-right-direction]]]
 
 --- collapse ---
 ---
@@ -121,14 +123,12 @@ The `if on edge, bounce`{:class="block3motion"} block is really useful when you 
 if on edge, bounce
 ```
 
-See some of the ways in which you can get your sprite to move:
-
-[[[scratch3-animate-movement-costumes]]]
+See some of the ways in which you can get your sprite to bounce around:
 
 --- collapse ---
 ---
 
-title: Bounce on the edge of the Stage
+title: Bounce across the Stage
 
 ---
 --- no-print ---
