@@ -1,8 +1,10 @@
 ## Our Scratch projects
 
-This reference guide, Getting started with Scratch, aims to support you to use Scratch in our projects, as well as in your own projects.
+Our Scratch paths each have six projects to help you to learn different skills in Scratch, and to progress to making your own projects independently. 
 
-Our Scratch paths each have six projects to help you to learn different skills in Scratch, and to progress to making your own projects independently. You can return to this guide whenever you need to remind yourself of the skills you have learned.
+You can return to this reference guide, Getting started with Scratch, whenever you need to remind yourself of the skills you have learned.
+
+These projects can be completed on any computer or tablet that runs Scratch 3.
 
 ### Beginner Scratch projects
 
@@ -22,47 +24,59 @@ Learn how to look after yourself and others with Scratch projects to make you la
 
 <div style="display: inline-block; max-width: 200px;">
 ![](images/scratch.png)
-[Scratch module 1]https://projects.raspberrypi.org/en/pathways/scratch-module-1{:target="_blank"}
+[Scratch module 1](https://projects.raspberrypi.org/en/pathways/scratch-module-1){:target="_blank"}
 </div>
 
 <br/>
 
 ### Beyond the basics Scratch projects
 
-<div style="display: inline-block; max-width: 200px;">
+If you already know about sprites, costumes, backdrops and loops then try these projects:
+
+<div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/Intro-banner.png)
-[More Scratch: broadcast, decisions and variables](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank"}
+[More Scratch: broadcast, decisions and variables](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank"}<br/>
 More Scratch moves beyond the basics introduced in Introduction to Scratch. You will make apps, games and simulations using message broadcasting, if..then and if..then..else decisions and variables.
 </div>
 
-<div style="display: inline-block; max-width: 200px;">
+<div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/scratch.png)
-[Scratch module 2]https://projects.raspberrypi.org/en/pathways/scratch-module-2{:target="_blank"}
+[Scratch module 2](https://projects.raspberrypi.org/en/pathways/scratch-module-2){:target="_blank"}<br/>
 </div>
+
+<br/>
 
 ### Advanced Scratch projects
 
-<div style="display: inline-block; max-width: 200px;">
+If you want to learn about lists, clones and creating your own blocks then try these projects:
+
+<div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![desc](images/POP-banner.png)
-Protect our planet](https://projects.raspberrypi.org/en/pathways/protect-our-planet){:target="_blank"}
-Use Scratch to learn about our planet and how to protect the environment for future generations
+[Protect our planet](https://projects.raspberrypi.org/en/pathways/protect-our-planet){:target="_blank"}<br/>
+Use Scratch to learn about our planet and how to protect the environment for future generations.
 </div>
 
-<div style="display: inline-block; max-width: 200px;">
+<div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/cd-scratch.png)
-https://projects.raspberrypi.org/en/coderdojo/scratch-for-social-enterprise
+[Scratch for social enterprise](https://projects.raspberrypi.org/en/coderdojo/scratch-for-social-enterprise){:target="_blank"}<br/>
 </div>
 
-<div style="display: inline-block; max-width: 200px;">
+<div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/scratch.png)
-[Scratch module 3]https://projects.raspberrypi.org/en/pathways/scratch-module-3{:target="_blank"}
+[Scratch module 3](https://projects.raspberrypi.org/en/pathways/scratch-module-3){:target="_blank"}<br/>
 </div>
+
+<br/>
 
 ### Scratch GPIO hardware projects for the Raspberry Pi
 
-<div style="display: inline-block; max-width: 200px;">
+If you have a Raspberry Pi computer then you can also try these projects. You will need additional electronic components.
+
+<div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;"><br/>
 ![](images/physical-computing-text.png)
-[Physical omputing with Scratch]https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&hardware%5B%5D=raspberry-pi{:target="_blank"}
+[Physical computing with Scratch]https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&hardware%5B%5D=raspberry-pi{:target="_blank"}
 </div>
+
+<br/>
 
 Did you enjoy the Scratch guide? Have you spotted an issue? Please click the **Send feedback** button below and let us know!
