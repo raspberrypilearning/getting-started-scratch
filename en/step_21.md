@@ -74,7 +74,7 @@ If you have a Raspberry Pi computer then you can also try these projects. You wi
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;"><br/>
 ![](images/physical-computing-text.png)
-[Physical computing with Scratch](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&hardware%5B%5D=raspberry-pi):target="_blank"}
+[Physical computing with Scratch](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&hardware%5B%5D=raspberry-pi){:target="_blank"}
 </div>
 
 <br clear="both"/>
