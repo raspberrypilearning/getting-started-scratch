@@ -12,13 +12,13 @@ If you are new to Scratch, start with our pathways for beginners:
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/Intro-banner.png)
-[Introduction to Scratch: sprites, costumes, backdrops and scripts](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"}
+[Introduction to Scratch: sprites, scripts and loops](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"}<br/>
 In this introduction to coding in Scratch for beginners, you will learn how to add code, costumes and sounds to sprites as you make animations, a game, apps and a story.
-</div>
+</div>  
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/LAY-banner.png)
-[Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself){:target="_blank"}
+[Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself){:target="_blank"}<br/>
 Learn how to look after yourself and others with Scratch projects to make you laugh, relax, control, create, exercise and focus.
 </div>
 
@@ -74,7 +74,7 @@ If you have a Raspberry Pi computer then you can also try these projects. You wi
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;"><br/>
 ![](images/physical-computing-text.png)
-[Physical computing with Scratch]https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&hardware%5B%5D=raspberry-pi{:target="_blank"}
+[Physical computing with Scratch](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&hardware%5B%5D=raspberry-pi):target="_blank"}
 </div>
 
 <br clear="both"/>
