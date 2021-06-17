@@ -248,3 +248,16 @@ set y to [0]
 
 (y position)
 ```
+
+--- collapse ---
+
+---
+title: I can't see any Motion blocks
+---
+
+If you have the Stage selected then you won't see any `Motion`{:class="block3motion"} blocks because the Stage can't move. 
+
+Click on a sprite in the Sprite pane and then click on the 'Code' tab to see the `Motion`{:class="block3motion"} blocks.
+
+--- /collapse ---
+
