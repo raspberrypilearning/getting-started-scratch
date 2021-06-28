@@ -1,4 +1,4 @@
-## Editting tips
+## Editing tips
 It's useful to learn how to copy and delete code blocks and duplicate sprites. 
 
 **Tip:** You can use <kbd>Ctrl-z</kbd> (hold down the Ctrl key and tap 'z') to undo lots of actions in Scratch. If you accidentally delete a Sprite or other item you can use 'Restore' from the 'Edit' menu to get it back. 

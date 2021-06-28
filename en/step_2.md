@@ -31,7 +31,7 @@ If you need to install Scratch, follow this process:
 + Select **Scratch 3**
 + Click on **OK**
 
-![](images/recommended-software-scratch3.png)
+![Recommended software dialogue with Scratch 3 selected.](images/recommended-software-scratch-3.png)
 
 See [Scratch 3 Desktop for Raspberry Pi](https://www.raspberrypi.org/blog/scratch-3-desktop-for-raspbian-on-raspberry-pi/) for more information.
 

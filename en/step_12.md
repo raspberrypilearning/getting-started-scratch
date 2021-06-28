@@ -1,8 +1,8 @@
 ## Operators
 
-The blocks `Operators`{:class="block3operators"} are used to compare variables and values, do calculations with numbers and work with strings (text).
+The `Operators`{:class="block3operators"} blocks are used to compare variables and values, do calculations with numbers and work with strings (text).
 
-The conditions (also known as 'boolean blocks') return true or false and can be used in `Control`{:class="block3control"} blocks with a hexagonal input.
+The hexagonal 'Boolean' blocks are used as conditions and return true or false and can be used in `Control`{:class="block3control"} blocks with a hexagonal input.
 
 Comparison operators:
 
@@ -14,10 +14,11 @@ Comparison operators:
 <[] = [50]>
 ```
 
-**Tip:** When you use `=`{:class="block3operators"} with text you can mix upper and lowercase letters, so `<`YES` = `yes`>`{:class="block3operators"} returns **true**.
+**Tip:** When you use `=`{:class="block3operators"} with text you can mix upper and lowercase letters, so `<`{:class="block3operators"}YES` `=`{:class="block3operators"} `yes``>`{:class="block3operators"} returns **true**.
 
 
-There are maths operators:
+There are maths operations:
+
 ```blocks3
 ([] + [])
 
@@ -58,4 +59,4 @@ There are blocks for working with text strings:
 
 [[[scratch3-join-text]]]
 
-There are also maths operators that are useful for some projects.
+There are also more maths operators that are useful for some projects.
