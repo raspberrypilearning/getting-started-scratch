@@ -34,7 +34,7 @@ Learn how to look after yourself and others with Scratch projects to make you la
 If you already know about sprites, costumes, backdrops and loops then try these projects:
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
-![](images/Intro-banner.png)
+![](images/more-banner.png)
 [More Scratch: broadcast, decisions and variables](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank"}<br/>
 More Scratch moves beyond the basics introduced in Introduction to Scratch. You will make apps, games and simulations using message broadcasting, if..then and if..then..else decisions and variables.
 </div>
