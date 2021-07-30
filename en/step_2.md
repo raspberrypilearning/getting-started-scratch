@@ -1,5 +1,5 @@
 ## Set up Scratch
-You can use Scratch on a laptop or desktop computer or on a tablet. You can also use Scratch on a Raspberry Pi computer.
+You can use Scratch on a laptop or desktop computer, or on a tablet. You can also use Scratch on a Raspberry Pi computer.
 
 --- task ---
 Open a web browser on your computer or tablet and visit [rpf.io/scratch-new](https://rpf.io/scratch-new){:target="_blank"} to open a new project in the Scratch editor. Scratch will open in a new tab in your web browser.
@@ -22,7 +22,7 @@ You cannot work offline if you are using a tablet.
 title: Scratch on Raspberry Pi
 ---
 
-If you are using a Raspberry Pi computer, Scratch may already be installed. Click on the Raspberry Pi icon to open the menu, then click on **Programming**, then select **Scratch 3**.
+If you are using a Raspberry Pi computer, Scratch may already be installed. Click on the **Raspberry Pi** icon to open the menu, then click on **Programming**, then select **Scratch 3**.
 
 If you need to install Scratch, follow this process:
 + Click on the Raspberry Pi icon to open the menu
