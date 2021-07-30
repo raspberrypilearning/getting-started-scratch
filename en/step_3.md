@@ -2,7 +2,7 @@
 
 --- task ---
 
-If you set up a Scratch account, you can save and keep all your Scratch projects online and work on them again in the future.
+If you set up a Scratch account, you can save and keep all your Scratch projects online, and work on them again in the future.
 
 You can also share your projects and receive feedback, as well as comment on projects made by other people in the Scratch community.
 
