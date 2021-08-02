@@ -4,7 +4,7 @@ The blocks in the `Sensing`{:class="block3sensing"} blocks menu are used to get 
 
 There are several hexagonal `Sensing`{:class="block3sensing"} blocks that you can use in `Control`{:class="block3control"} blocks to make decisions and control when blocks run.
 
-The `touching`{:class="block3sensing"} block has options for detecting whether the sprite that owns the script is touching the mouse pointer (where you finger last touched on a tablet), the edge of the Stage or another sprite:
+The `touching`{:class="block3sensing"} block has options for detecting whether the sprite that owns the script is touching the mouse pointer (where you finger last touched on a tablet), the edge of the Stage, or another sprite:
 
 ```blocks3
 <touching (mouse-pointer v) ?>
@@ -22,7 +22,7 @@ There are blocks for detecting whether the sprite that owns the script is touchi
 <color (#c219ed) is touching (#62d1e0) ?>
 ```
 
-The `key pressed`{:class="block3sensing"} block has options for number, letter and arrow keys. You need a keyboard to be able to enter keys. It detects whether the key is currently being pressed:
+The `key pressed`{:class="block3sensing"} block has options for number, letter, and arrow keys. You need a keyboard to be able to enter keys. It detects whether the key is currently being pressed:
 
 ```blocks3
 <key (space v) pressed?>
@@ -36,8 +36,6 @@ The `mouse down`{:class="block3sensing"} block detects whether the mouse is curr
 
 The `ask`{:class="block3sensing"} and `answer`{:class="block3sensing"} blocks are used to get text input from the user:
 
-Answer is a 'reporter' that you can use as a variable.
-
 ```blocks3
 ask [What's your name] and wait
 
@@ -46,9 +44,11 @@ ask [What's your name] and wait
 
 The `ask`{:class="block3sensing"} block works with a keyboard or with a virtual on-screen keyboard on a tablet.
 
+The `answer`{:class="block3sensing"} block is a reporter block that reports a value and can be used as a variable.
+
 [[[scratch3-ask-answer-chat]]]
 
-The `Sensing`{:class="block3sensing"} blocks menu also contains several 'reporter' blocks that can be used to get values:
+The `Sensing`{:class="block3sensing"} blocks menu also contains several reporter blocks that can be used to get values:
 
 ```blocks3
 (distance to (mouse-pointer v))
@@ -56,7 +56,7 @@ The `Sensing`{:class="block3sensing"} blocks menu also contains several 'reporte
 (distance to (Sprite2 v))
 ```
 
-You can detect the current position of the mouse pointer (or the current or most recent position of your finger on a tablet): 
+You can detect the current position of the mouse-pointer (or the current or most recent position of your finger on a tablet): 
 
 ```blocks3
 (mouse x)
@@ -64,13 +64,13 @@ You can detect the current position of the mouse pointer (or the current or most
 (mouse y)
 ```
 
-You can detect the `loudness`{:class="block3sensing"} of sound from the microphone, a pop-up will ask the user for permission to use the microphone:
+You can detect the `loudness`{:class="block3sensing"} of sound from the microphone. A pop-up window will ask the user for permission to use the microphone:
 
 ```blocks3
 (loudness)
 ```
 
-The `timer`{:class="block3sensing"} starts counting when the project loads and can be set back to `0` with `reset timer`{:class="block3sensing"}:
+The `timer`{:class="block3sensing"} starts counting when the project loads, and can be set back to `0` with `reset timer`{:class="block3sensing"}:
 
 ```blocks3
 (timer)
