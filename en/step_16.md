@@ -54,7 +54,7 @@ title: Use the Fill tool to change the colours in a costume
 
 You can change the colour of your sprite. First, select your sprite in the Sprite list below the Stage and then click on the **Costumes** tab.
 
-Use the **Select (Arrow)** tool to highlight the part of the costume you want to change colour.
+Use the **Select** (Arrow) tool to highlight the part of the costume you want to change colour.
 
 ![The Select (Arrow) tool.](images/challenge1-arrow-tool.png){:width="200px"}
 
@@ -114,7 +114,7 @@ title: Use the Line tool to create a triangle
 
 ---
 
-You can create polygons such as a triangle and use these shapes to create roofs or mountains.
+You can create polygons, such as a triangle, and use these shapes to create roofs or mountains.
 
 Go to **Choose a Sprite** and select **Paint** to create a new sprite costume. In this example, you will make houses.
 
@@ -134,7 +134,7 @@ If you follow the instructions below, you can use the **Line** tool to create an
 + Use the **Rectangle** tool to draw a rectangle.
 + Use the **Line** tool to draw a triangle. Make sure that you complete the triangle, otherwise it will not fill with colour.
 + Move the two shapes together.
-+ Select the **Fill (Bucket)** tool and fill the triangle with colour.
++ Select the **Fill** (Bucket) tool and fill the triangle with colour.
 + Use the **Rectangle** tool to draw another rectangle for the chimney.
 + You can use the **Front** and **Back** tools in the Paint editor to move your shapes forward or backward so that they are positioned correctly. In this example, you will not need to do this, because the shapes are black to make a silhouette.
 + Select all the shapes and **Group** them together so that you can adjust them or move them as one shape.
@@ -156,7 +156,7 @@ You may want to duplicate shapes within a costume so that your scenery appears b
 
 ![Multiple clouds on the Stage.](images/challenge2-sprite-costume-multiples.png){:width="400px"}
 
-The effect of multiplying shapes is used by professional animators to create the impression of weather patterns such as rain or clouds, a cluster of objects such as buildings or a wood, or a crowd of people in a scene.
+The effect of multiplying shapes is used by professional animators to create the impression of weather patterns, such as rain or clouds; a cluster of objects, such as buildings or a wood; or a crowd of people in a scene.
 
 --- no-print ---
 
@@ -165,12 +165,12 @@ The effect of multiplying shapes is used by professional animators to create the
 --- /no-print ---
 
 To multiply any type of shape:
-+ Go to **Choose a Sprite** and select, in this example, the **Cloud** sprite.
-+ In the **Costumes** tab, use the **Select** tool to highlight the whole of the shape.
-+ Use the **Copy** and **Paste** tools to create duplicates of the shape.
-+ Use the **Select** tool to move the shape within the Paint editor.
-+ You can vary the size of the shapes to help to create a greater sense of 3D effects, for example.
-+ You can select all the shapes and **Group** them together so that you can adjust them or move them as one shape.
++ Go to **Choose a Sprite** and select, in this example, the **Cloud** sprite
++ In the **Costumes** tab, use the **Select** tool to highlight the whole of the shape
++ Use the **Copy** and **Paste** tools to create duplicates of the shape
++ Use the **Select** tool to move the shape within the Paint editor
++ You can vary the size of the shapes to help to create a greater sense of 3D effects, for example
++ You can select all the shapes and **Group** them together, so that you can adjust them or move them as one shape
 
 --- /collapse ---
 
@@ -205,11 +205,11 @@ You can create a sprite that has gaps that you can see through. If it is positio
 --- /no-print ---
 
 To create a type of masking sprite:
-+ Go to **Choose a Sprite** and select **Paint**.
-+ Choose a **Fill** colour with no **Outline** and draw a vertical rectangle. 
-+ Use the **Copy** and **Paste** tools to repeat this shape. 
-+ Use the **Select** tool to move the shapes around.
-+ As you place your shapes, make sure that they are touching the edge of the Stage to fit in with your project idea.
++ Go to **Choose a Sprite** and select **Paint**
++ Choose a **Fill** colour with no **Outline** and draw a vertical rectangle
++ Use the **Copy** and **Paste** tools to repeat this shape
++ Use the **Select** tool to move the shapes around
++ As you place your shapes, make sure that they are touching the edge of the Stage to fit in with your project idea
 
 ![The Copy and Paste tools highlighted in the Paint editor.](images/challenge2-sprite-costume-mask-copy.png)
 
