@@ -1,8 +1,8 @@
 ## Events
 
-Blocks in the `Events`{:class="block3events"} blocks menu control when scripts are started.
+Blocks in the `Events`{:class="block3events"} menu control when scripts are started.
 
-**Hat blocks** run the blocks below them when a particular event happens. They are shaped so that you can't join a block above them.
+**Hat blocks** run the blocks below them when a particular event happens. They are rounded at the top, like a hat, so no blocks can go above them.
 
 You can use:
 
@@ -16,9 +16,9 @@ when stage clicked // run the blocks when the stage is clicked
 
 ```
 
-**Tip:** The `when stage clicked`{:class="block3events"} block is only available when you are working in the 'Code' area for the Stage.
+**Tip:** The `when stage clicked`{:class="block3events"} block is only available when you are working in the Code area for the Stage.
 
-If you are on a computer with a keyboard you can use `when key pressed`{:class="block3events"}:
+If you are on a computer with a keyboard, you can use `when key pressed`{:class="block3events"}:
 
 ```blocks3
 when [space v] key pressed // change to number, letter or arrow keys
@@ -42,7 +42,7 @@ when [timer] > (10) // run blocks when the timer reaches 10 seconds
 [[[scratch3-time-delay]]]
 
 
-You can use `when i recieve (message v)`{:class="block3events"} to start a script when any sprite runs a matching `broadcast (message v)`{:class="block3events"} block.
+The last two blocks in the `Events`{:class="block3events"} menu are `broadcast`{:class="block3events"} blocks. You can use `when i receive (message v)`{:class="block3events"} to start a script when any sprite runs a matching `broadcast (message v)`{:class="block3events"} block.
 
 [[[generic-scratch3-broadcast-message]]]
 
