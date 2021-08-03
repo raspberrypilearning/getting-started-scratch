@@ -2,9 +2,9 @@
 
 **Debugging** is finding and fixing mistakes in your code that are called **bugs**.
 
-* It's easier to identify issues if you make one change at a time and then run your program.
+* It's easier to identify issues if you make one change at a time, and then run your program
 
-* It might take a few experiments for your project to work in the way that you planned.
+* It might take a few experiments for your project to work in the way that you planned
 
 Here are some tips that can help you to debug a project when it is not doing what you want it to do:
 
@@ -15,9 +15,9 @@ title: Run smaller pieces of code
 
 You do not have to run a whole program to check whether the last few new blocks that you have added work.
 
-* Click on a block in the **Code area** to run it — it is a quick way to check that a block is working as you expect it to.
+* Click on a block in the Code area to run it — it is a quick way to check that a block is working as you expect it to
 
-* To test a set of blocks on their own, drag them away from their **containing** script, click on them to test them, then drag them back to the main script.
+* To test a set of blocks on their own, drag them away from their **containing** script, click on them to test them, then drag them back to the main script
 
 --- /collapse ---
 
