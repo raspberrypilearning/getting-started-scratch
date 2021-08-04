@@ -19,7 +19,7 @@ You can click on blocks in the Code area to run them. Click on the `move`{:class
 
 Drag a `when green flag clicked`{:class="block3events"} block above the `move`{:class="block3motion"} block so that they snap together.
 
-![The 'move' block in the Code area.](images/move-block.png)
+![The 'move' block in the Code area.](images/green-flag-script.png)
 
 Your code should look like this:
 
