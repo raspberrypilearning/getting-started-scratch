@@ -14,7 +14,7 @@ Comparison operators:
 <[] = [50]>
 ```
 
-**Tip:** When you use `=`{:class="block3operators"} with text you can mix upper and lower case letters, so `<`{:class="block3operators"}YES` `=`{:class="block3operators"} `yes``>`{:class="block3operators"} returns **true**.
+**Tip:** When you use `=`{:class="block3operators"} with text you can mix upper and lower case letters, so `<`{:class="block3operators"} `YES` `=`{:class="block3operators"} `yes` `>`{:class="block3operators"} returns **true**.
 
 
 There are maths operations:
