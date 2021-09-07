@@ -1,8 +1,8 @@
 ## Looks
 
-Blocks in the `Looks`{:class="block3looks"} Blocks menu control the way sprites change the way that they appear on the Stage.
+`Looks`{:class="block3looks"} blocks control a sprite's appearance on the Stage.
 
-Sprites can communicate using `Looks`{:class="block3looks"}, it may be through a `say`{:class="block3looks"} speech bubble, a `think`{:class="block3looks"} thought bubble or through their `graphic effects`{:class="block3looks"}.
+Sprites can communicate using `Looks`{:class="block3looks"}, through a `say`{:class="block3looks"} speech bubble, a `think`{:class="block3looks"} thought bubble, or through their `graphic effects`{:class="block3looks"}.
 
 ### Say and think
 
@@ -33,13 +33,15 @@ say [Hello!] for [2] seconds // hide speech after 2 seconds
 
 The sprite will show a speech bubble for two seconds when clicked.
 
-**Space talk**: Click on the sprites to see them communicate with speech and thought [See inside](https://scratch.mit.edu/projects/485673032/editor){:target="_blank"}
+**Space talk**: [See inside](https://scratch.mit.edu/projects/485673032/editor){:target="_blank"}
+
+Click on the sprites to see them communicate with speech and thought.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/485673032/?autostart=false" frameborder="0"></iframe>
 </div>
 
-The `say ()`{:class="block3looks"} and `think ()`{:class="block3looks"} blocks are used to say or think something until another message or an empty `say ()`{:class="block3looks"} or `think ()`{:class="block3looks"} block replaces it. 
+The `say ()`{:class="block3looks"} and `think ()`{:class="block3looks"} blocks are used to say or think something, until another message or an empty `say ()`{:class="block3looks"} or `think ()`{:class="block3looks"} block replaces it. 
 
 --- /collapse ---
 
@@ -85,7 +87,7 @@ You can also quickly set the size of a sprite in the **Size** property in the Sp
 
 ### Graphic effects
 
-You can set or change colour, fisheye, whirl, pixelate, mosaic, brightness and ghost effects.
+Set or change a range of visual effects, such as colour, fisheye, whirl, pixelate, mosaic, brightness and ghost.
 
 ```blocks3
 change [color v] effect by ()
@@ -122,7 +124,7 @@ title: Change looks to create an animation effect
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435725413/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can use the `set size to`{:class="block3looks"} or `change size by`{:class="block3looks"} block to create a pulsing effect, such as a beating heart.
+You can use the `set size to`{:class="block3looks"} or `change size by`{:class="block3looks"} blocks to create a pulsing effect, such as a beating heart.
 
 **Note:** The `set size to`{:class="block3looks"} block sets the size to a specific value, while the `change size by`{:class="block3looks"} block changes the value from what it was before, e.g. `change size by`{:class="block3looks"} `10` adds 10 to the value of the size.
 
@@ -152,7 +154,7 @@ wait (1) seconds
 change [ghost v] effect by (-75)
 ```
 
-**Note:** If you use code that changes a graphic effect and then changes it back again, remember to use a `wait`{:class="block3control"} block in between the `change graphic effect by`{:class="block3looks"} blocks, otherwise it will happen so fast that you won't see it!
+**Note:** If you use code that changes a graphic effect and then changes it back again, remember to use a `wait`{:class="block3control"} block in between the `change graphic effect by`{:class="block3looks"} blocks, otherwise, it will happen so fast that you won't see it!
 
 You can use a `clear graphic effects`{:class="block3looks"} block at any time to reset the effects:
 
@@ -177,7 +179,7 @@ You can add actions that make a change to a sprite and then reverse them, such a
   <iframe src="https://scratch.mit.edu/projects/435723273/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 </div>
 
-This code will grow a sprite and apply the `fisheye`{:class="block3looks"} effect for 0.5 seconds and then return the sprite to its starting appearance:
+This code will grow a sprite, apply the `fisheye`{:class="block3looks"} effect for 0.5 seconds, and then return the sprite to its starting appearance:
 
 ```blocks3
 when this sprite clicked

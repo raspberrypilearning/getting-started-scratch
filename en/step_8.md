@@ -155,7 +155,7 @@ Click on the green flag to hear the sounds.
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451697380/?autostart=false" frameborder="0"></iframe>
 </div>
 
-The **Drums** sprite uses `set volume to`{:class="block3sound"} and `set sound effect to`{:class="block3sound"} blocks to change the sound:
+The **Drums** sprite uses `set volume to`{:class="block3sound"}, `set pitch effect to`{:class="block3sound"}, and `set pan left/right effect to`{:class="block3sound"} blocks to change the sound:
 
 ```blocks3
 set volume to (80) %

@@ -4,13 +4,13 @@
 
 ### Movement
 
-The `move`{:class="block3motion"} block is the simplest way to ge started with moving a Sprite:
+The `move`{:class="block3motion"} block is the simplest way to ge started with moving a sprite:
 
 ```blocks3
 move [10] steps
 ```
 
-You can `go to`{:class="block3motion"} or `glide to`{:class="block3motion"} the mouse pointer, a random position on the Stage (or your finger on a tablet) or another sprite:
+You can `go to`{:class="block3motion"} or `glide to`{:class="block3motion"} the mouse-pointer, a random position on the Stage (or your finger on a tablet), or another sprite:
 
 ```blocks3
 go to (random position v)
@@ -28,12 +28,12 @@ glide [1] secs to x: [0] y: [0]
 
 [[[scratch3-glide-to-object]]]
 
-**Tip:** When you drag a sprite on the Stage, the motion blocks that use `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates update in the `Motion`{:class="block3motion"} blocks menu. The current `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates are show in the sprite pane.
+**Tip:** When you drag a sprite on the Stage, the motion blocks that use `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates update in the `Motion`{:class="block3motion"} blocks menu. The current `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates are show in the Sprite pane.
 
 ### Rotation
 You can also change the `direction`{:class="block3motion"} that a sprite is pointing in. This changes the direction that the sprite will move in if you use a `move`{:class="block3motion"} block. It may also change the rotation of the sprite's costume depending on the `rotation-style`{:class="block3motion"} setting.
 
-When you add a Sprite it will be facing right (90 degrees). You can change this in the sprite pane or using code blocks.
+When you add a sprite, it will be facing right (90 degrees). You can change this in the Sprite pane or using code blocks.
 
 ```blocks3
 turn right [15] degrees
@@ -255,9 +255,9 @@ set y to [0]
 title: I can't see any Motion blocks
 ---
 
-If you have the Stage selected then you won't see any `Motion`{:class="block3motion"} blocks because the Stage can't move. 
+If you have the Stage selected then you won't see any `Motion`{:class="block3motion"} blocks, because the Stage can't move. 
 
-Click on a sprite in the Sprite pane and then click on the 'Code' tab to see the `Motion`{:class="block3motion"} blocks.
+Click on a sprite in the Sprite pane and then click on the **Code** tab to see the `Motion`{:class="block3motion"} blocks.
 
 --- /collapse ---
 

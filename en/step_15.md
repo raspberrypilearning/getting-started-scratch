@@ -1,6 +1,6 @@
 ## Extensions
 
-You can add `extensions`{:class="block3extensions"} to Scratch that add new blocks to the blocks menu with additional features.
+The `extensions`{:class="block3extensions"} library allows you to add new blocks to the blocks menu with additional features.
 
 [[[scratch3-text-to-speech]]]
 

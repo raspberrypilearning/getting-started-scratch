@@ -1,6 +1,6 @@
 ## Sound Editor
 
-Use the Sound editor to add and edit existing sounds and to record your own sounds. 
+Use the Sound editor to add and edit existing sounds, and to record your own sounds. 
 
 ![An annotated screenshot of the Sound tab.](images/Scratch-Sound-tab.png){:width="600px"}
 

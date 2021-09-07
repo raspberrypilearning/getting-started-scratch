@@ -19,7 +19,7 @@ You can click on blocks in the Code area to run them. Click on the `move`{:class
 
 Drag a `when green flag clicked`{:class="block3events"} block above the `move`{:class="block3motion"} block so that they snap together.
 
-![The 'move' block in the Code area.](images/move-block.png)
+![The 'move' block in the Code area.](images/green-flag-script.png)
 
 Your code should look like this:
 
@@ -70,7 +70,7 @@ In the bottom right-hand corner of the Stage pane, click on **Choose a Backdrop*
 
 ![The 'Choose a Backdrop' icon.](images/stage-choose.png)
 
-You can search for a backdrop, or browse by category or theme. Click on a backdrop to add it to your project.
+You can search for a backdrop, or browse by category or theme. Click on a backdrop to add to your project.
 
 ![The Backdrop Library.](images/backdrop.png)
 
@@ -104,6 +104,6 @@ You have created your first Scratch project!
 You are now ready to learn Scratch. We recommend that you start with our [Scratch: Module 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} and/or 
  [Look after yourself](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"} pathways, which are designed for beginners.
 
- You can return to this guide if you need help using Scratch when you are working on our pathway projects or your own independent projects. 
+ You can return to this guide if you need help using Scratch when you are working on our pathway projects or on your own independent projects. 
 
 
