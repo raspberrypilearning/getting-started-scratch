@@ -51,6 +51,12 @@ More Scratch moves beyond the basics introduced in Introduction to Scratch. You 
 If you want to learn about lists, clones, and creating your own blocks, then try these projects:
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
+![](images/more-banner.png)
+[Further Scratch: clones, my blocks, and boolean logic](https://projects.raspberrypi.org/en/pathways/further-scratch){:target="_blank"}<br/>
+Further Scratch moves beyond the skills introduced in Introduction to Scratch and More Scratch. You will make apps, games, computer-generated art, and simulations using boolean logic, functions, clones, and more.
+</div>
+
+<div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![desc](images/POP-banner.png)
 [Protect our planet](https://projects.raspberrypi.org/en/pathways/protect-our-planet){:target="_blank"}<br/>
 Use Scratch to learn about our planet and how to protect the environment for future generations.
@@ -74,7 +80,12 @@ If you have a Raspberry Pi computer, then you can also try these projects. You w
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;"><br/>
 ![](images/physical-computing-text.png)
-[Physical computing with Scratch](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&hardware%5B%5D=raspberry-pi){:target="_blank"}
+[Beta pathway: Physical computing with Scratch](https://projects.raspberrypi.org/en/pathways/physical-computing-with-scratch-and-the-raspberry-pi){:target="_blank"}
+</div>
+
+<div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;"><br/>
+![](images/physical-computing-text.png)
+[Physical computing with Scratch projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&hardware%5B%5D=raspberry-pi){:target="_blank"}
 </div>
 
 <br clear="both"/>

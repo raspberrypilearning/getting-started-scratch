@@ -68,6 +68,42 @@ repeat until <> // repeat the blocks inside until the condtion is true
 end
 ```
 
+A **clone** is a copy of a sprite, it has the costumes, scripts and sounds held by the sprite it was cloned from at the time of cloning. There are a number of blocks that can be used to clone sprites. 
+
+With the `create clone of [myself v]`{:class="block3control"} block, a sprite can create a clone of itself or of another sprite in the project. 
+
+```blocks3
+create clone of [myself v] // clones the sprite that runs this block
+
+
+create clone of [Butterfly 1 v] // clones another sprite in the project
+```
+
+The `when I start as a clone`{:class="block3control"} hat block is used to trigger a new script once the clone has been created. The clone will exist in the project until the `delete this clone`{:class="block3control"} cap block is used. 
+
+Using the `when I start as a clone`{:class="block3control"} hat block then including the `create clone of [myself v]`{:class="block3control"} block in the script underneath means it is also possible for clones to create other clones. 
+
+```blocks3
+when I start as a clone // the script that runs when the clone is created
+
+
+delete this clone // stops the clone's scripts and deletes it
+```
+
+There is a maximum number of clones a sprite can have at any point, at the time of writing this is `300`. 
+
+--- collapse ---
+---
+
+title: Clones of clones
+
+---
+
+**Clones**: [See inside](https://scratch.mit.edu/projects/567544298/editor){:target="_blank"}
+
+<div class="scratch-preview">
+  <iframe src="https://scratch.mit.edu/projects/567544298/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+</div>
 
 
 
