@@ -1,8 +1,8 @@
-## My Blocks
+## My blocks
 
 `My blocks`{:class="block3myblocks"} allow you to create new blocks for a sprite. You give the block a name and then `define`{:class="block3myblocks"} what the new block does using other Scratch blocks. You can use your new block in any script on the sprite that owns the block.
 
-This example defines a `talk`{:class="block3myblocks"} that makes a sprite change costume:
+This example defines a `talk`{:class="block3myblocks"} block that makes a sprite change costume:
 
 **Penguin chirps**: [See inside](https://scratch.mit.edu/projects/567554899/editor){:target="_blank"}
 
@@ -29,7 +29,9 @@ You can use `My blocks`{:class="block3myblocks"} to **organise** your code. It's
 
 If you decide that you want to change the way your sprite talks then you only have to change the code in one place. 
 
-You can also add input **parameters** to `My blocks`{:class="block3myblocks"} so that they use the values you pass in.
+### My blocks with inputs
+
+You can also add **inputs** to `My blocks`{:class="block3myblocks"} so that they use the values you provide when you use the block.
 
 **Penguin talks**: [See inside](https://scratch.mit.edu/projects/567538874/editor){:target="_blank"}
 
