@@ -57,7 +57,9 @@ talk [hi]
 [[[generic-scratch3-make-block]]]
 
 --- collapse ---
+---
 title: Use My Blocks to organise code
+---
 The simplest way to use My Blocks{:class='block3myblocks'} is to help organise your code. Here is a simple example.
 
 define move right
