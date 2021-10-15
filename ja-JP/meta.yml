@@ -24,14 +24,28 @@ steps:
   - 
     title: Sound
   - 
+    title: Events
+  - 
+    title: Control
+  - 
+    title: Sensing
+  - 
+    title: Operators
+  - 
     title: Variables
+  - 
+    title: My blocks
+  - 
+    title: Extensions
   - 
     title: Paint editor
   - 
+    title: Sound editor
+  - 
     title: Debug
   - 
-    title: Duplicate sprites and copy code
+    title: Editing tips
   - 
     title: Share and comment
   - 
-    title: What next?
+    title: Our Scratch projects
