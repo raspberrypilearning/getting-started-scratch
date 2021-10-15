@@ -2,6 +2,7 @@
 You can use Scratch on a laptop or desktop computer or on a tablet. You can also use Scratch on a Raspberry Pi computer.
 
 --- task ---
+
 Open a web browser on your computer or tablet and visit [rpf.io/scratch-new](https://rpf.io/scratch-new){:target="_blank"} to open a new project in the Scratch editor. Scratch will open in a new tab in your web browser.
 
 **Tip:** You can also visit [scratch.mit.edu](https://scratch.mit.edu/){:target="_blank"} and then click on **Create**.
@@ -40,6 +41,7 @@ See [Scratch 3 Desktop for Raspberry Pi](https://www.raspberrypi.org/blog/scratc
 --- /task ---
 
 --- task ---
+
 When you use Scratch with this guide or one of our projects, you will need to switch between Scratch and the project instructions. 
 
 --- collapse ---
