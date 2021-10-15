@@ -1,66 +1,18 @@
 ## Sound
 
-To add sound to your project, use `Sound`{:class="block3sound"} blocks. For example, you can create a continuous background soundtrack, or add sounds that happen at regular intervals.
+To add sound to your project, use `Sound`{:class="block3sound"} blocks. For example, you can create a continuous background soundtrack, or add sounds that play at regular intervals.
 
-![Labelled Sound tab](images/Scratch-Sound-tab.png){:width="600px"}
-
---- task ---
+![An annotated screenshot of the Sounds tab.](images/Scratch-Sound-tab.png){:width="600px"}
 
 First, select a sound from the Sound Library, or record your own sound.
 
---- collapse ---
+[[[scratch3-add-sound]]]
 
----
-title: Add a sound from the Sound Library
----
+[[[scratch3-record-sound]]]
 
-First, select the sprite that you want to have the new sound and click on the **Sounds** tab. Each sprite starts with a default sound.
-
-![Sound tab](images/soundTab.png)
-
-To get to the Scratch Sound Library, click the **Choose a Sound** button.
-
-![Choose a sound button](images/chooseASoundButton.png)
-
-Hold your mouse cursor over the play symbol to hear a sound.
-
-![Preview a sound](images/soundPreview.png)
-
-Click on any sound to add it to your sprite. You will be taken straight back to the **Sounds** tab and you will be able to see the sound that you just added.
-
-![Sounds tab with new sound](images/newSoundAdded.png)
-
-If you switch to the **Code** tab and look at the `Sound`{:class="block3sound"} blocks menu, you will be able to select the new sound.
-
-![New sound available](images/newSoundBlock.png)
-
-You can also add sounds to the **Stage**.
-
---- /collapse ---
+Add code to run `Sound`{:class="block3sound"} blocks where you want sound in your project.
 
 --- collapse ---
----
-title: Record a sound
----
-
-Select the sprite that you want to add recorded sound to. Click on its **Sounds** tab, go to the menu in the bottom left-hand corner, and select **Record**: ![Show Record](images/from-me-record.png){:width="200px"}
-
-To start recording, click the red circle button: ![Show play Record](images/from-me-start-sound.png){:width="200px"}
-
-To stop recording, click the red square button: ![Show stop  Record](images/from-me-stop-sound.png){:width="200px"}
-
-You can now **Re-record**, **Play** the recording, and/or **Save** your sound.
-
-Name your sound: ![Show name sound](images/from-me-name-sound.png){:width="300px"}
-
---- /collapse ---
-
---- /task ---
-
---- task --- Add code to run `Sound`{:class="block3sound"} blocks where you want sound in your project.
-
---- collapse ---
-
 ---
 title: Add a long sound to create a continuous soundtrack
 ---
@@ -73,7 +25,7 @@ Click on the green flag to hear the sounds.
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/444581851/?autostart=false" frameborder="0"></iframe>
 </div>
 
-To make a sound play continuously, use a `play sound until done`{:class="block3sound"} block inside a `forever`{:class="block3control"} loop. Once the sound has finished, the `forever`{:class="block3control"} loop makes the sound start again from the beginning.
+You can use a `play sound until done`{:class="block3sound"} block inside a `forever`{:class="block3control"} loop. Once the sound has finished, the `forever`{:class="block3control"} loop makes the sound start again from the beginning.
 
 This code uses a single long sound clip repeated as a soundtrack:
 
@@ -86,12 +38,11 @@ end
 
 **Note:** When you choose a new sound, if you select the **Loops** category, Scratch will only show you the sounds that are suitable for a single looping soundtrack.
 
-![Loop sounds](images/loopSounds.png)
+![The 'Loops' category in the Sound Library.](images/loopSounds.png)
 
 --- /collapse ---
 
 --- collapse ---
-
 ---
 title: Add a sequence of short sounds to create a continuous soundtrack
 ---
@@ -104,9 +55,9 @@ Click on the green flag to hear the sounds.
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/444673165/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Use a `forever`{:class="block3control"} block to create a looped sound. Select some sounds that you like and/or experiment. You can:
-+ Create a series of short sounds in a sequence
-+ Or, use different instrument notes and effects to compose a soundtrack
+ Use a `forever`{:class="block3control"} block to create a looped sound. You can:
++ Put a series of short sounds in a sequence, or
++ Use different instrument notes and effects
 
 ```blocks3
 when flag clicked
@@ -124,7 +75,6 @@ End
 --- /collapse ---
 
 --- collapse ---
-
 ---
 title: Add sounds that play at regular intervals
 ---
@@ -152,7 +102,7 @@ The **Whistle** sprite also plays a sound at regular intervals:
  ```blocks3
  when this sprite clicked
  forever
- play sound (referee whistle v) until done
+ play sound (Referee Whistle v) until done
  wait (4) seconds
  end
  ```
@@ -160,16 +110,15 @@ The **Whistle** sprite also plays a sound at regular intervals:
 --- /collapse ---
 
 --- collapse ---
-
 ---
-title: Start multiple sounds to play at the same time
+title: Add sounds that start to play at the same time
 ---
 
 There are two `Sound`{:class="block3sound"} blocks with an important difference:
 
 + When you `play sound until done`{:class="block3sound"}, the sound will play all the way through. The next line of code in the script will not run until the sound has finished playing.
 
-+ When you `start sound`{:class="block3sound"}, the sound will play but the next block will run immediately and will not wait for the sound to finish playing first.
++ When you `start sound`{:class="block3sound"}, the sound will play, but the next block will run immediately and will not wait for the sound to finish playing first.
 
 This means that if you had a series of `start sound`{:class="block3sound"} blocks, the sounds would all play almost at the same time, layered on top of each other. The effect can be interesting and sometimes messy.
 
@@ -177,8 +126,8 @@ Have a play with it sometime!
 
 ```blocks3
 when green flag clicked
-start sound (meow v)
-start sound (alien Creak2 v)
+start sound (Meow v)
+start sound (Alien Creak2 v)
 start sound (Boing v)
 start sound (Boom Cloud v)
 start sound (Baa v)
@@ -186,14 +135,9 @@ start sound (Baa v)
 
 --- /collapse ---
 
---- /task ---
-
---- task ---
-
 Once you have chosen your sounds, you may want to change the `volume`{:class="block3sound"}, `pitch`{:class="block3sound"}, or `pan`{:class="block3sound"} (so you hear the sound from the left- or right-hand speaker).
 
 --- collapse ---
-
 ---
 title: Volume, pitch, and pan
 ---
@@ -206,7 +150,7 @@ Click on the green flag to hear the sounds.
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451697380/?autostart=false" frameborder="0"></iframe>
 </div>
 
-The **Drums** sprite uses `set volume to`{:class="block3sound"} and `set sound effect to`{:class="block3sound"} blocks to change the sound:
+The **Drums** sprite uses `set volume to`{:class="block3sound"}, `set pitch effect to`{:class="block3sound"}, and `set pan left/right effect to`{:class="block3sound"} blocks to change the sound:
 
 ```blocks3
 set volume to (80) %
@@ -223,4 +167,7 @@ play sound (Drum Funky v) until done
 
 --- /collapse ---
 
---- /task ---
+You can also use the `Text to Speech`{:class="block3extensions"} extension:
+
+[[[scratch3-text-to-speech]]]
+
