@@ -62,7 +62,7 @@ talk [hi]
 ---
 title: Use My Blocks to organise code
 ---
-The simplest way to use My Blocks{:class="block3myblocks"} is to help organise your code. Here is a simple example.
+The simplest way to use `My Blocks`{:class="block3myblocks"} is to help organise your code. Here is a simple example.
 
 ```blocks3
 define move right
