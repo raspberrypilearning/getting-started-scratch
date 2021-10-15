@@ -13,11 +13,8 @@ You should think about whether you need to set a starting value when you make a 
 You can rename a variable if you change your mind:
 
 --- collapse ---
-
 ---
-
 title: Rename a variable
-
 ---
 
 Sometimes you think of a better name for a variable. 
@@ -51,11 +48,8 @@ More ideas for using variables:
 
 
 --- collapse ---
-
 ---
-
 title: Control graphic effects with a variable slider
-
 ---
 
 Here are some examples of how you can use your variable slider: 
@@ -87,11 +81,8 @@ Try using the same approach with other graphic effects such as `brightness`{:cla
 --- /collapse ---
 
 --- collapse ---
-
 ---
-
 title: Control movement speed with a variable
-
 ---
 
 **Ladybug on a wall**: [See inside](https://scratch.mit.edu/projects/451545341/editor){:target="_blank"}
@@ -113,7 +104,6 @@ Set the minimum and maximum values for the range of the slider to suit your proj
 --- /collapse ---
 
 --- collapse ---
-
 ---
 title: Control turn speed with a variable
 ---
@@ -135,11 +125,8 @@ turn right (angle) degrees
 --- /collapse ---
 
 --- collapse ---
-
 ---
-
 title: Change the delay in a wait block
-
 ---
 
 **Skeleton dance**: [See inside](https://scratch.mit.edu/projects/451536565/editor){:target="_blank"}
@@ -168,11 +155,8 @@ Change the numbers to get the minimum and maximum values that you want users to 
 --- /collapse ---
 
 --- collapse ---
-
 ---
-
 title: Change sound effects
-
 ---
 
 **Drum pitch**: [See inside](https://scratch.mit.edu/projects/451547017/editor){:target="_blank"}

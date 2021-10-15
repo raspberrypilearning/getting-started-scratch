@@ -13,7 +13,6 @@ First, select a sound from the Sound Library, or record your own sound.
 Add code to run `Sound`{:class="block3sound"} blocks where you want sound in your project.
   
 --- collapse ---
-
 ---
 title: Add a long sound to create a continuous soundtrack
 ---
@@ -44,7 +43,6 @@ end
 --- /collapse ---
  
 --- collapse ---
-
 ---
 title: Add a sequence of short sounds to create a continuous soundtrack
 ---
@@ -77,7 +75,6 @@ End
 --- /collapse ---
  
 --- collapse ---
-
 ---
 title: Add sounds that play at regular intervals
 ---
@@ -113,7 +110,6 @@ The **Whistle** sprite also plays a sound at regular intervals:
 --- /collapse ---
 
 --- collapse ---
-
 ---
 title: Add sounds that start to play at the same time
 ---
@@ -142,7 +138,6 @@ start sound (Baa v)
 Once you have chosen your sounds, you may want to change the `volume`{:class="block3sound"}, `pitch`{:class="block3sound"}, or `pan`{:class="block3sound"} (so you hear the sound from the left- or right-hand speaker).
 
 --- collapse ---
-
 ---
 title: Volume, pitch, and pan
 ---

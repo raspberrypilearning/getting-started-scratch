@@ -94,9 +94,7 @@ There is a maximum number of clones a sprite can have at any point, at the time 
 
 --- collapse ---
 ---
-
 title: Clones of clones
-
 ---
 
 **Clones**: [See inside](https://scratch.mit.edu/projects/567544298/editor){:target="_blank"}

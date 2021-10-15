@@ -59,9 +59,7 @@ There are common problems that lots of beginners (and experts!) experience in Sc
 
 --- collapse ---
 ---
-
 title: Debugging tips for specific problems
-
 ---
 
 + **My sprite is going upside down** — Add a `set rotation style left-right`{:class="block3motion"} or `set rotation style don't rotate`{:class="block3motion"} block.

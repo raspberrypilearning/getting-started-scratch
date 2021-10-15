@@ -78,9 +78,7 @@ Use the tips below to help you to create your own designs for your sprites in th
 
 --- collapse ---
 ---
-
 title: Create scenery as sprites
-
 ---
 
 **Hill as a sprite**: [See inside](https://scratch.mit.edu/projects/452582516/editor){:target="_blank"}
@@ -109,9 +107,7 @@ Remember to name your sprite(s).
 
 --- collapse ---
 ---
-
 title: Use the Line tool to create a triangle
-
 ---
 
 You can create polygons, such as a triangle, and use these shapes to create roofs or mountains.
@@ -145,9 +141,7 @@ To create duplicate shapes of your house (for example, to make a skyline), follo
 
 --- collapse ---
 ---
-
 title: Duplicate shapes to create a scenery costume
-
 ---
 
 You may want to duplicate shapes within a costume so that your scenery appears busier or more crowded.
@@ -176,9 +170,7 @@ To multiply any type of shape:
 
 --- collapse ---
 ---
-
 title: Use Saturation and Brightness to create depth
-
 ---
 
 In the real world, objects that are further away appear lighter in colour. To achieve more realistic 3D scenery, you can **decrease** the colour **Saturation** and/or **Brightness** of each sprite so that they appear further and further away.
@@ -189,9 +181,7 @@ In the real world, objects that are further away appear lighter in colour. To ac
 
 --- collapse ---
 ---
-
 title: Create a sprite with gaps that you can see through
-
 ---
 
 You can create a sprite that has gaps that you can see through. If it is positioned as the front layer and is the size of the Stage, it can appear like a view through the bars of a cage or a window.
