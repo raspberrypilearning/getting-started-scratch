@@ -2,6 +2,8 @@ Click on 90 and drag the arrow to change
 
 or all-around or none
 
+hide speech after 2 seconds
+
 run blocks when the green flag above the Stage is clicked
 
 run the blocks when the sprite for this script is clicked
@@ -53,3 +55,29 @@ words
 hello
 
 hi
+
+transparent
+
+speed
+
+angle
+
+delay
+
+beat
+
+move right
+
+move left
+
+right_1
+
+right_2
+
+right_3
+
+left_1
+
+left_2
+
+left_3
