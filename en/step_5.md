@@ -3,6 +3,7 @@
 ![An annotated screenshot of the Scratch editor, with key features labelled.](images/scratch-features.png)
 
 --- task ---
+
 When you create a new Scratch project, it includes a **cat** sprite. 
 
 Drag blocks from the Blocks menu to the Code area to make the cat do something. 
@@ -40,9 +41,7 @@ You can add more sprites to your project, and you can also add a backdrop.
 
 --- collapse ---
 ---
-
 title: Choose a sprite
-
 ---
 
 In the Sprite list, click on **Choose a Sprite** to see the library of all Scratch sprites.
@@ -61,9 +60,7 @@ You can search for a sprite, or browse by category or theme. Click on a sprite t
 
 --- collapse ---
 ---
-
 title: Choose a backdrop
-
 ---
 
 In the bottom right-hand corner of the Stage pane, click on **Choose a Backdrop**.
@@ -82,9 +79,7 @@ You can search for a backdrop, or browse by category or theme. Click on a backdr
 
 --- collapse ---
 ---
-
 title: Name and save your project
-
 ---
 
 Go to **File** in the menu. If you have a Scratch account, click on **Save now**. If you do not have an account, click on **Save to your computer**.

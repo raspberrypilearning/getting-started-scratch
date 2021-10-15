@@ -62,8 +62,9 @@ talk [hi]
 ---
 title: Use My Blocks to organise code
 ---
-The simplest way to use My Blocks{:class='block3myblocks'} is to help organise your code. Here is a simple example.
+The simplest way to use `My Blocks`{:class="block3myblocks"} is to help organise your code. Here is a simple example.
 
+```blocks3
 define move right
 if <not <touching (edge v) ?>> then
 switch costume to [right_1 v]
@@ -91,6 +92,8 @@ move right
 end
 if <key (left arrow v) pressed> then
 move left
+```
+
 --- /collapse ---
 
 `My blocks`{:class="block3myblocks"} are similar to 'procedures', 'functions' or 'methods' in other programming languages.

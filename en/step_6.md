@@ -55,10 +55,9 @@ set rotation style [left-right v] // or all-around or none
 
 --- collapse ---
 ---
-
 title: Spin around
-
 ---
+
 --- no-print ---
 
 **Spinning bat**: [See inside](https://scratch.mit.edu/projects/435704980/editor){:target="_blank"}
@@ -85,9 +84,7 @@ In a `turn`{:class="block3motion"} block within a `forever`{:class="block3contro
 
 --- collapse ---
 ---
-
 title: Move in a circle
-
 ---
 
 --- no-print ---
@@ -127,10 +124,9 @@ See some of the ways in which you can get your sprite to bounce around:
 
 --- collapse ---
 ---
-
 title: Bounce across the Stage
-
 ---
+
 --- no-print ---
 
 **Girl moving across the Stage**: [See inside](https://scratch.mit.edu/projects/433535326/editor){:target="_blank"}
@@ -162,10 +158,9 @@ Add a `set rotation style`{:class="block3motion"} block and select `left-right`{
 
 --- collapse ---
 ---
-
 title: Bounce up and down the Stage
-
 ---
+
 --- no-print ---
 
 **Girl jumping**: [See inside](https://scratch.mit.edu/projects/433595822/editor){:target="_blank"}
@@ -197,9 +192,7 @@ Add a `set rotation style`{:class="block3motion"} block and select `don't rotate
 
 --- collapse ---
 ---
-
 title: Bounce at an angle
-
 ---
 
 --- no-print ---
@@ -250,7 +243,6 @@ set y to [0]
 ```
 
 --- collapse ---
-
 ---
 title: I can't see any Motion blocks
 ---

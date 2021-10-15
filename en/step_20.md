@@ -10,6 +10,7 @@ To let other people access your project, make your project public. You can also 
 ---
 title: More on sharing your project's web address
 ---
+
 + Your project will always start in the position that you last saved it in, so make sure that you save your project in the right starting position
 + When you click on **See Project Page**, the web address of your project will appear in the browser bar:
 ![A web address.](images/from-me-webaddress.png){:width="400px"}

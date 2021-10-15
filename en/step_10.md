@@ -32,11 +32,11 @@ end
 There are three options for the `stop`{:class="block3events"} block:
 
 ```blocks3
-stop [all] // stop all scripts in all sprites
+stop [all v] // stop all scripts in all sprites
 
-stop [this script]
+stop [this script v]
 
-stop [other scripts in sprite]
+stop [other scripts in sprite v]
 ```
 
 The `if...then`{:class="block3control"} and `if...then...else`{:class="block3control"} blocks are used to make decisions about which code blocks to run next. This is sometimes called **selection**. The `if...then`{:class="block3control"} block checks a hexagonal-shaped **condition** and runs the code blocks inside, if the condition is **true**. The `if...then..else`{:class="block3control"} block has an additional section to run the code blocks inside, if the condition is **false**.
@@ -94,9 +94,7 @@ There is a maximum number of clones a sprite can have at any point, at the time 
 
 --- collapse ---
 ---
-
 title: Clones of clones
-
 ---
 
 **Clones**: [See inside](https://scratch.mit.edu/projects/567544298/editor){:target="_blank"}

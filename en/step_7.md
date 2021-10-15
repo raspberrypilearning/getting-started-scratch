@@ -17,7 +17,6 @@ think ()
 ```
 
 --- collapse ---
-
 ---
 title: Use a speech bubble to communicate
 ---
@@ -166,9 +165,7 @@ clear graphic effects
 
 --- collapse ---
 ---
-
 title: Click to change and then change back
-
 ---
 
 You can add actions that make a change to a sprite and then reverse them, such as growing, waiting, and then shrinking. 
