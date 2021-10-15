@@ -34,9 +34,9 @@ You can also use a `when backdrop switches to`{:class="block3events"} block to s
 The `when >`{:class="block3events"} block has two versions:
 
 ```blocks3
-when [loudness] > (10) // run blocks when the microphone detects sound
+when [loudness v] > (10) // run blocks when the microphone detects sound
 
-when [timer] > (10) // run blocks when the timer reaches 10 seconds
+when [timer v] > (10) // run blocks when the timer reaches 10 seconds
 ```
 
 [[[scratch3-time-delay]]]
