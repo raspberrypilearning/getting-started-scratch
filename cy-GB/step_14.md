@@ -1,10 +1,10 @@
-## My blocks
+## Fy Mlociau
 
-`My blocks`{:class="block3myblocks"} allow you to create new blocks for a sprite. You give the block a name and then `define`{:class="block3myblocks"} what the new block does using other Scratch blocks. You can use your new block in any script on the sprite that owns the block.
+Mae `Fy Mlociau`{:class="block3myblocks"} yn gadael i ti greu blociau newydd ar gyfer corlun. Rwyt ti'n rhoi enw i'r bloc ac wedyn yn `diffinio`{:class="block3myblocks"} beth mae'r bloc newydd yn ei wneud gan ddefnyddio blociau Scratch eraill. Galli di ddefnyddio dy floc newydd mewn unrhyw sgript ar y corlun sy'n berchen ar y bloc.
 
-This example defines a `talk`{:class="block3myblocks"} block that makes a sprite change costume:
+Mae'r enghraifft hon yn diffinio bloc `siarad`{:class="block3myblocks"} sy'n gwneud i gorlun newid ei wisg:
 
-**Penguin chirps**: [See inside](https://scratch.mit.edu/projects/567554899/editor){:target="_blank"}
+**Pengwin yn trydar**: [See inside](https://scratch.mit.edu/projects/567554899/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/567554899/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -25,15 +25,15 @@ when [space v] key pressed
 talk
 ```
 
-You can use `My blocks`{:class="block3myblocks"} to **organise** your code. It's simpler to group together all the blocks that make a sprite talk and then just use one `talk`{:class="block3myblocks"} block when you want your sprite to talk.
+Galli di ddefnyddio `Fy mlociau`{:class="block3myblocks"} i **drefnu** dy god. Mae'n haws grwpio'r holl flociau sy'n gwneud i gorlun siarad gyda'i gilydd ac wedyn defnyddio un bloc `siarad`{:class="block3myblocks"} pan rwyt ti am i dy gorlun siarad.
 
-If you decide that you want to change the way your sprite talks then you only have to change the code in one place.
+Os byddi di'n penderfynu dy fod am newid y ffordd mae dy gorlun yn siarad yna dim ond mewn un lle mae'n rhaid i ti newid y cod.
 
-### My blocks with inputs
+### Fy mlociau gyda mewnbynnau
 
-You can also add **inputs** to `My blocks`{:class="block3myblocks"} so that they use the values you provide when you use the block.
+Galli di ychwanegu **mewnbynnau** i `Fy mlociau`{:class="block3myblocks"} fel eu bod yn defnyddio'r gwerthoedd byddi di'n eu darparu pan rwyt ti'n defnyddio'r bloc.
 
-**Penguin talks**: [See inside](https://scratch.mit.edu/projects/567538874/editor){:target="_blank"}
+**Pengwin yn siarad**: [See inside](https://scratch.mit.edu/projects/567538874/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/567538874/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -60,9 +60,9 @@ talk [hi]
 
 --- collapse ---
 ---
-title: Use My Blocks to organise code
+title: Defnyddio Fy Mlociau i drefnu cod
 ---
-The simplest way to use `My Blocks`{:class="block3myblocks"} is to help organise your code. Here is a simple example.
+Y ffordd symlaf o ddefnyddio `Fy Mlociau`{:class="block3myblocks"} yw i helpu drefnu dy god. Dyma enghraifft syml.
 
 ```blocks3
 define move right
@@ -96,4 +96,4 @@ move left
 
 --- /collapse ---
 
-`My blocks`{:class="block3myblocks"} are similar to 'procedures', 'functions' or 'methods' in other programming languages.
+Mae `Fy Mlociau`{:class="block3myblocks"} yn debyg i 'weithdrefnau', 'ffwythiannau' neu 'ddulliau' mewn ieithoedd rhaglennu eraill.
