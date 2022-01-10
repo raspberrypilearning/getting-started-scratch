@@ -1,83 +1,83 @@
-Click on 90 and drag the arrow to change
+Κάνε κλικ στο 90 και σύρε το βέλος για αλλαγή
 
-or all-around or none
+ή τριγύρω ή καθόλου
 
-hide speech after 2 seconds
+απόκρυψη ομιλίας μετά από 2 δευτερόλεπτα
 
-run blocks when the green flag above the Stage is clicked
+εκτέλεσε τα μπλοκ όταν γίνει κλικ στην πράσινη σημαία πάνω από τη Σκηνή
 
-run the blocks when the sprite for this script is clicked
+εκτέλεσε τα μπλοκ όταν γίνει κλικ στο αντικείμενο αυτού του αντικειμένου
 
-run the blocks when the stage is clicked
+εκτέλεσε τα μπλοκ όταν γίνει κλικ στη σκηνή
 
-change to number, letter or arrow keys
+αλλαγή σε αριθμό, σε γράμμα ή στα πλήκτρα με τα βελάκια
 
-run blocks when the microphone detects sound
+εκτέλεσε τα μπλοκ όταν το μικρόφωνο ανιχνεύσει ήχο
 
-run blocks when the timer reaches 10 seconds
+εκτέλεσε τα μπλοκ όταν το χρονόμετρο φτάσει τα 10 δευτερόλεπτα
 
-delay for 1 second
+καθυστέρηση για 1 δευτερόλεπτο
 
-delay for one tenth of a second
+καθυστέρηση για ένα δέκατο του δευτερολέπτου
 
-run the blocks inside four time
+εκτέλεσε τα μπλοκ στο εσωτερικό τέσσερις φορές
 
-run the blocks inside until stopped
+εκτέλεσε τα μπλοκ στο εσωτερικό μέχρι να σταματήσουν
 
-stop all scripts in all sprites
+σταμάτησε όλα τα scripts για όλα τα αντικείμενα
 
-delay until the condition is true
+καθυστέρηση έως ότου η συνθήκη γίνει αληθής
 
-repeat the blocks inside until the condtion is true
+επανάλαβε τα μπλοκ μέσα μέχρι να γίνει η συνθήκη αληθής
 
-clones the sprite that runs this block
+κάνε ένα κλώνο για το αντικείμενο που εκτελεί αυτό το μπλοκ
 
-clones another sprite in the project
+κλωνοποιεί ένα άλλο αντικείμενο στο έργο
 
-the script that runs when the clone is created
+το script που εκτελείται όταν δημιουργείται ο κλώνος
 
-stops the clone's scripts and deletes it
+σταματά τα scripts του κλώνου και τον διαγράφει
 
-What's your name
+Πώς σε λένε
 
-the text the the user typed
+το κείμενο που πληκτρολόγησε ο χρήστης
 
-hour, minute, ...
+ώρα, λεπτό,...
 
-A number from 1 to 10
+Ένας αριθμός από το 1 έως το 10
 
-talk
+ομιλία
 
-use the provided input
+χρησιμοποίησε την παρεχόμενη είσοδο
 
-words
+λέξεις
 
-hello
+γεια σου
 
-hi
+γεια σου
 
-transparent
+διαφανής
 
-speed
+ταχύτητα
 
-angle
+γωνία
 
-delay
+καθυστέρηση
 
-beat
+ρυθμός
 
-move right
+μετακίνηση προς τα δεξιά
 
-move left
+μετακίνηση προς τ' αριστερά
 
-right_1
+δεξιά_1
 
-right_2
+δεξιά_2
 
-right_3
+δεξιά_3
 
-left_1
+αριστερά_1
 
-left_2
+αριστερά_2
 
-left_3
+αριστερά_3
