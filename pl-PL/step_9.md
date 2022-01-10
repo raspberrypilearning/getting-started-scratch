@@ -1,10 +1,10 @@
-## Events
+## Zdarzenia
 
-Blocks in the `Events`{:class="block3events"} menu control when scripts are started.
+Bloki w menu `Zdarzenia`{:class="block3events"} sterują uruchamianiem skryptów.
 
-**Hat blocks** run the blocks below them when a particular event happens. They are rounded at the top, like a hat, so no blocks can go above them.
+**Bloki kapelusze** uruchamiają bloki pod nimi, gdy wydarzy się określone zdarzenie. Są one zaokrąglone u góry, jak kapelusz, więc żadne bloki nie mogą się znajdować nad nimi.
 
-You can use:
+Możesz użyć:
 
 ```blocks3
 
@@ -16,22 +16,22 @@ when stage clicked // run the blocks when the stage is clicked
 
 ```
 
-**Tip:** The `when stage clicked`{:class="block3events"} block is only available when you are working in the Code area for the Stage.
+**Wskazówka:** Blok `kiedy scena kliknięta`{:class="block3events"} jest dostępny tylko wtedy, gdy pracujesz w obszarze kodowania dla Sceny.
 
-If you are on a computer with a keyboard, you can use `when key pressed`{:class="block3events"}:
+Jeśli pracujesz na komputerze z klawiaturą, możesz użyć bloku `kiedy klawisz naciśnięty`{:class="block3events"}:
 
 ```blocks3
 when [space v] key pressed // change to number, letter or arrow keys
 ```
 
-You can also use a `when backdrop switches to`{:class="block3events"} block to start a script when the backdrop changes.
+Możesz również użyć bloku `kiedy tło zmieni się na`blok {:class="block3events"}, aby uruchomić skrypt, gdy zmieni się tło.
 
 [[[scratch3-changing-backdrops-pages-levels]]]
 
 [[[scratch3-show-hide-sprites-backdrops]]]
 
 
-The `when >`{:class="block3events"} block has two versions:
+Blok `kiedy >`{:class="block3events"} ma dwie wersje:
 
 ```blocks3
 when [loudness v] > (10) // run blocks when the microphone detects sound
@@ -42,7 +42,7 @@ when [timer v] > (10) // run blocks when the timer reaches 10 seconds
 [[[scratch3-time-delay]]]
 
 
-The last two blocks in the `Events`{:class="block3events"} menu are `broadcast`{:class="block3events"} blocks. You can use `when i receive (message v)`{:class="block3events"} to start a script when any sprite runs a matching `broadcast (message v)`{:class="block3events"} block.
+Dwa ostatnie bloki w menu `Zdarzenia`{:class="block3events"} to bloki `nadaj komunikat`{:class="block3events"}. Możesz użyć bloku `kiedy otrzymam (wiadomość v)`{:class="block3events"}, aby uruchomić skrypt, gdy jakiś duszek uruchomi pasujący blok `nadaj komunikat (wiadomość v)`{:class="block3events"}.
 
 [[[generic-scratch3-broadcast-message]]]
 
