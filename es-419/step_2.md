@@ -1,40 +1,40 @@
-## Set up Scratch
-You can use Scratch on a laptop or desktop computer, or on a tablet. You can also use Scratch on a Raspberry Pi computer.
+## Configurar Scratch
+Puedes usar Scratch en una computadora portátil o de escritorio, o en una tableta. También puedes usar Scratch en una computadora Raspberry Pi.
 
 --- task ---
 
-Open a web browser on your computer or tablet and visit [rpf.io/scratch-new](https://rpf.io/scratch-new){:target="_blank"} to open a new project in the Scratch editor. Scratch will open in a new tab in your web browser.
+Abre un navegador web en tu computadora o tableta y visita [rpf.io/scratch-new](https://rpf.io/scratch-new){:target="_blank"} para abrir un nuevo proyecto en el editor de Scratch. Scratch se abrirá en una nueva pestaña en tu navegador web.
 
-**Tip:** You can also visit [scratch.mit.edu](https://scratch.mit.edu/){:target="_blank"} and then click on **Create**.
+**Consejo:** También puedes visitar [scratch.mit.edu](https://scratch.mit.edu/){:target="_blank"} y luego hacer clic en **Crear**.
 
 --- collapse ---
 ---
-title: Working offline without an internet connection
+title: Trabajar sin conexión a Internet
 ---
 
-If you need to work offline (without an internet connection), then you can [download Scratch](https://scratch.mit.edu/download){:target="_blank"} and install it on a computer.
+Si necesitas trabajar sin conexión (sin conexión a Internet), puedes [download Scratch](https://scratch.mit.edu/download){:target="_blank"} e instalarlo en una computadora.
 
-You cannot work offline if you are using a tablet.
+No puedes trabajar sin conexión si estás usando una tableta.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Scratch on Raspberry Pi
+title: Scratch en Raspberry Pi
 ---
 
-If you are using a Raspberry Pi computer, Scratch may already be installed. Click on the **Raspberry Pi** icon to open the menu, then click on **Programming**, then select **Scratch 3**.
+Si estás utilizando una computadora Raspberry Pi, es posible que Scratch ya esté instalado. Haz clic en el icono **Raspberry Pi** para abrir el menú, luego haz clic en **Programar**, luego selecciona **Scratch 3**.
 
-If you need to install Scratch, follow this process:
-+ Click on the Raspberry Pi icon to open the menu
-+ Click on **Preferences**
-+ Click on **Recommended Software**
-+ Select **Scratch 3**
+Si necesitas instalar Scratch, sigue este proceso:
++ Haz clic en el icono de Raspberry Pi para abrir el menú
++ Haz clic en **Preferencias**
++ Haz clic en **Software Recomendado**
++ Selecciona **Scratch 3**
 + Click on **OK**
 
-![Recommended software dialogue with Scratch 3 selected.](images/recommended-software-scratch-3.png)
+![Texto de software recomendado con Scratch 3 seleccionado.](images/recommended-software-scratch-3.png)
 
-See [Scratch 3 Desktop for Raspberry Pi](https://www.raspberrypi.org/blog/scratch-3-desktop-for-raspbian-on-raspberry-pi/) for more information.
+Consulta [Escritorio Scratch 3 para Raspberry Pi](https://www.raspberrypi.org/blog/scratch-3-desktop-for-raspbian-on-raspberry-pi/) para obtener más información.
 
 --- /collapse ---
 
@@ -42,35 +42,35 @@ See [Scratch 3 Desktop for Raspberry Pi](https://www.raspberrypi.org/blog/scratc
 
 --- task ---
 
-When you use Scratch with this guide or one of our projects, you will need to switch between Scratch and the project instructions.
+Cuando utilices Scratch con esta guía o uno de nuestros proyectos, deberás cambiar entre Scratch y las instrucciones del proyecto.
 
 --- collapse ---
 ---
-title: Switch between browser tabs
+title: Cambiar entre las pestañas del navegador
 ---
 
 Click on (or on a tablet, tap) the title of a browser tab to switch between the Scratch editor and project instructions.
 
-![A browser with two tabs.](images/two-tabs.png)
+![Un navegador con dos pestañas.](images/two-tabs.png)
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Side-by-side instructions and Scratch
+title: Instrucciones y Scratch juntos
 ---
 
-If your screen is big enough, you can view Scratch next to the project instructions.
+Si tu pantalla es lo suficientemente grande, puedes ver Scratch junto a las instrucciones del proyecto.
 
-![Side-by-side instructions and Scratch.](images/side-by-side.png)
+![Instrucciones y Scratch juntos.](images/side-by-side.png)
 
-If you are using Microsoft Windows 10, drag the Scratch tab in your web browser so that it is in a separate window, and keep dragging until the cursor reaches the right-hand edge of your screen. The window will then be positioned on the right-hand side of the screen.
+If you are using Microsoft Windows 10, drag the Scratch tab in your web browser so that it is in a separate window, and keep dragging until the cursor reaches the right-hand edge of your screen. De esta manera la ventana se colocará en el lado derecho de la pantalla.
 
-Now, drag the window containing this guide or your project instructions to the left-hand side of your screen until the cursor reaches the left-hand edge. The window will take up the left half of your screen.
+Ahora, arrastra la ventana que contiene esta guía o las instrucciones de tu proyecto hacia el lado izquierdo de tu pantalla hasta que el cursor llegue al borde izquierdo. La ventana ocupará la mitad izquierda de tu pantalla.
 
-You can resize the windows to get them just the way you want.
+Puedes cambiar el tamaño de las ventanas para dejarlas de la manera que desees.
 
-**Tip:** You can also hold down the <kbd>Windows</kbd> key and press the <kbd>Left</kbd> arrow key or <kbd>Right</kbd> arrow key to position a window in the left or right half of your screen.
+**Consejo:** También puedes mantener presionada la tecla <kbd>Windows</kbd> y presionar la tecla flecha <kbd>Izquierda</kbd> o la tecla flecha <kbd>Derecha</kbd> para colocar una ventana en la mitad izquierda o derecha de la pantalla.
 
 --- /collapse ---
 
@@ -80,18 +80,18 @@ Try it now and see how you prefer to work.
 
 --- task ---
 
-When you are using Scratch in a web browser, you can zoom in or out to adjust the size.
+Cuando utilices Scratch en un navegador web, puedes acercar o alejar la imagen para ajustar el tamaño.
 
-For example, if you are using Microsoft Windows and you want to use zoom on a webpage in Google Chrome or Microsoft Edge, hold down the <kbd>Ctrl</kbd> key and press the <kbd>+</kbd> key or <kbd>-</kbd> key to zoom in or out.
+Por ejemplo, si estás utilizando Microsoft Windows y deseas utilizar el zoom en una página web en Google Chrome o Microsoft Edge, mantén pulsada la tecla <kbd>Ctrl</kbd> y presiona la tecla <kbd>+</kbd> ó tecla <kbd>-</kbd> para acercar o alejar.
 
 --- collapse ---
 ---
-title: Use zoom in the Code area
+title: Usar el zoom en el área de Código
 ---
 
-You can also use the zoom controls in the Code area in Scratch to change the size of the code blocks in the Code area.
+También puedes usar los controles de zoom en el área de Código en Scratch para cambiar el tamaño de los bloques de código en el área de Código.
 
-![The zoom controls in the Code area.](images/zoom-code-area.png)
+![Los controles de zoom en el área de Código.](images/zoom-code-area.png)
 
 --- /collapse ---
 
