@@ -1,82 +1,82 @@
-## Debug
+## Depurar
 
-**Debugging** is finding and fixing mistakes in your code that are called **bugs**.
+**Depurar** es encontrar y corregir errores en tu código que se denominan **errores**.
 
-* It's easier to identify issues if you make one change at a time, and then run your program
+* Es más fácil identificar problemas si realizas un cambio a la vez y luego ejecutas tu programa
 
-* It might take a few experiments for your project to work in the way that you planned
+* Es posible que se necesiten algunos experimentos para que tu proyecto funcione de la manera que planeaste
 
-Here are some tips that can help you to debug a project when it is not doing what you want it to do:
+Aquí hay algunos consejos que pueden ayudarte a depurar un proyecto cuando no está haciendo lo que quieres que haga:
 
 --- collapse ---
 ---
-title: Run smaller pieces of code
+title: Ejecutar pequeños fragmentos de código
 ---
 
-You do not have to run a whole program to check whether the last few new blocks that you have added work.
+No necesitas ejecutar un programa completo para comprobar si los últimos bloques que has agregado nuevos funcionan.
 
-* Click on a block in the Code area to run it — it is a quick way to check that a block is working as you expect it to
+* Haz clic en un bloque en el área de Código para ejecutarlo - es una forma rápida de verificar que un bloque está funcionando como esperas
 
-* To test a set of blocks on their own, drag them away from their **containing** script, click on them to test them, then drag them back to the main script
+* Para poner a prueba un conjunto de bloques por sí mismos, arrástralos lejos del script que los **contiene**, haz clic en ellos para probarlos, luego arrástralos de regreso al script principal
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Add temporary delays
+title: Agregar demoras temporales
 ---
 
-Slow down the **execution** of your code when it is run. To do this, add a `wait`{:class="block3control"} or `wait until key pressed`{:class="block3control"} block, then remove the block when you have finished debugging your code.
+Ralentiza la **ejecución** de tu código cuando se ejecuta. Para hacer esto, agrega un bloque `esperar`{:class="block3control"} o `esperar hasta que tecla presionada`{:class="block3control"}, luego elimina el bloque cuando hayas terminado de depurar tu código.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Show variables on the Stage
+title: Mostrar variables en el Escenario
 ---
 
-If your project uses `variables`{:class="block3variables"} to store data, then it can be helpful to show those `variables`{:class="block3variables"} on the Stage.
+Si tu proyecto usa `variables`{:class="block3variables"} para almacenar datos, entonces puede ser útil mostrar esas `variables`{:class="block3variables"} en el Escenario.
 
-Click on the checkbox next to a `variable`{:class="block3variables"} in the `Variables`{:class="block3variables"} blocks menu to show or hide it on the Stage.
+Haz clic en la casilla de verificación junto a una `variable`{:class="block3variables"} en el menu de bloques `Variables`{:class="block3variables"} para mostrarla u ocultarla en el Escenario.
 
-Does the variable always have the value that you expect?
+¿La variable siempre tiene el valor que esperas?
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Add comments
+title: Agregar comentarios
 ---
 
-Add comments to blocks, sets of blocks, and/or scripts. Use everyday language to explain what the code does. Sometimes, this will make you realise that your code does not actually do what you want it to do!
+Agrega comentarios a bloques, conjuntos de bloques y/o scripts. Utiliza un lenguaje cotidiano para explicar lo que hace el código. A veces, esto te hará darte cuenta de que tu código no hace realmente lo que quieres que haga!
 
-Comments are useful for when you want to understand your code later, and they help other people to understand your projects.
+Los comentarios son útiles para cuando desees entender tu código más adelante y ayudan a otras personas a entender tus proyectos.
 
 --- /collapse ---
 
 
-There are common problems that lots of beginners (and experts!) experience in Scratch.
+Hay problemas comunes que experimentan muchos principiantes (¡y expertos!) en Scratch.
 
 --- collapse ---
 ---
-title: Debugging tips for specific problems
+title: Consejos de depuración para problemas específicos
 ---
 
-+ **My sprite is going upside down** — Add a `set rotation style left-right`{:class="block3motion"} or `set rotation style don't rotate`{:class="block3motion"} block.
++ **Mi objeto va al revés** - Agrega un bloque `fijar estilo de rotación a izquierda-derecha`{:class="block3motion"} o `fijar estilo de rotación a no rotar`{:class="block3motion"}.
 
 + **My sprite 'jumps' when it changes costume or bounces** — Make sure that the costume is centred in the Paint editor (line up the blue cross in the costume with the crosshair in the centre of the Paint editor).
 
-+ **My sprite stops when it gets to the edge of the Stage** — Add an `if on edge, bounce`{:class="block3motion"} block.
++ **Mi objeto se detiene cuando llega al borde del Escenario** - Agrega un bloque `si toca un borde, rebotar`{:class="block3motion"}.
 
-+ **My sound does not play** — Have you added a block to `play sound`{:class="block3sound"} when the sprite is clicked? If you have copied code from another sprite, you will need to add the sound to this sprite in the **Sounds** tab. Check the volume on your computer or tablet, and make sure that you have not lowered the volume with code — try `set volume to`{:class="block3sound"} `100`.
++ **Mi sonido no se reproduce** - ¿Has agregado un bloque a `iniciar sonido`{:class="block3sound"} cuando se hace clic en el objeto? Si has copiado el código de otro objeto, deberás agregar el sonido a este objeto en la pestaña **Sonidos**. Comprueba el volumen en tu computadora o tableta, y asegúrate de no haber bajado el volumen con el código - intenta `fijar volumen a`{:class="block3sound"} `100`.
 
-+ **Other sprites keep going in front of my sprite** — Use a `go to front layer`{:class="block3looks"} block.
++ **Otros objetos siguen delante de mi objeto** - Usa un bloque `ir a la capa de adelante`{:class="block3looks"}.
 
-+ **My sprite only moves/changes once** — Put your code inside a `forever`{:class="block3control"} block so that it keeps running.
++ **Mi objeto solo se mueve/cambia una vez** - Pon tu código dentro de un bloque `por siempre`{:class="block3control"} para que siga ejecutándose.
 
-+ **My sprite does not change when I move a variable slider** — Put your code inside a `forever`{:class="block3control"} block so that it keeps updating.
++ **Mi objeto no cambia cuando muevo un deslizador variable** - Pon tu código dentro de un bloque `por siempre`{:class="block3control"} para que siga actualizándose.
 
 --- /collapse ---
 
-**Tip:** If you cannot find the problem after you have tried these techniques, then take a break or work on a different part of your project. When you come back, you might find the bug straight away!
+**Consejo:** Si no puedes encontrar el problema después de haber probado estas técnicas, tómate un descanso o trabaja en una parte diferente de tu proyecto. ¡Cuando regreses, es posible que encuentres el error de inmediato!
 
