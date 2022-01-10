@@ -1,93 +1,93 @@
-## Our Scratch projects
+## Onze Scratch-projecten
 
-Our Scratch paths have six projects each, to help you learn different skills in Scratch, in order to create your own projects independently.
+Onze Scratch-paden hebben elk zes projecten, om je te helpen verschillende vaardigheden in Scratch te leren, zodat je zelfstandig je eigen projecten kunt maken.
 
-You can return to this reference guide, Getting started with Scratch, whenever you need to remind yourself of the skills you have learnt.
+Je kunt terugkeren naar deze handleiding, Aan de slag met Scratch, voor een overzicht van de vaardigheden die je hebt geleerd.
 
-These projects can be completed on any computer or tablet that runs Scratch 3.
+Deze projecten kunnen worden voltooid op elke computer of tablet waarop Scratch 3 draait.
 
-### Beginner Scratch projects
+### Scratch-projecten voor beginners
 
-If you are new to Scratch, start with our pathways for beginners:
+Als Scratch nieuw voor je is, begin dan met onze trajecten voor beginners:
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/Intro-banner.png)
-[Introduction to Scratch: sprites, scripts, and loops](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"}<br/>
-In this introduction for beginners, you will learn how to add code, costumes, and sounds to sprites as you make animations, a game, apps, and a story.
+[Inleiding tot Scratch: sprites, scripts en lussen](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank "}<br/>
+In deze introductie voor beginners leer je hoe je code, uiterlijken en geluiden aan sprites kunt toevoegen terwijl je animaties, een game, apps en een verhaal maakt.
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/LAY-banner.png)
-[Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself){:target="_blank"}<br/>
-Learn how to look after yourself and others with Scratch projects to make you laugh, relax, control, create, exercise, and focus.
+[Zorg voor jezelf](https://projects.raspberrypi.org/en/pathways/look-after-yourself){:target="_blank"}<br/>
+Leer hoe je voor jezelf en voor anderen kunt zorgen met Scratch-projecten om je te laten lachen, ontspannen, beheersen, maken, oefenen en focussen.
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/scratch.png)
-[Scratch module 1](https://projects.raspberrypi.org/en/pathways/scratch-module-1){:target="_blank"}
+[Scratch-module 1](https://projects.raspberrypi.org/en/pathways/scratch-module-1){:target="_blank"}
 </div>
 
 <br clear="both"/>
 
-### Beyond the basics Scratch projects
+### Voorbij de basis Scratch-projecten
 
-If you already know about sprites, costumes, backdrops, and loops then try these projects:
+Als je al meer weet over sprites, uiterlijken, achtergronden en loops, probeer dan deze projecten:
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/more-banner.png)
-[More Scratch: broadcast, decisions, and variables](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank"}<br/>
-More Scratch moves beyond the basics introduced in Introduction to Scratch. You will make apps, games, and simulations using message broadcasting, if..then and if..then..else decisions, and variables.
+[Meer Scratch: zenden, beslissingen en variabelen](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank"}<br/>
+Meer Scratch gaat verder dan de basis die is geïntroduceerd in Inleiding tot Scratch. Je maakt apps, games en simulaties met behulp van zend berichten, als..dan en als..dan..anders-beslissingen en variabelen.
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/scratch.png)
-[Scratch module 2](https://projects.raspberrypi.org/en/pathways/scratch-module-2){:target="_blank"}<br/>
+[Scratch-module 2](https://projects.raspberrypi.org/en/pathways/scratch-module-2){:target="_blank"}<br/>
 </div>
 
 <br clear="both"/>
 
-### Advanced Scratch projects
+### Scratch-projecten voor gevorderden
 
-If you want to learn about lists, clones, and creating your own blocks, then try these projects:
+Als je meer wilt weten over lijsten, klonen en het maken van je eigen blokken, probeer dan deze projecten:
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/more-banner.png)
-[Further Scratch: clones, my blocks, and boolean logic](https://projects.raspberrypi.org/en/pathways/further-scratch){:target="_blank"}<br/>
-Further Scratch moves beyond the skills introduced in Introduction to Scratch and More Scratch. You will make apps, games, computer-generated art, and simulations using boolean logic, functions, clones, and more.
+[Meer Scratch: klonen, mijn blokken en booleaanse logica](https://projects.raspberrypi.org/en/pathways/further-scratch){:target="_blank"}<br/>
+Meer Scratch gaat verder dan de vaardigheden die zijn geïntroduceerd in Inleiding tot Scratch en Meer Scratch. Je maakt apps, games, door de computer gegenereerde kunst en simulaties met behulp van booleaanse logica, functies, klonen en meer.
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![desc](images/POP-banner.png)
-[Protect our planet](https://projects.raspberrypi.org/en/pathways/protect-our-planet){:target="_blank"}<br/>
-Use Scratch to learn about our planet and how to protect the environment for future generations.
+[Bescherm onze planeet](https://projects.raspberrypi.org/en/pathways/protect-our-planet){:target="_blank"}<br/>
+Gebruik Scratch om over onze planeet te leren en hoe we het milieu kunnen beschermen voor toekomstige generaties.
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/cd-scratch.png)
-[Scratch for social enterprise](https://projects.raspberrypi.org/en/coderdojo/scratch-for-social-enterprise){:target="_blank"}<br/>
+[Scratch voor sociaal ondernemen](https://projects.raspberrypi.org/en/coderdojo/scratch-for-social-enterprise){:target="_blank"}<br/>
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/scratch.png)
-[Scratch module 3](https://projects.raspberrypi.org/en/pathways/scratch-module-3){:target="_blank"}<br/>
+[Scratch-module 3](https://projects.raspberrypi.org/en/pathways/scratch-module-3){:target="_blank"}<br/>
 </div>
 
 <br clear="both"/>
 
-### Scratch GPIO hardware projects for the Raspberry Pi
+### Scratch GPIO-hardware projecten voor de Raspberry Pi
 
-If you have a Raspberry Pi computer, then you can also try these projects. You will need additional electronic components.
+Als je een Raspberry Pi-computer hebt, kun je deze projecten ook proberen. Je hebt extra elektronische componenten nodig.
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;"><br/>
 ![](images/physical-computing-text.png)
-[Beta pathway: Physical computing with Scratch](https://projects.raspberrypi.org/en/pathways/physical-computing-with-scratch-and-the-raspberry-pi){:target="_blank"}
+[Physical computing with Scratch path](https://projects.raspberrypi.org/en/pathways/physical-computing-with-scratch-and-the-raspberry-pi){:target="_blank"}
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;"><br/>
 ![](images/physical-computing-text.png)
-[Physical computing with Scratch projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&hardware%5B%5D=raspberry-pi){:target="_blank"}
+[Physical computing with Scratch additional projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&hardware%5B%5D=raspberry-pi){:target="_blank"}
 </div>
 
 <br clear="both"/>
 
-Did you enjoy the Scratch guide? Have you spotted an issue? Please click the **Send feedback** button below and let us know!
+Heb je genoten van de Scratch-gids? Heb je een probleem ontdekt? Klik op de **Feedback verzenden** hieronder en laat het ons weten!
