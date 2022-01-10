@@ -1,33 +1,33 @@
-## Sound
+## Ήχος
 
-To add sound to your project, use `Sound`{:class="block3sound"} blocks. For example, you can create a continuous background soundtrack, or add sounds that play at regular intervals.
+Για να προσθέσεις ήχο στο έργο σου, χρησιμοποίησε τα μπλοκ `Ήχοι`{:class="block3sound"}. Για παράδειγμα, μπορείς να δημιουργήσεις μια συνεχή μουσική επένδυση στο φόντο ή να προσθέσεις ήχους που αναπαράγονται σε τακτά χρονικά διαστήματα.
 
-![An annotated screenshot of the Sounds tab.](images/Scratch-Sound-tab.png){:width="600px"}
+![Ένα σχολιασμένο στιγμιότυπο οθόνης της καρτέλας Ήχοι.](images/Scratch-Sound-tab.png){:width="600px"}
 
-First, select a sound from the Sound Library, or record your own sound.
+Πρώτα, επίλεξε έναν ήχο από τη Βιβλιοθήκη Ήχων ή ηχογράφησε τον δικό σου ήχο.
 
 [[[scratch3-add-sound]]]
 
 [[[scratch3-record-sound]]]
 
-Add code to run `Sound`{:class="block3sound"} blocks where you want sound in your project.
+Πρόσθεσε κώδικα για εκτέλεση μπλοκ `Ήχων`{:class="block3sound"} όπου θέλεις να υπάρχει ήχος στο έργο σου.
 
 --- collapse ---
 ---
-title: Add a long sound to create a continuous soundtrack
+title: Πρόσθεσε έναν ήχο μεγάλης διάρκειας για να δημιουργήσεις μια συνεχή μουσική επένδυση
 ---
 
-Click on the green flag to hear the sounds.
+Κάνε κλικ στην πράσινη σημαία για να ακούσεις τους ήχους σου.
 
-**Radio soundtrack**: [See inside](https://scratch.mit.edu/projects/444581851/editor){:target="_blank"}
+**Ραδιοφωνική μουσική επένδυση**: [Δες μέσα](https://scratch.mit.edu/projects/444581851/editor){: target = "_ blank"}
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/444581851/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can use a `play sound until done`{:class="block3sound"} block inside a `forever`{:class="block3control"} loop. Once the sound has finished, the `forever`{:class="block3control"} loop makes the sound start again from the beginning.
+Μπορείς να χρησιμοποιήσεις ένα μπλοκ `παίξε τον ήχο μέχρι τέλους`{:class="block3sound"} μέσα σε έναν βρόχο `για πάντα`{:class="block3control"}. Μόλις τελειώσει ο ήχος, ο βρόχος `για πάντα`{:class="block3control"} κάνει τον ήχο να ξεκινήσει ξανά από την αρχή.
 
-This code uses a single long sound clip repeated as a soundtrack:
+Αυτός ο κώδικας χρησιμοποιεί ένα κλιπ ήχου μεγάλης διάρκειας που επαναλαμβάνεται ως μουσική επένδυση:
 
 ```blocks3
 when green flag clicked
@@ -36,28 +36,28 @@ play sound (Dance Snare Beat v) until done
 end
 ```
 
-**Note:** When you choose a new sound, if you select the **Loops** category, Scratch will only show you the sounds that are suitable for a single looping soundtrack.
+**Σημείωση:** Όταν επιλέγεις έναν νέο ήχο, εάν επιλέξεις την κατηγορία **Λούπες**, το Scratch θα σου δείξει μόνο τους ήχους που είναι κατάλληλοι για μια μουσική επένδυση σε λούπα.
 
-![The 'Loops' category in the Sound Library.](images/loopSounds.png)
+![Η κατηγορία 'Λούπες' στη Βιβλιοθήκη Ήχων.](images/loopSounds.png)
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Add a sequence of short sounds to create a continuous soundtrack
+title: Πρόσθεσε μία αλληλουχία από ήχους μικρής διάρκειας για να δημιουργήσεις μια συνεχή μουσική επένδυση
 ---
 
-Click on the green flag to hear the sounds.
+Κάνε κλικ στην πράσινη σημαία για να ακούσεις τους ήχους.
 
-**Champ performance**: [See inside](https://scratch.mit.edu/projects/444673165/editor){:target="_blank"}
+**Επίδοση Πρωταθλητή**: [Δες μέσα](https://scratch.mit.edu/projects/444673165/editor){:target="_blank"}
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/444673165/?autostart=false" frameborder="0"></iframe>
 </div>
 
- Use a `forever`{:class="block3control"} block to create a looped sound. You can:
-+ Put a series of short sounds in a sequence, or
-+ Use different instrument notes and effects
+ Χρησιμοποίησε ένα μπλοκ `για πάντα`{:class="block3control"} για να δημιουργήσεις έναν επαναλαμβανόμενο ήχο. Μπορείς:
++ Να βάλεις μια σειρά από σύντομους ήχους σε μια σειρά ή
++ Να χρησιμοποιήσεις διαφορετικές νότες οργάνων και εφέ
 
 ```blocks3
 when flag clicked
@@ -76,18 +76,18 @@ End
 
 --- collapse ---
 ---
-title: Add sounds that play at regular intervals
+title: Πρόσθεσε ήχους που παίζουν σε τακτά χρονικά διαστήματα
 ---
 
-**Football sounds**: [See inside](https://scratch.mit.edu/projects/450870079/editor){:target="_blank"}
+**Ήχοι ποδοσφαίρου**: [Δες μέσα](https://scratch.mit.edu/projects/450870079/editor){:target="_blank"}
 
-Click on the green flag to hear the sounds.
+Κάνε κλικ στην πράσινη σημαία για να ακούσεις τους ήχους.
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/450870079/?autostart=false" frameborder="0"></iframe>
 </div>
 
- In this project, the **Stage** has code to play a sound at regular intervals:
+ Σε αυτό το έργο, η **Σκηνή** έχει κώδικα για την αναπαραγωγή ενός ήχου σε τακτά χρονικά διαστήματα:
 
  ```blocks3
  when flag clicked
@@ -97,7 +97,7 @@ Click on the green flag to hear the sounds.
  end
  ```
 
-The **Whistle** sprite also plays a sound at regular intervals:
+Το αντικείμενο **Whistle** αναπαράγει επίσης έναν ήχο σε τακτά χρονικά διαστήματα:
 
  ```blocks3
  when this sprite clicked
@@ -111,18 +111,18 @@ The **Whistle** sprite also plays a sound at regular intervals:
 
 --- collapse ---
 ---
-title: Add sounds that start to play at the same time
+title: Πρόσθεσε ήχους που αρχίζουν να αναπαράγονται ταυτόχρονα
 ---
 
-There are two `Sound`{:class="block3sound"} blocks with an important difference:
+Υπάρχουν δύο μπλοκ `Ήχου`{:class="block3sound"} με μια σημαντική διαφορά:
 
-+ When you `play sound until done`{:class="block3sound"}, the sound will play all the way through. The next line of code in the script will not run until the sound has finished playing.
++ Όταν `παίξεις ήχο μέχρι τέλους`{:class="block3sound"}, ο ήχος θα αναπαράγεται μέχρι να τελειώσει. Η επόμενη γραμμή κώδικα στο script δεν θα εκτελεστεί μέχρι να ολοκληρωθεί η αναπαραγωγή του ήχου.
 
-+ When you `start sound`{:class="block3sound"}, the sound will play, but the next block will run immediately and will not wait for the sound to finish playing first.
++ Όταν εκτελεστεί το μπλοκ `παίξε τον ήχο`{:class="block3sound"}, ο ήχος θα παίξει, αλλά το επόμενο μπλοκ θα τρέξει αμέσως και δεν θα περιμένει για τον πρώτο ήχο να τελειώσει.
 
-This means that if you had a series of `start sound`{:class="block3sound"} blocks, the sounds would all play almost at the same time, layered on top of each other. The effect can be interesting and sometimes messy.
+Αυτό σημαίνει ότι αν είχες μια σειρά από μπλοκ `παίξε τον ήχο`{:class="block3sound"}, οι ήχοι θα παίζονταν σχεδόν ταυτόχρονα, ο ένας πάνω στον άλλο. Το αποτέλεσμα μπορεί να είναι ενδιαφέρον και μερικές φορές μπερδεμένο.
 
-Have a play with it sometime!
+Παίξε μαζί του κάποια στιγμή!
 
 ```blocks3
 when green flag clicked
@@ -135,22 +135,22 @@ start sound (Baa v)
 
 --- /collapse ---
 
-Once you have chosen your sounds, you may want to change the `volume`{:class="block3sound"}, `pitch`{:class="block3sound"}, or `pan`{:class="block3sound"} (so you hear the sound from the left- or right-hand speaker).
+Αφού επιλέξεις τους ήχους σου, μπορεί να θέλεις να αλλάξεις την `ένταση `{:class="block3sound"}, τον `τόνο`{:class="block3sound"} ή την `μετατόπιση αριστερά/δεξιά`{:class="block3sound"} ( ώστε να ακούσεις τον ήχο από το αριστερό ή το δεξί ηχείο).
 
 --- collapse ---
 ---
-title: Volume, pitch, and pan
+title: Ένταση, τόνος και μετατόπιση ήχου
 ---
 
-Click on the green flag to hear the sounds.
+Κάνε κλικ στην πράσινη σημαία για να ακούσεις τους ήχους.
 
-**Band practice**: [See inside](https://scratch.mit.edu/projects/451697380/editor){:target="_blank"}
+**Εξάσκηση μπάντας**: [Δες μέσα](https://scratch.mit.edu/projects/451697380/editor){:target="_blank"}
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451697380/?autostart=false" frameborder="0"></iframe>
 </div>
 
-The **Drums** sprite uses `set volume to`{:class="block3sound"}, `set pitch effect to`{:class="block3sound"}, and `set pan left/right effect to`{:class="block3sound"} blocks to change the sound:
+Το αντικείμενο **Drums** χρησιμοποιεί τα μπλοκ `άλλαξε ένταση κατά`{:class="block3sound"}, `όρισε εφέ τόνος σε`{:class="block3sound"} και `όρισε εφέ μετατόπιση αριστερά/δεξιά σε`{:class=" block3sound"} για να αλλάξει τον ήχο:
 
 ```blocks3
 set volume to (80) %
@@ -159,15 +159,15 @@ set [pan left/right v] effect to (-100) :: sound
 play sound (Drum Funky v) until done
 ```
 
-+ You can `set volume to`{:class="block3sound"} a value from `0` (silent) to `100` (full volume). This is useful if you want some sounds to play louder than others, or if you want a sprite to appear further away.
++ Μπορείς να `ορίσεις ένταση σε`{:class="block3sound"} μια τιμή από `0` (άηχο) έως `100` (πλήρης ένταση). Αυτό είναι χρήσιμο εάν θέλεις κάποιοι ήχοι να παίζουν πιο δυνατά από άλλους ή εάν θέλεις ένα αντικείμενο να εμφανίζεται πιο μακριά.
 
-+ The `pitch`{:class="block3sound"} effect controls how high or low a sound is. Setting the pitch to a higher value also makes a sound faster. You can `set pitch effect to`{:class="block3sound"} values between `-360` (very low) and `360` (very high).
++ Το εφέ `τόνος`{:class="block3sound"} ελέγχει πόσο ψηλός ή χαμηλός είναι ένας ήχος. Η ρύθμιση του τόνου σε υψηλότερη τιμή κάνει επίσης έναν ήχο πιο γρήγορο. Μπορείς να `ορίσεις εφέ τόνος σε`{: class = "block3sound"} τιμές μεταξύ `-360` (πολύ χαμηλή) και `360` (πολύ υψηλή).
 
-+ The `pan left/right`{:class="block3sound"} effect allows you to control whether a sound comes out of a left- or right-hand speaker or headphone or both. You can `set pan left/right effect to`{:class="block3sound"} values from `-100` (all sound from the left) to `100` (all sound from the right).
++ Το εφέ `μετατόπιση αριστερά/δεξιά`{:class="block3sound"} σου επιτρέπει να ελέγχεις εάν ένας ήχος βγαίνει από ένα αριστερό ή δεξί ηχείο ή ακουστικό ή και τα δύο. Μπορείς να `ορίσεις μετατόπιση αριστερά/δεξιά σε`{: class = "block3sound"} τιμές από `-100` (ήχος πλήρως από αριστερά) έως `100` (ήχος πλήρως από δεξιά).
 
 --- /collapse ---
 
-You can also use the `Text to Speech`{:class="block3extensions"} extension:
+Μπορείς επίσης να χρησιμοποιήσεις την επέκταση `Κείμενο σε Ομιλία`{:class="block3extensions"}:
 
 [[[scratch3-text-to-speech]]]
 
