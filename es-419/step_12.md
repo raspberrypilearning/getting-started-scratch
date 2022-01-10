@@ -1,10 +1,10 @@
-## Operators
+## Operadores
 
 The `Operators`{:class="block3operators"} blocks are used to compare variables and values, do calculations with numbers, and work with strings (text).
 
-The hexagonal 'Boolean' blocks are used as conditions, and return true or false. These blocks can be used in `Control`{:class="block3control"} blocks with a hexagonal input.
+Los bloques hexagonales 'booleanos' se utilizan como condiciones y devuelven verdadero o falso. Estos bloques se pueden utilizar en bloques `Control`{:class="block3control"} con una entrada hexagonal.
 
-Comparison operators:
+Operadores de comparación:
 
 ```blocks3
 <[] > [50]>
@@ -14,10 +14,10 @@ Comparison operators:
 <[] = [50]>
 ```
 
-**Tip:** When you use `=`{:class="block3operators"} with text you can mix upper and lower case letters, so `<`{:class="block3operators"} `YES` `=`{:class="block3operators"} `yes` `>`{:class="block3operators"} returns **true**.
+**Consejo:** Cuando uses `=`{:class="block3operators"} con texto puedes mezclar letras mayúsculas y minúsculas, por lo que `<`{:class="block3operators"} `SI` `=`{:class="block3operators"} `si` `>`{:class="block3operators"} devuelve **verdadero**.
 
 
-There are maths operations:
+Hay operaciones matemáticas:
 
 ```blocks3
 ([] + [])
@@ -29,7 +29,7 @@ There are maths operations:
 ([] / [])
 ```
 
-You can choose random numbers between the smallest and largest number (including those numbers).
+Puedes elegir números aleatorios entre el número más pequeño y el más grande (incluidos esos números).
 
 ```blocks3
 (pick random [1] to [10]) // A number from 1 to 10
@@ -45,7 +45,7 @@ The `and`{:class="block3operators"}, `or`{:class="block3operators"}, and `not`{:
 <not <> >
 ```
 
-There are blocks for working with text strings:
+Hay bloques para trabajar con cadenas de texto:
 
 ```blocks3
 (join [apple ] [banana])
@@ -59,4 +59,4 @@ There are blocks for working with text strings:
 
 [[[scratch3-join-text]]]
 
-There are also more maths operators that are useful for some projects.
+También hay más operadores matemáticos que son útiles para algunos proyectos.
