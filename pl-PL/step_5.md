@@ -1,56 +1,56 @@
-## Your first Scratch project
+## Twój pierwszy projekt Scratch
 
-![An annotated screenshot of the Scratch editor, with key features labelled.](images/scratch-features.png)
+![Zrzut ekranu z adnotacjami edytora Scratch z oznaczonymi kluczowymi funkcjami.](images/scratch-features.png)
 
 --- task ---
 
-When you create a new Scratch project, it includes a **cat** sprite.
+Kiedy tworzysz nowy projekt Scratch, zawiera on duszka **kota** (po angielsku cat).
 
-Drag blocks from the Blocks menu to the Code area to make the cat do something.
+Przeciągnij bloki z Menu bloków do Obszaru kodu, aby sprawić że kot coś zrobi.
 
-To try an example, drag a `move`{:class="block3motion"} block from the `Motion`{:class="block3motion"} blocks menu. The blocks are colour-coded to help you find them.
+Aby wypróbować przykład, przeciągnij blok `przesuń o`{:class="block3motion"} z menu bloków `Ruch`{:class="block3motion"}. Bloki oznaczone są kolorami, aby ułatwić Ci ich odnalezienie.
 
-![A 'move' block in the Code area.](images/move-block.png)
+![Blok „przesuń o” w Obszarze kodu.](images/move-block.png)
 
-You can click on blocks in the Code area to run them. Click on the `move`{:class="block3motion"} block and the cat will move.
+Możesz kliknąć na bloki w Obszarze kodu, aby je uruchomić. Kliknij blok `przesuń o`{:class="block3motion"}, a kot się poruszy.
 
-**Tip:** If you are using Scratch on a tablet, you can tap an item to click on it.
+**Wskazówka:** Jeśli używasz Scratch na tablecie, możesz stuknąć element, aby go kliknąć.
 
-**Hat blocks** run the blocks below them when a particular event happens. The `when green flag clicked`{:class="block3events"} block runs code when you click on the green flag above the Stage to run your project.
+**Bloki-kapelusze** uruchamiają bloki pod nimi, gdy wystąpi określone zdarzenie. Blok `kiedy kliknięto zieloną flagę`{:class="block3events"} uruchamia kod po kliknięciu zielonej flagi nad Sceną w celu uruchomienia projektu.
 
-Drag a `when green flag clicked`{:class="block3events"} block above the `move`{:class="block3motion"} block so that they snap together.
+Przeciągnij blok `kiedy kliknięto zieloną flagę`{:class="block3events"} i umeść go nad blokiem `przesuń o`{:class="block3motion"} tak, aby oba bloki się zatrzasnęły.
 
-![The 'move' block in the Code area.](images/green-flag-script.png)
+![Blok „przesuń o” w Obszarze kodu.](images/green-flag-script.png)
 
-Your code should look like this:
+Twój kod powinien wyglądać tak:
 
 ```blocks3
-when flag clicked
-move (10) steps
+po kliknięciu flagi
+ruch (10) kroków
 ```
 
-**Tip:** Scratch blocks are colour-coded, so you will find the `when green flag clicked`{:class="block3events"} block in the `Events`{:class="block3events"} blocks menu.
+**Wskazówka:** Wszystkie bloki są oznaczone kolorami, więc znajdziesz blok `kiedy kliknięto zielną flagę`{:class = "block3looks"} w menu bloków `Zdarzenia`{:class = "block3looks"}.
 
-Now, click on the green flag above the Stage and the cat will move.
+Teraz kliknij zieloną flagę nad Sceną, a kot się poruszy.
 
 --- /task ---
 
-You can add more sprites to your project, and you can also add a backdrop.
+Możesz dodać więcej duszków do swojego projektu, a także dodać tło.
 
 --- task ---
 
 --- collapse ---
 ---
-title: Choose a sprite
+title: Wybranie duszka
 ---
 
-In the Sprite list, click on **Choose a Sprite** to see the library of all Scratch sprites.
+Na liście duszków, kliknij na **Wybierz duszka** aby zobaczyć bibliotekę wszystkich duszków Scratcha.
 
-![The 'Choose a Sprite' icon.](images/sprite-library.png)
+![Ikona „Wybierz duszka”.](images/sprite-library.png)
 
-You can search for a sprite, or browse by category or theme. Click on a sprite to add it to your project.
+Możesz wyszukać duszka lub przeglądać według kategorii lub motywu. Kliknij duszka, aby dodać go do swojego projektu.
 
-![The Sprite Library.](images/sprite-choose.png)
+![Biblioteka duszków.](images/sprite-choose.png)
 
 --- /collapse ---
 
@@ -60,16 +60,16 @@ You can search for a sprite, or browse by category or theme. Click on a sprite t
 
 --- collapse ---
 ---
-title: Choose a backdrop
+title: Wybieranie tła
 ---
 
-In the bottom right-hand corner of the Stage pane, click on **Choose a Backdrop**.
+W prawym dolnym rogu panelu Scena kliknij opcję **Wybierz tło**.
 
-![The 'Choose a Backdrop' icon.](images/stage-choose.png)
+![Ikona 'Wybierz tło'.](images/stage-choose.png)
 
-You can search for a backdrop, or browse by category or theme. Click on a backdrop to add to your project.
+Możesz wyszukać interesujące Cię tło lub przeglądać tła według kategorii lub motywu. Kliknij na tło aby je dodać do Twojego projektu.
 
-![The Backdrop Library.](images/backdrop.png)
+![Biblioteka z tłami.](images/backdrop.png)
 
 --- /collapse ---
 
@@ -79,25 +79,25 @@ You can search for a backdrop, or browse by category or theme. Click on a backdr
 
 --- collapse ---
 ---
-title: Name and save your project
+title: Nazwanie i zapisanie projektu
 ---
 
-Go to **File** in the menu. If you have a Scratch account, click on **Save now**. If you do not have an account, click on **Save to your computer**.
+Przejdź do opcji menu **Plik**. Jeśli masz konto Scratch, kliknij **Zapisz teraz**. Jeśli nie masz konta, kliknij **Zapisz na swoim komputerze**.
 
-Click in the project name box and change the name to match your project.
+Kliknij w polu nazwy projektu i zmień nazwę, aby pasowała do Twojego projektu.
 
-![The project name box highlighted.](images/change-project-name.png)
+![Podświetlone pole nazwy projektu.](images/change-project-name.png)
 
-If you share your project, then other people will also see this name, so make sure that it makes sense.
+Jeśli udostępnisz swój projekt, inne osoby również zobaczą tę nazwę, więc upewnij się, że wybrana nazwa ma sens.
 
 --- /collapse ---
 
 --- /task ---
 
-You have created your first Scratch project!
+Stworzyłeś swój pierwszy projekt Scratch!
 
-You are now ready to learn Scratch. We recommend that you start with our [Scratch: Module 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} and/or [Look after yourself](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"} pathways, which are designed for beginners.
+Jesteś teraz gotowy do nauki Scratcha. Zalecamy zacząć od naszych śceżek [Scratch: Moduł 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} i/lub [Dbaj o siebie](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"}, które są przeznaczone dla początkujących.
 
- You can return to this guide if you need help using Scratch when you are working on our pathway projects or on your own independent projects. 
+ Możesz wrócić do tego przewodnika, jeśli potrzebujesz pomocy w korzystaniu ze Scratcha gdy pracujesz nad naszymi ścieżkami projektów lub nad własnymi niezależnymi projektami. 
 
 
