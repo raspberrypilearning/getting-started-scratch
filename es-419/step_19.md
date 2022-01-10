@@ -1,62 +1,62 @@
-## Editing tips
-It's useful to learn how to copy and delete code blocks, and duplicate sprites.
+## Consejos de edición
+Es útil aprender a copiar y eliminar bloques de código y duplicar objetos.
 
-**Tip:** You can use <kbd>Ctrl-z</kbd> (hold down the Ctrl key and tap 'z') to undo lots of actions in Scratch. If you accidentally delete a Sprite or other item, you can use **Restore** from the **Edit** menu to get it back.
+**Consejo:** Puedes usar <kbd>Ctrl-z</kbd> (mantén presionada la tecla Ctrl y toque 'z') para deshacer muchas acciones en Scratch. Si borras accidentalmente un Objeto u otro elemento, puedes usar **Restaurar** del menú **Editar** para recuperarlo.
 
-You can delete code blocks you don't need any more:
+Puedes eliminar bloques de código que ya no necesites:
 
 [[[scratch-delete]]]
 
-Duplicating or copying code can save you time when making a project.
+Duplicar o copiar código puede ahorrarte tiempo al realizar un proyecto.
 
 --- collapse ---
 ---
-title: Duplicate blocks
+title: Duplicar bloques
 ---
 
 Duplicate blocks or sets of blocks to reuse in a sprite's program:
 
-* Go to the **Code** tab.
-* Right-click (or on a tablet, tap and hold) on the first block that you want to copy. It will select all the blocks below it too.
-* Select **Duplicate** in the drop-down menu. ![Selecting 'Duplicate' in the menu.](images/scratchguide-duplicate.png){:width="300px"}
-* Drag the duplicated code where you want it to go. ![Moving the duplicated code.](images/scratchguide-drag.png){:width="300px"}
-* Delete any blocks that you do not need.
+* Ve a la pestaña **Código**.
+* Haz clic con el botón derecho (o en una tableta, toca y mantén presionado) en el primer bloque que desees copiar. También seleccionará todos los bloques debajo de él.
+* Selecciona **Duplicar** en el menú desplegable. ![Selecting 'Duplicate' in the menu.](images/scratchguide-duplicate.png){:width="300px"}
+* Arrastra el código duplicado donde desees que vaya. ![Moving the duplicated code.](images/scratchguide-drag.png){:width="300px"}
+* Elimina los bloques que no necesites.
 
 --- /collapse ---
 
 [[[scratch3-duplicate-sprite]]]
 
-Create a new sprite and copy over all or some of the first sprite's code.
+Crea un nuevo objeto y copia todo o parte del código del primer objeto.
 
 --- collapse ---
 ---
-title: Copy a sprite's code
+title: Copiar el código de un objeto
 ---
 
-In the bottom right-hand corner of the Sprite list, click on **Choose a Sprite** and select the sprite that you want to add.
+En la esquina inferior derecha de la lista de Objetos, haz clic en **Elegir un Objeto** y selecciona el objeto que deseas agregar.
 
-Click on the first sprite and go to its **Code** tab. Drag the code that is in the first sprite's Code area to the image of the second sprite in the Sprite list, then let go of the code to finish copying it to the second sprite. You may have one script that starts with a `when green flag clicked`{:class="block3events"} block, as well as another script that starts with `when this sprite clicked`{:class="block3events"}. Make sure that you copy **all** the code scripts that you have created.
+Haz clic en el primer objeto y ve a su pestaña **Código**. Drag the code that is in the first sprite's Code area to the image of the second sprite in the Sprite list, then let go of the code to finish copying it to the second sprite. Puedes tener un script que comienza con un bloque `al presionar la bandera verde `{:class="block3events"}, así como otro script que comienza con `al hacer clic en este objeto`{:class="block3events"}. Asegúrate de copiar **todos** los scripts de código que has creado.
 
-![Copying code to another sprite.](images/challenge1-sprite-list.gif){:width="300px"}
+![Copiando código a otro objeto.](images/challenge1-sprite-list.gif){:width="300px"}
 
-Your second sprite will now have exactly the same code as your first sprite. Do not run the program until you have started to change the second sprite's code — you might not see the second sprite because it might be positioned underneath the first sprite.
+Tu segundo objeto ahora tendrá exactamente el mismo código que tu primer objeto. No ejecutes el programa hasta que hayas comenzado a cambiar el código del segundo objeto - es posible que no veas el segundo objeto porque podría estar ubicado debajo del primer objeto.
 
 --- /collapse ---
 
-If you want to copy costumes, sprites, sounds, and scripts between projects, drag them into the **Backpack**.
+Si deseas copiar disfraces, objetos, sonidos y scripts entre proyectos, arrástralos a la **Mochila**.
 
 [[[scratch-backpack]]]
 
-It's always worth spending some time making sure you have followed best practices so your project is easy to understand.
+Siempre vale la pena dedicar algo de tiempo para asegurarse de haber seguido las mejores prácticas para que tu proyecto sea fácil de entender.
 
 --- collapse ---
 ---
-title: Best practices for Scratch projects
+title: Mejores prácticas para proyectos Scratch
 ---
 
-- Name all sprites, costumes, sounds, variables, and messages sensibly. It’s much easier to understand projects that use helpful names.
-- Fill in the Project Page with a good title, instructions, and notes so that users know how to use your project and where you got ideas from.
+- Nombra todos los objetos, disfraces, sonidos, variables y mensajes con sentido. Es mucho más fácil entender los proyectos que utilizan nombres útiles.
+- Completa la Página del Proyecto con un buen título, instrucciones y notas para que los usuarios sepan cómo usar tu proyecto y de dónde obtuviste las ideas.
 - Add short comments that explain what your code is doing.
-- Make sure your scripts are tidy in the **Code** tab. You can right-click and choose **Clean up Blocks** or arrange the scripts in a way that makes sense to you. Try and put similar scripts together.
+- Asegúrate de que tus scripts estén ordenados en la pestaña **Código**. You can right-click and choose **Clean up Blocks** or arrange the scripts in a way that makes sense to you. Try and put similar scripts together.
 
 --- /collapse ---
