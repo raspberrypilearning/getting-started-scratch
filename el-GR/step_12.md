@@ -1,10 +1,10 @@
-## Operators
+## Τελεστές
 
-The `Operators`{:class="block3operators"} blocks are used to compare variables and values, do calculations with numbers, and work with strings (text).
+Τα μπλοκ `Τελεστές`{:class="block3operators"} χρησιμοποιούνται για τη σύγκριση μεταβλητών και τιμών, την εκτέλεση υπολογισμών με αριθμούς και την εργασία με συμβολοσειρές (κείμενο).
 
-The hexagonal 'Boolean' blocks are used as conditions, and return true or false. These blocks can be used in `Control`{:class="block3control"} blocks with a hexagonal input.
+Τα εξαγωνικά μπλοκ «Boolean» χρησιμοποιούνται ως συνθήκες και επιστρέφουν true ή false. Αυτά τα μπλοκ μπορούν να χρησιμοποιηθούν σε μπλοκ `Ελέγχου`{:class="block3control"} με εξαγωνική είσοδο.
 
-Comparison operators:
+Τελεστές σύγκρισης:
 
 ```blocks3
 <[] > [50]>
@@ -14,10 +14,10 @@ Comparison operators:
 <[] = [50]>
 ```
 
-**Tip:** When you use `=`{:class="block3operators"} with text you can mix upper and lower case letters, so `<`{:class="block3operators"} `YES` `=`{:class="block3operators"} `yes` `>`{:class="block3operators"} returns **true**.
+**Συμβουλή:** Όταν χρησιμοποιείς `=`{:class="block3operators"} με κείμενο, μπορείς να αναμίξεις κεφαλαία και πεζά γράμματα, επομένως το `<`{:class="block3operators"} `ΝΑΙ` `=`{:class ="block3operators"} `ναι` `>`{:class="block3operators"} επιστρέφει **true**.
 
 
-There are maths operations:
+Υπάρχουν μαθηματικές πράξεις:
 
 ```blocks3
 ([] + [])
@@ -29,13 +29,13 @@ There are maths operations:
 ([] / [])
 ```
 
-You can choose random numbers between the smallest and largest number (including those numbers).
+Μπορείς να επιλέξεις τυχαίους αριθμούς μεταξύ του μικρότερου και του μεγαλύτερου αριθμού (συμπεριλαμβανομένων αυτών των αριθμών).
 
 ```blocks3
 (pick random [1] to [10]) // A number from 1 to 10
 ```
 
-The `and`{:class="block3operators"}, `or`{:class="block3operators"}, and `not`{:class="block3operators"} operators can be used to combine conditions.
+Οι τελεστές `και`{:class="block3operators"}, `ή`{:class="block3operators"} και `όχι`{:class="block3operators"} μπορούν να χρησιμοποιηθούν για τον συνδυασμό συνθηκών.
 
 ```blocks3
 <<> and <>>
@@ -45,7 +45,7 @@ The `and`{:class="block3operators"}, `or`{:class="block3operators"}, and `not`{:
 <not <> >
 ```
 
-There are blocks for working with text strings:
+Υπάρχουν μπλοκ για εργασία με συμβολοσειρές κειμένου:
 
 ```blocks3
 (join [apple ] [banana])
@@ -59,4 +59,4 @@ There are blocks for working with text strings:
 
 [[[scratch3-join-text]]]
 
-There are also more maths operators that are useful for some projects.
+Υπάρχουν επίσης περισσότεροι μαθηματικοί τελεστές που είναι χρήσιμοι για ορισμένα έργα.
