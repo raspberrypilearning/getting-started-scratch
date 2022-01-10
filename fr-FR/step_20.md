@@ -1,40 +1,40 @@
-## Share and comment
+## Partager et commenter
 
 --- task ---
 
-To let other people access your project, make your project public. You can also share your project's unique web address with other people.
+Pour permettre à d'autres personnes d'accéder à ton projet, rends ton projet public. Tu peux également partager l'adresse Web unique de ton projet avec d'autres personnes.
 
 [[[share-scratch]]]
 
 --- collapse ---
 ---
-title: More on sharing your project's web address
+title: En savoir plus sur le partage de l'adresse Web de ton projet
 ---
 
-+ Your project will always start in the position that you last saved it in, so make sure that you save your project in the right starting position
-+ When you click on **See Project Page**, the web address of your project will appear in the browser bar: ![A web address.](images/from-me-webaddress.png){:width="400px"}
-+ Copy the web address and paste it into an email, or write down the web address and give it to the person who you want to share the project with
++ Ton projet commencera toujours à la position dans laquelle tu l'as enregistré pour la dernière fois, alors assure-toi d'enregistrer ton projet dans la bonne position de départ
++ Lorsque tu cliques sur **Voir la page du projet**, l'adresse web de ton projet apparaît dans la barre du navigateur : ![A web address.](images/from-me-webaddress.png){:width="400px"}
++ Copie l'adresse Web et colle-la dans un e-mail, ou note l'adresse Web et donne-la à la personne avec qui tu souhaites partager le projet
 
-**Tip:** You can access completed Scratch projects on a computer or mobile device.
+**Astuce :** Tu peux accéder aux projets Scratch terminés sur un ordinateur ou un appareil mobile.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What to put in Instructions and Notes and Credits
+title: Que mettre dans les instructions, les notes et les crédits
 ---
 
-On the Project Page, you can fill in the Instructions to explain how to use your project, and complete your project’s Notes and Credits.
+Sur la page du projet, tu peux remplir les instructions pour expliquer comment utiliser ton projet et compléter les notes et les crédits de ton projet.
 
-In the **Instructions** box, tell people how to use your project:
-+ Include all the instructions that the user needs to explore your project fully.
-+ Make sure that your instructions are given step by step and are simple. Instructions are easier to read if you write them in a list.
-+ Include all the user interaction, such as clicking on the green flag to start, and which sprites to click on.
-+ Let the user know if the project includes sound, as they may need to wear headphones or turn the volume up on their device.
+Dans la boîte **Instructions** , explique aux autres comment utiliser ton projet :
++ Inclus toutes les instructions dont l'utilisateur a besoin pour explorer pleinement ton projet.
++ Assure-toi que tes instructions sont données étape par étape et sont simples. Les instructions sont plus faciles à lire si tu les écris dans une liste.
++ Inclus toutes les interactions de l'utilisateur, telles que cliquer sur le drapeau vert pour commencer, et sur quels sprites cliquer.
++ Informe l'utilisateur si le projet inclut du son, car il devra peut-être porter un casque ou augmenter le volume de son appareil.
 
-In the **Notes and Credits** box:
-+ Thank the people who created the projects that inspired you. You could even include the web addresses of the projects.
-+ Did you include images or sounds that were created by someone else? If so, credit the source(s) in this box.
+Dans la case **Notes et Crédits**:
++ Remercie les personnes qui ont créé les projets qui t'ont inspiré. Tu peux même inclure les adresses Web des projets.
++ As-tu inclus des images ou des sons créés par quelqu'un d'autre ? Si c'est le cas, indique la ou les source(s) dans cette case.
 
 --- /collapse ---
 
@@ -42,7 +42,7 @@ In the **Notes and Credits** box:
 
 --- task ---
 
-Give and receive feedback on projects.
+Donner et recevoir des commentaires sur les projets.
 
 [[[comments-feedback-scratch]]]
 
