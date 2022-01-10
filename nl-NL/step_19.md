@@ -1,62 +1,62 @@
-## Editing tips
-It's useful to learn how to copy and delete code blocks, and duplicate sprites.
+## Bewerkingstips
+Het is handig om te leren hoe je codeblokken kopieert en verwijdert en sprites dupliceert.
 
-**Tip:** You can use <kbd>Ctrl-z</kbd> (hold down the Ctrl key and tap 'z') to undo lots of actions in Scratch. If you accidentally delete a Sprite or other item, you can use **Restore** from the **Edit** menu to get it back.
+**Tip:** Je kunt <kbd>Ctrl-z</kbd> (houd de Ctrl-toets ingedrukt en tik op 'z') gebruiken om veel acties in Scratch ongedaan te maken. Als je per ongeluk een Sprite of ander item verwijdert, kun je **Herstel** in het **Bewerken** menu gebruiken om het terug te krijgen.
 
-You can delete code blocks you don't need any more:
+Je kunt codeblokken verwijderen die je niet meer nodig hebt:
 
 [[[scratch-delete]]]
 
-Duplicating or copying code can save you time when making a project.
+Het dupliceren of kopiëren van code kan je tijd besparen bij het maken van een project.
 
 --- collapse ---
 ---
-title: Duplicate blocks
+title: Blokken kopiëren
 ---
 
-Duplicate blocks or sets of blocks to reuse in a sprite's program:
+Kopieer blokken of sets van blokken om deze opnieuw te gebruiken in het programma van een sprite:
 
-* Go to the **Code** tab.
-* Right-click (or on a tablet, tap and hold) on the first block that you want to copy. It will select all the blocks below it too.
-* Select **Duplicate** in the drop-down menu. ![Selecting 'Duplicate' in the menu.](images/scratchguide-duplicate.png){:width="300px"}
-* Drag the duplicated code where you want it to go. ![Moving the duplicated code.](images/scratchguide-drag.png){:width="300px"}
-* Delete any blocks that you do not need.
+* Ga naar het tabblad **Code**.
+* Klik met de rechtermuisknop (of tik op een tablet en houd vast) op het eerste blok dat je wilt kopiëren. Het zal ook alle blokken eronder selecteren.
+* Selecteer **Kopie maken** in het vervolgkeuzemenu. ![Selecting 'Duplicate' in the menu.](images/scratchguide-duplicate.png){:breedte="300px"}
+* Sleep de gekopieerde code naar de gewenste plaats. ![Moving the duplicated code.](images/scratchguide-drag.png){:breedte="300px"}
+* Verwijder alle blokken die je niet nodig hebt.
 
 --- /collapse ---
 
 [[[scratch3-duplicate-sprite]]]
 
-Create a new sprite and copy over all or some of the first sprite's code.
+Maak een nieuwe sprite en kopieer alle of een deel van de code van de eerste sprite.
 
 --- collapse ---
 ---
-title: Copy a sprite's code
+title: Kopieer de code van een sprite
 ---
 
-In the bottom right-hand corner of the Sprite list, click on **Choose a Sprite** and select the sprite that you want to add.
+Klik in de rechterbenedenhoek van de Sprite-lijst op **Kies een Sprite** en selecteer de sprite die je wilt toevoegen.
 
-Click on the first sprite and go to its **Code** tab. Drag the code that is in the first sprite's Code area to the image of the second sprite in the Sprite list, then let go of the code to finish copying it to the second sprite. You may have one script that starts with a `when green flag clicked`{:class="block3events"} block, as well as another script that starts with `when this sprite clicked`{:class="block3events"}. Make sure that you copy **all** the code scripts that you have created.
+Klik op de eerste sprite en ga naar het tabblad **Code**. Sleep de code in het code werkgebied van de eerste sprite naar de afbeelding van de tweede sprite in de lijst met sprite's en laat de code los om het kopiëren naar de tweede sprite. Je kunt een script hebben dat begint met een `wanneer op de groene vlag wordt geklikt`{:class="block3events"} blok, of een ander script dat begint met een `wanneer op deze sprite wordt geklikt`{:class="block3events"} blok. Zorg ervoor dat je **alle** codescripts kopieert die je hebt gemaakt.
 
-![Copying code to another sprite.](images/challenge1-sprite-list.gif){:width="300px"}
+![Code kopiëren naar een andere sprite.](images/challenge1-sprite-list.gif){:width="300px"}
 
-Your second sprite will now have exactly the same code as your first sprite. Do not run the program until you have started to change the second sprite's code — you might not see the second sprite because it might be positioned underneath the first sprite.
+Je tweede sprite heeft nu precies dezelfde code als je eerste sprite. Voer het programma niet uit voordat je de code van de tweede sprite hebt aangepast - het kan zijn dat je de tweede sprite niet ziet omdat deze zich onder de eerste sprite bevindt.
 
 --- /collapse ---
 
-If you want to copy costumes, sprites, sounds, and scripts between projects, drag them into the **Backpack**.
+Als je uiterlijken, sprites, geluiden en scripts tussen projecten wilt kopiëren, sleep je ze naar de **Rugzak**.
 
 [[[scratch-backpack]]]
 
-It's always worth spending some time making sure you have followed best practices so your project is easy to understand.
+Het is altijd de moeite waard wat tijd te besteden om ervoor te zorgen dat je de best practices hebt gevolgd, zodat jouw project gemakkelijk te begrijpen is.
 
 --- collapse ---
 ---
-title: Best practices for Scratch projects
+title: Best practices voor Scratch-projecten
 ---
 
-- Name all sprites, costumes, sounds, variables, and messages sensibly. It’s much easier to understand projects that use helpful names.
-- Fill in the Project Page with a good title, instructions, and notes so that users know how to use your project and where you got ideas from.
-- Add short comments that explain what your code is doing.
-- Make sure your scripts are tidy in the **Code** tab. You can right-click and choose **Clean up Blocks** or arrange the scripts in a way that makes sense to you. Try and put similar scripts together.
+- Geef alle sprites, uiterlijken, geluiden, variabelen en berichten een duidelijke naam. Projecten met duidelijke namen zijn veel gemakkelijker te begrijpen.
+- Vul de projectpagina in met een goede titel, instructies en opmerkingen, zodat gebruikers weten hoe ze je project moeten gebruiken en waar je jouw ideeën vandaan hebt.
+- Voeg korte opmerkingen toe die uitleggen wat je code doet.
+- Zorg ervoor dat je scripts netjes zijn in het **Code** tabblad. Je kunt met de rechtermuisknop klikken en **Blokken opruimen** of de scripts rangschikken op een manier die voor jou logisch is. Probeer vergelijkbare scripts samen te voegen.
 
 --- /collapse ---
