@@ -1,93 +1,93 @@
-## Our Scratch projects
+## Ein prosiectau Scratch
 
-Our Scratch paths have six projects each, to help you learn different skills in Scratch, in order to create your own projects independently.
+Mae gan ein llwybrau Scratch chwe phrosiect yr un, i dy helpu di i ddysgu gwahanol sgiliau yn Scratch, er mwyn creu dy brosiectau dy hun yn annibynnol.
 
-You can return to this reference guide, Getting started with Scratch, whenever you need to remind yourself of the skills you have learnt.
+Galli di ddychwelyd at y canllaw cyfeirio hwn, Dechrau arni gyda Scratch, pryd bynnag bydd angen i ti atgoffa dy hun o'r sgiliau rwyt ti wedi'u dysgu.
 
-These projects can be completed on any computer or tablet that runs Scratch 3.
+Gellir cwblhau'r prosiectau hyn ar unrhyw gyfrifiadur neu dabled sy'n rhedeg Scratch 3.
 
-### Beginner Scratch projects
+### Prosiectau Scratch i ddechreuwyr
 
-If you are new to Scratch, start with our pathways for beginners:
+Os wyt ti'n newydd i Scratch, dechreua gyda'n llwybrau ar gyfer dechreuwyr:
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/Intro-banner.png)
-[Introduction to Scratch: sprites, scripts, and loops](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"}<br/>
-In this introduction for beginners, you will learn how to add code, costumes, and sounds to sprites as you make animations, a game, apps, and a story.
+[Cyflwyniad i Scratch: corluniau, sgriptiau, a dolenni](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"}<br/>
+Yn y cyflwyniad yma ar gyfer dechreuwyr, byddi di'n dysgu sut i ychwanegu cod, gwisgoedd, a seiniau i gorluniau wrth greu animeiddiadau, gêm, apiau, a stori.
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/LAY-banner.png)
-[Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself){:target="_blank"}<br/>
-Learn how to look after yourself and others with Scratch projects to make you laugh, relax, control, create, exercise, and focus.
+[Edrych ar ôl dy hun](https://projects.raspberrypi.org/en/pathways/look-after-yourself){:target="_blank"}<br/>
+Dysga sut i ofalu amdanat ti dy hun a phobl eraill gyda phrosiectau Scratch i wneud i ti chwerthin, ymlacio, rheoli, creu, ymarfer a chanolbwyntio.
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/scratch.png)
-[Scratch module 1](https://projects.raspberrypi.org/en/pathways/scratch-module-1){:target="_blank"}
+[Modiwl Scratch 1](https://projects.raspberrypi.org/en/pathways/scratch-module-1){:target="_blank"}
 </div>
 
 <br clear="both"/>
 
-### Beyond the basics Scratch projects
+### Prosiectau Scratch tu hwnt i'r hanfodion
 
-If you already know about sprites, costumes, backdrops, and loops then try these projects:
+Os wyt ti eisoes yn gwybod am gorluniau, gwisgoedd, cefnlenni a dolenni, rho gynnig ar y prosiectau hyn:
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/more-banner.png)
-[More Scratch: broadcast, decisions, and variables](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank"}<br/>
-More Scratch moves beyond the basics introduced in Introduction to Scratch. You will make apps, games, and simulations using message broadcasting, if..then and if..then..else decisions, and variables.
+[Mwy o Scratch: darlledu, dewisiadau, a newidynnau](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank"}<br/>
+Mae Mwy o Scratch yn symud tu hwnt i'r hanfodion a gyflwynwyd yn y Cyflwyniad i Scratch. Byddi di'n creu apiau, gemau, ac efelychiadau gan ddefnyddio darlledu negeseuon, penderfyniadau os..yna ac os..yna..fel arall, a newidynnau.
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/scratch.png)
-[Scratch module 2](https://projects.raspberrypi.org/en/pathways/scratch-module-2){:target="_blank"}<br/>
+[Modiwl Scratch 2](https://projects.raspberrypi.org/en/pathways/scratch-module-2){:target="_blank"}<br/>
 </div>
 
 <br clear="both"/>
 
-### Advanced Scratch projects
+### Prosiectau Scratch pellach
 
-If you want to learn about lists, clones, and creating your own blocks, then try these projects:
+Os wyt ti eisiau dysgu am restrau, clonau, a chreu dy flociau dy hun, yna rho gynnig ar y prosiectau hyn:
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/more-banner.png)
-[Further Scratch: clones, my blocks, and boolean logic](https://projects.raspberrypi.org/en/pathways/further-scratch){:target="_blank"}<br/>
-Further Scratch moves beyond the skills introduced in Introduction to Scratch and More Scratch. You will make apps, games, computer-generated art, and simulations using boolean logic, functions, clones, and more.
+[Scratch pellach: clonau, fy mlociau, a rhesymeg boole](https://projects.raspberrypi.org/en/pathways/further-scratch){:target="_blank"}<br/>
+Mae Scratch Pellach yn symud tu hwnt i'r sgiliau a gyflwynwyd yn y Cyflwyniad i Scratch a Mwy o Scratch. Byddi di'n creu apiau, gemau, celf a gynhyrchir gan gyfrifiadur, ac efelychiadau gan ddefnyddio rhesymeg boolean, ffwythiannau, clonau, a mwy.
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![desc](images/POP-banner.png)
-[Protect our planet](https://projects.raspberrypi.org/en/pathways/protect-our-planet){:target="_blank"}<br/>
-Use Scratch to learn about our planet and how to protect the environment for future generations.
+[Amddiffyn ein planed](https://projects.raspberrypi.org/en/pathways/protect-our-planet){:target="_blank"}<br/>
+Defnyddia Scratch i ddysgu am ein planed a sut i warchod yr amgylchedd ar gyfer cenedlaethau’r dyfodol.
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/cd-scratch.png)
-[Scratch for social enterprise](https://projects.raspberrypi.org/en/coderdojo/scratch-for-social-enterprise){:target="_blank"}<br/>
+[Scratch ar gyfer menter cymdeithasol](https://projects.raspberrypi.org/en/coderdojo/scratch-for-social-enterprise){:target="_blank"}<br/>
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/scratch.png)
-[Scratch module 3](https://projects.raspberrypi.org/en/pathways/scratch-module-3){:target="_blank"}<br/>
+[Modiwl Scratch 3](https://projects.raspberrypi.org/en/pathways/scratch-module-3){:target="_blank"}<br/>
 </div>
 
 <br clear="both"/>
 
-### Scratch GPIO hardware projects for the Raspberry Pi
+### Prosiectau caledwedd GPIO Scratch ar gyfer y Raspberry Pi
 
-If you have a Raspberry Pi computer, then you can also try these projects. You will need additional electronic components.
+Os oes gen ti gyfrifiadur Raspberry Pi, yna galli di hefyd roi cynnig ar y prosiectau hyn. Bydd angen cydrannau electronig ychwanegol arnat ti.
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;"><br/>
 ![](images/physical-computing-text.png)
-[Beta pathway: Physical computing with Scratch](https://projects.raspberrypi.org/en/pathways/physical-computing-with-scratch-and-the-raspberry-pi){:target="_blank"}
+[Physical computing with Scratch path](https://projects.raspberrypi.org/en/pathways/physical-computing-with-scratch-and-the-raspberry-pi){:target="_blank"}
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;"><br/>
 ![](images/physical-computing-text.png)
-[Physical computing with Scratch projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&hardware%5B%5D=raspberry-pi){:target="_blank"}
+[Physical computing with Scratch additional projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&hardware%5B%5D=raspberry-pi){:target="_blank"}
 </div>
 
 <br clear="both"/>
 
-Did you enjoy the Scratch guide? Have you spotted an issue? Please click the **Send feedback** button below and let us know!
+Wnes di fwynhau canllaw Scratch? Wyt ti wedi gweld unrhyw broblemau? Clicia'r botwm **Anfon adborth** isod a gad i ni wybod!
