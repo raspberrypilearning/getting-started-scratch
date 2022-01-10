@@ -1,42 +1,42 @@
-## Variables
+## Μεταβλητές
 
-A `variable`{:class="block3variables"} is a way of storing numbers and/or text.
+Μια `μεταβλητή `{:class="block3variables"} είναι ένας τρόπος αποθήκευσης αριθμών ή/και κειμένου.
 
-You can make your own variables and choose whether they show on the Stage:
+Μπορείς να δημιουργήσεις τις δικές σου μεταβλητές και να επιλέξεις εάν θα εμφανίζονται στη Σκηνή:
 
 [[[generic-scratch3-add-variable]]]
 
-You should think about whether you need to set a starting value when you make a variable:
+Θα πρέπει να σκεφτείς εάν πρέπει να ορίσεις μια αρχική τιμή όταν δημιουργείς μια μεταβλητή:
 
 [[[scratch3-create-set-variable]]]
 
-You can rename a variable if you change your mind:
+Μπορείς να μετονομάσεις μια μεταβλητή εάν αλλάξεις γνώμη:
 
 --- collapse ---
 ---
-title: Rename a variable
+title: Μετονομασία μεταβλητής
 ---
 
-Sometimes you think of a better name for a variable.
+Μερικές φορές σκέφτεσαι ένα καλύτερο όνομα για μια μεταβλητή.
 
-You can give a variable a new name: go to the `Variables`{:class="block3variables"} blocks menu, right-click (or on a tablet, tap and hold) on the `variable`{:class="block3variables"}, and choose **Rename variable**.
+Μπορείς να δώσεις ένα νέο όνομα σε μια μεταβλητή: πήγαινε στο μενού `Μεταβλητές`{:class="block3variables"}, κάνε δεξί κλικ (ή σε tablet, πάτησε παρατεταμένα) στο `η μεταβλητή μου`{:class="block3variables "} και επίλεξε **Μετονομασία μεταβλητής**.
 
-![Selecting 'Rename variable' in the menu.](images/rename-variable.png)
+![Επιλέγοντας «Μετονομασία μεταβλητής» στο μενού.](images/rename-variable.png)
 
-This will change the name of the variable in all the blocks in which you have used it.
+Αυτό θα αλλάξει το όνομα της μεταβλητής σε όλα τα μπλοκ στα οποία την έχεις χρησιμοποιήσει.
 
 --- /collapse ---
 
-**Tip:** Make sure you know the difference between `set`{:class="block3variables"} and `change by`{:class="block3variables"}. `set`{:class="block3variables"} will replace the value stored in a variable. `change by`{:class="block3variables"} will change the value of a number variable by the amount you choose, `change by`{:class="block3variables"}`1` will add one to a variable. `change by`{:class="block3variables"}`-1` will take one away from a variable.
+**Συμβουλή:** Βεβαιώσου ότι γνωρίζεις τη διαφορά μεταξύ `όρισε`{:class="block3variables"} και `άλλαξε κατά`{:class="block3variables"}. Το `όρισε`{:class="block3variables"} θα αντικαταστήσει την τιμή που είναι αποθηκευμένη σε μια μεταβλητή. Το `άλλαξε κατά`{:class="block3variables"} θα αλλάξει την τιμή μιας αριθμητικής μεταβλητής κατά το ποσό που επιλέγεις, `άλλαξε κατά`{:class="block3variables"}`1` θα προσθέσει τον αριθμό ένα σε μια μεταβλητή. Το `άλλαξε κατά`{:class="block3variables"}`-1` θα αφαιρέσει τον αριθμό ένα από μια μεταβλητή.
 
 
-**Tip:** Variables on the Stage always appear in a layer above all of the sprites. If you have a moving sprite, the sprite will go under any variables on the Stage.
+**Συμβουλή:** Οι μεταβλητές στη Σκηνή εμφανίζονται πάντα σε ένα επίπεδο πάνω από όλα τα αντικείμενα. Εάν έχεις ένα κινούμενο αντικείμενο, το αντικείμενο θα μπει κάτω από οποιεσδήποτε μεταβλητές στη Σκηνή.
 
-You can use a slider to control the value in a variable.
+Μπορείς να χρησιμοποιήσεις μια γραμμή κύλισης για να ελέγξεις την τιμή σε μια μεταβλητή.
 
 [[[scratch3-slider-variable]]]
 
-More ideas for using variables:
+Περισσότερες ιδέες για τη χρήση μεταβλητών:
 
 [[[generic-scratch3-high-score]]]
 
@@ -49,21 +49,21 @@ More ideas for using variables:
 
 --- collapse ---
 ---
-title: Control graphic effects with a variable slider
+title: Έλεγξε τα εφέ γραφικών με μια γραμμή κύλισης για τη μεταβλητή
 ---
 
-Here are some examples of how you can use your variable slider:
+Ακολουθούν μερικά παραδείγματα για το πώς μπορείς να χρησιμοποιήσεις slider στη μεταβλητή σου:
 
 
-This example changes the `ghost`{:class="block3looks"} graphic effect so you can see through the rainbow.
+Αυτό το παράδειγμα αλλάζει το εφέ `φαντάσματος`{:class="block3looks"} έτσι ώστε να μπορείς να βλέπεις μέσα από το ουράνιο τόξο.
 
-**Transparent rainbow**: [See inside](https://scratch.mit.edu/projects/451544795/editor){:target="_blank"}
+**Διαφανές ουράνιο τόξο**: [Δες μέσα](https://scratch.mit.edu/projects/451544795/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451544795/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can use a `transparent`{:class="block3variables"} variable to control the `ghost`{:class="block3looks"} effect on a sprite at the `front`{:class="block3looks"}, and use it to reveal or hide sprites in lower layers.
+Μπορείς να χρησιμοποιήσεις μια μεταβλητή `διαφανής`{:class="block3variables"} για να ελέγξεις το εφέ `φαντάσματος`{:class="block3looks"} σε ένα αντικείμενο `μπροστά`{:class="block3looks"} και να το χρησιμοποιήσεις για να αποκαλύψεις ή να κρύψεις αντικείμενα σε πίσω επίπεδα.
 
 ```blocks3
 when flag clicked
@@ -76,22 +76,22 @@ forever
 set [ghost v] effect to (transparent)
 ```
 
-Try using the same approach with other graphic effects such as `brightness`{:class="block3looks"} or `color`{:class="block3looks"}.
+Δοκίμασε να χρησιμοποιήσεις την ίδια προσέγγιση με άλλα εφέ γραφικών, όπως `φωτεινότητα`{:class="block3looks"} ή `χρώμα`{:class="block3looks"}.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Control movement speed with a variable
+title: Έλεγξε την ταχύτητα κίνησης με μια μεταβλητή
 ---
 
-**Ladybug on a wall**: [See inside](https://scratch.mit.edu/projects/451545341/editor){:target="_blank"}
+**Πασχαλίτσα σε τοίχο**: [Δες μέσα](https://scratch.mit.edu/projects/451545341/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451545341/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Use the `speed`{:class="block3variables"} variable as the input to a `move`{:class="block3motion"} block:
+Χρησιμοποίησε τη μεταβλητή `ταχύτητα`{:class="block3variables"} ως είσοδο σε ένα μπλοκ `κινήσου`{:class="block3motion"}:
 
 ```blocks3
 when flag clicked
@@ -99,22 +99,22 @@ forever
 move (speed) steps
 if on edge, bounce
 ```
-Set the minimum and maximum values for the range of the slider to suit your project.
+Όρισε τις ελάχιστες και μέγιστες τιμές για το εύρος της γραμμής κύλισης για να ταιριάζει στο έργο σου.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Control turn speed with a variable
+title: Έλεγξε την ταχύτητα στροφής με μια μεταβλητή
 ---
 
-**Space dog**: [See inside](https://scratch.mit.edu/projects/451543041/editor){:target="_blank"}
+**Σκύλος διαστήματος**: [Δες μέσα](https://scratch.mit.edu/projects/451543041/editor){: target = "_ blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451543041/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Use an `angle`{:class="block3variables"} variable as the input to a `turn right`{:class="block3motion"} block:
+Χρησιμοποίησε τη μεταβλητή `γωνία`{:class="block3variables"} ως είσοδο σε ένα μπλοκ `στρίψε`{:class="block3motion"}:
 
 ```blocks3
 when flag clicked
@@ -126,16 +126,16 @@ turn right (angle) degrees
 
 --- collapse ---
 ---
-title: Change the delay in a wait block
+title: Άλλαξε την καθυστέρηση σε ένα μπλοκ αναμονής
 ---
 
-**Skeleton dance**: [See inside](https://scratch.mit.edu/projects/451536565/editor){:target="_blank"}
+**Χορός σκελετού**: [Δες μέσα](https://scratch.mit.edu/projects/451536565/editor){: target = "_ blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451536565/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Use a `delay`{:class="block3variables"} variable as the input to a `wait`{:class="block3control"} block:
+Χρησιμοποίησε μια μεταβλητή `καθυστέρηση`{:class="block3variables"} ως είσοδο σε ένα μπλοκ `περίμενε`{:class="block3motion"}:
 
 ```blocks3
 when flag clicked
@@ -144,28 +144,28 @@ wait (delay) seconds
 next costume
 ```
 
-A delay of more than one second is quite a long time. If you include a decimal number in the range of a slider, then you can change the value by a 100th of a second at a time.
+Μια καθυστέρηση μεγαλύτερη του ενός δευτερολέπτου είναι αρκετά μεγάλη. Εάν συμπεριλάβεις έναν δεκαδικό αριθμό στο εύρος μιας γραμμής κύλισης, τότε μπορείς να αλλάξεις την τιμή κατά ένα εκατοστό του δευτερολέπτου κάθε φορά.
 
-A range of `0.00` to `1.00` allows you to choose a delay between `0` seconds (no delay) and `1` second.
+Ένα εύρος από `0,00` έως `1,00` σου επιτρέπει να επιλέξεις καθυστέρηση μεταξύ `0` δευτερολέπτων (χωρίς καθυστέρηση) και `1` δευτερολέπτου.
 
-![Changing the slider range to 0.00 to 1.00.](images/decimal-delay.png)
+![Αλλαγή του εύρους της γραμμής κύλισης σε 0,00 έως 1,00.](images/decimal-delay.png)
 
-Change the numbers to get the minimum and maximum values that you want users to be able to use in your project.
+Άλλαξε τους αριθμούς για να λάβεις τις ελάχιστες και μέγιστες τιμές που θέλεις να μπορούν να χρησιμοποιούν οι χρήστες στο έργο σου.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Change sound effects
+title: Αλλαγή ηχητικών εφέ
 ---
 
-**Drum pitch**: [See inside](https://scratch.mit.edu/projects/451547017/editor){:target="_blank"}
+**Τόνος τυμπάνου**: [Δες μέσα](https://scratch.mit.edu/projects/451547017/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451547017/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can use a `variable`{:class="block3variables"} in a `set pitch effect to`{:class="block3sound"} block. If you increase the pitch of a sound, the notes get higher and the sound speeds up.
+Μπορείς να χρησιμοποιήσεις μια `μεταβλητή`{:class="block3variables"} σε ένα μπλοκ `όρισε εφέ τόνος σε`{:class="block3sound"}. Εάν αυξήσεις τον τόνο ενός ήχου, οι νότες γίνονται πιο ψηλές και ο ήχος επιταχύνεται.
 
 ```blocks3
 when flag clicked
@@ -173,7 +173,7 @@ forever
 set [pitch v] effect to (beat) :: sound
 ```
 
-Play the sound in a separate `forever`{:class="block3control"} loop, so that the pitch will change immediately, rather than waiting until the sound has finished playing:
+Παίξε τον ήχο σε ξεχωριστό βρόχο `για πάντα`{:class="block3control"}, έτσι ώστε η τόνος να αλλάξει αμέσως, αντί να περιμένεις μέχρι να τελειώσει η αναπαραγωγή του ήχου:
 
 ```blocks3
 when flag clicked
@@ -181,7 +181,7 @@ forever
 play sound [Dance Head Nod v] until done
 ```
 
-You can also use a `variable`{:class="block3variables"} to change the volume and pan (tilt) effect.
+Μπορείς επίσης να χρησιμοποιήσεις μια `μεταβλητή `{:class="block3variables"} για να αλλάξεις την ένταση και το εφέ μετατόπισης (αριστερά/δεξιά).
 
 --- /collapse ---
 
