@@ -1,10 +1,10 @@
-## Events
+## Gebeurtenissen
 
-Blocks in the `Events`{:class="block3events"} menu control when scripts are started.
+Blokken in het `Gebeurtenissen`{:class="block3events"} menu bepalen wanneer scripts worden gestart.
 
-**Hat blocks** run the blocks below them when a particular event happens. They are rounded at the top, like a hat, so no blocks can go above them.
+**Hoed-blokken** voeren de blokken eronder uit wanneer er een bepaalde gebeurtenis plaatsvindt. Ze zijn aan de bovenkant afgerond, zoals een hoed, zodat er geen blokken boven kunnen komen.
 
-You can use:
+Je kunt gebruiken:
 
 ```blocks3
 
@@ -16,22 +16,22 @@ when stage clicked // run the blocks when the stage is clicked
 
 ```
 
-**Tip:** The `when stage clicked`{:class="block3events"} block is only available when you are working in the Code area for the Stage.
+**Tip:** Het `wanneer op het Speelveld wordt geklikt`{:class="block3events"} is alleen beschikbaar wanneer je in het codegebied voor het Speelveld werkt.
 
-If you are on a computer with a keyboard, you can use `when key pressed`{:class="block3events"}:
+Als je op een computer met een toetsenbord werkt, kun je de `wanneer toets is ingedrukt`{:class="block3events"} gebruiken:
 
 ```blocks3
 when [space v] key pressed // change to number, letter or arrow keys
 ```
 
-You can also use a `when backdrop switches to`{:class="block3events"} block to start a script when the backdrop changes.
+Je kunt ook een `wanneer achtergrond verandert naar`{:class="block3events"} blok gebruiken om een script te starten wanneer de achtergrond verandert.
 
 [[[scratch3-changing-backdrops-pages-levels]]]
 
 [[[scratch3-show-hide-sprites-backdrops]]]
 
 
-The `when >`{:class="block3events"} block has two versions:
+Het `wanneer >`{:class="block3events"} blok heeft twee versies:
 
 ```blocks3
 when [loudness v] > (10) // run blocks when the microphone detects sound
@@ -42,7 +42,7 @@ when [timer v] > (10) // run blocks when the timer reaches 10 seconds
 [[[scratch3-time-delay]]]
 
 
-The last two blocks in the `Events`{:class="block3events"} menu are `broadcast`{:class="block3events"} blocks. You can use `when i receive (message v)`{:class="block3events"} to start a script when any sprite runs a matching `broadcast (message v)`{:class="block3events"} block.
+De laatste twee blokken in het `Gebeurtenissen`{:class="block3events"} menu zijn `zend signaal`{:class="block3events"} blokken. Je kunt `wanneer ik signaal ontvang`{:class="block3events"} gebruiken om een script te starten wanneer een sprite een overeenkomend `zend signaal`{:class="block3events"}-blok uitvoert.
 
 [[[generic-scratch3-broadcast-message]]]
 
