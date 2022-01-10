@@ -1,21 +1,23 @@
-## Set up a Scratch account
+## Δημιούργησε έναν λογαριασμό Scratch
 
 --- task ---
 
-If you set up a Scratch account, you can save and keep all your Scratch projects online, and work on them again in the future.
+Εάν δημιουργήσεις έναν λογαριασμό Scratch, μπορείς να αποθηκεύσεις και να διατηρήσεις όλα τα έργα σου στο Scratch στο διαδίκτυο και να εργαστείς ξανά σε αυτά στο μέλλον.
 
-You can also share your projects and receive feedback, as well as comment on projects made by other people in the Scratch community.
+Μπορείς επίσης να μοιραστείς τα έργα σου και να λάβεις σχόλια, καθώς και να σχολιάσεις έργα που έγιναν από άλλα άτομα στην κοινότητα του Scratch.
 
 [[[create-scratch-account]]]
 
-If you are an educator, you can set up Teacher and Student Accounts.
+Εάν είσαι εκπαιδευτικός, μπορείς να δημιουργήσεις Λογαριασμούς Καθηγητών και Μαθητών.
 
 --- collapse ---
 ---
-title: Scratch Teacher Accounts
+title: Λογαριασμοί για Καθηγητές στο Scratch
 ---
 
-Please see the [Scratch Teacher Account FAQ](https://scratch.mit.edu/educators/faq){:target="_blank"} for information on setting up an account that gives educators additional features for managing student participation on Scratch.
+Παρακαλώ, δες στο </a>Λογαριασμοί για Καθηγητές στο Scratch Συνήθεις Ερωτήσεις
+
+ για πληροφορίες σχετικά με τη δημιουργία ενός λογαριασμού που παρέχει στους εκπαιδευτικούς πρόσθετες δυνατότητες για τη διαχείριση της συμμετοχής των μαθητών στο Scratch.</p> 
 
 --- /collapse ---
 
