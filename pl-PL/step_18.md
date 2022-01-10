@@ -1,82 +1,82 @@
-## Debug
+## Debugowanie
 
-**Debugging** is finding and fixing mistakes in your code that are called **bugs**.
+**Debugowanie** (czytaj: debagowanie) to znajdowanie i naprawianie błędów w kodzie.
 
-* It's easier to identify issues if you make one change at a time, and then run your program
+* Łatwiej jest zidentyfikować problemy, jeśli dokonasz tylko jednej zmiany, a następnie uruchomisz program
 
-* It might take a few experiments for your project to work in the way that you planned
+* To może wymagać kilku prób, aby Twój projekt zadziałał w zaplanowany sposób
 
-Here are some tips that can help you to debug a project when it is not doing what you want it to do:
+Oto kilka wskazówek, które mogą pomóc w debugowaniu projektu, gdy nie robi on tego, czego chcesz:
 
 --- collapse ---
 ---
-title: Run smaller pieces of code
+title: Uruchom mniejsze fragmenty kodu
 ---
 
-You do not have to run a whole program to check whether the last few new blocks that you have added work.
+Nie musisz uruchamiać całego programu aby sprawdzić, czy kilka ostatnich bloków, które ostatnio dodałeś, działa poprawnie.
 
-* Click on a block in the Code area to run it — it is a quick way to check that a block is working as you expect it to
+* Kliknij blok w Obszarze kodu, aby go uruchomić — jest to szybki sposób na sprawdzenie, czy blok działa zgodnie z oczekiwaniem
 
-* To test a set of blocks on their own, drag them away from their **containing** script, click on them to test them, then drag them back to the main script
+* Aby samodzielnie przetestować zestaw bloków, przeciągnij je poza **zawierający** je skrypt, kliknij je, aby je przetestować, a następnie przeciągnij je z powrotem do głównego skryptu
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Add temporary delays
+title: Dodaj tymczasowe opóźnienia
 ---
 
-Slow down the **execution** of your code when it is run. To do this, add a `wait`{:class="block3control"} or `wait until key pressed`{:class="block3control"} block, then remove the block when you have finished debugging your code.
+Spowolnij **wykonanie** kodu, gdy jest on uruchamiany. Aby to zrobić, dodaj `czekaj`{:class="block3control"} lub `czekaj, aż klawisz naciśnięty`{:class="block3control"}, a następnie usuń ten blok po zakończeniu debugowania kodu.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Show variables on the Stage
+title: Pokaż zmienne na Scenie
 ---
 
-If your project uses `variables`{:class="block3variables"} to store data, then it can be helpful to show those `variables`{:class="block3variables"} on the Stage.
+Jeśli Twój projekt używa `zmiennych`{:class="block3variables"} do przechowywania danych, pomocne może być pokazanie tych `zmiennych`{:class="block3variables"} na Scenie.
 
-Click on the checkbox next to a `variable`{:class="block3variables"} in the `Variables`{:class="block3variables"} blocks menu to show or hide it on the Stage.
+Kliknij pole wyboru obok bloku `zmienna`{:class="block3variables"} w menu bloków `Zmienne`{:class="block3variables"}, aby pokazać lub ukryć ją na Scenie.
 
-Does the variable always have the value that you expect?
+Czy zmienna zawsze ma taką wartość, jakiej się spodziewasz?
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Add comments
+title: Dodaj komentarze
 ---
 
-Add comments to blocks, sets of blocks, and/or scripts. Use everyday language to explain what the code does. Sometimes, this will make you realise that your code does not actually do what you want it to do!
+Dodaj komentarze do bloków, zestawów bloków i/lub skryptów. Użyj prostego języka do wyjaśnienia, co robi kod. Czasami dzięki temu zdasz sobie sprawę, że Twój kod nie robi tego, czego od niego oczekujesz!
 
-Comments are useful for when you want to understand your code later, and they help other people to understand your projects.
+Komentarze są przydatne, gdy chcesz później zrozumieć swój kod oraz pomagają innym osobom zrozumieć Twoje projekty.
 
 --- /collapse ---
 
 
-There are common problems that lots of beginners (and experts!) experience in Scratch.
+Istnieją typowe problemy, z którymi spotyka się wielu początkujących (i ekspertów!) w Scratchu.
 
 --- collapse ---
 ---
-title: Debugging tips for specific problems
+title: Wskazówki do usuwania konkretnych problemów
 ---
 
-+ **My sprite is going upside down** — Add a `set rotation style left-right`{:class="block3motion"} or `set rotation style don't rotate`{:class="block3motion"} block.
++ **Mój duszek porusza się do góry nogami** — Dodaj blok `ustaw styl obrotu na lewo-prawo`{:class="block3motion"} lub `ustaw styl obrotu na nie obracaj`{:class="block3motion"}.
 
-+ **My sprite 'jumps' when it changes costume or bounces** — Make sure that the costume is centred in the Paint editor (line up the blue cross in the costume with the crosshair in the centre of the Paint editor).
++ **Mój duszek „podskakuje”, gdy zmienia kostium lub się odbija** — Upewnij się, że kostium jest wyśrodkowany w edytorze Paint (wyrównaj niebieski krzyż w kostiumie z celownikiem na środku edytora Paint).
 
-+ **My sprite stops when it gets to the edge of the Stage** — Add an `if on edge, bounce`{:class="block3motion"} block.
++ **Mój duszek zatrzymuje się, gdy dojdzie do krawędzi Sceny** - Dodaj blok `jeżeli na brzegu, odbij się`{:class="block3motion"}.
 
-+ **My sound does not play** — Have you added a block to `play sound`{:class="block3sound"} when the sprite is clicked? If you have copied code from another sprite, you will need to add the sound to this sprite in the **Sounds** tab. Check the volume on your computer or tablet, and make sure that you have not lowered the volume with code — try `set volume to`{:class="block3sound"} `100`.
++ **Mój dźwięk nie jest odtwarzany** — Czy dodałeś blok `graj dźwięk`{:class="block3sound"} po kliknięciu duszka? Jeśli skopiowałeś kod z innego duszka, będziesz musiał dodać dźwięk do tego duszka w zakładce **Dźwięki**. Sprawdź głośność na komputerze lub tablecie i upewnij się, że nie obniżyłeś głośności kodem — spróbuj bloku `ustaw głośność na`{:class="block3sound"} `100`.
 
-+ **Other sprites keep going in front of my sprite** — Use a `go to front layer`{:class="block3looks"} block.
++ **Inne duszki zakrywają mojego duszka** — Użyj bloku `przesuń na wierzch`{:class="block3looks"}.
 
-+ **My sprite only moves/changes once** — Put your code inside a `forever`{:class="block3control"} block so that it keeps running.
++ **Mój duszek porusza się/zmienia się tylko raz** — Umieść swój kod w bloku `zawsze`{:class="block3control"}, aby poruszał bez przerwy.
 
-+ **My sprite does not change when I move a variable slider** — Put your code inside a `forever`{:class="block3control"} block so that it keeps updating.
++ **Mój duszek nie zmienia się, gdy przesuwam suwak zmiennej** — Umieść swój kod w bloku `zawsze`{:class="block3control"}, aby był na bieżąco aktualizowany.
 
 --- /collapse ---
 
-**Tip:** If you cannot find the problem after you have tried these techniques, then take a break or work on a different part of your project. When you come back, you might find the bug straight away!
+**Wskazówka:** Jeśli nie możesz znaleźć problemu po wypróbowaniu tych technik, zrób sobie przerwę lub popracuj nad inną częścią projektu. Kiedy wrócisz, być może od razu znajdziesz błąd!
 
