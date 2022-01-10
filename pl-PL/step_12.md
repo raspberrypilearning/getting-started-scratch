@@ -1,10 +1,10 @@
-## Operators
+## Wyrażenia
 
-The `Operators`{:class="block3operators"} blocks are used to compare variables and values, do calculations with numbers, and work with strings (text).
+Bloki z menu `Wyrażenia`{:class="block3operators"} służą do porównywania zmiennych i wartości, wykonywania obliczeń i pracy z napisami (tekstem).
 
-The hexagonal 'Boolean' blocks are used as conditions, and return true or false. These blocks can be used in `Control`{:class="block3control"} blocks with a hexagonal input.
+Sześciokątne bloki „Boole'a” (czytaj: Bula) są używane jako warunki i zwracają prawdę albo fałsz. Bloki te mogą być używane w blokach z menu `Kontrola`{:class="block3control"} z wejściem sześciokątnym.
 
-Comparison operators:
+Operatory porównania:
 
 ```blocks3
 <[] > [50]>
@@ -14,10 +14,10 @@ Comparison operators:
 <[] = [50]>
 ```
 
-**Tip:** When you use `=`{:class="block3operators"} with text you can mix upper and lower case letters, so `<`{:class="block3operators"} `YES` `=`{:class="block3operators"} `yes` `>`{:class="block3operators"} returns **true**.
+**Wskazówka:** Gdy użyjesz `=`{:class="block3operators"} z tekstem, możesz mieszać małe i duże litery, więc `<`{:class="block3operators"} `TAK` `=`{:class ="block3operators"} `tak` `>`{:class="block3operators"} zwraca wartość **prawda**.
 
 
-There are maths operations:
+Są to operacje matematyczne:
 
 ```blocks3
 ([] + [])
@@ -29,13 +29,13 @@ There are maths operations:
 ([] / [])
 ```
 
-You can choose random numbers between the smallest and largest number (including those numbers).
+Możesz wylosować liczby spomiędzy podanej najmniejszej i największej liczby (włącznie z tymi liczbami).
 
 ```blocks3
 (pick random [1] to [10]) // A number from 1 to 10
 ```
 
-The `and`{:class="block3operators"}, `or`{:class="block3operators"}, and `not`{:class="block3operators"} operators can be used to combine conditions.
+Operatory `i`{:class="block3operators"}, `lub`{:class="block3operators"} oraz `nie`{:class="block3operators"} mogą być używane do łączenia warunków.
 
 ```blocks3
 <<> and <>>
@@ -45,7 +45,7 @@ The `and`{:class="block3operators"}, `or`{:class="block3operators"}, and `not`{:
 <not <> >
 ```
 
-There are blocks for working with text strings:
+Istnieją bloki do pracy z napisami (ciągami tekstowymi):
 
 ```blocks3
 (join [apple ] [banana])
@@ -59,4 +59,4 @@ There are blocks for working with text strings:
 
 [[[scratch3-join-text]]]
 
-There are also more maths operators that are useful for some projects.
+Jest też więcej operatorów matematycznych, które są przydatne w niektórych projektach.
