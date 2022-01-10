@@ -1,82 +1,82 @@
-## Debug
+## Fouten oplossen (Debuggen)
 
-**Debugging** is finding and fixing mistakes in your code that are called **bugs**.
+**Debuggen** is het vinden en herstellen van fouten in je code. Fouten worden **bugs** genoemd.
 
-* It's easier to identify issues if you make one change at a time, and then run your program
+* Het is gemakkelijker om problemen te vinden als je één wijziging tegelijk aanbrengt en vervolgens je programma uitvoert
 
-* It might take a few experiments for your project to work in the way that you planned
+* Het kan een paar aanpassingen duren voordat je project werkt zoals je het gepland had
 
-Here are some tips that can help you to debug a project when it is not doing what you want it to do:
+Hier zijn enkele tips die je kunnen helpen bij het debuggen van een project wanneer het niet doet wat je wilt:
 
 --- collapse ---
 ---
-title: Run smaller pieces of code
+title: Voer kleinere stukjes code uit
 ---
 
-You do not have to run a whole program to check whether the last few new blocks that you have added work.
+Je hoeft niet een heel programma uit te voeren om te controleren of de laatste paar nieuwe blokken die je hebt toegevoegd werken.
 
-* Click on a block in the Code area to run it — it is a quick way to check that a block is working as you expect it to
+* Klik op een blok in het werkgebied om het uit te voeren - het is een snelle manier om te controleren of een blok werkt zoals je verwacht
 
-* To test a set of blocks on their own, drag them away from their **containing** script, click on them to test them, then drag them back to the main script
+* Om zelf een set blokken te testen, sleep je ze weg van hun **hoofd** script, klik erop om ze te testen en sleep ze vervolgens terug naar het hoofdscript
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Add temporary delays
+title: Tijdelijke vertragingen toevoegen
 ---
 
-Slow down the **execution** of your code when it is run. To do this, add a `wait`{:class="block3control"} or `wait until key pressed`{:class="block3control"} block, then remove the block when you have finished debugging your code.
+Vertraag de **uitvoering** van je code wanneer deze wordt uitgevoerd. Om dit te doen, voeg je een `wacht`{:class="block3control"} of `wacht tot toets is ingedrukt`{:class="block3control"} blok toe en verwijder het blok weer wanneer je klaar bent met het debuggen van je code.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Show variables on the Stage
+title: Variabelen in het Speelveld tonen
 ---
 
-If your project uses `variables`{:class="block3variables"} to store data, then it can be helpful to show those `variables`{:class="block3variables"} on the Stage.
+Als je project `variabelen`{:class="block3variables"} gebruikt om gegevens op te slaan, kan het handig zijn om die `variabelen`{:class="block3variables"} in het Speelveld weer te geven.
 
-Click on the checkbox next to a `variable`{:class="block3variables"} in the `Variables`{:class="block3variables"} blocks menu to show or hide it on the Stage.
+Klik op het selectievakje naast een `variabele`{:class="block3variables"} in het `Variabelen`{:class="block3variables"} blokkenmenu om deze in het Speelveld te tonen of te verbergen.
 
-Does the variable always have the value that you expect?
+Heeft de variabele altijd de waarde die je verwacht?
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Add comments
+title: Opmerkingen toevoegen
 ---
 
-Add comments to blocks, sets of blocks, and/or scripts. Use everyday language to explain what the code does. Sometimes, this will make you realise that your code does not actually do what you want it to do!
+Voeg opmerkingen toe aan blokken, sets met blokken en/of scripts. Gebruik alledaagse taal om uit te leggen wat de code doet. Soms kom je er daardoor achter dat je code niet echt doet wat je wilt!
 
-Comments are useful for when you want to understand your code later, and they help other people to understand your projects.
+Opmerkingen zijn handig als je jouw code later wilt begrijpen en ze helpen ook andere mensen om jouw projecten te begrijpen.
 
 --- /collapse ---
 
 
-There are common problems that lots of beginners (and experts!) experience in Scratch.
+Er zijn veelvoorkomende problemen die veel beginners (en experts!) tegenkomen in Scratch.
 
 --- collapse ---
 ---
-title: Debugging tips for specific problems
+title: Foutopsporings-tips voor specifieke problemen
 ---
 
-+ **My sprite is going upside down** — Add a `set rotation style left-right`{:class="block3motion"} or `set rotation style don't rotate`{:class="block3motion"} block.
++ **Mijn sprite gaat ondersteboven** — Voeg een `maak draaistijl links-rechts`{:class="block3motion"} of `maak draaistijl niet draaien`{:class="block3motion"} blok toe.
 
-+ **My sprite 'jumps' when it changes costume or bounces** — Make sure that the costume is centred in the Paint editor (line up the blue cross in the costume with the crosshair in the centre of the Paint editor).
++ **Mijn sprite 'springt' wanneer het van uiterlijk verandert of stuitert** — Zorg ervoor dat het uiterlijk gecentreerd is in de Teken-editor (zet het blauwe kruis in het uiterlijk in het midden van de Teken-editor op het dradenkruis).
 
-+ **My sprite stops when it gets to the edge of the Stage** — Add an `if on edge, bounce`{:class="block3motion"} block.
++ **Mijn sprite stopt wanneer hij de rand van het Speelveld raakt** — Voeg een `keer om aan de rand`{:class="block3motion"} blok toe.
 
-+ **My sound does not play** — Have you added a block to `play sound`{:class="block3sound"} when the sprite is clicked? If you have copied code from another sprite, you will need to add the sound to this sprite in the **Sounds** tab. Check the volume on your computer or tablet, and make sure that you have not lowered the volume with code — try `set volume to`{:class="block3sound"} `100`.
++ **Mijn geluid speelt niet af** — Heb je een blok `start geluid`{:class="block3sound"} toegevoegd wanneer op de sprite wordt geklikt? Als je code van een andere sprite hebt gekopieerd, moet je het geluid aan deze sprite toevoegen in het tabblad **Geluiden**. Controleer het volume op je computer of tablet en zorg ervoor dat je het volume niet met code hebt verlaagd — probeer `zet volume op`{:class="block3sound"} `100`.
 
-+ **Other sprites keep going in front of my sprite** — Use a `go to front layer`{:class="block3looks"} block.
++ **Andere sprites blijven voor mijn sprite gaan** — Gebruik een `ga naar laag voorgrond`{:class="block3looks"}-blok.
 
-+ **My sprite only moves/changes once** — Put your code inside a `forever`{:class="block3control"} block so that it keeps running.
++ **Mijn sprite beweegt/verandert maar één keer** — Zet je code in een `herhaal`{:class="block3control"}- blok zodat het blijft herhalen.
 
-+ **My sprite does not change when I move a variable slider** — Put your code inside a `forever`{:class="block3control"} block so that it keeps updating.
++ **Mijn sprite verandert niet wanneer ik een variabele schuifregelaar verplaats** — Plaats je code in een `herhaal`{:class="block3control"}-blok zodat het blijft updaten.
 
 --- /collapse ---
 
-**Tip:** If you cannot find the problem after you have tried these techniques, then take a break or work on a different part of your project. When you come back, you might find the bug straight away!
+**Tip:** Als je het probleem niet kunt vinden nadat je deze technieken hebt uitgeprobeerd, neem dan een pauze of werk aan een ander deel van je project. Als je terugkomt, vind je de bug misschien meteen!
 
