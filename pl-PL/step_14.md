@@ -1,10 +1,10 @@
-## My blocks
+## Moje bloki
 
-`My blocks`{:class="block3myblocks"} allow you to create new blocks for a sprite. You give the block a name and then `define`{:class="block3myblocks"} what the new block does using other Scratch blocks. You can use your new block in any script on the sprite that owns the block.
+`Moje bloki`{:class="block3myblocks"} umożliwiają tworzenie nowych bloków dla duszka. Nadajesz blokowi nazwę, a następnie używasz `definiuj`{:class="block3myblocks"} do określenia co robi nowy blok, używając innych bloków Scratch. Możesz użyć swojego nowego bloku w dowolnym skrypcie na duszku, który zawiera ten bloku.
 
-This example defines a `talk`{:class="block3myblocks"} block that makes a sprite change costume:
+Ten przykład definiuje `talk`{:class="block3myblocks"}, który tworzy kostium zmiany duszka:
 
-**Penguin chirps**: [See inside](https://scratch.mit.edu/projects/567554899/editor){:target="_blank"}
+**Ćwierkający pingwin**: [Zajrzyj do środka](https://scratch.mit.edu/projects/567554899/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/567554899/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -25,15 +25,15 @@ when [space v] key pressed
 talk
 ```
 
-You can use `My blocks`{:class="block3myblocks"} to **organise** your code. It's simpler to group together all the blocks that make a sprite talk and then just use one `talk`{:class="block3myblocks"} block when you want your sprite to talk.
+Możesz użyć `Moje bloki`{:class="block3myblocks"}, aby **uporządkować** swój kod. Łatwiej jest zgrupować razem wszystkie bloki, dzięki którym duszek mówi, a następnie użyć jednego `talk`{:class="block3myblocks"}, gdy chcesz, aby twój duszek mówił.
 
-If you decide that you want to change the way your sprite talks then you only have to change the code in one place.
+Jeśli zdecydujesz, że chcesz zmienić sposób mówienia swojego duszka, wystarczy zmienić kod w jednym miejscu.
 
-### My blocks with inputs
+### Moje bloki z wejściami
 
-You can also add **inputs** to `My blocks`{:class="block3myblocks"} so that they use the values you provide when you use the block.
+Możesz również dodać **dane wejściowe** do bloków w sekcji `Moje bloki`{:class="block3myblocks"}, aby używały one wartości, które podajesz podczas korzystania z bloku.
 
-**Penguin talks**: [See inside](https://scratch.mit.edu/projects/567538874/editor){:target="_blank"}
+**Pingwin mówi**: [Zajrzyj do środka](https://scratch.mit.edu/projects/567538874/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/567538874/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -60,9 +60,9 @@ talk [hi]
 
 --- collapse ---
 ---
-title: Use My Blocks to organise code
+title: Użyj Moich bloków do uporządkowania kodu
 ---
-The simplest way to use `My Blocks`{:class="block3myblocks"} is to help organise your code. Here is a simple example.
+Najprostszym sposobem użycia menu `Moje bloki`{:class="block3myblocks"} jest pomoc w uporządkowaniu kodu. Oto prosty przykład.
 
 ```blocks3
 define move right
@@ -96,4 +96,4 @@ move left
 
 --- /collapse ---
 
-`My blocks`{:class="block3myblocks"} are similar to 'procedures', 'functions' or 'methods' in other programming languages.
+`Moje bloki`{:class="block3myblocks"} są podobne do 'procedur', 'funkcji' lub 'metod' w innych językach programowania.
