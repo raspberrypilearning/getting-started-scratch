@@ -1,8 +1,8 @@
-## Paint editor
+## Ο επεξεργαστής ζωγραφικής
 
-Use the Paint editor to create your own backdrops and costumes, and to edit existing backdrops and costumes.
+Χρησιμοποίησε το πρόγραμμα επεξεργασίας ζωγραφικής για να δημιουργήσεις τα δικά σου υπόβαθρα και ενδυμασίες και να επεξεργαστείς υπάρχοντα υπόβαθρα και ενδυμασίες.
 
-![An annotated screenshot of the Costumes tab.](images/Scratch-Costume-tab.png){:width="600px"}
+![Ένα σχολιασμένο στιγμιότυπο οθόνης της καρτέλας Ενδυμασίες.](images/Scratch-Costume-tab.png){:width="600px"}
 
 [[[scratch3-paint-a-new-backdrop-extended]]]
 
@@ -18,193 +18,193 @@ Use the Paint editor to create your own backdrops and costumes, and to edit exis
 
 --- collapse ---
 ---
-title: Duplicate and edit a costume to use in an animation
+title: Αντιγραφή και επεξεργασία ενδυμασίας για χρήση σε κινούμενα σχέδια
 ---
 
-Some Scratch sprites just have one costume, or have multiple costumes that don't work as an animation. If you choose one costume, then duplicate it (make a copy of it) and make a small change, it can create an animation effect.
+Ορισμένα αντικείμενα του Scratch έχουν απλώς μια ενδυμασία ή έχουν πολλές ενδυμασίες που δεν λειτουργούν ως κινούμενα σχέδια. Εάν επιλέξεις μια ενδυμασία, την αντιγράψεις (κάνε ένα αντίγραφό της) και κάνεις μια μικρή αλλαγή, μπορεί να δημιουργήσεις ένα εφέ κινουμένων σχεδίων.
 
-**Robot animation**: [See inside](https://scratch.mit.edu/projects/436260207/editor){:target="_blank"}
+**Κινούμενα σχέδια ρομπότ**: [Δες μέσα](https://scratch.mit.edu/projects/436260207/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/436260207/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Switch to the **Costumes** tab for your sprite.
+Πήγαινε στην καρτέλα **Ενδυμασίες** για το αντικείμενό σου.
 
-Choose the costume that you want to use, and delete the other costumes, because you will not need them for your animation. For example, the **Robot** sprite comes with costumes for three different robots, so you should choose one of the costumes and delete the other costumes.
+Διάλεξε την ενδυμασία που θέλεις να χρησιμοποιήσεις και διάγραψε τις άλλες ενδυμασίες, γιατί δεν θα τις χρειαστείς για το κινούμενο σχέδιο. Για παράδειγμα, το αντικείμενο **Robot** συνοδεύεται από ενδυμασίες για τρία διαφορετικά ρομπότ, επομένως θα πρέπει να επιλέξεις μια από τις ενδυμασίες και να διαγράψεις τις άλλες ενδυμασίες.
 
-Right-click (or on a tablet, tap and hold) on the costume, and choose **duplicate**.
+Κάνε δεξί κλικ (ή σε ένα tablet, πάτησε παρατεταμένα) στην ενδυμασία και επίλεξε **διπλασιασμός**.
 
-Make small changes to the copy of the costume. For example, you can move, rotate, or change all or part of the costume. You can also add movement lines.
+Κάνε μικρές αλλαγές στο αντίγραφο της ενδυμασίας. Για παράδειγμα, μπορείς να μετακινήσεις, να περιστρέψεις ή να αλλάξεις ολόκληρη την ενδυμασία ή μέρος της. Μπορείς επίσης να προσθέσεις γραμμές κίνησης.
 
-If your costume uses vector graphics, then you can select parts of a costume and change each part separately.
+Εάν η ενδυμασία σου χρησιμοποιεί διανυσματικά γραφικά, τότε μπορείς να επιλέξεις μέρη μιας ενδυμασίας και να αλλάξεις κάθε μέρος ξεχωριστά.
 
-![Duplicating a robot costume, then making changes to parts of the copy of the costume.](images/edit-robot-costume.gif)
+![Αντιγραφή μιας ενδυμασίας ρομπότ και, στη συνέχεια, πραγματοποίηση αλλαγών σε μέρη του αντιγράφου της ενδυμασίας.](images/edit-robot-costume.gif)
 
-You can duplicate the costume again and make more changes to add more frames to your animation.
+Μπορείς να αντιγράψεις ξανά την ενδυμασία και να κάνεις περισσότερες αλλαγές για να προσθέσεις περισσότερα καρέ στην κινούμενη εικόνα σου.
 
-You can now use your costumes in a simple sprite animation.
-
---- /collapse ---
-
---- collapse ---
----
-title: Use the Fill tool to change the colours in a costume
----
-
-You can change the colour of your sprite. First, select your sprite in the Sprite list below the Stage and then click on the **Costumes** tab.
-
-Use the **Select** (Arrow) tool to highlight the part of the costume you want to change colour.
-
-![The Select (Arrow) tool.](images/challenge1-arrow-tool.png){:width="200px"}
-
-![Selecting a shape.](images/challenge1-arrow-tool-selecting-shape.png){:width="300px"}
-
-Go to the **Fill** colour chooser and select a colour. It will automatically fill the shape that you have selected.
-
-![The Fill colour chooser in the Paint editor, and the shape filled with the colour chosen.](images/challenge1-fill-tool.png){:width="300px"}
-
-Repeat the steps above for any part of the costume that you have missed, or for any other part of the costume you want to change colour.
-
-![Selecting a different part of the costume.](images/challenge1-select-another-shape.png){:width="300px"}
-
-![Different parts of the costume have been changed to different colours.](images/challenge1-change-shape-colour.png){:width="300px"}
-
-![The changed sprite on the Stage.](images/challenge1-change-costume-colour.png){:width="300px"}
-
---- /collapse ---
-
-Use the tips below to help you to create your own designs for your sprites in the Paint editor.
-
---- collapse ---
----
-title: Create scenery as sprites
----
-
-**Hill as a sprite**: [See inside](https://scratch.mit.edu/projects/452582516/editor){:target="_blank"}
-
-![A hill sprite.](images/challenge2-sprite-hill.png){:width="400px"}
-
-To make your own **Hill** sprite, shown in the example above, you can use the **Circle** and **Rectangle** tools in the Paint editor:
-
-+ Go to **Choose a Sprite** and select **Paint** to create a new sprite costume.
-
-![Selecting a Fill colour of green, deselecting the Outline, and drawing a green oval with the Circle tool, in the Paint editor.](images/challenge2-backdrop-sprite-costume.gif){:width="400px"}
-
-+ Choose a **Fill** colour. Click on **Outline** and deselect it (to do this, click on the box with the diagonal line in the bottom left-hand corner of the menu). Now, use the **Circle** tool to draw an oval. Then, select the **Rectangle** tool and draw a rectangle underneath the oval.
-
-+ If you use varying colours for the shapes, you may need to use the **Front** and **Back** tools in the Paint editor to move your shapes forward or backward so that they are positioned correctly within your background.
-
-+ You can select all the shapes and **Group** them together so that you can adjust them or move them as one shape.
-
-![The Group tool highlighted in the Paint editor.](images/challenge2-group-shapes.png){:width="400px"}
-
-Now, make other sprites for your scenery, if this fits in with your project idea.
-
-Remember to name your sprite(s).
+Τώρα μπορείς να χρησιμοποιήσεις τις ενδυμασίες σου σε ένα απλό αντικείμενο κινουμένων σχεδίων.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Use the Line tool to create a triangle
+title: Χρησιμοποίησε το Γέμισμα για να αλλάξεις το χρώμα μιας ενδυμασίας
 ---
 
-You can create polygons, such as a triangle, and use these shapes to create roofs or mountains.
+Μπορείς να αλλάξεις το χρώμα του αντικειμένου σου. Πρώτα, επίλεξε το αντικείμενό σου από τη λίστα Αντικειμένων κάτω από τη Σκηνή και, στη συνέχεια, κάνε κλικ στην καρτέλα **Ενδυμασίες**.
 
-Go to **Choose a Sprite** and select **Paint** to create a new sprite costume. In this example, you will make houses.
+Χρησιμοποίησε το εργαλείο **Επιλογή** (βέλος) για να επισημάνεις το μέρος της ενδυμασίας που θέλεις να αλλάξει χρώμα.
 
-**House**: [See inside](https://scratch.mit.edu/projects/453595663/editor){:target="_blank"}
+![Το εργαλείο Επιλογής (βέλος).](images/challenge1-arrow-tool.png){:width="200px"}
 
-![Drawing a rectangle with the Rectangle tool, and a triangle with the Line tool, in the Paint editor.](images/challenge2-backdrop-sprite-costumes-line-tool.gif){:width="400px"}
+![Επιλογή σχήματος.](images/challenge1-arrow-tool-selecting-shape.png){:width="300px"}
 
-If you follow the instructions below, you can use the **Line** tool to create any shape:
-+ Choose a **Fill** colour. To choose the colour black, decrease the **Brightness** to zero (`0`).
+Πήγαινε στο **Γέμισμα** και επίλεξε ένα από τα διαθέσιμα χρώματα. Θα γεμίσει αυτόματα το σχήμα που έχεις επιλέξει.
 
-![Changing the Fill colour to black.](images/challenge2-black.png){:width="150px"}
+![Ο επιλογέας χρώματος Γέμισμα στο πρόγραμμα επεξεργασίας ζωγραφικής και το σχήμα γεμισμένο με το επιλεγμένο χρώμα.](images/challenge1-fill-tool.png){:width="300px"}
 
-+ Select **No outline**.
+Επανάλαβε τα παραπάνω βήματα για οποιοδήποτε μέρος της ενδυμασίας που ξέχασες ή για οποιοδήποτε άλλο μέρος της ενδυμασίας που θέλεις να αλλάξει χρώμα.
 
-![The 'No outline' symbol highlighted.](images/challenge2-nooutline.png){:width="200x"}
+![Επιλέγοντας ένα διαφορετικό μέρος της ενδυμασίας.](images/challenge1-select-another-shape.png){:width="300px"}
 
-+ Use the **Rectangle** tool to draw a rectangle.
-+ Use the **Line** tool to draw a triangle. Make sure that you complete the triangle, otherwise it will not fill with colour.
-+ Move the two shapes together.
-+ Select the **Fill** (Bucket) tool and fill the triangle with colour.
-+ Use the **Rectangle** tool to draw another rectangle for the chimney.
-+ You can use the **Front** and **Back** tools in the Paint editor to move your shapes forward or backward so that they are positioned correctly. In this example, you will not need to do this, because the shapes are black to make a silhouette.
-+ Select all the shapes and **Group** them together so that you can adjust them or move them as one shape.
+![Διαφορετικά μέρη της ενδυμασίας έχουν αλλάξει σε διαφορετικά χρώματα.](images/challenge1-change-shape-colour.png){:width="300px"}
 
-To create duplicate shapes of your house (for example, to make a skyline), follow the tips under **Duplicate shapes to create a scenery costume** below.
+![Το αλλαγμένο αντικείμενο στη Σκηνή.](images/challenge1-change-costume-colour.png){:width="300px"}
+
+--- /collapse ---
+
+Χρησιμοποίησε τις παρακάτω συμβουλές που θα σε βοηθήσουν να δημιουργήσεις τα δικά σου σχέδια για τα αντικείμενά σου στο πρόγραμμα επεξεργασίας ζωγραφικής.
+
+--- collapse ---
+---
+title: Δημιουργία τοπίων ως αντικείμενα
+---
+
+**Λόφος ως αντικείμενο**: [Δες μέσα](https://scratch.mit.edu/projects/452582516/editor){:target="_blank"}
+
+![Ένα αντικείμενο λόφος.](images/challenge2-sprite-hill.png){:width="400px"}
+
+Για να φτιάξεις το δικό σου **Λόφο**, όπως φαίνεται στο παραπάνω παράδειγμα, μπορείς να χρησιμοποιήσεις τα εργαλεία **Κύκλος** και **Ορθογώνιο** στον επεξεργαστή ζωγραφικής:
+
++ Πήγαινε στο **Επιλέξτε ένα Αντικείμενο** και επίλεξε **Ζωγραφική** για να δημιουργήσεις μια νέα ενδυμασία του αντικειμένου.
+
+![Επιλέγοντας ένα πράσινο χρώμα Γεμίσματος, καταργώντας την επιλογή του Περιγράμματος και σχεδιάζοντας μια πράσινη έλλειψη με το εργαλείο Κύκλος, στο πρόγραμμα επεξεργασίας ζωγραφικής.](images/challenge2-backdrop-sprite-costume.gif){:width="400px"}
+
++ Επίλεξε ένα χρώμα για **Γέμισμα**. Κάνε κλικ στο **Περίγραμμα** και κατάργησε την επιλογή του (για να το κάνεις αυτό, κάνε κλικ στο πλαίσιο με τη διαγώνια γραμμή στην κάτω αριστερή γωνία του μενού). Τώρα, χρησιμοποίησε το εργαλείο **Κύκλος** για να σχεδιάσεις μία έλλειψη. Στη συνέχεια, επίλεξε το εργαλείο **Ορθογώνιο** και σχεδίασε ένα ορθογώνιο κάτω από την έλλειψη.
+
++ Εάν χρησιμοποιείς διαφορετικά χρώματα για τα σχήματα, ίσως χρειαστεί να χρησιμοποιήσεις τα εργαλεία **Προσκήνιο** και **Παρασκήνιο** στο πρόγραμμα επεξεργασίας ζωγραφικής για να μετακινήσεις τα σχήματά σου προς τα εμπρός ή προς τα πίσω, ώστε να τοποθετούνται σωστά στο υπόβαθρό σου.
+
++ Μπορείς να επιλέξεις όλα τα σχήματα και να τα **Ομαδοποιήσεις** μαζί, ώστε να μπορείς να τα προσαρμόσεις ή να τα μετακινήσεις ως ένα σχήμα.
+
+![Το εργαλείο Ομαδοποίηση έχει επιλεγεί στο πρόγραμμα επεξεργασίας ζωγραφικής.](images/challenge2-group-shapes.png){:width="400px"}
+
+Τώρα, φτιάξε κι άλλα αντικείμενα για το σκηνικό σου, εάν αυτό ταιριάζει με την ιδέα του έργου σου.
+
+Θυμήσου να ονομάσεις τα αντικείμενά σου.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Duplicate shapes to create a scenery costume
+title: Χρησιμοποίησε το εργαλείο Γραμμή για να δημιουργήσεις ένα τρίγωνο
 ---
 
-You may want to duplicate shapes within a costume so that your scenery appears busier or more crowded.
+Μπορείς να δημιουργήσεις πολύγωνα, όπως ένα τρίγωνο, και να χρησιμοποιήσεις αυτά τα σχήματα για να δημιουργήσεις στέγες ή βουνά.
 
-**Multiple clouds**: [See inside](https://scratch.mit.edu/projects/447278432/editor){:target="_blank"}
+Πήγαινε στο **Επιλέξτε ένα Αντικείμενο** και επίλεξε **Ζωγραφική** για να δημιουργήσεις μια νέα ενδυμασία του αντικειμένου. Σε αυτό το παράδειγμα, θα φτιάξεις σπίτια.
 
-![Multiple clouds on the Stage.](images/challenge2-sprite-costume-multiples.png){:width="400px"}
+**Σπίτι**: [Δες μέσα](https://scratch.mit.edu/projects/453595663/editor){:target="_blank"}
 
-The effect of multiplying shapes is used by professional animators to create the impression of weather patterns, such as rain or clouds; a cluster of objects, such as buildings or a wood; or a crowd of people in a scene.
+![Σχεδιάζοντας ένα ορθογώνιο με το εργαλείο Ορθογώνιο και ένα τρίγωνο με το εργαλείο Γραμμή, στο πρόγραμμα επεξεργασίας ζωγραφικής.](images/challenge2-backdrop-sprite-costumes-line-tool.gif){:width="400px"}
+
+Εάν ακολουθήσεις τις παρακάτω οδηγίες, μπορείς να χρησιμοποιήσεις το εργαλείο **Γραμμή** για να δημιουργήσεις οποιοδήποτε σχήμα:
++ Επίλεξε ένα χρώμα **Γεμίσματος**. Για να επιλέξεις το μαύρο χρώμα, μείωσε τη **Φωτεινότητα** στο μηδέν (`0`).
+
+![Αλλαγή του χρώματος Γεμίσματος σε μαύρο.](images/challenge2-black.png){:width="150px"}
+
++ Επίλεξε **Χωρίς περίγραμμα**.
+
+![Το σύμβολο "Χωρίς περίγραμμα" έχει επιλεγεί.](images/challenge2-nooutline.png){:width="200x"}
+
++ Χρησιμοποίησε το εργαλείο **Ορθογώνιο** για να σχεδιάσεις ένα ορθογώνιο.
++ Χρησιμοποίησε το εργαλείο **Γραμμή** για να σχεδιάσεις ένα τρίγωνο. Βεβαιώσου ότι έχεις ολοκληρώσει το τρίγωνο, διαφορετικά δεν θα γεμίσει με χρώμα.
++ Μετακίνησε τα δύο σχήματα μαζί.
++ Επίλεξε το εργαλείο **Γέμισμα** (Κάδος) και γέμισε το τρίγωνο με χρώμα.
++ Χρησιμοποίησε το εργαλείο **Ορθογώνιο** για να σχεδιάσεις άλλο ένα ορθογώνιο για την καμινάδα.
++ Μπορείς να χρησιμοποιήσεις τα **Προσκήνιο** και **Παρασκήνιο** στο πρόγραμμα επεξεργασίας ζωγραφικής για να μετακινήσεις τα σχήματά σου προς τα εμπρός ή προς τα πίσω, ώστε να είναι σωστά τοποθετημένα. Σε αυτό το παράδειγμα, δεν θα χρειαστεί να το κάνεις αυτό, επειδή τα σχήματα είναι μαύρα για να δημιουργήσουν μια σιλουέτα.
++ Επίλεξε όλα τα σχήματα και **Ομαδοποίηση** έτσι ώστε να μπορείς να τα προσαρμόσεις ή να τα μετακινήσεις ως ένα σχήμα.
+
+Για να δημιουργήσεις διπλότυπα σχήματα του σπιτιού σου (για παράδειγμα, για να φτιάξεις έναν ορίζοντα), ακολούθησε τις συμβουλές στην ενότητα **Διπλότυπα σχήματα για να δημιουργήσεις μια ενδυμασία σκηνικού** παρακάτω.
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Διπλότυπα σχήματα για να δημιουργήσεις μια ενδυμασία σκηνικού
+---
+
+Μπορεί να θέλεις να αντιγράψεις σχήματα μέσα σε μια ενδυμασία, έτσι ώστε το τοπίο σου να φαίνεται πιο πολυσύχναστο ή πιο γεμάτο.
+
+**Πολλαπλά σύννεφα**: [Δες μέσα](https://scratch.mit.edu/projects/447278432/editor){:target="_blank"}
+
+![Πολλαπλά σύννεφα στη Σκηνή.](images/challenge2-sprite-costume-multiples.png){:width="400px"}
+
+Το αποτέλεσμα του πολλαπλασιασμού των σχημάτων χρησιμοποιείται από επαγγελματίες γραφίστες κινουμένων σχεδίων για να δημιουργήσουν την εντύπωση καιρικών φαινομένων, όπως βροχή ή σύννεφα, ένα σύμπλεγμα αντικειμένων, όπως κτίρια ή δάσος, ή ένα πλήθος ανθρώπων σε μια σκηνή.
 
 --- no-print ---
 
-![Using the Select, Copy, and Paste tools to make a costume with multiple cloud shapes.](images/challenge2-sprite-costume-multiples.gif)
+![Χρησιμοποιώντας τα εργαλεία Επιλογή, Αντιγραφή και Επικόλληση για να φτιάξεις μια ενδυμασία με πολλά σχήματα σύννεφων.](images/challenge2-sprite-costume-multiples.gif)
 
 --- /no-print ---
 
-To multiply any type of shape:
-+ Go to **Choose a Sprite** and select, in this example, the **Cloud** sprite
-+ In the **Costumes** tab, use the **Select** tool to highlight the whole of the shape
-+ Use the **Copy** and **Paste** tools to create duplicates of the shape
-+ Use the **Select** tool to move the shape within the Paint editor
-+ You can vary the size of the shapes to help to create a greater sense of 3D effects, for example
-+ You can select all the shapes and **Group** them together, so that you can adjust them or move them as one shape
+Για να πολλαπλασιάσεις οποιοδήποτε τύπο σχήματος:
++ Πήγαινε στο **Επιλέξτε ένα Αντικείμενο** και επίλεξε, σε αυτό το παράδειγμα, το αντικείμενο **Cloud**
++ Στην καρτέλα **Ενδυμασίες**, χρησιμοποίησε το εργαλείο **Επιλογή** για να επιλέξεις ολόκληρο το σχήμα
++ Χρησιμοποίησε τα εργαλεία **Αντιγραφή** και **Επικόλληση** για να δημιουργήσεις διπλότυπα του σχήματος
++ Χρησιμοποίησε το εργαλείο **Επιλογή** για να μετακινήσεις το σχήμα μέσα στο πρόγραμμα επεξεργασίας ζωγραφικής
++ Μπορείς να αλλάξεις το μέγεθος των σχημάτων για να δημιουργήσεις μια μεγαλύτερη αίσθηση τρισδιάστατων εφέ, για παράδειγμα
++ Μπορείς να επιλέξεις όλα τα σχήματα και **Ομαδοποίηση** ώστε να μπορείς να τα προσαρμόσεις ή να τα μετακινήσεις ως ένα σχήμα
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Use Saturation and Brightness to create depth
+title: Χρησιμοποίησε τον Κορεσμό και τη Φωτεινότητα για να δημιουργήσεις βάθος
 ---
 
-In the real world, objects that are further away appear lighter in colour. To achieve more realistic 3D scenery, you can **decrease** the colour **Saturation** and/or **Brightness** of each sprite so that they appear further and further away.
+Στον πραγματικό κόσμο, τα αντικείμενα που βρίσκονται πιο μακριά φαίνονται πιο ανοιχτόχρωμα. Για να επιτύχεις πιο ρεαλιστικά τρισδιάστατα σκηνικά, μπορείς να **μειώσεις ** στο χρώμα τον **Κορεσμό** ή/και την **Φωτεινότητα** κάθε αντικειμένου, ώστε να εμφανίζονται όλο και πιο μακριά.
 
-!['Saturation' and 'Brightness' highlighted in the Fill colour chooser.](images/challenge2-saturation.png){:width="400px"}
+![Τα «Κορεσμός» και «Φωτεινότητα» έχουν επιλεγεί στον επιλογέα χρώματος Γεμίσματος.](images/challenge2-saturation.png){:width="400px"}
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Create a sprite with gaps that you can see through
+title: Δημιούργησε ένα αντικείμενο με κενά για να μπορείς να δεις μέσα από αυτό
 ---
 
-You can create a sprite that has gaps that you can see through. If it is positioned as the front layer and is the size of the Stage, it can appear like a view through the bars of a cage or a window.
+Μπορείς να δημιουργήσεις ένα αντικείμενο που έχει κενά για να μπορείς να δεις μέσα από αυτό. Εάν είναι τοποθετημένο στο μπροστινό επίπεδο και έχει το μέγεθος της Σκηνής, μπορεί να φαίνεται σαν θέα μέσα από τα κάγκελα ενός κλουβιού ή ενός παραθύρου.
 
 --- no-print ---
 
-**Caged lion**: [See inside](https://scratch.mit.edu/projects/445680159/editor){:target="_blank"}
+**Λιοντάρι στο κλουβί**: [Δες μέσα](https://scratch.mit.edu/projects/445680159/editor){:target="_blank"}
 
-![A cage sprite costume.](images/challenge2-sprite-costume-mask-cage.gif)
+![Μια ενδυμασία αντικειμένου-κλουβιού.](images/challenge2-sprite-costume-mask-cage.gif)
 
 --- /no-print ---
 
-To create a type of masking sprite:
-+ Go to **Choose a Sprite** and select **Paint**
-+ Choose a **Fill** colour with no **Outline** and draw a vertical rectangle
-+ Use the **Copy** and **Paste** tools to repeat this shape
-+ Use the **Select** tool to move the shapes around
-+ As you place your shapes, make sure that they are touching the edge of the Stage to fit in with your project idea
+Για να δημιουργήσεις έναν τύπο μάσκας για αντικείμενο:
++ Πήγαινε στο **Επιλέξτε ένα Αντικείμενο** και επίλεξε **Ζωγραφική**
++ Επίλεξε ένα χρώμα για **Γέμισμα** χωρίς **Περίγραμμα** και σχεδίασε ένα κατακόρυφο ορθογώνιο
++ Χρησιμοποίησε τα εργαλεία **Αντιγραφή** και **Επικόλληση** για να επαναλάβεις το σχήμα
++ Χρησιμοποίησε το εργαλείο **Επιλογή** για να μετακινήσεις τα σχήματα
++ Καθώς τοποθετείς τα σχήματά σου, βεβαιώσου ότι αγγίζουν την άκρη της Σκηνής για να ταιριάζουν με την ιδέα του έργου σου
 
-![The Copy and Paste tools highlighted in the Paint editor.](images/challenge2-sprite-costume-mask-copy.png)
+![Τα εργαλεία Αντιγραφής και Επικόλλησης έχουν επιλεγεί στο πρόγραμμα επεξεργασίας ζωγραφικής.](images/challenge2-sprite-costume-mask-copy.png)
 
 --- /collapse ---
 
-**Tip:** If you find it hard to manage the sprites on your Stage, such as having a large sprite that keeps covering a much smaller one, you can click on **Hide** so that you don't see a sprite or sprites. Then, when you have finished, click on **Show** again.
+**Συμβουλή:** Εάν δυσκολεύεσαι να διαχειριστείς τα αντικείμενα στη Σκηνή σου, όπως για παράδειγμα αν έχεις ένα μεγάλο αντικείμενο που εξακολουθεί να καλύπτει ένα πολύ μικρότερο, μπορείς να κάνεις κλικ στο **Εξαφανίσου**, ώστε να μην βλέπεις ένα αντικείμενο ή αντικείμενα. Στη συνέχεια, όταν τελειώσεις, επίλεξε ξανά **Εμφανίσου**.
 
-![The 'Show' and 'Hide' icons highlighted in the Sprite pane.](images/hideSprites.png){:width="300px"}
+![Τα εικονίδια «Εμφανίσου» και «Εξαφανίσου» έχουν επιλεγεί στο παράθυρο Αντικειμένων.](images/hideSprites.png){:width="300px"}
