@@ -1,30 +1,30 @@
-## What is Scratch?
-Scratch is a graphical programming language developed by the Lifelong Kindergarten group at the MIT Media Lab. In Scratch, you can drag and combine code blocks to make a range of programs, including animations, stories, musical instruments, and games. It's a bit like the programming equivalent of building blocks!
+## Τι είναι το Scratch;
+Το Scratch είναι μια γλώσσα προγραμματισμού με γραφικά που αναπτύχθηκε από την ομάδα Lifelong Kindergarten στο MIT Media Lab. Στο Scratch, μπορείς να σύρεις και να συνδυάσεις μπλοκ κώδικα για να δημιουργήσεις ένα εύρος προγραμμάτων, όπως κινούμενα σχέδια, ιστορίες, μουσικά όργανα και παιχνίδια. Μοιάζει λίγο με το ισοδύναμο του προγραμματισμού με τουβλάκια!
 
-![A screenshot of Scratch.](images/showcase_static.png)
+![Ένα στιγμιότυπο οθόνης του Scratch.](images/showcase_static.png)
 
-Scratch is used in many schools as part of the curriculum. It is free, and young people can use it at home as well as in clubs.
+Το Scratch χρησιμοποιείται σε πολλά σχολεία ως μέρος του προγράμματος σπουδών. Είναι δωρεάν και οι νέοι μπορούν να το χρησιμοποιήσουν στο σπίτι αλλά και σε λέσχες.
 
-Scratch allows young people to learn coding concepts and create interactive projects without needing to learn a text-based programming language. You will not need to be able to type quickly or remember complex code to use Scratch.
+Το Scratch επιτρέπει στους νέους να μάθουν έννοιες κώδικα και να δημιουργήσουν διαδραστικά έργα χωρίς να χρειάζεται να μάθουν μια γλώσσα προγραμματισμού που βασίζεται σε κείμενο. Δεν θα χρειαστεί να μπορείς να πληκτρολογείς γρήγορα ή να θυμάσαι πολύπλοκο κώδικα για να χρησιμοποιήσεις το Scratch.
 
-### How to use this reference guide
-If you have not used Scratch before, then this guide will help you to set up and create your first project.
+### Πώς να χρησιμοποιήσεις αυτόν τον οδηγό αναφοράς
+Εάν δεν έχεις χρησιμοποιήσει το Scratch στο παρελθόν, τότε αυτός ο οδηγός θα σε βοηθήσει να ρυθμίσεις και να δημιουργήσεις το πρώτο σου έργο.
 
-You can return to this guide and use it to look up information that you need when you are making your own projects in Scratch.
+Μπορείς να επιστρέψεις σε αυτόν τον οδηγό και να τον χρησιμοποιήσεις για να αναζητήσεις πληροφορίες που χρειάζεσαι όταν κάνεις τα δικά σου έργα στο Scratch.
 
-At the end of the guide you will find links to paths of Scratch projects, from beginner through to advanced, where you can learn coding by making fun and interesting apps, games, stories, animations, art and music.
+Στο τέλος του οδηγού θα βρεις συνδέσμους για μονοπάτια έργων Scratch, από αρχάριους έως προχωρημένους, όπου μπορείς να μάθεις κώδικα κάνοντας διασκεδαστικές και ενδιαφέρουσες εφαρμογές, παιχνίδια, ιστορίες, κινούμενα σχέδια, τέχνη και μουσική.
 
 --- collapse ---
 ---
-title: What you will need
+title: Τι θα χρειαστείς
 ---
-### Hardware
+### Υλικό
 
-+ A computer or tablet capable of running Scratch 3
++ Έναν υπολογιστή ή tablet ικανό να τρέχει το Scratch 3
 
-### Software
+### Λογισμικό
 
-+ This guide will explain how to get started with Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
++ Αυτός ο οδηγός θα εξηγήσει πώς να ξεκινήσεις με το Scratch 3 (είτε [online](https://scratch.mit.edu/){:target="_blank"} είτε [offline](https://scratch.mit.edu/download){:target="_blank"})
 
 
 --- /collapse ---
