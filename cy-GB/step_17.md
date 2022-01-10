@@ -1,15 +1,15 @@
-## Sound Editor
+## Golygydd Sain
 
-Use the Sound editor to add and edit existing sounds, and to record your own sounds.
+Defnyddia'r Golygydd sain i ychwanegu a golygu seiniau sy'n bodoli, ac i recordio dy seiniau dy hun.
 
-![An annotated screenshot of the Sound tab.](images/Scratch-Sound-tab.png){:width="600px"}
+![Sgrinlun anodedig o'r tab Sain.](images/Scratch-Sound-tab.png){:width="600px"}
 
-### Creating sounds
+### Creu seiniau
 
 \[[[scratch3-add-sound]]\] \[[[scratch3-record-sound\]]]
 
-### Editing sounds
+### Golygu seiniau
 
-Edit whole sounds or parts of sounds.
+Golyga seiniau cyfan neu rannau o seiniau.
 
 \[[[scratch3-reverse-sound]]\] \[[[scratch3-crop-sound\]]] [[[scratch3-sound-effects]]]
