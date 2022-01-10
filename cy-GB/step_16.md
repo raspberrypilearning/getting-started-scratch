@@ -1,8 +1,8 @@
-## Paint editor
+## Golygydd paent
 
-Use the Paint editor to create your own backdrops and costumes, and to edit existing backdrops and costumes.
+Defnyddia'r golygydd Paint i greu dy gefnlenni a gwisgoedd dy hun, ac i olygu cefnlenni a gwisgoedd sy'n bodoli yn barod.
 
-![An annotated screenshot of the Costumes tab.](images/Scratch-Costume-tab.png){:width="600px"}
+![Sgrinlun anodedig o'r tab Gwisgoedd.](images/Scratch-Costume-tab.png){:width="600px"}
 
 [[[scratch3-paint-a-new-backdrop-extended]]]
 
@@ -18,193 +18,193 @@ Use the Paint editor to create your own backdrops and costumes, and to edit exis
 
 --- collapse ---
 ---
-title: Duplicate and edit a costume to use in an animation
+title: Dyblygu a golygu gwisg i'w defnyddio mewn animeiddiad
 ---
 
-Some Scratch sprites just have one costume, or have multiple costumes that don't work as an animation. If you choose one costume, then duplicate it (make a copy of it) and make a small change, it can create an animation effect.
+Dim ond un wisg sydd gan rai o gorluniau Scratch, neu weithiau mae ganddyn nhw fwy nag un gwisg sydd ddim yn gweithio fel animeiddiad. Os ddewisi di un wisg, ac wedyn ei dyblygu (gwneud copi ohoni) a gwneud newid bach iddi, gall hyn greu effaith animeiddio.
 
-**Robot animation**: [See inside](https://scratch.mit.edu/projects/436260207/editor){:target="_blank"}
+**Animeiddiad robot**: [Gweld tu mewn](https://scratch.mit.edu/projects/436260207/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/436260207/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Switch to the **Costumes** tab for your sprite.
+Newidia i'r tab **Gwisgoedd** ar gyfer dy gorlun.
 
-Choose the costume that you want to use, and delete the other costumes, because you will not need them for your animation. For example, the **Robot** sprite comes with costumes for three different robots, so you should choose one of the costumes and delete the other costumes.
+Dewisa'r wisg rwyt ti am ei defnyddio, a dileu'r gwisgoedd eraill, oherwydd fyddi di ddim yn eu hangen nhw ar gyfer dy animeiddiad. Er enghraifft, mae'r corlun **Robot** yn dod gyda gwisgoedd ar gyfer tri robot gwahanol, felly dylet ti ddewis un o'r gwisgoedd a dileu'r gwisgoedd eraill.
 
-Right-click (or on a tablet, tap and hold) on the costume, and choose **duplicate**.
+De-glicia (neu ar dabled, taro a dal) ar y wisg a dewis **dyblygu**.
 
-Make small changes to the copy of the costume. For example, you can move, rotate, or change all or part of the costume. You can also add movement lines.
+Gwna newidiadau bach i'r copi o'r wisg. Er enghraifft, galli di symud, cylchdroi, neu newid y wisg gyfan neu ran ohoni. Galli di hefyd ychwanegu llinellau symud.
 
-If your costume uses vector graphics, then you can select parts of a costume and change each part separately.
+Os ydy dy wisg yn defnyddio graffeg fector, yna galli di ddewis rhannau o wisg a newid pob rhan ar wahân.
 
-![Duplicating a robot costume, then making changes to parts of the copy of the costume.](images/edit-robot-costume.gif)
+![Dyblygu gwisg robot, yna gwneud newidiadau i rannau o'r copi o'r wisg.](images/edit-robot-costume.gif)
 
-You can duplicate the costume again and make more changes to add more frames to your animation.
+Galli di ddyblygu'r wisg eto a gwneud mwy o newidiadau i ychwanegu rhagor o fframiau i dy animeiddiad.
 
-You can now use your costumes in a simple sprite animation.
-
---- /collapse ---
-
---- collapse ---
----
-title: Use the Fill tool to change the colours in a costume
----
-
-You can change the colour of your sprite. First, select your sprite in the Sprite list below the Stage and then click on the **Costumes** tab.
-
-Use the **Select** (Arrow) tool to highlight the part of the costume you want to change colour.
-
-![The Select (Arrow) tool.](images/challenge1-arrow-tool.png){:width="200px"}
-
-![Selecting a shape.](images/challenge1-arrow-tool-selecting-shape.png){:width="300px"}
-
-Go to the **Fill** colour chooser and select a colour. It will automatically fill the shape that you have selected.
-
-![The Fill colour chooser in the Paint editor, and the shape filled with the colour chosen.](images/challenge1-fill-tool.png){:width="300px"}
-
-Repeat the steps above for any part of the costume that you have missed, or for any other part of the costume you want to change colour.
-
-![Selecting a different part of the costume.](images/challenge1-select-another-shape.png){:width="300px"}
-
-![Different parts of the costume have been changed to different colours.](images/challenge1-change-shape-colour.png){:width="300px"}
-
-![The changed sprite on the Stage.](images/challenge1-change-costume-colour.png){:width="300px"}
-
---- /collapse ---
-
-Use the tips below to help you to create your own designs for your sprites in the Paint editor.
-
---- collapse ---
----
-title: Create scenery as sprites
----
-
-**Hill as a sprite**: [See inside](https://scratch.mit.edu/projects/452582516/editor){:target="_blank"}
-
-![A hill sprite.](images/challenge2-sprite-hill.png){:width="400px"}
-
-To make your own **Hill** sprite, shown in the example above, you can use the **Circle** and **Rectangle** tools in the Paint editor:
-
-+ Go to **Choose a Sprite** and select **Paint** to create a new sprite costume.
-
-![Selecting a Fill colour of green, deselecting the Outline, and drawing a green oval with the Circle tool, in the Paint editor.](images/challenge2-backdrop-sprite-costume.gif){:width="400px"}
-
-+ Choose a **Fill** colour. Click on **Outline** and deselect it (to do this, click on the box with the diagonal line in the bottom left-hand corner of the menu). Now, use the **Circle** tool to draw an oval. Then, select the **Rectangle** tool and draw a rectangle underneath the oval.
-
-+ If you use varying colours for the shapes, you may need to use the **Front** and **Back** tools in the Paint editor to move your shapes forward or backward so that they are positioned correctly within your background.
-
-+ You can select all the shapes and **Group** them together so that you can adjust them or move them as one shape.
-
-![The Group tool highlighted in the Paint editor.](images/challenge2-group-shapes.png){:width="400px"}
-
-Now, make other sprites for your scenery, if this fits in with your project idea.
-
-Remember to name your sprite(s).
+Galli di nawr ddefnyddio dy wisgoedd mewn animeiddiad corlun syml.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Use the Line tool to create a triangle
+title: Defnyddio'r offeryn Llenwi i newid y lliwiau mewn gwisg
 ---
 
-You can create polygons, such as a triangle, and use these shapes to create roofs or mountains.
+Galli di newid lliw dy gorlun. Yn gyntaf, dewisa dy gorlun yn rhestr y Corluniau o dan y Llwyfan ac yna clicio ar y tab **Gwisgoedd**.
 
-Go to **Choose a Sprite** and select **Paint** to create a new sprite costume. In this example, you will make houses.
+Defnyddia'r offeryn **Dewis** (Saeth) i amlygu rhan y wisg rwyt ti am newid ei lliw.
 
-**House**: [See inside](https://scratch.mit.edu/projects/453595663/editor){:target="_blank"}
+![Yr offeryn Dewis (Saeth).](images/challenge1-arrow-tool.png){:width="200px"}
 
-![Drawing a rectangle with the Rectangle tool, and a triangle with the Line tool, in the Paint editor.](images/challenge2-backdrop-sprite-costumes-line-tool.gif){:width="400px"}
+![Dewis siâp.](images/challenge1-arrow-tool-selecting-shape.png){:width="300px"}
 
-If you follow the instructions below, you can use the **Line** tool to create any shape:
-+ Choose a **Fill** colour. To choose the colour black, decrease the **Brightness** to zero (`0`).
+Cer i'r dewiswr lliw **Llenwi** a dewis dy liw. Bydd yn llenwi'r siâp rwyt ti wedi'i ddewis yn awtomatig.
 
-![Changing the Fill colour to black.](images/challenge2-black.png){:width="150px"}
+![Y dewiswr lliw Llenwi yn y Golygydd Paent, a'r siâp wedi'i lenwi â'r lliw a ddewiswyd.](images/challenge1-fill-tool.png){:width="300px"}
 
-+ Select **No outline**.
+Ailadrodda'r camau uchod ar gyfer unrhyw rannau o'r wisg rwyt ti wedi'i cholli, neu ar gyfer unrhyw ran arall o'r wisg rwyt ti am newid ei lliw.
 
-![The 'No outline' symbol highlighted.](images/challenge2-nooutline.png){:width="200x"}
+![Dewis rhan wahanol o'r wisg.](images/challenge1-select-another-shape.png){:width="300px"}
 
-+ Use the **Rectangle** tool to draw a rectangle.
-+ Use the **Line** tool to draw a triangle. Make sure that you complete the triangle, otherwise it will not fill with colour.
-+ Move the two shapes together.
-+ Select the **Fill** (Bucket) tool and fill the triangle with colour.
-+ Use the **Rectangle** tool to draw another rectangle for the chimney.
-+ You can use the **Front** and **Back** tools in the Paint editor to move your shapes forward or backward so that they are positioned correctly. In this example, you will not need to do this, because the shapes are black to make a silhouette.
-+ Select all the shapes and **Group** them together so that you can adjust them or move them as one shape.
+![Mae gwahanol rannau o'r wisg wedi cael eu newid i liwiau gwahanol.](images/challenge1-change-shape-colour.png){:width="300px"}
 
-To create duplicate shapes of your house (for example, to make a skyline), follow the tips under **Duplicate shapes to create a scenery costume** below.
+![Y corlun wedi'i newid ar y Llwyfan.](images/challenge1-change-costume-colour.png){:width="300px"}
+
+--- /collapse ---
+
+Defnyddia'r awgrymiadau isod i dy helpu di i greu dy ddyluniadau dy hun ar gyfer dy gorluniau yn y Golygydd paent.
+
+--- collapse ---
+---
+title: Creu golygfeydd fel corluniau
+---
+
+**Bryn fel corlun**: [Gweld tu mewn](https://scratch.mit.edu/projects/452582516/editor){:target="_blank"}
+
+![Corlun bryn.](images/challenge2-sprite-hill.png){:width="400px"}
+
+I greu dy gorlun **Bryn** dy hun, fel sy'n cael ei ddangos yn yr engrhaifft uchod, galli di ddefnyddio'r offer **Cylch** a **Petryal** yn y Golygydd paent:
+
++ Cer i **Dewiswch Gorlun** a dewis **Paent** i greu gwisg corlun newydd.
+
+![Dewis lliw Llenwi gwyrdd, dad-ddewis yr Amlinell, a thynnu hirgrwn gwyrdd gyda'r offeryn Cylch, yn y Golygydd paent.](images/challenge2-backdrop-sprite-costume.gif){:width="400px"}
+
++ Dewisa liw **Llenwi**. Clicia ar **Amlinell** a'i ddad-ddewis (i wneud hyn, clicia ar y blwch gyda'r llinell letraws yng nghornel chwith isaf y ddewislen). Nawr, defnyddia'r offeryn **Cylch** i dynnu siâp hirgrwn. Yna, dewisa'r offeryn **Petryal** a thynnu siâp petryal o dan yr hirgrwn.
+
++ Os wyt ti'n defnyddio lliwiau amrywiol ar gyfer y siapiau, efallai bydd angen i ti ddefnyddio'r offer **Ymlaen** a **Nôl** yn y Golygydd paent i symud dy siapiau ymlaen neu yn ôl fel eu bod wedi'u gosod yn gywir o fewn dy gefndir.
+
++ Galli di ddewis yr holl siapiau a'u **Grwpio** gyda'i gilydd fel y galli di eu haddasu neu eu symud fel un siâp.
+
+![Yr offeryn Grwpio wedi'i hamlygu yn y Golygydd paent.](images/challenge2-group-shapes.png){:width="400px"}
+
+Nawr, galli di greu corluniau eraill ar gyfer dy olygfa, os ydy hyn yn cyd-fynd â syniad dy brosiect.
+
+Cofia enwi dy gorlun(iau).
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Duplicate shapes to create a scenery costume
+title: Defnyddio'r offeryn Llinell i greu triongl
 ---
 
-You may want to duplicate shapes within a costume so that your scenery appears busier or more crowded.
+Galli di greu polygonau, fel triongl, a defnyddio'r siapiau hyn i greu toeau neu fynyddoedd.
 
-**Multiple clouds**: [See inside](https://scratch.mit.edu/projects/447278432/editor){:target="_blank"}
+Cer i **Dewiswch Gorlun** a dewis **Paent** i greu gwisg corlun newydd. Yn yr enghraifft hon, byddi di'n creu tai.
 
-![Multiple clouds on the Stage.](images/challenge2-sprite-costume-multiples.png){:width="400px"}
+**Tŷ**: [Gweld tu mewn](https://scratch.mit.edu/projects/453595663/editor){:target="_blank"}
 
-The effect of multiplying shapes is used by professional animators to create the impression of weather patterns, such as rain or clouds; a cluster of objects, such as buildings or a wood; or a crowd of people in a scene.
+![Lluniadu petryal gyda'r offeryn Petryal, a thriongl gyda'r offeryn Llinell, yn y Golygydd paent.](images/challenge2-backdrop-sprite-costumes-line-tool.gif){:width="400px"}
+
+Os gwnei di ddilyn y cyfarwyddiadau isod, galli di ddefnyddio'r offeryn **Llinell** i greu unrhyw siâp:
++ Dewisa liw **Llenwi**. I ddewis y lliw du, gostynga'r **Disgleirdeb** i sero (`0`).
+
+![Newid y lliw Llenwi i ddu.](images/challenge2-black.png){:width="150px"}
+
++ Dewisa **dim amlinell**.
+
+![Y symbol 'Dim amlinell' wedi'i amlygu.](images/challenge2-nooutline.png){:width="200x"}
+
++ Defnyddia'r offeryn **Petryal** i dynnu siâp petryal.
++ Defnyddia'r offeryn **Llinell** i dynnu siâp triongl. Gwna'n siŵr dy fod yn cwblhau'r triongl, fel arall fydd y siâp ddim yn llenwi gyda lliw.
++ Symuda'r ddau siap at ei gilydd.
++ Dewisa'r lliw **Llenwi** (Bwced) a llenwi'r triongl â lliw.
++ Defnyddia'r offeryn **Petryal** i dynnu siâp petryal arall ar gyfer y simdde.
++ Galli di ddefnyddio'r offer **Ymlaen** a **Nôl** yn y Golygydd paent i symud dy siapiau ymlaen neu yn ôl fel eu bod wedi'u gosod yn gywir. Yn yr enghraifft hon, fydd dim angen i ti wneud hyn, oherwydd mae'r siapiau'n ddu er mwyn creu silwét.
++ Dewisa'r holl siapiau a'u **Grwpio** gyda'i gilydd fel y galli di eu haddasu neu eu symud fel un siâp.
+
+I greu siapiau dyblyg o dy dŷ (er enghraifft, i greu gorwel mewn dinas), dilyna'r awgrymiadau o dan **Dyblygu siapiau i greu gwisg golygfa** isod.
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Dyblygu siapiau i greu gwisg golygfa
+---
+
+Efallai yr hoffet ti ddyblygu siapiau o fewn gwisg fel bod dy olygfeydd yn ymddangos yn brysurach neu'n fwy gorlawn.
+
+**Sawl cwmwl**: [Gweld tu mewn](https://scratch.mit.edu/projects/447278432/editor){:target="_blank"}
+
+![Mwy nag un cwmwl ar y Llwyfan.](images/challenge2-sprite-costume-multiples.png){:width="400px"}
+
+Mae effaith lluosogi siapiau yn cael ei ddefnyddio gan animeiddwyr proffesiynol i greu'r argraff o batrymau tywydd, fel glaw neu gymylau; clwstwr o wrthrychau, fel adeiladau neu bren; neu dorf o bobl mewn golygfa.
 
 --- no-print ---
 
-![Using the Select, Copy, and Paste tools to make a costume with multiple cloud shapes.](images/challenge2-sprite-costume-multiples.gif)
+![Defnyddio'r offer Dewis, Copïo a Gludo i greu gwisg sydd â sawl siâp cwmwl.](images/challenge2-sprite-costume-multiples.gif)
 
 --- /no-print ---
 
-To multiply any type of shape:
-+ Go to **Choose a Sprite** and select, in this example, the **Cloud** sprite
-+ In the **Costumes** tab, use the **Select** tool to highlight the whole of the shape
-+ Use the **Copy** and **Paste** tools to create duplicates of the shape
-+ Use the **Select** tool to move the shape within the Paint editor
-+ You can vary the size of the shapes to help to create a greater sense of 3D effects, for example
-+ You can select all the shapes and **Group** them together, so that you can adjust them or move them as one shape
+I luosogi unrhyw fath o siâp:
++ Cer i **Dewiswch Gorlun** a dewisa, yn yr enghraifft hon, y corlun **Cloud**
++ Yn y tab **Gwisgoedd**, defnyddia'r offeryn **Dewis** i amlygu'r siâp cyfan
++ Defnyddia'r offer **Copïo** a **Gludo** i greu dyblygebau o'r siâp
++ Defnyddia'r offeryn **Dewis** i symud y siâp o fewn y Golygydd paent
++ Galli di amrywio maint y siapiau i helpu i greu mwy o argraff effaith 3D, er enghraifft
++ Galli di ddewis yr holl siapiau a'u **Grwpio** gyda'i gilydd, fel y galli di eu haddasu neu eu symud fel un siâp
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Use Saturation and Brightness to create depth
+title: Defnyddio Dirlawnder a Disgleirdeb i greu dyfnder
 ---
 
-In the real world, objects that are further away appear lighter in colour. To achieve more realistic 3D scenery, you can **decrease** the colour **Saturation** and/or **Brightness** of each sprite so that they appear further and further away.
+Yn y byd go iawn, mae gwrthrychau sydd ymhellach i ffwrdd yn ymddangos yn ysgafnach eu lliw. Er mwyn cyflawni golygfeydd 3D mwy realistig, galli di **ostwng** **Dirlawnder** a/neu **Ddisgleirdeb** lliwiau pob corlun fel eu bod yn ymddangos ymhellach ac ymhellach i ffwrdd.
 
-!['Saturation' and 'Brightness' highlighted in the Fill colour chooser.](images/challenge2-saturation.png){:width="400px"}
+!['Dirlawnder' a 'Disgleirdeb' wedi'u hamlygu yn y dewiswr lliw Llenwi.](images/challenge2-saturation.png){:width="400px"}
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Create a sprite with gaps that you can see through
+title: Creu corlun gyda bylchau y galli di weld drwyddynt
 ---
 
-You can create a sprite that has gaps that you can see through. If it is positioned as the front layer and is the size of the Stage, it can appear like a view through the bars of a cage or a window.
+Galli di greu corlun sydd â bylchau mae modd gweld drwyddynt. Os ydy'r corlun wedi'i osod fel yr haen flaen ac mae'r un maint â'r Llwyfan, gall edrych fel yr olygfa drwy fariau cawell neu ffenestr.
 
 --- no-print ---
 
-**Caged lion**: [See inside](https://scratch.mit.edu/projects/445680159/editor){:target="_blank"}
+**Llew mewn cawell**: [Gweld tu mewn](https://scratch.mit.edu/projects/445680159/editor){:target="_blank"}
 
-![A cage sprite costume.](images/challenge2-sprite-costume-mask-cage.gif)
+![Gwisg corlun cawell.](images/challenge2-sprite-costume-mask-cage.gif)
 
 --- /no-print ---
 
-To create a type of masking sprite:
-+ Go to **Choose a Sprite** and select **Paint**
-+ Choose a **Fill** colour with no **Outline** and draw a vertical rectangle
-+ Use the **Copy** and **Paste** tools to repeat this shape
-+ Use the **Select** tool to move the shapes around
-+ As you place your shapes, make sure that they are touching the edge of the Stage to fit in with your project idea
+I greu math o gorlun masgio:
++ Cer i'r ddewislen **Dewiswch Gorlun** a dewis **Paent**
++ Dewisa liw **Llenwi** heb **Amlinell** a lluniadu siâp petryal fertigol
++ Defnyddia'r offer **Copïo** a **Gludo** i ailgreu'r siâp yma
++ Defnyddia'r offeryn **Dewis** i symud y siapiau o gwmpas
++ Wrth i ti osod dy siapiau, gwna'n siŵr eu bod yn cyffwrdd ag ymyl y Llwyfan fel eu bod yn cyd-fynd â syniad dy brosiect
 
-![The Copy and Paste tools highlighted in the Paint editor.](images/challenge2-sprite-costume-mask-copy.png)
+![Yr offer Copïo a Gludo wedi'u hamlygu yn y Golygydd Paent.](images/challenge2-sprite-costume-mask-copy.png)
 
 --- /collapse ---
 
-**Tip:** If you find it hard to manage the sprites on your Stage, such as having a large sprite that keeps covering a much smaller one, you can click on **Hide** so that you don't see a sprite or sprites. Then, when you have finished, click on **Show** again.
+**Awgrym:** Os wyt ti'n ei chael hi'n anodd rheoli'r corluniau ar dy Lwyfan, er engrhaifft os bydd corlun mawr yn gorchuddio un llawer llai, galli di glicio ar **Cuddio** fel nad wyt ti'n gweld corlun neu gorluniau. Yna, pan fyddi di wedi gorffen, clicia ar **Dangos** eto.
 
-![The 'Show' and 'Hide' icons highlighted in the Sprite pane.](images/hideSprites.png){:width="300px"}
+![Yr eiconau 'Dangos' a 'Cuddio' wedi'u hamlygu yn y cwarel Corlun.](images/hideSprites.png){:width="300px"}
