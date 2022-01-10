@@ -1,16 +1,16 @@
-## Motion
+## Symudiad
 
-`Motion`{:class="block3motion"} blocks allow you to move your sprite around the Stage.
+Mae blociau `Symudiad`{:class="block3motion"} yn caniatáu i ti symud dy gorlun o amgylch y Llwyfan.
 
-### Movement
+### Symudiad
 
-The `move`{:class="block3motion"} block is the simplest way to ge started with moving a sprite:
+Y bloc `symudiad`{:class="block3motion"} yw'r ffordd symlaf i ddechrau gyda symud corlun:
 
 ```blocks3
 move [10] steps
 ```
 
-You can `go to`{:class="block3motion"} or `glide to`{:class="block3motion"} the mouse-pointer, a random position on the Stage (or your finger on a tablet), or another sprite:
+Galli di ddewis `mynd i`{:class="block3motion"} neu `llithro i`{:class="block3motion"} bwyntydd y llygoden, safle ar hap ar y Llwyfan (neu dy fys ar dabled), neu gorlun arall:
 
 ```blocks3
 go to (random position v)
@@ -18,7 +18,7 @@ go to (random position v)
 glide [1] secs to (random position v)
 ```
 
-You can also `go to`{:class="block3motion"} or `glide to`{:class="block3motion"} a position given by `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates on the Stage.
+Galli di hefyd ddewis `mynd i`{:class="block3motion"} neu `llithro i`{:class="block3motion"} safle a roddir gan gyfesurynnau `x`{:class="block3motion"} a `y`{:class="block3motion"} ar y Llwyfan.
 
 ```blocks3
 go to x: [0] y: [0] 
@@ -28,12 +28,12 @@ glide [1] secs to x: [0] y: [0]
 
 [[[scratch3-glide-to-object]]]
 
-**Tip:** When you drag a sprite on the Stage, the motion blocks that use `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates update in the `Motion`{:class="block3motion"} blocks menu. The current `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates are show in the Sprite pane.
+**Awgrym:** Pan fyddi di'n llusgo corlun ar i'r llwyfan, mae'r blociau symud sy'n defnyddio cyfesurynnau `x`{:class="block3motion"} a `y`{:class="block3motion"} yn diweddaru yn y ddewislen blociau `Symudiad`{:class="block3motion"}. Mae'r cyfesurynnau `x`{:class="block3motion"} a `y`{:class="block3motion"} presennol yn ymddangos yn y cwarel Corlun.
 
-### Rotation
-You can also change the `direction`{:class="block3motion"} that a sprite is pointing in. This changes the direction that the sprite will move in if you use a `move`{:class="block3motion"} block. It may also change the rotation of the sprite's costume depending on the `rotation-style`{:class="block3motion"} setting.
+### Cylchdroi
+Galli di hefyd newid y `cyfeiriad`{:class="block3motion"} mae corlun yn pwyntio tuag ato. Mae hyn yn newid y cyfeiriad bydd y corlun yn symud iddo os wyt ti'n defnyddio bloc `symudiad`{:class="block3motion"}. Gall hyn hefyd newid y ffordd mae gwisg y corlun yn cylchdroi gan ddibynu ar osodiad y `steil-cylchdroi`{:class="block3motion"}.
 
-When you add a sprite, it will be facing right (90 degrees). You can change this in the Sprite pane or using code blocks.
+Pan fyddi di'n ychwanegu corlun, bydd yn wynebu'r dde (90 gradd). Galli di newid hwn yn cwarel y Corlun neu ddefnyddio blociau cod.
 
 ```blocks3
 turn right [15] degrees
@@ -55,12 +55,12 @@ set rotation style [left-right v] // or all-around or none
 
 --- collapse ---
 ---
-title: Spin around
+title: Troelli o gwmpas
 ---
 
 --- no-print ---
 
-**Spinning bat**: [See inside](https://scratch.mit.edu/projects/435704980/editor){:target="_blank"}
+**Ystlum sy'n troelli**: [Gweld tu mewn](https://scratch.mit.edu/projects/435704980/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/435704980/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -68,7 +68,7 @@ title: Spin around
 
 --- /no-print ---
 
-This code makes a sprite spin when the green flag is clicked:
+Mae'r cod hwn yn gwneud i gorlun droelli pan gaiff y fflag werdd ei chlicio:
 
 ```blocks3
 when flag clicked
@@ -76,20 +76,20 @@ forever
 turn right (1) degrees :: motion
 ```
 
-In a `turn`{:class="block3motion"} block within a `forever`{:class="block3control"} loop, change the number of degrees to `1` and your sprite will appear to spin.
+Mewn bloc `troi`{:class="block3motion"} o fewn dolen `am byth`{:class="block3control"} newidia nifer y graddau i `1` a bydd dy gorlun yn dechrau troelli.
 
-**Tip:** If you do not add a `move`{:class="block3motion"} block, your sprite will spin in the position that it is in.
+**Awgrym:** Os nad wyt ti'n ychwanegu bloc `symud`{:class="block3motion"}, bydd dy gorlun yn parhau i droelli yn y safle mae ynddo.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Move in a circle
+title: Symud mewn cylch
 ---
 
 --- no-print ---
 
-**Moon orbit**: [See inside](https://scratch.mit.edu/projects/435701055/editor){:target="_blank"}
+**Orbit lleuad**: [Gweld tu mewn](https://scratch.mit.edu/projects/435701055/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/435701055/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -97,7 +97,7 @@ title: Move in a circle
 
 --- /no-print ---
 
-This code makes a sprite fly in a circle when the green flag is clicked:
+Mae'r cod yma yn gwneud i gorlun hedfan mewn cylch pan fydd y faner werdd wedi'i chlicio:
 
 ```blocks3
 when green flag clicked
@@ -106,30 +106,30 @@ move (1) steps
 turn right (1) degrees :: motion
 ```
 
-Change the values in a `move`{:class="block3motion"} block and `turn`{:class="block3motion"} block within a `forever`{:class="block3control"} loop to `1` and your sprite will appear to move in a big circle.
+Newidia'r gwerthoedd mewn bloc `symud`{:class="block3motion"} a bloc `troi`{:class="block3motion"} o fewn dolen `am byth`{:class="block3control"} i `1` a bydd dy gorlun yn symud mewn cylch mawr.
 
-**Tip:** If you want your sprite to always start in the centre of the Stage, you can add a `go to x:`{:class="block3motion"} `0` `y:`{:class="block3motion"} `0` block before the `forever`{:class="block3control"} block.
+**Awgrym:** Os wyt ti am i dy gorlun ddechrau yng nghanol y Llwyfan bob amser, galli di ychwanegu bloc `mynd i x:`{:class="block3motion"} `0` `y:`{:class="block3motion"} `0` cyn y bloc `am byth`{:class="block3control"}.
 
 --- /collapse ---
 
-### Bouncing
+### Bowndio
 
-The `if on edge, bounce`{:class="block3motion"} block is really useful when you want to make a sprite bounce around and stay on the Stage:
+Mae'r bloc `os ar yr ymyl, bowndio`{:class="block3motion"} yn arbennig o ddefnyddiol os wyt ti am wneud i dy gorlun fowndio o gwmpas ac aros ar y Llwyfan:
 
 ```blocks3
 if on edge, bounce
 ```
 
-See some of the ways in which you can get your sprite to bounce around:
+Cymer olwg ar rai o'r ffyrdd galli di gael dy gorlun i fowndio o gwmpas:
 
 --- collapse ---
 ---
-title: Bounce across the Stage
+title: Bowndio ar draws y Llwyfan
 ---
 
 --- no-print ---
 
-**Girl moving across the Stage**: [See inside](https://scratch.mit.edu/projects/433535326/editor){:target="_blank"}
+**Merch yn symud ar draws y Llwyfan**: [Gweld tu mewn](https://scratch.mit.edu/projects/433535326/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/433535326/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -137,7 +137,7 @@ title: Bounce across the Stage
 
 --- /no-print ---
 
-This code makes a sprite bounce on the left-hand and right-hand edges of the Stage. Because the sprite rotates horizontally, it appears to flip when it changes its direction when the green flag is clicked:
+Mae'r cod hwn yn gwneud i gorlun fowndio ar ymylon chwith a dde'r Llwyfan. Oherwydd bod y corlun yn cylchdroi yn llorweddol, bydd yn edrych fel petai'n fflipio wrth newid ei gyfeiriad pan gaiff y faner werdd ei chlicio:
 
 ```blocks3
 when green flag clicked
@@ -148,22 +148,22 @@ move (5) steps
 if on edge, bounce
 ```
 
-In this example, the `point in direction`{:class="block3motion"} block automatically points the sprite to the right (`90` degrees) when the green flag is clicked. If you change the number of degrees to `-90`, your sprite will point left.
+Yn yr enghraifft hon, mae'r bloc `pwyntio i gyfeiriad`{:class="block3motion"} yn pwyntio'r corlun i'r dde (`90` degrees) yn awtomatig pan gaiff y fflag werdd ei chlicio. Os byddi di'n newid nifer y graddau i `-90`, bydd dy gorlun yn pwyntio i'r chwith.
 
-Add a `set rotation style`{:class="block3motion"} block and select `left-right`{:class="block3motion"} in the drop-down menu, so that your sprite will not flip upside down when it bounces on the edge of the Stage.
+Ychwanega floc `gosod steil cylchdroi`{:class="block3motion"} a dewis `chwith-dde`{:class="block3motion"} yn y gwymplen, fel na fydd dy gorlun di'n fflipio wyneb i waered pan fydd yn bowndio ar ymyl y Llwyfan.
 
-**Tip:** You can drag your sprite on the Stage to move it to the y (up–down) position that you want.
+**Awgrym:** Galli di lusgo dy gorlun ar y Llwyfan i'w symud i'r safle y (i fyny-i lawr) rwyt ti ei eisiau.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Bounce up and down the Stage
+title: Bowndio i fyny ac i lawr y Llwyfan
 ---
 
 --- no-print ---
 
-**Girl jumping**: [See inside](https://scratch.mit.edu/projects/433595822/editor){:target="_blank"}
+**Merch yn neidio**: [Gweld tu mewn](https://scratch.mit.edu/projects/433595822/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/433595822/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -171,7 +171,7 @@ title: Bounce up and down the Stage
 
 --- /no-print ---
 
-This code makes a sprite bounce up and down the Stage when the green flag is clicked:
+Mae'r cod yma yn gwneud i gorlun neidio i fyny ac i lawr ar y Llwyfan pan gaiff y faner werdd ei chlicio:
 
 ```blocks3
 when green flag clicked
@@ -182,22 +182,22 @@ move (5) steps
 if on edge, bounce
 ```
 
-Change the number of degrees in the `point in direction`{:class="block3motion"} block to `0` to make a sprite point upwards.
+Newidia nifer y graddau yn y bloc `pwyntio i gyfeiriad`{:class="block3motion"} i `0` i wneud i'r corlun bwyntio i fyny.
 
-Add a `set rotation style`{:class="block3motion"} block and select `don't rotate`{:class="block3motion"} in the drop-down menu to stop your sprite rotating, even when it bounces.
+Ychwanega floc `gosod steil cylchdroi`{:class="block3motion"} a dewis `peidio cylchdroi`{:class="block3motion"} yn y gwymplen i stopio dy gorlun rhag cylchdroi, hyd yn oed pan fydd yn bowndio.
 
-**Tip:** You can drag your sprite around the Stage to move it to the x (left–right) position that you want.
+**Awgrym:** Galli di lusgo dy gorlun o amgylch y Llwyfan i'w symud i'r safle x (chwith-dde) rwyt ti ei eisiau.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Bounce at an angle
+title: Bowndio ar ongl
 ---
 
 --- no-print ---
 
-**Football bouncing**: [See inside](https://scratch.mit.edu/projects/433536479/editor){:target="_blank"}
+**Bowndio pêl droed**: [Gweld tu mewn](https://scratch.mit.edu/projects/433536479/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/433536479/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -205,7 +205,7 @@ title: Bounce at an angle
 
 --- /no-print ---
 
-This code makes a sprite appear to rotate randomly when the green flag is clicked:
+Mae'r cod yma yn gwneud i gorlun gylchdroi ar hap pan gaiff y faner werdd ei chlicio:
 
 ```blocks3
 when green flag clicked
@@ -216,15 +216,15 @@ move (5) steps
 if on edge, bounce
 ```
 
-If your sprite moves at `45` degrees, you will find that it appears to bounce on the edge of the Stage at an angle. Change the number of degrees in the `point in direction`{:class="block3motion"} block to `45` to make your sprite bounce all around.
+Os ydy dy gorlun yn symud ar ongl o `45` gradd, fe weli di ei fod yn edrych fel petai'n bowndio ar ymyl y Llwyfan ar ongl. Newidia nifer y graddau yn y bloc `pwyntio i gyfeiriad`{:class="block3motion"} i `45` i wneud i dy gorlun fowndio o gwmpas.
 
-Add a `set rotation style`{:class="block3motion"} block and select `all around`{:class="block3motion"} in the drop-down menu, so that your sprite will turn when it bounces on the edge of the Stage.
+Ychwanega floc `gosod steil cylchdroi`{:class="block3motion"} a dewis `o amgylch`{:class="block3motion"} yn y gwymplen, fel bod dy gorlun yn troi pan fydd yn bowndio ar ymyl y Llwyfan.
 
 --- /collapse ---
 
-### Using coordinates
+### Defnyddio cyfesurynnau
 
-You can also `change`{:class="block3motion"} and `set`{:class="block3motion"} the `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates and get their values to use in other blocks:
+Galli di hefyd `newid`{:class="block3motion"} a `gosod`{:class="block3motion"} y cyfesurynnau `x`{:class="block3motion"} a `y`{:class="block3motion"} a chael eu gwerthoedd i'w defnyddio mewn blociau eraill:
 
 [[[generic-scratch3-coordinates]]]
 
@@ -244,12 +244,12 @@ set y to [0]
 
 --- collapse ---
 ---
-title: I can't see any Motion blocks
+title: Alla i ddim gweld unrhyw flociau Symudiad
 ---
 
-If you have the Stage selected then you won't see any `Motion`{:class="block3motion"} blocks, because the Stage can't move.
+Os wyt ti wedi dewis y Llwyfan yna fyddi di ddim yn gweld unrhyw flociau `Symudiad`{:class="block3motion"}, oherwydd dydy'r Llwyfan ddim yn gallu symud.
 
-Click on a sprite in the Sprite pane and then click on the **Code** tab to see the `Motion`{:class="block3motion"} blocks.
+Clicia ar gorlun yng nghwarel y Corlun ac wedyn clicio ar y tab **Cod** i weld y blociau `Symudiad`{:class="block3motion"}.
 
 --- /collapse ---
 
