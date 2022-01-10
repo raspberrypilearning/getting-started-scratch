@@ -1,83 +1,83 @@
-Click on 90 and drag the arrow to change
+Haz clic en 90 y arrastra la flecha para cambiar
 
 or all-around or none
 
-hide speech after 2 seconds
+ocultar la frase después de 2 segundos
 
-run blocks when the green flag above the Stage is clicked
+ejecuta bloques al presionar la fecha verde que está sobre el Escenario
 
-run the blocks when the sprite for this script is clicked
+ejecuta bloques al hacer clic en el objeto de este script
 
-run the blocks when the stage is clicked
+ejecuta los bloques cuando se hace clic en el escenario
 
-change to number, letter or arrow keys
+cambiar a teclas de número, letra o flecha
 
-run blocks when the microphone detects sound
+ejecuta bloques cuando el micrófono detecta sonido
 
 run blocks when the timer reaches 10 seconds
 
-delay for 1 second
+demora de 1 segundo
 
-delay for one tenth of a second
+demora una décima de segundo
 
-run the blocks inside four time
+ejecuta los bloques interiores cuatro veces
 
-run the blocks inside until stopped
+ejecuta los bloques interiores hasta que se detenga
 
-stop all scripts in all sprites
+detener todos los scripts en todos los objetos
 
-delay until the condition is true
+demora hasta que la condición se cumpla
 
-repeat the blocks inside until the condtion is true
+repetir los bloques interiores hasta que la condición se cumpla
 
 clones the sprite that runs this block
 
 clones another sprite in the project
 
-the script that runs when the clone is created
+el script que se ejecuta cuando el clon se ha creado
 
-stops the clone's scripts and deletes it
+detiene los scripts del clon y lo elimina
 
-What's your name
+Cómo te llamas
 
-the text the the user typed
+el texto que el usuario escribió
 
-hour, minute, ...
+hora, minuto, ...
 
-A number from 1 to 10
+Un número del 1 al 10
 
 talk
 
 use the provided input
 
-words
+palabras
 
-hello
+hola
 
-hi
+hola
 
-transparent
+transparente
 
-speed
+velocidad
 
-angle
+ángulo
 
-delay
+retraso
 
-beat
+ritmo
 
-move right
+mover a la derecha
 
-move left
+mover a la izquierda
 
-right_1
+derecha_1
 
-right_2
+derecha_2
 
-right_3
+derecha_3
 
-left_1
+izquierda_1
 
-left_2
+izquierda_2
 
-left_3
+izquierda_3
