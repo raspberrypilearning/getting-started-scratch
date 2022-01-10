@@ -1,30 +1,30 @@
-## What is Scratch?
-Scratch is a graphical programming language developed by the Lifelong Kindergarten group at the MIT Media Lab. In Scratch, you can drag and combine code blocks to make a range of programs, including animations, stories, musical instruments, and games. It's a bit like the programming equivalent of building blocks!
+## Beth yw Scratch?
+Mae Scratch yn iaith raglennu graffigol a ddatblygwyd gan y grŵp Lifelong Kindergarten yn MIT Media Lab. Yn Scratch, galli di lusgo a chyfuno blociau cod i greu amrywiaeth o raglenni, gan gynnwys animeiddiadau, straeon, offerynnau cerdd, a gemau. Mae bron fel rhaglennu â blociau adeiladu!
 
-![A screenshot of Scratch.](images/showcase_static.png)
+![Sgrinlun o Scratch.](images/showcase_static.png)
 
-Scratch is used in many schools as part of the curriculum. It is free, and young people can use it at home as well as in clubs.
+Mae Scratch yn cael ei ddefnyddio mewn llawer o ysgolion fel rhan o'r cwricwlwm. Mae'n rhad ac am ddim, a gall pobl ifanc ei ddefnyddio gartref yn ogystal â mewn clybiau.
 
-Scratch allows young people to learn coding concepts and create interactive projects without needing to learn a text-based programming language. You will not need to be able to type quickly or remember complex code to use Scratch.
+Mae Scratch yn caniatáu i bobl ifanc ddysgu cysyniadau codio a chreu prosiectau rhyngweithiol heb fod angen iddyn nhw ddysgu iaith raglennu sy'n seiliedig ar destun. Fydd dim angen i ti allu teipio'n gyflym na chofio cod cymhleth i ddefnyddio Scratch.
 
-### How to use this reference guide
-If you have not used Scratch before, then this guide will help you to set up and create your first project.
+### Sut i ddefnyddio'r canllaw cyfeirio hwn
+Os nad wyt ti wedi defnyddio Scratch o'r blaen, yna bydd y canllaw yma yn dy helpu di i osod a chreu dy brosiect cyntaf.
 
-You can return to this guide and use it to look up information that you need when you are making your own projects in Scratch.
+Galli di ddod yn ôl at y canllaw yma a'i ddefnyddio i chwilio am y wybodaeth sydd ei hangen arnat ti wrth greu dy brosiectau dy hun yn Scratch.
 
-At the end of the guide you will find links to paths of Scratch projects, from beginner through to advanced, where you can learn coding by making fun and interesting apps, games, stories, animations, art and music.
+Ar ddiwedd y canllaw fe fyddi di'n gweld dolenni i lwybrau prosiectau Scratch, o lefel dechreuwr hyd at ddefnyddwyr profiadol, lle galli di ddysgu codio drwy greu apiau, gemau, straeon, animeiddiadau, celf a cherddoriaeth hwyliog a diddorol.
 
 --- collapse ---
 ---
-title: What you will need
+title: Beth fydd ei angen arnat ti
 ---
-### Hardware
+### Caledwedd
 
-+ A computer or tablet capable of running Scratch 3
++ Cyfrifiadur neu dabled sy'n gallu rhedeg Scratch 3
 
-### Software
+### Meddalwedd
 
-+ This guide will explain how to get started with Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
++ Bydd y canllaw yma yn egluro sut i ddechrau arni gyda Scratch 3 (naill ai [ar-lein](https://scratch.mit.edu/){:target="_blank"} neu [all-lein](https://scratch.mit.edu/download){:target="_blank"})
 
 
 --- /collapse ---
