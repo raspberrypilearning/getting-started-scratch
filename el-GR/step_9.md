@@ -1,10 +1,10 @@
-## Events
+## Συμβάντα
 
-Blocks in the `Events`{:class="block3events"} menu control when scripts are started.
+Τα μπλοκ στο μενού `Συμβάντα`{:class="block3events"} ελέγχουν πότε ξεκινούν τα scripts.
 
-**Hat blocks** run the blocks below them when a particular event happens. They are rounded at the top, like a hat, so no blocks can go above them.
+Τα **μπλοκ Καπέλα** εκτελούν τα μπλοκ κάτω από αυτά όταν συμβαίνει ένα συγκεκριμένο συμβάν. Είναι στρογγυλεμένα στο επάνω μέρος, σαν καπέλο, οπότε κανένα μπλοκ δεν μπορεί να πάει από πάνω τους.
 
-You can use:
+Μπορείς να χρησιμοποιήσεις:
 
 ```blocks3
 
@@ -16,22 +16,22 @@ when stage clicked // run the blocks when the stage is clicked
 
 ```
 
-**Tip:** The `when stage clicked`{:class="block3events"} block is only available when you are working in the Code area for the Stage.
+**Συμβουλή:** Το μπλοκ `όταν γίνει κλικ στο σκηνή`{:class="block3events"} είναι διαθέσιμο μόνο όταν εργάζεσαι στην περιοχή Κώδικας για τη Σκηνή.
 
-If you are on a computer with a keyboard, you can use `when key pressed`{:class="block3events"}:
+Εάν χρησιμοποιείς υπολογιστή με πληκτρολόγιο, μπορείς να χρησιμοποιήσεις το `όταν πατηθεί το πλήκτρο`{:class="block3events"}:
 
 ```blocks3
 when [space v] key pressed // change to number, letter or arrow keys
 ```
 
-You can also use a `when backdrop switches to`{:class="block3events"} block to start a script when the backdrop changes.
+Μπορείς επίσης να χρησιμοποιήσεις το μπλοκ `όταν το υπόβαθρο αλλάξει σε`{:class="block3events"} για να ξεκινήσει ένα script όταν αλλάζει το υπόβαθρο.
 
 [[[scratch3-changing-backdrops-pages-levels]]]
 
 [[[scratch3-show-hide-sprites-backdrops]]]
 
 
-The `when >`{:class="block3events"} block has two versions:
+Το μπλοκ `όταν >`{:class="block3events"} έχει δύο εκδόσεις:
 
 ```blocks3
 when [loudness v] > (10) // run blocks when the microphone detects sound
@@ -42,7 +42,7 @@ when [timer v] > (10) // run blocks when the timer reaches 10 seconds
 [[[scratch3-time-delay]]]
 
 
-The last two blocks in the `Events`{:class="block3events"} menu are `broadcast`{:class="block3events"} blocks. You can use `when i receive (message v)`{:class="block3events"} to start a script when any sprite runs a matching `broadcast (message v)`{:class="block3events"} block.
+Τα δύο τελευταία μπλοκ στο μενού `Συμβάντα`{:class="block3events"} είναι `μπλοκ μετάδοσης`{:class="block3events"}. Μπορείς να χρησιμοποιήσεις το `όταν λάβω (μήνυμα v)`{:class="block3events"} για να ξεκινήσεις ένα script όταν οποιοδήποτε αντικείμενο εκτελεί το αντίστοιχο μπλοκ `μετάδωσε (μήνυμα v)`{:class="block3events"}.
 
 [[[generic-scratch3-broadcast-message]]]
 
