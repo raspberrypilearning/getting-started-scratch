@@ -1,83 +1,83 @@
-Click on 90 and drag the arrow to change
+Kliknij na 90 i przeciągnij strzałkę, aby zmienić
 
-or all-around or none
+albo dookoła albo żaden
 
-hide speech after 2 seconds
+ukryj dymek po 2 sekundach
 
-run blocks when the green flag above the Stage is clicked
+uruchamiaj bloki po kliknięciu zielonej flagi nad sceną
 
-run the blocks when the sprite for this script is clicked
+uruchom bloki po kliknięciu duszka dla tego skryptu
 
-run the blocks when the stage is clicked
+uruchom bloki po kliknięciu sceny
 
-change to number, letter or arrow keys
+zmień na cyfrę, literę lub klawisze strzałek
 
-run blocks when the microphone detects sound
+uruchamiaj bloki, gdy mikrofon wykryje dźwięk
 
-run blocks when the timer reaches 10 seconds
+uruchamiaj bloki, gdy stoper osiągnie 10 sekund
 
-delay for 1 second
+opóźnij o 1 sekundę
 
-delay for one tenth of a second
+opóźnij o jedną dziesiątą sekundy
 
-run the blocks inside four time
+uruchom bloki w środku cztery razy
 
-run the blocks inside until stopped
+uruchom bloki w środku aż do zatrzymania
 
-stop all scripts in all sprites
+zatrzymaj wszystkie skrypty we wszystkich duszkach
 
-delay until the condition is true
+opóźnij aż do spełnienia warunku
 
-repeat the blocks inside until the condtion is true
+powtarzaj bloki w środku, aż warunek będzie spełniony
 
-clones the sprite that runs this block
+klonuje duszka, który uruchamia ten blok
 
-clones another sprite in the project
+klonuje innego duszka w projekcie
 
-the script that runs when the clone is created
+ten skrypt jest uruchamiany gdy powstaje klon
 
-stops the clone's scripts and deletes it
+zatrzymuje skrypty klona i usuwa go
 
-What's your name
+Jak masz na imię
 
-the text the the user typed
+tekst wpisany przez użytkownika
 
-hour, minute, ...
+godzina, minuta, ...
 
-A number from 1 to 10
+Liczba od 1 do 10
 
-talk
+rozmowa
 
-use the provided input
+użyj dostarczonych danych wejściowych
 
-words
+słowa
 
-hello
+witaj
 
-hi
+cześć
 
-transparent
+przezroczysty
 
-speed
+prędkość
 
-angle
+kąt
 
-delay
+opóźnienie
 
-beat
+uderzenie
 
-move right
+ruch w prawo
 
-move left
+ruch w lewo
 
-right_1
+prawo_1
 
-right_2
+prawo_2
 
-right_3
+prawo_3
 
-left_1
+lewo_1
 
-left_2
+lewo_2
 
-left_3
+lewo_3
