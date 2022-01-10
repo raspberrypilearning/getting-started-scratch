@@ -1,10 +1,10 @@
-## Looks
+## Apparence
 
-`Looks`{:class="block3looks"} blocks control a sprite's appearance on the Stage.
+Les blocs `Apparence`{:class="block3looks"} contrôlent l'apparence d'un Sprite sur la Scène.
 
-Sprites can communicate using `Looks`{:class="block3looks"}, through a `say`{:class="block3looks"} speech bubble, a `think`{:class="block3looks"} thought bubble, or through their `graphic effects`{:class="block3looks"}.
+Les sprites peuvent communiquer en utilisant leur `Apparence`{:class="block3looks"}, par une bulle `dire`{:class="block3looks"}, une bulle `penser`{:class="block3looks"}, ou par leur `effets graphiques`{:class="block3looks"}.
 
-### Say and think
+### Dire et penser
 
 ```blocks3
 say () for () seconds
@@ -18,35 +18,35 @@ think ()
 
 --- collapse ---
 ---
-title: Use a speech bubble to communicate
+title: Utiliser une bulle de dialogue pour communiquer
 ---
 
-Sprites can `say`{:class="block3looks"} and `think`{:class="block3looks"} to communicate.
+Les sprites peuvent `dire`{:class="block3looks"} et `penser`{:class="block3looks"} pour communiquer.
 
-The `say () for () seconds`{:class="block3looks"} and `think () for () seconds`{:class="block3looks"} blocks are used to say or think something for a set amount of time.
+Les blocs `dire () pendant () secondes`{:class="block3looks"} et `penser () pendant () secondes`{:class="block3looks"} sont utilisés pour dire ou penser quelque chose pendant un laps de temps défini.
 
 ```blocks3
 when this sprite clicked
 say [Hello!] for [2] seconds // hide speech after 2 seconds
 ```
 
-The sprite will show a speech bubble for two seconds when clicked.
+Le sprite affichera une bulle de dialogue pendant deux secondes lorsque tu cliques dessus.
 
-**Space talk**: [See inside](https://scratch.mit.edu/projects/485673032/editor){:target="_blank"}
+**Conversation spatiale** : [Voir à l'intérieur](https://scratch.mit.edu/projects/485673032/editor){:target="_blank"}
 
-Click on the sprites to see them communicate with speech and thought.
+Clique sur les sprites pour les voir communiquer par la parole et par la pensée.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/485673032/?autostart=false" frameborder="0"></iframe>
 </div>
 
-The `say ()`{:class="block3looks"} and `think ()`{:class="block3looks"} blocks are used to say or think something, until another message or an empty `say ()`{:class="block3looks"} or `think ()`{:class="block3looks"} block replaces it.
+Les blocs `dire ()`{:class="block3looks"} et `penser ()`{:class="block3looks"} sont utilisés pour dire ou penser quelque chose, jusqu'à ce qu'un autre message ou un bloc `dire ()`{: class="block3looks"} ou `penser ()`{:class="block3looks"} le remplace.
 
 --- /collapse ---
 
-### Size
+### Taille
 
-Set or change the `size`{:class="block3looks"} of your sprites.
+Définis ou modifie la `taille `{:class="block3looks"} de tes sprites.
 
 ```blocks3
 change size by ()
@@ -58,35 +58,35 @@ set size to () %
 
 --- collapse ---
 ---
-title: Set the size of your sprite
+title: Définir la taille de ton sprite
 ---
 
-When you add a sprite to your project, its size is set to `100` percent. This may be too big or too small for your project.
+Lorsque tu ajoutes un sprite à ton projet, sa taille est définie à `100` pour cent. Cela peut être trop grand ou trop petit pour ton projet.
 
-You can use code to set the size of a sprite. To do this, use a `set size to`{:class="block3looks"} block:
+Tu peux utiliser du code pour définir la taille d'un sprite. Pour ce faire, utilise un bloc `mettre la taille à`{:class="block3looks"} :
 
 ```blocks3
 set size to (50) %
 ```
 
-If you set the size of a sprite to `50` percent, it will be half as tall and half as wide. If you set the size of a sprite to `200` percent, it will be twice as tall and twice as wide.
+Si tu définis la taille d'un sprite à `50` pour cent, il sera moitié moins haut et moitié moins large. Si tu définis la taille d'un sprite à `200` pour cent, il sera deux fois plus haut et deux fois plus large.
 
-To set the size of a sprite when the project is started, place a `set size to`{:class="block3looks"} block under a `when green flag clicked`{:class="block3events"} block:
+Pour définir la taille d'un sprite au démarrage du projet, place un bloc `mettre la taille à `{:class="block3looks"} sous un bloc `quand le drapeau vert est cliqué`{:class="block3events"}:
 
 ```blocks3
 when green flag clicked
 set size to (50) %
 ```
 
-You can also quickly set the size of a sprite in the **Size** property in the Sprite pane below the Stage:
+Tu peux également définir rapidement la taille d'un sprite dans le champ **Taille** du volet Sprite sous la Scène :
 
-![The Size box highlighted in the Sprite pane.](images/spriteSize.png){:width="400px"}
+![Le champ Taille en surbrillance dans le volet Sprite.](images/spriteSize.png){:width="400px"}
 
 --- /collapse ---
 
-### Graphic effects
+### Effets graphiques
 
-Set or change a range of visual effects, such as colour, fisheye, whirl, pixelate, mosaic, brightness and ghost.
+Définis ou modifie une gamme d'effets visuels, tels que couleur, fisheye, tourbillon, pixelliser, mosaïque, luminosité et fantôme.
 
 ```blocks3
 change [color v] effect by ()
@@ -100,12 +100,12 @@ clear graphic effects
 
 ### Costumes
 
-To create an animation effect with your sprites, you can change their costumes.
+Pour créer un effet d'animation avec tes sprites, tu peux changer leurs costumes.
 
 ```blocks3
-switch costume to ( v)
+basculer sur le costume ( v)
 
-next costume
+costume suivant
 
 (costume [number v])
 ```
@@ -114,18 +114,18 @@ next costume
 
 --- collapse ---
 ---
-title: Change looks to create an animation effect
+title: Changer d'apparence pour créer un effet d'animation
 ---
 
-**Beating heart**: [See inside](https://scratch.mit.edu/projects/435725413/editor){:target="_blank"}
+**Cœur battant** : [Voir à l'intérieur](https://scratch.mit.edu/projects/435725413/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435725413/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can use the `set size to`{:class="block3looks"} or `change size by`{:class="block3looks"} blocks to create a pulsing effect, such as a beating heart.
+Tu peux utiliser les blocs `mettre la taille à`{:class="block3looks"} ou `ajouter à la taille`{:class="block3looks"} pour créer un effet de pulsation, comme un cœur qui bat.
 
-**Note:** The `set size to`{:class="block3looks"} block sets the size to a specific value, while the `change size by`{:class="block3looks"} block changes the value from what it was before, e.g. `change size by`{:class="block3looks"} `10` adds 10 to the value of the size.
+**Remarque :** Le bloc `mettre la taille à`{:class="block3looks"} met la taille à une valeur spécifique, tandis que le bloc `ajouter à la taille`{:class="block3looks"} modifie la valeur par rapport à ce qu'elle était avant, par exemple `ajouter à la taille`{:class="block3looks"} `10` ajoute 10 à la valeur de la taille.
 
 ```blocks3
 when green flag clicked
@@ -142,9 +142,9 @@ wait (0.2) seconds
 end
 ```
 
-This code uses a series of `change size by`{:class="block3looks"} and `wait`{:class="block3control"} blocks to make the heart grow and shrink. Try to create your own pulsing sprite.
+Ce code utilise une série de blocs `ajouter à la taille`{:class="block3looks"} et `attendre`{:class="block3control"} pour faire grandir et rétrécir le cœur. Essaye de créer ton propre sprite palpitant.
 
-You could also use the `change graphic effect by`{:class="block3looks"} block to create a sprite that continues to change its appearance.
+Tu peux également utiliser le bloc `mettre l'effet à`{:class="block3looks"} pour créer un sprite qui continue de changer d'apparence.
 
 ```blocks3
 when green flag clicked
@@ -153,9 +153,9 @@ wait (1) seconds
 change [ghost v] effect by (-75)
 ```
 
-**Note:** If you use code that changes a graphic effect and then changes it back again, remember to use a `wait`{:class="block3control"} block in between the `change graphic effect by`{:class="block3looks"} blocks, otherwise, it will happen so fast that you won't see it!
+**Remarque :** Si tu utilises du code qui modifie un effet graphique puis le modifie à nouveau, n'oublie pas d'utiliser un bloc `attendre`{:class="block3control"} entre les blocs `mettre l'effet à`{:class=" block3looks"} , sinon, cela arrivera si vite que tu ne le verras pas !
 
-You can use a `clear graphic effects`{:class="block3looks"} block at any time to reset the effects:
+Tu peux utiliser un bloc `annuler les effets graphiques`{:class="block3looks"} à tout moment pour réinitialiser les effets :
 
 ```blocks3
 clear graphic effects
@@ -165,18 +165,18 @@ clear graphic effects
 
 --- collapse ---
 ---
-title: Click to change and then change back
+title : Cliquer pour modifier puis revenir en arrière
 ---
 
-You can add actions that make a change to a sprite and then reverse them, such as growing, waiting, and then shrinking.
+Tu peux ajouter des actions qui modifient un sprite, puis les inverser, telles qu'agrandir, attendre, puis réduire.
 
-**Squash ball when clicked**: [See inside](https://scratch.mit.edu/projects/435723273/editor){:target="_blank"}
+**Ecraser la balle quand on clique** : [Voir à l'intérieur](https://scratch.mit.edu/projects/435723273/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/435723273/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 </div>
 
-This code will grow a sprite, apply the `fisheye`{:class="block3looks"} effect for 0.5 seconds, and then return the sprite to its starting appearance:
+Ce code agrandira un sprite, appliquera l'effet `fisheye`{:class="block3looks"} pendant 0,5 secondes, puis ramènera le sprite à son apparence d'origine :
 
 ```blocks3
 when this sprite clicked
@@ -191,9 +191,9 @@ set size to (100)
 
 [[[scratch3-animate-movement-costumes]]]
 
-### Backdrops
+### Arrière-plans
 
-You can use code to change the backdrop too.
+Tu peux également utiliser du code pour modifier l'arrière-plan.
 
 ```blocks3
 switch backdrop to ( v)
@@ -205,9 +205,9 @@ next backdrop
 
 [[[scratch3-changing-backdrops-pages-levels]]]
 
-### Visibility
+### Visibilité
 
-The `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks control the visibility of a sprite.
+Les blocs `montrer`{:class="block3looks"} et `cacher`{:class="block3looks"} contrôlent la visibilité d'un sprite.
 
 ```blocks3
 show 
@@ -217,9 +217,9 @@ hide
 
 [[[scratch3-show-hide-sprites-backdrops]]]
 
-### Layers
+### Plans
 
-To change how your sprites appear in relation to each other, you can use layers.
+Pour changer la façon dont tes sprites apparaissent les uns par rapport aux autres, tu peux utiliser des plans.
 
 ```blocks3
 go to [front v] layer
@@ -231,18 +231,18 @@ go [forward v] () layers
 
 --- collapse ---
 ---
-title: Position sprites in many layers
+title: Positionner des sprites dans plusieurs plans
 ---
 
-**Through the window with tree**: [See inside](https://scratch.mit.edu/projects/454188775/editor){:target="_blank"}
+**Par la fenêtre avec un arbre** : [Voir à l'intérieur](https://scratch.mit.edu/projects/454188775/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/454188775/?autostart=false" frameborder="0"></iframe>
 </div>
 
-In the example, the **Window frame** sprite appears at the front and the **Sun** sprite appears at the back. The **Avery Walking** and **Tree** sprites are each in their own layers between the **Window frame** sprite and the **Sun** sprite.
+Dans l'exemple, la **Fenêtre** apparaît à l'avant et le **Soleil** apparaît à l'arrière. Les sprites **Avery Marchant** et **Arbres** sont chacun sur leur propre plan entre le sprite **Fenêtre** et le sprite **Soleil**.
 
-Use the `go backward`{:class="block3looks"} `1` `layers`{:class="block3looks"} block to place a sprite one layer behind the sprite at the front:
+Utilise le bloc `déplacer de`{:class="block3looks"} `1` `plans vers l'arrière`{:class="block3looks"} pour placer un sprite sur le plan immédiatement derrière le sprite du premier plan :
 
 ``` blocks3
 when green flag clicked
@@ -250,7 +250,7 @@ go to [front v] layer
 +go [backward v] (1) layers
 ```
 
-Change the value in the `go backward`{:class="block3looks"} `1` `layers`{:class="block3looks"} block for each sprite, depending on where you want it to be positioned in relation to other sprites:
+Modifie la valeur dans le `déplacer de`{:class="block3looks"} `1` `plans`{:class="block3looks"} pour chaque sprite, selon l'endroit où tu veux qu'il soit positionné par rapport aux autres sprites :
 
 ``` blocks3
 when green flag clicked
