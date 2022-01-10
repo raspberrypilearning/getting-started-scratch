@@ -1,56 +1,56 @@
-## Your first Scratch project
+## Το πρώτο σου έργο Scratch
 
-![An annotated screenshot of the Scratch editor, with key features labelled.](images/scratch-features.png)
+![Ένα σχολιασμένο στιγμιότυπο οθόνης του προγράμματος επεξεργασίας Scratch, με επισήμανση βασικών χαρακτηριστικών.](images/scratch-features.png)
 
 --- task ---
 
-When you create a new Scratch project, it includes a **cat** sprite.
+Όταν δημιουργείς ένα νέο έργο Scratch, περιλαμβάνει ένα αντικείμενο **γάτα**.
 
-Drag blocks from the Blocks menu to the Code area to make the cat do something.
+Σύρε μπλοκ από το μενού Μπλοκ στην περιοχή Κώδικας για να κάνεις τη γάτα να κάνει κάτι.
 
-To try an example, drag a `move`{:class="block3motion"} block from the `Motion`{:class="block3motion"} blocks menu. The blocks are colour-coded to help you find them.
+Για να δοκιμάσεις ένα παράδειγμα, σύρε ένα μπλοκ `κινήσου`{:class="block3motion"} από το μενού μπλοκ `Κίνηση`{:class="block3motion"}. Τα μπλοκ είναι χρωματικά κωδικοποιημένα για να σε βοηθήσουν να τα βρεις.
 
-![A 'move' block in the Code area.](images/move-block.png)
+![Ένα μπλοκ «κινήσου» στην περιοχή Κώδικας.](images/move-block.png)
 
-You can click on blocks in the Code area to run them. Click on the `move`{:class="block3motion"} block and the cat will move.
+Μπορείς να κάνεις κλικ σε μπλοκ στην περιοχή Κώδικας για να τα εκτελέσεις. Κάνε κλικ στο μπλοκ `κινήσου`{:class="block3motion"} και η γάτα θα μετακινηθεί.
 
-**Tip:** If you are using Scratch on a tablet, you can tap an item to click on it.
+**Συμβουλή:** Εάν χρησιμοποιείς το Scratch σε tablet, μπορείς να πατήσεις ένα στοιχείο για να κάνεις κλικ σε αυτό.
 
-**Hat blocks** run the blocks below them when a particular event happens. The `when green flag clicked`{:class="block3events"} block runs code when you click on the green flag above the Stage to run your project.
+Τα **μπλοκ Hat** εκτελούν τα μπλοκ κάτω από αυτά όταν συμβαίνει ένα συγκεκριμένο συμβάν. Το μπλοκ `όταν γίνει κλικ σε πράσινη σημαία`{:class="block3events"} εκτελεί τον κώδικα όταν κάνεις κλικ στην πράσινη σημαία πάνω από τη Σκηνή για να εκτελέσεις το έργο σου.
 
-Drag a `when green flag clicked`{:class="block3events"} block above the `move`{:class="block3motion"} block so that they snap together.
+Σύρε ένα μπλοκ `όταν γίνει κλικ σε πράσινη σημαία `{:class="block3events"} πάνω από το μπλοκ `κινήσου`{:class="block3motion"}, ώστε να κουμπώσουν μεταξύ τους.
 
-![The 'move' block in the Code area.](images/green-flag-script.png)
+![Το μπλοκ «κινήσου» στην περιοχή Κώδικας.](images/green-flag-script.png)
 
-Your code should look like this:
+Ο κώδικας θα πρέπει να μοιάζει κάπως έτσι:
 
 ```blocks3
 when flag clicked
 move (10) steps
 ```
 
-**Tip:** Scratch blocks are colour-coded, so you will find the `when green flag clicked`{:class="block3events"} block in the `Events`{:class="block3events"} blocks menu.
+**Συμβουλή:** Όλα τα μπλοκ είναι χρωματικά κωδικοποιημένα, επομένως θα βρεις το μπλοκ `όταν γίνει κλικ σε πράσινη σημαία`{:class="block3looks"} στο μενού μπλοκ `Συμβάντα`{:class="block3looks"}.
 
-Now, click on the green flag above the Stage and the cat will move.
+Τώρα, κάνε κλικ στην πράσινη σημαία πάνω από τη Σκηνή και η γάτα θα μετακινηθεί.
 
 --- /task ---
 
-You can add more sprites to your project, and you can also add a backdrop.
+Μπορείς να προσθέσεις περισσότερα αντικείμενα στο έργο σου και μπορείς επίσης να προσθέσεις ένα υπόβαθρο.
 
 --- task ---
 
 --- collapse ---
 ---
-title: Choose a sprite
+title: Επίλεξε ένα αντικείμενο
 ---
 
-In the Sprite list, click on **Choose a Sprite** to see the library of all Scratch sprites.
+Στη λίστα Αντικειμένων, κάνε κλικ στο **Επιλέξτε ένα Αντικείμενο** για να δεις τη βιβλιοθήκη όλων των αντικειμένων του Scratch.
 
-![The 'Choose a Sprite' icon.](images/sprite-library.png)
+![Το εικονίδιο «Επιλέξτε ένα Αντικείμενο».](images/sprite-library.png)
 
-You can search for a sprite, or browse by category or theme. Click on a sprite to add it to your project.
+Μπορείς να ψάξεις για ένα αντικείμενο ή να αναζητήσεις ένα ανά κατηγορία ή θέμα. Κάνε κλικ σε ένα αντικείμενο για να το προσθέσεις στο έργο σου.
 
-![The Sprite Library.](images/sprite-choose.png)
+![Η Βιβλιοθήκη Αντικειμένων.](images/sprite-choose.png)
 
 --- /collapse ---
 
@@ -60,16 +60,16 @@ You can search for a sprite, or browse by category or theme. Click on a sprite t
 
 --- collapse ---
 ---
-title: Choose a backdrop
+title: Διάλεξε ένα υπόβαθρο
 ---
 
-In the bottom right-hand corner of the Stage pane, click on **Choose a Backdrop**.
+Στην κάτω δεξιά γωνία του παραθύρου Σκηνή, κάνε κλικ στο **Επιλέξτε Υπόβαθρο**.
 
-![The 'Choose a Backdrop' icon.](images/stage-choose.png)
+![Το εικονίδιο 'Επιλέξτε Υπόβαθρο'.](images/stage-choose.png)
 
-You can search for a backdrop, or browse by category or theme. Click on a backdrop to add to your project.
+Μπορείς να ψάξεις για ένα υπόβαθρο ή να αναζητήσεις ένα ανά κατηγορία ή θέμα. Κάνε κλικ σε ένα υπόβαθρο για να το προσθέσεις στο έργο σου.
 
-![The Backdrop Library.](images/backdrop.png)
+![Η Βιβλιοθήκη Υποβάθρων.](images/backdrop.png)
 
 --- /collapse ---
 
@@ -79,25 +79,25 @@ You can search for a backdrop, or browse by category or theme. Click on a backdr
 
 --- collapse ---
 ---
-title: Name and save your project
+title: Ονόμασε και αποθήκευσε το έργο σου
 ---
 
-Go to **File** in the menu. If you have a Scratch account, click on **Save now**. If you do not have an account, click on **Save to your computer**.
+Πήγαινε στο μενού **Αρχείο**. Εάν έχεις λογαριασμό Scratch, κάνε κλικ στο **Αποθήκευση τώρα**. Εάν δεν έχεις λογαριασμό, κάνε κλικ στο **Αποθήκευση στον υπολογιστή σου**.
 
-Click in the project name box and change the name to match your project.
+Κάνε κλικ στο πλαίσιο ονόματος έργου και άλλαξε το όνομα για να ταιριάζει με το έργο σου.
 
-![The project name box highlighted.](images/change-project-name.png)
+![Έχει επιλεγεί το πλαίσιο του ονόματος του έργου.](images/change-project-name.png)
 
-If you share your project, then other people will also see this name, so make sure that it makes sense.
+Εάν μοιραστείς το έργο σου, τότε και άλλα άτομα θα δουν αυτό το όνομα, οπότε βεβαιώσου ότι έχει νόημα.
 
 --- /collapse ---
 
 --- /task ---
 
-You have created your first Scratch project!
+Έχεις γράψει το πρώτο σου πρόγραμμα στο Scratch!
 
-You are now ready to learn Scratch. We recommend that you start with our [Scratch: Module 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} and/or [Look after yourself](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"} pathways, which are designed for beginners.
+Τώρα είσαι έτοιμος να μάθεις Scratch. Συνιστούμε να ξεκινήσετε με τα μονοπάτια [Scratch: Ενότητα 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} ή/και [Φρόντισε τον εαυτό σου](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"}, τα οποία έχουν σχεδιαστεί για αρχάριους.
 
- You can return to this guide if you need help using Scratch when you are working on our pathway projects or on your own independent projects. 
+ Μπορείς να επιστρέψεις σε αυτόν τον οδηγό εάν χρειάζεσαι βοήθεια στη χρήση του Scratch όταν εργάζεσαι σε έργα από τα δικά μας μονοπάτια ή σε δικά σου ανεξάρτητα έργα. 
 
 
