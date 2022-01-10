@@ -1,14 +1,14 @@
-## The Scratch editor
+## El editor de Scratch
 
-![An annotated screenshot of the Scratch editor.](images/scratch-interface.png)
+![Una captura de pantalla anotada del editor de Scratch.](images/scratch-interface.png)
 
-The **Stage** is where the action takes place in your project. The Stage has one or more background images called **backdrops**.
+El **Escenario** es donde se lleva a cabo la acción en tu proyecto. El Escenario tiene una o más imágenes de fondo llamadas **fondos**.
 
-**Sprites** are characters and objects that appear on the **Stage**. Sprites are given instructions using Scratch code blocks. This is called **programming**.
+**Objetos** son personajes y objetos que aparecen en el **Escenario**. Los Objetos reciben instrucciones usando bloques de código Scratch. A ésto se le llama **programar**.
 
-Drag **code blocks** from the **Blocks menu** to the **Code area** to program your sprites and the Stage. Code blocks can make a sprite move around, change the way that it looks, and play sounds.
+Arrastra **bloques de código** desde el **Menú de Bloques** al **Área de código** para programar tus objetos y el Escenario. Los bloques de código pueden hacer que un objeto se mueva alrededor, cambie su apariencia, y reproduzca sonidos.
 
-Sprites can have multiple **costumes**. You can change the costume to change the appearance of a sprite. This can be used for effects such as giving the appearance of walking.
+Los Objetos pueden tener varios **disfraces**. Puedes cambiar el disfraz para modificar la apariencia de un objeto. Esto se puede utilizar para efectos como dar la apariencia de caminar.
 
-A **script** is a series of blocks that are joined together to give instructions to the Stage or sprites. The Stage and sprites can each have many different scripts. 
+Un **script** es una serie de bloques que se unen para dar instrucciones al Escenario o a los objetos. El Escenario y los objetos pueden tener cada uno muchos scripts diferentes. 
 
