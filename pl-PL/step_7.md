@@ -1,10 +1,10 @@
-## Looks
+## Wygląd
 
-`Looks`{:class="block3looks"} blocks control a sprite's appearance on the Stage.
+Bloki `Wygląd`{:class="block3looks"} kontrolują wygląd duszka na scenie.
 
-Sprites can communicate using `Looks`{:class="block3looks"}, through a `say`{:class="block3looks"} speech bubble, a `think`{:class="block3looks"} thought bubble, or through their `graphic effects`{:class="block3looks"}.
+Duszki mogą się komunikować używając `Wygląd`{:class="block3looks"}, poprzez dymek `powiedz`{:class="block3looks"}, dymek `pomyśl`{:class="block3looks"} lub poprzez swoje `efekty graficzne`{:class="block3looks"}.
 
-### Say and think
+### Powiedz i pomyśl
 
 ```blocks3
 say () for () seconds
@@ -18,35 +18,35 @@ think ()
 
 --- collapse ---
 ---
-title: Use a speech bubble to communicate
+title: Użyj dymka do komunikowania się
 ---
 
-Sprites can `say`{:class="block3looks"} and `think`{:class="block3looks"} to communicate.
+Duszki mogą `powiedzieć`{:class="block3looks"} oraz `pomyśleć`{:class="block3looks"} aby się komunikować.
 
-The `say () for () seconds`{:class="block3looks"} and `think () for () seconds`{:class="block3looks"} blocks are used to say or think something for a set amount of time.
+Bloki `powiedz () przez () sekund`{:class="block3looks"} i `pomyśl () przez () sekund`{:class="block3looks"} są używane do powiedzenia lub pomyślenia czegoś przez określony czas.
 
 ```blocks3
 when this sprite clicked
 say [Hello!] for [2] seconds // hide speech after 2 seconds
 ```
 
-The sprite will show a speech bubble for two seconds when clicked.
+Po kliknięciu duszek przez dwie sekundy będzie wyświetlał dymek.
 
-**Space talk**: [See inside](https://scratch.mit.edu/projects/485673032/editor){:target="_blank"}
+**Kosmiczna rozmowa**: [Zajrzyj do środka](https://scratch.mit.edu/projects/485673032/editor){:target="_blank"}
 
-Click on the sprites to see them communicate with speech and thought.
+Kliknij na duszki, aby zobaczyć, jak komunikują się za pomocą mowy i myśli.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/485673032/?autostart=false" frameborder="0"></iframe>
 </div>
 
-The `say ()`{:class="block3looks"} and `think ()`{:class="block3looks"} blocks are used to say or think something, until another message or an empty `say ()`{:class="block3looks"} or `think ()`{:class="block3looks"} block replaces it.
+Bloki `powiedz ()`{:class="block3looks"} i `pomyśl ()`{:class="block3looks"} służą do powiedzenia lub pomyślenia czegoś, aż zastąpi je kolejna wiadomość lub pusty blok `powiedz ()`{: class="block3looks"} lub `pomyśl ()`{:class="block3looks"}.
 
 --- /collapse ---
 
-### Size
+### Rozmiar
 
-Set or change the `size`{:class="block3looks"} of your sprites.
+Ustaw lub zmień `rozmiar`{:class="block3looks"} swoich duszków.
 
 ```blocks3
 change size by ()
@@ -58,35 +58,35 @@ set size to () %
 
 --- collapse ---
 ---
-title: Set the size of your sprite
+title: Ustaw rozmiar swojego duszka
 ---
 
-When you add a sprite to your project, its size is set to `100` percent. This may be too big or too small for your project.
+Po dodaniu duszka do projektu jego rozmiar jest ustawiony na `100` procent. To może być za dużo lub za mało w Twoim projekcie.
 
-You can use code to set the size of a sprite. To do this, use a `set size to`{:class="block3looks"} block:
+Możesz użyć kodu, aby ustawić rozmiar duszka. Aby to zrobić, użyj bloku `ustaw rozmiaru na`{:class="block3looks"}:
 
 ```blocks3
 set size to (50) %
 ```
 
-If you set the size of a sprite to `50` percent, it will be half as tall and half as wide. If you set the size of a sprite to `200` percent, it will be twice as tall and twice as wide.
+Jeśli ustawisz rozmiar duszka na `50` procent, będzie on o połowę niższy i o połowę węższy. Jeśli ustawisz rozmiar duszka na `200` procent, będzie on dwa razy wyższy i dwa razy szerszy.
 
-To set the size of a sprite when the project is started, place a `set size to`{:class="block3looks"} block under a `when green flag clicked`{:class="block3events"} block:
+Aby ustawić rozmiar duszka podczas uruchamiania projektu, umieść blok `ustaw rozmiar na`{:class="block3looks"} pod blokiem `kiedy kliknięto zieloną flagę`{:class="block3events"}:
 
 ```blocks3
 when green flag clicked
 set size to (50) %
 ```
 
-You can also quickly set the size of a sprite in the **Size** property in the Sprite pane below the Stage:
+Możesz również szybko ustawić rozmiar duszka we właściwości **Rozmiar** w Panelu duszka poniżej Sceny:
 
-![The Size box highlighted in the Sprite pane.](images/spriteSize.png){:width="400px"}
+![Pole Rozmiar podświetlone w Panelu duszków.](images/spriteSize.png){:width="400px"}
 
 --- /collapse ---
 
-### Graphic effects
+### Efekty graficzne
 
-Set or change a range of visual effects, such as colour, fisheye, whirl, pixelate, mosaic, brightness and ghost.
+Ustaw lub dostosuj różne efekty wizualne, takie jak kolor, rybie oko, wir, piksele, mozaika, jasność i efekt duch.
 
 ```blocks3
 change [color v] effect by ()
@@ -98,34 +98,34 @@ clear graphic effects
 
 [[[scratch3-graphic-effects]]]
 
-### Costumes
+### Kostiumy
 
-To create an animation effect with your sprites, you can change their costumes.
+Aby stworzyć efekt animacji swoich duszków, możesz zmienić ich kostiumy.
 
 ```blocks3
-switch costume to ( v)
+zmień kostium na ( v)
 
-next costume
+następny kostium
 
-(costume [number v])
+(kostium [liczba v])
 ```
 
 [[[scratch3-change-costumes-to-show-mood]]]
 
 --- collapse ---
 ---
-title: Change looks to create an animation effect
+title: Zmień wygląd, aby stworzyć efekt animacji
 ---
 
-**Beating heart**: [See inside](https://scratch.mit.edu/projects/435725413/editor){:target="_blank"}
+**Bijące serce**: [Zajrzyj do środka](https://scratch.mit.edu/projects/435725413/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435725413/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can use the `set size to`{:class="block3looks"} or `change size by`{:class="block3looks"} blocks to create a pulsing effect, such as a beating heart.
+Możesz użyć bloków `ustaw rozmiar na`{:class="block3looks"} lub `zmień rozmiar o`{:class="block3looks"}, aby stworzyć pulsujący efekt, taki jak bicie serca.
 
-**Note:** The `set size to`{:class="block3looks"} block sets the size to a specific value, while the `change size by`{:class="block3looks"} block changes the value from what it was before, e.g. `change size by`{:class="block3looks"} `10` adds 10 to the value of the size.
+**Uwaga:** Blok `ustaw rozmiar na`{:class="block3looks"} ustawia rozmiar na konkretną wartość, podczas gdy blok `zmień rozmiar o`{:class="block3looks"} zmienia wartość jaka była wcześniej, np. `zmień rozmiar o`{:class="block3looks"} `10` dodaje 10 do wartości rozmiaru.
 
 ```blocks3
 when green flag clicked
@@ -142,9 +142,9 @@ wait (0.2) seconds
 end
 ```
 
-This code uses a series of `change size by`{:class="block3looks"} and `wait`{:class="block3control"} blocks to make the heart grow and shrink. Try to create your own pulsing sprite.
+Ten kod używa serii bloków `zmień rozmiar o`{:class="block3looks"} i `czekaj`{:class="block3control"}, aby serce rosło i zmniejszało się. Spróbuj stworzyć własnego pulsującego duszka.
 
-You could also use the `change graphic effect by`{:class="block3looks"} block to create a sprite that continues to change its appearance.
+Możesz również użyć bloku `zmień efekt`{:class="block3looks"}, aby utworzyć duszka, który ciągle zmienia swój wygląd.
 
 ```blocks3
 when green flag clicked
@@ -153,9 +153,9 @@ wait (1) seconds
 change [ghost v] effect by (-75)
 ```
 
-**Note:** If you use code that changes a graphic effect and then changes it back again, remember to use a `wait`{:class="block3control"} block in between the `change graphic effect by`{:class="block3looks"} blocks, otherwise, it will happen so fast that you won't see it!
+**Uwaga:** Jeśli używasz kodu, który zmienia efekt graficzny, a następnie zmienia go z powrotem, pamiętaj, aby użyć bloku `czekaj`{:class="block3control"} pomiędzy blokami `zmień efekt o`{:class=" block3looks"}, bo inaczej stanie się to tak szybko, że tego nie zauważysz!
 
-You can use a `clear graphic effects`{:class="block3looks"} block at any time to reset the effects:
+Aby skasować efekty graficzne, możesz w dowolnym momencie użyć bloku `wyczyść efekty graficzne`{:class="block3looks"}:
 
 ```blocks3
 clear graphic effects
@@ -165,18 +165,18 @@ clear graphic effects
 
 --- collapse ---
 ---
-title: Click to change and then change back
+title: Kliknij, aby zmienić, a potem cofnąć
 ---
 
-You can add actions that make a change to a sprite and then reverse them, such as growing, waiting, and then shrinking.
+Możesz dodać akcje, które wprowadzają zmianę do duszka, a następnie ją odwracają, takie jak powiększanie, czekanie, a potem zmniejszanie.
 
-**Squash ball when clicked**: [See inside](https://scratch.mit.edu/projects/435723273/editor){:target="_blank"}
+**Ściskanie piłki gdy kliknięta**: [Zajrzyj do środka](https://scratch.mit.edu/projects/435723273/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/435723273/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 </div>
 
-This code will grow a sprite, apply the `fisheye`{:class="block3looks"} effect for 0.5 seconds, and then return the sprite to its starting appearance:
+Ten kod powiększy duszka, zastosuje efekt `rybie oko`{:class="block3looks"} na 0,5 sekundy, a następnie przywróci duszka do jego początkowego wyglądu:
 
 ```blocks3
 when this sprite clicked
@@ -191,9 +191,9 @@ set size to (100)
 
 [[[scratch3-animate-movement-costumes]]]
 
-### Backdrops
+### Tła
 
-You can use code to change the backdrop too.
+Możesz również użyć kodu, aby zmienić tło.
 
 ```blocks3
 switch backdrop to ( v)
@@ -205,9 +205,9 @@ next backdrop
 
 [[[scratch3-changing-backdrops-pages-levels]]]
 
-### Visibility
+### Widoczność
 
-The `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks control the visibility of a sprite.
+Bloki `pokaż`{:class="block3looks"} i `ukryj`{:class="block3looks"} kontrolują widoczność duszka.
 
 ```blocks3
 show 
@@ -217,9 +217,9 @@ hide
 
 [[[scratch3-show-hide-sprites-backdrops]]]
 
-### Layers
+### Warstwy
 
-To change how your sprites appear in relation to each other, you can use layers.
+Aby zmienić to, jak Twoje duszki pokazują się względem siebie, możesz użyć warstw.
 
 ```blocks3
 go to [front v] layer
@@ -231,18 +231,18 @@ go [forward v] () layers
 
 --- collapse ---
 ---
-title: Position sprites in many layers
+title: Umieszczanie duszków na wielu warstwach
 ---
 
-**Through the window with tree**: [See inside](https://scratch.mit.edu/projects/454188775/editor){:target="_blank"}
+**Poprzez okno z drzewem**: [Zajrzyj do środka](https://scratch.mit.edu/projects/454188775/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/454188775/?autostart=false" frameborder="0"></iframe>
 </div>
 
-In the example, the **Window frame** sprite appears at the front and the **Sun** sprite appears at the back. The **Avery Walking** and **Tree** sprites are each in their own layers between the **Window frame** sprite and the **Sun** sprite.
+W tym przykładzie duszek **Rama okienna** pojawia się z przodu, a duszek **Słońce** pojawia się z tyłu. Duszki **Avery Walking** (Chodząca Avery) i **Drzewo** znajdują się na swoich własnych warstwach pomiędzy duszkami **Rama okienna** i **Słońce**.
 
-Use the `go backward`{:class="block3looks"} `1` `layers`{:class="block3looks"} block to place a sprite one layer behind the sprite at the front:
+Użyj bloku `przesuń do tyłu`{:class="block3looks"} o `1` `warstw`{:class="block3looks"}, aby umieścić duszka o jedną warstwę za duszkiem z przodu:
 
 ``` blocks3
 when green flag clicked
@@ -250,7 +250,7 @@ go to [front v] layer
 +go [backward v] (1) layers
 ```
 
-Change the value in the `go backward`{:class="block3looks"} `1` `layers`{:class="block3looks"} block for each sprite, depending on where you want it to be positioned in relation to other sprites:
+Zmień wartość w bloku `przesuń do tyłu`{:class="block3looks"} o `1` `warstw`{:class="block3looks"} dla każdego duszka, w zależności od tego, gdzie chcesz go umieścić w stosunku do innych duszków:
 
 ``` blocks3
 when green flag clicked
