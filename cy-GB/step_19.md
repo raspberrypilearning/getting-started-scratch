@@ -1,62 +1,62 @@
-## Editing tips
-It's useful to learn how to copy and delete code blocks, and duplicate sprites.
+## Awgrymiadau golygu
+Mae'n ddefnyddiol dysgu sut i gopïo a dileu blociau cod, a dyblygu corluniau.
 
-**Tip:** You can use <kbd>Ctrl-z</kbd> (hold down the Ctrl key and tap 'z') to undo lots of actions in Scratch. If you accidentally delete a Sprite or other item, you can use **Restore** from the **Edit** menu to get it back.
+**Awgrym:** Galli di ddefnyddio <kbd>Ctrl-z</kbd> (dal y fysell Ctrl i lawr a tharo 'z') i ddadwneud llawer o gamau yn Scratch. Os byddi di'n dileu Corlun neu eitem arall yn ddamweiniol, galli di ddefnyddio **Adfer** o'r ddewislen **Golygu** i'w gael yn ôl.
 
-You can delete code blocks you don't need any more:
+Galli di ddileu blociau cod nad oes eu hangen arnat ti mwyach:
 
 [[[scratch-delete]]]
 
-Duplicating or copying code can save you time when making a project.
+Gall dyblygu neu gopïo cod arbed amser i ti wrth greu prosiect.
 
 --- collapse ---
 ---
-title: Duplicate blocks
+title: Blociau dyblyg
 ---
 
-Duplicate blocks or sets of blocks to reuse in a sprite's program:
+Blociau dyblyg neu setiau o flociau i'w hailddefnyddio mewn rhaglen corlun:
 
-* Go to the **Code** tab.
-* Right-click (or on a tablet, tap and hold) on the first block that you want to copy. It will select all the blocks below it too.
-* Select **Duplicate** in the drop-down menu. ![Selecting 'Duplicate' in the menu.](images/scratchguide-duplicate.png){:width="300px"}
-* Drag the duplicated code where you want it to go. ![Moving the duplicated code.](images/scratchguide-drag.png){:width="300px"}
-* Delete any blocks that you do not need.
+* Cer i'r tab **Cod**.
+* De-glicia (neu ar dabled, taro a dal) ar y bloc cyntaf rwyt ti am ei gopïo. Bydd hyn yn dewis yr holl flociau oddi tano hefyd.
+* Dewisa **Dyblygu** yn y gwymplen. ![Selecting 'Duplicate' in the menu.](images/scratchguide-duplicate.png){:width="300px"}
+* Llusga'r cod dyblyg lle rwyt ti am iddo fynd. ![Moving the duplicated code.](images/scratchguide-drag.png){:width="300px"}
+* Dilea unrhyw flociau nad oes eu hangen arnat.
 
 --- /collapse ---
 
 [[[scratch3-duplicate-sprite]]]
 
-Create a new sprite and copy over all or some of the first sprite's code.
+Creu corlun newydd a chopïo dros y cyfan neu rywfaint o god y corlun cyntaf.
 
 --- collapse ---
 ---
-title: Copy a sprite's code
+title: Copïo cod corlun
 ---
 
-In the bottom right-hand corner of the Sprite list, click on **Choose a Sprite** and select the sprite that you want to add.
+Yng nghornel dde isaf y rhestr Corluniau, clicia ar **Dewiswch Gorlun** a dewis y corlun rwyt ti am ei ychwanegu.
 
-Click on the first sprite and go to its **Code** tab. Drag the code that is in the first sprite's Code area to the image of the second sprite in the Sprite list, then let go of the code to finish copying it to the second sprite. You may have one script that starts with a `when green flag clicked`{:class="block3events"} block, as well as another script that starts with `when this sprite clicked`{:class="block3events"}. Make sure that you copy **all** the code scripts that you have created.
+Clicia ar y corlun cyntaf a mynd i'w dab **Cod**. Llusga'r cod sydd yn ardal Cod y corlun cyntaf i ddelwedd yr ail gorlun yn y rhestr Corluniau, wedyn gad fynd o'r cod i orffen ei gopïo i'r ail corlun. Efallai bydd gen ti un sgript sy'n dechrau â bloc `pan fydd y faner werdd wedi'i chlicio`{:class="block3events"}, yn ogystal â sgript arall sy'n dechrau â `pan gaiff y corlun hwn ei glicio`{:class="block3events"}. Gwna'n siŵr dy fod yn copïo **pob un** o'r sgriptiau cod rwyt ti wedi'u creu.
 
-![Copying code to another sprite.](images/challenge1-sprite-list.gif){:width="300px"}
+![Copïo cod i gorlun arall.](images/challenge1-sprite-list.gif){:width="300px"}
 
-Your second sprite will now have exactly the same code as your first sprite. Do not run the program until you have started to change the second sprite's code — you might not see the second sprite because it might be positioned underneath the first sprite.
+Bydd gan dy ail gorlun yr un cod yn union â dy gorlun cyntaf nawr. Paid â rhedeg y rhaglen nes dy fod wedi dechrau newid cod yr ail gorlun - efallai na weli di'r ail gorlun oherwydd mae'n bosib ei fod o dan y corlun cyntaf.
 
 --- /collapse ---
 
-If you want to copy costumes, sprites, sounds, and scripts between projects, drag them into the **Backpack**.
+Os wyt ti eisiau copïo gwisgoedd, corluniau, seiniau a sgriptiau rhwng prosiectau, llusga nhw i'r **Pecyn Cefn**.
 
 [[[scratch-backpack]]]
 
-It's always worth spending some time making sure you have followed best practices so your project is easy to understand.
+Mae bob amser yn werth treulio peth amser yn sicrhau dy fod wedi dilyn yr arferion gorau fel bod dy brosiect yn hawdd ei ddeall.
 
 --- collapse ---
 ---
-title: Best practices for Scratch projects
+title: Arferion gorau ar gyfer prosiectau Scratch
 ---
 
-- Name all sprites, costumes, sounds, variables, and messages sensibly. It’s much easier to understand projects that use helpful names.
-- Fill in the Project Page with a good title, instructions, and notes so that users know how to use your project and where you got ideas from.
-- Add short comments that explain what your code is doing.
-- Make sure your scripts are tidy in the **Code** tab. You can right-click and choose **Clean up Blocks** or arrange the scripts in a way that makes sense to you. Try and put similar scripts together.
+- Rho enwau call i'r holl gorluniau, gwisgoedd, seiniau, newidynnau a negeseuon. Mae'n llawer haws deall prosiectau sy'n defnyddio enwau defnyddiol.
+- Llenwa Dudalen y Prosiect gyda theitl, cyfarwyddiadau a nodiadau da fel bod defnyddwyr yn gwybod sut i ddefnyddio dy brosiect ac o ble ges di dy syniadau.
+- Ychwanega sylwadau byr sy'n egluro beth mae dy god yn ei wneud.
+- Gwna'n siŵr fod dy sgriptiau'n daclus yn y tab **Cod**. Galli di dde-glicio a dewis **Glanhau'r Blociau** neu drefnu'r sgriptiau mewn ffordd sy'n gwneud synnwyr i ti. Ceisia roi sgriptiau tebyg gyda'i gilydd.
 
 --- /collapse ---
