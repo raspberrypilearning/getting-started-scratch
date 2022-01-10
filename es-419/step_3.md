@@ -1,21 +1,21 @@
-## Set up a Scratch account
+## Configurar una cuenta Scratch
 
 --- task ---
 
-If you set up a Scratch account, you can save and keep all your Scratch projects online, and work on them again in the future.
+Si configuras una cuenta Scratch, puedes guardar y mantener todos tus proyectos de Scratch en línea, y trabajar en ellos nuevamente en el futuro.
 
-You can also share your projects and receive feedback, as well as comment on projects made by other people in the Scratch community.
+También puedes compartir tus proyectos y recibir revisiones, así como comentar sobre proyectos realizados por otras personas en la comunidad Scratch.
 
 [[[create-scratch-account]]]
 
-If you are an educator, you can set up Teacher and Student Accounts.
+Si eres un educador, puedes configurar cuentas para Docentes y Estudiantes.
 
 --- collapse ---
 ---
-title: Scratch Teacher Accounts
+title: Cuentas Scrath para Docentes
 ---
 
-Please see the [Scratch Teacher Account FAQ](https://scratch.mit.edu/educators/faq){:target="_blank"} for information on setting up an account that gives educators additional features for managing student participation on Scratch.
+Consulta las [Cuentas para Docentes FAQ](https://scratch.mit.edu/educators/faq){:target="_ blank"} para obtener información sobre cómo configurar una cuenta que brinde a los educadores funciones adicionales para gestionar la participación de los estudiantes en Scratch.
 
 --- /collapse ---
 
