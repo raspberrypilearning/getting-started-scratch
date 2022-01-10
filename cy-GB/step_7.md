@@ -1,10 +1,10 @@
-## Looks
+## Edrychiad
 
-`Looks`{:class="block3looks"} blocks control a sprite's appearance on the Stage.
+Mae blociau `Edrychiad`{:class="block3looks"} yn rheoli edrychiad corlun ar y Llwyfan.
 
-Sprites can communicate using `Looks`{:class="block3looks"}, through a `say`{:class="block3looks"} speech bubble, a `think`{:class="block3looks"} thought bubble, or through their `graphic effects`{:class="block3looks"}.
+Gall Corluniau gyfathrebu drwy ddefnyddio `Edrychiad`{:class="block3looks"}, swigen siarad `dweud`{:class="block3looks"}, swigen meddwl `meddwl`{:class="block3looks"}, neu drwy eu `effeithiau graffeg`{:class="block3looks"}.
 
-### Say and think
+### Dweud a meddwl
 
 ```blocks3
 say () for () seconds
@@ -18,35 +18,35 @@ think ()
 
 --- collapse ---
 ---
-title: Use a speech bubble to communicate
+title: Defnyddio swigen siarad i gyfathrebu
 ---
 
-Sprites can `say`{:class="block3looks"} and `think`{:class="block3looks"} to communicate.
+Mae gan gorluniau `dweud`{:class="block3looks"} a `meddwl`{:class="block3looks"}.
 
-The `say () for () seconds`{:class="block3looks"} and `think () for () seconds`{:class="block3looks"} blocks are used to say or think something for a set amount of time.
+Mae'r blociau `dweud () am () eiliad`{:class="block3looks"} a `meddwl () am () eiliad`{:class="block3looks"} yn cael eu defnyddio i ddweud neu feddwl rhywbeth am gyfnod penodol o amser.
 
 ```blocks3
 when this sprite clicked
 say [Hello!] for [2] seconds // hide speech after 2 seconds
 ```
 
-The sprite will show a speech bubble for two seconds when clicked.
+Bydd y corlun yn dangos swigen siarad am ddwy eiliad pan gaiff ei glicio.
 
-**Space talk**: [See inside](https://scratch.mit.edu/projects/485673032/editor){:target="_blank"}
+**Sgwrs yn y sêr**: [Gweld tu mewn](https://scratch.mit.edu/projects/485673032/editor){:target="_blank"}
 
-Click on the sprites to see them communicate with speech and thought.
+Clicia ar y corluniau i'w gweld yn cyfathrebu drwy siarad neu feddwl.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/485673032/?autostart=false" frameborder="0"></iframe>
 </div>
 
-The `say ()`{:class="block3looks"} and `think ()`{:class="block3looks"} blocks are used to say or think something, until another message or an empty `say ()`{:class="block3looks"} or `think ()`{:class="block3looks"} block replaces it.
+Mae'r blociau `dweud ()`{:class="block3looks"} a `meddwl ()`{:class="block3looks"} yn cael eu defnyddio i ddweud neu feddwl rhywbeth, tan fod neges arall neu floc `dweud ()`{:class="block3looks"} neu `meddwl ()`{:class="block3looks"} arall yn ei ddisodli.
 
 --- /collapse ---
 
-### Size
+### Maint
 
-Set or change the `size`{:class="block3looks"} of your sprites.
+Gosod neu newid `maint`{:class="block3looks"} dy gorluniau.
 
 ```blocks3
 change size by ()
@@ -58,35 +58,35 @@ set size to () %
 
 --- collapse ---
 ---
-title: Set the size of your sprite
+title: Gosod maint dy gorlun
 ---
 
-When you add a sprite to your project, its size is set to `100` percent. This may be too big or too small for your project.
+Pan fyddi di'n ychwanegu corlun at dy brosiect, mae ei faint wedi'i osod i `100` y cant. Gallai hyn fod yn rhy fawr neu'n rhy fach i dy brosiect.
 
-You can use code to set the size of a sprite. To do this, use a `set size to`{:class="block3looks"} block:
+Galli di ddefnyddio cod i osod maint corlun. I wneud hyn, defnyddia floc `gosod maint i`{:class="block3looks"}:
 
 ```blocks3
 set size to (50) %
 ```
 
-If you set the size of a sprite to `50` percent, it will be half as tall and half as wide. If you set the size of a sprite to `200` percent, it will be twice as tall and twice as wide.
+Os byddi di'n gosod maint corlun i `50` y cant, bydd hanner mor dal a hanner mor eang. Os byddi di'n gosod maint corlun i `200` y cant, bydd ddwywaith mor dal a ddwyaith mor eang.
 
-To set the size of a sprite when the project is started, place a `set size to`{:class="block3looks"} block under a `when green flag clicked`{:class="block3events"} block:
+I osod maint corlun pan gaiff y prosiect ei gychwyn, rho floc `gosod maint i`{:class="block3looks"} o dan bloc `pan fydd y fflag werdd wedi'i chlicio`{:class="block3events"}:
 
 ```blocks3
 when green flag clicked
 set size to (50) %
 ```
 
-You can also quickly set the size of a sprite in the **Size** property in the Sprite pane below the Stage:
+Galli di hefyd osod maint corlun yn gyflym yn y briodwedd **Maint** yng nghwarel y Corlun o dan y llwyfan:
 
-![The Size box highlighted in the Sprite pane.](images/spriteSize.png){:width="400px"}
+![Y blwch Maint wedi'i amlygu yn y Cwarel corlun.](images/spriteSize.png){:width="400px"}
 
 --- /collapse ---
 
-### Graphic effects
+### Effeithiau graffeg
 
-Set or change a range of visual effects, such as colour, fisheye, whirl, pixelate, mosaic, brightness and ghost.
+Galli di osod neu newid amrywiaeth o effeithiau gweledol, fel lliw, llygad pysgodyn, chwyrliad, picseleiddio, mosaig, disgleirdeb ac ysbryd.
 
 ```blocks3
 change [color v] effect by ()
@@ -98,34 +98,34 @@ clear graphic effects
 
 [[[scratch3-graphic-effects]]]
 
-### Costumes
+### Gwisgoedd
 
-To create an animation effect with your sprites, you can change their costumes.
+I greu effaith animeiddio gyda dy gorluniau, galli di newid eu gwisgoedd.
 
 ```blocks3
-switch costume to ( v)
+newid gwisg i (v)
 
-next costume
+gwisg nesaf
 
-(costume [number v])
+(gwisg [rhif v])
 ```
 
 [[[scratch3-change-costumes-to-show-mood]]]
 
 --- collapse ---
 ---
-title: Change looks to create an animation effect
+title: Newid yr edrychiad i greu effaith animeiddio
 ---
 
-**Beating heart**: [See inside](https://scratch.mit.edu/projects/435725413/editor){:target="_blank"}
+**Calon yn curo**: [Gweld tu mewn](https://scratch.mit.edu/projects/435725413/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435725413/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can use the `set size to`{:class="block3looks"} or `change size by`{:class="block3looks"} blocks to create a pulsing effect, such as a beating heart.
+Galli di ddefnyddio'r blociau `gosod maint i`{:class="block3looks"} neu `newid maint gan`{:class="block3looks"} i greu effaith pwls, fel calon yn curo.
 
-**Note:** The `set size to`{:class="block3looks"} block sets the size to a specific value, while the `change size by`{:class="block3looks"} block changes the value from what it was before, e.g. `change size by`{:class="block3looks"} `10` adds 10 to the value of the size.
+**Nodyn:** Mae'r bloc `newid maint i`{:class="block3looks"} yn gosod y maint i werth penodol, tra fo'r bloc `newid maint gan`{:class="block3looks"} yn newid y gwerth o beth roedd o'r blaen, e.e. mae `newid maint gan`{:class="block3looks"} `10` yn ychwanegu 10 i werth y maint.
 
 ```blocks3
 when green flag clicked
@@ -142,9 +142,9 @@ wait (0.2) seconds
 end
 ```
 
-This code uses a series of `change size by`{:class="block3looks"} and `wait`{:class="block3control"} blocks to make the heart grow and shrink. Try to create your own pulsing sprite.
+Mae'r cod yma yn defnyddio cyfres o flociau `newid maint gan`{:class="block3looks"} ac `aros`{:class="block3control"} i wneud i'r galon tyfu a chrebachu. Rho gynnig ar greu dy gorlun dy hun sy'n curo.
 
-You could also use the `change graphic effect by`{:class="block3looks"} block to create a sprite that continues to change its appearance.
+Fe allet ti hefyd ddefnyddio'r bloc `newid effaith graffeg gan`{:class="block3looks"} i greu corlun sy'n newid ei edrychiad.
 
 ```blocks3
 when green flag clicked
@@ -153,9 +153,9 @@ wait (1) seconds
 change [ghost v] effect by (-75)
 ```
 
-**Note:** If you use code that changes a graphic effect and then changes it back again, remember to use a `wait`{:class="block3control"} block in between the `change graphic effect by`{:class="block3looks"} blocks, otherwise, it will happen so fast that you won't see it!
+**Nodyn:** Os wyt ti'n defnyddio cod sy'n newid effaith graffeg ac sydd yn ei newid eto wedyn, cofia ddefnyddio bloc `aros`{:class="block3control"} rhwng y blociau `newid effaith graffeg gan`{:class="block3looks"}, fel arall bydd yn digwydd mor gyflym fyddi di ddim yn ei weld!
 
-You can use a `clear graphic effects`{:class="block3looks"} block at any time to reset the effects:
+Galli di ddefnyddio bloc `clirio effeithiau graffeg`{:class="block3looks"} i ailosod yr effeithiau:
 
 ```blocks3
 clear graphic effects
@@ -165,18 +165,18 @@ clear graphic effects
 
 --- collapse ---
 ---
-title: Click to change and then change back
+title: Clicio i newid ac yna newid yn ôl
 ---
 
-You can add actions that make a change to a sprite and then reverse them, such as growing, waiting, and then shrinking.
+Galli di ychwanegu gweithredoedd sy'n gwneud newid i gorlun ac yna yn ei wrthdroi, er engrhaifft tyfu, aros, ac yna crebachu.
 
-**Squash ball when clicked**: [See inside](https://scratch.mit.edu/projects/435723273/editor){:target="_blank"}
+**Gwasgu pêl ar ôl ei glicio**: [Gweld tu mewn](https://scratch.mit.edu/projects/435723273/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/435723273/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 </div>
 
-This code will grow a sprite, apply the `fisheye`{:class="block3looks"} effect for 0.5 seconds, and then return the sprite to its starting appearance:
+Bydd y cod yma yn tyfu corlun, yn defnyddio'r effaith `llygad pysgodyn`{:class="block3looks"} arno am 0.5 eiliad, ac yna'n dychwelyd y corlun i'w edrychiad cychwynnol:
 
 ```blocks3
 when this sprite clicked
@@ -191,9 +191,9 @@ set size to (100)
 
 [[[scratch3-animate-movement-costumes]]]
 
-### Backdrops
+### Cefnlenni
 
-You can use code to change the backdrop too.
+Galli di ddefnyddio cod i newid y gefnlen hefyd.
 
 ```blocks3
 switch backdrop to ( v)
@@ -205,9 +205,9 @@ next backdrop
 
 [[[scratch3-changing-backdrops-pages-levels]]]
 
-### Visibility
+### Gwelededd
 
-The `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks control the visibility of a sprite.
+Mae'r blociau `dangos`{:class="block3looks"} a `cuddio`{:class="block3looks"} yn rheoli gwelededd corlun.
 
 ```blocks3
 show 
@@ -217,9 +217,9 @@ hide
 
 [[[scratch3-show-hide-sprites-backdrops]]]
 
-### Layers
+### Haenau
 
-To change how your sprites appear in relation to each other, you can use layers.
+I newid sut mae dy gorluniau yn ymddangos mewn perthynas â'i gilydd, galli di ddefnyddio haenau.
 
 ```blocks3
 go to [front v] layer
@@ -231,18 +231,18 @@ go [forward v] () layers
 
 --- collapse ---
 ---
-title: Position sprites in many layers
+title: Lleoli corluniau mewn sawl haen
 ---
 
-**Through the window with tree**: [See inside](https://scratch.mit.edu/projects/454188775/editor){:target="_blank"}
+**Drwy'r ffenest gyda chorlun**: [Gweld tu mewn](https://scratch.mit.edu/projects/454188775/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/454188775/?autostart=false" frameborder="0"></iframe>
 </div>
 
-In the example, the **Window frame** sprite appears at the front and the **Sun** sprite appears at the back. The **Avery Walking** and **Tree** sprites are each in their own layers between the **Window frame** sprite and the **Sun** sprite.
+Yn yr enghraifft, mae'r corlun **Ffrâm ffenestr** yn ymddangos yn y blaen ac mae'r corlun **Haul** yn ymddangos yn y cefn. Mae'r corluniau **Avery yn Cerdded** a **Coeden** bob un yn eu haenau eu hunain rhwng y corlun **Ffrâm ffenestr** a'r corlun **Haul**.
 
-Use the `go backward`{:class="block3looks"} `1` `layers`{:class="block3looks"} block to place a sprite one layer behind the sprite at the front:
+Defnyddia'r bloc `mynd i haenau nôl`{:class="block3looks"} `1` i osod corlun un haen y tu ôl i'r corlun sydd yn y blaen:
 
 ``` blocks3
 when green flag clicked
@@ -250,7 +250,7 @@ go to [front v] layer
 +go [backward v] (1) layers
 ```
 
-Change the value in the `go backward`{:class="block3looks"} `1` `layers`{:class="block3looks"} block for each sprite, depending on where you want it to be positioned in relation to other sprites:
+Newidia'r gwerth yn y bloc `mynd i haenau nôl`{:class="block3looks"} `1` ar gyfer pob corlun, gan ddibynu ble rwyt ti am iddo gael ei leoli mewn perthynas â chorluniau eraill:
 
 ``` blocks3
 when green flag clicked
