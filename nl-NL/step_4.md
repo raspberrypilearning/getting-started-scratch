@@ -1,14 +1,14 @@
-## The Scratch editor
+## De Scratch-editor
 
-![An annotated screenshot of the Scratch editor.](images/scratch-interface.png)
+![Een geannoteerde screenshot van de Scratch-editor.](images/scratch-interface.png)
 
-The **Stage** is where the action takes place in your project. The Stage has one or more background images called **backdrops**.
+Het **Speelveld** is waar de actie plaatsvindt in je project. Het Speelveld heeft een of meer achtergrondafbeeldingen die **achtergronden** worden genoemd.
 
-**Sprites** are characters and objects that appear on the **Stage**. Sprites are given instructions using Scratch code blocks. This is called **programming**.
+**Sprites** zijn karakters en objecten die op het **Speelveld** verschijnen. Sprites krijgen instructies met behulp van Scratch-codeblokken. Dit wordt **programmeren** genoemd.
 
-Drag **code blocks** from the **Blocks menu** to the **Code area** to program your sprites and the Stage. Code blocks can make a sprite move around, change the way that it looks, and play sounds.
+Sleep **codeblokken** van het **Blokken menu** naar het **werkgebied voor code** om je sprites en het Speelveld te programmeren. Codeblokken kunnen een sprite laten bewegen, het uiterlijk veranderen en geluiden afspelen.
 
-Sprites can have multiple **costumes**. You can change the costume to change the appearance of a sprite. This can be used for effects such as giving the appearance of walking.
+Sprites kunnen meerdere **uiterlijken** hebben. Je kunt het uiterlijk veranderen om de sprite er anders te laten uitzien. Dit kan worden gebruikt voor effecten zodat het bijvoorbeeld lijkt op lopen.
 
-A **script** is a series of blocks that are joined together to give instructions to the Stage or sprites. The Stage and sprites can each have many different scripts. 
+Een **script** is een reeks blokken die zijn samengevoegd om instructies te geven aan het Speelveld of sprites. Het Speelveld en de sprites kunnen elk veel verschillende scripts hebben. 
 
