@@ -1,10 +1,10 @@
-## Events
+## Eventos
 
 Blocks in the `Events`{:class="block3events"} menu control when scripts are started.
 
-**Hat blocks** run the blocks below them when a particular event happens. They are rounded at the top, like a hat, so no blocks can go above them.
+**Bloques de sombrero** ejecutan los bloques debajo de ellos cuando ocurre un evento en particular. Están redondeados en la parte superior, como un sombrero, por lo que ningún bloque puede estar por encima de ellos.
 
-You can use:
+Puedes usar:
 
 ```blocks3
 
@@ -16,7 +16,7 @@ when stage clicked // run the blocks when the stage is clicked
 
 ```
 
-**Tip:** The `when stage clicked`{:class="block3events"} block is only available when you are working in the Code area for the Stage.
+**Consejo:** El bloque `cuando se hace clic en el escenario`{:class="block3events"} solo está disponible cuando se trabaja en el área de Código del escenario.
 
 If you are on a computer with a keyboard, you can use `when key pressed`{:class="block3events"}:
 
@@ -24,14 +24,14 @@ If you are on a computer with a keyboard, you can use `when key pressed`{:class=
 when [space v] key pressed // change to number, letter or arrow keys
 ```
 
-You can also use a `when backdrop switches to`{:class="block3events"} block to start a script when the backdrop changes.
+También puedes usar un bloque `cuando el fondo cambia a` {:class="block3events"} para iniciar una secuencia de comandos cuando cambia el fondo.
 
 [[[scratch3-changing-backdrops-pages-levels]]]
 
 [[[scratch3-show-hide-sprites-backdrops]]]
 
 
-The `when >`{:class="block3events"} block has two versions:
+El bloque `when >`{:class="block3events"} tiene dos versiones:
 
 ```blocks3
 when [loudness v] > (10) // run blocks when the microphone detects sound
