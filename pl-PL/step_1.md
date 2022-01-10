@@ -1,30 +1,30 @@
-## What is Scratch?
-Scratch is a graphical programming language developed by the Lifelong Kindergarten group at the MIT Media Lab. In Scratch, you can drag and combine code blocks to make a range of programs, including animations, stories, musical instruments, and games. It's a bit like the programming equivalent of building blocks!
+## Co to jest Scratch?
+Scratch to graficzny język programowania opracowany przez grupę Lifelong Kindergarten w MIT Media Lab. W Scratch można przeciągać i łączyć bloki kodu, aby tworzyć różne programy, w tym animacje, historie, instrumenty muzyczne i gry. To trochę taki odpowiednik w programowaniu, dla klocków do budowania!
 
-![A screenshot of Scratch.](images/showcase_static.png)
+![Zrzut ekranu Scratcha.](images/showcase_static.png)
 
-Scratch is used in many schools as part of the curriculum. It is free, and young people can use it at home as well as in clubs.
+Scratch jest używany w wielu szkołach jako część programu nauczania. Jest bezpłatny, a młodzi ludzie mogą z niego korzystać zarówno w domu, jak iw klubach.
 
-Scratch allows young people to learn coding concepts and create interactive projects without needing to learn a text-based programming language. You will not need to be able to type quickly or remember complex code to use Scratch.
+Scratch pozwala młodym ludziom uczyć się koncepcji kodowania i tworzyć interaktywne projekty bez konieczności uczenia się tekstowego języka programowania. Nie musisz być w stanie szybko pisać ani zapamiętywać złożonego kodu, aby korzystać ze Scratch.
 
-### How to use this reference guide
-If you have not used Scratch before, then this guide will help you to set up and create your first project.
+### Jak korzystać z tego przewodnika
+Jeśli nie korzystałeś wcześniej ze Scratcha, ten przewodnik pomoże Ci zacząć i stworzyć swój pierwszy projekt.
 
-You can return to this guide and use it to look up information that you need when you are making your own projects in Scratch.
+Możesz wrócić do tego przewodnika i użyć go do wyszukania informacji potrzebnych podczas tworzenia własnych projektów w Scratchu.
 
-At the end of the guide you will find links to paths of Scratch projects, from beginner through to advanced, where you can learn coding by making fun and interesting apps, games, stories, animations, art and music.
+Na końcu przewodnika znajdziesz linki do projektów Scratch, od początkującego do zaawansowanego, gdzie możesz uczyć się programowania, tworząc zabawne i ciekawe aplikacje, gry, historie, animacje, grafikę i muzykę.
 
 --- collapse ---
 ---
-title: What you will need
+title: Czego będziesz potrzebować
 ---
-### Hardware
+### Sprzęt
 
-+ A computer or tablet capable of running Scratch 3
++ Komputer lub tablet obsługujący Scratch 3
 
-### Software
+### Oprogramowanie
 
-+ This guide will explain how to get started with Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
++ Ten przewodnik wyjaśnia, jak rozpocząć korzystanie ze Scratch 3 ([online](https://scratch.mit.edu/){:target="_blank"} lub [offline](https://scratch.mit.edu/download){:target="_blank"})
 
 
 --- /collapse ---
