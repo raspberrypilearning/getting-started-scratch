@@ -1,10 +1,10 @@
-## Sensing
+## Αισθητήρες
 
-The blocks in the `Sensing`{:class="block3sensing"} blocks menu are used to get user text input, detect conditions, and report on values in your project.
+Τα μπλοκ στο μενού `Αισθητήρες`{:class="block3sensing"} χρησιμοποιούνται για τη εισαγωγή κειμένου από τον χρήστη, για τον εντοπισμό συνθηκών και την αναφορά τιμών στο έργο σου.
 
-There are several hexagonal `Sensing`{:class="block3sensing"} blocks that you can use in `Control`{:class="block3control"} blocks to make decisions and control when blocks run.
+Υπάρχουν πολλά εξαγωνικά μπλοκ `Αισθητήρων`{:class="block3sensing"} που μπορείς να χρησιμοποιείς στα μπλοκ `Ελέγχου`{:class="block3control"} για να λαμβάνεις αποφάσεις και να ελέγχεις πότε εκτελούνται τα μπλοκ.
 
-The `touching`{:class="block3sensing"} block has options for detecting whether the sprite that owns the script is touching the mouse pointer (where you finger last touched on a tablet), the edge of the Stage, or another sprite:
+Το μπλοκ `αγγίζει`{:class="block3sensing"} έχει επιλογές για τον εντοπισμό του εάν το αντικείμενο στο οποίο ανήκει το script αγγίζει τον δείκτη του ποντικιού (εκεί που άγγιξε το δάχτυλό σου τελευταία φορά σε ένα tablet), την άκρη της Σκηνής ή κάποιο άλλο αντικείμενο:
 
 ```blocks3
 <touching (mouse-pointer v) ?>
@@ -14,7 +14,7 @@ The `touching`{:class="block3sensing"} block has options for detecting whether t
 <touching (Sprite2 v) ?>
 ```
 
-There are blocks for detecting whether the sprite that owns the script is touching another colour (on the Stage or another sprite), or whether a colour on this sprite is touching another colour.
+Υπάρχουν μπλοκ για να ανιχνεύσεις εάν το αντικείμενο που κατέχει το script αγγίζει άλλο χρώμα (στη Σκηνή ή άλλο αντικείμενο) ή εάν ένα χρώμα σε αυτό το αντικείμενο αγγίζει άλλο χρώμα.
 
 ```blocks3
 <touching color (#c5a97b) ?>
@@ -22,19 +22,19 @@ There are blocks for detecting whether the sprite that owns the script is touchi
 <color (#c219ed) is touching (#62d1e0) ?>
 ```
 
-The `key pressed`{:class="block3sensing"} block has options for number, letter, and arrow keys. You need a keyboard to be able to enter keys. It detects whether the key is currently being pressed:
+Το μπλοκ `πατήθηκε πλήκτρο`{:class="block3sensing"} έχει επιλογές για αριθμούς, γράμματα και βελάκια. Χρειάζεσαι ένα πληκτρολόγιο για να μπορείς να εισάγεις πλήκτρα. Ανιχνεύει εάν το πλήκτρο πατιέται αυτήν τη στιγμή:
 
 ```blocks3
 <key (space v) pressed?>
 ```
 
-The `mouse down`{:class="block3sensing"} block detects whether the mouse is currently pressed, or the screen is being tapped or touched on a touchscreen:
+Το μπλοκ `πατήθηκε πλήκτρο ποντικιού`{:class="block3sensing"} ανιχνεύει εάν το ποντίκι είναι πατημένο αυτήν τη στιγμή ή εάν πατιέται ή αγγίζεται η οθόνη σε μια οθόνη αφής:
 
 ```blocks3
 <mouse down?>
 ```
 
-The `ask`{:class="block3sensing"} and `answer`{:class="block3sensing"} blocks are used to get text input from the user:
+Τα μπλοκ `ρώτησε`{:class="block3sensing"} και `απάντηση`{:class="block3sensing"} χρησιμοποιούνται για την εισαγωγή κειμένου από τον χρήστη:
 
 ```blocks3
 ask [What's your name] and wait
@@ -42,13 +42,13 @@ ask [What's your name] and wait
 (answer) // the text the the user typed 
 ```
 
-The `ask`{:class="block3sensing"} block works with a keyboard or with a virtual on-screen keyboard on a tablet.
+Το μπλοκ `ρώτησε `{:class="block3sensing"} λειτουργεί με πληκτρολόγιο ή με εικονικό πληκτρολόγιο οθόνης σε tablet.
 
-The `answer`{:class="block3sensing"} block is a reporter block that reports a value and can be used as a variable.
+Το μπλοκ `απάντηση`{:class="block3sensing"} είναι ένα μπλοκ αναφοράς που αναφέρει μια τιμή και μπορεί να χρησιμοποιηθεί ως μεταβλητή.
 
 [[[scratch3-ask-answer-chat]]]
 
-The `Sensing`{:class="block3sensing"} blocks menu also contains several reporter blocks that can be used to get values:
+Το μενού `Αισθητήρες`{:class="block3sensing"} περιέχει επίσης πολλά μπλοκ αναφοράς που μπορούν να χρησιμοποιηθούν για λήψη τιμών:
 
 ```blocks3
 (distance to (mouse-pointer v))
@@ -56,7 +56,7 @@ The `Sensing`{:class="block3sensing"} blocks menu also contains several reporter
 (distance to (Sprite2 v))
 ```
 
-You can detect the current position of the mouse-pointer (or the current or most recent position of your finger on a tablet):
+Μπορείς να εντοπίσεις την τρέχουσα θέση του δείκτη του ποντικιού (ή την τρέχουσα ή την πιο πρόσφατη θέση του δακτύλου σου σε ένα tablet):
 
 ```blocks3
 (mouse x)
@@ -64,13 +64,13 @@ You can detect the current position of the mouse-pointer (or the current or most
 (mouse y)
 ```
 
-You can detect the `loudness`{:class="block3sensing"} of sound from the microphone. A pop-up window will ask the user for permission to use the microphone:
+Μπορείς να εντοπίσεις την `ένταση `{:class="block3sensing"} του ήχου από το μικρόφωνο. Ένα αναδυόμενο παράθυρο θα ζητήσει από τον χρήστη άδεια να χρησιμοποιήσει το μικρόφωνο:
 
 ```blocks3
 (loudness)
 ```
 
-The `timer`{:class="block3sensing"} starts counting when the project loads, and can be set back to `0` with `reset timer`{:class="block3sensing"}:
+Το `χρονόμετρο`{:class="block3sensing"} αρχίζει να μετράει όταν φορτώνεται το έργο και μπορεί να ρυθμιστεί ξανά στο `0` με το `μηδένισε χρονόμετρο`{:class="block3sensing"}:
 
 ```blocks3
 (timer)
@@ -78,7 +78,7 @@ The `timer`{:class="block3sensing"} starts counting when the project loads, and 
 reset timer
 ```
 
-You can also access reporters for the Stage and other sprites:
+Μπορείς επίσης να έχεις αναφορές για τη Σκηνή και για άλλα αντικείμενα:
 
 ```blocks3
 ([backdrop # v] of (_stage_ v))
@@ -88,7 +88,7 @@ You can also access reporters for the Stage and other sprites:
 ([costume # v] of (Sprite2 v))
 ```
 
-There are reporters related to the date and time in the real world, in your local timezone:
+Υπάρχουν αναφορές που σχετίζονται με την ημερομηνία και την ώρα στον πραγματικό κόσμο, στη δική σου ζώνη ώρας:
 
 ```blocks3
 (current [year v]) // hour, minute, ...
