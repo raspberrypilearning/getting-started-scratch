@@ -1,8 +1,8 @@
-## Paint editor
+## Éditeur graphique
 
-Use the Paint editor to create your own backdrops and costumes, and to edit existing backdrops and costumes.
+Utiliser l'éditeur graphique pour créer tes propres arrière-plans et costumes, et pour éditer des arrière-plans et des costumes existants.
 
-![An annotated screenshot of the Costumes tab.](images/Scratch-Costume-tab.png){:width="600px"}
+![Une capture d'écran annotée de l'onglet Costumes.](images/Scratch-Costume-tab.png){:width="600px"}
 
 [[[scratch3-paint-a-new-backdrop-extended]]]
 
@@ -18,193 +18,193 @@ Use the Paint editor to create your own backdrops and costumes, and to edit exis
 
 --- collapse ---
 ---
-title: Duplicate and edit a costume to use in an animation
+title: Dupliquer et éditer un costume à utiliser dans une animation
 ---
 
-Some Scratch sprites just have one costume, or have multiple costumes that don't work as an animation. If you choose one costume, then duplicate it (make a copy of it) and make a small change, it can create an animation effect.
+Certains sprites Scratch n'ont qu'un seul costume, ou ont plusieurs costumes qui ne fonctionnent pas comme une animation. Si tu choisis un costume, puis le dupliques (en en faisant une copie) et apportes une petite modification, cela peut créer un effet d'animation.
 
-**Robot animation**: [See inside](https://scratch.mit.edu/projects/436260207/editor){:target="_blank"}
+**Animation robot** : [Voir à l'intérieur](https://scratch.mit.edu/projects/436260207/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/436260207/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Switch to the **Costumes** tab for your sprite.
+Bascule vers l'onglet **Costumes** de ton sprite.
 
-Choose the costume that you want to use, and delete the other costumes, because you will not need them for your animation. For example, the **Robot** sprite comes with costumes for three different robots, so you should choose one of the costumes and delete the other costumes.
+Choisis le costume que tu souhaites utiliser, et supprimes les autres, car tu n'en auras pas besoin pour ton animation. Par exemple, le sprite **Robot** est livré avec des costumes pour trois robots différents, tu dois donc choisir l'un des costumes et supprimer les autres costumes.
 
-Right-click (or on a tablet, tap and hold) on the costume, and choose **duplicate**.
+Fais un clic droit (ou sur une tablette, appuie longuement) sur le costume, et choisis **dupliquer**.
 
-Make small changes to the copy of the costume. For example, you can move, rotate, or change all or part of the costume. You can also add movement lines.
+Apporte de petites modifications à la copie du costume. Par exemple, tu peux déplacer, faire pivoter ou modifier tout ou partie du costume. Tu peux également ajouter des lignes de mouvement.
 
-If your costume uses vector graphics, then you can select parts of a costume and change each part separately.
+Si ton costume utilise des graphiques vectoriels, tu peux sélectionner des parties d'un costume et modifier chaque partie séparément.
 
-![Duplicating a robot costume, then making changes to parts of the copy of the costume.](images/edit-robot-costume.gif)
+![Dupliquer un costume de robot, puis apporter des modifications à des parties de la copie du costume.](images/edit-robot-costume.gif)
 
-You can duplicate the costume again and make more changes to add more frames to your animation.
+Tu peux à nouveau dupliquer le costume et apporter d'autres modifications pour ajouter plus d'images à ton animation.
 
-You can now use your costumes in a simple sprite animation.
-
---- /collapse ---
-
---- collapse ---
----
-title: Use the Fill tool to change the colours in a costume
----
-
-You can change the colour of your sprite. First, select your sprite in the Sprite list below the Stage and then click on the **Costumes** tab.
-
-Use the **Select** (Arrow) tool to highlight the part of the costume you want to change colour.
-
-![The Select (Arrow) tool.](images/challenge1-arrow-tool.png){:width="200px"}
-
-![Selecting a shape.](images/challenge1-arrow-tool-selecting-shape.png){:width="300px"}
-
-Go to the **Fill** colour chooser and select a colour. It will automatically fill the shape that you have selected.
-
-![The Fill colour chooser in the Paint editor, and the shape filled with the colour chosen.](images/challenge1-fill-tool.png){:width="300px"}
-
-Repeat the steps above for any part of the costume that you have missed, or for any other part of the costume you want to change colour.
-
-![Selecting a different part of the costume.](images/challenge1-select-another-shape.png){:width="300px"}
-
-![Different parts of the costume have been changed to different colours.](images/challenge1-change-shape-colour.png){:width="300px"}
-
-![The changed sprite on the Stage.](images/challenge1-change-costume-colour.png){:width="300px"}
-
---- /collapse ---
-
-Use the tips below to help you to create your own designs for your sprites in the Paint editor.
-
---- collapse ---
----
-title: Create scenery as sprites
----
-
-**Hill as a sprite**: [See inside](https://scratch.mit.edu/projects/452582516/editor){:target="_blank"}
-
-![A hill sprite.](images/challenge2-sprite-hill.png){:width="400px"}
-
-To make your own **Hill** sprite, shown in the example above, you can use the **Circle** and **Rectangle** tools in the Paint editor:
-
-+ Go to **Choose a Sprite** and select **Paint** to create a new sprite costume.
-
-![Selecting a Fill colour of green, deselecting the Outline, and drawing a green oval with the Circle tool, in the Paint editor.](images/challenge2-backdrop-sprite-costume.gif){:width="400px"}
-
-+ Choose a **Fill** colour. Click on **Outline** and deselect it (to do this, click on the box with the diagonal line in the bottom left-hand corner of the menu). Now, use the **Circle** tool to draw an oval. Then, select the **Rectangle** tool and draw a rectangle underneath the oval.
-
-+ If you use varying colours for the shapes, you may need to use the **Front** and **Back** tools in the Paint editor to move your shapes forward or backward so that they are positioned correctly within your background.
-
-+ You can select all the shapes and **Group** them together so that you can adjust them or move them as one shape.
-
-![The Group tool highlighted in the Paint editor.](images/challenge2-group-shapes.png){:width="400px"}
-
-Now, make other sprites for your scenery, if this fits in with your project idea.
-
-Remember to name your sprite(s).
+Tu peux maintenant utiliser tes costumes dans une simple animation de sprite.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Use the Line tool to create a triangle
+title: Utiliser l'outil Remplissage pour changer les couleurs d'un costume
 ---
 
-You can create polygons, such as a triangle, and use these shapes to create roofs or mountains.
+Tu peux changer la couleur de ton sprite. Tout d'abord, sélectionne ton sprite dans la liste Sprite sous la Scène, puis clique sur l'onglet **Costumes**.
 
-Go to **Choose a Sprite** and select **Paint** to create a new sprite costume. In this example, you will make houses.
+Utilise l'outil **Sélectionner** (Flèche) pour mettre en surbrillance la partie du costume dont tu souhaites changer la couleur.
 
-**House**: [See inside](https://scratch.mit.edu/projects/453595663/editor){:target="_blank"}
+![L'outil Sélectionner (flèche).](images/challenge1-arrow-tool.png){:width="200px"}
 
-![Drawing a rectangle with the Rectangle tool, and a triangle with the Line tool, in the Paint editor.](images/challenge2-backdrop-sprite-costumes-line-tool.gif){:width="400px"}
+![Sélection d'une forme.](images/challenge1-arrow-tool-selecting-shape.png){:width="300px"}
 
-If you follow the instructions below, you can use the **Line** tool to create any shape:
-+ Choose a **Fill** colour. To choose the colour black, decrease the **Brightness** to zero (`0`).
+Développe le sélecteur de couleurs **Remplissage** et sélectionne une couleur. Cela remplira automatiquement la forme que tu as sélectionnée.
 
-![Changing the Fill colour to black.](images/challenge2-black.png){:width="150px"}
+![Le sélecteur de couleur de remplissage dans l'éditeur graphique et la forme remplie avec la couleur choisie.](images/challenge1-fill-tool.png){:width="300px"}
 
-+ Select **No outline**.
+Répéte les étapes ci-dessus pour toute partie du costume que tu as manquée, ou pour toute autre partie du costume dont tu souhaites changer la couleur.
 
-![The 'No outline' symbol highlighted.](images/challenge2-nooutline.png){:width="200x"}
+![Sélection d'une autre partie du costume.](images/challenge1-select-another-shape.png){:width="300px"}
 
-+ Use the **Rectangle** tool to draw a rectangle.
-+ Use the **Line** tool to draw a triangle. Make sure that you complete the triangle, otherwise it will not fill with colour.
-+ Move the two shapes together.
-+ Select the **Fill** (Bucket) tool and fill the triangle with colour.
-+ Use the **Rectangle** tool to draw another rectangle for the chimney.
-+ You can use the **Front** and **Back** tools in the Paint editor to move your shapes forward or backward so that they are positioned correctly. In this example, you will not need to do this, because the shapes are black to make a silhouette.
-+ Select all the shapes and **Group** them together so that you can adjust them or move them as one shape.
+![Différentes parties du costume ont été changées en différentes couleurs.](images/challenge1-change-shape-colour.png){:width="300px"}
 
-To create duplicate shapes of your house (for example, to make a skyline), follow the tips under **Duplicate shapes to create a scenery costume** below.
+![Le sprite modifié sur la Scène.](images/challenge1-change-costume-colour.png){:width="300px"}
+
+--- /collapse ---
+
+Utilisez les conseils ci-dessous pour vous aider à créer vos propres modèles de sprites dans l'éditeur graphique.
+
+--- collapse ---
+---
+title: Créer des décors sous forme de sprites
+---
+
+**Une colline comme sprite** : [Voir à l'intérieur](https://scratch.mit.edu/projects/452582516/editor){:target="_blank"}
+
+![Un sprite colline.](images/challenge2-sprite-hill.png){:width="400px"}
+
+Pour créer ta propre **Colline** , illustrée dans l'exemple ci-dessus, tu peux utiliser les outils **Cercle** et **Rectangle** dans l'éditeur graphique :
+
++ Va à **Choisir un Sprite** et sélectionne **Peindre** pour créer un nouveau costume de sprite.
+
+![Sélection d'une couleur de remplissage verte, désélection du contour et dessin d'un ovale vert avec l'outil Cercle, dans l'éditeur graphique.](images/challenge2-backdrop-sprite-costume.gif){:width="400px"}
+
++ Choisis une couleur de **Remplissage**. Clique sur **Contour** et désélectionne-le (pour cela, clique sur la case avec la ligne diagonale rouge en bas à gauche du menu). Maintenant, utilise l'outil **Cercle** pour dessiner un ovale. Ensuite, sélectionne l'outil **Rectangle** et dessine un rectangle sous l'ovale.
+
++ Si tu utilises des couleurs différentes pour les formes, tu devras peut-être utiliser les outils **Avancer** et **Reculer** dans l'éditeur graphique pour déplacer tes formes vers l'avant ou vers l'arrière afin qu'elles soient correctement positionnées dans ton arrière-plan.
+
++ Tu peux sélectionner toutes les formes et les **Grouper** ensemble afin de pouvoir les ajuster ou les déplacer comme une seule forme.
+
+![L'outil Groupe mis en surbrillance dans l'éditeur graphique.](images/challenge2-group-shapes.png){:width="400px"}
+
+Maintenant, crée d'autres sprites pour ton décor, si cela correspond à ton idée de projet.
+
+N'oublie pas de nommer ton ou tes sprite(s).
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Duplicate shapes to create a scenery costume
+title: Utiliser l'outil Ligne pour créer un triangle
 ---
 
-You may want to duplicate shapes within a costume so that your scenery appears busier or more crowded.
+Tu peux créer des polygones, comme un triangle, et utiliser ces formes pour créer des toits ou des montagnes.
 
-**Multiple clouds**: [See inside](https://scratch.mit.edu/projects/447278432/editor){:target="_blank"}
+Va à **Choisir un Sprite** et sélectionne **Peindre** pour créer un nouveau costume de sprite. Dans cet exemple, tu vas faire des maisons.
 
-![Multiple clouds on the Stage.](images/challenge2-sprite-costume-multiples.png){:width="400px"}
+**Maison** : [Voir à l'intérieur](https://scratch.mit.edu/projects/453595663/editor){:target="_blank"}
 
-The effect of multiplying shapes is used by professional animators to create the impression of weather patterns, such as rain or clouds; a cluster of objects, such as buildings or a wood; or a crowd of people in a scene.
+![Dessiner un rectangle avec l'outil Rectangle et un triangle avec l'outil Ligne, dans l'éditeur graphique.](images/challenge2-backdrop-sprite-costumes-line-tool.gif){:width="400px"}
+
+Si tu suis les instructions ci-dessous, tu peux utiliser l'outil **Ligne** pour créer n'importe quelle forme :
++ Choisis une couleur de **Remplissage**. Pour choisir la couleur noire, diminue la **Luminosité** à zéro (`0`).
+
+![Changer la couleur de Remplissage en noir.](images/challenge2-black.png){:width="150px"}
+
++ Sélectionne **Pas de contour**.
+
+![Le symbole « Pas de contour » est mis en surbrillance.](images/challenge2-nooutline.png){:width="200x"}
+
++ Utilise l'outil **Rectangle** pour dessiner un rectangle.
++ Utilise l'outil **Ligne** pour dessiner un triangle. Assure-toi de compléter le triangle, sinon il ne se remplira pas de couleur.
++ Déplace les deux formes pour les connecter ensemble.
++ Sélectionne l'outil **Remplissage** (Seau) et remplis le triangle de couleur.
++ Utilise l'outil **Rectangle** pour dessiner un autre rectangle pour la cheminée.
++ Tu peux utiliser les outils **Avancer** et **Reculer** dans l'éditeur graphique pour déplacer tes formes vers l'avant ou vers l'arrière afin qu'elles soient correctement positionnées. Dans cet exemple, tu n'auras pas besoin de le faire, car les formes sont noires afin de former une silhouette.
++ Sélectionne toutes les formes et clique sur **Grouper** afin que tu puisses les ajuster ou les déplacer comme une seule forme.
+
+Pour créer des formes en double de ta maison (par exemple, pour créer une ligne d'horizon), suis les conseils sous **Dupliquer des formes pour créer un costume de décor** ci-dessous.
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Dupliquer des formes pour créer un costume de décor
+---
+
+Tu voudras peut-être dupliquer des formes dans un costume afin que ton paysage semble plus occupé ou plus peuplé.
+
+**Nuages multiples** : [Voir à l'intérieur](https://scratch.mit.edu/projects/447278432/editor){:target="_blank"}
+
+![Plusieurs nuages sur la Scène.](images/challenge2-sprite-costume-multiples.png){:width="400px"}
+
+L'effet de multiplication des formes est utilisé par les animateurs professionnels pour créer l'impression de conditions météorologiques, telles que la pluie ou les nuages ; un groupe d'objets, tels que des bâtiments ou un bois ; ou une foule de personnes dans une scène.
 
 --- no-print ---
 
-![Using the Select, Copy, and Paste tools to make a costume with multiple cloud shapes.](images/challenge2-sprite-costume-multiples.gif)
+![Utilisation des outils Sélectionner, Copier et Coller pour créer un costume avec plusieurs formes de nuages.](images/challenge2-sprite-costume-multiples.gif)
 
 --- /no-print ---
 
-To multiply any type of shape:
-+ Go to **Choose a Sprite** and select, in this example, the **Cloud** sprite
-+ In the **Costumes** tab, use the **Select** tool to highlight the whole of the shape
-+ Use the **Copy** and **Paste** tools to create duplicates of the shape
-+ Use the **Select** tool to move the shape within the Paint editor
-+ You can vary the size of the shapes to help to create a greater sense of 3D effects, for example
-+ You can select all the shapes and **Group** them together, so that you can adjust them or move them as one shape
+Pour multiplier tout type de forme :
++ Va à **Choisir un Sprite** et sélectionne, dans cet exemple, le Sprite ** Cloud**
++ Dans l'onglet **Costumes** , utilise l'outil **Sélectionner** pour surligner l'ensemble de la forme
++ Utilise les outils **Copier** et **Coller** pour créer des doublons de la forme
++ Utilise l'outil **Sélectionner** pour déplacer la forme dans l'éditeur graphique
++ Tu peux varier la taille des formes pour aider à créer un plus grand sens d'effet 3D, par exemple
++ Tu peux sélectionner toutes les formes et les **Grouper** ensemble, afin de pouvoir les ajuster ou les déplacer comme une seule forme
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Use Saturation and Brightness to create depth
+title: Utiliser la saturation et la luminosité pour créer de la profondeur
 ---
 
-In the real world, objects that are further away appear lighter in colour. To achieve more realistic 3D scenery, you can **decrease** the colour **Saturation** and/or **Brightness** of each sprite so that they appear further and further away.
+Dans le monde réel, les objets plus éloignés apparaissent de couleur plus claire. Pour obtenir des scènes 3D plus réalistes, tu peux **diminuer** la couleur **Saturation** et/ou **Luminosité** de chaque sprite afin qu'ils apparaissent de plus en plus loin.
 
-!['Saturation' and 'Brightness' highlighted in the Fill colour chooser.](images/challenge2-saturation.png){:width="400px"}
+![« Saturation » et « Luminosité » mis en surbrillance dans le sélecteur de couleur de remplissage.](images/challenge2-saturation.png){:width="400px"}
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Create a sprite with gaps that you can see through
+title: Créer un sprite avec des espaces laissant voir à travers
 ---
 
-You can create a sprite that has gaps that you can see through. If it is positioned as the front layer and is the size of the Stage, it can appear like a view through the bars of a cage or a window.
+Tu peux créer un sprite qui a des espaces te laissant voir à travers. S'il est positionné à l'avant-plan et a la taille de la Scène, il peut apparaître comme une vue à travers les barreaux d'une cage ou d'une fenêtre.
 
 --- no-print ---
 
-**Caged lion**: [See inside](https://scratch.mit.edu/projects/445680159/editor){:target="_blank"}
+**Lion en cage** : [Voir à l'intérieur](https://scratch.mit.edu/projects/445680159/editor){:target="_blank"}
 
-![A cage sprite costume.](images/challenge2-sprite-costume-mask-cage.gif)
+![Un costume de sprite réprésentant une cage.](images/challenge2-sprite-costume-mask-cage.gif)
 
 --- /no-print ---
 
-To create a type of masking sprite:
-+ Go to **Choose a Sprite** and select **Paint**
-+ Choose a **Fill** colour with no **Outline** and draw a vertical rectangle
-+ Use the **Copy** and **Paste** tools to repeat this shape
-+ Use the **Select** tool to move the shapes around
-+ As you place your shapes, make sure that they are touching the edge of the Stage to fit in with your project idea
+Pour créer un type de sprite de masquage :
++ Va à **Choisir un Sprite** et sélectionne **Peindre**
++ Choisis une couleur de **Remplissage** sans **Contour** et dessine un rectangle vertical
++ Utilise les outils **Copier** et **Coller** pour répéter cette forme
++ Utilise l'outil **Sélectionner** pour déplacer les formes
++ Lorsque tu places tes formes, assure-toi qu'elles touchent le bord de la Scène pour s'adapter à ton idée de projet
 
-![The Copy and Paste tools highlighted in the Paint editor.](images/challenge2-sprite-costume-mask-copy.png)
+![Les outils Copier et Coller mis en surbrillance dans l'éditeur graphique.](images/challenge2-sprite-costume-mask-copy.png)
 
 --- /collapse ---
 
-**Tip:** If you find it hard to manage the sprites on your Stage, such as having a large sprite that keeps covering a much smaller one, you can click on **Hide** so that you don't see a sprite or sprites. Then, when you have finished, click on **Show** again.
+**Astuce :** Si tu as du mal à gérer les sprites sur ta scène, par exemple si tu as un grand sprite qui en recouvre un beaucoup plus petit, tu peux cliquer sur **Cacher** pour ne pas voir un ou plusieurs sprites. Ensuite, lorsque tu as terminé, clique à nouveau sur **Montrer**.
 
-![The 'Show' and 'Hide' icons highlighted in the Sprite pane.](images/hideSprites.png){:width="300px"}
+![Les icônes « Montrer » et « Cacher » mises en surbrillance dans le volet Sprite.](images/hideSprites.png){:width="300px"}
