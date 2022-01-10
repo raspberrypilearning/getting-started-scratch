@@ -1,42 +1,42 @@
 ## Variables
 
-A `variable`{:class="block3variables"} is a way of storing numbers and/or text.
+Une `variable`{:class="block3variables"} est un moyen de stocker des nombres et/ou du texte.
 
-You can make your own variables and choose whether they show on the Stage:
+Tu peux créer tes propres variables et choisir si elles s'affichent sur la Scène :
 
 [[[generic-scratch3-add-variable]]]
 
-You should think about whether you need to set a starting value when you make a variable:
+Tu dois considérer si tu as besoin de définir une valeur de départ lorsque tu crées une variable :
 
 [[[scratch3-create-set-variable]]]
 
-You can rename a variable if you change your mind:
+Tu peux renommer une variable si tu changes d'avis :
 
 --- collapse ---
 ---
-title: Rename a variable
+title: Renommer une variable
 ---
 
-Sometimes you think of a better name for a variable.
+Parfois, tu penses à un meilleur nom pour une variable.
 
-You can give a variable a new name: go to the `Variables`{:class="block3variables"} blocks menu, right-click (or on a tablet, tap and hold) on the `variable`{:class="block3variables"}, and choose **Rename variable**.
+Tu peux donner un nouveau nom à une variable : va dans la catégorie `Variables`{:class="block3variables"}, fais un clic droit (ou sur une tablette, appuie longuement) sur la `variable`{:class="block3variables "}, et choisis **Renommer la variable**.
 
-![Selecting 'Rename variable' in the menu.](images/rename-variable.png)
+![Sélectionner « Renommer la variable » dans le menu.](images/rename-variable.png)
 
-This will change the name of the variable in all the blocks in which you have used it.
+Cela changera le nom de la variable dans tous les blocs dans lesquels tu l'as utilisée.
 
 --- /collapse ---
 
-**Tip:** Make sure you know the difference between `set`{:class="block3variables"} and `change by`{:class="block3variables"}. `set`{:class="block3variables"} will replace the value stored in a variable. `change by`{:class="block3variables"} will change the value of a number variable by the amount you choose, `change by`{:class="block3variables"}`1` will add one to a variable. `change by`{:class="block3variables"}`-1` will take one away from a variable.
+**Astuce :** Assure-toi de connaître la différence entre `mettre à`{:class="block3variables"} et `ajouter à`{:class="block3variables"}. `mettre à`{:class="block3variables"} remplacera la valeur stockée dans une variable. `ajouter à`{:class="block3variables"} changera la valeur d'une variable numérique du montant que tu choisis, `ajouter`{:class="block3variables"}`1` ajoutera un à une variable. `ajouter`{:class="block3variables"}`-1` enlèvera un à une variable.
 
 
-**Tip:** Variables on the Stage always appear in a layer above all of the sprites. If you have a moving sprite, the sprite will go under any variables on the Stage.
+**Astuce :** Les variables sur la Scène apparaissent toujours dans une couche au-dessus de tous les sprites. Si tu as un sprite en mouvement, le sprite sera affiché en dessous des variables sur la Scène.
 
-You can use a slider to control the value in a variable.
+Tu peux utiliser un curseur pour contrôler la valeur d'une variable.
 
 [[[scratch3-slider-variable]]]
 
-More ideas for using variables:
+Autres idées d'utilisation des variables :
 
 [[[generic-scratch3-high-score]]]
 
@@ -49,21 +49,21 @@ More ideas for using variables:
 
 --- collapse ---
 ---
-title: Control graphic effects with a variable slider
+title: Contrôler les effets graphiques avec un curseur variable
 ---
 
-Here are some examples of how you can use your variable slider:
+Voici quelques exemples d'utilisation de ton curseur variable :
 
 
-This example changes the `ghost`{:class="block3looks"} graphic effect so you can see through the rainbow.
+Cet exemple modifie l'effet `fantôme`{:class="block3looks"} afin que tu puisses voir à travers l'arc-en-ciel.
 
-**Transparent rainbow**: [See inside](https://scratch.mit.edu/projects/451544795/editor){:target="_blank"}
+**Arc-en-ciel transparent** : [Voir à l'intérieur](https://scratch.mit.edu/projects/451544795/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451544795/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can use a `transparent`{:class="block3variables"} variable to control the `ghost`{:class="block3looks"} effect on a sprite at the `front`{:class="block3looks"}, and use it to reveal or hide sprites in lower layers.
+Tu peux utiliser une variable `transparence`{:class="block3variables"} pour contrôler l'effet `fantôme`{:class="block3looks"} sur un sprite situé au `premier plan`{:class="block3looks"}, et utiliser pour révéler ou masquer les sprites situés sur les couches inférieures.
 
 ```blocks3
 when flag clicked
@@ -76,22 +76,22 @@ forever
 set [ghost v] effect to (transparent)
 ```
 
-Try using the same approach with other graphic effects such as `brightness`{:class="block3looks"} or `color`{:class="block3looks"}.
+Essaye d'utiliser la même approche avec d'autres effets graphiques tels que `luminosité`{:class="block3looks"} ou `couleur`{:class="block3looks"}.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Control movement speed with a variable
+title: Contrôler la vitesse de déplacement avec une variable
 ---
 
-**Ladybug on a wall**: [See inside](https://scratch.mit.edu/projects/451545341/editor){:target="_blank"}
+**Coccinelle sur un mur** : [Voir à l'intérieur](https://scratch.mit.edu/projects/451545341/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451545341/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Use the `speed`{:class="block3variables"} variable as the input to a `move`{:class="block3motion"} block:
+Utiliser la variable `vitesse`{:class="block3variables"} comme entrée d'un bloc `avancer`{:class="block3motion"} :
 
 ```blocks3
 when flag clicked
@@ -99,22 +99,22 @@ forever
 move (speed) steps
 if on edge, bounce
 ```
-Set the minimum and maximum values for the range of the slider to suit your project.
+Définis les valeurs minimales et maximales pour la plage du curseur en fonction de ton projet.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Control turn speed with a variable
+title: Contrôler la vitesse de rotation avec une variable
 ---
 
-**Space dog**: [See inside](https://scratch.mit.edu/projects/451543041/editor){:target="_blank"}
+**Chien spationaute** : [Voir à l'intérieur](https://scratch.mit.edu/projects/451543041/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451543041/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Use an `angle`{:class="block3variables"} variable as the input to a `turn right`{:class="block3motion"} block:
+Utiliser une variable `angle`{:class="block3variables"} comme l'entrée d'un bloc `touner vers la droite`{:class="block3motion"} :
 
 ```blocks3
 when flag clicked
@@ -126,16 +126,16 @@ turn right (angle) degrees
 
 --- collapse ---
 ---
-title: Change the delay in a wait block
+title: Modifier le délai dans un bloc d'attente
 ---
 
-**Skeleton dance**: [See inside](https://scratch.mit.edu/projects/451536565/editor){:target="_blank"}
+**La danse du squelette** : [Voir à l'intérieur](https://scratch.mit.edu/projects/451536565/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451536565/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Use a `delay`{:class="block3variables"} variable as the input to a `wait`{:class="block3control"} block:
+Utiliser une variable `délai`{:class="block3variables"} comme paramètre d'entrée d'un bloc `attendre`{:class="block3control"} :
 
 ```blocks3
 when flag clicked
@@ -144,28 +144,28 @@ wait (delay) seconds
 next costume
 ```
 
-A delay of more than one second is quite a long time. If you include a decimal number in the range of a slider, then you can change the value by a 100th of a second at a time.
+Un délai de plus d'une seconde est assez long. Si tu inclus un nombre décimal dans la plage d'un curseur, tu peux modifier la valeur par tranche d'un 100ème de seconde à la fois.
 
-A range of `0.00` to `1.00` allows you to choose a delay between `0` seconds (no delay) and `1` second.
+Une plage de `0.00` à `1.00` te permet de choisir un délai entre `0` secondes (pas de délai) et `1` secondes.
 
-![Changing the slider range to 0.00 to 1.00.](images/decimal-delay.png)
+![Modifier la plage du curseur de 0,00 à 1,00.](images/decimal-delay.png)
 
-Change the numbers to get the minimum and maximum values that you want users to be able to use in your project.
+Modifie les nombres pour obtenir les valeurs minimales et maximales que tu souhaites que les utilisateurs puissent utiliser dans ton projet.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Change sound effects
+title: Changer les effets sonores
 ---
 
-**Drum pitch**: [See inside](https://scratch.mit.edu/projects/451547017/editor){:target="_blank"}
+**Ton musical** : [Voir à l'intérieur](https://scratch.mit.edu/projects/451547017/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451547017/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can use a `variable`{:class="block3variables"} in a `set pitch effect to`{:class="block3sound"} block. If you increase the pitch of a sound, the notes get higher and the sound speeds up.
+Tu peux utiliser une `variable`{:class="block3variables"} dans un bloc `mettre l'effet hauteur à`{:class="block3sound"}. Si tu augmentes la hauteur d'un son, les notes deviennent plus hautes et le son s'accélère.
 
 ```blocks3
 when flag clicked
@@ -173,7 +173,7 @@ forever
 set [pitch v] effect to (beat) :: sound
 ```
 
-Play the sound in a separate `forever`{:class="block3control"} loop, so that the pitch will change immediately, rather than waiting until the sound has finished playing:
+Joue le son dans une boucle `répéter indéfiniment`{:class="block3control"}, de sorte que la hauteur change immédiatement, plutôt que d'attendre la fin de la lecture du son :
 
 ```blocks3
 when flag clicked
@@ -181,7 +181,7 @@ forever
 play sound [Dance Head Nod v] until done
 ```
 
-You can also use a `variable`{:class="block3variables"} to change the volume and pan (tilt) effect.
+Tu peux également utiliser une `variable`{:class="block3variables"} pour modifier le volume et l'effet stéréo gauche-droite (panoramique ).
 
 --- /collapse ---
 
