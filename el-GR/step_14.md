@@ -1,10 +1,10 @@
-## My blocks
+## Οι Εντολές μου
 
-`My blocks`{:class="block3myblocks"} allow you to create new blocks for a sprite. You give the block a name and then `define`{:class="block3myblocks"} what the new block does using other Scratch blocks. You can use your new block in any script on the sprite that owns the block.
+`Οι Εντολές μου`{:class="block3myblocks"} σου επιτρέπουν να δημιουργήσεις νέα μπλοκ για ένα αντικείμενο. Δίνεις ένα όνομα στο μπλοκ και μετά `ορίζεις`{:class="block3myblocks"} τι κάνει το νέο μπλοκ χρησιμοποιώντας άλλα μπλοκ Scratch. Μπορείς να χρησιμοποιήσεις το νέο σου μπλοκ σε οποιοδήποτε σενάριο στο αντικείμενο στο οποίο ανήκει το μπλοκ.
 
-This example defines a `talk`{:class="block3myblocks"} block that makes a sprite change costume:
+Αυτό το παράδειγμα ορίζει ένα μπλοκ `ομιλία`{:class="block3myblocks"} που κάνει μία αλλαγή ενδυμασίας σε ένα αντικείμενο:
 
-**Penguin chirps**: [See inside](https://scratch.mit.edu/projects/567554899/editor){:target="_blank"}
+**Ο πιγκουίνος τιτιβίζει**: [Δες μέσα](https://scratch.mit.edu/projects/567554899/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/567554899/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -25,15 +25,15 @@ when [space v] key pressed
 talk
 ```
 
-You can use `My blocks`{:class="block3myblocks"} to **organise** your code. It's simpler to group together all the blocks that make a sprite talk and then just use one `talk`{:class="block3myblocks"} block when you want your sprite to talk.
+Μπορείς να χρησιμοποιήσεις την κατηγορία `Οι Εντολές μου`{:class="block3myblocks"} για να **οργανώσεις** τον κώδικά σου. Είναι πιο απλό να ομαδοποιήσεις όλα τα μπλοκ που κάνουν ένα αντικείμενο να μιλάει και, στη συνέχεια, απλώς να χρησιμοποιήσεις ένα μπλοκ `ομιλία`{:class="block3myblocks"} όταν θέλεις να μιλήσει το αντικείμενό σου.
 
-If you decide that you want to change the way your sprite talks then you only have to change the code in one place.
+Εάν αποφασίσεις ότι θέλεις να αλλάξεις τον τρόπο με τον οποίο μιλάει το αντικείμενό σου, τότε δεν έχεις παρά να αλλάξεις τον κώδικα σε ένα σημείο.
 
-### My blocks with inputs
+### Οι Εντολές μου με εισόδους
 
-You can also add **inputs** to `My blocks`{:class="block3myblocks"} so that they use the values you provide when you use the block.
+Μπορείς επίσης να προσθέσεις **εισόδους** στο `Οι Εντολές μου`{:class="block3myblocks"} ώστε να χρησιμοποιούν τις τιμές που δίνεις όταν χρησιμοποιείς το μπλοκ.
 
-**Penguin talks**: [See inside](https://scratch.mit.edu/projects/567538874/editor){:target="_blank"}
+**Ο πιγκουίνος τιτιβίζει**: [Δες μέσα](https://scratch.mit.edu/projects/567538874/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/567538874/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -60,9 +60,9 @@ talk [hi]
 
 --- collapse ---
 ---
-title: Use My Blocks to organise code
+title: Χρησιμοποίησε τις Εντολές μου για να οργανώσεις τον κώδικα
 ---
-The simplest way to use `My Blocks`{:class="block3myblocks"} is to help organise your code. Here is a simple example.
+Ο απλούστερος λόγος για να χρησιμοποιηθούν `Οι Εντολές μου`{:class="block3myblocks"} είναι για να βοηθηθείς στην οργάνωση του κώδικά σου. Εδώ είναι ένα απλό παράδειγμα.
 
 ```blocks3
 define move right
@@ -96,4 +96,4 @@ move left
 
 --- /collapse ---
 
-`My blocks`{:class="block3myblocks"} are similar to 'procedures', 'functions' or 'methods' in other programming languages.
+`Οι Εντολές μου`{:class="block3myblocks"} είναι παρόμοιες με τις 'διαδικασίες', 'συναρτήσεις' ή 'μεθόδους' σε άλλες γλώσσες προγραμματισμού.
