@@ -1,16 +1,16 @@
-## Motion
+## Mouvement
 
-`Motion`{:class="block3motion"} blocks allow you to move your sprite around the Stage.
+Les blocs `avance`{:class="block3motion"} vous permettent de déplacer votre sprite sur la scène.
 
-### Movement
+### Mouvement
 
-The `move`{:class="block3motion"} block is the simplest way to ge started with moving a sprite:
+Le bloc `avance`{:class="block3motion"} est le moyen le plus simple pour commencer à déplacer un sprite :
 
 ```blocks3
 move [10] steps
 ```
 
-You can `go to`{:class="block3motion"} or `glide to`{:class="block3motion"} the mouse-pointer, a random position on the Stage (or your finger on a tablet), or another sprite:
+Tu peux `aller à`{:class="block3motion"} ou `glisser en`{:class="block3motion"} le pointeur de la souris, une position aléatoire sur la scène (ou votre doigt sur une tablette), ou un autre sprite :
 
 ```blocks3
 go to (random position v)
@@ -18,7 +18,7 @@ go to (random position v)
 glide [1] secs to (random position v)
 ```
 
-You can also `go to`{:class="block3motion"} or `glide to`{:class="block3motion"} a position given by `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates on the Stage.
+Tu peux aussi `aller à`{:class="block3motion"} ou `glisser en`{:class="block3motion"} une position donnée par des coordonnées `x`{:class="block3motion"} et `y`{:class ="block3motion"} sur la scène.
 
 ```blocks3
 go to x: [0] y: [0] 
@@ -28,12 +28,12 @@ glide [1] secs to x: [0] y: [0]
 
 [[[scratch3-glide-to-object]]]
 
-**Tip:** When you drag a sprite on the Stage, the motion blocks that use `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates update in the `Motion`{:class="block3motion"} blocks menu. The current `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates are show in the Sprite pane.
+**Astuce :** Lorsque tu fais glisser un sprite sur la Scène, les blocs de mouvement qui utilisent les coordonnées `x`{:class="block3motion"} et `y`{:class="block3motion"} sont mis à jour dans le menu `Mouvement`{ :class="block3motion"}. Les coordonnées `x`{:class="block3motion"} et `y`{:class="block3motion"} sont affichées dans le volet Sprite.
 
 ### Rotation
-You can also change the `direction`{:class="block3motion"} that a sprite is pointing in. This changes the direction that the sprite will move in if you use a `move`{:class="block3motion"} block. It may also change the rotation of the sprite's costume depending on the `rotation-style`{:class="block3motion"} setting.
+Tu peux également changer la `direction`{:class="block3motion"} vers laquelle pointe un sprite. Cela change la direction dans laquelle le sprite se déplacera si tu utilises un bloc `avancer`{:class="block3motion"}. Cela peut également changer la rotation du costume du sprite en fonction du réglage `style de rotation`{:class="block3motion"}.
 
-When you add a sprite, it will be facing right (90 degrees). You can change this in the Sprite pane or using code blocks.
+Lorsque tu ajoutes un sprite, il sera orienté vers la droite (90 degrés). Tu peux modifier cela dans le volet Sprite ou en utilisant des blocs de code.
 
 ```blocks3
 turn right [15] degrees
@@ -55,12 +55,12 @@ set rotation style [left-right v] // or all-around or none
 
 --- collapse ---
 ---
-title: Spin around
+title: Tournoyer
 ---
 
 --- no-print ---
 
-**Spinning bat**: [See inside](https://scratch.mit.edu/projects/435704980/editor){:target="_blank"}
+**La chauve-souris tournoyante** : [Voir à l'intérieur](https://scratch.mit.edu/projects/435704980/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/435704980/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -68,7 +68,7 @@ title: Spin around
 
 --- /no-print ---
 
-This code makes a sprite spin when the green flag is clicked:
+Ce code fait tourner un sprite lorsque le drapeau vert est cliqué :
 
 ```blocks3
 when flag clicked
@@ -76,20 +76,20 @@ forever
 turn right (1) degrees :: motion
 ```
 
-In a `turn`{:class="block3motion"} block within a `forever`{:class="block3control"} loop, change the number of degrees to `1` and your sprite will appear to spin.
+Dans un boucle `tourner`{:class="block3motion"} placé dans une boucle `répéter indéfiniment`{:class="block3control"}, change le nombre de degrés à `1` et ton sprite tournera sur place.
 
-**Tip:** If you do not add a `move`{:class="block3motion"} block, your sprite will spin in the position that it is in.
+**Astuce :** Si tu n'ajoutes pas de bloc `avancer`{:class="block3motion"}, ton sprite tournera sur place.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Move in a circle
+title: Se déplacer en cercle
 ---
 
 --- no-print ---
 
-**Moon orbit**: [See inside](https://scratch.mit.edu/projects/435701055/editor){:target="_blank"}
+**Orbite lunaire** : [Voir à l'intérieur](https://scratch.mit.edu/projects/435701055/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/435701055/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -97,7 +97,7 @@ title: Move in a circle
 
 --- /no-print ---
 
-This code makes a sprite fly in a circle when the green flag is clicked:
+Ce code fait voler un sprite en rond lorsque l'on clique sur le drapeau vert :
 
 ```blocks3
 when green flag clicked
@@ -106,30 +106,30 @@ move (1) steps
 turn right (1) degrees :: motion
 ```
 
-Change the values in a `move`{:class="block3motion"} block and `turn`{:class="block3motion"} block within a `forever`{:class="block3control"} loop to `1` and your sprite will appear to move in a big circle.
+Modifie les valeurs d'un bloc `avancer`{:class="block3motion"} et d'un bloc `tourner`{:class="block3motion"} placé dans un bloc `répéter indéfiniment`{:class="block3control"} à `1` et ton sprite semblera se déplacer en cercle.
 
-**Tip:** If you want your sprite to always start in the centre of the Stage, you can add a `go to x:`{:class="block3motion"} `0` `y:`{:class="block3motion"} `0` block before the `forever`{:class="block3control"} block.
+**Astuce :** Si tu veux que ton sprite commence toujours au centre de la scène, tu peux ajouter un bloc `aller à x :`{:class="block3motion"} `0` `y :`{:class="block3motion "} `0` avant le bloc `répéter indéfiniment`{:class="block3control"}.
 
 --- /collapse ---
 
-### Bouncing
+### Rebondir
 
-The `if on edge, bounce`{:class="block3motion"} block is really useful when you want to make a sprite bounce around and stay on the Stage:
+Le bloc `rebondir si le bord est atteint`{:class="block3motion"} est vraiment utile lorsque tu veux faire rebondir un sprite et rester sur la Scène :
 
 ```blocks3
 if on edge, bounce
 ```
 
-See some of the ways in which you can get your sprite to bounce around:
+Découvre quelques-unes des façons dont tu peux faire rebondir ton sprite :
 
 --- collapse ---
 ---
-title: Bounce across the Stage
+title: Rebondir sur la scène
 ---
 
 --- no-print ---
 
-**Girl moving across the Stage**: [See inside](https://scratch.mit.edu/projects/433535326/editor){:target="_blank"}
+**Fille se déplaçant à travers la scène** : [Voir à l'intérieur](https://scratch.mit.edu/projects/433535326/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/433535326/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -137,7 +137,7 @@ title: Bounce across the Stage
 
 --- /no-print ---
 
-This code makes a sprite bounce on the left-hand and right-hand edges of the Stage. Because the sprite rotates horizontally, it appears to flip when it changes its direction when the green flag is clicked:
+Ce code fait rebondir un sprite sur les bords gauche et droit de la Scène. Étant donné que le sprite tourne horizontalement, il semble basculer lorsqu'il change de direction quand le drapeau vert est cliqué :
 
 ```blocks3
 when green flag clicked
@@ -148,22 +148,22 @@ move (5) steps
 if on edge, bounce
 ```
 
-In this example, the `point in direction`{:class="block3motion"} block automatically points the sprite to the right (`90` degrees) when the green flag is clicked. If you change the number of degrees to `-90`, your sprite will point left.
+Dans cet exemple, le bloc `s'orienter à`{:class="block3motion"} pointe automatiquement le sprite vers la droite (`90` degrés) lorsque le drapeau vert est cliqué. Si tu changes le nombre de degrés à `-90`, ton sprite pointera vers la gauche.
 
-Add a `set rotation style`{:class="block3motion"} block and select `left-right`{:class="block3motion"} in the drop-down menu, so that your sprite will not flip upside down when it bounces on the edge of the Stage.
+Ajoute un bloc `fixer le sens de rotation`{:class="block3motion"} et sélectionne `gauche-droite`{:class="block3motion"} dans le menu déroulant, afin que ton sprite ne retrouve pas tête en bas lorsqu'il rebondit sur le bord de la scène.
 
-**Tip:** You can drag your sprite on the Stage to move it to the y (up–down) position that you want.
+**Astuce :** Tu peux faire glisser ton sprite sur la scène pour la déplacer vers la position y (haut-bas) souhaitée.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Bounce up and down the Stage
+title : Rebondir de haut en bas sur la Scène
 ---
 
 --- no-print ---
 
-**Girl jumping**: [See inside](https://scratch.mit.edu/projects/433595822/editor){:target="_blank"}
+**Fille qui saute** : [Voir à l'intérieur](https://scratch.mit.edu/projects/433595822/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/433595822/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -171,7 +171,7 @@ title: Bounce up and down the Stage
 
 --- /no-print ---
 
-This code makes a sprite bounce up and down the Stage when the green flag is clicked:
+Ce code fait rebondir un sprite de haut en bas de la scène lorsque tu cliques sur le drapeau vert :
 
 ```blocks3
 when green flag clicked
@@ -182,22 +182,22 @@ move (5) steps
 if on edge, bounce
 ```
 
-Change the number of degrees in the `point in direction`{:class="block3motion"} block to `0` to make a sprite point upwards.
+Change le nombre de degrés du bloc `s'orienter à`{:class="block3motion"} à `0` pour faire pointer un sprite vers le haut.
 
-Add a `set rotation style`{:class="block3motion"} block and select `don't rotate`{:class="block3motion"} in the drop-down menu to stop your sprite rotating, even when it bounces.
+Ajoute un bloc `fixer le sens de rotation`{:class="block3motion"} et sélectionne `ne tourne pas`{:class="block3motion"} dans le menu déroulant pour arrêter la rotation de ton sprite, même lorsqu'il rebondit.
 
-**Tip:** You can drag your sprite around the Stage to move it to the x (left–right) position that you want.
+**Astuce :** Tu peux faire glisser ton sprite sur la scène pour le déplacer vers la position x (gauche-droite) souhaitée.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Bounce at an angle
+title: Rebondir de biais
 ---
 
 --- no-print ---
 
-**Football bouncing**: [See inside](https://scratch.mit.edu/projects/433536479/editor){:target="_blank"}
+**Ballon rebondissant** : [Voir à l'intérieur](https://scratch.mit.edu/projects/433536479/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/433536479/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -205,7 +205,7 @@ title: Bounce at an angle
 
 --- /no-print ---
 
-This code makes a sprite appear to rotate randomly when the green flag is clicked:
+Ce code fait apparaître un sprite qui tourne de manière aléatoire lorsque l'on clique sur le drapeau vert :
 
 ```blocks3
 when green flag clicked
@@ -216,15 +216,15 @@ move (5) steps
 if on edge, bounce
 ```
 
-If your sprite moves at `45` degrees, you will find that it appears to bounce on the edge of the Stage at an angle. Change the number of degrees in the `point in direction`{:class="block3motion"} block to `45` to make your sprite bounce all around.
+Si ton sprite se déplace à `45` degrés, tu constateras qu'il semble rebondir sur le bord de la Scène sous un certain angle. Change le nombre de degrés du bloc `s'orienter à`{:class="block3motion"} à `45` pour faire rebondir ton sprite un peu partout.
 
-Add a `set rotation style`{:class="block3motion"} block and select `all around`{:class="block3motion"} in the drop-down menu, so that your sprite will turn when it bounces on the edge of the Stage.
+Ajoute un bloc `fixer le sens rotation`{:class="block3motion"} et sélectionne `à 360°`{:class="block3motion"} dans le menu déroulant, de sorte que ton sprite tourne quand il rebondit sur le bord de la Scène.
 
 --- /collapse ---
 
-### Using coordinates
+### Utiliser des coordonnées
 
-You can also `change`{:class="block3motion"} and `set`{:class="block3motion"} the `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates and get their values to use in other blocks:
+Tu peux également `ajouter`{:class="block3motion"} et `mettre à`{:class="block3motion"} les coordonnées `x`{:class="block3motion"} et `y`{:class="block3motion"} et obtenir leurs valeurs pour les utiliser dans d'autres blocs :
 
 [[[generic-scratch3-coordinates]]]
 
@@ -244,12 +244,12 @@ set y to [0]
 
 --- collapse ---
 ---
-title: I can't see any Motion blocks
+title: Je ne vois aucun bloc Mouvement
 ---
 
-If you have the Stage selected then you won't see any `Motion`{:class="block3motion"} blocks, because the Stage can't move.
+Si tu as sélectionné la Scène, tu ne verras aucun bloc `Mouvement`{:class="block3motion"}, car la scène ne peut pas bouger.
 
-Click on a sprite in the Sprite pane and then click on the **Code** tab to see the `Motion`{:class="block3motion"} blocks.
+Clique sur un sprite dans le volet Sprite puis clique sur le volet **Code** pour voir les blocs `Mouvement`{:class="block3motion"}.
 
 --- /collapse ---
 
