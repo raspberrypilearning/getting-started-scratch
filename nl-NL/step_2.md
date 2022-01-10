@@ -1,40 +1,40 @@
-## Set up Scratch
-You can use Scratch on a laptop or desktop computer, or on a tablet. You can also use Scratch on a Raspberry Pi computer.
+## Scratch installeren
+Je kunt Scratch gebruiken op een laptop of desktop computer, of op een tablet. Je kunt Scratch ook op een Raspberry Pi-computer gebruiken.
 
 --- task ---
 
-Open a web browser on your computer or tablet and visit [rpf.io/scratch-new](https://rpf.io/scratch-new){:target="_blank"} to open a new project in the Scratch editor. Scratch will open in a new tab in your web browser.
+Open een webbrowser op je computer of tablet en ga naar [rpf.io/scratch-new](https://rpf.io/scratch-new){:target="_blank"} om een nieuw project in de Scratch-editor te openen. Scratch wordt geopend in een nieuw tabblad in je web browser.
 
-**Tip:** You can also visit [scratch.mit.edu](https://scratch.mit.edu/){:target="_blank"} and then click on **Create**.
+**Tip:** Je kunt ook naar [scratch.mit.edu](https://scratch.mit.edu/){:target="_blank"} gaan en vervolgens op **Maak** klikken.
 
 --- collapse ---
 ---
-title: Working offline without an internet connection
+title: Offline werken zonder internetverbinding
 ---
 
-If you need to work offline (without an internet connection), then you can [download Scratch](https://scratch.mit.edu/download){:target="_blank"} and install it on a computer.
+Als je offline (zonder internetverbinding) wilt werken, dan kun je [Scratch downloaden](https://scratch.mit.edu/download){:target="_ blank"} en installeren op een computer.
 
-You cannot work offline if you are using a tablet.
+Je kunt niet offline werken op een tablet.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Scratch on Raspberry Pi
+title: Scratch op Raspberry Pi
 ---
 
-If you are using a Raspberry Pi computer, Scratch may already be installed. Click on the **Raspberry Pi** icon to open the menu, then click on **Programming**, then select **Scratch 3**.
+Als je een Raspberry Pi-computer gebruikt, is Scratch mogelijk al geïnstalleerd. Klik op het **Raspberry Pi** pictogram om het menu te openen, klik vervolgens op **Programmeren** en selecteer vervolgens **Scratch 3**.
 
-If you need to install Scratch, follow this process:
-+ Click on the Raspberry Pi icon to open the menu
-+ Click on **Preferences**
-+ Click on **Recommended Software**
-+ Select **Scratch 3**
-+ Click on **OK**
+Als je Scratch moet installeren, volg dan dit proces:
++ Klik op het Raspberry Pi-pictogram om het menu te openen
++ Klik op **Voorkeuren**
++ Klik op **Aanbevolen Software**
++ Klik op **Scratch 3**
++ Klik op **OK**
 
-![Recommended software dialogue with Scratch 3 selected.](images/recommended-software-scratch-3.png)
+![Dialoogvenster aanbevolen software met Scratch 3 geselecteerd.](images/recommended-software-scratch-3.png)
 
-See [Scratch 3 Desktop for Raspberry Pi](https://www.raspberrypi.org/blog/scratch-3-desktop-for-raspbian-on-raspberry-pi/) for more information.
+Zie [Scratch 3 Desktop voor Raspberry Pi](https://www.raspberrypi.org/blog/scratch-3-desktop-for-raspbian-on-raspberry-pi/) voor meer informatie.
 
 --- /collapse ---
 
@@ -42,56 +42,56 @@ See [Scratch 3 Desktop for Raspberry Pi](https://www.raspberrypi.org/blog/scratc
 
 --- task ---
 
-When you use Scratch with this guide or one of our projects, you will need to switch between Scratch and the project instructions.
+Wanneer je Scratch gebruikt met deze handleiding of een van onze projecten, moet je schakelen tussen Scratch en de project instructies.
 
 --- collapse ---
 ---
-title: Switch between browser tabs
+title: Schakelen tussen browser tabbladen
 ---
 
-Click on (or on a tablet, tap) the title of a browser tab to switch between the Scratch editor and project instructions.
+Klik op (of tik op een tablet) op de titel van een browser tabblad om te schakelen tussen de Scratch-editor en projectinstructies.
 
-![A browser with two tabs.](images/two-tabs.png)
+![Een browser met twee tabbladen.](images/two-tabs.png)
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Side-by-side instructions and Scratch
+title: Instructies en Scratch naast elkaar
 ---
 
-If your screen is big enough, you can view Scratch next to the project instructions.
+Als je scherm groot genoeg is, kun je Scratch bekijken naast de projectinstructies.
 
-![Side-by-side instructions and Scratch.](images/side-by-side.png)
+![Instructies en Scratch naast elkaar.](images/side-by-side.png)
 
-If you are using Microsoft Windows 10, drag the Scratch tab in your web browser so that it is in a separate window, and keep dragging until the cursor reaches the right-hand edge of your screen. The window will then be positioned on the right-hand side of the screen.
+Als je Microsoft Windows 10 gebruikt, sleep je het tabblad Scratch in je webbrowser zodat het in een apart venster staat en blijf je slepen totdat de cursor de rechterrand van je scherm bereikt. Het venster komt dan aan de rechterkant van het scherm te staan.
 
-Now, drag the window containing this guide or your project instructions to the left-hand side of your screen until the cursor reaches the left-hand edge. The window will take up the left half of your screen.
+Sleep nu het venster met deze handleiding of je projectinstructies naar de linkerkant van je scherm totdat de cursor de linkerrand bereikt. Het venster neemt de linkerhelft van je scherm in beslag.
 
-You can resize the windows to get them just the way you want.
+Je kunt het formaat van de vensters wijzigen om ze precies zo te krijgen als je wilt.
 
-**Tip:** You can also hold down the <kbd>Windows</kbd> key and press the <kbd>Left</kbd> arrow key or <kbd>Right</kbd> arrow key to position a window in the left or right half of your screen.
+**Tip:** Je kunt ook de <kbd>Windows</kbd> toets ingedrukt houden en op de <kbd>Linker</kbd> pijltoets of <kbd>Rechter</kbd> pijltoets drukken om een venster in de linker- of rechterhelft van je scherm te plaatsen.
 
 --- /collapse ---
 
-Try it now and see how you prefer to work.
+Probeer het nu en kijk hoe je het liefst werkt.
 
 --- /task ---
 
 --- task ---
 
-When you are using Scratch in a web browser, you can zoom in or out to adjust the size.
+Wanneer je Scratch in een webbrowser gebruikt, kun je in- of uitzoomen om de grootte aan te passen.
 
-For example, if you are using Microsoft Windows and you want to use zoom on a webpage in Google Chrome or Microsoft Edge, hold down the <kbd>Ctrl</kbd> key and press the <kbd>+</kbd> key or <kbd>-</kbd> key to zoom in or out.
+Als je bijvoorbeeld Microsoft Windows gebruikt en je wilt zoomen op een webpagina in Google Chrome of Microsoft Edge, houdt dan de <kbd>Ctrl</kbd> ingedrukt en druk op de toets <kbd>+</kbd> of <kbd>-</kbd> om in of uit te zoomen.
 
 --- collapse ---
 ---
-title: Use zoom in the Code area
+title: Gebruik zoom in het codegebied
 ---
 
-You can also use the zoom controls in the Code area in Scratch to change the size of the code blocks in the Code area.
+Je kunt ook de zoomknoppen in het codegebied in Scratch gebruiken om de grootte van de codeblokken in het codegebied te wijzigen.
 
-![The zoom controls in the Code area.](images/zoom-code-area.png)
+![De zoomknoppen in het codegebied.](images/zoom-code-area.png)
 
 --- /collapse ---
 
