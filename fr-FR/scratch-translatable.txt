@@ -1,83 +1,83 @@
-Click on 90 and drag the arrow to change
+Clique sur 90 et fais glisser la flèche pour changer
 
-or all-around or none
+ou ne tourne pas ou 360°
 
-hide speech after 2 seconds
+masquer la bulle après 2 secondes
 
-run blocks when the green flag above the Stage is clicked
+exécuter des blocs lorsque le drapeau vert au-dessus de la Scène est cliqué
 
-run the blocks when the sprite for this script is clicked
+exécuter les blocs lorsque le sprite de ce script est cliqué
 
-run the blocks when the stage is clicked
+exécuter les blocs lorsque la scène est cliquée
 
-change to number, letter or arrow keys
+changer pour les touches numériques, alphabétiques ou fléchées
 
-run blocks when the microphone detects sound
+exécuter des blocs lorsque le microphone détecte un son
 
-run blocks when the timer reaches 10 seconds
+exécuter des blocs lorsque le chronomètre atteint 10 secondes
 
-delay for 1 second
+retard de 1 seconde
 
-delay for one tenth of a second
+retard d'un dixième de seconde
 
-run the blocks inside four time
+exécuter quatre fois les blocs à l'intérieur
 
-run the blocks inside until stopped
+exécuter les blocs à l'intérieur indéfiniment jusqu'à l'arrêt
 
-stop all scripts in all sprites
+arrêter tous les scripts dans tous les sprites
 
-delay until the condition is true
+attendre jusqu'à ce que la condition soit vraie
 
-repeat the blocks inside until the condtion is true
+répéter les blocs à l'intérieur jusqu'à ce que la condition soit vraie
 
-clones the sprite that runs this block
+cloner le sprite qui exécute ce bloc
 
-clones another sprite in the project
+cloner un autre sprite dans le projet
 
-the script that runs when the clone is created
+le script qui s'exécute lorsque le clone est créé
 
-stops the clone's scripts and deletes it
+arrête les scripts du clone et le supprime
 
-What's your name
+Quel est ton nom
 
-the text the the user typed
+le texte que l'utilisateur a tapé
 
-hour, minute, ...
+heure, minute, ...
 
-A number from 1 to 10
+Un nombre de 1 à 10
 
-talk
+parler
 
-use the provided input
+utiliser le paramètre fourni
 
-words
+mots
 
-hello
+bonjour
 
-hi
+salut
 
-transparent
+transparence
 
-speed
+vitesse
 
 angle
 
-delay
+délai
 
-beat
+rythme
 
-move right
+déplacer vers la droite
 
-move left
+déplacer vers la gauche
 
-right_1
+droite_1
 
-right_2
+droite_2
 
-right_3
+droite_3
 
-left_1
+gauche_1
 
-left_2
+gauche_2
 
-left_3
+gauche_3
