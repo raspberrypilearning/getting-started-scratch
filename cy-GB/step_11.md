@@ -1,10 +1,10 @@
-## Sensing
+## Synhwyro
 
-The blocks in the `Sensing`{:class="block3sensing"} blocks menu are used to get user text input, detect conditions, and report on values in your project.
+Mae'r blociau yn y ddewislen `Synhwyro`{:class="block3sensing"} yn cael eu defnyddio i gael mewnbwn testun gan ddefnyddwyr, canfod cyflyrau, ac adrodd ar werthoedd yn dy brosiect.
 
-There are several hexagonal `Sensing`{:class="block3sensing"} blocks that you can use in `Control`{:class="block3control"} blocks to make decisions and control when blocks run.
+Mae sawl bloc hecsagon `Synhwyro`{:class="block3sensing"} y galli di eu defnyddio mewn blociau `Rheoli`{:class="block3control"} i wneud penderfyniadau ac i reoli pryd bydd blociau'n cael eu rhedeg.
 
-The `touching`{:class="block3sensing"} block has options for detecting whether the sprite that owns the script is touching the mouse pointer (where you finger last touched on a tablet), the edge of the Stage, or another sprite:
+Mae gan y bloc `cyffwrdd`{:class="block3sensing"} opsiynau ar gyfer canfod a ydy'r corlun sydd biau'r sgript yn cyffwrdd pwyntydd y llygoden (neu'r lle diwethaf i dy fys gyffwrdd ar dabled), ymyl y llwyfan, neu gorlun arall:
 
 ```blocks3
 <touching (mouse-pointer v) ?>
@@ -14,7 +14,7 @@ The `touching`{:class="block3sensing"} block has options for detecting whether t
 <touching (Sprite2 v) ?>
 ```
 
-There are blocks for detecting whether the sprite that owns the script is touching another colour (on the Stage or another sprite), or whether a colour on this sprite is touching another colour.
+Mae blociau ar gyfer canfod a ydy'r corlun sydd biau'r sgript yn cyffwrdd â lliw arall (ar y Llwyfan neu gorlun arall), neu a ydy lliw ar y corlun hwn yn cyffwrdd â lliw arall.
 
 ```blocks3
 <touching color (#c5a97b) ?>
@@ -22,19 +22,19 @@ There are blocks for detecting whether the sprite that owns the script is touchi
 <color (#c219ed) is touching (#62d1e0) ?>
 ```
 
-The `key pressed`{:class="block3sensing"} block has options for number, letter, and arrow keys. You need a keyboard to be able to enter keys. It detects whether the key is currently being pressed:
+Mae gan y bloc `bysell wedi'i phwyso?`{:class="block3sensing"} opsiynau ar gyfer bysellau rhif, llythyren, a saeth. Mae angen bysellfwrdd arnat ti i allu defnyddio bysellau. Mae'n canfod a yw'r fysell yn cael ei phwyso ar hyn o bryd:
 
 ```blocks3
 <key (space v) pressed?>
 ```
 
-The `mouse down`{:class="block3sensing"} block detects whether the mouse is currently pressed, or the screen is being tapped or touched on a touchscreen:
+Mae'r bloc `llygoden i lawr`{:class="block3sensing"} yn canfod a ydy'r llygoden yn cael ei bwyso ar hyn o bryd, neu a ydy'r sgrin yn cael ei daro neu ei gyffwrdd ar sgrin cyffwrdd:
 
 ```blocks3
 <mouse down?>
 ```
 
-The `ask`{:class="block3sensing"} and `answer`{:class="block3sensing"} blocks are used to get text input from the user:
+Mae'r blociau `gofyn`{:class="block3sensing"} ac `ateb`{:class="block3sensing"} yn cael eu defnyddio i gael mewnbwn testun gan y defnyddiwr:
 
 ```blocks3
 ask [What's your name] and wait
@@ -42,13 +42,13 @@ ask [What's your name] and wait
 (answer) // the text the the user typed 
 ```
 
-The `ask`{:class="block3sensing"} block works with a keyboard or with a virtual on-screen keyboard on a tablet.
+Mae'r bloc `gofyn`{:class="block3sensing"} yn gweithio gyda bysellfwrdd neu gyda bysellfwrdd rhithwir ar y sgrin ar dabled.
 
-The `answer`{:class="block3sensing"} block is a reporter block that reports a value and can be used as a variable.
+Mae'r bloc `ateb`{:class="block3sensing"} yn floc adroddwr sy'n adrodd gwerth ac mae modd ei ddefnyddio fel newidyn.
 
 [[[scratch3-ask-answer-chat]]]
 
-The `Sensing`{:class="block3sensing"} blocks menu also contains several reporter blocks that can be used to get values:
+Mae'r ddewislen blociau `Synhwyro`{:class="block3sensing"} yn cynnwys sawl bloc adroddwr y mae modd eu defnyddio i gael gafael ar werthoedd:
 
 ```blocks3
 (distance to (mouse-pointer v))
@@ -56,7 +56,7 @@ The `Sensing`{:class="block3sensing"} blocks menu also contains several reporter
 (distance to (Sprite2 v))
 ```
 
-You can detect the current position of the mouse-pointer (or the current or most recent position of your finger on a tablet):
+Galli di ganfod lleoliad presennol pwyntydd y llygoden (neu safle presennol neu ddiweddaraf dy fys ar dabled):
 
 ```blocks3
 (mouse x)
@@ -64,13 +64,13 @@ You can detect the current position of the mouse-pointer (or the current or most
 (mouse y)
 ```
 
-You can detect the `loudness`{:class="block3sensing"} of sound from the microphone. A pop-up window will ask the user for permission to use the microphone:
+Galli di ganfod `cryfder sain`{:class="block3sensing"} o'r meicroffon. Bydd ffenestr naid yn gofyn i'r defnyddiwr am ganiatâd i ddefnyddio'r meicroffon:
 
 ```blocks3
 (loudness)
 ```
 
-The `timer`{:class="block3sensing"} starts counting when the project loads, and can be set back to `0` with `reset timer`{:class="block3sensing"}:
+Mae'r `amserydd`{:class="block3sensing"} yn dechrau cyfrif pa fydd y prosiect yn llwytho, ac mae modd ei osod yn ôl i `0` gydag `ailosod amserydd`{:class="block3sensing"}:
 
 ```blocks3
 (timer)
@@ -78,7 +78,7 @@ The `timer`{:class="block3sensing"} starts counting when the project loads, and 
 reset timer
 ```
 
-You can also access reporters for the Stage and other sprites:
+Galli di hefyd gael mynediad at adroddwyr ar gyfer y Llwyfan a chorluniau eraill:
 
 ```blocks3
 ([backdrop # v] of (_stage_ v))
@@ -88,7 +88,7 @@ You can also access reporters for the Stage and other sprites:
 ([costume # v] of (Sprite2 v))
 ```
 
-There are reporters related to the date and time in the real world, in your local timezone:
+Mae yna adroddwyr sy'n gysylltiedig â'r dyddiad a'r amser yn y byd go iawn, yn dy gylch amser lleol:
 
 ```blocks3
 (current [year v]) // hour, minute, ...
