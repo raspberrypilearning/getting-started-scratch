@@ -1,51 +1,51 @@
 ---
-title: Getting started with Scratch
-hero_image: images/ScratchGuide_Banner.png
-description: Learn about Scratch and develop your skills to use Scratch independently
+title: Pierwsze kroki ze Scratchem
+hero_image: obrazy/ScratchGuide_Banner.png
+description: Dowiedz się więcej o Scratchu i rozwiń swoje umiejętności samodzielnego korzystania ze Scratcha
 version: 4
 listed: false
 copyedit: false
 last_tested: "2020-11-28"
 steps:
   - 
-    title: Introduction
+    title: Wprowadzenie
   - 
-    title: Set up Scratch
+    title: Skonfiguruj Scratch
   - 
-    title: Set up a Scratch account
+    title: Załóż konto Scratch
   - 
-    title: The Scratch editor
+    title: Edytor Scratch
   - 
-    title: Your first Scratch project
+    title: Twój pierwszy projekt Scratch
   - 
-    title: Motion
+    title: Ruch
   - 
-    title: Looks
+    title: Wygląd
   - 
-    title: Sound
+    title: Dźwięk
   - 
-    title: Events
+    title: Zdarzenia
   - 
-    title: Control
+    title: Kontrola
   - 
-    title: Sensing
+    title: Czujniki
   - 
-    title: Operators
+    title: Wyrażenia
   - 
-    title: Variables
+    title: Zmienne
   - 
-    title: My blocks
+    title: Moje bloki
   - 
-    title: Extensions
+    title: Rozszerzenia
   - 
-    title: Paint editor
+    title: Edytor Paint
   - 
-    title: Sound editor
+    title: Edytor dźwięku
   - 
-    title: Debug
+    title: Debugowanie
   - 
-    title: Editing tips
+    title: Wskazówki dotyczące edycji
   - 
-    title: Share and comment
+    title: Udostępniaj i komentuj
   - 
-    title: Our Scratch projects
+    title: Nasze projekty Scratch
