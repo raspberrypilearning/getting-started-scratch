@@ -1,56 +1,56 @@
-## Your first Scratch project
+## Dy brosiect Scratch cyntaf
 
-![An annotated screenshot of the Scratch editor, with key features labelled.](images/scratch-features.png)
+![Scrinlun anodedig o'r golygydd Scratch, gyda nodweddion allweddol wedi'u labelu.](images/scratch-features.png)
 
 --- task ---
 
-When you create a new Scratch project, it includes a **cat** sprite.
+Pan fyddi di'n creu prosiect Scratch newydd, mae'n cynnwys corlun **cath**.
 
-Drag blocks from the Blocks menu to the Code area to make the cat do something.
+Llusga flociau o'r Ddewislen blociau i ardal y Cod i wneud i'r gath wneud rhywbeth.
 
-To try an example, drag a `move`{:class="block3motion"} block from the `Motion`{:class="block3motion"} blocks menu. The blocks are colour-coded to help you find them.
+I roi cynnig ar enghraifft, llusga floc `symud`{:class="block3motion"} o'r ddewislen blociau `Symudiad`{:class="block3motion"}. Mae'r blociau wedi'u codio yn ôl eu lliw er mwyn dy helpu i ddod o hyd iddyn nhw.
 
-![A 'move' block in the Code area.](images/move-block.png)
+![Bloc 'symud' yn ardal y Cod.](images/move-block.png)
 
-You can click on blocks in the Code area to run them. Click on the `move`{:class="block3motion"} block and the cat will move.
+Galli di glicio ar flociau yn ardal y Cod i'w rhedeg. Clicia ar y bloc `symud`{:class="block3motion"} a bydd y gath yn symud.
 
-**Tip:** If you are using Scratch on a tablet, you can tap an item to click on it.
+**Awgrym:** Os wyt ti'n defnyddio Scratch ar dabled, galli di daro eitem i glicio arno.
 
-**Hat blocks** run the blocks below them when a particular event happens. The `when green flag clicked`{:class="block3events"} block runs code when you click on the green flag above the Stage to run your project.
+Mae **blociau het** yn rhedeg y blociau oddi tanyn nhw pan fydd digwyddiad penodol yn digwydd. Mae'r bloc `pan fydd y faner werdd wedi'i chlicio `{:class="block3events"} yn rhedeg cod pan fyddi di'n clicio ar y faner werdd uwchben y Llwyfan i redeg dy brosiect.
 
-Drag a `when green flag clicked`{:class="block3events"} block above the `move`{:class="block3motion"} block so that they snap together.
+Llusga floc `pan fydd y faner werdd wedi'i chlicio`{:class="block3events"} uwchben y bloc `symud`{:class="block3motion"} fel eu bod nhw'n snapio at ei gilydd.
 
-![The 'move' block in the Code area.](images/green-flag-script.png)
+![Y bloc 'symud' yn ardal y Cod.](images/green-flag-script.png)
 
-Your code should look like this:
+Fe ddylai dy gôd edrych fel hyn:
 
 ```blocks3
 when flag clicked
 move (10) steps
 ```
 
-**Tip:** Scratch blocks are colour-coded, so you will find the `when green flag clicked`{:class="block3events"} block in the `Events`{:class="block3events"} blocks menu.
+**Awgrym:** Mae blociau Scratch wedi'u codio yn ôl eu lliw, felly bydd y bloc `pan fydd y faner werdd wedi'i chlicio`{:class="block3events"} yn y ddewislen `Digwyddiadau`{:class="block3events"}.
 
-Now, click on the green flag above the Stage and the cat will move.
+Nawr, clicia ar y faner werdd uwchben y Llwyfan a bydd y gath yn symud.
 
 --- /task ---
 
-You can add more sprites to your project, and you can also add a backdrop.
+Galli di ychwanegu mwy o gorluniau i dy brosiect, a galli di hefyd ychwanegu cefnlen.
 
 --- task ---
 
 --- collapse ---
 ---
-title: Choose a sprite
+title: Dewis corlun
 ---
 
-In the Sprite list, click on **Choose a Sprite** to see the library of all Scratch sprites.
+Yn y rhestr Corluniau, clicia ar **Dewiswch Gorlun** i weld llyfrgell o bob corlun Scratch.
 
-![The 'Choose a Sprite' icon.](images/sprite-library.png)
+![Yr eicon "Dewiswch Gorlun".](images/sprite-library.png)
 
-You can search for a sprite, or browse by category or theme. Click on a sprite to add it to your project.
+Mae modd chwilio am gorlun, neu bori yn ôl categori neu thema. Clicia ar gorlun i'w ychwanegu i dy brosiect.
 
-![The Sprite Library.](images/sprite-choose.png)
+![Y Llyfrgell Corluniau.](images/sprite-choose.png)
 
 --- /collapse ---
 
@@ -60,16 +60,16 @@ You can search for a sprite, or browse by category or theme. Click on a sprite t
 
 --- collapse ---
 ---
-title: Choose a backdrop
+title: Dewis cefnlen
 ---
 
-In the bottom right-hand corner of the Stage pane, click on **Choose a Backdrop**.
+Yng nghornel dde isaf cwarel y Llwyfan, clicia ar **Dewiswch Gefnlen**.
 
-![The 'Choose a Backdrop' icon.](images/stage-choose.png)
+![Yr eicon 'Dewiswch Gefnlen'.](images/stage-choose.png)
 
-You can search for a backdrop, or browse by category or theme. Click on a backdrop to add to your project.
+Mae modd chwilio am gefnlen neu bori yn ôl categori neu thema. Clicia ar gefnlen i'w ychwanegu i dy brosiect.
 
-![The Backdrop Library.](images/backdrop.png)
+![Y Llyfrgell Cefnlenni.](images/backdrop.png)
 
 --- /collapse ---
 
@@ -79,25 +79,25 @@ You can search for a backdrop, or browse by category or theme. Click on a backdr
 
 --- collapse ---
 ---
-title: Name and save your project
+teitl: Rhoi enw i dy brosiect a'i gadw
 ---
 
-Go to **File** in the menu. If you have a Scratch account, click on **Save now**. If you do not have an account, click on **Save to your computer**.
+Cer i **Ffeil** yn y ddewislen. Os oes gen ti gyfrif Scratch, clicia ar **Cadw nawr**. Os nad oes gen ti gyfrif, clicia ar **Cadw i'r cyfrifiadur**.
 
-Click in the project name box and change the name to match your project.
+Clicia ym mlwch enw'r prosiect a newid yr enw i gyd-fynd â dy brosiect.
 
-![The project name box highlighted.](images/change-project-name.png)
+![Blwch enw'r prosiect wedi'i amlygu.](images/change-project-name.png)
 
-If you share your project, then other people will also see this name, so make sure that it makes sense.
+Os wyt ti wedi rhannu dy brosiect, yna bydd pobl eraill hefyd yn gweld yr enw hwn, felly gwna'n siŵr ei fod yn gwneud synnwyr.
 
 --- /collapse ---
 
 --- /task ---
 
-You have created your first Scratch project!
+Rwyt ti wedi creu dy brosiect Scratch cyntaf!
 
-You are now ready to learn Scratch. We recommend that you start with our [Scratch: Module 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} and/or [Look after yourself](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"} pathways, which are designed for beginners.
+Rwyt ti nawr yn barod i ddysgu Scratch. Rydyn ni'n argymell dy fod yn dechrau gyda ein llwybrau [Scratch: Modiwl 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} a/neu [Cymer ofal ohonat ti dy hun](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"}, sydd wedi'u cynllunio ar gyfer dechreuwyr.
 
- You can return to this guide if you need help using Scratch when you are working on our pathway projects or on your own independent projects. 
+ Galli di ddychwelyd i'r canllaw yma os wyt ti angen help i ddefnyddio Scratch wrth weithio ar ein prosiectau llwybr neu ar dy brosiectau annibynnol dy hun. 
 
 
