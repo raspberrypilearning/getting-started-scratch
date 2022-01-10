@@ -1,6 +1,6 @@
-## Extensions
+## Estyniadau
 
-The `extensions`{:class="block3extensions"} library allows you to add new blocks to the blocks menu with additional features.
+Mae'r llyfrgell `estyniadau`{:class="block3extensions"} yn caniatáu i ti ychwanegu blociau newydd i'r ddewislen blociau gyda nodweddion newydd.
 
 [[[scratch3-text-to-speech]]]
 
@@ -8,9 +8,9 @@ The `extensions`{:class="block3extensions"} library allows you to add new blocks
 
 [[[generic-scratch3-add-music-extension]]]
 
-There are also Video Sensing and Translate extensions.
+Mae yna hefyd estyniadau Synhwyro Fideo a Chyfieithu.
 
-If you are using a Raspberry Pi computer then you can also use extensions for using electronics with the Raspberry Pi (you will need extra components or a Sense Hat):
+Os wyt ti'n defnyddio cyfrifiadur Raspberry Pi yna galli di hefyd ddefnyddio estyniadau ar gyfer defnyddio offer electroneg gyda'r Raspberry Pi (bydd angen cydrannau ychwanegol neu Sense Hat arnat ti):
 
 [[[rpi-scratch-add-pi-gpio]]]
 
