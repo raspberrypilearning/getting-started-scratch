@@ -1,15 +1,15 @@
-## Sound Editor
+## Επεξεργαστής ήχου
 
-Use the Sound editor to add and edit existing sounds, and to record your own sounds.
+Χρησιμοποίησε το πρόγραμμα επεξεργασίας ήχου για να προσθέσεις και να επεξεργαστείς υπάρχοντες ήχους και να ηχογραφήσεις τους δικούς σου ήχους.
 
-![An annotated screenshot of the Sound tab.](images/Scratch-Sound-tab.png){:width="600px"}
+![Ένα σχολιασμένο στιγμιότυπο οθόνης της καρτέλας Ήχοι.](images/Scratch-Sound-tab.png){:width="600px"}
 
-### Creating sounds
+### Δημιουργία ήχων
 
 \[[[scratch3-add-sound]]\] \[[[scratch3-record-sound\]]]
 
-### Editing sounds
+### Επεξεργασία ήχων
 
-Edit whole sounds or parts of sounds.
+Μπορείς να επεξεργαστείς ολόκληρους ήχους ή μέρη ήχων.
 
 \[[[scratch3-reverse-sound]]\] \[[[scratch3-crop-sound\]]] [[[scratch3-sound-effects]]]
