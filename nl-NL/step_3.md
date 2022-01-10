@@ -1,21 +1,21 @@
-## Set up a Scratch account
+## Een Scratch-account aanmaken
 
 --- task ---
 
-If you set up a Scratch account, you can save and keep all your Scratch projects online, and work on them again in the future.
+Als je een Scratch-account aanmaakt, kun je al je Scratch-projecten online bewaren, en er in de toekomst opnieuw aan werken.
 
-You can also share your projects and receive feedback, as well as comment on projects made by other people in the Scratch community.
+Je kunt ook je projecten delen met anderen en feedback ontvangen, evenals commentaar geven op projecten die door andere mensen in de Scratch-community zijn gemaakt.
 
 [[[create-scratch-account]]]
 
-If you are an educator, you can set up Teacher and Student Accounts.
+Als je een docent bent, kun je docenten- en leerling-accounts instellen.
 
 --- collapse ---
 ---
-title: Scratch Teacher Accounts
+title: Scratch Docenten Accounts
 ---
 
-Please see the [Scratch Teacher Account FAQ](https://scratch.mit.edu/educators/faq){:target="_blank"} for information on setting up an account that gives educators additional features for managing student participation on Scratch.
+Zie de [Scratch Leerkracht Account FAQ](https://scratch.mit.edu/educators/faq){:target="_blank"} voor informatie over het opzetten van een account dat docenten extra functies geeft voor deelname van studenten op Scratch.
 
 --- /collapse ---
 
