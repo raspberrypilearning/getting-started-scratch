@@ -1,83 +1,83 @@
-Click on 90 and drag the arrow to change
+Clicia ar 90 a llusgo'r saeth i newid
 
-or all-around or none
+neu o amgylch neu beidio troi
 
-hide speech after 2 seconds
+cuddio'r llais ar ôl 2 eiliad
 
-run blocks when the green flag above the Stage is clicked
+rhedeg y blociau pan gaiff y faner werdd uwchben y Llwyfan ei chlicio
 
-run the blocks when the sprite for this script is clicked
+rhedeg y blociau pan gaiff corlun ar gyfer y sgript hon ei glicio
 
-run the blocks when the stage is clicked
+rhedeg y blociau pan fydd y llwyfan yn cael ei glicio
 
-change to number, letter or arrow keys
+newid i fysellau rhif, llythyren neu saeth
 
-run blocks when the microphone detects sound
+rhedeg y blociau pan fydd y meicroffon yn canfod sain
 
-run blocks when the timer reaches 10 seconds
+rhedeg y blociau pan fydd yr amserydd yn cyrraedd 10 eiliad
 
-delay for 1 second
+oedi am 1 eiliad
 
-delay for one tenth of a second
+oedi am un rhan o ddeg o eiliad
 
-run the blocks inside four time
+rhedeg y blociau sydd tu mewn bedair gwaith
 
-run the blocks inside until stopped
+rhedeg y blociau sydd tu mewn nes eu stopio
 
-stop all scripts in all sprites
+stopio pob sgript ym mhob corlun
 
-delay until the condition is true
+oedi nes bod y cyflwr yn wir
 
-repeat the blocks inside until the condtion is true
+ailadrodd y blociau sydd tu mewn nes bod y cyflwr yn wir
 
-clones the sprite that runs this block
+clonio'r corlun sy'n rhedeg y bloc hwn
 
-clones another sprite in the project
+clonio corlun arall yn y prosiect
 
-the script that runs when the clone is created
+y sgript sy'n rhedeg pan fydd y clôn yn cael ei greu
 
-stops the clone's scripts and deletes it
+yn stopio sgriptiau'r clôn ac yn ei ddileu
 
-What's your name
+Beth yw dy enw
 
-the text the the user typed
+y testun mae'r defnyddiwr wedi'i deipio
 
-hour, minute, ...
+awr, munud, ...
 
-A number from 1 to 10
+Rhif rhwng o 1 i 10
 
-talk
+siarad
 
-use the provided input
+defnyddio'r mewnbwn a roddwyd
 
-words
+geiriau
 
-hello
+helo
 
-hi
+haia
 
-transparent
+tryloyw
 
-speed
+cyflymder
 
-angle
+ongl
 
-delay
+oedi
 
-beat
+curiad
 
-move right
+symud i'r dde
 
-move left
+symud i'r chwith
 
-right_1
+dde_1
 
-right_2
+dde_2
 
-right_3
+dde_3
 
-left_1
+chwith_1
 
-left_2
+chwith_2
 
-left_3
+chwith_3
