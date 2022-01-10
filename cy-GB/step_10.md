@@ -1,9 +1,9 @@
-## Control
+## Rheoli
 
-`Control`{:class="block3control"} blocks control the order that blocks run in, including decisions (selection) and loops (repetition).
+Mae blociau `Rheoli`{:class="block3control"} yn rheoli'r drefn y mae blociau'n rhedeg ynddi, gan gynnwys penderfyniadau (dewis) a dolenni (ailadrodd).
 
 
-The `wait`{:class="block3control"} block delays for a number of seconds before running the next block.
+Mae'r bloc `aros`{:class="block3control"} yn oedi am nifer o eiliadau cyn rhedeg y bloc nesaf.
 
 ```blocks3
 wait (1) seconds// delay for 1 second
@@ -11,7 +11,7 @@ wait (1) seconds// delay for 1 second
 wait (0.1) seconds// delay for one tenth of a second
 ```
 
-Loops control how many time the code inside them runs.
+Mae dolenni'n rheoli faint o amser mae'r cod y tu mewn iddyn nhw yn rhedeg.
 
 ```blocks3
 repeat (4) // run the blocks inside four time
@@ -27,9 +27,9 @@ end
 
 [[[scratch3-forever-condition]]]
 
-**Tip:** You can stop a `forever`{:class="block3events"} block by clicking the Stop button above the Stage, or by using the `stop`{:class="block3control"} blocks.
+**Awgrym:** Galli di stopio bloc `am byth`{:class="block3events"} drwy glicio'r botwm Aros uwchben y Llwyfan, neu drwy ddefnyddio'r blociau `aros`{:class="block3control"}.
 
-There are three options for the `stop`{:class="block3events"} block:
+Mae yna dri opsiwn ar gyfer y bloc `aros`{:class="block3events"}:
 
 ```blocks3
 stop [all v] // stop all scripts in all sprites
@@ -39,7 +39,7 @@ stop [this script v]
 stop [other scripts in sprite v]
 ```
 
-The `if...then`{:class="block3control"} and `if...then...else`{:class="block3control"} blocks are used to make decisions about which code blocks to run next. This is sometimes called **selection**. The `if...then`{:class="block3control"} block checks a hexagonal-shaped **condition** and runs the code blocks inside, if the condition is **true**. The `if...then..else`{:class="block3control"} block has an additional section to run the code blocks inside, if the condition is **false**.
+Mae'r blociau `os...yna`{:class="block3control"} ac `os...yna...fel arall`{:class="block3control"} yn cael eu defnyddio i wneud penderfyniadau o ran pa flociau cod i'w rhedeg nesaf. Weithiau mae hyn yn cael ei alw'n **ddewis**. Mae'r bloc `os...yna`{:class="block3control"} yn gwirio **cyflwr** siâp hecsagon ac yn rhedeg y blociau cod tu mewn, os ydy'r cyflwr yn **wir**. Mae gan y bloc `os...yna...fel arall`{:class="block3control"} adran ychwanegol i redeg blociau cod ynddi, os ydy'r cyflwr yn **anghywir**.
 
 ```blocks3
 if <> then
@@ -55,9 +55,9 @@ end
 
 [[[scratch3-if-then-else]]]
 
-You can find hexagonal-shaped blocks to use as conditions in the `Operators`{:class="block3operators"} and `Sensing`{:class="block3sensing"} blocks menus.
+Galli di ddod o hyd i flociau siâp hecsagon i'w defnyddio fel cyflyrau yn y ddewslenni `Gweithredwyr`{:class="block3operators"} a `Synhwyro`{:class="block3sensing"}.
 
-The `wait until`{:class="block3control"} and `repeat until`{:class="block3control"} blocks also use conditions:
+Mae'r blociau `aros hyd at`{:class="block3control"} ac `ailadrodd hyd at`{:class="block3control"} hefyd yn defnyddio cyflyrau:
 
 ```blocks3
 wait until <> // delay until the condition is true
@@ -68,9 +68,9 @@ repeat until <> // repeat the blocks inside until the condtion is true
 end
 ```
 
-A **clone** is a copy of a sprite, it has the costumes, scripts and sounds held by the sprite it was cloned from at the time of cloning. There are a number of blocks that can be used to clone sprites.
+Mae **clôn** yn gopi o gorlun, mae ganddo'r gwisgoedd, y sgriptiau a'r seiniau oedd yn berchen ar y corlun cafodd ei glonio ohono ar amser y broses clonio. Mae yna nifer o flociau y gellir eu defnyddio i glonio corluniau.
 
-With the `create clone of [myself v]`{:class="block3control"} block, a sprite can create a clone of itself or of another sprite in the project.
+Gyda'r bloc `creu clôn o [fi fy hun v]`{:class="block3control"}, mae corlun yn gallu creu clôn ohono'i hun neu o gorlun arall yn y prosiect.
 
 ```blocks3
 create clone of [myself v] // clones the sprite that runs this block
@@ -79,9 +79,9 @@ create clone of [myself v] // clones the sprite that runs this block
 create clone of [Butterfly 1 v] // clones another sprite in the project
 ```
 
-The `when I start as a clone`{:class="block3control"} hat block is used to trigger a new script once the clone has been created. The clone will exist in the project until the `delete this clone`{:class="block3control"} cap block is used.
+Mae'r bloc het `pan rwy'n dechrau fel clôn`{:class="block3control"} yn cael ei ddefnyddio i sbarduno sgript newydd ar ôl i'r clôn gael ei chreu. Bydd y clôn yn bodoli yn y prosiect nes bydd y bloc cap `dileu'r clôn hwn`{:class="block3control"} yn cael ei ddefnyddio.
 
-Using the `when I start as a clone`{:class="block3control"} hat block then including the `create clone of [myself v]`{:class="block3control"} block in the script underneath means it is also possible for clones to create other clones.
+Mae defnyddio'r bloc het `pan rwy'n dechrau fel clôn`{:class="block3control"} ac yna cynnwys y bloc `creu clôn o [fi fy hun v]`{:class="block3control"} yn y sgript oddi tano yn golygu ei fod hefyd yn bosib i glonau greu clonau eraill.
 
 ```blocks3
 when I start as a clone // the script that runs when the clone is created
@@ -90,14 +90,14 @@ when I start as a clone // the script that runs when the clone is created
 delete this clone // stops the clone's scripts and deletes it
 ```
 
-There is a maximum number of clones a sprite can have at any point, at the time of writing this is `300`.
+Mae uchafswm o glonau y gall corlun eu cael ar unrhyw adeg, ar adeg ysgrifennu'r canllaw yma yr uchafswm ydy `300`.
 
 --- collapse ---
 ---
-title: Clones of clones
+title: Clonau o glonau
 ---
 
-**Clones**: [See inside](https://scratch.mit.edu/projects/567544298/editor){:target="_blank"}
+**Clonau**: [Gweld tu mewn](https://scratch.mit.edu/projects/567544298/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/567544298/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
