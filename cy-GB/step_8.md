@@ -1,33 +1,33 @@
-## Sound
+## Sain
 
-To add sound to your project, use `Sound`{:class="block3sound"} blocks. For example, you can create a continuous background soundtrack, or add sounds that play at regular intervals.
+I ychwanegu sain at dy brosiect, defnyddia flociau `Sain`{:class="block3sound"}. Er enghraifft, galli di greu trac sain cefndir parhaus, neu ychwanegu synau sy'n chwarae'n rheolaidd.
 
-![An annotated screenshot of the Sounds tab.](images/Scratch-Sound-tab.png){:width="600px"}
+![Sgrinlun anodedig o'r tab Seiniau.](images/Scratch-Sound-tab.png){:width="600px"}
 
-First, select a sound from the Sound Library, or record your own sound.
+Yn gyntaf, dewisa sain o'r Llyfrgell Sain, neu recordia dy sain eich hun.
 
 [[[scratch3-add-sound]]]
 
 [[[scratch3-record-sound]]]
 
-Add code to run `Sound`{:class="block3sound"} blocks where you want sound in your project.
+Ychwanega god i redeg blociau `Sain`{:class="block3sound"} lle rwyt ti eisiau sain yn dy brosiect.
 
 --- collapse ---
 ---
-title: Add a long sound to create a continuous soundtrack
+title: Ychwanegu sain hir i greu trac sain parhaus
 ---
 
-Click on the green flag to hear the sounds.
+Clicia ar y faner werdd i ddechrau.
 
-**Radio soundtrack**: [See inside](https://scratch.mit.edu/projects/444581851/editor){:target="_blank"}
+**Trac sain radio**: [Gweld tu mewn](https://scratch.mit.edu/projects/444581851/editor){:target="_blank"}
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/444581851/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can use a `play sound until done`{:class="block3sound"} block inside a `forever`{:class="block3control"} loop. Once the sound has finished, the `forever`{:class="block3control"} loop makes the sound start again from the beginning.
+Galli di ddefnyddio bloc `chwarae sain tan y diwedd`{:class="block3sound"} tu mewn i ddolen `am byth`{:class="block3control"}. Ar ôl i'r sain orffen, bydd y ddolen sain `am byth`{:class="block3control"} yn gwneud i'r sain ddechrau eto o'r dechrau.
 
-This code uses a single long sound clip repeated as a soundtrack:
+Mae'r cod yma yn defnyddio un clip sain hir wedi'i ailadrodd fel trac sain:
 
 ```blocks3
 when green flag clicked
@@ -36,28 +36,28 @@ play sound (Dance Snare Beat v) until done
 end
 ```
 
-**Note:** When you choose a new sound, if you select the **Loops** category, Scratch will only show you the sounds that are suitable for a single looping soundtrack.
+**Nodyn:** Pan wyt ti'n dewis sain newydd, os ddewisi di'r categori **Cylchoedd**, dim ond y seiniau sy'n addas ar gyfer un trac sain cylchog bydd Scratch yn ei ddangos i ti.
 
-![The 'Loops' category in the Sound Library.](images/loopSounds.png)
+![Y categori 'Cylchoedd' yn y Llyfrgell Seiniau.](images/loopSounds.png)
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Add a sequence of short sounds to create a continuous soundtrack
+title: Ychwanegu dilyniant o seiniau byr i greu trac sain parhaus
 ---
 
-Click on the green flag to hear the sounds.
+Clicia ar y faner werdd i ddechrau.
 
-**Champ performance**: [See inside](https://scratch.mit.edu/projects/444673165/editor){:target="_blank"}
+**Perfformiad i bencampwr**: [Gweld tu mewn](https://scratch.mit.edu/projects/444673165/editor){:target="_blank"}
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/444673165/?autostart=false" frameborder="0"></iframe>
 </div>
 
- Use a `forever`{:class="block3control"} block to create a looped sound. You can:
-+ Put a series of short sounds in a sequence, or
-+ Use different instrument notes and effects
+ Defnyddia floc `am byth`{:class="block3control"} i greu sain cylchog. Galli di:
++ Roi cyfres o seiniau byr mewn dilyniant, neu
++ Defnyddio gwahanol nodau ac effeithiau offerynnol
 
 ```blocks3
 when flag clicked
@@ -76,18 +76,18 @@ End
 
 --- collapse ---
 ---
-title: Add sounds that play at regular intervals
+title: Ychwanegu seiniau sy'n chwarae'n rheolaidd
 ---
 
-**Football sounds**: [See inside](https://scratch.mit.edu/projects/450870079/editor){:target="_blank"}
+**Seiniau pêl droed**: [Gweld tu mewn](https://scratch.mit.edu/projects/450870079/editor){:target="_blank"}
 
-Click on the green flag to hear the sounds.
+Clicia ar y faner werdd i ddechrau.
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/450870079/?autostart=false" frameborder="0"></iframe>
 </div>
 
- In this project, the **Stage** has code to play a sound at regular intervals:
+ Yn y prosiect yma, mae gan y **Llwyfan** god i chwarae sain yn rheolaidd:
 
  ```blocks3
  when flag clicked
@@ -97,7 +97,7 @@ Click on the green flag to hear the sounds.
  end
  ```
 
-The **Whistle** sprite also plays a sound at regular intervals:
+Mae'r corlun **Whistle** hefyd yn chwarae sain yn rheolaidd:
 
  ```blocks3
  when this sprite clicked
@@ -111,18 +111,18 @@ The **Whistle** sprite also plays a sound at regular intervals:
 
 --- collapse ---
 ---
-title: Add sounds that start to play at the same time
+title: Ychwanegu seiniau sy'n chwarae ar yr un pryd
 ---
 
-There are two `Sound`{:class="block3sound"} blocks with an important difference:
+Mae dau floc `Sain`{:class="block3sound"} gyda gwahaniaeth pwysig:
 
-+ When you `play sound until done`{:class="block3sound"}, the sound will play all the way through. The next line of code in the script will not run until the sound has finished playing.
++ Pan fyddi di'n `chwarae sain tan y diwedd`{:class="block3sound"}, bydd y sain gyfan yn cael ei chwarae. Fydd y llinell nesaf o god yn y sgript ddim yn rhedeg nes bod y sain wedi gorffen chwarae.
 
-+ When you `start sound`{:class="block3sound"}, the sound will play, but the next block will run immediately and will not wait for the sound to finish playing first.
++ Pan fyddi di'n `dechrau sain`{:class="block3sound"}, bydd y sain yn chwarae, ond bydd y bloc nesaf yn rhedeg yn syth ac ni fydd yn aros i'r sain orffen chwarae gyntaf.
 
-This means that if you had a series of `start sound`{:class="block3sound"} blocks, the sounds would all play almost at the same time, layered on top of each other. The effect can be interesting and sometimes messy.
+Mae hyn yn golygu pe byddai gen ti gyfres o flociau `dechrau sain`{:class="block3sound"}, bydd y seiniau i gyd yn chwarae bron ar yr un pryd, wedi'u haenu ar ben ei gilydd. Gall yr effaith fod yn ddiddorol ac weithiau'n flêr.
 
-Have a play with it sometime!
+Rho gynnig arno rywbryd!
 
 ```blocks3
 when green flag clicked
@@ -135,22 +135,22 @@ start sound (Baa v)
 
 --- /collapse ---
 
-Once you have chosen your sounds, you may want to change the `volume`{:class="block3sound"}, `pitch`{:class="block3sound"}, or `pan`{:class="block3sound"} (so you hear the sound from the left- or right-hand speaker).
+Ar ôl i ti ddewis dy seiniau, efallai hoffet ti newid `lefel sain`{:class="block3sound"}, `traw`{:class="block3sound"}, neu `troi`{:class="block3sound"} (fel dy fod ti'n clywed y sain drwy'r seinydd ar y chwith neu'r dde).
 
 --- collapse ---
 ---
-title: Volume, pitch, and pan
+title: Lefel y sain, traw, a throi
 ---
 
-Click on the green flag to hear the sounds.
+Clicia ar y faner werdd i ddechrau.
 
-**Band practice**: [See inside](https://scratch.mit.edu/projects/451697380/editor){:target="_blank"}
+**Ymarfer band**: [Gweld tu mewn](https://scratch.mit.edu/projects/451697380/editor){:target="_blank"}
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451697380/?autostart=false" frameborder="0"></iframe>
 </div>
 
-The **Drums** sprite uses `set volume to`{:class="block3sound"}, `set pitch effect to`{:class="block3sound"}, and `set pan left/right effect to`{:class="block3sound"} blocks to change the sound:
+Mae'r corlun **Drums** yn defnyddio bloc `gosod lefel sain i`{:class="block3sound"}, `gosod effaith traw i`{:class="block3sound"}, a `gosod effaith troi chwith/dde i`{:class="block3sound"} i newid y sain:
 
 ```blocks3
 set volume to (80) %
@@ -159,15 +159,15 @@ set [pan left/right v] effect to (-100) :: sound
 play sound (Drum Funky v) until done
 ```
 
-+ You can `set volume to`{:class="block3sound"} a value from `0` (silent) to `100` (full volume). This is useful if you want some sounds to play louder than others, or if you want a sprite to appear further away.
++ Galli di `osod lefel sain i`{:class="block3sound"} werth o `0` (wedi mudo) i `100` (y lefel sain uchaf). Mae hyn yn ddefnyddiol os wyt ti am i rai seiniau chwarae'n uwch nag eraill, neu os wyt ti am i gorlun ymddangos ymhellach i ffwrdd.
 
-+ The `pitch`{:class="block3sound"} effect controls how high or low a sound is. Setting the pitch to a higher value also makes a sound faster. You can `set pitch effect to`{:class="block3sound"} values between `-360` (very low) and `360` (very high).
++ Mae'r effaith `traw`{:class="block3sound"} yn rheoli pa mor uchel neu isel mae traw sain. Mae gosod y traw i werth uwch hefyd yn gwneud sain yn gyflymach. Galli di `osod effaith traw i`{:class="block3sound"} werthoedd rhwng `-360` (isel iawn) a `360` (uchel iawn).
 
-+ The `pan left/right`{:class="block3sound"} effect allows you to control whether a sound comes out of a left- or right-hand speaker or headphone or both. You can `set pan left/right effect to`{:class="block3sound"} values from `-100` (all sound from the left) to `100` (all sound from the right).
++ Mae'r effaith `troi chwith/dde`{:class="block3sound"} yn dy alluogi di i reoli p'un ai ydy sain yn dod o'r seinydd neu glustffon chwith neu dde, neu o'r ddwy ochr. Galli di newid y gwerthoedd `gosod effaith troi chwith/dde`{:class="block3sound"} o `-100` (yr holl sain yn dod o'r chwith) i `100` (yr holl sain yn dod o'r dde).
 
 --- /collapse ---
 
-You can also use the `Text to Speech`{:class="block3extensions"} extension:
+Galli di hefyd ddefnyddio'r estyniad `Testun i Leferydd`{:class="block3extensions"}:
 
 [[[scratch3-text-to-speech]]]
 
