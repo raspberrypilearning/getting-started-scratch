@@ -1,40 +1,40 @@
-## Set up Scratch
-You can use Scratch on a laptop or desktop computer, or on a tablet. You can also use Scratch on a Raspberry Pi computer.
+## Ρύθμιση του Scratch
+Μπορείτε να χρησιμοποιήσεις το Scratch σε φορητό υπολογιστή ή σε υπολογιστή γραφείου ή σε tablet. Μπορείς επίσης να χρησιμοποιήσεις το Scratch σε έναν υπολογιστή Raspberry Pi.
 
 --- task ---
 
-Open a web browser on your computer or tablet and visit [rpf.io/scratch-new](https://rpf.io/scratch-new){:target="_blank"} to open a new project in the Scratch editor. Scratch will open in a new tab in your web browser.
+Άνοιξε έναν φυλλομετρητή διαδικτύου στον υπολογιστή σου ή στο tablet σου και πήγαινε στη διεύθυνση [rpf.io/scratch-new](https://rpf.io/scratch-new){:target="_blank"} για να ανοίξεις ένα νέο έργο στο πρόγραμμα επεξεργασίας Scratch. Το Scratch θα ανοίξει σε μια νέα καρτέλα στον φυλλομετρητή διαδικτύου.
 
-**Tip:** You can also visit [scratch.mit.edu](https://scratch.mit.edu/){:target="_blank"} and then click on **Create**.
+**Συμβουλή:** Μπορείς επίσης να επισκεφτείς το [scratch.mit.edu](https://scratch.mit.edu/){:target="_blank"} και μετά να κάνεις κλικ στο **Δημιουργία**.
 
 --- collapse ---
 ---
-title: Working offline without an internet connection
+title: Εργασία εκτός σύνδεσης χωρίς σύνδεση στο διαδίκτυο
 ---
 
-If you need to work offline (without an internet connection), then you can [download Scratch](https://scratch.mit.edu/download){:target="_blank"} and install it on a computer.
+Αν χρειαστεί να εργαστείς εκτός σύνδεσης (χωρίς σύνδεση στο διαδίκτυο), τότε μπορείς να κάνεις [λήψη Scratch](https://scratch.mit.edu/download){:target="_ blank"} και να το εγκαταστήσεις σε έναν υπολογιστή.
 
-You cannot work offline if you are using a tablet.
+Δεν μπορείς να εργαστείς εκτός σύνδεσης εάν χρησιμοποιείς tablet.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Scratch on Raspberry Pi
+title: Scratch στο Raspberry Pi
 ---
 
-If you are using a Raspberry Pi computer, Scratch may already be installed. Click on the **Raspberry Pi** icon to open the menu, then click on **Programming**, then select **Scratch 3**.
+Εάν χρησιμοποιείς υπολογιστή Raspberry Pi, το Scratch μπορεί να είναι ήδη εγκατεστημένο. Κάντε κλικ στο **Raspberry Pi** για να ανοίξεις το μενού, μετά κάνε κλικ στο **Προγραμματισμός**και μετά επίλεξε **Scratch 3**.
 
-If you need to install Scratch, follow this process:
-+ Click on the Raspberry Pi icon to open the menu
-+ Click on **Preferences**
-+ Click on **Recommended Software**
-+ Select **Scratch 3**
-+ Click on **OK**
+Εάν πρέπει να εγκαταστήσεις το Scratch, ακολούθησε αυτή τη διαδικασία:
++ Κάνε κλικ στο εικονίδιο Raspberry Pi για να ανοίξεις το μενού
++ Κάνε κλικ στο **Προτιμήσεις** (Preferences)
++ Κάνε κλικ στο **Προτεινόμενο λογισμικό** (Recommended Software)
++ Επίλεξε **Scratch 3**
++ Κάνε κλικ στο **OK**
 
-![Recommended software dialogue with Scratch 3 selected.](images/recommended-software-scratch-3.png)
+![Προτεινόμενος διάλογος λογισμικού με επιλεγμένο το Scratch 3.](images/recommended-software-scratch-3.png)
 
-See [Scratch 3 Desktop for Raspberry Pi](https://www.raspberrypi.org/blog/scratch-3-desktop-for-raspbian-on-raspberry-pi/) for more information.
+Δες το [Scratch 3 Desktop for Raspberry Pi](https://www.raspberrypi.org/blog/scratch-3-desktop-for-raspbian-on-raspberry-pi/) για περισσότερες πληροφορίες.
 
 --- /collapse ---
 
@@ -42,56 +42,56 @@ See [Scratch 3 Desktop for Raspberry Pi](https://www.raspberrypi.org/blog/scratc
 
 --- task ---
 
-When you use Scratch with this guide or one of our projects, you will need to switch between Scratch and the project instructions.
+Όταν χρησιμοποιείς το Scratch με αυτόν τον οδηγό ή ένα από τα έργα μας, θα χρειαστεί να κάνεις εναλλαγή μεταξύ του Scratch και των οδηγιών του έργου.
 
 --- collapse ---
 ---
-title: Switch between browser tabs
+title: Εναλλαγή μεταξύ καρτελών του φυλλομετρητή
 ---
 
-Click on (or on a tablet, tap) the title of a browser tab to switch between the Scratch editor and project instructions.
+Κάνε κλικ (ή σε ένα tablet, πάτησε) στον τίτλο μιας καρτέλας του φυλλομετρητή για εναλλαγή μεταξύ του προγράμματος επεξεργασίας Scratch και των οδηγιών έργου.
 
-![A browser with two tabs.](images/two-tabs.png)
+![Ένας φυλλομετρητής με δύο καρτέλες.](images/two-tabs.png)
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Side-by-side instructions and Scratch
+title: Οδηγίες δίπλα-δίπλα με το Scratch
 ---
 
-If your screen is big enough, you can view Scratch next to the project instructions.
+Εάν η οθόνη σου είναι αρκετά μεγάλη, μπορείς να δεις το Scratch δίπλα στις οδηγίες του έργου.
 
-![Side-by-side instructions and Scratch.](images/side-by-side.png)
+![Οδηγίες δίπλα-δίπλα με το Scratch.](images/side-by-side.png)
 
-If you are using Microsoft Windows 10, drag the Scratch tab in your web browser so that it is in a separate window, and keep dragging until the cursor reaches the right-hand edge of your screen. The window will then be positioned on the right-hand side of the screen.
+Εάν χρησιμοποιείς Microsoft Windows 10, σύρε την καρτέλα Scratch στο πρόγραμμα περιήγησής σου, ώστε να βρίσκεται σε ξεχωριστό παράθυρο και συνέχισε να σύρεις μέχρι ο δρομέας να φτάσει στη δεξιά άκρη της οθόνης σου. Στη συνέχεια, το παράθυρο θα τοποθετηθεί στη δεξιά πλευρά της οθόνης.
 
-Now, drag the window containing this guide or your project instructions to the left-hand side of your screen until the cursor reaches the left-hand edge. The window will take up the left half of your screen.
+Τώρα, σύρε το παράθυρο που περιέχει αυτόν τον οδηγό ή τις οδηγίες του έργου σου στην αριστερή πλευρά της οθόνης σου μέχρι ο κέρσορας να φτάσει στην αριστερή άκρη. Το παράθυρο θα καταλάβει το αριστερό μισό της οθόνης σου.
 
-You can resize the windows to get them just the way you want.
+Μπορείς να αλλάξεις το μέγεθος των παραθύρων για να τα τακτοποιήσεις ακριβώς όπως θέλεις.
 
-**Tip:** You can also hold down the <kbd>Windows</kbd> key and press the <kbd>Left</kbd> arrow key or <kbd>Right</kbd> arrow key to position a window in the left or right half of your screen.
+**Συμβουλή:** Μπορείς επίσης να κρατήσεις πατημένο το πλήκτρο<kbd>Windows</kbd> και να πατήσεις το <kbd>Αριστερό</kbd> βελάκι ή το <kbd>Δεξί</kbd> βελάκι, για να τοποθετήσεις ένα παράθυρο στο αριστερό ή το δεξί μισό της οθόνης σου.
 
 --- /collapse ---
 
-Try it now and see how you prefer to work.
+Δοκίμασε το τώρα και δες πώς προτιμάς να εργάζεσαι.
 
 --- /task ---
 
 --- task ---
 
-When you are using Scratch in a web browser, you can zoom in or out to adjust the size.
+Όταν χρησιμοποιείς το Scratch σε φυλλομετρητή διαδικτύου, μπορείς να κάνεις μεγέθυνση ή σμίκρυνση για να προσαρμόσεις το μέγεθος.
 
-For example, if you are using Microsoft Windows and you want to use zoom on a webpage in Google Chrome or Microsoft Edge, hold down the <kbd>Ctrl</kbd> key and press the <kbd>+</kbd> key or <kbd>-</kbd> key to zoom in or out.
+Για παράδειγμα, εάν χρησιμοποιείς Microsoft Windows και θέλεις να χρησιμοποιήσεις το ζουμ σε μια ιστοσελίδα στο Google Chrome ή στο Microsoft Edge, κράτησε πατημένο το πλήκτρο <kbd>Ctrl</kbd> και πάτα το πλήκτρο <kbd>+</kbd> ή το πλήκτρο <kbd>-</kbd> για μεγέθυνση ή σμίκρυνση.
 
 --- collapse ---
 ---
-title: Use zoom in the Code area
+title: Χρησιμοποίησε το ζουμ στην περιοχή Κώδικας
 ---
 
-You can also use the zoom controls in the Code area in Scratch to change the size of the code blocks in the Code area.
+Μπορείς επίσης να χρησιμοποιήσεις τα στοιχεία ελέγχου ζουμ στην περιοχή Κώδικας στο Scratch για να αλλάξεις το μέγεθος των μπλοκ κώδικα στην περιοχή Κώδικας.
 
-![The zoom controls in the Code area.](images/zoom-code-area.png)
+![Τα ζουμ ελέγχου στην περιοχή Κώδικας.](images/zoom-code-area.png)
 
 --- /collapse ---
 
