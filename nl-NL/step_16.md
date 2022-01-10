@@ -1,8 +1,8 @@
-## Paint editor
+## Uiterlijken bewerken
 
-Use the Paint editor to create your own backdrops and costumes, and to edit existing backdrops and costumes.
+Gebruik de Teken-editor om je eigen achtergronden en uiterlijken te maken en om bestaande achtergronden en uiterlijken te bewerken.
 
-![An annotated screenshot of the Costumes tab.](images/Scratch-Costume-tab.png){:width="600px"}
+![Een geannoteerde schermafbeelding van het tabblad Uiterlijken.](images/Scratch-Costume-tab.png){:width="600px"}
 
 [[[scratch3-paint-a-new-backdrop-extended]]]
 
@@ -18,193 +18,193 @@ Use the Paint editor to create your own backdrops and costumes, and to edit exis
 
 --- collapse ---
 ---
-title: Duplicate and edit a costume to use in an animation
+title: Een uiterlijk kopiëren en bewerken om in een animatie te gebruiken
 ---
 
-Some Scratch sprites just have one costume, or have multiple costumes that don't work as an animation. If you choose one costume, then duplicate it (make a copy of it) and make a small change, it can create an animation effect.
+Sommige Scratch-sprites hebben slechts één uiterlijk, of hebben meerdere uiterlijken die niet als animatie werken. Als je één uiterlijk kiest, het dan dupliceert (maak er een kopie van) en een kleine wijziging aanbrengt, kan het wel een animatie-effect creëren.
 
-**Robot animation**: [See inside](https://scratch.mit.edu/projects/436260207/editor){:target="_blank"}
+**Robot-animatie**: [Bekijk van binnen](https://scratch.mit.edu/projects/436260207/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/436260207/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Switch to the **Costumes** tab for your sprite.
+Ga naar het **Uiterlijken** tabblad voor jouw sprite.
 
-Choose the costume that you want to use, and delete the other costumes, because you will not need them for your animation. For example, the **Robot** sprite comes with costumes for three different robots, so you should choose one of the costumes and delete the other costumes.
+Kies het uiterlijk dat je wilt gebruiken en verwijder het andere uiterlijken, want je hebt ze niet nodig voor je animatie. De **Robot** wordt bijvoorbeeld geleverd met uiterlijken voor drie verschillende robots, dus je moet een van de uiterlijken kiezen en de andere uiterlijken verwijderen.
 
-Right-click (or on a tablet, tap and hold) on the costume, and choose **duplicate**.
+Klik met de rechtermuisknop (of tik op een tablet en houd vast) op het uiterlijk en kies **dupliceren**.
 
-Make small changes to the copy of the costume. For example, you can move, rotate, or change all or part of the costume. You can also add movement lines.
+Breng kleine wijzigingen aan in de kopie van het uiterlijk. Je kunt bijvoorbeeld het uiterlijk geheel of gedeeltelijk verplaatsen, draaien of veranderen. Je kunt ook bewegingslijnen toevoegen.
 
-If your costume uses vector graphics, then you can select parts of a costume and change each part separately.
+Als je uiterlijk vectorafbeeldingen gebruikt, kun je delen van een uiterlijk selecteren en elk onderdeel afzonderlijk wijzigen.
 
-![Duplicating a robot costume, then making changes to parts of the copy of the costume.](images/edit-robot-costume.gif)
+![Een robot uiterlijk dupliceren en vervolgens wijzigingen aanbrengen in delen van de kopie van het uiterlijk.](images/edit-robot-costume.gif)
 
-You can duplicate the costume again and make more changes to add more frames to your animation.
+Je kunt het uiterlijk opnieuw dupliceren en meer wijzigingen aanbrengen om meer frames aan je animatie toe te voegen.
 
-You can now use your costumes in a simple sprite animation.
-
---- /collapse ---
-
---- collapse ---
----
-title: Use the Fill tool to change the colours in a costume
----
-
-You can change the colour of your sprite. First, select your sprite in the Sprite list below the Stage and then click on the **Costumes** tab.
-
-Use the **Select** (Arrow) tool to highlight the part of the costume you want to change colour.
-
-![The Select (Arrow) tool.](images/challenge1-arrow-tool.png){:width="200px"}
-
-![Selecting a shape.](images/challenge1-arrow-tool-selecting-shape.png){:width="300px"}
-
-Go to the **Fill** colour chooser and select a colour. It will automatically fill the shape that you have selected.
-
-![The Fill colour chooser in the Paint editor, and the shape filled with the colour chosen.](images/challenge1-fill-tool.png){:width="300px"}
-
-Repeat the steps above for any part of the costume that you have missed, or for any other part of the costume you want to change colour.
-
-![Selecting a different part of the costume.](images/challenge1-select-another-shape.png){:width="300px"}
-
-![Different parts of the costume have been changed to different colours.](images/challenge1-change-shape-colour.png){:width="300px"}
-
-![The changed sprite on the Stage.](images/challenge1-change-costume-colour.png){:width="300px"}
-
---- /collapse ---
-
-Use the tips below to help you to create your own designs for your sprites in the Paint editor.
-
---- collapse ---
----
-title: Create scenery as sprites
----
-
-**Hill as a sprite**: [See inside](https://scratch.mit.edu/projects/452582516/editor){:target="_blank"}
-
-![A hill sprite.](images/challenge2-sprite-hill.png){:width="400px"}
-
-To make your own **Hill** sprite, shown in the example above, you can use the **Circle** and **Rectangle** tools in the Paint editor:
-
-+ Go to **Choose a Sprite** and select **Paint** to create a new sprite costume.
-
-![Selecting a Fill colour of green, deselecting the Outline, and drawing a green oval with the Circle tool, in the Paint editor.](images/challenge2-backdrop-sprite-costume.gif){:width="400px"}
-
-+ Choose a **Fill** colour. Click on **Outline** and deselect it (to do this, click on the box with the diagonal line in the bottom left-hand corner of the menu). Now, use the **Circle** tool to draw an oval. Then, select the **Rectangle** tool and draw a rectangle underneath the oval.
-
-+ If you use varying colours for the shapes, you may need to use the **Front** and **Back** tools in the Paint editor to move your shapes forward or backward so that they are positioned correctly within your background.
-
-+ You can select all the shapes and **Group** them together so that you can adjust them or move them as one shape.
-
-![The Group tool highlighted in the Paint editor.](images/challenge2-group-shapes.png){:width="400px"}
-
-Now, make other sprites for your scenery, if this fits in with your project idea.
-
-Remember to name your sprite(s).
+Je kunt je uiterlijken nu gebruiken in een eenvoudige sprite-animatie.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Use the Line tool to create a triangle
+title: Gebruik het gereedschap Vulling om de kleuren in een uiterlijk te wijzigen
 ---
 
-You can create polygons, such as a triangle, and use these shapes to create roofs or mountains.
+Je kunt de kleur van je sprite wijzigen. Selecteer eerst je sprite in de Sprite lijst onder het Speelveld en klik vervolgens op het tabblad **Uiterlijken**.
 
-Go to **Choose a Sprite** and select **Paint** to create a new sprite costume. In this example, you will make houses.
+Gebruik **Selecteer** (pijl) om het deel van het uiterlijk dat je van kleur wilt veranderen te markeren.
 
-**House**: [See inside](https://scratch.mit.edu/projects/453595663/editor){:target="_blank"}
+![Het gereedschap Selecteren (pijl).](images/challenge1-arrow-tool.png){:width="200px"}
 
-![Drawing a rectangle with the Rectangle tool, and a triangle with the Line tool, in the Paint editor.](images/challenge2-backdrop-sprite-costumes-line-tool.gif){:width="400px"}
+![Een vorm selecteren.](images/challenge1-arrow-tool-selecting-shape.png){:width="300px"}
 
-If you follow the instructions below, you can use the **Line** tool to create any shape:
-+ Choose a **Fill** colour. To choose the colour black, decrease the **Brightness** to zero (`0`).
+Ga naar de **Vulling** kleurkiezer en selecteer een kleur. Het vult automatisch de vorm die je hebt geselecteerd.
 
-![Changing the Fill colour to black.](images/challenge2-black.png){:width="150px"}
+![De vulkleur-kiezer in de Teken-editor en de vorm gevuld met de gekozen kleur.](images/challenge1-fill-tool.png){:width="300px"}
 
-+ Select **No outline**.
+Herhaal de bovenstaande stappen voor elk deel van het uiterlijk dat je hebt gemist, of voor elk ander deel van het uiterlijk dat je van kleur wilt veranderen.
 
-![The 'No outline' symbol highlighted.](images/challenge2-nooutline.png){:width="200x"}
+![Een ander deel van het uiterlijk selecteren.](images/challenge1-select-another-shape.png){:width="300px"}
 
-+ Use the **Rectangle** tool to draw a rectangle.
-+ Use the **Line** tool to draw a triangle. Make sure that you complete the triangle, otherwise it will not fill with colour.
-+ Move the two shapes together.
-+ Select the **Fill** (Bucket) tool and fill the triangle with colour.
-+ Use the **Rectangle** tool to draw another rectangle for the chimney.
-+ You can use the **Front** and **Back** tools in the Paint editor to move your shapes forward or backward so that they are positioned correctly. In this example, you will not need to do this, because the shapes are black to make a silhouette.
-+ Select all the shapes and **Group** them together so that you can adjust them or move them as one shape.
+![Verschillende delen van het uiterlijk zijn veranderd in verschillende kleuren.](images/challenge1-change-shape-colour.png){:width="300px"}
 
-To create duplicate shapes of your house (for example, to make a skyline), follow the tips under **Duplicate shapes to create a scenery costume** below.
+![De veranderde sprite op het Speelveld.](images/challenge1-change-costume-colour.png){:width="300px"}
+
+--- /collapse ---
+
+Gebruik de onderstaande tips om je te helpen je eigen ontwerpen voor je sprites te maken in de Teken-editor.
+
+--- collapse ---
+---
+title: Landschappen maken als sprites
+---
+
+**Heuvel als sprite**: [Bekijk van binnen](https://scratch.mit.edu/projects/452582516/editor){:target="_blank"}
+
+![Een heuvel sprite.](images/challenge2-sprite-hill.png){:width="400px"}
+
+Om je eigen **Heuvel** sprite te maken, zoals weergegeven in het bovenstaande voorbeeld, kun je de **Cirkel** en **Rechthoek** in de Teken-editor gebruiken:
+
++ Ga naar **Kies een Sprite** en selecteer **Teken** om een nieuw sprite uiterlijk te maken.
+
+![Een opvulkleur groen selecteren, de selectie van de omtrek ongedaan maken en een groen ovaal tekenen met het gereedschap Cirkel in de Teken-editor.](images/challenge2-backdrop-sprite-costume.gif){:width="400px"}
+
++ Kies een kleur met **Vulling**. Klik op **Omtrek** en deselecteer deze (klik hiervoor op het vakje met de diagonale lijn in de linkerbenedenhoek van het menu). Gebruik nu het **Cirkel** gereedschap om een ovaal te tekenen. Selecteer vervolgens het **Rechthoek** gereedschap en teken een rechthoek onder het ovaal.
+
++ Als je verschillende kleuren voor de vormen gebruikt, moet je misschien de **Naar voren** en **Naar achteren** knoppen in de Teken-editor gebruiken om je vormen naar voren of naar achteren te verplaatsen, zodat ze correct binnen je achtergrond worden geplaatst.
+
++ Je kunt alle vormen selecteren en ze samen **Groeperen** zodat je ze als één geheel kunt aanpassen of verplaatsen.
+
+![Het gereedschap Groeperen gemarkeerd in de Teken-editor.](images/challenge2-group-shapes.png){:width="400px"}
+
+Maak nu andere sprites voor je landschap, als dat past bij jouw projectidee.
+
+Vergeet niet je sprite(s) een naam te geven.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Duplicate shapes to create a scenery costume
+title: Gebruik het gereedschap Lijn om een driehoek te maken
 ---
 
-You may want to duplicate shapes within a costume so that your scenery appears busier or more crowded.
+Je kunt veelhoeken maken, zoals een driehoek, en deze vormen gebruiken om daken of bergen te maken.
 
-**Multiple clouds**: [See inside](https://scratch.mit.edu/projects/447278432/editor){:target="_blank"}
+Ga naar **Kies een Sprite** en selecteer **Teken** om een nieuw sprite uiterlijk te maken. In dit voorbeeld ga je huizen maken.
 
-![Multiple clouds on the Stage.](images/challenge2-sprite-costume-multiples.png){:width="400px"}
+**Huis**: [Bekijk van binnen](https://scratch.mit.edu/projects/453595663/editor){:target="_blank"}
 
-The effect of multiplying shapes is used by professional animators to create the impression of weather patterns, such as rain or clouds; a cluster of objects, such as buildings or a wood; or a crowd of people in a scene.
+![Teken een rechthoek met het gereedschap Rechthoek en een driehoek met het gereedschap Lijn in de Teken-editor.](images/challenge2-backdrop-sprite-costumes-line-tool.gif){:width="400px"}
+
+Als je de onderstaande instructies volgt, kun je het **Lijn** gereedschap gebruiken om elke vorm te maken:
++ Kies een kleur met **Vulling**. Om de kleur zwart te kiezen, verlaag je de **Helderheid** naar nul (`0`).
+
+![De vulkleur wijzigen in zwart.](images/challenge2-black.png){:width="150px"}
+
++ Selecteer **Geen omtrek**.
+
+![Het symbool 'Geen omtrek' gemarkeerd.](images/challenge2-nooutline.png){:width="200x"}
+
++ Gebruik het **Rechthoek** gereedschap om een rechthoek te tekenen.
++ Gebruik het **Lijn** gereedschap om een driehoek te tekenen. Zorg ervoor dat je de driehoek voltooit, anders wordt deze niet gevuld met kleur.
++ Voeg de twee vormen samen.
++ Selecteer het **Vullen** gereedschap (Emmer) en vul de driehoek met kleur.
++ Gebruik het **Rechthoek** gereedschap om met een andere rechthoek de schoorsteen te tekenen.
++ Als je verschillende kleuren voor de vormen gebruikt, moet je misschien de **Naar voren** en **Naar achteren** knoppen in de Teken-editor gebruiken om je vormen naar voren of naar achteren te verplaatsen, zodat ze correct binnen je achtergrond worden geplaatst. In dit voorbeeld hoef je dit niet te doen, omdat de vormen zwart zijn om een silhouet te maken.
++ Je kunt alle vormen selecteren en ze samen **Groeperen** zodat je ze als één geheel kunt aanpassen of verplaatsen.
+
+Om dubbele vormen van je huis te maken (bijvoorbeeld om een skyline te maken), volg je de tips onder **Vormen dupliceren om een landschaps-uiterlijk te maken** hieronder.
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Vormen dupliceren om een landschaps-uiterlijk te maken
+---
+
+Misschien wil je vormen binnen een uiterlijk dupliceren, zodat je landschap drukker lijkt.
+
+**Meerdere wolken**: [Bekijk van binnen](https://scratch.mit.edu/projects/447278432/editor){:target="_blank"}
+
+![Meerdere wolken op het Speelveld.](images/challenge2-sprite-costume-multiples.png){:width="400px"}
+
+Het effect van het vermenigvuldigen van vormen wordt door professionele animators gebruikt om de indruk te wekken van weerpatronen, zoals regen of wolken; een groep van objecten, zoals gebouwen of een bos; of een menigte mensen in een scène.
 
 --- no-print ---
 
-![Using the Select, Copy, and Paste tools to make a costume with multiple cloud shapes.](images/challenge2-sprite-costume-multiples.gif)
+![Gebruik de gereedschappen Selecteren, Kopiëren en Plakken om een uiterlijk te maken met meerdere wolkenvormen.](images/challenge2-sprite-costume-multiples.gif)
 
 --- /no-print ---
 
-To multiply any type of shape:
-+ Go to **Choose a Sprite** and select, in this example, the **Cloud** sprite
-+ In the **Costumes** tab, use the **Select** tool to highlight the whole of the shape
-+ Use the **Copy** and **Paste** tools to create duplicates of the shape
-+ Use the **Select** tool to move the shape within the Paint editor
-+ You can vary the size of the shapes to help to create a greater sense of 3D effects, for example
-+ You can select all the shapes and **Group** them together, so that you can adjust them or move them as one shape
+Om elk type vorm te vermenigvuldigen:
++ Ga naar **Kies een Sprite** en selecteer in dit voorbeeld de **Cloud** sprite
++ Gebruik op het tabblad **Uiterlijken** het **Selecteren** gereedschap om de hele vorm te markeren
++ Gebruik de **Kopie maken** en **Plakken** knoppen om duplicaten van de vorm te maken
++ Gebruik het **Selecteren** gereedschap om de vorm in de Teken-editor te verplaatsen
++ Je kunt de grootte van de vormen variëren om bijvoorbeeld een groter gevoel van 3D-effecten te creëren
++ Je kunt alle vormen selecteren en ze samen **Groeperen** zodat je ze als één geheel kunt aanpassen of verplaatsen
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Use Saturation and Brightness to create depth
+title: Gebruik verzadiging en helderheid om diepte te creëren
 ---
 
-In the real world, objects that are further away appear lighter in colour. To achieve more realistic 3D scenery, you can **decrease** the colour **Saturation** and/or **Brightness** of each sprite so that they appear further and further away.
+In de echte wereld lijken objecten die verder weg zijn lichter van kleur. Om een meer realistisch 3D-landschap te maken, kun je de **Verzadiging** en/of de **Helderheid** van de kleur van elke sprite **verlagen**, zodat ze verder en verder weg lijken.
 
-!['Saturation' and 'Brightness' highlighted in the Fill colour chooser.](images/challenge2-saturation.png){:width="400px"}
+!['Verzadiging' en 'Helderheid' gemarkeerd in de vulkleur-kiezer.](images/challenge2-saturation.png){:width="400px"}
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Create a sprite with gaps that you can see through
+titlel: Maak een sprite met gaten waar je doorheen kunt kijken
 ---
 
-You can create a sprite that has gaps that you can see through. If it is positioned as the front layer and is the size of the Stage, it can appear like a view through the bars of a cage or a window.
+Je kunt een sprite maken met gaten waar je doorheen kunt kijken. Als de sprite als de voorste laag is gezet en de grootte heeft van het werkgebied, kan het eruitzien als een kijkje door de tralies van een kooi of een raam.
 
 --- no-print ---
 
-**Caged lion**: [See inside](https://scratch.mit.edu/projects/445680159/editor){:target="_blank"}
+**Gekooide leeuw**: [Bekijk van binnen](https://scratch.mit.edu/projects/445680159/editor){:target="_blank"}
 
-![A cage sprite costume.](images/challenge2-sprite-costume-mask-cage.gif)
+![Een kooi sprite uiterlijk.](images/challenge2-sprite-costume-mask-cage.gif)
 
 --- /no-print ---
 
-To create a type of masking sprite:
-+ Go to **Choose a Sprite** and select **Paint**
-+ Choose a **Fill** colour with no **Outline** and draw a vertical rectangle
-+ Use the **Copy** and **Paste** tools to repeat this shape
-+ Use the **Select** tool to move the shapes around
-+ As you place your shapes, make sure that they are touching the edge of the Stage to fit in with your project idea
+Een soort maskeer-sprite maken:
++ Ga naar het **Kies een achtergrond** menu en kies **Tekenen**
++ Kies een **Vulling** kleur zonder **Omtrek** en teken een verticale rechthoek
++ Gebruik de **Kopie maken** en **Plakken** knoppen om duplicaten van de vorm te maken
++ Gebruik het **Selecteren** gereedschap om de vorm in de Teken-editor te verplaatsen
++ Zorg er bij het plaatsen van je vormen voor dat ze de rand van het werkgebied raken, zodat ze in jouw projectidee passen
 
-![The Copy and Paste tools highlighted in the Paint editor.](images/challenge2-sprite-costume-mask-copy.png)
+![De gereedschappen Kopiëren en Plakken gemarkeerd in de Paint-editor.](images/challenge2-sprite-costume-mask-copy.png)
 
 --- /collapse ---
 
-**Tip:** If you find it hard to manage the sprites on your Stage, such as having a large sprite that keeps covering a much smaller one, you can click on **Hide** so that you don't see a sprite or sprites. Then, when you have finished, click on **Show** again.
+**Tip:** Als je het moeilijk vindt om de sprites in je werkgebied te beheren, bijvoorbeeld als je een grote sprite hebt die steeds over een kleinere valt, kun je u op de **Verdwijn** knop klikken zodat de sprite niet meer zichtbaar is. Als je klaar bent, klik je nogmaals op de **Verschijn** knop.
 
-![The 'Show' and 'Hide' icons highlighted in the Sprite pane.](images/hideSprites.png){:width="300px"}
+![De pictogrammen 'Tonen' en 'Verbergen' gemarkeerd in het Sprite-venster.](images/hideSprites.png){:width="300px"}
