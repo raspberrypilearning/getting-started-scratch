@@ -1,10 +1,10 @@
-## Sensing
+## Capteurs
 
-The blocks in the `Sensing`{:class="block3sensing"} blocks menu are used to get user text input, detect conditions, and report on values in your project.
+Les blocs de la catégorie `Capteurs`{:class="block3sensing"} sont utilisés pour obtenir la saisie de texte de vos utilisateurs, détecter les conditions et propager les valeurs de votre projet.
 
-There are several hexagonal `Sensing`{:class="block3sensing"} blocks that you can use in `Control`{:class="block3control"} blocks to make decisions and control when blocks run.
+Il existe plusieurs blocs `Capteurs`{:class="block3sensing"} hexagonaux que vous pouvez imbriquer dans des blocs `Contrôle`{:class="block3control"} pour prendre des décisions et contrôler l'exécution des blocs.
 
-The `touching`{:class="block3sensing"} block has options for detecting whether the sprite that owns the script is touching the mouse pointer (where you finger last touched on a tablet), the edge of the Stage, or another sprite:
+Le bloc `touche`{:class="block3sensing"} a des options pour détecter si le sprite qui possède le script touche le pointeur de la souris (où vous avez touché la dernière fois le doigt sur une tablette), le bord de la scène ou un autre sprite :
 
 ```blocks3
 <touching (mouse-pointer v) ?>
@@ -14,7 +14,7 @@ The `touching`{:class="block3sensing"} block has options for detecting whether t
 <touching (Sprite2 v) ?>
 ```
 
-There are blocks for detecting whether the sprite that owns the script is touching another colour (on the Stage or another sprite), or whether a colour on this sprite is touching another colour.
+Il existe des blocs pour détecter si le sprite qui possède le script touche une autre couleur (sur la scène ou un autre sprite), ou si une couleur sur ce sprite touche une autre couleur.
 
 ```blocks3
 <touching color (#c5a97b) ?>
@@ -22,19 +22,19 @@ There are blocks for detecting whether the sprite that owns the script is touchi
 <color (#c219ed) is touching (#62d1e0) ?>
 ```
 
-The `key pressed`{:class="block3sensing"} block has options for number, letter, and arrow keys. You need a keyboard to be able to enter keys. It detects whether the key is currently being pressed:
+Le bloc `touche pressée ?`{:class="block3sensing"} a des options pour les touches numériques, alphabétiques et fléchées du clavier. Tu as besoin d'un clavier pour pouvoir saisir les touches. Il détecte si la touche est actuellement enfoncée :
 
 ```blocks3
 <key (space v) pressed?>
 ```
 
-The `mouse down`{:class="block3sensing"} block detects whether the mouse is currently pressed, or the screen is being tapped or touched on a touchscreen:
+Le bloc `souris pressée ?`{:class="block3sensing"} détecte si la souris est actuellement enfoncée ou si l'écran est tapé ou touché dans le cas d'un écran tactile :
 
 ```blocks3
 <mouse down?>
 ```
 
-The `ask`{:class="block3sensing"} and `answer`{:class="block3sensing"} blocks are used to get text input from the user:
+Les blocs `demander`{:class="block3sensing"} et `réponse`{:class="block3sensing"} sont utilisés pour obtenir la saisie de texte de l'utilisateur :
 
 ```blocks3
 ask [What's your name] and wait
@@ -42,13 +42,13 @@ ask [What's your name] and wait
 (answer) // the text the the user typed 
 ```
 
-The `ask`{:class="block3sensing"} block works with a keyboard or with a virtual on-screen keyboard on a tablet.
+Le bloc `demander`{:class="block3sensing"} fonctionne avec un clavier ou avec un clavier virtuel sur l'écran d'une tablette.
 
-The `answer`{:class="block3sensing"} block is a reporter block that reports a value and can be used as a variable.
+Le bloc `réponse`{:class="block3sensing"} est un bloc qui rapporte une valeur et peut être utilisé comme variable.
 
 [[[scratch3-ask-answer-chat]]]
 
-The `Sensing`{:class="block3sensing"} blocks menu also contains several reporter blocks that can be used to get values:
+La catégorie de blocs `Capteurs`{:class="block3sensing"} contient également plusieurs blocs qui peuvent être utilisés pour obtenir des valeurs :
 
 ```blocks3
 (distance to (mouse-pointer v))
@@ -56,7 +56,7 @@ The `Sensing`{:class="block3sensing"} blocks menu also contains several reporter
 (distance to (Sprite2 v))
 ```
 
-You can detect the current position of the mouse-pointer (or the current or most recent position of your finger on a tablet):
+Tu peux détecter la position actuelle du pointeur de la souris (ou la position actuelle ou la plus récente de ton doigt sur une tablette) :
 
 ```blocks3
 (mouse x)
@@ -64,13 +64,13 @@ You can detect the current position of the mouse-pointer (or the current or most
 (mouse y)
 ```
 
-You can detect the `loudness`{:class="block3sensing"} of sound from the microphone. A pop-up window will ask the user for permission to use the microphone:
+Tu peux détecter le `volume`{:class="block3sensing"} du son du microphone. Une fenêtre contextuelle demandera à l'utilisateur l'autorisation d'utiliser le microphone :
 
 ```blocks3
 (loudness)
 ```
 
-The `timer`{:class="block3sensing"} starts counting when the project loads, and can be set back to `0` with `reset timer`{:class="block3sensing"}:
+Le `chronomètre`{:class="block3sensing"} commence à compter lorsque le projet se charge, et peut être remis à `0` avec `réinitialiser le chronomètre`{:class="block3sensing"} :
 
 ```blocks3
 (timer)
@@ -78,7 +78,7 @@ The `timer`{:class="block3sensing"} starts counting when the project loads, and 
 reset timer
 ```
 
-You can also access reporters for the Stage and other sprites:
+Tu peux également accéder aux blocs d'obtention de valeurs de la Scène et d'autres sprites :
 
 ```blocks3
 ([backdrop # v] of (_stage_ v))
@@ -88,7 +88,7 @@ You can also access reporters for the Stage and other sprites:
 ([costume # v] of (Sprite2 v))
 ```
 
-There are reporters related to the date and time in the real world, in your local timezone:
+Il existe des blocs d'obtention de valeurs liés à la date et à l'heure dans le monde réel, dans ton fuseau horaire local :
 
 ```blocks3
 (current [year v]) // hour, minute, ...
