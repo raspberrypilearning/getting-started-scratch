@@ -1,82 +1,82 @@
-## Debug
+## Εντοπισμός σφαλμάτων
 
-**Debugging** is finding and fixing mistakes in your code that are called **bugs**.
+**Εντοπισμός σφαλμάτων** είναι η εύρεση και η διόρθωση λαθών στον κώδικά σου που ονομάζονται **σφάλματα (bugs)**.
 
-* It's easier to identify issues if you make one change at a time, and then run your program
+* Είναι ευκολότερο να εντοπίσεις προβλήματα εάν κάνεις μία μόνο αλλαγή τη φορά και στη συνέχεια, εκτελέσεις το πρόγραμμά σου
 
-* It might take a few experiments for your project to work in the way that you planned
+* Μπορεί να χρειαστούν μερικά πειράματα για να λειτουργήσει το έργο σου με τον τρόπο που σχεδίασες
 
-Here are some tips that can help you to debug a project when it is not doing what you want it to do:
+Ακολουθούν ορισμένες συμβουλές που μπορούν να σε βοηθήσουν να εντοπίσεις σφάλματα σε ένα έργο όταν δεν κάνει αυτό που θέλεις να κάνει:
 
 --- collapse ---
 ---
-title: Run smaller pieces of code
+τίτλος: Εκτέλεσε μικρότερα κομμάτια κώδικα
 ---
 
-You do not have to run a whole program to check whether the last few new blocks that you have added work.
+Δεν χρειάζεται να εκτελέσεις ολόκληρο το πρόγραμμα για να ελέγξεις αν λειτουργούν τα τελευταία νέα μπλοκ που πρόσθεσες.
 
-* Click on a block in the Code area to run it — it is a quick way to check that a block is working as you expect it to
+* Κάνε κλικ σε ένα μπλοκ στην περιοχή Κώδικας για να το εκτελέσεις — είναι ένας γρήγορος τρόπος για να ελέγξεις ότι ένα μπλοκ λειτουργεί όπως περιμένεις
 
-* To test a set of blocks on their own, drag them away from their **containing** script, click on them to test them, then drag them back to the main script
+* Για να δοκιμάσεις ένα συγκεκριμένο σύνολο μπλοκ, σύρε τα μπλοκ μακριά από το script που τα **περιέχει**, κάνε κλικ σε αυτά για να τα δοκιμάσεις και μετά σύρε τα πάλι πίσω στο κύριο script
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Add temporary delays
+title: Προσθήκη προσωρινών καθυστερήσεων
 ---
 
-Slow down the **execution** of your code when it is run. To do this, add a `wait`{:class="block3control"} or `wait until key pressed`{:class="block3control"} block, then remove the block when you have finished debugging your code.
+Μπορείς να επιβραδύνεις την εκτέλεση **** του κώδικά σου όταν εκτελείται. Για να το κάνεις αυτό, πρόσθεσε ένα μπλοκ `περίμενε`{:class="block3control"} ή `περίμενε ώσπου να πατηθεί πλήκτρο`{:class="block3control"} και στη συνέχεια, αφαίρεσε το μπλοκ όταν ολοκληρώσεις τον εντοπισμό σφαλμάτων του κώδικά σου.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Show variables on the Stage
+title: Εμφάνιση μεταβλητών στη Σκηνή
 ---
 
-If your project uses `variables`{:class="block3variables"} to store data, then it can be helpful to show those `variables`{:class="block3variables"} on the Stage.
+Εάν το έργο σου χρησιμοποιεί `μεταβλητές`{:class="block3variables"} για την αποθήκευση δεδομένων, τότε μπορεί να είναι χρήσιμο να εμφανίσεις αυτές τις `μεταβλητές`{:class="block3variables"} στη Σκηνή.
 
-Click on the checkbox next to a `variable`{:class="block3variables"} in the `Variables`{:class="block3variables"} blocks menu to show or hide it on the Stage.
+Κάνε κλικ στο πλαίσιο ελέγχου δίπλα σε μια `μεταβλητή `{:class="block3variables"} στο μενού `Μεταβλητές`{:class="block3variables"} για να την εμφανίσεις ή να την αποκρύψεις στη Σκηνή.
 
-Does the variable always have the value that you expect?
+Η μεταβλητή έχει πάντα την τιμή που περίμενες;
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Add comments
+title: Προσθήκη σχολίων
 ---
 
-Add comments to blocks, sets of blocks, and/or scripts. Use everyday language to explain what the code does. Sometimes, this will make you realise that your code does not actually do what you want it to do!
+Πρόσθεσε σχόλια στα μπλοκ, σε σετ μπλοκ και/ή στα script. Χρησιμοποίησε καθημερινή γλώσσα για να εξηγήσεις τι κάνει ο κώδικας. Μερικές φορές, αυτό θα σε κάνει να συνειδητοποιήσεις ότι ο κώδικάς σου δεν κάνει αυτό που θέλεις να κάνει!
 
-Comments are useful for when you want to understand your code later, and they help other people to understand your projects.
+Τα σχόλια είναι χρήσιμα όταν θέλεις να κατανοήσεις τον κώδικά σου αργότερα και βοηθούν άλλους ανθρώπους να κατανοήσουν τα έργα σου.
 
 --- /collapse ---
 
 
-There are common problems that lots of beginners (and experts!) experience in Scratch.
+Υπάρχουν κοινά προβλήματα που αντιμετωπίζουν πολλοί αρχάριοι (και ειδικοί!) στο Scratch.
 
 --- collapse ---
 ---
-title: Debugging tips for specific problems
+title: Συμβουλές εντοπισμού σφαλμάτων για συγκεκριμένα προβλήματα
 ---
 
-+ **My sprite is going upside down** — Add a `set rotation style left-right`{:class="block3motion"} or `set rotation style don't rotate`{:class="block3motion"} block.
++ **Το αντικείμενό μου πάει ανάποδα** — Πρόσθεσε ένα μπλοκ `όρισε τρόπο περιστροφής αριστερά-δεξιά`{:class="block3motion"} ή `όρισε τρόπο περιστροφής μην περιστρέψεις`{:class="block3motion"}.
 
-+ **My sprite 'jumps' when it changes costume or bounces** — Make sure that the costume is centred in the Paint editor (line up the blue cross in the costume with the crosshair in the centre of the Paint editor).
++ **Το αντικείμενό μου «πηδά» όταν αλλάζει ενδυμασία ή αναπηδά** — Επιβεβαίωσε ότι η ενδυμασία είναι κεντραρισμένη στο πρόγραμμα επεξεργασίας ζωγραφικής (ευθυγράμμισε τον μπλε σταυρό στην ενδυμασία με το σταυρουδάκι στο κέντρο του προγράμματος επεξεργασίας ζωγραφικής).
 
-+ **My sprite stops when it gets to the edge of the Stage** — Add an `if on edge, bounce`{:class="block3motion"} block.
++ **Το αντικείμενό μου σταματά όταν φτάσει στην άκρη της Σκηνής** — Πρόσθεσε ένα μπλοκ<1εάν σε όριο, αναπήδησε</code>{:class="block3motion"}.
 
-+ **My sound does not play** — Have you added a block to `play sound`{:class="block3sound"} when the sprite is clicked? If you have copied code from another sprite, you will need to add the sound to this sprite in the **Sounds** tab. Check the volume on your computer or tablet, and make sure that you have not lowered the volume with code — try `set volume to`{:class="block3sound"} `100`.
++ **Ο ήχος μου δεν αναπαράγεται** — Έχεις προσθέσει ένα μπλοκ `παίξε τον ήχο`{:class="block3sound"} όταν γίνεται κλικ στο αντικείμενο; Εάν έχεις αντιγράψει κώδικα από άλλο αντικείμενο, θα πρέπει να προσθέσεις τον ήχο σε αυτό το αντικείμενο στην καρτέλα **Ήχοι**. Έλεγξε την ένταση του υπολογιστή ή του tablet σου και βεβαιώσου ότι δεν έχεις μειώσει την ένταση με τον κώδικα - δοκίμασε `όρισε ένταση σε`{:class="block3sound"} `100`.
 
-+ **Other sprites keep going in front of my sprite** — Use a `go to front layer`{:class="block3looks"} block.
++ **Άλλα αντικείμενα συνεχίζουν να περνάνε μπροστά από το αντικείμενό μου** — Χρησιμοποίησε ένα μπλοκ `πήγαινε σε επίπεδο προσκήνιο`{:class="block3looks"}.
 
-+ **My sprite only moves/changes once** — Put your code inside a `forever`{:class="block3control"} block so that it keeps running.
++ **Το αντικείμενό μου μετακινείται/αλλάζει μόνο μία φορά** — Τοποθέτησε τον κώδικά σου μέσα σε ένα `για πάντα`{:class="block3control"} ώστε να συνεχίσει να εκτελείται.
 
-+ **My sprite does not change when I move a variable slider** — Put your code inside a `forever`{:class="block3control"} block so that it keeps updating.
++ **Το αντικείμενό μου δεν αλλάζει όταν μετακινώ τη γραμμή ρύθμισης της μεταβλητής** — Τοποθέτησε τον κώδικά σου μέσα σε ένα `για πάντα`{:class="block3control"}, ώστε να ενημερώνεται συνεχώς.
 
 --- /collapse ---
 
-**Tip:** If you cannot find the problem after you have tried these techniques, then take a break or work on a different part of your project. When you come back, you might find the bug straight away!
+**Συμβουλή:** Εάν δεν μπορείς να βρεις το πρόβλημα αφού δοκιμάσεις αυτές τις τεχνικές, κάνε ένα διάλειμμα ή δοκίμασε να εργαστείς σε διαφορετικό μέρος του έργου σου. Όταν επιστρέψεις, μπορεί να βρεις το σφάλμα αμέσως!
 
