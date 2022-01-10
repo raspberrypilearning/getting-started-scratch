@@ -1,42 +1,42 @@
-## Variables
+## Newidynnau
 
-A `variable`{:class="block3variables"} is a way of storing numbers and/or text.
+Mae `newidyn`{:class="block3variables"} yn ffordd o storio rhifau a/neu destun.
 
-You can make your own variables and choose whether they show on the Stage:
+Galli di greu dy newidynnau dy hun a dewis a ydyn nhw'n ymddangos ar y Llwyfan:
 
 [[[generic-scratch3-add-variable]]]
 
-You should think about whether you need to set a starting value when you make a variable:
+Dylet ti feddwl a oes angen i ti osod gwerth cychwynnol wrth greu newidyn:
 
 [[[scratch3-create-set-variable]]]
 
-You can rename a variable if you change your mind:
+Galli di ailenwi newidyn os byddi di'n newid dy meddwl:
 
 --- collapse ---
 ---
-title: Rename a variable
+title: Ail-enwi newidyn
 ---
 
-Sometimes you think of a better name for a variable.
+Weithiau, fyddi di'n meddwl am enw gwell ar gyfer newidyn.
 
-You can give a variable a new name: go to the `Variables`{:class="block3variables"} blocks menu, right-click (or on a tablet, tap and hold) on the `variable`{:class="block3variables"}, and choose **Rename variable**.
+Mae'n bosib rhoi enw newydd i newidyn: cer i'r ddewislen blociau `Newidynnau`{:class="block3variables"} de-glicio (neu daro a dal os wyt ti ar dabled) ar y `newidyn`{:class="block3variables"}, a dewis **Ailenwi newidyn**.
 
-![Selecting 'Rename variable' in the menu.](images/rename-variable.png)
+![Dewis 'Ail-enwi newidyn' yn y ddewislen.](images/rename-variable.png)
 
-This will change the name of the variable in all the blocks in which you have used it.
+Bydd hyn yn newid enw'r newidyn yn yr holl flociau rwyt ti wedi'i ddefnyddio ynddynt.
 
 --- /collapse ---
 
-**Tip:** Make sure you know the difference between `set`{:class="block3variables"} and `change by`{:class="block3variables"}. `set`{:class="block3variables"} will replace the value stored in a variable. `change by`{:class="block3variables"} will change the value of a number variable by the amount you choose, `change by`{:class="block3variables"}`1` will add one to a variable. `change by`{:class="block3variables"}`-1` will take one away from a variable.
+**Awgrym:** Gwna'n siŵr dy fod yn gwybod y gwahaniaeth rhwng `gosod`{:class="block3variables"} a `newid gan`{:class="block3variables"}. Bydd `gosod`{:class="block3variables"} yn disodli'r gwerth sy'n cael ei storio mewn newidyn. Bydd `newid gan`{:class="block3variables"} yn newid gwerth newidyn sy'n rhif, gan y swm rwyt ti'n ei ddewis, bydd `newid gan`{:class="block3variables"}`1` yn ychwanegu un at newidyn. Bydd `newid gan`{:class="block3variables"}`-1` yn tynnu un o newidyn.
 
 
-**Tip:** Variables on the Stage always appear in a layer above all of the sprites. If you have a moving sprite, the sprite will go under any variables on the Stage.
+**Awgrym:** Bydd newidyn ar y Llwyfan bob amser yn ymddangos mewn haen uwchben yr holl gorluniau. Os oes gen ti gorlun sy'n symud, bydd y corlun yn mynd o dan unrhyw newidynnau ar y Llwyfan.
 
-You can use a slider to control the value in a variable.
+Galli di ddefnyddio llithrydd i reoli'r gwerth mewn newidyn.
 
 [[[scratch3-slider-variable]]]
 
-More ideas for using variables:
+Mwy o syniadau ar gyfer defnyddio newidynnau:
 
 [[[generic-scratch3-high-score]]]
 
@@ -49,21 +49,21 @@ More ideas for using variables:
 
 --- collapse ---
 ---
-title: Control graphic effects with a variable slider
+title: Rheoli effeithiau graffeg gyda llithrydd newidyn
 ---
 
-Here are some examples of how you can use your variable slider:
+Dyma rai enghreifftiau o sut y galli di ddefnyddio dy lithrydd newidyn:
 
 
-This example changes the `ghost`{:class="block3looks"} graphic effect so you can see through the rainbow.
+Mae'r enghraifft hon yn newid yr effaith graffeg `ysbryd`{:class="block3looks"} fel dy fod yn gallu gweld drwy'r enfys.
 
-**Transparent rainbow**: [See inside](https://scratch.mit.edu/projects/451544795/editor){:target="_blank"}
+**Enfys tryloyw**: [Gweld tu mewn](https://scratch.mit.edu/projects/451544795/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451544795/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can use a `transparent`{:class="block3variables"} variable to control the `ghost`{:class="block3looks"} effect on a sprite at the `front`{:class="block3looks"}, and use it to reveal or hide sprites in lower layers.
+Galli di ddefnyddio newidyn `tryloyw`{:class="block3variables"} i reoli'r effaith `ysbryd`{:class="block3looks"} ar gorlun yn y `blaen`{:class="block3looks"}, a'i ddefnyddio i ddatgelu neu guddio corluniau yn yr haenau is.
 
 ```blocks3
 when flag clicked
@@ -76,22 +76,22 @@ forever
 set [ghost v] effect to (transparent)
 ```
 
-Try using the same approach with other graphic effects such as `brightness`{:class="block3looks"} or `color`{:class="block3looks"}.
+Rho gynnig ar ddefnyddio'r un dull gyda effeithiau graffeg fel `disgleirdeb`{:class="block3looks"} neu `lliw`{:class="block3looks"}.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Control movement speed with a variable
+title: Rheoli cyflymder symud gyda newidyn
 ---
 
-**Ladybug on a wall**: [See inside](https://scratch.mit.edu/projects/451545341/editor){:target="_blank"}
+**Buwch goch gota ar wal**: [Gweld tu mewn](https://scratch.mit.edu/projects/451545341/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451545341/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Use the `speed`{:class="block3variables"} variable as the input to a `move`{:class="block3motion"} block:
+Defnyddia'r newidyn `cyflymder`{:class="block3variables"} fel mewnbwn ar gyfer bloc `symud`{:class="block3motion"}:
 
 ```blocks3
 when flag clicked
@@ -99,22 +99,22 @@ forever
 move (speed) steps
 if on edge, bounce
 ```
-Set the minimum and maximum values for the range of the slider to suit your project.
+Gosoda'r gwerthoedd lleiaf a mwyaf ar gyfer ystod y llithrydd sy'n addas i dy brosiect di.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Control turn speed with a variable
+title: Rheoli'r cyflymder troi gyda newidyn
 ---
 
-**Space dog**: [See inside](https://scratch.mit.edu/projects/451543041/editor){:target="_blank"}
+**Ci gofod**: [Gweld tu mewn](https://scratch.mit.edu/projects/451543041/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451543041/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Use an `angle`{:class="block3variables"} variable as the input to a `turn right`{:class="block3motion"} block:
+Defnyddia newidyn `ongl`{:class="block3variables"} fel mewnbwn i floc `troi i'r dde`{:class="block3motion"}:
 
 ```blocks3
 when flag clicked
@@ -126,16 +126,16 @@ turn right (angle) degrees
 
 --- collapse ---
 ---
-title: Change the delay in a wait block
+title: Newid yr amser oedi mewn bloc aros
 ---
 
-**Skeleton dance**: [See inside](https://scratch.mit.edu/projects/451536565/editor){:target="_blank"}
+**Dawns y sgerbwd**: [Gweld tu mewn](https://scratch.mit.edu/projects/451536565/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451536565/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Use a `delay`{:class="block3variables"} variable as the input to a `wait`{:class="block3control"} block:
+Defnyddia newidyn `oedi`{:class="block3variables"} fel newidyn ar gyfer bloc `aros`{:class="block3control"}:
 
 ```blocks3
 when flag clicked
@@ -144,28 +144,28 @@ wait (delay) seconds
 next costume
 ```
 
-A delay of more than one second is quite a long time. If you include a decimal number in the range of a slider, then you can change the value by a 100th of a second at a time.
+Mae amser oedi o fwy nag un eiliad yn amser eithaf hir. Os wyt ti'n cynnwys rhif degol yn ystod llithrydd, yna galli di newid y gwerth ganfed eiliad ar y tro.
 
-A range of `0.00` to `1.00` allows you to choose a delay between `0` seconds (no delay) and `1` second.
+Mae ystod o `0.00` i `1.00` yn dy alluogi di i ddewis amser oedi rhwng `0` eiliad (heb oedi) ac `1` eiliad.
 
-![Changing the slider range to 0.00 to 1.00.](images/decimal-delay.png)
+![Newid amrediad y llithrydd i rhwng 0.00 a 1.00.](images/decimal-delay.png)
 
-Change the numbers to get the minimum and maximum values that you want users to be able to use in your project.
+Newidia'r rhifau i gael y gwerthoedd lleiaf a mwyaf rwyt ti am i ddefnyddwyr allu eu defnyddio yn dy brosiect.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Change sound effects
+title: Newid effeithiau sain
 ---
 
-**Drum pitch**: [See inside](https://scratch.mit.edu/projects/451547017/editor){:target="_blank"}
+**Traw drwm**: [Gweld tu mewn](https://scratch.mit.edu/projects/451547017/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451547017/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can use a `variable`{:class="block3variables"} in a `set pitch effect to`{:class="block3sound"} block. If you increase the pitch of a sound, the notes get higher and the sound speeds up.
+Galli di ddefnyddio `newidyn`{:class="block3variables"} mewn bloc `gosod effaith traw i`{:class="block3sound"}. Os wyt ti'n cynyddu traw sain, mae traw'r nodau'n mynd yn uwch ac mae'r sain yn cyflymu.
 
 ```blocks3
 when flag clicked
@@ -173,7 +173,7 @@ forever
 set [pitch v] effect to (beat) :: sound
 ```
 
-Play the sound in a separate `forever`{:class="block3control"} loop, so that the pitch will change immediately, rather than waiting until the sound has finished playing:
+Chwaraea'r sain mewn dolen `am byth`{:class="block3control"}, fel bod y traw yn newid yn syth, yn hytrach na disgwyl i'r sain orffen chwarae:
 
 ```blocks3
 when flag clicked
@@ -181,7 +181,7 @@ forever
 play sound [Dance Head Nod v] until done
 ```
 
-You can also use a `variable`{:class="block3variables"} to change the volume and pan (tilt) effect.
+Galli di hefyd ddefnyddio `newidyn`{:class="block3variables"} i newid lefel y sain a'r effaith troi (tremio).
 
 --- /collapse ---
 
