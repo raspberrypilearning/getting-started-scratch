@@ -1,15 +1,15 @@
-## Sound Editor
+## Geluid bewerken
 
-Use the Sound editor to add and edit existing sounds, and to record your own sounds.
+Gebruik de Geluids-editor om bestaande geluiden toe te voegen en te bewerken en om je eigen geluiden op te nemen.
 
-![An annotated screenshot of the Sound tab.](images/Scratch-Sound-tab.png){:width="600px"}
+![Een geannoteerde schermafbeelding van het tabblad Geluid.](images/Scratch-Sound-tab.png){:width="600px"}
 
-### Creating sounds
+### Geluiden maken
 
 \[[[scratch3-add-sound]]\] \[[[scratch3-record-sound\]]]
 
-### Editing sounds
+### Geluiden bewerken
 
-Edit whole sounds or parts of sounds.
+Bewerk hele geluiden of delen van geluiden.
 
 \[[[scratch3-reverse-sound]]\] \[[[scratch3-crop-sound\]]] [[[scratch3-sound-effects]]]
