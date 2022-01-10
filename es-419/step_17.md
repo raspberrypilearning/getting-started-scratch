@@ -1,8 +1,8 @@
-## Sound Editor
+## Editor de sonido
 
-Use the Sound editor to add and edit existing sounds, and to record your own sounds.
+Utiliza el editor de sonido para agregar y editar sonidos existentes y para grabar tus propios sonidos.
 
-![An annotated screenshot of the Sound tab.](images/Scratch-Sound-tab.png){:width="600px"}
+![Una captura de pantalla anotada de la pestaña Sonido.](images/Scratch-Sound-tab.png){:width="600px"}
 
 ### Creating sounds
 
@@ -10,6 +10,6 @@ Use the Sound editor to add and edit existing sounds, and to record your own sou
 
 ### Editing sounds
 
-Edit whole sounds or parts of sounds.
+Edita sonidos completos o partes de sonidos.
 
 \[[[scratch3-reverse-sound]]\] \[[[scratch3-crop-sound\]]] [[[scratch3-sound-effects]]]
