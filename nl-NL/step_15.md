@@ -1,6 +1,6 @@
-## Extensions
+## Uitbreidingen
 
-The `extensions`{:class="block3extensions"} library allows you to add new blocks to the blocks menu with additional features.
+Met de `uitbreidingen`{:class="block3extensions"} bibliotheek kun je nieuwe blokken toevoegen aan het blokkenmenu met extra functies.
 
 [[[scratch3-text-to-speech]]]
 
@@ -8,9 +8,9 @@ The `extensions`{:class="block3extensions"} library allows you to add new blocks
 
 [[[generic-scratch3-add-music-extension]]]
 
-There are also Video Sensing and Translate extensions.
+Er zijn ook Video waarnemen- en Vertaal uitbreidingen.
 
-If you are using a Raspberry Pi computer then you can also use extensions for using electronics with the Raspberry Pi (you will need extra components or a Sense Hat):
+Als je een Raspberry Pi-computer gebruikt, kun je ook extensies gebruiken voor het gebruik van elektronica met de Raspberry Pi (je hebt extra componenten of een Sense Hat nodig):
 
 [[[rpi-scratch-add-pi-gpio]]]
 
