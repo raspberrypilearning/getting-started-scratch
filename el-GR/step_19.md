@@ -1,62 +1,62 @@
-## Editing tips
-It's useful to learn how to copy and delete code blocks, and duplicate sprites.
+## Συμβουλές επεξεργασίας
+Είναι χρήσιμο να μάθεις πώς να αντιγράφεις και να διαγράφεις μπλοκ κώδικα και να αντιγράφεις αντικείμενα.
 
-**Tip:** You can use <kbd>Ctrl-z</kbd> (hold down the Ctrl key and tap 'z') to undo lots of actions in Scratch. If you accidentally delete a Sprite or other item, you can use **Restore** from the **Edit** menu to get it back.
+**Συμβουλή:** Μπορείς να χρησιμοποιήσεις <kbd>Ctrl-z</kbd> (κράτα πατημένο το πλήκτρο Ctrl και πάτα το 'z') για να αναιρέσεις πολλές ενέργειες στο Scratch. Εάν διαγράψεις κατά λάθος ένα Αντικείμενο ή άλλο στοιχείο, μπορείς να χρησιμοποιήσεις την **Επαναφορά** από το μενού **Επεξεργασία** για να το επαναφέρεις.
 
-You can delete code blocks you don't need any more:
+Μπορείς να διαγράψεις μπλοκ κώδικα που δεν χρειάζεσαι πλέον:
 
 [[[scratch-delete]]]
 
-Duplicating or copying code can save you time when making a project.
+Ο διπλασιασμός ή η αντιγραφή κώδικα μπορεί να σου εξοικονομήσει χρόνο όταν κάνεις ένα έργο.
 
 --- collapse ---
 ---
-title: Duplicate blocks
+title: Διπλασιασμός μπλοκ
 ---
 
-Duplicate blocks or sets of blocks to reuse in a sprite's program:
+Διπλασιασμός μπλοκ ή συνόλων μπλοκ για επανάχρηση στο πρόγραμμα ενός αντικειμένου:
 
-* Go to the **Code** tab.
-* Right-click (or on a tablet, tap and hold) on the first block that you want to copy. It will select all the blocks below it too.
-* Select **Duplicate** in the drop-down menu. ![Selecting 'Duplicate' in the menu.](images/scratchguide-duplicate.png){:width="300px"}
-* Drag the duplicated code where you want it to go. ![Moving the duplicated code.](images/scratchguide-drag.png){:width="300px"}
-* Delete any blocks that you do not need.
+* Πήγαινε στην καρτέλα **Κώδικας**.
+* Κάνε δεξί κλικ (ή σε tablet, πάτα παρατεταμένα) στο πρώτο μπλοκ που θέλεις να αντιγράψεις. Θα επιλέξει επίσης όλα τα μπλοκ κάτω από αυτό.
+* Επίλεξε **Διπλασιασμός** στο αναπτυσσόμενο μενού. ![Selecting 'Duplicate' in the menu.](images/scratchguide-duplicate.png){:width="300px"}
+* Σύρε τον διπλότυπο κώδικα εκεί που θέλεις να πάει. ![Moving the duplicated code.](images/scratchguide-drag.png){:width="300px"}
+* Διάγραψε τυχόν μπλοκ που δεν χρειάζεσαι.
 
 --- /collapse ---
 
 [[[scratch3-duplicate-sprite]]]
 
-Create a new sprite and copy over all or some of the first sprite's code.
+Δημιούργησε ένα νέο αντικείμενο και αντίγραψε ολόκληρο ή κάποιο από τον κώδικα του πρώτου αντικειμένου.
 
 --- collapse ---
 ---
-title: Copy a sprite's code
+title: Αντίγραψε τον κώδικα ενός αντικειμένου
 ---
 
-In the bottom right-hand corner of the Sprite list, click on **Choose a Sprite** and select the sprite that you want to add.
+Στην κάτω δεξιά γωνία της λίστας Αντικειμένων, κάνε κλικ στο **Επιλέξτε ένα Αντικείμενο** και επίλεξε το αντικείμενο που θέλεις να προσθέσεις.
 
-Click on the first sprite and go to its **Code** tab. Drag the code that is in the first sprite's Code area to the image of the second sprite in the Sprite list, then let go of the code to finish copying it to the second sprite. You may have one script that starts with a `when green flag clicked`{:class="block3events"} block, as well as another script that starts with `when this sprite clicked`{:class="block3events"}. Make sure that you copy **all** the code scripts that you have created.
+Κάνε κλικ στο πρώτο αντικείμενο και πήγαινε στην καρτέλα **Κώδικας**. Σύρε τον κώδικα που βρίσκεται στην περιοχή Κώδικα του πρώτου αντικειμένου στην εικόνα του δεύτερου αντικειμένου στη λίστα Αντικείμενα και στη συνέχεια, άσε τον κώδικα για να ολοκληρώσεις την αντιγραφή του στο δεύτερο αντικείμενο. Μπορεί να έχεις ένα script που ξεκινά με μπλοκ `όταν γίνει κλικ σε πράσινη σημαία`{:class="block3events"}, καθώς και ένα άλλο script που ξεκινά με `όταν γίνει κλικ σε αυτό το αντικείμενο`{:class="block3events"}. Βεβαιώσου ότι έχεις αντιγράψει **όλα** τα script κώδικα που έχεις δημιουργήσει.
 
-![Copying code to another sprite.](images/challenge1-sprite-list.gif){:width="300px"}
+![Αντιγραφή κώδικα σε άλλο αντικείμενο.](images/challenge1-sprite-list.gif){:width="300px"}
 
-Your second sprite will now have exactly the same code as your first sprite. Do not run the program until you have started to change the second sprite's code — you might not see the second sprite because it might be positioned underneath the first sprite.
+Το δεύτερο αντικείμενό σου θα έχει τώρα ακριβώς τον ίδιο κώδικα με το πρώτο σου αντικείμενο. Μην εκτελέσεις το πρόγραμμα μέχρι να αρχίσεις να αλλάζεις τον κώδικά του δεύτερου αντικειμένου — ενδέχεται να μην δεις το δεύτερο αντικείμενο επειδή μπορεί να βρίσκεται κάτω από το πρώτο αντικείμενο.
 
 --- /collapse ---
 
-If you want to copy costumes, sprites, sounds, and scripts between projects, drag them into the **Backpack**.
+Εάν θέλεις να αντιγράψεις ενδυμασίες, αντικείμενα, ήχους και script μεταξύ έργων, σύρε τα στο **Σακίδιο**.
 
 [[[scratch-backpack]]]
 
-It's always worth spending some time making sure you have followed best practices so your project is easy to understand.
+Αξίζει πάντα να αφιερώνεις λίγο χρόνο για να βεβαιωθείς ότι έχεις ακολουθήσει τις βέλτιστες πρακτικές, ώστε το έργο σου να είναι εύκολο να κατανοηθεί.
 
 --- collapse ---
 ---
-title: Best practices for Scratch projects
+title: Βέλτιστες πρακτικές για έργα Scratch
 ---
 
-- Name all sprites, costumes, sounds, variables, and messages sensibly. It’s much easier to understand projects that use helpful names.
-- Fill in the Project Page with a good title, instructions, and notes so that users know how to use your project and where you got ideas from.
-- Add short comments that explain what your code is doing.
-- Make sure your scripts are tidy in the **Code** tab. You can right-click and choose **Clean up Blocks** or arrange the scripts in a way that makes sense to you. Try and put similar scripts together.
+- Ονόμασε όλα τα αντικείμενα, τις ενδυμασίες, τους ήχους, τις μεταβλητές και τα μηνύματα με βάση τη λογική. Είναι πολύ πιο εύκολο να κατανοήσεις έργα που χρησιμοποιούν κατάλληλα επιλεγμένα ονόματα.
+- Συμπλήρωσε τη σελίδα του έργου με έναν καλό τίτλο, οδηγίες και σημειώσεις, ώστε οι χρήστες να γνωρίζουν πώς να χρησιμοποιούν το έργο σου και από πού πήρες ιδέες.
+- Πρόσθεσε σύντομα σχόλια που εξηγούν τι κάνει ο κώδικάς σου.
+- Βεβαιώσου ότι τα script σου είναι τακτοποιημένα στην καρτέλα **Κώδικας**. Μπορείς να κάνεις δεξί κλικ και να επιλέξεις **Τακτοποίησε Εντολές** ή μπορείς να τακτοποιήσεις τα script με τρόπο που να έχει νόημα για σένα. Δοκίμασε να συνδυάσεις παρόμοια script.
 
 --- /collapse ---
