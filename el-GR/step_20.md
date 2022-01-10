@@ -1,40 +1,40 @@
-## Share and comment
+## Μοιράσου και σχολίασε
 
 --- task ---
 
-To let other people access your project, make your project public. You can also share your project's unique web address with other people.
+Για να επιτρέψεις σε άλλα άτομα να έχουν πρόσβαση στο έργο σου, κάνε το έργο σου δημόσιο. Μπορείς επίσης να μοιραστείς τη μοναδική διεύθυνση web του έργου σου με άλλα άτομα.
 
 [[[share-scratch]]]
 
 --- collapse ---
 ---
-title: More on sharing your project's web address
+title: Περισσότερα σχετικά με την κοινή χρήση της διεύθυνσης web του έργου σου
 ---
 
-+ Your project will always start in the position that you last saved it in, so make sure that you save your project in the right starting position
-+ When you click on **See Project Page**, the web address of your project will appear in the browser bar: ![A web address.](images/from-me-webaddress.png){:width="400px"}
-+ Copy the web address and paste it into an email, or write down the web address and give it to the person who you want to share the project with
++ Το έργο σου θα ξεκινά πάντα από τη θέση που το αποθήκευσες τελευταία, επομένως επιβεβαίωσε ότι έχεις αποθηκεύσει το έργο σου στη σωστή αρχική θέση
++ Όταν κάνεις κλικ στο **Δείτε τη Σελίδα του Έργου**, η διεύθυνση web του έργου σου θα εμφανιστεί στη γραμμή του προγράμματος περιήγησης: ![A web address.](images/from-me-webaddress.png){:width="400px"}
++ Αντίγραψε τη διεύθυνση web και επικόλλησε την σε ένα email ή μπορείς να σημειώσεις τη διεύθυνση web και να την δώσεις στο άτομο με το οποίο θέλεις να μοιραστείς το έργο
 
-**Tip:** You can access completed Scratch projects on a computer or mobile device.
+**Συμβουλή:** Μπορείς να αποκτήσεις πρόσβαση σε ολοκληρωμένα έργα Scratch σε υπολογιστή ή φορητή συσκευή.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What to put in Instructions and Notes and Credits
+title: Τι πρέπει να βάλεις στις Οδηγίες και τις Σημειώσεις και τις Αναφορές
 ---
 
-On the Project Page, you can fill in the Instructions to explain how to use your project, and complete your project’s Notes and Credits.
+Στη σελίδα του έργου, μπορείς να συμπληρώσεις τις Οδηγίες για να εξηγήσεις πώς να χρησιμοποιηθεί το έργο σου και να συμπληρώσεις τις Σημειώσεις και τις Αναφορές του έργου σου.
 
-In the **Instructions** box, tell people how to use your project:
-+ Include all the instructions that the user needs to explore your project fully.
-+ Make sure that your instructions are given step by step and are simple. Instructions are easier to read if you write them in a list.
-+ Include all the user interaction, such as clicking on the green flag to start, and which sprites to click on.
-+ Let the user know if the project includes sound, as they may need to wear headphones or turn the volume up on their device.
+Στο πλαίσιο **Οδηγίες**, μπορείς να πεις στους άλλους πώς να χρησιμοποιούν το έργο σου:
++ Πρέπει να συμπεριλάβεις όλες τις οδηγίες που χρειάζεται ο χρήστης για να εξερευνήσει πλήρως το έργο σου.
++ Βεβαιώσου ότι οι οδηγίες σου δίνονται βήμα προς βήμα και είναι απλές. Οι οδηγίες διαβάζονται πιο εύκολα αν τις γράψεις σε μια λίστα.
++ Πρέπει να συμπεριλάβεις όλη την αλληλεπίδραση με τον χρήστη, όπως κλικ στην πράσινη σημαία για έναρξη και σε ποια αντικείμενα να κάνει κλικ.
++ Ενημέρωσε τον χρήστη εάν το έργο περιλαμβάνει ήχο, καθώς μπορεί να χρειαστεί να φορέσει ακουστικά ή να αυξήσει την ένταση του ήχου στη συσκευή του.
 
-In the **Notes and Credits** box:
-+ Thank the people who created the projects that inspired you. You could even include the web addresses of the projects.
-+ Did you include images or sounds that were created by someone else? If so, credit the source(s) in this box.
+Στο πλαίσιο **Σημειώσεις και Αναφορές**:
++ Ευχαρίστησε τους ανθρώπους που δημιούργησαν τα έργα που σε ενέπνευσαν. Θα μπορούσες ακόμη και να συμπεριλάβεις τις διευθύνσεις web των έργων.
++ Μήπως έχεις χρησιμοποιήσει εικόνες ή ήχους που δημιουργήθηκαν από κάποιον άλλο; Εάν ναι, δώσε τα εύσημα στην πηγή ή στις πηγές σε αυτό το πλαίσιο.
 
 --- /collapse ---
 
@@ -42,7 +42,7 @@ In the **Notes and Credits** box:
 
 --- task ---
 
-Give and receive feedback on projects.
+Δώσε και λάβε σχόλια για έργα.
 
 [[[comments-feedback-scratch]]]
 
