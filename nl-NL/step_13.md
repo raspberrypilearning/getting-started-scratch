@@ -1,42 +1,42 @@
-## Variables
+## Variabelen
 
-A `variable`{:class="block3variables"} is a way of storing numbers and/or text.
+Een `variabelen`{:class="block3variables"} blok is een manier om getallen en/of tekst op te slaan.
 
-You can make your own variables and choose whether they show on the Stage:
+Je kunt je eigen variabelen maken en kiezen of ze in het Speelveld worden weergegeven:
 
 [[[generic-scratch3-add-variable]]]
 
-You should think about whether you need to set a starting value when you make a variable:
+Je moet nadenken of je een startwaarde moet instellen wanneer je een variabele maakt:
 
 [[[scratch3-create-set-variable]]]
 
-You can rename a variable if you change your mind:
+Je kunt de naam van een variabele wijzigen als je van gedachten verandert:
 
 --- collapse ---
 ---
-title: Rename a variable
+title: De naam van een variabele wijzigen
 ---
 
-Sometimes you think of a better name for a variable.
+Soms bedenk je een betere naam voor een variabele.
 
-You can give a variable a new name: go to the `Variables`{:class="block3variables"} blocks menu, right-click (or on a tablet, tap and hold) on the `variable`{:class="block3variables"}, and choose **Rename variable**.
+Je kunt een variabele een nieuwe naam geven: ga naar het `Variabelen`{:class="block3variables"} blokkenmenu, klik met de rechtermuisknop (of op een tablet, tik en houd vast) op de `variabele`{:class="block3variables "}, en kies **Variabele hernoemen**.
 
-![Selecting 'Rename variable' in the menu.](images/rename-variable.png)
+![Kiezen voor 'Variabele hernoemen' in het menu.](images/rename-variable.png)
 
-This will change the name of the variable in all the blocks in which you have used it.
+Dit zal de naam van de variabele veranderen in alle blokken waarin je hem hebt gebruikt.
 
 --- /collapse ---
 
-**Tip:** Make sure you know the difference between `set`{:class="block3variables"} and `change by`{:class="block3variables"}. `set`{:class="block3variables"} will replace the value stored in a variable. `change by`{:class="block3variables"} will change the value of a number variable by the amount you choose, `change by`{:class="block3variables"}`1` will add one to a variable. `change by`{:class="block3variables"}`-1` will take one away from a variable.
+**Tip:** Zorg ervoor dat je het verschil weet tussen `maak`{:class="block3variables"} en `verander met`{:class="block3variables"} blokken. Een `maak`{:class="block3variables"} blok vervangt de waarde die is opgeslagen in een variabele. Het `veranderen met`{:class="block3variables"} blok zal de waarde van een getal variabele veranderen met het getal dat je kiest, `veranderen met`{:class="block3variables"} `1` zal één toevoegen aan de variabele. `veranderen met`{:class="block3variables"} `-1` zal de variabele met 1 verlagen.
 
 
-**Tip:** Variables on the Stage always appear in a layer above all of the sprites. If you have a moving sprite, the sprite will go under any variables on the Stage.
+**Tip:** Variabelen in het Speelveld verschijnen altijd in een laag boven alle sprites. Als je een bewegende sprite hebt, gaat de sprite onder iedere variabele in het Speelveld.
 
-You can use a slider to control the value in a variable.
+Je kunt een schuifregelaar gebruiken om de waarde in een variabele in te stellen.
 
 [[[scratch3-slider-variable]]]
 
-More ideas for using variables:
+Meer ideeën voor het gebruik van variabelen:
 
 [[[generic-scratch3-high-score]]]
 
@@ -49,21 +49,21 @@ More ideas for using variables:
 
 --- collapse ---
 ---
-title: Control graphic effects with a variable slider
+title: Grafische effecten maken met een variabele schuifregelaar
 ---
 
-Here are some examples of how you can use your variable slider:
+Hier zijn enkele voorbeelden van hoe je de variabele schuifregelaar kunt gebruiken:
 
 
-This example changes the `ghost`{:class="block3looks"} graphic effect so you can see through the rainbow.
+Dit voorbeeld verandert het `transparantie`{:class="block3looks"} grafische effect zodat je door de regenboog heen kunt kijken.
 
-**Transparent rainbow**: [See inside](https://scratch.mit.edu/projects/451544795/editor){:target="_blank"}
+**Transparante regenboog**: [Bekijk van binnen](https://scratch.mit.edu/projects/451544795/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451544795/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can use a `transparent`{:class="block3variables"} variable to control the `ghost`{:class="block3looks"} effect on a sprite at the `front`{:class="block3looks"}, and use it to reveal or hide sprites in lower layers.
+Je kunt een `transparant`{:class="block3variables"} variabele gebruiken om het `transparantie`{:class="block3looks"} effect op een sprite op de `voorste`{:class="block3looks"} laag te besturen, en gebruiken om sprites in lagere lagen te tonen of te verbergen.
 
 ```blocks3
 when flag clicked
@@ -76,22 +76,22 @@ forever
 set [ghost v] effect to (transparent)
 ```
 
-Try using the same approach with other graphic effects such as `brightness`{:class="block3looks"} or `color`{:class="block3looks"}.
+Probeer dit ook met andere grafische effecten zoals `helderheid`{:class="block3looks"} of `kleuren`{:class="block3looks"}.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Control movement speed with a variable
+title: Regel de bewegingssnelheid met een variabele
 ---
 
-**Ladybug on a wall**: [See inside](https://scratch.mit.edu/projects/451545341/editor){:target="_blank"}
+**Lieveheersbeestje op een muur**: [Bekijk van binnen](https://scratch.mit.edu/projects/451545341/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451545341/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Use the `speed`{:class="block3variables"} variable as the input to a `move`{:class="block3motion"} block:
+Gebruik de `snelheid`{:class="block3variables"} variabele als invoer voor een `neem..stappen`{:class="block3motion"} blok:
 
 ```blocks3
 when flag clicked
@@ -99,22 +99,22 @@ forever
 move (speed) steps
 if on edge, bounce
 ```
-Set the minimum and maximum values for the range of the slider to suit your project.
+Stel de minimum- en maximumwaarden in voor het bereik van de schuifregelaar die bij jouw project passen.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Control turn speed with a variable
+title: Regel de draaisnelheid met een variabele
 ---
 
-**Space dog**: [See inside](https://scratch.mit.edu/projects/451543041/editor){:target="_blank"}
+**Ruimtehond**: [bekijk van binnen](https://scratch.mit.edu/projects/451543041/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451543041/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Use an `angle`{:class="block3variables"} variable as the input to a `turn right`{:class="block3motion"} block:
+Gebruik een `hoek`{:class="block3variables"} variabele als invoer voor een `draai rechts`{:class="block3motion"} blok:
 
 ```blocks3
 when flag clicked
@@ -126,16 +126,16 @@ turn right (angle) degrees
 
 --- collapse ---
 ---
-title: Change the delay in a wait block
+title: De vertraging in een wachtblok wijzigen
 ---
 
-**Skeleton dance**: [See inside](https://scratch.mit.edu/projects/451536565/editor){:target="_blank"}
+**Skeletten dans**: [Bekijk van binnen](https://scratch.mit.edu/projects/451536565/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451536565/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Use a `delay`{:class="block3variables"} variable as the input to a `wait`{:class="block3control"} block:
+Gebruik een `vertraging`{:class="block3variables"} variabele als invoer voor een `wacht`{:class="block3control"} blok:
 
 ```blocks3
 when flag clicked
@@ -144,28 +144,28 @@ wait (delay) seconds
 next costume
 ```
 
-A delay of more than one second is quite a long time. If you include a decimal number in the range of a slider, then you can change the value by a 100th of a second at a time.
+Een vertraging van meer dan een seconde is behoorlijk lang. Als je een decimaal getal in het bereik van een schuifregelaar opneemt, kun je de waarde telkens met een honderdste van een seconde wijzigen.
 
-A range of `0.00` to `1.00` allows you to choose a delay between `0` seconds (no delay) and `1` second.
+Met een bereik van `0.00` tot `1.00` kun je een vertraging kiezen tussen `0` seconden (geen vertraging) en `1` seconden.
 
-![Changing the slider range to 0.00 to 1.00.](images/decimal-delay.png)
+![Het schuifbereik wijzigen in 0.00 tot 1.00.](images/decimal-delay.png)
 
-Change the numbers to get the minimum and maximum values that you want users to be able to use in your project.
+Wijzig de getallen om de minimum- en maximumwaarden te krijgen die gebruikers in jouw project kunnen gebruiken.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Change sound effects
+title: Geluidseffecten wijzigen
 ---
 
-**Drum pitch**: [See inside](https://scratch.mit.edu/projects/451547017/editor){:target="_blank"}
+**Drumtoonhoogte**: [Bekijk van binnen](https://scratch.mit.edu/projects/451547017/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451547017/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can use a `variable`{:class="block3variables"} in a `set pitch effect to`{:class="block3sound"} block. If you increase the pitch of a sound, the notes get higher and the sound speeds up.
+Je kunt een `variabele`{:class="block3variables"} gebruiken in een `zet effect toonhoogte op`{:class="block3sound"} blok. Als je de toonhoogte van een geluid verhoogt, worden de noten hoger en versnelt het geluid.
 
 ```blocks3
 when flag clicked
@@ -173,7 +173,7 @@ forever
 set [pitch v] effect to (beat) :: sound
 ```
 
-Play the sound in a separate `forever`{:class="block3control"} loop, so that the pitch will change immediately, rather than waiting until the sound has finished playing:
+Speel het geluid af in een aparte `herhaal`{:class="block3control"}-lus, zodat de toonhoogte onmiddellijk verandert, in plaats van te wachten tot het geluid is afgespeeld:
 
 ```blocks3
 when flag clicked
@@ -181,7 +181,7 @@ forever
 play sound [Dance Head Nod v] until done
 ```
 
-You can also use a `variable`{:class="block3variables"} to change the volume and pan (tilt) effect.
+Je kunt ook een `variabele`{:class="block3variables"} gebruiken om het volume en het kanaal links/rechts-effect te wijzigen.
 
 --- /collapse ---
 
