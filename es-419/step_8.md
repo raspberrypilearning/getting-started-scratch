@@ -1,23 +1,23 @@
-## Sound
+## Sonido
 
-To add sound to your project, use `Sound`{:class="block3sound"} blocks. For example, you can create a continuous background soundtrack, or add sounds that play at regular intervals.
+Para agregar sonido a tu proyecto, usa los bloques `Sonido`{:class="block3sound"}. Por ejemplo, puedes crear un sonido de fondo continuado o agregar sonidos que se reproducen a intervalos regulares.
 
-![An annotated screenshot of the Sounds tab.](images/Scratch-Sound-tab.png){:width="600px"}
+![Una captura de pantalla anotada de la pestaña Sonidos.](images/Scratch-Sound-tab.png){:width="600px"}
 
-First, select a sound from the Sound Library, or record your own sound.
+Primero, selecciona un sonido de la Biblioteca de sonidos o graba tu propio sonido.
 
 [[[scratch3-add-sound]]]
 
 [[[scratch3-record-sound]]]
 
-Add code to run `Sound`{:class="block3sound"} blocks where you want sound in your project.
+Agregua código para ejecutar bloques `Sonido`{:class="block3sound"} donde desees sonido en tu proyecto.
 
 --- collapse ---
 ---
-title: Add a long sound to create a continuous soundtrack
+title: Agregar un sonido largo para crear un sonido de fondo continuado
 ---
 
-Click on the green flag to hear the sounds.
+Haz clic en la bandera verde para escuchar los sonidos.
 
 **Radio soundtrack**: [See inside](https://scratch.mit.edu/projects/444581851/editor){:target="_blank"}
 
@@ -27,7 +27,7 @@ Click on the green flag to hear the sounds.
 
 You can use a `play sound until done`{:class="block3sound"} block inside a `forever`{:class="block3control"} loop. Once the sound has finished, the `forever`{:class="block3control"} loop makes the sound start again from the beginning.
 
-This code uses a single long sound clip repeated as a soundtrack:
+Este código utiliza un único clip de sonido largo repetido como banda sonora:
 
 ```blocks3
 when green flag clicked
@@ -36,18 +36,18 @@ play sound (Dance Snare Beat v) until done
 end
 ```
 
-**Note:** When you choose a new sound, if you select the **Loops** category, Scratch will only show you the sounds that are suitable for a single looping soundtrack.
+**Nota:** Cuando elijas un nuevo sonido, si seleccionas la categoria **Ciclos**, Scratch sólo te mostrará los sonidos que son adecuados para una banda sonora en bucle.
 
-![The 'Loops' category in the Sound Library.](images/loopSounds.png)
+![La categoría 'Ciclos' en la Biblioteca de Sonidos.](images/loopSounds.png)
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Add a sequence of short sounds to create a continuous soundtrack
+title: Agregar una secuencia de sonidos cortos para crear un sonido de fondo continuado
 ---
 
-Click on the green flag to hear the sounds.
+Haz clic en la bandera verde para escuchar los sonidos.
 
 **Champ performance**: [See inside](https://scratch.mit.edu/projects/444673165/editor){:target="_blank"}
 
@@ -55,9 +55,9 @@ Click on the green flag to hear the sounds.
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/444673165/?autostart=false" frameborder="0"></iframe>
 </div>
 
- Use a `forever`{:class="block3control"} block to create a looped sound. You can:
-+ Put a series of short sounds in a sequence, or
-+ Use different instrument notes and effects
+ Use a `forever`{:class="block3control"} block to create a looped sound. Puedes:
++ Poner una serie de sonidos cortos en una secuencia, o
++ Usar diferentes notas de instrumentos y efectos
 
 ```blocks3
 when flag clicked
@@ -76,18 +76,18 @@ End
 
 --- collapse ---
 ---
-title: Add sounds that play at regular intervals
+title: Agregar sonidos que se reproducen a intervalos regulares
 ---
 
 **Football sounds**: [See inside](https://scratch.mit.edu/projects/450870079/editor){:target="_blank"}
 
-Click on the green flag to hear the sounds.
+Haz clic en la bandera verde para escuchar los sonidos.
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/450870079/?autostart=false" frameborder="0"></iframe>
 </div>
 
- In this project, the **Stage** has code to play a sound at regular intervals:
+ En este proyecto, el **Escenario** contiene código para reproducir un sonido a intervalos regulares:
 
  ```blocks3
  when flag clicked
@@ -111,18 +111,18 @@ The **Whistle** sprite also plays a sound at regular intervals:
 
 --- collapse ---
 ---
-title: Add sounds that start to play at the same time
+title: Agregar sonidos que comienzan a reproducirse al mismo tiempo
 ---
 
-There are two `Sound`{:class="block3sound"} blocks with an important difference:
+Hay dos bloques `Sonido`{:class="block3sound"} con una diferencia importante:
 
-+ When you `play sound until done`{:class="block3sound"}, the sound will play all the way through. The next line of code in the script will not run until the sound has finished playing.
++ Cuando utilices `tocar sonido hasta que termine`{:class="block3sound"}, el sonido se reproducirá hasta el final. La siguiente línea de código en el script no se ejecutará hasta que el sonido termine de reproducirse.
 
-+ When you `start sound`{:class="block3sound"}, the sound will play, but the next block will run immediately and will not wait for the sound to finish playing first.
++ Cuando utilices `iniciar sonido`{:class="block3sound"}, el sonido se reproducirá, pero el siguiente bloque se ejecutará inmediatamente y no esperará a que el sonido termine de reproducirse primero.
 
-This means that if you had a series of `start sound`{:class="block3sound"} blocks, the sounds would all play almost at the same time, layered on top of each other. The effect can be interesting and sometimes messy.
+Esto significa que si tuvieras una serie de bloques `iniciar sonido`{:class="block3sound"}, los sonidos se reproducirían casi al mismo tiempo, superpuestos uno sobre el otro. El efecto puede ser interesante y algunas veces desordenado.
 
-Have a play with it sometime!
+¡Juega con ello alguna vez!
 
 ```blocks3
 when green flag clicked
@@ -135,14 +135,14 @@ start sound (Baa v)
 
 --- /collapse ---
 
-Once you have chosen your sounds, you may want to change the `volume`{:class="block3sound"}, `pitch`{:class="block3sound"}, or `pan`{:class="block3sound"} (so you hear the sound from the left- or right-hand speaker).
+Una vez hayas elegido tus sonidos, es posible que desees cambiar el `volumen`{:class="block3sound"}, `tono`{:class="block3sound"} o `paneo`{:class="block3sound"} ( para que escuche el sonido del altavoz izquierdo o derecho).
 
 --- collapse ---
 ---
-title: Volume, pitch, and pan
+title: Volumen, tono y paneo
 ---
 
-Click on the green flag to hear the sounds.
+Haz clic en la bandera verde para escuchar los sonidos.
 
 **Band practice**: [See inside](https://scratch.mit.edu/projects/451697380/editor){:target="_blank"}
 
@@ -159,15 +159,15 @@ set [pan left/right v] effect to (-100) :: sound
 play sound (Drum Funky v) until done
 ```
 
-+ You can `set volume to`{:class="block3sound"} a value from `0` (silent) to `100` (full volume). This is useful if you want some sounds to play louder than others, or if you want a sprite to appear further away.
++ Puedes `fijar volumen a`{:class="block3sound"} con un valor desde `0` (silencioso) a `100` (volumen máximo). This is useful if you want some sounds to play louder than others, or if you want a sprite to appear further away.
 
-+ The `pitch`{:class="block3sound"} effect controls how high or low a sound is. Setting the pitch to a higher value also makes a sound faster. You can `set pitch effect to`{:class="block3sound"} values between `-360` (very low) and `360` (very high).
++ El efecto `tono`{:class="block3sound"} controla qué tan alto o bajo es un sonido. Ajustar el tono a un valor más alto también hace que el sonido sea más rápido. Puedes `fijar efecto tono a`{:class="block3sound"} valores entre `-360` (muy bajo) y `360` (muy alto).
 
-+ The `pan left/right`{:class="block3sound"} effect allows you to control whether a sound comes out of a left- or right-hand speaker or headphone or both. You can `set pan left/right effect to`{:class="block3sound"} values from `-100` (all sound from the left) to `100` (all sound from the right).
++ El efecto `paneo izquierda/derecha`{:class="block3sound"} te permite controlar si un sonido sale de un altavoz o auricular izquierdo o derecho, o de ambos. Puedes `fijar efecto paneo izquierda/derecha a`{:class="block3sound"} valores desde `-100` (todo el sonido de la izquierda) a `100` (todo el sonido de la derecha).
 
 --- /collapse ---
 
-You can also use the `Text to Speech`{:class="block3extensions"} extension:
+También puedes utilizar la extensión `Texto a Voz`{:class="block3extensions"}:
 
 [[[scratch3-text-to-speech]]]
 
