@@ -1,10 +1,10 @@
-## Operators
+## Functies
 
-The `Operators`{:class="block3operators"} blocks are used to compare variables and values, do calculations with numbers, and work with strings (text).
+De `Functies`{:class="block3operators"} blokken worden gebruikt om variabelen en waarden te vergelijken, berekeningen met getallen uit te voeren en met strings (tekst) te werken.
 
-The hexagonal 'Boolean' blocks are used as conditions, and return true or false. These blocks can be used in `Control`{:class="block3control"} blocks with a hexagonal input.
+De zeshoekige 'Boolean'-blokken worden gebruikt als voorwaarden en geven een waar of onwaar melding terug. Deze blokken kunnen worden gebruikt in `Besturen`{:class="block3control"} blokken met een zeshoekige ingang.
 
-Comparison operators:
+Vergelijkingen:
 
 ```blocks3
 <[] > [50]>
@@ -14,10 +14,10 @@ Comparison operators:
 <[] = [50]>
 ```
 
-**Tip:** When you use `=`{:class="block3operators"} with text you can mix upper and lower case letters, so `<`{:class="block3operators"} `YES` `=`{:class="block3operators"} `yes` `>`{:class="block3operators"} returns **true**.
+**Tip:** Als je de `=`{:class="block3operators"} vergelijking met tekst gebruikt, kun je hoofdletters en kleine letters door elkaar gebruiken, dus `<`{:class="block3operators"} `YES` `=`{:class ="block3operators"} `yes` `>`{:class="block3operators"} geeft **waar**.
 
 
-There are maths operations:
+Er zijn wiskundige bewerkingen:
 
 ```blocks3
 ([] + [])
@@ -29,13 +29,13 @@ There are maths operations:
 ([] / [])
 ```
 
-You can choose random numbers between the smallest and largest number (including those numbers).
+Je kunt willekeurige getallen kiezen tussen het kleinste en grootste getal (inclusief die getallen).
 
 ```blocks3
 (pick random [1] to [10]) // A number from 1 to 10
 ```
 
-The `and`{:class="block3operators"}, `or`{:class="block3operators"}, and `not`{:class="block3operators"} operators can be used to combine conditions.
+De `en`{:class="block3operators"}, `of`{:class="block3operators"} en `niet`{:class="block3operators"} vergelijkingen kunnen worden gebruikt om voorwaarden te combineren.
 
 ```blocks3
 <<> and <>>
@@ -45,7 +45,7 @@ The `and`{:class="block3operators"}, `or`{:class="block3operators"}, and `not`{:
 <not <> >
 ```
 
-There are blocks for working with text strings:
+Er zijn blokken om met tekst (strings) te werken:
 
 ```blocks3
 (join [apple ] [banana])
@@ -59,4 +59,4 @@ There are blocks for working with text strings:
 
 [[[scratch3-join-text]]]
 
-There are also more maths operators that are useful for some projects.
+Er zijn ook meer wiskundige vergelijkingen die nuttig zijn voor sommige projecten.
