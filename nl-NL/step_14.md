@@ -1,10 +1,10 @@
-## My blocks
+## Mijn blokken
 
-`My blocks`{:class="block3myblocks"} allow you to create new blocks for a sprite. You give the block a name and then `define`{:class="block3myblocks"} what the new block does using other Scratch blocks. You can use your new block in any script on the sprite that owns the block.
+Met `Mijn blokken`{:class="block3myblocks"} kun je nieuwe blokken maken voor een sprite. Je geeft het blok een naam en dan `definieer`{:class="block3myblocks"} je wat het nieuwe blok doet met gebruikmaking van andere Scratch blokken. Je kunt je nieuwe blok gebruiken in elk script op de sprite die eigenaar is van het blok.
 
-This example defines a `talk`{:class="block3myblocks"} block that makes a sprite change costume:
+Dit voorbeeld definieert een `praat`{:class="block3myblocks"} blok waardoor een sprite van uiterlijke verandert:
 
-**Penguin chirps**: [See inside](https://scratch.mit.edu/projects/567554899/editor){:target="_blank"}
+**Pinguïn piept**: [Bekijk van binnen](https://scratch.mit.edu/projects/567554899/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/567554899/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -25,15 +25,15 @@ when [space v] key pressed
 talk
 ```
 
-You can use `My blocks`{:class="block3myblocks"} to **organise** your code. It's simpler to group together all the blocks that make a sprite talk and then just use one `talk`{:class="block3myblocks"} block when you want your sprite to talk.
+Je kunt `Mijn blokken`{:class="block3myblocks"} gebruiken om jouw code te **organiseren**. Het is eenvoudiger om alle blokken bij elkaar te voegen die een sprite laten praten en dan gewoon een `praat`{:class="block3myblocks"} blok te gebruiken als je wilt dat je sprite praat.
 
-If you decide that you want to change the way your sprite talks then you only have to change the code in one place.
+Als je besluit dat je de manier waarop je sprite praat wilt veranderen, hoef je de code maar op één plek te wijzigen.
 
-### My blocks with inputs
+### Mijn blokken met invoer
 
-You can also add **inputs** to `My blocks`{:class="block3myblocks"} so that they use the values you provide when you use the block.
+Je kunt ook **invoer** voor `Mijn blokken`{:class="block3myblocks"} toevoegen, zodat ze de waarden gebruiken die je opgeeft wanneer je het blok gebruikt.
 
-**Penguin talks**: [See inside](https://scratch.mit.edu/projects/567538874/editor){:target="_blank"}
+**Pinguïn praat**: [Bekijk van binnen](https://scratch.mit.edu/projects/567538874/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/567538874/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -60,9 +60,9 @@ talk [hi]
 
 --- collapse ---
 ---
-title: Use My Blocks to organise code
+titel: Mijn blokken gebruiken om code te ordenen
 ---
-The simplest way to use `My Blocks`{:class="block3myblocks"} is to help organise your code. Here is a simple example.
+De eenvoudigste manier om `Mijn blokken`{:class="block3myblocks"} te gebruiken, is om je code te helpen organiseren. Hier is een eenvoudig voorbeeld.
 
 ```blocks3
 define move right
@@ -96,4 +96,4 @@ move left
 
 --- /collapse ---
 
-`My blocks`{:class="block3myblocks"} are similar to 'procedures', 'functions' or 'methods' in other programming languages.
+`Mijn blokken`{:class="block3myblocks"} zijn vergelijkbaar met 'procedures', 'functies' of 'methoden' in andere programmeertalen.
