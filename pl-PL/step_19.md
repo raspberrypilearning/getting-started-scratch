@@ -1,62 +1,62 @@
-## Editing tips
-It's useful to learn how to copy and delete code blocks, and duplicate sprites.
+## Wskazówki dotyczące edytowania
+Warto nauczyć się jak kopiować i usuwać bloki kodu oraz duplikować duszki.
 
-**Tip:** You can use <kbd>Ctrl-z</kbd> (hold down the Ctrl key and tap 'z') to undo lots of actions in Scratch. If you accidentally delete a Sprite or other item, you can use **Restore** from the **Edit** menu to get it back.
+**Wskazówka:** Możesz użyć <kbd>Ctrl-z</kbd> (przytrzymaj klawisz Ctrl i dotknij „z”), aby wycofać wiele czynności w Scratchu. Jeśli przypadkowo usuniesz Duszka lub inny element, możesz użyć **Cofnij** z menu **Edycji** aby go odzyskać.
 
-You can delete code blocks you don't need any more:
+Możesz usunąć bloki kodu, których już nie potrzebujesz:
 
 [[[scratch-delete]]]
 
-Duplicating or copying code can save you time when making a project.
+Powielanie lub kopiowanie kodu pozwala zaoszczędzić czas podczas tworzenia projektu.
 
 --- collapse ---
 ---
-title: Duplicate blocks
+title: Duplikowanie bloków
 ---
 
-Duplicate blocks or sets of blocks to reuse in a sprite's program:
+Duplikój bloki lub zestawy bloków do ponownego wykorzystania w programie duszka:
 
-* Go to the **Code** tab.
-* Right-click (or on a tablet, tap and hold) on the first block that you want to copy. It will select all the blocks below it too.
-* Select **Duplicate** in the drop-down menu. ![Selecting 'Duplicate' in the menu.](images/scratchguide-duplicate.png){:width="300px"}
-* Drag the duplicated code where you want it to go. ![Moving the duplicated code.](images/scratchguide-drag.png){:width="300px"}
-* Delete any blocks that you do not need.
+* Przejdź do zakładki **Kod**.
+* Kliknij prawym przyciskiem myszy (lub na tablecie naciśnij i przytrzymaj) pierwszy blok, który chcesz skopiować. Zaznaczy to również wszystkie bloki poniżej.
+* Wybierz **Duplikuj** z menu rozwijanego. ![Selecting 'Duplicate' in the menu.](images/scratchguide-duplicate.png){:width="300px"}
+* Przeciągnij skopiowany (zduplikowany) kod w wybrane miejsce. ![Moving the duplicated code.](images/scratchguide-drag.png){:width="300px"}
+* Usuń wszystkie niepotrzebne bloki.
 
 --- /collapse ---
 
 [[[scratch3-duplicate-sprite]]]
 
-Create a new sprite and copy over all or some of the first sprite's code.
+Utwórz nowego duszka i skopiuj cały lub część kodu pierwszego duszka.
 
 --- collapse ---
 ---
-title: Copy a sprite's code
+title: Skopiuj kod duszka
 ---
 
-In the bottom right-hand corner of the Sprite list, click on **Choose a Sprite** and select the sprite that you want to add.
+W prawym dolnym rogu Listy duszków kliknij **Wybierz duszka** i wybierz tego, którego chcesz dodać.
 
-Click on the first sprite and go to its **Code** tab. Drag the code that is in the first sprite's Code area to the image of the second sprite in the Sprite list, then let go of the code to finish copying it to the second sprite. You may have one script that starts with a `when green flag clicked`{:class="block3events"} block, as well as another script that starts with `when this sprite clicked`{:class="block3events"}. Make sure that you copy **all** the code scripts that you have created.
+Kliknij na pierwszego duszka i przejdź do jego zakładki **Kod**. Przeciągnij kod znajdujący się w Obszarze kodu pierwszego duszka na obraz drugiego duszka na Liście duszków, a następnie puść ten kod, aby zakończyć kopiowanie go do drugiego duszka. Możesz mieć jeden skrypt, który zaczyna się od bloku `kiedy kliknięto zieloną flagę`{:class="block3events"}, a także drugi skrypt, który zaczyna się od `kiedy ten duszek kliknięty`{:class="block3events"}. Upewnij się, że skopiowałeś **wszystkie** skrypty kodu, które utworzyłeś.
 
-![Copying code to another sprite.](images/challenge1-sprite-list.gif){:width="300px"}
+![Kopiowanie kodu do innego duszka.](images/challenge1-sprite-list.gif){:width="300px"}
 
-Your second sprite will now have exactly the same code as your first sprite. Do not run the program until you have started to change the second sprite's code — you might not see the second sprite because it might be positioned underneath the first sprite.
+Twój drugi duszek będzie miał teraz dokładnie taki sam kod jak pierwszy. Nie uruchamiaj programu, dopóki nie zaczniesz zmieniać kodu drugiego duszka — możesz nie widzieć drugiego duszka, jeśli on będzie umieszczony dokładnie pod pierwszym duszkiem.
 
 --- /collapse ---
 
-If you want to copy costumes, sprites, sounds, and scripts between projects, drag them into the **Backpack**.
+Jeśli chcesz kopiować kostiumy, duszki, dźwięki i skrypty między projektami, przeciągnij je do **Plecaka**.
 
 [[[scratch-backpack]]]
 
-It's always worth spending some time making sure you have followed best practices so your project is easy to understand.
+Zawsze warto poświęcić trochę czasu na upewnienie się, że postępujesz zgodnie z najlepszymi praktykami, dzięki czemu Twój projekt będzie łatwy do zrozumienia.
 
 --- collapse ---
 ---
-title: Best practices for Scratch projects
+title: Najlepsze praktyki dla projektów Scratch
 ---
 
-- Name all sprites, costumes, sounds, variables, and messages sensibly. It’s much easier to understand projects that use helpful names.
-- Fill in the Project Page with a good title, instructions, and notes so that users know how to use your project and where you got ideas from.
-- Add short comments that explain what your code is doing.
-- Make sure your scripts are tidy in the **Code** tab. You can right-click and choose **Clean up Blocks** or arrange the scripts in a way that makes sense to you. Try and put similar scripts together.
+- Nadaj sensowne nazwy wszystkim duszkom, kostiumom, dźwiękom, zmiennym i wiadomościom. Dużo łatwiej jest zrozumieć projekty, które używają przydatnych nazw.
+- Wypełnij Stronę Projektu dobrym tytułem, instrukcjami i uwagami, aby użytkownicy wiedzieli, jak korzystać z Twojego projektu i skąd masz pomysły.
+- Dodaj krótkie komentarze, które wyjaśniają, co robi Twój kod.
+- Upewnij się, że masz porządek w skryptach w zakładce **Skrypt**. Możesz kliknąć prawym przyciskiem myszy i wybrać **Posprzątaj bloki** lub ułożyć skrypty w odpowiedni dla siebie sposób. Spróbuj połączyć ze sobą podobne skrypty.
 
 --- /collapse ---
