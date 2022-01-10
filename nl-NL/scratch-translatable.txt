@@ -1,83 +1,83 @@
-Click on 90 and drag the arrow to change
+Klik op 90 en sleep de pijl om te wijzigen
 
-or all-around or none
+of helemaal rond of niet draaien
 
-hide speech after 2 seconds
+spraak verbergen na 2 seconden
 
-run blocks when the green flag above the Stage is clicked
+blokken uitvoeren wanneer op de groene vlag boven het speelveld wordt geklikt
 
-run the blocks when the sprite for this script is clicked
+voer de blokken uit wanneer op de sprite voor dit script wordt geklikt
 
-run the blocks when the stage is clicked
+voer de blokken uit wanneer op het speelveld wordt geklikt
 
-change to number, letter or arrow keys
+wijzigen naar cijfer-, letter- of pijltoetsen
 
-run blocks when the microphone detects sound
+blokken uitvoeren wanneer de microfoon geluid detecteert
 
-run blocks when the timer reaches 10 seconds
+blokken uitvoeren wanneer de timer 10 seconden bereikt
 
-delay for 1 second
+vertraag 1 seconde
 
-delay for one tenth of a second
+vertraag een tiende van een seconde
 
-run the blocks inside four time
+voer de ingesloten blokken vier keer uit
 
-run the blocks inside until stopped
+voer de ingesloten blokken uit tot de stop
 
-stop all scripts in all sprites
+stop alle scripts in alle sprites
 
-delay until the condition is true
+wacht tot de voorwaarde waar is
 
-repeat the blocks inside until the condtion is true
+herhaal de ingesloten blokken totdat de voorwaarde waar is
 
-clones the sprite that runs this block
+kloont de sprite die dit blok uitvoert
 
-clones another sprite in the project
+kloont een andere sprite in het project
 
-the script that runs when the clone is created
+het script dat wordt uitgevoerd wanneer de kloon wordt gemaakt
 
-stops the clone's scripts and deletes it
+stopt de scripts van de kloon en verwijdert deze
 
-What's your name
+Hoe heet jij
 
-the text the the user typed
+de tekst die de gebruiker heeft getypt
 
-hour, minute, ...
+uur, minuut, ...
 
-A number from 1 to 10
+Een getal van 1 tot 10
 
-talk
+praten
 
-use the provided input
+gebruik de gegeven invoer
 
-words
+woorden
 
-hello
+hallo
 
-hi
+hoi
 
-transparent
+transparant
 
-speed
+snelheid
 
-angle
+hoek
 
-delay
+vertraging
 
-beat
+verslaan
 
-move right
+ga naar rechts
 
-move left
+ga naar links
 
-right_1
+rechts_1
 
-right_2
+rechts_2
 
-right_3
+rechts_3
 
-left_1
+links_1
 
-left_2
+links_2
 
-left_3
+links_3
