@@ -1,93 +1,93 @@
-## Our Scratch projects
+## Τα έργα μας Scratch
 
-Our Scratch paths have six projects each, to help you learn different skills in Scratch, in order to create your own projects independently.
+Τα μονοπάτια Scratch έχουν έξι έργα το καθένα, για να σε βοηθήσουν να μάθεις διαφορετικές δεξιότητες στο Scratch, προκειμένου να δημιουργήσεις τα δικά σου έργα ανεξάρτητα.
 
-You can return to this reference guide, Getting started with Scratch, whenever you need to remind yourself of the skills you have learnt.
+Μπορείς να επιστρέψεις σε αυτόν τον οδηγό αναφοράς, Ξεκινώντας με το Scratch, όποτε χρειαστεί να υπενθυμίσεις στον εαυτό σου τις δεξιότητες που έχεις μάθει.
 
-These projects can be completed on any computer or tablet that runs Scratch 3.
+Αυτά τα έργα μπορούν να ολοκληρωθούν σε οποιονδήποτε υπολογιστή ή tablet που εκτελεί το Scratch 3.
 
-### Beginner Scratch projects
+### Έργα για αρχάριους Scratch
 
-If you are new to Scratch, start with our pathways for beginners:
+Εάν είσαι αρχάριος/α στο Scratch, μπορείς να ξεκινήσεις με τις διαδρομές μας για αρχαρίους:
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/Intro-banner.png)
-[Introduction to Scratch: sprites, scripts, and loops](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"}<br/>
-In this introduction for beginners, you will learn how to add code, costumes, and sounds to sprites as you make animations, a game, apps, and a story.
+[Εισαγωγή στο Scratch: αντικείμενα, scripts και βρόχοι](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank "}<br/>
+Σε αυτήν την εισαγωγή για αρχαρίους, θα μάθεις πώς να προσθέτεις κώδικα, ενδυμασίες και ήχους σε αντικείμενα καθώς δημιουργείς κινούμενα σχέδια, ένα παιχνίδι, εφαρμογές και μια ιστορία.
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/LAY-banner.png)
-[Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself){:target="_blank"}<br/>
-Learn how to look after yourself and others with Scratch projects to make you laugh, relax, control, create, exercise, and focus.
+[Φρόντισε τον εαυτό σου](https://projects.raspberrypi.org/en/pathways/look-after-yourself){:target="_blank"}<br/>
+Μάθε πώς να φροντίζεις τον εαυτό σου και τους άλλους με τα έργα Scratch για να σε κάνουν να γελάς, να χαλαρώνεις, να ελέγχεις, να δημιουργείς, να ασκείσαι και να συγκεντρώνεσαι.
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/scratch.png)
-[Scratch module 1](https://projects.raspberrypi.org/en/pathways/scratch-module-1){:target="_blank"}
+[Ενότητα Scratch 1](https://projects.raspberrypi.org/en/pathways/scratch-module-1){:target="_blank"}
 </div>
 
 <br clear="both"/>
 
-### Beyond the basics Scratch projects
+### Πέρα από τα βασικά έργα Scratch
 
-If you already know about sprites, costumes, backdrops, and loops then try these projects:
+Εάν γνωρίζεις ήδη για αντικείμενα, ενδυμασίες, σκηνικά και βρόχους, δοκίμασε αυτά τα έργα:
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/more-banner.png)
-[More Scratch: broadcast, decisions, and variables](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank"}<br/>
-More Scratch moves beyond the basics introduced in Introduction to Scratch. You will make apps, games, and simulations using message broadcasting, if..then and if..then..else decisions, and variables.
+[Περισσότερο Scratch: εκπομπή, αποφάσεις και μεταβλητές](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank"}<br/>
+Το "Περισσότερο Scratch" κινείται πέρα από τα βασικά που περιγράφονται στην "Εισαγωγή στο Scratch". Θα κάνεις εφαρμογές, παιχνίδια και προσομοιώσεις χρησιμοποιώντας τη μετάδοση μηνυμάτων, αποφάσεις εάν..τότε και εάν..τότε..αλλιώς, και μεταβλητές.
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/scratch.png)
-[Scratch module 2](https://projects.raspberrypi.org/en/pathways/scratch-module-2){:target="_blank"}<br/>
+[Ενότητα Scratch 2](https://projects.raspberrypi.org/en/pathways/scratch-module-2){:target="_blank"}<br/>
 </div>
 
 <br clear="both"/>
 
-### Advanced Scratch projects
+### Έργα για προχωρημένους στο Scratch
 
-If you want to learn about lists, clones, and creating your own blocks, then try these projects:
+Εάν θέλεις να μάθεις σχετικά με τις λίστες, τους κλώνους και τη δημιουργία των δικών σου εντολών, δοκίμασε αυτά τα έργα:
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/more-banner.png)
-[Further Scratch: clones, my blocks, and boolean logic](https://projects.raspberrypi.org/en/pathways/further-scratch){:target="_blank"}<br/>
-Further Scratch moves beyond the skills introduced in Introduction to Scratch and More Scratch. You will make apps, games, computer-generated art, and simulations using boolean logic, functions, clones, and more.
+[Περαιτέρω Scratch: κλώνοι, οι εντολές μου, and boolean λογική](https://projects.raspberrypi.org/en/pathways/further-scratch){:target=" _blank"}<br/>
+Το "Περαιτέρω Scratch" κινείται πέρα από τις δεξιότητες που περιγράφονται στην "Εισαγωγή στο Scratch" και στο "Περισσότερο Scratch". Θα δημιουργήσεις εφαρμογές, παιχνίδια, τέχνη που δημιουργείται από υπολογιστή και προσομοιώσεις χρησιμοποιώντας λογική Boole, συναρτήσεις, κλώνους και πολλά άλλα.
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![desc](images/POP-banner.png)
-[Protect our planet](https://projects.raspberrypi.org/en/pathways/protect-our-planet){:target="_blank"}<br/>
-Use Scratch to learn about our planet and how to protect the environment for future generations.
+[Προστατεύστε τον πλανήτη μας](https://projects.raspberrypi.org/en/pathways/protect-our-planet){:target="_blank"}<br/>
+Χρησιμοποίησε το Scratch για μάθεις για τον πλανήτη μας και πώς να προστατεύσουμε το περιβάλλον για τις μελλοντικές γενιές.
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/cd-scratch.png)
-[Scratch for social enterprise](https://projects.raspberrypi.org/en/coderdojo/scratch-for-social-enterprise){:target="_blank"}<br/>
+[Scratch για κοινωνικές επιχειρήσεις](https://projects.raspberrypi.org/en/coderdojo/scratch-for-social-enterprise){:target="_blank"}<br/>
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/scratch.png)
-[Scratch module 3](https://projects.raspberrypi.org/en/pathways/scratch-module-3){:target="_blank"}<br/>
+[Ενότητα Scratch 3](https://projects.raspberrypi.org/en/pathways/scratch-module-3){:target="_blank"}<br/>
 </div>
 
 <br clear="both"/>
 
-### Scratch GPIO hardware projects for the Raspberry Pi
+### Έργα Scratch με υλικό GPIO για το Raspberry Pi
 
-If you have a Raspberry Pi computer, then you can also try these projects. You will need additional electronic components.
+Εάν διαθέτεις υπολογιστή Raspberry Pi, τότε μπορείς επίσης να δοκιμάσεις αυτά τα έργα. Θα χρειαστείς επιπλέον ηλεκτρονικά εξαρτήματα.
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;"><br/>
 ![](images/physical-computing-text.png)
-[Beta pathway: Physical computing with Scratch](https://projects.raspberrypi.org/en/pathways/physical-computing-with-scratch-and-the-raspberry-pi){:target="_blank"}
+[Physical computing with Scratch path](https://projects.raspberrypi.org/en/pathways/physical-computing-with-scratch-and-the-raspberry-pi){:target="_blank"}
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;"><br/>
 ![](images/physical-computing-text.png)
-[Physical computing with Scratch projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&hardware%5B%5D=raspberry-pi){:target="_blank"}
+[Physical computing with Scratch additional projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&hardware%5B%5D=raspberry-pi){:target="_blank"}
 </div>
 
 <br clear="both"/>
 
-Did you enjoy the Scratch guide? Have you spotted an issue? Please click the **Send feedback** button below and let us know!
+Σου άρεσε ο οδηγός Scratch; Εντόπισες κάποιο πρόβλημα; Κάνε κλικ στο κουμπί **Αποστολή σχολίων** παρακάτω και ενημέρωσέ μας!
