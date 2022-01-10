@@ -1,10 +1,10 @@
-## Sensing
+## Waarnemen
 
-The blocks in the `Sensing`{:class="block3sensing"} blocks menu are used to get user text input, detect conditions, and report on values in your project.
+De blokken in het `Waarnemen`{:class="block3sensing"} blokkenmenu worden gebruikt om tekstinvoer van gebruikers te krijgen, voorwaarden te ontdekken en te rapporteren over waarden in je project.
 
-There are several hexagonal `Sensing`{:class="block3sensing"} blocks that you can use in `Control`{:class="block3control"} blocks to make decisions and control when blocks run.
+Er zijn verschillende hexagonale `Waarnemen`{:class="block3sensing"}-blokken die je kunt gebruiken in `Besturen`{:class="block3control"}-blokken om beslissingen te nemen en te controleren wanneer blokken worden uitgevoerd.
 
-The `touching`{:class="block3sensing"} block has options for detecting whether the sprite that owns the script is touching the mouse pointer (where you finger last touched on a tablet), the edge of the Stage, or another sprite:
+Met het `raken`{:class="block3sensing"}-blok kun je waarnemen of de sprite die eigenaar is van het script de muisaanwijzer (waar je je vinger voor het laatst hebt aangeraakt op een tablet), de rand van het werkgebied of een andere sprite raakt:
 
 ```blocks3
 <touching (mouse-pointer v) ?>
@@ -14,7 +14,7 @@ The `touching`{:class="block3sensing"} block has options for detecting whether t
 <touching (Sprite2 v) ?>
 ```
 
-There are blocks for detecting whether the sprite that owns the script is touching another colour (on the Stage or another sprite), or whether a colour on this sprite is touching another colour.
+Er zijn blokken om waar te nemen of de sprite die eigenaar is van het script een andere kleur raakt (in het werkgebied of een andere sprite), of dat een kleur op deze sprite een andere kleur raakt.
 
 ```blocks3
 <touching color (#c5a97b) ?>
@@ -22,19 +22,19 @@ There are blocks for detecting whether the sprite that owns the script is touchi
 <color (#c219ed) is touching (#62d1e0) ?>
 ```
 
-The `key pressed`{:class="block3sensing"} block has options for number, letter, and arrow keys. You need a keyboard to be able to enter keys. It detects whether the key is currently being pressed:
+Het `toets ingedrukt`{:class="block3sensing"} blok heeft opties voor cijfer-, letter- en pijltoetsen. Je hebt een toetsenbord nodig om hier waarden te kunnen invoeren. Het neemt waar of de toets momenteel wordt ingedrukt:
 
 ```blocks3
 <key (space v) pressed?>
 ```
 
-The `mouse down`{:class="block3sensing"} block detects whether the mouse is currently pressed, or the screen is being tapped or touched on a touchscreen:
+Het `muis ingedrukt`{:class="block3sensing"}-blok neemt waar of de muis momenteel wordt ingedrukt, of op het scherm wordt getikt of aangeraakt op een touchscreen:
 
 ```blocks3
 <mouse down?>
 ```
 
-The `ask`{:class="block3sensing"} and `answer`{:class="block3sensing"} blocks are used to get text input from the user:
+De `vraag`{:class="block3sensing"} en `antwoord`{:class="block3sensing"} blokken worden gebruikt om tekstinvoer van de gebruiker te krijgen:
 
 ```blocks3
 ask [What's your name] and wait
@@ -42,13 +42,13 @@ ask [What's your name] and wait
 (answer) // the text the the user typed 
 ```
 
-The `ask`{:class="block3sensing"} block works with a keyboard or with a virtual on-screen keyboard on a tablet.
+Het `vraag`{:class="block3sensing"}-blok werkt met een toetsenbord of met een virtueel schermtoetsenbord op een tablet.
 
-The `answer`{:class="block3sensing"} block is a reporter block that reports a value and can be used as a variable.
+Het `antwoord`{:class="block3sensing"}-blok is een blok dat een waarde terug geeft en dat ook als variabele kan worden gebruikt.
 
 [[[scratch3-ask-answer-chat]]]
 
-The `Sensing`{:class="block3sensing"} blocks menu also contains several reporter blocks that can be used to get values:
+Het `Waarnemen`{:class="block3sensing"} blokkenmenu bevat ook verschillende blokken die kunnen worden gebruikt om waarden op te halen:
 
 ```blocks3
 (distance to (mouse-pointer v))
@@ -56,7 +56,7 @@ The `Sensing`{:class="block3sensing"} blocks menu also contains several reporter
 (distance to (Sprite2 v))
 ```
 
-You can detect the current position of the mouse-pointer (or the current or most recent position of your finger on a tablet):
+Je kunt de huidige positie van de muisaanwijzer waarnemen (of de huidige of meest recente positie van je vinger op een tablet):
 
 ```blocks3
 (mouse x)
@@ -64,13 +64,13 @@ You can detect the current position of the mouse-pointer (or the current or most
 (mouse y)
 ```
 
-You can detect the `loudness`{:class="block3sensing"} of sound from the microphone. A pop-up window will ask the user for permission to use the microphone:
+Je kunt het `volume`{:class="block3sensing"} van het geluid van de microfoon waarnemen. Een pop-upvenster vraagt de gebruiker om toestemming om de microfoon te gebruiken:
 
 ```blocks3
 (loudness)
 ```
 
-The `timer`{:class="block3sensing"} starts counting when the project loads, and can be set back to `0` with `reset timer`{:class="block3sensing"}:
+De `klok`{:class="block3sensing"} begint te tellen wanneer het project wordt geladen en kan worden teruggezet naar `0` met het `zet klok op 0`{:class="block3sensing"} blok:
 
 ```blocks3
 (timer)
@@ -78,7 +78,7 @@ The `timer`{:class="block3sensing"} starts counting when the project loads, and 
 reset timer
 ```
 
-You can also access reporters for the Stage and other sprites:
+Je hebt ook toegang tot meldingen voor het Speelveld en andere sprites:
 
 ```blocks3
 ([backdrop # v] of (_stage_ v))
@@ -88,7 +88,7 @@ You can also access reporters for the Stage and other sprites:
 ([costume # v] of (Sprite2 v))
 ```
 
-There are reporters related to the date and time in the real world, in your local timezone:
+Er zijn meldingen gerelateerd aan de datum en tijd in de echte wereld, in je lokale tijdzone:
 
 ```blocks3
 (current [year v]) // hour, minute, ...
