@@ -1,16 +1,16 @@
-## Motion
+## Ruch
 
-`Motion`{:class="block3motion"} blocks allow you to move your sprite around the Stage.
+Bloki `Ruch`{:class="block3motion"} umożliwiają przesuwanie duszka po Scenie.
 
-### Movement
+### Przesuwanie
 
-The `move`{:class="block3motion"} block is the simplest way to ge started with moving a sprite:
+Blok `przesuń o`{:class="block3motion"} to najprostszy sposób na rozpoczęcie przenoszenia duszka:
 
 ```blocks3
 move [10] steps
 ```
 
-You can `go to`{:class="block3motion"} or `glide to`{:class="block3motion"} the mouse-pointer, a random position on the Stage (or your finger on a tablet), or another sprite:
+Możesz użyć `idź do`{:class="block3motion"} lub `leć do`{:class="block3motion"} wskaźnika myszy, losowej pozycji na Scenie (lub palca na tablecie) lub innego duszka:
 
 ```blocks3
 go to (random position v)
@@ -18,7 +18,7 @@ go to (random position v)
 glide [1] secs to (random position v)
 ```
 
-You can also `go to`{:class="block3motion"} or `glide to`{:class="block3motion"} a position given by `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates on the Stage.
+Możesz także użyć `idź do`{:class="block3motion"} lub `leć do`{:class="block3motion"} pozycji określonej przez współrzędne `x`{:class="block3motion"} i `y`{:class ="block3motion"} na Scenie.
 
 ```blocks3
 go to x: [0] y: [0] 
@@ -28,12 +28,12 @@ glide [1] secs to x: [0] y: [0]
 
 [[[scratch3-glide-to-object]]]
 
-**Tip:** When you drag a sprite on the Stage, the motion blocks that use `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates update in the `Motion`{:class="block3motion"} blocks menu. The current `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates are show in the Sprite pane.
+**Wskazówka:** Kiedy przeciągasz duszka na Scenę, bloki ruchu, które używają współrzędnych `x`{:class="block3motion"} i `y`{:class="block3motion"}, są aktualizowane w menu bloków `Ruch`{: class="block3motion"}. Aktualne współrzędne `x`{:class="block3motion"} i `y`{:class="block3motion"} są wyświetlane w panelu Sprite.
 
-### Rotation
-You can also change the `direction`{:class="block3motion"} that a sprite is pointing in. This changes the direction that the sprite will move in if you use a `move`{:class="block3motion"} block. It may also change the rotation of the sprite's costume depending on the `rotation-style`{:class="block3motion"} setting.
+### Obrót
+Możesz także zmienić `kierunek`{:class="block3motion"}, na który wskazuje duszek. To zmienia kierunek, w którym duszek będzie się poruszał kiedy użyjesz bloku `ruch`{:class="block3motion"}. Można w ten sposób również zmienić rotację kostiumu duszka w zależności od ustawienia `styl obrotu`{:class="block3motion"}.
 
-When you add a sprite, it will be facing right (90 degrees). You can change this in the Sprite pane or using code blocks.
+Gdy dodasz nowego duszka, będzie on skierowany w prawo (90 stopni). Możesz to zmienić w Panelu duszków lub za pomocą bloków kodu.
 
 ```blocks3
 turn right [15] degrees
@@ -55,12 +55,12 @@ set rotation style [left-right v] // or all-around or none
 
 --- collapse ---
 ---
-title: Spin around
+title: Zakręć się
 ---
 
 --- no-print ---
 
-**Spinning bat**: [See inside](https://scratch.mit.edu/projects/435704980/editor){:target="_blank"}
+**Wirujący nietoperz**: [Zajrzyj do środka](https://scratch.mit.edu/projects/435704980/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/435704980/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -68,28 +68,28 @@ title: Spin around
 
 --- /no-print ---
 
-This code makes a sprite spin when the green flag is clicked:
+Ten kod powoduje obrót duszka po kliknięciu zielonej flagi:
 
 ```blocks3
-when flag clicked
-forever
-turn right (1) degrees :: motion
+po kliknięciu flagi
+zawsze
+obrót w prawo (1) stopnie :: ruch
 ```
 
-In a `turn`{:class="block3motion"} block within a `forever`{:class="block3control"} loop, change the number of degrees to `1` and your sprite will appear to spin.
+W bloku `obróć`{:class="block3motion"} wewnątrz pętli `zawsze`{:class="block3control"}, zmień liczbę stopni na `1`, a twój duszek będzie się kręcił.
 
-**Tip:** If you do not add a `move`{:class="block3motion"} block, your sprite will spin in the position that it is in.
+**Wskazówka:** Jeśli nie dodasz bloku `przesuń o`{:class="block3motion"}, twój duszek obróci się w miejscu, w którym się znajduje.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Move in a circle
+title: Poruszaj się w kręgu
 ---
 
 --- no-print ---
 
-**Moon orbit**: [See inside](https://scratch.mit.edu/projects/435701055/editor){:target="_blank"}
+**Orbita Księżyca**: [Zajrzyj do środka](https://scratch.mit.edu/projects/435701055/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/435701055/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -97,39 +97,39 @@ title: Move in a circle
 
 --- /no-print ---
 
-This code makes a sprite fly in a circle when the green flag is clicked:
+Ten kod powoduje, że duszek będzie kręcił się w kółko po kliknięciu zielonej flagi:
 
 ```blocks3
-when green flag clicked
-forever
-move (1) steps
-turn right (1) degrees :: motion
+po kliknięciu zielonej flagi
+zawsze
+ruch (1) kroki
+obrót w prawo (1) stopnie :: ruch
 ```
 
-Change the values in a `move`{:class="block3motion"} block and `turn`{:class="block3motion"} block within a `forever`{:class="block3control"} loop to `1` and your sprite will appear to move in a big circle.
+Zmień wartości w bloku `przesuń o`{:class="block3motion"} i w bloku `obróć`{:class="block3motion"} w pętli `zawsze`{:class="block3control"} na `1`, a twój duszek pojawi się, aby poruszać się w dużym kręgu.
 
-**Tip:** If you want your sprite to always start in the centre of the Stage, you can add a `go to x:`{:class="block3motion"} `0` `y:`{:class="block3motion"} `0` block before the `forever`{:class="block3control"} block.
+**Wskazówka:** Jeśli chcesz, aby Twój duszek zawsze ruszał ze środka Sceny, możesz dodać blok `idź do x:`{:class="block3motion"} `0` `y:`{:class="block3motion"} "} `0` przed blokiem `zawsze`{:class="block3control"}.
 
 --- /collapse ---
 
-### Bouncing
+### Odbijanie się
 
-The `if on edge, bounce`{:class="block3motion"} block is really useful when you want to make a sprite bounce around and stay on the Stage:
+Blok `jeśli na brzegu, odbij się`{:class="block3motion"} jest naprawdę przydatny, gdy chcesz aby duszek odbijał się od krawędzi i pozostał na Scenie:
 
 ```blocks3
 if on edge, bounce
 ```
 
-See some of the ways in which you can get your sprite to bounce around:
+Sprawdź kilka sposobów na to, aby Twój duszek się odbijał:
 
 --- collapse ---
 ---
-title: Bounce across the Stage
+title: Odbijaj się na brzegach Sceny
 ---
 
 --- no-print ---
 
-**Girl moving across the Stage**: [See inside](https://scratch.mit.edu/projects/433535326/editor){:target="_blank"}
+**Dziewczynka poruszająca się na Scenie**: [Zajrzyj do środka](https://scratch.mit.edu/projects/433535326/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/433535326/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -137,7 +137,7 @@ title: Bounce across the Stage
 
 --- /no-print ---
 
-This code makes a sprite bounce on the left-hand and right-hand edges of the Stage. Because the sprite rotates horizontally, it appears to flip when it changes its direction when the green flag is clicked:
+Ten kod powoduje, że duszek odbija się od lewej i prawej krawędzi Sceny. Ponieważ duszek obraca się w poziomie, wygląda jakby się odwracał, gdy zmienia kierunek po kliknięciu zielonej flagi:
 
 ```blocks3
 when green flag clicked
@@ -148,22 +148,22 @@ move (5) steps
 if on edge, bounce
 ```
 
-In this example, the `point in direction`{:class="block3motion"} block automatically points the sprite to the right (`90` degrees) when the green flag is clicked. If you change the number of degrees to `-90`, your sprite will point left.
+W tym przykładzie blok`ustaw kierunek na`{:class="block3motion"} automatycznie kieruje duszka w prawo (`90` stopni) po kliknięciu zielonej flagi. Jeśli zmienisz liczbę stopni na `-90`, twój duszek zwróci się w lewo.
 
-Add a `set rotation style`{:class="block3motion"} block and select `left-right`{:class="block3motion"} in the drop-down menu, so that your sprite will not flip upside down when it bounces on the edge of the Stage.
+Dodaj blok `ustaw styl obrotu na`{:class="block3motion"} i wybierz `lewo-prawo`{:class="block3motion"} z rozwijanego menu, aby twój duszek nie odwrócił się do góry nogami podczas odbijania na skraju Sceny.
 
-**Tip:** You can drag your sprite on the Stage to move it to the y (up–down) position that you want.
+**Wskazówka:** Możesz przeciągnąć duszka na Scenie, aby przenieść go do żądanej pozycji y (góra-dół).
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Bounce up and down the Stage
+title: Odbijaj się od góry i dołu Sceny
 ---
 
 --- no-print ---
 
-**Girl jumping**: [See inside](https://scratch.mit.edu/projects/433595822/editor){:target="_blank"}
+**Skacząca dziewczyna**: [Zajrzyj do środka](https://scratch.mit.edu/projects/433595822/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/433595822/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -171,7 +171,7 @@ title: Bounce up and down the Stage
 
 --- /no-print ---
 
-This code makes a sprite bounce up and down the Stage when the green flag is clicked:
+Ten kod powoduje, że duszek odbija się na górze i dole Sceny po kliknięciu zielonej flagi:
 
 ```blocks3
 when green flag clicked
@@ -182,22 +182,22 @@ move (5) steps
 if on edge, bounce
 ```
 
-Change the number of degrees in the `point in direction`{:class="block3motion"} block to `0` to make a sprite point upwards.
+Zmień liczbę stopni w bloku `ustaw kierunek na`{:class="block3motion"} na `0` aby duszek skierował się w górę.
 
-Add a `set rotation style`{:class="block3motion"} block and select `don't rotate`{:class="block3motion"} in the drop-down menu to stop your sprite rotating, even when it bounces.
+Dodaj blok `ustaw styl obrotu na`{:class="block3motion"} i wybierz `nie obracaj`{:class="block3motion"} z menu rozwijanego, aby zatrzymać obracanie duszka, nawet gdy się odbija.
 
-**Tip:** You can drag your sprite around the Stage to move it to the x (left–right) position that you want.
+**Wskazówka:** Możesz przeciągnąć duszka po Scenie, aby przenieść go do żądanej pozycji x (lewo-prawo).
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Bounce at an angle
+title: Odbijaj się pod kątem
 ---
 
 --- no-print ---
 
-**Football bouncing**: [See inside](https://scratch.mit.edu/projects/433536479/editor){:target="_blank"}
+**Odbijanie piłki nożnej**: [Zajrzyj do środka](https://scratch.mit.edu/projects/433536479/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/433536479/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -205,7 +205,7 @@ title: Bounce at an angle
 
 --- /no-print ---
 
-This code makes a sprite appear to rotate randomly when the green flag is clicked:
+Ten kod sprawia, że duszek obraca się losowo po kliknięciu zielonej flagi:
 
 ```blocks3
 when green flag clicked
@@ -216,15 +216,15 @@ move (5) steps
 if on edge, bounce
 ```
 
-If your sprite moves at `45` degrees, you will find that it appears to bounce on the edge of the Stage at an angle. Change the number of degrees in the `point in direction`{:class="block3motion"} block to `45` to make your sprite bounce all around.
+Jeśli twój duszek porusza się pod kątem `45` stopni, zauważysz że odbija się od krawędzi Sceny pod pewnym kątem. Zmień liczbę stopni w bloku `ustaw kierunek na`{:class="block3motion"} na `45`, aby Twój duszek odbijał się dookoła.
 
-Add a `set rotation style`{:class="block3motion"} block and select `all around`{:class="block3motion"} in the drop-down menu, so that your sprite will turn when it bounces on the edge of the Stage.
+Dodaj blok `ustaw styl obrotu na`{:class="block3motion"} i wybierz `dookoła`{:class="block3motion"} z rozwijanego menu, aby Twój duszek obrócił się, gdy odbije się od krawędzi Sceny.
 
 --- /collapse ---
 
-### Using coordinates
+### Korzystanie ze współrzędnych
 
-You can also `change`{:class="block3motion"} and `set`{:class="block3motion"} the `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates and get their values to use in other blocks:
+Możesz także użyć `zmień`{:class="block3motion"} i `ustaw`{:class="block3motion"} `x`{:class="block3motion"} i `y`{:class="block3motion"} i odczytać wartości współrzędnych aby je wykorzystać w innych blokach:
 
 [[[generic-scratch3-coordinates]]]
 
@@ -244,12 +244,12 @@ set y to [0]
 
 --- collapse ---
 ---
-title: I can't see any Motion blocks
+title: Nie widzę żadnych bloków Ruch
 ---
 
-If you have the Stage selected then you won't see any `Motion`{:class="block3motion"} blocks, because the Stage can't move.
+Jeśli masz wybraną Scenę, to nie zobaczysz żadnych bloków `Ruch`{:class="block3motion"}, ponieważ Scena nie może się poruszać.
 
-Click on a sprite in the Sprite pane and then click on the **Code** tab to see the `Motion`{:class="block3motion"} blocks.
+Kliknij duszka na Panelu duszków, a następnie kliknij zakładkę **Skrypt**, aby zobaczyć bloki `Ruch`{:class="block3motion"}.
 
 --- /collapse ---
 
