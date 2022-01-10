@@ -1,10 +1,10 @@
-## Sensing
+## Sensores
 
-The blocks in the `Sensing`{:class="block3sensing"} blocks menu are used to get user text input, detect conditions, and report on values in your project.
+Los bloques en el menu de bloques `Sensores`{:class="block3sensing"} se utilizan para obtener la entrada de texto del usuario, detectar condiciones e informar sobre los valores en tu proyecto.
 
-There are several hexagonal `Sensing`{:class="block3sensing"} blocks that you can use in `Control`{:class="block3control"} blocks to make decisions and control when blocks run.
+Hay varios bloques hexagonales `Sensores`{:class="block3sensing"} que puedes utilizar en bloques `Control`{:class="block3control"} para tomar decisiones y controlar cuándo se ejecutan los bloques.
 
-The `touching`{:class="block3sensing"} block has options for detecting whether the sprite that owns the script is touching the mouse pointer (where you finger last touched on a tablet), the edge of the Stage, or another sprite:
+El bloque `tocando`{:class="block3sensing"} tiene opciones para detectar si el objeto que posee el script está tocando el puntero del ratón (donde tocaste por última vez con el dedo en una tableta), el borde del Escenario u otro objeto:
 
 ```blocks3
 <touching (mouse-pointer v) ?>
@@ -14,7 +14,7 @@ The `touching`{:class="block3sensing"} block has options for detecting whether t
 <touching (Sprite2 v) ?>
 ```
 
-There are blocks for detecting whether the sprite that owns the script is touching another colour (on the Stage or another sprite), or whether a colour on this sprite is touching another colour.
+Hay bloques para detectar si el objeto que posee el script está tocando otro color (en el Escenario u otro objeto), o si un color en este objeto está tocando otro color.
 
 ```blocks3
 <touching color (#c5a97b) ?>
@@ -22,13 +22,13 @@ There are blocks for detecting whether the sprite that owns the script is touchi
 <color (#c219ed) is touching (#62d1e0) ?>
 ```
 
-The `key pressed`{:class="block3sensing"} block has options for number, letter, and arrow keys. You need a keyboard to be able to enter keys. It detects whether the key is currently being pressed:
+El bloque `tecla presionada`{:class="block3sensing"} tiene opciones para teclas numéricas, letras y flechas. Necesitas un teclado para poder ingresar teclas. Detecta si la tecla está siendo presionada en ese momento:
 
 ```blocks3
 <key (space v) pressed?>
 ```
 
-The `mouse down`{:class="block3sensing"} block detects whether the mouse is currently pressed, or the screen is being tapped or touched on a touchscreen:
+El bloque `¿ratón presionado?`{:class="block3sensing"} detecta si el ratón está siendo presionado, o si la pantalla está siendo pulsada o tocada en una pantalla táctil:
 
 ```blocks3
 <mouse down?>
@@ -42,7 +42,7 @@ ask [What's your name] and wait
 (answer) // the text the the user typed 
 ```
 
-The `ask`{:class="block3sensing"} block works with a keyboard or with a virtual on-screen keyboard on a tablet.
+El bloque `preguntar`{:class="block3sensing"} funciona con un teclado o con un teclado virtual en pantalla en una tableta.
 
 The `answer`{:class="block3sensing"} block is a reporter block that reports a value and can be used as a variable.
 
@@ -56,7 +56,7 @@ The `Sensing`{:class="block3sensing"} blocks menu also contains several reporter
 (distance to (Sprite2 v))
 ```
 
-You can detect the current position of the mouse-pointer (or the current or most recent position of your finger on a tablet):
+Puedes detectar la posición actual del puntero del mouse (o la posición actual o más reciente de tu dedo en una tableta):
 
 ```blocks3
 (mouse x)
@@ -64,13 +64,13 @@ You can detect the current position of the mouse-pointer (or the current or most
 (mouse y)
 ```
 
-You can detect the `loudness`{:class="block3sensing"} of sound from the microphone. A pop-up window will ask the user for permission to use the microphone:
+You can detect the `loudness`{:class="block3sensing"} of sound from the microphone. Una ventana emergente le pedirá al usuario permiso para usar el micrófono:
 
 ```blocks3
 (loudness)
 ```
 
-The `timer`{:class="block3sensing"} starts counting when the project loads, and can be set back to `0` with `reset timer`{:class="block3sensing"}:
+El `cronómetro`{:class="block3sensing"} comienza a contar cuando se carga el proyecto y se puede volver a establecer en `0` con `reiniciar cronómetro`{:class="block3sensing"}:
 
 ```blocks3
 (timer)
@@ -78,7 +78,7 @@ The `timer`{:class="block3sensing"} starts counting when the project loads, and 
 reset timer
 ```
 
-You can also access reporters for the Stage and other sprites:
+También puedes acceder a los informadores para el Escenario y otros objetos:
 
 ```blocks3
 ([backdrop # v] of (_stage_ v))
@@ -88,7 +88,7 @@ You can also access reporters for the Stage and other sprites:
 ([costume # v] of (Sprite2 v))
 ```
 
-There are reporters related to the date and time in the real world, in your local timezone:
+Hay informadores relacionados con la fecha y la hora en el mundo real, en tu zona horaria local:
 
 ```blocks3
 (current [year v]) // hour, minute, ...
