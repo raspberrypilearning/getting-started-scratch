@@ -1,30 +1,30 @@
-## What is Scratch?
-Scratch is a graphical programming language developed by the Lifelong Kindergarten group at the MIT Media Lab. In Scratch, you can drag and combine code blocks to make a range of programs, including animations, stories, musical instruments, and games. It's a bit like the programming equivalent of building blocks!
+## Wat is Scratch?
+Scratch is een grafische programmeertaal die is ontwikkeld door de Lifelong Kindergarten-groep van het MIT Media Lab. In Scratch kun je codeblokken slepen en combineren om een reeks programma's te maken, waaronder animaties, verhalen, muziekinstrumenten en games. Het lijkt een beetje op programmeren met bouwstenen!
 
-![A screenshot of Scratch.](images/showcase_static.png)
+![Een schermafdruk van Scratch.](images/showcase_static.png)
 
-Scratch is used in many schools as part of the curriculum. It is free, and young people can use it at home as well as in clubs.
+Scratch wordt op veel scholen gebruikt als onderdeel van het leerplan. Het is gratis en jongeren kunnen het zowel thuis als in clubs gebruiken.
 
-Scratch allows young people to learn coding concepts and create interactive projects without needing to learn a text-based programming language. You will not need to be able to type quickly or remember complex code to use Scratch.
+Met Scratch kunnen jongeren codeer concepten leren en interactieve projecten maken zonder een op tekst gebaseerde programmeertaal te hoeven leren. Je hoeft niet snel te kunnen typen of complexe code te onthouden om Scratch te gebruiken.
 
-### How to use this reference guide
-If you have not used Scratch before, then this guide will help you to set up and create your first project.
+### Hoe kun je deze referentiegids gebruiken
+Als je Scratch nog niet eerder hebt gebruikt, dan helpt deze handleiding je bij het opzetten en maken van je eerste project.
 
-You can return to this guide and use it to look up information that you need when you are making your own projects in Scratch.
+Je kunt terugkeren naar deze handleiding en deze gebruiken om informatie op te zoeken die je nodig hebt om je eigen projecten in Scratch te maken.
 
-At the end of the guide you will find links to paths of Scratch projects, from beginner through to advanced, where you can learn coding by making fun and interesting apps, games, stories, animations, art and music.
+Aan het einde van de handleiding vind je links naar Scratch-projecten, van beginner tot gevorderd, waar je kunt leren programmeren door leuke en interessante apps, games, verhalen, animaties, kunst en muziek te maken.
 
 --- collapse ---
 ---
-title: What you will need
+title: Wat heb je nodig
 ---
 ### Hardware
 
-+ A computer or tablet capable of running Scratch 3
++ Een computer die Scratch 3 kan uitvoeren
 
 ### Software
 
-+ This guide will explain how to get started with Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
++ In deze handleiding wordt uitgelegd hoe je aan de slag kunt gaan met Scratch 3 (ofwel [online](https://scratch.mit.edu/):target="_blank"} of [offline](https://scratch.mit.edu/download){:target="_blank"})
 
 
 --- /collapse ---
