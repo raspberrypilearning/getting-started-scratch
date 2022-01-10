@@ -1,103 +1,103 @@
-## Sound
+## Dźwięk
 
-To add sound to your project, use `Sound`{:class="block3sound"} blocks. For example, you can create a continuous background soundtrack, or add sounds that play at regular intervals.
+Aby dodać dźwięk do projektu, użyj bloków `Dźwięk`{:class="block3sound"}. Na przykład możesz utworzyć ciągłą ścieżkę dźwiękową w tle lub dodać dźwięki odtwarzane w regularnych odstępach czasu.
 
-![An annotated screenshot of the Sounds tab.](images/Scratch-Sound-tab.png){:width="600px"}
+![Zrzut ekranu z adnotacjami na zakładce Dźwięki.](images/Scratch-Sound-tab.png){:width="600px"}
 
-First, select a sound from the Sound Library, or record your own sound.
+Najpierw wybierz dźwięk z Biblioteki dźwięków lub nagraj własny dźwięk.
 
 [[[scratch3-add-sound]]]
 
 [[[scratch3-record-sound]]]
 
-Add code to run `Sound`{:class="block3sound"} blocks where you want sound in your project.
+Dodaj kod, aby uruchomić bloki `Dźwięk`{:class="block3sound"} tam, gdzie chcesz usłyszeć dźwięk w swoim projekcie.
 
 --- collapse ---
 ---
-title: Add a long sound to create a continuous soundtrack
+title: Dodaj długi dźwięk, aby stworzyć ciągłą ścieżkę dźwiękową
 ---
 
-Click on the green flag to hear the sounds.
+Kliknij na zieloną flagę, aby usłyszeć dzwięki.
 
-**Radio soundtrack**: [See inside](https://scratch.mit.edu/projects/444581851/editor){:target="_blank"}
+**Radiowa ścieżka dźwiękowa**: [Zajrzyj do środka](https://scratch.mit.edu/projects/444581851/editor){:target="_blank"}
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/444581851/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can use a `play sound until done`{:class="block3sound"} block inside a `forever`{:class="block3control"} loop. Once the sound has finished, the `forever`{:class="block3control"} loop makes the sound start again from the beginning.
+Możesz użyć bloku `graj dźwięk aż się skończy`{:class="block3sound"} wewnątrz pętli `zawsze`{:class="block3control"}. Kiedy dzwięk sie skończy, pętla `zawsze`{:class="block3control"} spowoduje, że zacznie się znów od początku.
 
-This code uses a single long sound clip repeated as a soundtrack:
+Ten kod wykorzystuje pojedynczy długi klip dźwiękowy powtarzany jako ścieżka dźwiękowa:
 
 ```blocks3
-when green flag clicked
-forever
-play sound (Dance Snare Beat v) until done
-end
+gdy kliknie zielona flaga
+zawsze
+odtwórz dźwięk (Dance Snare Beat v) aż do zakończenia
+
 ```
 
-**Note:** When you choose a new sound, if you select the **Loops** category, Scratch will only show you the sounds that are suitable for a single looping soundtrack.
+**Uwaga:** Kiedy wybierasz nowy dzwięk, jeśli wybierzesz kategorię **Pętle**, Scratch pokaże tylko te dźwięki, które są odpowiednie dla pojedynczej zapętlonej ścieżki dźwiękowej.
 
-![The 'Loops' category in the Sound Library.](images/loopSounds.png)
+![Kategoria „Pętle” w Bibliotece dźwięków.](images/loopSounds.png)
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Add a sequence of short sounds to create a continuous soundtrack
+title: Dodaj sekwencję krótkich dźwięków, aby utworzyć ciągłą ścieżkę dźwiękową
 ---
 
-Click on the green flag to hear the sounds.
+Kliknij na zieloną flagę, aby usłyszeć dzwięki.
 
-**Champ performance**: [See inside](https://scratch.mit.edu/projects/444673165/editor){:target="_blank"}
+**Występ mistrzów**: [Zajrzyj do środka](https://scratch.mit.edu/projects/444673165/editor){:target="_blank"}
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/444673165/?autostart=false" frameborder="0"></iframe>
 </div>
 
- Use a `forever`{:class="block3control"} block to create a looped sound. You can:
-+ Put a series of short sounds in a sequence, or
-+ Use different instrument notes and effects
+ Użyj bloku `zawsze`{:class="block3control"}, aby utworzyć zapętlony dźwięk. Możesz:
++ Umieścić serię krótkich dźwięków w sekwencji, lub
++ Używać różnych nut i instrumentów
 
 ```blocks3
-when flag clicked
-forever
-play sound (Low Boing v) until done
-play sound (Low Boing v) until done
-play sound (Drum Buzz v) until done
-play sound (Pop v) until done
-play sound (Bird v) until done
-play sound (Bark v) until done
-play sound (Glug v) until done
-End
+po kliknięciu flagi
+zawsze
+odtwórz dźwięk (Low Boing v) do zakończenia
+odtwarzaj dźwięk (Low Boing v) do zakończenia
+odtwarzaj dźwięk (Drum Buzz v) do zakończenia
+odtwarzaj dźwięk (Pop v) do zakończenia
+odtwarzaj dźwięk (Bird v ) do zakończenia
+odtwarzaj dźwięk (Bark v) do
+odtwarzaj dźwięk (Glug v) do
+
 ```
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Add sounds that play at regular intervals
+title: Dodaj dźwięki grane w regularnych odstępach czasu
 ---
 
-**Football sounds**: [See inside](https://scratch.mit.edu/projects/450870079/editor){:target="_blank"}
+**Piłkarskie dźwięki**: [Zajrzyj do środka](https://scratch.mit.edu/projects/450870079/editor){:target="_blank"}
 
-Click on the green flag to hear the sounds.
+Kliknij zieloną flagę, aby usłyszeć dźwięki.
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/450870079/?autostart=false" frameborder="0"></iframe>
 </div>
 
- In this project, the **Stage** has code to play a sound at regular intervals:
+ W tym projekcie **Scena** zawiera kod służący do odtwarzania dźwięku w regularnych odstępach czasu:
 
  ```blocks3
- when flag clicked
- forever
- wait (3) seconds
- play sound (Cheer v) until done
- end
+ kiedy flaga kliknęła
+ zawsze
+ czekaj (3) sekundy
+ odtwórz dźwięk (Cheer v) do końca
+
  ```
 
-The **Whistle** sprite also plays a sound at regular intervals:
+Duszek **Whistle** również odtwarza dźwięk w regularnych odstępach czasu:
 
  ```blocks3
  when this sprite clicked
@@ -111,18 +111,18 @@ The **Whistle** sprite also plays a sound at regular intervals:
 
 --- collapse ---
 ---
-title: Add sounds that start to play at the same time
+title: Dodaj dźwięki zaczynające się w tym samym czasie
 ---
 
-There are two `Sound`{:class="block3sound"} blocks with an important difference:
+Istnieją dwa bloki z grupy `Dzwięk`{:class="block3sound"}, które mają pewną istotną różnicę:
 
-+ When you `play sound until done`{:class="block3sound"}, the sound will play all the way through. The next line of code in the script will not run until the sound has finished playing.
++ Kiedy użyjesz bloku `graj dźwięk aż się skończy`{:class="block3sound"}, dźwięk będzie odtwarzany bez przerywania. Następny wiersz kodu w skrypcie nie zostanie uruchomiony, dopóki dźwięk się nie skończy.
 
-+ When you `start sound`{:class="block3sound"}, the sound will play, but the next block will run immediately and will not wait for the sound to finish playing first.
++ Kiedy uzyjesz bloku `zagraj dzwięk`{:class="block3sound"}, dźwięk zostanie zagrany, ale następny blok zostanie uruchomiony natychmiast i nie będzie czekał na zakończenie odtwarzania dźwięku.
 
-This means that if you had a series of `start sound`{:class="block3sound"} blocks, the sounds would all play almost at the same time, layered on top of each other. The effect can be interesting and sometimes messy.
+Oznacza to, że gdybyś miał serię bloków `zagraj dźwięk`{:class="block3sound"}, wszystkie dźwięki byłyby odtwarzane prawie w tym samym czasie, nałożone na siebie. Ten efekt może być ciekawy, ale czasem może stworzyć bałagan.
 
-Have a play with it sometime!
+Pobaw się z tym kiedyś!
 
 ```blocks3
 when green flag clicked
@@ -135,39 +135,39 @@ start sound (Baa v)
 
 --- /collapse ---
 
-Once you have chosen your sounds, you may want to change the `volume`{:class="block3sound"}, `pitch`{:class="block3sound"}, or `pan`{:class="block3sound"} (so you hear the sound from the left- or right-hand speaker).
+Po wybraniu dźwięków możesz zmienić `głośność`{:class="block3sound"}, `płynność dźwięku`{:class="block3sound"} lub `przesuń w lewo/prawo`{:class="block3sound"} (słychać dźwięk z lewego lub prawego głośnika).
 
 --- collapse ---
 ---
-title: Volume, pitch, and pan
+title: Głośność, płynność i balans
 ---
 
-Click on the green flag to hear the sounds.
+Kliknij zieloną flagę, aby usłyszeć dźwięki.
 
-**Band practice**: [See inside](https://scratch.mit.edu/projects/451697380/editor){:target="_blank"}
+**Próba zespołu**: [Zajrzyj do środka](https://scratch.mit.edu/projects/451697380/editor){:target="_blank"}
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451697380/?autostart=false" frameborder="0"></iframe>
 </div>
 
-The **Drums** sprite uses `set volume to`{:class="block3sound"}, `set pitch effect to`{:class="block3sound"}, and `set pan left/right effect to`{:class="block3sound"} blocks to change the sound:
+Duszek **Drums** uzywa bloków `ustaw głośność na`{:class="block3sound"}, `ustaw efekt płynność dźwięku na`{:class="block3sound"} i `ustaw efekt lewo-prawo na`{:class=" block3sound"} aby zmienć dźwięk:
 
 ```blocks3
-set volume to (80) %
-set [pitch v] effect to (50) :: sound
-set [pan left/right v] effect to (-100) :: sound
-play sound (Drum Funky v) until done
+ustaw głośność na (80) %
+ustaw efekt [pitch v] na (50) :: dźwięk
+ustaw efekt [pan left/right v] na (-100) :: dźwięk
+odtwarzaj dźwięk (Drum Funky v) aż do zakończenia
 ```
 
-+ You can `set volume to`{:class="block3sound"} a value from `0` (silent) to `100` (full volume). This is useful if you want some sounds to play louder than others, or if you want a sprite to appear further away.
++ Możesz ustawić wartość w bloku `ustaw głośność na`{:class="block3sound"} od `0` (cichy) do `100` (pełna głośność). Jest to przydatne, jeśli chcesz, aby niektóre dźwięki były odtwarzane głośniej niż inne lub jeśli chcesz, aby duszek wydawał się być dalej.
 
-+ The `pitch`{:class="block3sound"} effect controls how high or low a sound is. Setting the pitch to a higher value also makes a sound faster. You can `set pitch effect to`{:class="block3sound"} values between `-360` (very low) and `360` (very high).
++ Efekt `płynność dźwięku`{:class="block3sound"} kontroluje, jak wysoki lub niski jest dźwięk. Ustawienie go na wyższą wartość również powoduje, że dźwięk jest szybszy. Wartości w bloku `ustaw efekt płynność dźwięku na`{:class="block3sound"} możesz ustawić pomiędzy `-360` (bardzo niski) a `360` (bardzo wysoki).
 
-+ The `pan left/right`{:class="block3sound"} effect allows you to control whether a sound comes out of a left- or right-hand speaker or headphone or both. You can `set pan left/right effect to`{:class="block3sound"} values from `-100` (all sound from the left) to `100` (all sound from the right).
++ Efekt `przesuń w lewo/prawo`{:class="block3sound"} pozwala kontrolować, czy dźwięk wydobywa się z lewego lub prawego głośnika lub słuchawki lub jednego i drugiego. Możesz usatwic wartości w bloku `ustaw efekt przesuń w lewo/prawo na`{:class="block3sound"} od `-100` (wszystkie dźwięki z lewej) do `100` (wszystkie dźwięki z prawej).
 
 --- /collapse ---
 
-You can also use the `Text to Speech`{:class="block3extensions"} extension:
+Możesz również użyć rozszerzenia `Tekst na Mowę`{:class="block3extensions"}:
 
 [[[scratch3-text-to-speech]]]
 
