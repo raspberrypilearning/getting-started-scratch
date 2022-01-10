@@ -1,6 +1,6 @@
-## My blocks
+## Mis bloques
 
-`My blocks`{:class="block3myblocks"} allow you to create new blocks for a sprite. You give the block a name and then `define`{:class="block3myblocks"} what the new block does using other Scratch blocks. You can use your new block in any script on the sprite that owns the block.
+`Mis bloques`{:class="block3myblocks"} te permite crear nuevos bloques para un objeto. Le das un nombre al bloque y luego tienes que `definir`{:class="block3myblocks"} lo que hace el nuevo bloque usando otros bloques Scratch. You can use your new block in any script on the sprite that owns the block.
 
 This example defines a `talk`{:class="block3myblocks"} block that makes a sprite change costume:
 
@@ -25,13 +25,13 @@ when [space v] key pressed
 talk
 ```
 
-You can use `My blocks`{:class="block3myblocks"} to **organise** your code. It's simpler to group together all the blocks that make a sprite talk and then just use one `talk`{:class="block3myblocks"} block when you want your sprite to talk.
+Puedes utilizar `Mis Bloques`{:class="block3myblocks"} para **organizar** tu código. Es más sencillo agrupar todos los bloques que hacen que un objeto hable y luego usar un bloque `hablar`{:class="block3myblocks"} cuando quieras que tu objeto hable.
 
-If you decide that you want to change the way your sprite talks then you only have to change the code in one place.
+Si decides que quieres cambiar la forma en que habla tu objeto entonces sólo tienes que cambiar el código en un lugar.
 
-### My blocks with inputs
+### Mis bloques con entradas
 
-You can also add **inputs** to `My blocks`{:class="block3myblocks"} so that they use the values you provide when you use the block.
+También puedes agregar **entradas** a `Mis bloques`{:class="block3myblocks"} para que utilicen los valores que tú proporciones cuando uses el bloque.
 
 **Penguin talks**: [See inside](https://scratch.mit.edu/projects/567538874/editor){:target="_blank"}
 
@@ -60,9 +60,9 @@ talk [hi]
 
 --- collapse ---
 ---
-title: Use My Blocks to organise code
+title: Usar Mis Bloques para organizar el código
 ---
-The simplest way to use `My Blocks`{:class="block3myblocks"} is to help organise your code. Here is a simple example.
+La forma más sencilla de utilizar `Mis Bloques`{:class="block3myblocks"} es para ayudar a organizar tu código. Aquí tienes un ejemplo sencillo.
 
 ```blocks3
 define move right
@@ -96,4 +96,4 @@ move left
 
 --- /collapse ---
 
-`My blocks`{:class="block3myblocks"} are similar to 'procedures', 'functions' or 'methods' in other programming languages.
+`Mis bloques`{:class="block3myblocks"} son similares a 'procedimientos', 'funciones' o 'métodos' en otros lenguajes de programación.
