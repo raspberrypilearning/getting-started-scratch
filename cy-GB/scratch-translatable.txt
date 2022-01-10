@@ -1,0 +1,83 @@
+Clicia ar 90 a llusgo'r saeth i newid
+
+neu o amgylch neu beidio troi
+
+cuddio'r llais ar ôl 2 eiliad
+
+rhedeg y blociau pan gaiff y faner werdd uwchben y Llwyfan ei chlicio
+
+rhedeg y blociau pan gaiff corlun ar gyfer y sgript hon ei glicio
+
+rhedeg y blociau pan fydd y llwyfan yn cael ei glicio
+
+newid i fysellau rhif, llythyren neu saeth
+
+rhedeg y blociau pan fydd y meicroffon yn canfod sain
+
+rhedeg y blociau pan fydd yr amserydd yn cyrraedd 10 eiliad
+
+oedi am 1 eiliad
+
+oedi am un rhan o ddeg o eiliad
+
+rhedeg y blociau sydd tu mewn bedair gwaith
+
+rhedeg y blociau sydd tu mewn nes eu stopio
+
+stopio pob sgript ym mhob corlun
+
+oedi nes bod y cyflwr yn wir
+
+ailadrodd y blociau sydd tu mewn nes bod y cyflwr yn wir
+
+clonio'r corlun sy'n rhedeg y bloc hwn
+
+clonio corlun arall yn y prosiect
+
+y sgript sy'n rhedeg pan fydd y clôn yn cael ei greu
+
+yn stopio sgriptiau'r clôn ac yn ei ddileu
+
+Beth yw dy enw
+
+y testun mae'r defnyddiwr wedi'i deipio
+
+awr, munud, ...
+
+Rhif rhwng o 1 i 10
+
+siarad
+
+defnyddio'r mewnbwn a roddwyd
+
+geiriau
+
+helo
+
+haia
+
+tryloyw
+
+cyflymder
+
+ongl
+
+oedi
+
+curiad
+
+symud i'r dde
+
+symud i'r chwith
+
+dde_1
+
+dde_2
+
+dde_3
+
+chwith_1
+
+chwith_2
+
+chwith_3
