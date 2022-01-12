@@ -5,10 +5,11 @@ description: Leer meer over Scratch en ontwikkel je vaardigheden om Scratch zelf
 version: 4
 listed: false
 copyedit: false
-last_tested: "2020-11-28"
+last_tested: '2020-11-28'
 steps:
   - 
     title: Inleiding
+    completion: engaged
   - 
     title: Scratch installeren
   - 
@@ -47,5 +48,6 @@ steps:
     title: Bewerkingstips
   - 
     title: Deel en reageer
+    completion: internal
   - 
     title: Onze Scratch projecten
