@@ -5,10 +5,11 @@ description: Μάθε για το Scratch και ανάπτυξε τις δεξ�
 version: 4
 listed: false
 copyedit: false
-last_tested: "2020-11-28"
+last_tested: '2020-11-28'
 steps:
   - 
     title: Εισαγωγή
+    completion: engaged
   - 
     title: Ρύθμιση του Scratch
   - 
@@ -47,5 +48,6 @@ steps:
     title: Συμβουλές επεξεργασίας
   - 
     title: Μοιράσου και σχολίασε
+    completion: internal
   - 
     title: Τα έργα μας στο Scratch
