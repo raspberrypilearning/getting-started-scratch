@@ -5,10 +5,11 @@ description: Dowiedz się więcej o Scratchu i rozwiń swoje umiejętności samo
 version: 4
 listed: false
 copyedit: false
-last_tested: "2020-11-28"
+last_tested: '2020-11-28'
 steps:
   - 
     title: Wprowadzenie
+    completion: engaged
   - 
     title: Skonfiguruj Scratch
   - 
@@ -47,5 +48,6 @@ steps:
     title: Wskazówki dotyczące edycji
   - 
     title: Udostępniaj i komentuj
+    completion: internal
   - 
     title: Nasze projekty Scratch
