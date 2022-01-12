@@ -5,10 +5,11 @@ description: Aprende sobre Scratch y desarrolla tus habilidades para usar Scratc
 version: 4
 listed: false
 copyedit: false
-last_tested: "2020-11-28"
+last_tested: '2020-11-28'
 steps:
   - 
     title: Introducción
+    completion: engaged
   - 
     title: Configurar Scratch
   - 
@@ -47,5 +48,6 @@ steps:
     title: Consejos de edición
   - 
     title: Comparte y comenta
+    completion: internal
   - 
     title: Nuestros proyectos Scratch
