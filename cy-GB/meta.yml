@@ -5,10 +5,11 @@ description: Dysgu am Scratch a datblygu dy sgiliau i ddefnyddio Scratch yn anni
 version: 4
 listed: false
 copyedit: false
-last_tested: "2020-11-28"
+last_tested: '2020-11-28'
 steps:
   - 
     title: Cyflwyniad
+    completion: engaged
   - 
     title: Gosod Scratch
   - 
@@ -47,5 +48,6 @@ steps:
     title: Awgrymiadau golygu
   - 
     title: Rhannu a gwneud sylwadau
+    completion: internal
   - 
     title: Ein prosiectau Scratch
