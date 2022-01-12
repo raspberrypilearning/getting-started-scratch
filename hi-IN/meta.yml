@@ -5,10 +5,11 @@ description: Learn about Scratch and develop your skills to use Scratch independ
 version: 4
 listed: false
 copyedit: false
-last_tested: "2020-11-28"
+last_tested: '2020-11-28'
 steps:
   - 
     title: Introduction
+    completion: engaged
   - 
     title: Set up Scratch
   - 
@@ -47,5 +48,6 @@ steps:
     title: Editing tips
   - 
     title: Share and comment
+    completion: internal
   - 
     title: Our Scratch projects
