@@ -5,10 +5,11 @@ description: Découvre Scratch et développe tes compétences pour utiliser Scra
 version: 4
 listed: false
 copyedit: false
-last_tested: "2020-11-28"
+last_tested: '2020-11-28'
 steps:
   - 
     title: Introduction
+    completion: engaged
   - 
     title: Installer Scratch
   - 
@@ -47,5 +48,6 @@ steps:
     title: Conseils d'édition
   - 
     title: Partager et commenter
+    completion: internal
   - 
     title: Nos projets Scratch
