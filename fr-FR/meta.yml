@@ -9,7 +9,7 @@ last_tested: '2020-11-28'
 steps:
   - 
     title: Introduction
-    completion: engaged
+    completion: engagé
   - 
     title: Installer Scratch
   - 
@@ -48,6 +48,6 @@ steps:
     title: Conseils d'édition
   - 
     title: Partager et commenter
-    completion: internal
+    completion: interne
   - 
     title: Nos projets Scratch
