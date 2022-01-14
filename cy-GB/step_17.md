@@ -6,10 +6,10 @@ Defnyddia'r Golygydd sain i ychwanegu a golygu seiniau sy'n bodoli, ac i recordi
 
 ### Creu seiniau
 
-\[[[scratch3-add-sound]]\] \[[[scratch3-record-sound\]]]
+[[[scratch3-add-sound]]] [[[scratch3-record-sound]]]
 
 ### Golygu seiniau
 
 Golyga seiniau cyfan neu rannau o seiniau.
 
-\[[[scratch3-reverse-sound]]\] \[[[scratch3-crop-sound\]]] [[[scratch3-sound-effects]]]
+[[[scratch3-reverse-sound]]] [[[scratch3-crop-sound]]] [[[scratch3-sound-effects]]]
