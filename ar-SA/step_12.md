@@ -1,6 +1,6 @@
-## Operators
+## العمليات
 
-The `Operators`{:class="block3operators"} blocks are used to compare variables and values, do calculations with numbers, and work with strings (text).
+كتل `العمليات`{:class="block3operators"} تستعمل لمقارنة المتغيرات و القيم, القيام بالحسابات بالأرقام, و العمل بالسلاسل(النص).
 
 The hexagonal 'Boolean' blocks are used as conditions, and return true or false. These blocks can be used in `Control`{:class="block3control"} blocks with a hexagonal input.
 
