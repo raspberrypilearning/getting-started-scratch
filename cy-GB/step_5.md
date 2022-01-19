@@ -79,7 +79,7 @@ Mae modd chwilio am gefnlen neu bori yn ôl categori neu thema. Clicia ar gefnle
 
 --- collapse ---
 ---
-teitl: Rhoi enw i dy brosiect a'i gadw
+title: Rhoi enw i dy brosiect a'i gadw
 ---
 
 Cer i **Ffeil** yn y ddewislen. Os oes gen ti gyfrif Scratch, clicia ar **Cadw nawr**. Os nad oes gen ti gyfrif, clicia ar **Cadw i'r cyfrifiadur**.
