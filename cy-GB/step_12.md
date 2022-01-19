@@ -48,13 +48,13 @@ Mae'r gweithredwyr `a`{:class="block3operators"}, `neu`{:class="block3operators"
 Mae blociau ar gyfer gweithio gyda llinynnau testun:
 
 ```blocks3
-(join [apple ] [banana])
+(join [afal ] [banana])
 
-(letter [1] of [apple])
+(letter [1] of [afal])
 
-(length of [apple])
+(length of [afal])
 
-<[apple] contains [a]>
+<[afal] contains [a]>
 ```
 
 [[[scratch3-join-text]]]
