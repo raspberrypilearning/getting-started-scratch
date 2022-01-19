@@ -73,7 +73,7 @@ go to [front v] layer
 ```blocks3
 when flag clicked
 forever
-set [ghost v] effect to (transparent)
+set [ghost v] effect to (tryloyw)
 ```
 
 Rho gynnig ar ddefnyddio'r un dull gyda effeithiau graffeg fel `disgleirdeb`{:class="block3looks"} neu `lliw`{:class="block3looks"}.
@@ -96,7 +96,7 @@ Defnyddia'r newidyn `cyflymder`{:class="block3variables"} fel mewnbwn ar gyfer b
 ```blocks3
 when flag clicked
 forever
-move (speed) steps
+move (cyflymder) steps
 if on edge, bounce
 ```
 Gosoda'r gwerthoedd lleiaf a mwyaf ar gyfer ystod y llithrydd sy'n addas i dy brosiect di.
@@ -119,7 +119,7 @@ Defnyddia newidyn `ongl`{:class="block3variables"} fel mewnbwn i floc `troi i'r 
 ```blocks3
 when flag clicked
 forever
-turn right (angle) degrees
+turn right (ongl) degrees
 ```
 
 --- /collapse ---
@@ -140,7 +140,7 @@ Defnyddia newidyn `oedi`{:class="block3variables"} fel newidyn ar gyfer bloc `ar
 ```blocks3
 when flag clicked
 forever
-wait (delay) seconds
+wait (oedi) seconds
 next costume
 ```
 
