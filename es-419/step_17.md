@@ -4,11 +4,11 @@ Utiliza el editor de sonido para agregar y editar sonidos existentes y para grab
 
 ![Una captura de pantalla anotada de la pestaña Sonido.](images/Scratch-Sound-tab.png){:width="600px"}
 
-### Creating sounds
+### Crear sonidos
 
 \[[[scratch3-add-sound]]\] \[[[scratch3-record-sound\]]]
 
-### Editing sounds
+### Editar sonidos
 
 Edita sonidos completos o partes de sonidos.
 
