@@ -12,6 +12,6 @@ Są też rozszerzenia Czujniki wideo i Tłumacz.
 
 Jeśli używasz komputera Raspberry Pi, możesz również użyć rozszerzeń do obsługi elektroniki z Raspberry Pi (potrzebne będą dodatkowe elementy lub płytki Sense Hat):
 
-[[[rpi-scratch-add-pi-gpio]]]
+[[[rpi-scratch-add-simple-electronics]]]
 
 [[[rpi-scratch3-add-sensehat-extension]]]
