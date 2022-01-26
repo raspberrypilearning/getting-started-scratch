@@ -1,6 +1,6 @@
 ## Operadores
 
-The `Operators`{:class="block3operators"} blocks are used to compare variables and values, do calculations with numbers, and work with strings (text).
+Los bloques `Operadores`{:class="block3operators"} se utilizan para comparar variables y valores, hacer cálculos con números y trabajar con cadenas (de texto).
 
 Los bloques hexagonales 'booleanos' se utilizan como condiciones y devuelven verdadero o falso. Estos bloques se pueden utilizar en bloques `Control`{:class="block3control"} con una entrada hexagonal.
 
@@ -35,7 +35,7 @@ Puedes elegir números aleatorios entre el número más pequeño y el más grand
 (pick random [1] to [10]) // A number from 1 to 10
 ```
 
-The `and`{:class="block3operators"}, `or`{:class="block3operators"}, and `not`{:class="block3operators"} operators can be used to combine conditions.
+Los operadores `y`{:class="block3operators"}, `o`{:class="block3operators"} y `no`{:class="block3operators"} pueden usarse para combinar condiciones.
 
 ```blocks3
 <<> and <>>
