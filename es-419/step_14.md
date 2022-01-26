@@ -1,10 +1,10 @@
 ## Mis bloques
 
-`Mis bloques`{:class="block3myblocks"} te permite crear nuevos bloques para un objeto. Le das un nombre al bloque y luego tienes que `definir`{:class="block3myblocks"} lo que hace el nuevo bloque usando otros bloques Scratch. You can use your new block in any script on the sprite that owns the block.
+`Mis bloques`{:class="block3myblocks"} te permite crear nuevos bloques para un objeto. Le das un nombre al bloque y luego tienes que `definir`{:class="block3myblocks"} lo que hace el nuevo bloque usando otros bloques Scratch. Puedes usar tu nuevo bloque en cualquier script del objeto al que pertenece el bloque.
 
-This example defines a `talk`{:class="block3myblocks"} block that makes a sprite change costume:
+Este ejemplo define un bloque `hablar`{:class="block3myblocks"} que hace que un objeto cambie de disfraz:
 
-**Penguin chirps**: [See inside](https://scratch.mit.edu/projects/567554899/editor){:target="_blank"}
+**Pingüino chirría**: [Ver dentro](https://scratch.mit.edu/projects/567554899/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/567554899/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -33,7 +33,7 @@ Si decides que quieres cambiar la forma en que habla tu objeto entonces sólo ti
 
 También puedes agregar **entradas** a `Mis bloques`{:class="block3myblocks"} para que utilicen los valores que tú proporciones cuando uses el bloque.
 
-**Penguin talks**: [See inside](https://scratch.mit.edu/projects/567538874/editor){:target="_blank"}
+**Pingüino habla**: [Ver dentro](https://scratch.mit.edu/projects/567538874/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/567538874/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
