@@ -4,11 +4,11 @@ Nuestras rutas de Scratch tienen seis proyectos cada una, para ayudarte a aprend
 
 Puedes volver a esta guía de referencia, Introducción a Scratch, siempre que necesites recordar las habilidades que has aprendido.
 
-These projects can be completed on any computer or tablet that runs Scratch 3.
+Estos proyectos se pueden completar en cualquier computadora o tableta que ejecute Scratch 3.
 
 ### Proyectos para principiantes de Scratch
 
-If you are new to Scratch, start with our pathways for beginners:
+Si eres nuevo en Scratch, comienza con nuestras rutas para principiantes:
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/Intro-banner.png)
@@ -48,12 +48,12 @@ Más Scratch va más allá de los conceptos básicos presentados en Introducció
 
 ### Proyectos avanzados de Scratch
 
-If you want to learn about lists, clones, and creating your own blocks, then try these projects:
+Si deseas aprender sobre listas, clones y crear tus propios bloques, prueba estos proyectos:
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/more-banner.png)
-[Further Scratch: clones, my blocks, and boolean logic](https://projects.raspberrypi.org/en/pathways/further-scratch){:target="_blank"}<br/>
-Further Scratch moves beyond the skills introduced in Introduction to Scratch and More Scratch. Crearás aplicaciones, juegos, arte generado por computadora y simulaciones usando lógica booleana, funciones, clones y más.
+[Scratch adicional: clones, mis bloques y lógica booleana](https://projects.raspberrypi.org/en/pathways/further-scratch){:target="_blank"}<br/>
+Scratch adicional va más allá de las habilidades presentadas en Introducción a Scratch y Más Scratch. Crearás aplicaciones, juegos, arte generado por computadora y simulaciones usando lógica booleana, funciones, clones y más.
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
