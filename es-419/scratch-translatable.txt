@@ -1,6 +1,6 @@
 Haz clic en 90 y arrastra la flecha para cambiar
 
-or all-around or none
+o en todas las direcciones o no rotar
 
 ocultar la frase después de 2 segundos
 
@@ -14,7 +14,7 @@ cambiar a teclas de número, letra o flecha
 
 ejecuta bloques cuando el micrófono detecta sonido
 
-run blocks when the timer reaches 10 seconds
+ejecuta bloques cuando el cronómetro llega a 10 segundos
 
 demora de 1 segundo
 
@@ -30,9 +30,9 @@ demora hasta que la condición se cumpla
 
 repetir los bloques interiores hasta que la condición se cumpla
 
-clones the sprite that runs this block
+crea un clon del objeto que ejecuta este bloque
 
-clones another sprite in the project
+crea un clon de otro objeto en el proyecto
 
 el script que se ejecuta cuando el clon se ha creado
 
@@ -46,9 +46,9 @@ hora, minuto, ...
 
 Un número del 1 al 10
 
-talk
+hablar
 
-use the provided input
+utiliza la entrada proporcionada
 
 palabras
 
