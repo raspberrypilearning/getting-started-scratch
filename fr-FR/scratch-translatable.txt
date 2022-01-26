@@ -1,0 +1,83 @@
+Clique sur 90 et fais glisser la flèche pour changer
+
+ou ne tourne pas ou 360°
+
+masquer la bulle après 2 secondes
+
+exécuter des blocs lorsque le drapeau vert au-dessus de la Scène est cliqué
+
+exécuter les blocs lorsque le sprite de ce script est cliqué
+
+exécuter les blocs lorsque la scène est cliquée
+
+changer pour les touches numériques, alphabétiques ou fléchées
+
+exécuter des blocs lorsque le microphone détecte un son
+
+exécuter des blocs lorsque le chronomètre atteint 10 secondes
+
+retard de 1 seconde
+
+retard d'un dixième de seconde
+
+exécuter quatre fois les blocs à l'intérieur
+
+exécuter les blocs à l'intérieur indéfiniment jusqu'à l'arrêt
+
+arrêter tous les scripts dans tous les sprites
+
+attendre jusqu'à ce que la condition soit vraie
+
+répéter les blocs à l'intérieur jusqu'à ce que la condition soit vraie
+
+cloner le sprite qui exécute ce bloc
+
+cloner un autre sprite dans le projet
+
+le script qui s'exécute lorsque le clone est créé
+
+arrête les scripts du clone et le supprime
+
+Quel est ton nom
+
+le texte que l'utilisateur a tapé
+
+heure, minute, ...
+
+Un nombre de 1 à 10
+
+parler
+
+utiliser le paramètre fourni
+
+mots
+
+bonjour
+
+salut
+
+transparence
+
+vitesse
+
+angle
+
+délai
+
+rythme
+
+déplacer vers la droite
+
+déplacer vers la gauche
+
+droite_1
+
+droite_2
+
+droite_3
+
+gauche_1
+
+gauche_2
+
+gauche_3
