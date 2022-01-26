@@ -19,13 +19,13 @@ title: Agregar un sonido largo para crear un sonido de fondo continuado
 
 Haz clic en la bandera verde para escuchar los sonidos.
 
-**Radio soundtrack**: [See inside](https://scratch.mit.edu/projects/444581851/editor){:target="_blank"}
+**Sonido de radio**: [Ver dentro](https://scratch.mit.edu/projects/444581851/editor){:target="_blank"}
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/444581851/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can use a `play sound until done`{:class="block3sound"} block inside a `forever`{:class="block3control"} loop. Once the sound has finished, the `forever`{:class="block3control"} loop makes the sound start again from the beginning.
+Puedes usar un bloque `tocar sonido hasta que termine`{:class="block3sound"} dentro de un bucle `por siempre`{:class="block3control"}. Una vez que el sonido ha terminado, el bucle `por siempre`{:class="block3control"} hace que el sonido comience de nuevo desde el principio.
 
 Este código utiliza un único clip de sonido largo repetido como banda sonora:
 
@@ -49,13 +49,13 @@ title: Agregar una secuencia de sonidos cortos para crear un sonido de fondo con
 
 Haz clic en la bandera verde para escuchar los sonidos.
 
-**Champ performance**: [See inside](https://scratch.mit.edu/projects/444673165/editor){:target="_blank"}
+**Rendimiento de campeón**: [Ver dentro](https://scratch.mit.edu/projects/444673165/editor){:target="_blank"}
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/444673165/?autostart=false" frameborder="0"></iframe>
 </div>
 
- Use a `forever`{:class="block3control"} block to create a looped sound. Puedes:
+ Utiliza un bloque `por siempre`{:class="block3control"} para crear un sonido en bucle. Puedes:
 + Poner una serie de sonidos cortos en una secuencia, o
 + Usar diferentes notas de instrumentos y efectos
 
@@ -79,7 +79,7 @@ End
 title: Agregar sonidos que se reproducen a intervalos regulares
 ---
 
-**Football sounds**: [See inside](https://scratch.mit.edu/projects/450870079/editor){:target="_blank"}
+**Sonidos de fútbol**: [Ver dentro](https://scratch.mit.edu/projects/450870079/editor){:target="_blank"}
 
 Haz clic en la bandera verde para escuchar los sonidos.
 
@@ -97,7 +97,7 @@ Haz clic en la bandera verde para escuchar los sonidos.
  end
  ```
 
-The **Whistle** sprite also plays a sound at regular intervals:
+El objeto **Silbato** también reproduce un sonido a intervalos regulares:
 
  ```blocks3
  when this sprite clicked
@@ -144,13 +144,13 @@ title: Volumen, tono y paneo
 
 Haz clic en la bandera verde para escuchar los sonidos.
 
-**Band practice**: [See inside](https://scratch.mit.edu/projects/451697380/editor){:target="_blank"}
+**Práctica de banda**: [Ver dentro](https://scratch.mit.edu/projects/451697380/editor){:target="_blank"}
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451697380/?autostart=false" frameborder="0"></iframe>
 </div>
 
-The **Drums** sprite uses `set volume to`{:class="block3sound"}, `set pitch effect to`{:class="block3sound"}, and `set pan left/right effect to`{:class="block3sound"} blocks to change the sound:
+El objeto **Tambores** usa bloques `fijar volumen a`{:class="block3sound"}, `fijar efecto tono a`{:class="block3sound"} y `fijar efecto paneo izquierda/derecha a`{:class="block3sound"} para cambiar el sonido:
 
 ```blocks3
 set volume to (80) %
@@ -159,7 +159,7 @@ set [pan left/right v] effect to (-100) :: sound
 play sound (Drum Funky v) until done
 ```
 
-+ Puedes `fijar volumen a`{:class="block3sound"} con un valor desde `0` (silencioso) a `100` (volumen máximo). This is useful if you want some sounds to play louder than others, or if you want a sprite to appear further away.
++ Puedes `fijar volumen a`{:class="block3sound"} con un valor desde `0` (silencioso) a `100` (volumen máximo). Esto es útil si deseas que algunos sonidos se reproduzcan más fuerte que otros, o si deseas que un objeto parezca estar más alejado.
 
 + El efecto `tono`{:class="block3sound"} controla qué tan alto o bajo es un sonido. Ajustar el tono a un valor más alto también hace que el sonido sea más rápido. Puedes `fijar efecto tono a`{:class="block3sound"} valores entre `-360` (muy bajo) y `360` (muy alto).
 
