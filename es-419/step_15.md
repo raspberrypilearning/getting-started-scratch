@@ -8,7 +8,7 @@ La librería `extensiones`{:class="block3extensions"} te permite agregar nuevos 
 
 [[[generic-scratch3-add-music-extension]]]
 
-There are also Video Sensing and Translate extensions.
+También existen extensiones de Sensor de video y Traductor.
 
 Si estás utilizando una computadora Raspberry Pi, también puedes usar extensiones para usar dispositivos electrónicos con Raspberry Pi (necesitarás componentes adicionales o un Sense Hat):
 
