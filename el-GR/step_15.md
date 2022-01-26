@@ -12,6 +12,6 @@
 
 Εάν χρησιμοποιείς υπολογιστή Raspberry Pi, μπορείς επίσης να χρησιμοποιήσεις επεκτάσεις για τη χρήση ηλεκτρονικών με το Raspberry Pi (θα χρειαστείς επιπλέον εξαρτήματα ή ένα Sense Hat):
 
-[[[rpi-scratch-add-pi-gpio]]]
+[[[rpi-scratch-add-simple-electronics]]]
 
 [[[rpi-scratch3-add-sensehat-extension]]]
