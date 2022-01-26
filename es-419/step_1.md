@@ -8,7 +8,7 @@ Scratch se utiliza en muchas escuelas como parte del plan de estudios. Es gratis
 Scratch permite a los jóvenes aprender conceptos de codificación y crear proyectos interactivos sin necesidad de aprender un lenguaje de programación basado en texto. No necesitarás escribir rápidamente o recordar un código complejo para usar Scratch.
 
 ### Cómo utilizar esta guía de referencia
-If you have not used Scratch before, then this guide will help you to set up and create your first project.
+Si no has utilizado Scratch antes, esta guía te ayudará a configurar y crear tu primer proyecto.
 
 Puedes volver a esta guía y usarla para buscar la información que necesites cuando estes haciendo tus propios proyectos en Scratch.
 
@@ -20,11 +20,11 @@ title: Lo que necesitarás
 ---
 ### Hardware
 
-+ A computer or tablet capable of running Scratch 3
++ Una computadora o una tableta capaz de ejecutar Scratch 3
 
 ### Software
 
-+ This guide will explain how to get started with Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
++ Esta guía explicará cómo comenzar con Scratch 3 (tanto [en línea](https://scratch.mit.edu/){:target="_ blank"} o [sin conexión](https://scratch.mit.edu/download){: target="_ blank"})
 
 
 --- /collapse ---
