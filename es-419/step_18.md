@@ -64,7 +64,7 @@ title: Consejos de depuración para problemas específicos
 
 + **Mi objeto va al revés** - Agrega un bloque `fijar estilo de rotación a izquierda-derecha`{:class="block3motion"} o `fijar estilo de rotación a no rotar`{:class="block3motion"}.
 
-+ **My sprite 'jumps' when it changes costume or bounces** — Make sure that the costume is centred in the Paint editor (line up the blue cross in the costume with the crosshair in the centre of the Paint editor).
++ **Mi objeto 'salta' cuando cambia de disfraz o rebota** - Asegúrate de que el disfraz está centrado en el Editor de dibujo (alinea la cruz azul en el disfraz con la cruz en el centro del Editor de dibujo).
 
 + **Mi objeto se detiene cuando llega al borde del Escenario** - Agrega un bloque `si toca un borde, rebotar`{:class="block3motion"}.
 
