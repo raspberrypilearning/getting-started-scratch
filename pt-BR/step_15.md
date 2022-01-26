@@ -12,6 +12,6 @@ There are also Video Sensing and Translate extensions.
 
 If you are using a Raspberry Pi computer then you can also use extensions for using electronics with the Raspberry Pi (you will need extra components or a Sense Hat):
 
-[[[rpi-scratch-add-pi-gpio]]]
+[[[rpi-scratch-add-simple-electronics]]]
 
 [[[rpi-scratch3-add-sensehat-extension]]]
