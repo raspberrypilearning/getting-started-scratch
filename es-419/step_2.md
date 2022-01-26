@@ -30,7 +30,7 @@ Si necesitas instalar Scratch, sigue este proceso:
 + Haz clic en **Preferencias**
 + Haz clic en **Software Recomendado**
 + Selecciona **Scratch 3**
-+ Click on **OK**
++ Haz clic en **OK**
 
 ![Texto de software recomendado con Scratch 3 seleccionado.](images/recommended-software-scratch-3.png)
 
@@ -49,7 +49,7 @@ Cuando utilices Scratch con esta guía o uno de nuestros proyectos, deberás cam
 title: Cambiar entre las pestañas del navegador
 ---
 
-Click on (or on a tablet, tap) the title of a browser tab to switch between the Scratch editor and project instructions.
+Haz clic en (o en una tableta, toca) el título de una pestaña del navegador para cambiar entre el editor de Scratch y las instrucciones del proyecto.
 
 ![Un navegador con dos pestañas.](images/two-tabs.png)
 
@@ -64,7 +64,7 @@ Si tu pantalla es lo suficientemente grande, puedes ver Scratch junto a las inst
 
 ![Instrucciones y Scratch juntos.](images/side-by-side.png)
 
-If you are using Microsoft Windows 10, drag the Scratch tab in your web browser so that it is in a separate window, and keep dragging until the cursor reaches the right-hand edge of your screen. De esta manera la ventana se colocará en el lado derecho de la pantalla.
+Si estás utilizando Microsoft Windows 10, arrastra la pestaña Scratch en tu navegador web para que esté en una ventana separada, y sigue arrastrando hasta que el cursor llegue al borde derecho de tu pantalla. De esta manera la ventana se colocará en el lado derecho de la pantalla.
 
 Ahora, arrastra la ventana que contiene esta guía o las instrucciones de tu proyecto hacia el lado izquierdo de tu pantalla hasta que el cursor llegue al borde izquierdo. La ventana ocupará la mitad izquierda de tu pantalla.
 
@@ -74,7 +74,7 @@ Puedes cambiar el tamaño de las ventanas para dejarlas de la manera que desees.
 
 --- /collapse ---
 
-Try it now and see how you prefer to work.
+Pruébalo ahora para saber cómo prefieres trabajar.
 
 --- /task ---
 
