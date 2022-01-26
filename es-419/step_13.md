@@ -19,9 +19,9 @@ title: Renombrar variable
 
 A veces piensas en un nombre mejor para una variable.
 
-You can give a variable a new name: go to the `Variables`{:class="block3variables"} blocks menu, right-click (or on a tablet, tap and hold) on the `variable`{:class="block3variables"}, and choose **Rename variable**.
+Puedes darle un nombre nuevo a una variable: ve al menú de bloques `Variables`{:class="block3variables"}, haga clic con el botón derecho (o en una tableta, toca y mantén presionado) en la `variable`{:class="block3variables"} y elige **Renombrar variable**.
 
-![Selecting 'Rename variable' in the menu.](images/rename-variable.png)
+![Seleccionar 'Renombrar variable' en el menú.](images/rename-variable.png)
 
 Esto cambiará el nombre de la variable en todos los bloques en los que la hayas usado.
 
@@ -57,13 +57,13 @@ Aquí se muestran algunos ejemplos de cómo puedes utilizar tu variable deslizad
 
 Este ejemplo cambia el efecto gráfico `desvanecer`{:class="block3looks"} para que puedas ver a través del arco iris.
 
-**Transparent rainbow**: [See inside](https://scratch.mit.edu/projects/451544795/editor){:target="_blank"}
+**Arco iris transparente**: [Ver dentro](https://scratch.mit.edu/projects/451544795/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451544795/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can use a `transparent`{:class="block3variables"} variable to control the `ghost`{:class="block3looks"} effect on a sprite at the `front`{:class="block3looks"}, and use it to reveal or hide sprites in lower layers.
+Puedes usar una variable `transparente`{:class="block3variables"} para controlar el efecto `desvanecer`{:class="block3looks"} en un objeto que está `frente`{:class="block3looks"}, y usarlo para mostrar u ocultar objetos en capas inferiores.
 
 ```blocks3
 when flag clicked
@@ -85,7 +85,7 @@ Intenta utilizar el mismo procedimiento con otros efectos gráficos como `brillo
 title: Controlar la velocidad de movimiento con una variable
 ---
 
-**Ladybug on a wall**: [See inside](https://scratch.mit.edu/projects/451545341/editor){:target="_blank"}
+**Mariquita en una pared**: [Ver dentro](https://scratch.mit.edu/projects/451545341/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451545341/?autostart=false" frameborder="0"></iframe>
@@ -108,7 +108,7 @@ Fija los valores mínimos y máximos para el rango del deslizador para adaptarlo
 title: Controlar la velocidad de giro con una variable
 ---
 
-**Space dog**: [See inside](https://scratch.mit.edu/projects/451543041/editor){:target="_blank"}
+**Perro espacial**: [Ver dentro](https://scratch.mit.edu/projects/451543041/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451543041/?autostart=false" frameborder="0"></iframe>
@@ -129,13 +129,13 @@ turn right (angle) degrees
 title: Cambiar el retraso en un bloque de espera
 ---
 
-**Skeleton dance**: [See inside](https://scratch.mit.edu/projects/451536565/editor){:target="_blank"}
+**Baile esquelético**: [Ver dentro](https://scratch.mit.edu/projects/451536565/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451536565/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Use a `delay`{:class="block3variables"} variable as the input to a `wait`{:class="block3control"} block:
+Utiliza una variable `retrasar`{:class="block3variables"} como entrada a un bloque `esperar`{:class="block3control"}:
 
 ```blocks3
 when flag clicked
@@ -148,7 +148,7 @@ Un retraso de más de un segundo es bastante tiempo. Si incluyes un número deci
 
 Un rango de `0,00` a `1,00` te permite elegir una demora entre `0` segundos (sin demora) y `1` segundo.
 
-![Changing the slider range to 0.00 to 1.00.](images/decimal-delay.png)
+![Cambiar el rango del deslizador de 0.00 a 1.00.](images/decimal-delay.png)
 
 Cambia los números para obtener los valores mínimos y máximos que quieres que los usuarios puedan usar en tu proyecto.
 
@@ -159,7 +159,7 @@ Cambia los números para obtener los valores mínimos y máximos que quieres que
 título: Cambiar efectos de sonido
 ---
 
-**Drum pitch**: [See inside](https://scratch.mit.edu/projects/451547017/editor){:target="_blank"}
+**Tono de batería**: [Ver dentro](https://scratch.mit.edu/projects/451547017/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451547017/?autostart=false" frameborder="0"></iframe>
@@ -173,7 +173,7 @@ forever
 set [pitch v] effect to (beat) :: sound
 ```
 
-Play the sound in a separate `forever`{:class="block3control"} loop, so that the pitch will change immediately, rather than waiting until the sound has finished playing:
+Reproduce el sonido en un ciclo separado `por siempre`{:class="block3control"}, de modo que el tono cambie inmediatamente, en lugar de esperar hasta que el sonido haya terminado de reproducirse:
 
 ```blocks3
 when flag clicked
