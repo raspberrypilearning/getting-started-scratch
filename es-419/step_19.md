@@ -14,7 +14,7 @@ Duplicar o copiar código puede ahorrarte tiempo al realizar un proyecto.
 title: Duplicar bloques
 ---
 
-Duplicate blocks or sets of blocks to reuse in a sprite's program:
+Duplica bloques o conjuntos de bloques para reutilizar en un programa de objetos:
 
 * Ve a la pestaña **Código**.
 * Haz clic con el botón derecho (o en una tableta, toca y mantén presionado) en el primer bloque que desees copiar. También seleccionará todos los bloques debajo de él.
@@ -35,7 +35,7 @@ title: Copiar el código de un objeto
 
 En la esquina inferior derecha de la lista de Objetos, haz clic en **Elegir un Objeto** y selecciona el objeto que deseas agregar.
 
-Haz clic en el primer objeto y ve a su pestaña **Código**. Drag the code that is in the first sprite's Code area to the image of the second sprite in the Sprite list, then let go of the code to finish copying it to the second sprite. Puedes tener un script que comienza con un bloque `al presionar la bandera verde `{:class="block3events"}, así como otro script que comienza con `al hacer clic en este objeto`{:class="block3events"}. Asegúrate de copiar **todos** los scripts de código que has creado.
+Haz clic en el primer objeto y ve a su pestaña **Código**. Arrastra el código que está en el área de Código del primer objeto a la imagen del segundo objeto en la lista de Objetos, luego suelta el código para terminar de copiarlo al segundo objeto. Puedes tener un script que comienza con un bloque `al presionar la bandera verde `{:class="block3events"}, así como otro script que comienza con `al hacer clic en este objeto`{:class="block3events"}. Asegúrate de copiar **todos** los scripts de código que has creado.
 
 ![Copiando código a otro objeto.](images/challenge1-sprite-list.gif){:width="300px"}
 
@@ -56,7 +56,7 @@ title: Mejores prácticas para proyectos Scratch
 
 - Nombra todos los objetos, disfraces, sonidos, variables y mensajes con sentido. Es mucho más fácil entender los proyectos que utilizan nombres útiles.
 - Completa la Página del Proyecto con un buen título, instrucciones y notas para que los usuarios sepan cómo usar tu proyecto y de dónde obtuviste las ideas.
-- Add short comments that explain what your code is doing.
-- Asegúrate de que tus scripts estén ordenados en la pestaña **Código**. You can right-click and choose **Clean up Blocks** or arrange the scripts in a way that makes sense to you. Try and put similar scripts together.
+- Agrega comentarios cortos que expliquen lo que está haciendo tu código.
+- Asegúrate de que tus scripts estén ordenados en la pestaña **Código**. Puedes hacer clic con el botón derecho y elegir **Eliminar bloque** u ordenar los scripts de la forma que tenga sentido para ti. Intenta poner juntos los scripts similares.
 
 --- /collapse ---
