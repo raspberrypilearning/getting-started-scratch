@@ -1,14 +1,14 @@
-Click on 90 and drag the arrow to change
+Clique em 90 e mova a seta para mudar o valor
 
-or all-around or none
+ou rotação completa ou não rotacionar
 
-hide speech after 2 seconds
+esconde a fala após 2 segundos
 
-run blocks when the green flag above the Stage is clicked
+executa os blocos quando a bandeira verde acima do Palco é clicada
 
-run the blocks when the sprite for this script is clicked
+executa os blocos quando o personagem dessa animação é clicado
 
-run the blocks when the stage is clicked
+executa os blocos quando o palco for clicado
 
 change to number, letter or arrow keys
 
