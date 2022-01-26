@@ -1,0 +1,32 @@
+---
+title: Premiers pas avec Scratch
+hero_image: images/ScratchGuide_Banner.png
+description: Découvre Scratch et développe tes compétences pour utiliser Scratch de manière autonome
+version: 4
+listed: false
+copyedit: false
+last_tested: '2020-11-28'
+steps:
+  - title: Introduction
+    completion: engagé
+  - title: Installer Scratch
+  - title: Créer un compte Scratch
+  - title: L'éditeur Scratch
+  - title: Ton premier projet Scratch
+  - title: Mouvement
+  - title: Apparence
+  - title: Effets sonores
+  - title: Événements
+  - title: Contrôle
+  - title: Capteurs
+  - title: Opérateurs
+  - title: Variables
+  - title: Mes blocs
+  - title: Extensions
+  - title: Éditeur graphique
+  - title: Éditeur de son
+  - title: Déboguer
+  - title: Conseils d'édition
+  - title: Partager et commenter
+    completion: interne
+  - title: Nos projets Scratch
