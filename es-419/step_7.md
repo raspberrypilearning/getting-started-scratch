@@ -2,7 +2,7 @@
 
 Los bloques `Apariencia`{:class="block3looks"} controlan el aspecto de un objeto en el Escenario.
 
-Sprites can communicate using `Looks`{:class="block3looks"}, through a `say`{:class="block3looks"} speech bubble, a `think`{:class="block3looks"} thought bubble, or through their `graphic effects`{:class="block3looks"}.
+Los objetos pueden comunicarse usando `Apariencia`{:class="block3looks"}, a través de un cuadro de diálogo `decir`{:class="block3looks"}, una nube de pensamiento `pensar`{:class="block3looks"}, o a través de sus `efectos gráficos`{:class="block3looks"}.
 
 ### Decir y pensar
 
@@ -18,10 +18,10 @@ think ()
 
 --- collapse ---
 ---
-title: Use a speech bubble to communicate
+title: Usar un cuadro de diálogo para comunicarse
 ---
 
-Sprites can `say`{:class="block3looks"} and `think`{:class="block3looks"} to communicate.
+Los dibujos pueden `decir`{:class="block3looks"} y `pensar`{:class="block3looks"} para comunicarse.
 
 Los bloques `decir () durante () segundos`{:class="block3looks"} y `pensar () durante () segundos`{:class="block3looks"} se utilizan para decir o pensar algo durante un período de tiempo determinado.
 
@@ -32,9 +32,9 @@ say [Hello!] for [2] seconds // hide speech after 2 seconds
 
 El objeto mostrará un cuadro de diálogo durante dos segundos cuando se pulse.
 
-**Space talk**: [See inside](https://scratch.mit.edu/projects/485673032/editor){:target="_blank"}
+**Conversación en el espacio**: [Ver dentro](https://scratch.mit.edu/projects/485673032/editor){:target="_blank"}
 
-Click on the sprites to see them communicate with speech and thought.
+Haz clic en los objetos para verlos comunicarse con habla y pensamiento.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/485673032/?autostart=false" frameborder="0"></iframe>
@@ -117,7 +117,7 @@ siguiente disfraz
 title: Cambiar la apariencia para crear un efecto de animación
 ---
 
-**Beating heart**: [See inside](https://scratch.mit.edu/projects/435725413/editor){:target="_blank"}
+**Corazón latiendo**: [Ver dentro](https://scratch.mit.edu/projects/435725413/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435725413/?autostart=false" frameborder="0"></iframe>
@@ -144,7 +144,7 @@ end
 
 Este código usa una serie de bloques `cambiar tamaño en`{:class="block3looks"} y `esperar`{:class="block3control"} para hacer que el corazón crezca y se encoja. Intenta crear tu propio objeto pulsante.
 
-You could also use the `change graphic effect by`{:class="block3looks"} block to create a sprite that continues to change its appearance.
+También puedes usar el bloque `cambiar el efecto gráfico en`{:class="block3looks"} para crear un objeto que continúa cambiando su apariencia.
 
 ```blocks3
 when green flag clicked
@@ -153,9 +153,9 @@ wait (1) seconds
 change [ghost v] effect by (-75)
 ```
 
-**Note:** If you use code that changes a graphic effect and then changes it back again, remember to use a `wait`{:class="block3control"} block in between the `change graphic effect by`{:class="block3looks"} blocks, otherwise, it will happen so fast that you won't see it!
+**Nota:** Si usas código que cambia un efecto gráfico y luego lo vuelve a poner, recuerda usar un bloque `esperar`{:class="block3control"} entre los bloques `cambiar el efecto gráfico en`{:class="block3looks"}, de lo contrario, sucederá tan rápido que no lo verás!
 
-You can use a `clear graphic effects`{:class="block3looks"} block at any time to reset the effects:
+Puedes utilizar un bloque `quitar efectos gráficos`{:class="block3looks"} en cualquier momento para restablecer los efectos:
 
 ```blocks3
 clear graphic effects
@@ -165,12 +165,12 @@ clear graphic effects
 
 --- collapse ---
 ---
-title: Click to change and then change back
+title: Haz clic para cambiar y después cambiar de nuevo
 ---
 
 Puedes agregar acciones que realicen un cambio en un objeto y luego revertirlas, como crecer, esperar y luego reducir.
 
-**Squash ball when clicked**: [See inside](https://scratch.mit.edu/projects/435723273/editor){:target="_blank"}
+**Pelota de squash al hacer clic**: [Ver dentro](https://scratch.mit.edu/projects/435723273/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/435723273/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -234,7 +234,7 @@ go [forward v] () layers
 title: Posicionar objetos en muchas capas
 ---
 
-**Through the window with tree**: [See inside](https://scratch.mit.edu/projects/454188775/editor){:target="_blank"}
+**A través de la ventana con árbol**: [Ver dentro](https://scratch.mit.edu/projects/454188775/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/454188775/?autostart=false" frameborder="0"></iframe>
