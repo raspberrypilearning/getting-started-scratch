@@ -1,6 +1,6 @@
 ## Eventos
 
-Blocks in the `Events`{:class="block3events"} menu control when scripts are started.
+Los bloques en el menú `Eventos`{:class="block3events"} controlan cuando se inician los scripts.
 
 **Bloques de sombrero** ejecutan los bloques debajo de ellos cuando ocurre un evento en particular. Están redondeados en la parte superior, como un sombrero, por lo que ningún bloque puede estar por encima de ellos.
 
@@ -18,7 +18,7 @@ when stage clicked // run the blocks when the stage is clicked
 
 **Consejo:** El bloque `cuando se hace clic en el escenario`{:class="block3events"} solo está disponible cuando se trabaja en el área de Código del escenario.
 
-If you are on a computer with a keyboard, you can use `when key pressed`{:class="block3events"}:
+Si estás usando una computadora con un teclado, puedes utilizar `al presionar tecla`{:class="block3events"}:
 
 ```blocks3
 when [space v] key pressed // change to number, letter or arrow keys
@@ -42,7 +42,7 @@ when [timer v] > (10) // run blocks when the timer reaches 10 seconds
 [[[scratch3-time-delay]]]
 
 
-The last two blocks in the `Events`{:class="block3events"} menu are `broadcast`{:class="block3events"} blocks. You can use `when i receive (message v)`{:class="block3events"} to start a script when any sprite runs a matching `broadcast (message v)`{:class="block3events"} block.
+Los dos últimos bloques del menú `Eventos`{:class="block3events"} son bloques `enviar`{:class="block3events"}. Puedes usar `al recibir (mensaje v)`{:class="block3events"} para iniciar un script cuando cualquier objeto ejecute un bloque igual `enviar (mensaje v)`{:class="block3events"}.
 
 [[[generic-scratch3-broadcast-message]]]
 
