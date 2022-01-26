@@ -8,7 +8,7 @@ Cuando creas un nuevo proyecto de Scratch, éste incluye un objeto **gato**.
 
 Arrastra bloques del menú Bloques al área de Código para que el gato haga algo.
 
-To try an example, drag a `move`{:class="block3motion"} block from the `Motion`{:class="block3motion"} blocks menu. Los bloques están codificados por colores para ayudarte a encontrarlos.
+Para probar un ejemplo, arrastra un bloque `mover`{:class="block3motion"} del menú de bloques `Movimiento`{:class="block3motion"}. Los bloques están codificados por colores para ayudarte a encontrarlos.
 
 ![Un bloque 'mover' en el área de Código.](images/move-block.png)
 
@@ -16,7 +16,7 @@ Puedes hacer clic en los bloques en el área de Código para ejecutarlos. Haz cl
 
 **Consejo:** Si estás utilizando Scratch en una tableta, puedes tocar un elemento para hacer clic en él.
 
-**Bloques de Sombrero** ejecutan los bloques debajo de ellos cuando ocurre un evento en particular. The `when green flag clicked`{:class="block3events"} block runs code when you click on the green flag above the Stage to run your project.
+**Bloques de Sombrero** ejecutan los bloques debajo de ellos cuando ocurre un evento en particular. El bloque `al presionar la bandera verde`{:class="block3events"} ejecuta código cuando se hace clic en la bandera verde encima del Escenario para ejecutar tu proyecto.
 
 Arrastra un bloque `al presionar la bandera verde`{:class="block3events"} por encima del bloque `mover`{:class="block3motion"} para que encajen.
 
@@ -60,12 +60,12 @@ Puedes buscar un objeto o navegar por categoría o tema. Haz clic en un objeto p
 
 --- collapse ---
 ---
-title: Choose a backdrop
+title: Elige un fondo
 ---
 
-In the bottom right-hand corner of the Stage pane, click on **Choose a Backdrop**.
+En la esquina inferior derecha del panel Escenario, haz clic en **Elige un fondo**.
 
-![The 'Choose a Backdrop' icon.](images/stage-choose.png)
+![El icono "Elige un fondo".](images/stage-choose.png)
 
 Puedes buscar un fondo o navegar por categoría o tema. Haz clic en un fondo para agregarlo a tu proyecto.
 
@@ -98,6 +98,6 @@ Si compartes tu proyecto, otras personas también verán este nombre, así que a
 
 Ahora estás listo para aprender Scratch. Te recomendamos que comiences con nuestros tutoriales [Scratch: Módulo 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} y/ó [Cuídate](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"}, que están diseñados para principiantes.
 
- You can return to this guide if you need help using Scratch when you are working on our pathway projects or on your own independent projects. 
+ Puedes volver a esta guía si necesitas ayuda para usar Scratch cuando estés trabajando en nuestros proyectos de ruta o en tus propios proyectos independientes. 
 
 
