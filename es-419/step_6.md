@@ -2,7 +2,7 @@
 
 Los bloques `Movimiento`{:class="block3motion"} te permiten mover tu objeto por el Escenario.
 
-### Movement
+### Mover
 
 El bloque `mover`{:class="block3motion"} es la forma más sencilla de empezar a mover un objeto:
 
@@ -10,7 +10,7 @@ El bloque `mover`{:class="block3motion"} es la forma más sencilla de empezar a 
 move [10] steps
 ```
 
-You can `go to`{:class="block3motion"} or `glide to`{:class="block3motion"} the mouse-pointer, a random position on the Stage (or your finger on a tablet), or another sprite:
+Puedes `ir a`{:class="block3motion"} o `desplazar en`{:class="block3motion"} puntero del ratón, posición aleatoria en el Escenario (o tu dedo en una tableta), u otro objeto:
 
 ```blocks3
 go to (random position v)
@@ -18,7 +18,7 @@ go to (random position v)
 glide [1] secs to (random position v)
 ```
 
-You can also `go to`{:class="block3motion"} or `glide to`{:class="block3motion"} a position given by `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates on the Stage.
+También puedes `ir a`{:class="block3motion"} o `desplazar en`{:class="block3motion"} una posición dada por las coordenadas `x`{:class="block3motion"} e `y`{:class="block3motion"} en el Escenario.
 
 ```blocks3
 go to x: [0] y: [0] 
@@ -31,7 +31,7 @@ glide [1] secs to x: [0] y: [0]
 **Consejo:** Cuando arrastras un objeto en el Escenario, los bloques de movimiento que usan las coordenadas `x`{:class="block3motion"} e `y`{:class="block3motion"} se actualizarán en el menú de bloques `Movimiento`{:class="block3motion"}. Las coordenadas `x`{:class="block3motion"} e `y`{:class="block3motion"} actuales se muestran en el panel Objetos.
 
 ### Rotación
-También puedes cambiar la `dirección`{:class="block3motion"} a la que apunta un objeto. Esto cambia la dirección en la que se moverá el objeto si usas un bloque `mover`{:class="block3motion"}. It may also change the rotation of the sprite's costume depending on the `rotation-style`{:class="block3motion"} setting.
+También puedes cambiar la `dirección`{:class="block3motion"} a la que apunta un objeto. Esto cambia la dirección en la que se moverá el objeto si usas un bloque `mover`{:class="block3motion"}. También puede cambiar la rotación del disfraz del objeto dependiendo de la configuración del `estilo de rotación`{:class="block3motion"}.
 
 Cuando agregues un objeto, estará orientado hacia la derecha (90 grados). Puedes cambias ésto en el panel Objetos o usando bloques de código.
 
@@ -55,12 +55,12 @@ set rotation style [left-right v] // or all-around or none
 
 --- collapse ---
 ---
-title: Spin around
+title: Girar
 ---
 
 --- no-print ---
 
-**Spinning bat**: [See inside](https://scratch.mit.edu/projects/435704980/editor){:target="_blank"}
+**Murciélago giratorio**: [Ver dentro](https://scratch.mit.edu/projects/435704980/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/435704980/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -68,7 +68,7 @@ title: Spin around
 
 --- /no-print ---
 
-This code makes a sprite spin when the green flag is clicked:
+Este código hace girar un objeto al presionar la bandera verde:
 
 ```blocks3
 when flag clicked
@@ -76,7 +76,7 @@ forever
 turn right (1) degrees :: motion
 ```
 
-In a `turn`{:class="block3motion"} block within a `forever`{:class="block3control"} loop, change the number of degrees to `1` and your sprite will appear to spin.
+En un bloque `girar`{:class="block3motion"} dentro de un bucle `por siempre`{:class="block3control"}, cambia el número de grados a `1` y tu objeto parecerá girar.
 
 **Consejo:** Si no agregas un bloque `mover`{:class="block3motion"}, tu objeto girará en la posición en la que se encuentra.
 
@@ -89,7 +89,7 @@ title: Moverse en un círculo
 
 --- no-print ---
 
-**Moon orbit**: [See inside](https://scratch.mit.edu/projects/435701055/editor){:target="_blank"}
+**Órbita Lunar**: [Ver dentro](https://scratch.mit.edu/projects/435701055/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/435701055/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -97,7 +97,7 @@ title: Moverse en un círculo
 
 --- /no-print ---
 
-This code makes a sprite fly in a circle when the green flag is clicked:
+Este código hace volar un objeto en círculo cuando al presionar la bandera verde:
 
 ```blocks3
 when green flag clicked
@@ -106,7 +106,7 @@ move (1) steps
 turn right (1) degrees :: motion
 ```
 
-Change the values in a `move`{:class="block3motion"} block and `turn`{:class="block3motion"} block within a `forever`{:class="block3control"} loop to `1` and your sprite will appear to move in a big circle.
+Cambia los valores en un bloque `mover`{:class="block3motion"} y bloque `girar`{:class="block3motion"} dentro de un bucle `por siempre`{:class="block3control"} a `1` y tu objeto parecerá moverse en un gran círculo.
 
 **Consejo:** Si quieres que tu objeto siempre comience en el centro del Escenario, puedes agregar un bloque `ir a x:`{:class="block3motion"}`0` `y:`{:class="block3motion"} `0` antes del bloque `por siempre`{:class="block3control"}.
 
@@ -120,7 +120,7 @@ El bloque `si toca un borde, rebotar`{:class="block3motion"} es realmente útil 
 if on edge, bounce
 ```
 
-See some of the ways in which you can get your sprite to bounce around:
+Mira algunas de las formas en las que puedes hacer que tu objeto rebote:
 
 --- collapse ---
 ---
@@ -129,7 +129,7 @@ title: Rebotar por el Escenario
 
 --- no-print ---
 
-**Girl moving across the Stage**: [See inside](https://scratch.mit.edu/projects/433535326/editor){:target="_blank"}
+**Muchacha moviéndose por el Escenario**: [Ver dentro](https://scratch.mit.edu/projects/433535326/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/433535326/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -137,7 +137,7 @@ title: Rebotar por el Escenario
 
 --- /no-print ---
 
-Este código hace que un objeto rebote en los bordes izquierdo y derecho del Escenario. Because the sprite rotates horizontally, it appears to flip when it changes its direction when the green flag is clicked:
+Este código hace que un objeto rebote en los bordes izquierdo y derecho del Escenario. Debido a que el objeto gira horizontalmente, parece que se voltea cuando cambia de dirección al presionar la bandera verde:
 
 ```blocks3
 when green flag clicked
@@ -163,7 +163,7 @@ title: Rebotar arriba y abajo por el Escenario
 
 --- no-print ---
 
-**Girl jumping**: [See inside](https://scratch.mit.edu/projects/433595822/editor){:target="_blank"}
+**Muchacha saltando**: [Ver dentro](https://scratch.mit.edu/projects/433595822/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/433595822/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -184,7 +184,7 @@ if on edge, bounce
 
 Cambia el número de grados en el bloque `apuntar en dirección`{:class="block3motion"} a `0` para hacer que un objeto apunte hacia arriba.
 
-Add a `set rotation style`{:class="block3motion"} block and select `don't rotate`{:class="block3motion"} in the drop-down menu to stop your sprite rotating, even when it bounces.
+Agrega un bloque `fijar estilo de rotación a`{:class="block3motion"} y selecciona `no rotar`{:class="block3motion"} en el menú desplegable para detener la rotación de tu objeto, incluso cuando rebote.
 
 **Consejo:** Puedes arrastrar tu objeto por el Escenario para moverlo a la posición x (izquierda-derecha) que desees.
 
@@ -192,12 +192,12 @@ Add a `set rotation style`{:class="block3motion"} block and select `don't rotate
 
 --- collapse ---
 ---
-title: Bounce at an angle
+title: Rebotar en un ángulo
 ---
 
 --- no-print ---
 
-**Football bouncing**: [See inside](https://scratch.mit.edu/projects/433536479/editor){:target="_blank"}
+**Pelota de fútbol rebotando**: [Ver dentro](https://scratch.mit.edu/projects/433536479/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/433536479/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
