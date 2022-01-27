@@ -10,7 +10,7 @@ executa os blocos quando o personagem dessa animação é clicado
 
 executa os blocos quando o palco for clicado
 
-change to number, letter or arrow keys
+muda para número, letra ou setas de direção
 
 run blocks when the microphone detects sound
 
