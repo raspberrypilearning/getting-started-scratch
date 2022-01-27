@@ -68,16 +68,16 @@ batimento
 
 mova para a direita
 
-move left
+mova para a esquerda
 
-right_1
+direita_1
 
-right_2
+direita_2
 
-right_3
+direita_3
 
-left_1
+esquerda_1
 
-left_2
+esquerda_2
 
 left_3
