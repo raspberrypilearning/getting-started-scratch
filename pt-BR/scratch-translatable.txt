@@ -20,53 +20,53 @@ atraso de 1 segundo
 
 atraso de um décimo de segundo
 
-executa os blocos de dentro quatro vezes
+executa quatro vezes os blocos posicionados dentro
 
-executa os blocos de dentro até ser parado
+executa os blocos posicionados dentro até ser parado
 
 para todos os scripts em todos os atores
 
 atrasa até que a condição seja verdadeira
 
-repeat the blocks inside until the condtion is true
+repete os blocos posicionados dentro até que a condição seja verdadeira
 
-clones the sprite that runs this block
+cria uma cópia do ator que executa este bloco
 
-clones another sprite in the project
+cria uma cópia de um outro ator no projeto
 
-the script that runs when the clone is created
+o script que é executado quando a cópia é criada
 
-stops the clone's scripts and deletes it
+para e deleta os scripts das cópias
 
-What's your name
+Qual é o seu nome
 
-the text the the user typed
+o texto que o usuário digitou
 
-hour, minute, ...
+hora, minuto, ...
 
-A number from 1 to 10
+Um número entre 1 e 10
 
-talk
+fala
 
-use the provided input
+usa a entrada fornecida
 
-words
+palavras
 
-hello
+olá
 
-hi
+oi
 
-transparent
+transparente
 
-speed
+velocidade
 
-angle
+ângulo
 
-delay
+atraso
 
-beat
+batimento
 
-move right
+mova para a direita
 
 move left
 
