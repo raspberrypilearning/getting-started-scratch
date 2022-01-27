@@ -1,5 +1,5 @@
-## What is Scratch?
-Scratch is a graphical programming language developed by the Lifelong Kindergarten group at the MIT Media Lab. In Scratch, you can drag and combine code blocks to make a range of programs, including animations, stories, musical instruments, and games. It's a bit like the programming equivalent of building blocks!
+## O que é o Scratch?
+Scratch é uma linguagem de programação gráfica desenvolvida pelo grupo Lifelong Kindergarten no Laboratório de Mídia do MIT. No Scratch, você pode arrastar e combinar blocos de código para fazer uma variedade de programas, incluindo animações, histórias, instrumentos musicais e jogos. It's a bit like the programming equivalent of building blocks!
 
 ![A screenshot of Scratch.](images/showcase_static.png)
 
