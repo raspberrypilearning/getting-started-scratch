@@ -12,21 +12,21 @@ executa os blocos quando o palco for clicado
 
 muda para número, letra ou setas de direção
 
-run blocks when the microphone detects sound
+executa blocos quando o microfone detectar som
 
-run blocks when the timer reaches 10 seconds
+executa blocos quando o cronômetro chegar a 10 segundos
 
-delay for 1 second
+atraso de 1 segundo
 
-delay for one tenth of a second
+atraso de um décimo de segundo
 
-run the blocks inside four time
+executa os blocos de dentro quatro vezes
 
-run the blocks inside until stopped
+executa os blocos de dentro até ser parado
 
-stop all scripts in all sprites
+para todos os scripts em todos os atores
 
-delay until the condition is true
+atrasa até que a condição seja verdadeira
 
 repeat the blocks inside until the condtion is true
 
