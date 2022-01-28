@@ -64,23 +64,23 @@ Se sua tela for grande o suficiente, você pode ver o Scratch ao lado das instru
 
 ![Side-by-side instructions and Scratch.](images/side-by-side.png)
 
-If you are using Microsoft Windows 10, drag the Scratch tab in your web browser so that it is in a separate window, and keep dragging until the cursor reaches the right-hand edge of your screen. The window will then be positioned on the right-hand side of the screen.
+Se você estiver usando o Windows 10, arraste a aba do Scratch do seu navegador para que fique em uma janela separada e continue arrastando até que o cursor alcance a borda direita da tela. A janela será então posicionada no lado direito da tela.
 
-Now, drag the window containing this guide or your project instructions to the left-hand side of your screen until the cursor reaches the left-hand edge. The window will take up the left half of your screen.
+Agora, arraste a janela que contém este guia ou as instruções do projeto para o lado esquerdo da tela até que o cursor alcance a borda esquerda. A janela ocupará a metade esquerda da tela.
 
-You can resize the windows to get them just the way you want.
+Você pode redimensionar as janelas para deixá-las do jeito que você quiser.
 
-**Tip:** You can also hold down the <kbd>Windows</kbd> key and press the <kbd>Left</kbd> arrow key or <kbd>Right</kbd> arrow key to position a window in the left or right half of your screen.
+**Dica:** Você também pode manter a tecla <kbd>Windows</kbd> pressionada e apertar as setas <kbd>esquerda</kbd> ou <kbd>direita</kbd> para posicionar uma janela na metade esquerda ou direita da tela.
 
 --- /collapse ---
 
-Try it now and see how you prefer to work.
+Tente e veja como você prefere.
 
 --- /task ---
 
 --- task ---
 
-When you are using Scratch in a web browser, you can zoom in or out to adjust the size.
+Ao usar o Scratch em um navegador, você pode aumentar ou diminuir o zoom para ajustar o tamanho.
 
 For example, if you are using Microsoft Windows and you want to use zoom on a webpage in Google Chrome or Microsoft Edge, hold down the <kbd>Ctrl</kbd> key and press the <kbd>+</kbd> key or <kbd>-</kbd> key to zoom in or out.
 
