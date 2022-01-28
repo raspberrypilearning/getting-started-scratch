@@ -32,7 +32,7 @@ Se você precisar instalar o Scratch, siga este processo:
 + Selecione **Scratch 3**
 + Clique em **OK**
 
-![Recommended software dialogue with Scratch 3 selected.](images/recommended-software-scratch-3.png)
+![Software recomendado com Scratch 3 selecionado.](images/recommended-software-scratch-3.png)
 
 Veja [Scratch 3 Desktop para Raspberry Pi](https://www.raspberrypi.org/blog/scratch-3-desktop-for-raspbian-on-raspberry-pi/) para obter mais informações.
 
@@ -51,7 +51,7 @@ título: Alternar entre as abas do navegador
 
 Clique (ou toque, se estiver usando um tablet) no título de uma aba do navegador para alternar entre o editor Scratch e as instruções do projeto.
 
-![A browser with two tabs.](images/two-tabs.png)
+![Um navegador com duas abas.](images/two-tabs.png)
 
 --- /collapse ---
 
@@ -62,7 +62,7 @@ título: Instruções lado a lado e Scratch
 
 Se sua tela for grande o suficiente, você pode ver o Scratch ao lado das instruções do projeto.
 
-![Side-by-side instructions and Scratch.](images/side-by-side.png)
+![Instruções lado a lado e Scratch.](images/side-by-side.png)
 
 Se você estiver usando o Windows 10, arraste a aba do Scratch do seu navegador para que fique em uma janela separada e continue arrastando até que o cursor alcance a borda direita da tela. A janela será então posicionada no lado direito da tela.
 
@@ -82,16 +82,16 @@ Tente e veja como você prefere.
 
 Ao usar o Scratch em um navegador, você pode aumentar ou diminuir o zoom para ajustar o tamanho.
 
-For example, if you are using Microsoft Windows and you want to use zoom on a webpage in Google Chrome or Microsoft Edge, hold down the <kbd>Ctrl</kbd> key and press the <kbd>+</kbd> key or <kbd>-</kbd> key to zoom in or out.
+Por exemplo, se você estiver usando o Windows e quiser usar o zoom em uma página da web no Google Chrome ou Microsoft Edge, mantenha pressionada a tecla <kbd>Ctrl</kbd> e pressione a tecla <kbd>+</kbd> ou a tecla<kbd>-</kbd> para aumentar ou diminuir o zoom.
 
 --- collapse ---
 ---
-title: Use zoom in the Code area
+título: Use o zoom na área de código
 ---
 
-You can also use the zoom controls in the Code area in Scratch to change the size of the code blocks in the Code area.
+Você também pode usar os controles de zoom na categoria Código do Scratch para alterar o tamanho dos blocos de código na aba Código.
 
-![The zoom controls in the Code area.](images/zoom-code-area.png)
+![Os controles de zoom na área Código.](images/zoom-code-area.png)
 
 --- /collapse ---
 
