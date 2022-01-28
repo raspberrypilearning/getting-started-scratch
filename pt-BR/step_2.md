@@ -1,40 +1,40 @@
-## Set up Scratch
-You can use Scratch on a laptop or desktop computer, or on a tablet. You can also use Scratch on a Raspberry Pi computer.
+## Configurar o Scratch
+Você pode usar o Scratch em um laptop ou computador, ou em um tablet. Você também pode usar o Scratch em um computador Raspberry Pi.
 
 --- task ---
 
-Open a web browser on your computer or tablet and visit [rpf.io/scratch-new](https://rpf.io/scratch-new){:target="_blank"} to open a new project in the Scratch editor. Scratch will open in a new tab in your web browser.
+Abra um navegador da web em seu computador ou tablet e visite [rpf.io/scratch-new](https://rpf.io/scratch-new){:target="_blank"} para abrir um novo projeto no editor Scratch. O Scratch será aberto em uma nova aba no seu navegador da web.
 
-**Tip:** You can also visit [scratch.mit.edu](https://scratch.mit.edu/){:target="_blank"} and then click on **Create**.
+**Dica:** Você também pode visitar [scratch.mit.edu](https://scratch.mit.edu/){:target="_blank"} e então clicar em **Criar**.
 
 --- collapse ---
 ---
-title: Working offline without an internet connection
+título: Trabalhar off-line sem conexão com a Internet
 ---
 
-If you need to work offline (without an internet connection), then you can [download Scratch](https://scratch.mit.edu/download){:target="_blank"} and install it on a computer.
+Se precisar trabalhar offline (sem uma conexão com a Internet), você pode [baixar o Scratch](https://scratch.mit.edu/download){:target="_blank"} e instalá-lo em um computador.
 
-You cannot work offline if you are using a tablet.
+Você não pode trabalhar offline se estiver usando um tablet.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Scratch on Raspberry Pi
+título: Scratch em um Raspberry Pi
 ---
 
-If you are using a Raspberry Pi computer, Scratch may already be installed. Click on the **Raspberry Pi** icon to open the menu, then click on **Programming**, then select **Scratch 3**.
+Se você estiver usando um computador Raspberry Pi, o Scratch pode já ter vindo instalado. Clique no ícone **Raspberry Pi** para abrir o menu, em seguida clique em **Programação**, e selecione **Scratch 3**.
 
-If you need to install Scratch, follow this process:
-+ Click on the Raspberry Pi icon to open the menu
-+ Click on **Preferences**
-+ Click on **Recommended Software**
-+ Select **Scratch 3**
-+ Click on **OK**
+Se você precisar instalar o Scratch, siga este processo:
++ Clique no ícone do Raspberry Pi para abrir o menu
++ Clique em **Preferências**
++ Clique em **Programas Recomendados**
++ Selecione **Scratch 3**
++ Clique em **OK**
 
 ![Recommended software dialogue with Scratch 3 selected.](images/recommended-software-scratch-3.png)
 
-See [Scratch 3 Desktop for Raspberry Pi](https://www.raspberrypi.org/blog/scratch-3-desktop-for-raspbian-on-raspberry-pi/) for more information.
+Veja [Scratch 3 Desktop para Raspberry Pi](https://www.raspberrypi.org/blog/scratch-3-desktop-for-raspbian-on-raspberry-pi/) para obter mais informações.
 
 --- /collapse ---
 
@@ -42,14 +42,14 @@ See [Scratch 3 Desktop for Raspberry Pi](https://www.raspberrypi.org/blog/scratc
 
 --- task ---
 
-When you use Scratch with this guide or one of our projects, you will need to switch between Scratch and the project instructions.
+Ao usar o Scratch com este guia ou um de nossos projetos, você precisará alternar entre o Scratch e as instruções do projeto.
 
 --- collapse ---
 ---
-title: Switch between browser tabs
+título: Alternar entre as abas do navegador
 ---
 
-Click on (or on a tablet, tap) the title of a browser tab to switch between the Scratch editor and project instructions.
+Clique (ou toque, se estiver usando um tablet) no título de uma aba do navegador para alternar entre o editor Scratch e as instruções do projeto.
 
 ![A browser with two tabs.](images/two-tabs.png)
 
@@ -57,10 +57,10 @@ Click on (or on a tablet, tap) the title of a browser tab to switch between the 
 
 --- collapse ---
 ---
-title: Side-by-side instructions and Scratch
+título: Instruções lado a lado e Scratch
 ---
 
-If your screen is big enough, you can view Scratch next to the project instructions.
+Se sua tela for grande o suficiente, você pode ver o Scratch ao lado das instruções do projeto.
 
 ![Side-by-side instructions and Scratch.](images/side-by-side.png)
 
