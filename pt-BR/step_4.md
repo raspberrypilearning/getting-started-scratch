@@ -1,6 +1,6 @@
 ## O editor Scratch
 
-![An annotated screenshot of the Scratch editor.](images/scratch-interface.png)
+![Um screenshot com anotações do editor Scratch.](images/scratch-interface.png)
 
 O **Palco** é onde a ação ocorre em seu projeto. O Palco tem uma ou mais imagens de fundo chamadas **Cenários**.
 
