@@ -18,7 +18,7 @@ Tu peux cliquer sur les blocs dans la zone Code pour les exécuter. Clique sur l
 
 Les **blocs en forme de chapeau** exécutent les blocs situés au dessous d'eux lorsqu'un événement particulier se produit. Le bloc `quand le drapeau vert est cliqué`{:class="block3events"} exécute le code lorsque tu cliques sur le drapeau vert au-dessus de la scène pour exécuter ton projet.
 
-Fais glisser un bloc `quand le drapeau vert est cliqué` de la catégorie `Événements`{:class="block3events"} vers la zone Code, afin qu'ils s'emboîtent ensemble.
+Fais glisser un bloc `quand le drapeau vert est cliqué`{:class="block3events"} de la catégorie `Événements`{:class="block3events"} vers la zone Code, afin qu'ils s'emboîtent ensemble.
 
 ![Un bloc 'avance' dans la zone Code.](images/green-flag-script.png)
 
@@ -60,7 +60,7 @@ Tu peux rechercher un sprite ou les parcourir par catégorie ou par thème. Cliq
 
 --- collapse ---
 ---
-title: Choisir un arrière-plan
+title: Choisir un arrière-plan
 ---
 
 Dans le coin inférieur droit du volet Scène, clique sur **Choisir un arrière-plan**.
