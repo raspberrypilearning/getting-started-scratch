@@ -1,20 +1,20 @@
-## Your first Scratch project
+## Seu primeiro projeto Scratch
 
 ![An annotated screenshot of the Scratch editor, with key features labelled.](images/scratch-features.png)
 
 --- task ---
 
-When you create a new Scratch project, it includes a **cat** sprite.
+Quando você cria um novo projeto Scratch, ele inclui um **Gato** como ator.
 
-Drag blocks from the Blocks menu to the Code area to make the cat do something.
+Arraste os blocos do menu Blocos para a área Código para fazer o gato fazer alguma coisa.
 
-To try an example, drag a `move`{:class="block3motion"} block from the `Motion`{:class="block3motion"} blocks menu. The blocks are colour-coded to help you find them.
+Para tentar um exemplo, arraste a bloco `mova`{:class="block3motion"} da categoria `Movimento`{:class="block3motion"}. Os blocos são coloridos para ajudá-lo a encontrá-los.
 
 ![A 'move' block in the Code area.](images/move-block.png)
 
-You can click on blocks in the Code area to run them. Click on the `move`{:class="block3motion"} block and the cat will move.
+Você pode clicar nos blocos na área de Código para executá-los. Clique no bloco `mova`{:class="block3motion"} e o gato se moverá.
 
-**Tip:** If you are using Scratch on a tablet, you can tap an item to click on it.
+**Dica:** Se estiver usando o Scratch em um tablet, você pode tocar em um item para clicar nele.
 
 **Hat blocks** run the blocks below them when a particular event happens. The `when green flag clicked`{:class="block3events"} block runs code when you click on the green flag above the Stage to run your project.
 
