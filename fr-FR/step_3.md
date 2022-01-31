@@ -12,7 +12,7 @@ Si vous êtes un enseignant, vous pouvez configurer des comptes Enseignant et Et
 
 --- collapse ---
 ---
-title: Comptes Scratch Enseignants
+title: Comptes Scratch Enseignants
 ---
 
 Veuillez consulter la [FAQ des comptes Scratch](https://scratch.mit.edu/educators/faq){:target="_blank"} pour plus d'informations sur la configuration d'un compte offrant aux enseignants des fonctionnalités supplémentaires pour gérer la participation des élèves sur Scratch.

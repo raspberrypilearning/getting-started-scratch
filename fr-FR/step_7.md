@@ -165,7 +165,7 @@ clear graphic effects
 
 --- collapse ---
 ---
-title: Cliquer pour modifier puis revenir en arrière
+title: Cliquer pour modifier puis revenir en arrière
 ---
 
 Tu peux ajouter des actions qui modifient un sprite, puis les inverser, telles qu'agrandir, attendre, puis réduire.
