@@ -16,39 +16,39 @@ Você pode clicar nos blocos na área de Código para executá-los. Clique no bl
 
 **Dica:** Se estiver usando o Scratch em um tablet, você pode tocar em um item para clicar nele.
 
-**Hat blocks** run the blocks below them when a particular event happens. The `when green flag clicked`{:class="block3events"} block runs code when you click on the green flag above the Stage to run your project.
+**Blocos Hat** executam o código abaixo deles quando um evento em particular acontece. O bloco `quando a bandeira verde for clicada`{:class="block3events"} executa o código quando você clica na bandeira verde acima do Palco.
 
-Drag a `when green flag clicked`{:class="block3events"} block above the `move`{:class="block3motion"} block so that they snap together.
+Arraste um bloco `quando a bandeira verde for clicada` {:class="block3events"} acima do bloco `mova`para que eles se encaixem.
 
 ![The 'move' block in the Code area.](images/green-flag-script.png)
 
-Your code should look like this:
+Seu código deve ficar assim:
 
 ```blocks3
 when flag clicked
 move (10) steps
 ```
 
-**Tip:** Scratch blocks are colour-coded, so you will find the `when green flag clicked`{:class="block3events"} block in the `Events`{:class="block3events"} blocks menu.
+**Dica:** Os blocos do Scratch são coloridos de acordo com a categoria, assim você vai encontrar o bloco `quando a bandeira verde for clicada`{:class="block3looks"} na categoria `Eventos`{:class="block3looks"}.
 
-Now, click on the green flag above the Stage and the cat will move.
+Agora, clique na bandeira verde acima do Palco e o gato vai se mover.
 
 --- /task ---
 
-You can add more sprites to your project, and you can also add a backdrop.
+Você pode adicionar mais atores ao seu projeto e também pode adicionar um cenário.
 
 --- task ---
 
 --- collapse ---
 ---
-title: Choose a sprite
+título: Escolha um ator
 ---
 
-In the Sprite list, click on **Choose a Sprite** to see the library of all Scratch sprites.
+Na lista de Atores, clique em **Selecione um Ator** para ver a biblioteca com todos os atores do Scratch.
 
 ![The 'Choose a Sprite' icon.](images/sprite-library.png)
 
-You can search for a sprite, or browse by category or theme. Click on a sprite to add it to your project.
+Você pode pesquisar por um stor ou navegar por uma categoria ou tema. Clique no ator para adicioná-lo ao seu projeto.
 
 ![The Sprite Library.](images/sprite-choose.png)
 
@@ -60,7 +60,7 @@ You can search for a sprite, or browse by category or theme. Click on a sprite t
 
 --- collapse ---
 ---
-title: Choose a backdrop
+título: Escolha um cenário
 ---
 
 In the bottom right-hand corner of the Stage pane, click on **Choose a Backdrop**.
