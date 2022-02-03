@@ -63,11 +63,11 @@ Você pode pesquisar por um stor ou navegar por uma categoria ou tema. Clique no
 título: Escolha um cenário
 ---
 
-In the bottom right-hand corner of the Stage pane, click on **Choose a Backdrop**.
+No canto inferior direito no painel do Palco, clique em **Selecionar Cenário**.
 
 ![The 'Choose a Backdrop' icon.](images/stage-choose.png)
 
-You can search for a backdrop, or browse by category or theme. Click on a backdrop to add to your project.
+Você pode pesquisar por um cenário ou navegar por categoria ou tema. Clique no cenário para adicioná-lo ao seu projeto.
 
 ![The Backdrop Library.](images/backdrop.png)
 
@@ -79,10 +79,10 @@ You can search for a backdrop, or browse by category or theme. Click on a backdr
 
 --- collapse ---
 ---
-title: Name and save your project
+título: Nomeie e salve seu projeto
 ---
 
-Go to **File** in the menu. If you have a Scratch account, click on **Save now**. If you do not have an account, click on **Save to your computer**.
+Vá para **Arquivo** no menu. Se você tiver uma conta Scratch, clique em **Salvar agora**. Se você não possui uma conta, clique em **Salvar no seu computador**.
 
 Click in the project name box and change the name to match your project.
 
