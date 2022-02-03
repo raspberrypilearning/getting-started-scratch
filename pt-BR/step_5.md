@@ -84,19 +84,19 @@ título: Nomeie e salve seu projeto
 
 Vá para **Arquivo** no menu. Se você tiver uma conta Scratch, clique em **Salvar agora**. Se você não possui uma conta, clique em **Salvar no seu computador**.
 
-Click in the project name box and change the name to match your project.
+Clique na caixa de nome do projeto e altere o nome para corresponder ao seu projeto.
 
 ![The project name box highlighted.](images/change-project-name.png)
 
-If you share your project, then other people will also see this name, so make sure that it makes sense.
+Se você compartilhar seu projeto, outras pessoas também verão esse nome, então certifique-se de que tenha sentido.
 
 --- /collapse ---
 
 --- /task ---
 
-You have created your first Scratch project!
+Você criou seu primeiro projeto Scratch!
 
-You are now ready to learn Scratch. We recommend that you start with our [Scratch: Module 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} and/or [Look after yourself](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"} pathways, which are designed for beginners.
+Agora você está pronto para aprender sobre o Scratch. Recomendamos que você comece com nosso [Scratch: Módulo 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_ blank"} e/ou a trilha [Cuide de você](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){: target = "_ blank"}, que são projetados para iniciantes.
 
  You can return to this guide if you need help using Scratch when you are working on our pathway projects or on your own independent projects. 
 
