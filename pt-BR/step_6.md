@@ -1,8 +1,8 @@
-## Motion
+## Movimento
 
-`Motion`{:class="block3motion"} blocks allow you to move your sprite around the Stage.
+Os blocos de `Movimento`{:class="block3motion"} permitem que você mova o seu ator pelo Palco.
 
-### Movement
+### Movimento
 
 The `move`{:class="block3motion"} block is the simplest way to ge started with moving a sprite:
 
