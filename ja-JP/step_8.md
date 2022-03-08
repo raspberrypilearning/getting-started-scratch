@@ -1,33 +1,33 @@
-## Sound
+## 音
 
-To add sound to your project, use `Sound`{:class="block3sound"} blocks. For example, you can create a continuous background soundtrack, or add sounds that play at regular intervals.
+プロジェクトにサウンドを追加するには、 `音`{:class="block3sound"}ブロックを使用します。 たとえば、連続したバックグラウンドサウンドトラックを作成したり、一定の間隔で再生されるサウンドを追加したりできます。
 
-![An annotated screenshot of the Sounds tab.](images/Scratch-Sound-tab.png){:width="600px"}
+![音タブの注釈付きスクリーンショット](images/Scratch-Sound-tab.png){:width="600px"}
 
-First, select a sound from the Sound Library, or record your own sound.
+まず、サウンドライブラリからサウンドを選択するか、独自のサウンドを録音します。
 
 [[[scratch3-add-sound]]]
 
 [[[scratch3-record-sound]]]
 
-Add code to run `Sound`{:class="block3sound"} blocks where you want sound in your project.
+プロジェクトでサウンドが必要なところで `音`{:class="block3sound"} ブロックが動作するようにコードを追加します。
 
 --- collapse ---
 ---
-title: Add a long sound to create a continuous soundtrack
+title: 長いサウンドを追加して、連続したサウンドトラックを作成します
 ---
 
-Click on the green flag to hear the sounds.
+緑の旗をクリックするとサウンドを聞くことができます。
 
-**Radio soundtrack**: [See inside](https://scratch.mit.edu/projects/444581851/editor){:target="_blank"}
+**ラジオのサウンドトラック**: [中を見る](https://scratch.mit.edu/projects/444581851/editor){:target="_ blank"}
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/444581851/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can use a `play sound until done`{:class="block3sound"} block inside a `forever`{:class="block3control"} loop. Once the sound has finished, the `forever`{:class="block3control"} loop makes the sound start again from the beginning.
+`ずっと`{:class="block3control"} ループの中で`終わるまで(ニャー)の音を鳴らす`{:class="block3sound"} ブロックを使います。 サウンドが終了すると、 `ずっと`{:class="block3control"}ループにより、サウンドが最初から再開されます。
 
-This code uses a single long sound clip repeated as a soundtrack:
+このコードは、サウンドトラックとして繰り返される一つの長いサウンドクリップを使っています。
 
 ```blocks3
 when green flag clicked
@@ -36,28 +36,28 @@ play sound (Dance Snare Beat v) until done
 end
 ```
 
-**Note:** When you choose a new sound, if you select the **Loops** category, Scratch will only show you the sounds that are suitable for a single looping soundtrack.
+**注: ** 新しいサウンドを選択するときに、 **ループ** カテゴリを選択すると、Scratchは一つでループするサウンドトラックに適したサウンドのみを表示します。
 
-![The 'Loops' category in the Sound Library.](images/loopSounds.png)
+![サウンドライブラリの「ループ」カテゴリ](images/loopSounds.png)
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Add a sequence of short sounds to create a continuous soundtrack
+title: 一連の短いサウンドを追加して、連続したサウンドトラックを作成します
 ---
 
-Click on the green flag to hear the sounds.
+緑の旗をクリックするとサウンドを聞くことができます。
 
-**Champ performance**: [See inside](https://scratch.mit.edu/projects/444673165/editor){:target="_blank"}
+**チャンピオンのパフォーマンス**: [中を見る](https://scratch.mit.edu/projects/444673165/editor){:target="_blank"}
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/444673165/?autostart=false" frameborder="0"></iframe>
 </div>
 
- Use a `forever`{:class="block3control"} block to create a looped sound. You can:
-+ Put a series of short sounds in a sequence, or
-+ Use different instrument notes and effects
+ `ずっと`{:class="block3control"}ブロックを使用して、ループサウンドを作成します。 やり方は以下のとおりです。
++ 一連の短い音を順番に並べる。または、
++ 異なる楽器の音と効果を使う
 
 ```blocks3
 when flag clicked
@@ -76,18 +76,18 @@ End
 
 --- collapse ---
 ---
-title: Add sounds that play at regular intervals
+title: 一定の間隔で再生されるサウンドを追加します
 ---
 
-**Football sounds**: [See inside](https://scratch.mit.edu/projects/450870079/editor){:target="_blank"}
+**サッカーの音**: [中を見る](https://scratch.mit.edu/projects/450870079/editor){:target="_ blank"}
 
-Click on the green flag to hear the sounds.
+緑の旗をクリックするとサウンドを聞くことができます。
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/450870079/?autostart=false" frameborder="0"></iframe>
 </div>
 
- In this project, the **Stage** has code to play a sound at regular intervals:
+ このプロジェクトでは、 **ステージ** に一定の間隔でサウンドを再生するコードがあります。
 
  ```blocks3
  when flag clicked
@@ -97,7 +97,7 @@ Click on the green flag to hear the sounds.
  end
  ```
 
-The **Whistle** sprite also plays a sound at regular intervals:
+**Whistle** スプライトも、一定の間隔でサウンドを再生します。
 
  ```blocks3
  when this sprite clicked
@@ -111,18 +111,18 @@ The **Whistle** sprite also plays a sound at regular intervals:
 
 --- collapse ---
 ---
-title: Add sounds that start to play at the same time
+title: 同時に再生を開始するサウンドを追加します
 ---
 
-There are two `Sound`{:class="block3sound"} blocks with an important difference:
+`音`{:class=”block3sound”}ブロックは2種類あり、重要な違いがあります。
 
-+ When you `play sound until done`{:class="block3sound"}, the sound will play all the way through. The next line of code in the script will not run until the sound has finished playing.
++ `終わるまで(ニャー)の音を鳴らす`{:class=”block3sound”}場合、サウンドは最後まで再生されます。 スクリプトの次のコード行は、サウンドの再生が終了するまで実行されません。
 
-+ When you `start sound`{:class="block3sound"}, the sound will play, but the next block will run immediately and will not wait for the sound to finish playing first.
++ `(ニャー)の音を鳴らす`{:class=”block3sound”}の場合、サウンドが再生されますが、サウンドが終わるのを待ってからではなく、次のブロックがすぐに実行されます。
 
-This means that if you had a series of `start sound`{:class="block3sound"} blocks, the sounds would all play almost at the same time, layered on top of each other. The effect can be interesting and sometimes messy.
+これは`(ニャー)の音を鳴らす`{:class="block3sound"}ブロックが続いている場合、サウンドはすべてほぼ同時に再生され、互いに重なって再生されることを意味します。 この効果は面白く、時には厄介なものになるでしょう。
 
-Have a play with it sometime!
+いちどやってみてください！
 
 ```blocks3
 when green flag clicked
@@ -135,22 +135,22 @@ start sound (Baa v)
 
 --- /collapse ---
 
-Once you have chosen your sounds, you may want to change the `volume`{:class="block3sound"}, `pitch`{:class="block3sound"}, or `pan`{:class="block3sound"} (so you hear the sound from the left- or right-hand speaker).
+サウンドを選択したら、 `音量`{:class="block3sound"}、 `ピッチ`{:class="block3sound"}、または `パン`{:class="block3sound"}（左側または右側のどちらのスピーカーから音が聞こえるか）を変更したいと思うでしょう。
 
 --- collapse ---
 ---
-title: Volume, pitch, and pan
+title: ボリューム、ピッチ、パン
 ---
 
-Click on the green flag to hear the sounds.
+緑の旗をクリックするとサウンドを聞くことができます。
 
-**Band practice**: [See inside](https://scratch.mit.edu/projects/451697380/editor){:target="_blank"}
+**バンドの練習**: [中を見る](https://scratch.mit.edu/projects/451697380/editor){:target="_blank"}
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451697380/?autostart=false" frameborder="0"></iframe>
 </div>
 
-The **Drums** sprite uses `set volume to`{:class="block3sound"}, `set pitch effect to`{:class="block3sound"}, and `set pan left/right effect to`{:class="block3sound"} blocks to change the sound:
+**Drums** スプライトは、 `音量を(80)%にする`{:class="block3sound"}、 `(ピッチ)の効果を(50)にする`{:class="block3sound"}、 `左右のパンの効果を(-100)にする`{:class="block3sound "}ブロック使ってサウンドを変更しています。
 
 ```blocks3
 set volume to (80) %
@@ -159,15 +159,15 @@ set [pan left/right v] effect to (-100) :: sound
 play sound (Drum Funky v) until done
 ```
 
-+ You can `set volume to`{:class="block3sound"} a value from `0` (silent) to `100` (full volume). This is useful if you want some sounds to play louder than others, or if you want a sprite to appear further away.
++ `音量を(100%)にする`{:class="block3sound"} で`0` （消音）から `100` （最大音量）までの値を指定できます。 これは、一部のサウンドを他のサウンドよりも大きく再生したい場合、またはスプライトを遠くに表示したい場合に便利です。
 
-+ The `pitch`{:class="block3sound"} effect controls how high or low a sound is. Setting the pitch to a higher value also makes a sound faster. You can `set pitch effect to`{:class="block3sound"} values between `-360` (very low) and `360` (very high).
++ `ピッチ`{:class="block3sound"}効果は、サウンドの音程の高低を制御します。 ピッチを高く設定すると、再生速度も速くなります。 `(ピッチ)の効果を(100)にする`:class="block3sound"}で `-360` （非常に低い）から `360` （非常に高い）までの値を指定できます。
 
-+ The `pan left/right`{:class="block3sound"} effect allows you to control whether a sound comes out of a left- or right-hand speaker or headphone or both. You can `set pan left/right effect to`{:class="block3sound"} values from `-100` (all sound from the left) to `100` (all sound from the right).
++ `左右にパン`{:class="block3sound"}効果を使用すると、サウンドがスピーカーまたはヘッドフォンの左側または右側、あるいはその両方から出るかどうかを制御できます。 `(左右にパン)の効果`{:class="block3sound"}で `-100` （すべての音を左側から）から `100` （すべての音を右側から）までの値を指定できます。
 
 --- /collapse ---
 
-You can also use the `Text to Speech`{:class="block3extensions"} extension:
+`Text to Speech`{:class="block3extensions"} (文字の読み上げ)拡張機能を使うこともできます。
 
 [[[scratch3-text-to-speech]]]
 
