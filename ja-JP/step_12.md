@@ -1,10 +1,10 @@
-## Operators
+## 演算
 
-The `Operators`{:class="block3operators"} blocks are used to compare variables and values, do calculations with numbers, and work with strings (text).
+`演算`{:class="block3operators"}ブロックは、変数と値の比較、数値による計算、および文字列（テキスト）の操作に使用されます。
 
-The hexagonal 'Boolean' blocks are used as conditions, and return true or false. These blocks can be used in `Control`{:class="block3control"} blocks with a hexagonal input.
+六角形の「真偽値」ブロックが条件として使用され、真または偽を返します。 これらのブロックは 六角形の入力を持つ`制御`{:class="block3control"}ブロックで使用できます。
 
-Comparison operators:
+比較演算子：
 
 ```blocks3
 <[] > [50]>
@@ -14,10 +14,10 @@ Comparison operators:
 <[] = [50]>
 ```
 
-**Tip:** When you use `=`{:class="block3operators"} with text you can mix upper and lower case letters, so `<`{:class="block3operators"} `YES` `=`{:class="block3operators"} `yes` `>`{:class="block3operators"} returns **true**.
+**ヒント:** `=`{:class="block3operators"} をテキストで使う場合、大文字と小文字を混ぜ合わせることができます。ですから、 `<`{:class="block3operators"} `YES` `=`{:class="block3operators"} `yes` `>`{:class="block3operators"} は**真**を返します。
 
 
-There are maths operations:
+算術演算です：
 
 ```blocks3
 ([] + [])
@@ -29,13 +29,13 @@ There are maths operations:
 ([] / [])
 ```
 
-You can choose random numbers between the smallest and largest number (including those numbers).
+最小数と最大数（それらの数を含む）の間で乱数を選択できます。
 
 ```blocks3
 (pick random [1] to [10]) // A number from 1 to 10
 ```
 
-The `and`{:class="block3operators"}, `or`{:class="block3operators"}, and `not`{:class="block3operators"} operators can be used to combine conditions.
+`かつ`{:class="block3operators"}、 `または`{:class="block3operators"}、および `ではない`{:class="block3operators"}演算子は、条件を結合するために使用することができます。
 
 ```blocks3
 <<> and <>>
@@ -45,7 +45,7 @@ The `and`{:class="block3operators"}, `or`{:class="block3operators"}, and `not`{:
 <not <> >
 ```
 
-There are blocks for working with text strings:
+テキスト文字列を操作するためのブロックです：
 
 ```blocks3
 (join [apple ] [banana])
@@ -59,4 +59,4 @@ There are blocks for working with text strings:
 
 [[[scratch3-join-text]]]
 
-There are also more maths operators that are useful for some projects.
+ほかにも、いくつかのプロジェクトで役立つ算術演算子もあります。
