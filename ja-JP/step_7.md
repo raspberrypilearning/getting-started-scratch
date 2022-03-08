@@ -1,10 +1,10 @@
-## Looks
+## 見た目
 
-`Looks`{:class="block3looks"} blocks control a sprite's appearance on the Stage.
+`見た目`{:class="block3looks"}ブロックは、ステージでのスプライトの外観を制御します。
 
-Sprites can communicate using `Looks`{:class="block3looks"}, through a `say`{:class="block3looks"} speech bubble, a `think`{:class="block3looks"} thought bubble, or through their `graphic effects`{:class="block3looks"}.
+スプライトは、 `言う`{:class="block3looks"}吹き出しや、 `考える`{:class="block3looks"}吹き出し、または `グラフィック効果`{:class="block3looks"}など、 `見た目`{:class="block3looks"}ブロックを使ってコミュニケーションをすることができます。
 
-### Say and think
+### 言うと考える
 
 ```blocks3
 say () for () seconds
@@ -18,35 +18,35 @@ think ()
 
 --- collapse ---
 ---
-title: Use a speech bubble to communicate
+title: 吹き出しを使用してコミュニケーションする
 ---
 
-Sprites can `say`{:class="block3looks"} and `think`{:class="block3looks"} to communicate.
+スプライトは `言う`{:class="block3looks"} ことや `考える`{:class="block3looks"} ことでコミュニケーションします。
 
-The `say () for () seconds`{:class="block3looks"} and `think () for () seconds`{:class="block3looks"} blocks are used to say or think something for a set amount of time.
+The `() と () 秒言う`{:class="block3looks"} と `() と () 秒考える`{:class="block3looks"} ブロックは設定した時間何かを言ったり考えたりするのに使われます。
 
 ```blocks3
 when this sprite clicked
 say [Hello!] for [2] seconds // hide speech after 2 seconds
 ```
 
-The sprite will show a speech bubble for two seconds when clicked.
+スプライトをクリックすると、吹き出しが2秒間表示されます。
 
-**Space talk**: [See inside](https://scratch.mit.edu/projects/485673032/editor){:target="_blank"}
+**宇宙でおしゃべり**: [中を見る](https://scratch.mit.edu/projects/485673032/editor){:target="_blank"}
 
-Click on the sprites to see them communicate with speech and thought.
+スプライトをクリックすると、話したり考えたりしてコミュニケーションします。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/485673032/?autostart=false" frameborder="0"></iframe>
 </div>
 
-The `say ()`{:class="block3looks"} and `think ()`{:class="block3looks"} blocks are used to say or think something, until another message or an empty `say ()`{:class="block3looks"} or `think ()`{:class="block3looks"} block replaces it.
+`()と言う`{:class="block3looks"}および `()と考える`{:class="block3looks"}ブロックは、何を言ったり考えるたりするときに使用され、別のメッセージまたは空の`()と言う`{:class="block3looks"}や `()と考える`{:class="block3looks"}ブロックがそれを置き換えます。
 
 --- /collapse ---
 
-### Size
+### 大きさ
 
-Set or change the `size`{:class="block3looks"} of your sprites.
+スプライトの`大きさ`{:class="block3looks"}を設定または変更します。
 
 ```blocks3
 change size by ()
@@ -58,35 +58,35 @@ set size to () %
 
 --- collapse ---
 ---
-title: Set the size of your sprite
+title: スプライトの大きさを設定する
 ---
 
-When you add a sprite to your project, its size is set to `100` percent. This may be too big or too small for your project.
+プロジェクトにスプライトを追加したとき、大きさは`100` ％に設定されています。 そのプロジェクトで使用するには、大きすぎるたり小さすぎたりするかもしれません。
 
-You can use code to set the size of a sprite. To do this, use a `set size to`{:class="block3looks"} block:
+コードを使用して、スプライトの大きさを設定できます。 これを行うには、 `大きさを(100)%にする`{:class="block3looks"}ブロックを使用します。
 
 ```blocks3
 set size to (50) %
 ```
 
-If you set the size of a sprite to `50` percent, it will be half as tall and half as wide. If you set the size of a sprite to `200` percent, it will be twice as tall and twice as wide.
+スプライトの大きさを`50` ％に設定した場合 、半分の高さで半分の幅になります。 スプライトの大きさを`200` ％に設定した場合 、2倍の高さで2倍の幅になります。
 
-To set the size of a sprite when the project is started, place a `set size to`{:class="block3looks"} block under a `when green flag clicked`{:class="block3events"} block:
+プロジェクトが開始されたときにスプライトの大きさを設定するには、 `大きさを(100)%にする`:{class="block3looks"}ブロックを `緑色のフラグが押されたとき`{:class="block3events"}ブロックの下に置きます。
 
 ```blocks3
 when green flag clicked
 set size to (50) %
 ```
 
-You can also quickly set the size of a sprite in the **Size** property in the Sprite pane below the Stage:
+ステージの下の[スプライト] ペインの **大きさ** プロパティで、スプライトの大きさをすばやく設定することもできます。
 
-![The Size box highlighted in the Sprite pane.](images/spriteSize.png){:width="400px"}
+![スプライトペインで強調表示されている[大きさ] ボックス](images/spriteSize.png){:width="400px"}
 
 --- /collapse ---
 
-### Graphic effects
+### 画像効果
 
-Set or change a range of visual effects, such as colour, fisheye, whirl, pixelate, mosaic, brightness and ghost.
+色、魚眼レンズ、渦巻き、ピクセル化、モザイク、明るさ、幽霊など、さまざまな視覚効果を設定または変更します。
 
 ```blocks3
 change [color v] effect by ()
@@ -98,34 +98,34 @@ clear graphic effects
 
 [[[scratch3-graphic-effects]]]
 
-### Costumes
+### コスチューム
 
-To create an animation effect with your sprites, you can change their costumes.
+スプライトでアニメーション効果を出すには、スプライトのコスチュームを変更します。
 
 ```blocks3
-switch costume to ( v)
+コスチュームを（v）にする
 
-next costume
+次のコスチュームにする
 
-(costume [number v])
+（コスチュームの[番号v]）
 ```
 
 [[[scratch3-change-costumes-to-show-mood]]]
 
 --- collapse ---
 ---
-title: Change looks to create an animation effect
+title: アニメーション効果を出すために外観を変更する
 ---
 
-**Beating heart**: [See inside](https://scratch.mit.edu/projects/435725413/editor){:target="_blank"}
+**ドキドキする心臓**: [中を見る](https://scratch.mit.edu/projects/435725413/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435725413/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can use the `set size to`{:class="block3looks"} or `change size by`{:class="block3looks"} blocks to create a pulsing effect, such as a beating heart.
+`大きさを(100)%にする`{:class="block3looks"}ブロックまたは、 `大きさを(10)ずつ変える`{:class="block3looks"}ブロック使用して、心臓の鼓動のような脈打つ効果を出すことができます。
 
-**Note:** The `set size to`{:class="block3looks"} block sets the size to a specific value, while the `change size by`{:class="block3looks"} block changes the value from what it was before, e.g. `change size by`{:class="block3looks"} `10` adds 10 to the value of the size.
+**注:** `大きさを(100)%にする`{:class="block3looks"}ブロックは大きさを特定の値に設定し、 `大きさを(10)ずつ変える`{:class="block3looks"}ブロックは値を元の値から変更します。例えば `大きさを{:class="block3looks"} <code>10` <1>ずつ変える</code>{:class="block3looks"}ブロックは大きさの値に10を加算します。
 
 ```blocks3
 when green flag clicked
@@ -142,9 +142,9 @@ wait (0.2) seconds
 end
 ```
 
-This code uses a series of `change size by`{:class="block3looks"} and `wait`{:class="block3control"} blocks to make the heart grow and shrink. Try to create your own pulsing sprite.
+このコードは、一連の `大きさを(10)ずつ変える`{:class="block3looks"}と `<>まで待つ`{:class="block3control"}ブロックを使用して、心臓を大きくしたり小さくしたりします。 あなたの脈打つスプライトを作成してみてください。
 
-You could also use the `change graphic effect by`{:class="block3looks"} block to create a sprite that continues to change its appearance.
+`(色)の効果を(25)ずつ変える`{:class="block3looks"}ブロックを使用して、外観を変更し続けるスプライトを作成することもできます。
 
 ```blocks3
 when green flag clicked
@@ -153,9 +153,9 @@ wait (1) seconds
 change [ghost v] effect by (-75)
 ```
 
-**Note:** If you use code that changes a graphic effect and then changes it back again, remember to use a `wait`{:class="block3control"} block in between the `change graphic effect by`{:class="block3looks"} blocks, otherwise, it will happen so fast that you won't see it!
+**注:**もしグラフィック効果を変更し、そして再びそれを変更するコードを使用するならば、`グラフィック効果を変更する`{:class="block3looks"} ブロックの間に `待つ`{:class="block3control"} ブロックを使うことを忘れないでください、そうしないと、非常に高速に変更されるため、見ることができません。
 
-You can use a `clear graphic effects`{:class="block3looks"} block at any time to reset the effects:
+`画像効果をなくす`{:class="block3looks"}ブロックを使えば、いつでも効果をなくすことができます。
 
 ```blocks3
 clear graphic effects
@@ -165,18 +165,18 @@ clear graphic effects
 
 --- collapse ---
 ---
-title: Click to change and then change back
+title: クリックすると変化してから元に戻る
 ---
 
-You can add actions that make a change to a sprite and then reverse them, such as growing, waiting, and then shrinking.
+スプライトが大きくなって、しばらく待って、小さくなるというように、変化してしてから元に戻るアクションを追加ことができます。
 
-**Squash ball when clicked**: [See inside](https://scratch.mit.edu/projects/435723273/editor){:target="_blank"}
+**クリックしてボールを押しつぶす**: [中を見る](https://scratch.mit.edu/projects/435723273/editor){:target="_ blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/435723273/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 </div>
 
-This code will grow a sprite, apply the `fisheye`{:class="block3looks"} effect for 0.5 seconds, and then return the sprite to its starting appearance:
+このコードは、 スプライトを大きくし、`魚眼レンズ`{:class="block3looks"}効果を0.5秒間適用してから、スプライトを最初の外観に戻します。
 
 ```blocks3
 when this sprite clicked
@@ -191,9 +191,9 @@ set size to (100)
 
 [[[scratch3-animate-movement-costumes]]]
 
-### Backdrops
+### 背景
 
-You can use code to change the backdrop too.
+コードを使用して背景を変更することもできます。
 
 ```blocks3
 switch backdrop to ( v)
@@ -205,9 +205,9 @@ next backdrop
 
 [[[scratch3-changing-backdrops-pages-levels]]]
 
-### Visibility
+### 見え方
 
-The `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks control the visibility of a sprite.
+`表示する`{:class="block3looks"}ブロックと `隠す`{:class="block3looks"}ブロックはスプライトの見え方を制御します。
 
 ```blocks3
 show 
@@ -217,9 +217,9 @@ hide
 
 [[[scratch3-show-hide-sprites-backdrops]]]
 
-### Layers
+### 層
 
-To change how your sprites appear in relation to each other, you can use layers.
+スプライトの見え方の相互関係を変更するには、層を使用します。
 
 ```blocks3
 go to [front v] layer
@@ -231,18 +231,18 @@ go [forward v] () layers
 
 --- collapse ---
 ---
-title: Position sprites in many layers
+title: スプライトを多くの層に配置する
 ---
 
-**Through the window with tree**: [See inside](https://scratch.mit.edu/projects/454188775/editor){:target="_blank"}
+**木の見える窓を介して**: [中を見る](https://scratch.mit.edu/projects/454188775/editor){:target="_ blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/454188775/?autostart=false" frameborder="0"></iframe>
 </div>
 
-In the example, the **Window frame** sprite appears at the front and the **Sun** sprite appears at the back. The **Avery Walking** and **Tree** sprites are each in their own layers between the **Window frame** sprite and the **Sun** sprite.
+例では、 **窓枠** スプライトが前面に表示され、 **太陽**スプライトが 背面に表示されます。 **Avery Walking** および **Tree** スプライトは**窓枠** スプライトと **太陽** スプライトの間の独自の層にあります。
 
-Use the `go backward`{:class="block3looks"} `1` `layers`{:class="block3looks"} block to place a sprite one layer behind the sprite at the front:
+`1``層奥に下げる`{:class="block3looks"} ブロックを使って前にあるスプライトより1層後ろの層に配置します。
 
 ``` blocks3
 when green flag clicked
@@ -250,7 +250,7 @@ go to [front v] layer
 +go [backward v] (1) layers
 ```
 
-Change the value in the `go backward`{:class="block3looks"} `1` `layers`{:class="block3looks"} block for each sprite, depending on where you want it to be positioned in relation to other sprites:
+他のスプライトに対してどの位置に置くかに応じて、各スプライトの`1``層奥に下げる`{:class="block3looks"} ブロックの値を変更します。
 
 ``` blocks3
 when green flag clicked
