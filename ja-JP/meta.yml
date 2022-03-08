@@ -1,53 +1,53 @@
 ---
-title: Getting started with Scratch
+title: Scratchで始めよう
 hero_image: images/ScratchGuide_Banner.png
-description: Learn about Scratch and develop your skills to use Scratch independently
+description: Scratchについて学び、Scratchを一人で使えるスキルを身に付けます
 version: 4
 listed: false
 copyedit: false
 last_tested: '2020-11-28'
 steps:
   - 
-    title: Introduction
+    title: はじめに
     completion: engaged
   - 
-    title: Set up Scratch
+    title: スクラッチを設定する
   - 
-    title: Set up a Scratch account
+    title: スクラッチアカウントを登録する
   - 
-    title: The Scratch editor
+    title: Scratchエディタ
   - 
-    title: Your first Scratch project
+    title: 最初のScratchプロジェクト
   - 
-    title: Motion
+    title: 動き
   - 
-    title: Looks
+    title: 見た目
   - 
-    title: Sound
+    title: 音
   - 
-    title: Events
+    title: イベント
   - 
-    title: Control
+    title: 制御
   - 
-    title: Sensing
+    title: 調べる
   - 
-    title: Operators
+    title: 演算
   - 
-    title: Variables
+    title: 変数
   - 
-    title: My blocks
+    title: ブロック定義
   - 
-    title: Extensions
+    title: 拡張機能
   - 
-    title: Paint editor
+    title: ペイントエディタ
   - 
-    title: Sound editor
+    title: サウンドエディタ
   - 
-    title: Debug
+    title: デバッグ
   - 
-    title: Editing tips
+    title: 編集のヒント
   - 
-    title: Share and comment
+    title: 共有してコメントする
     completion: internal
   - 
-    title: Our Scratch projects
+    title: Scratchプロジェクト
