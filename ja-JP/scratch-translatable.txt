@@ -1,74 +1,74 @@
-Click on 90 and drag the arrow to change
+90をクリックし、矢印をドラッグして変更します
 
-or all-around or none
+または自由に回転か、回転しない
 
-hide speech after 2 seconds
+2秒後に言葉を非表示にする
 
-run blocks when the green flag above the Stage is clicked
+ステージの上の緑色の旗がクリックされたときにブロックを実行します
 
-run the blocks when the sprite for this script is clicked
+このスクリプトのスプライトがクリックされたときにブロックを実行します
 
-run the blocks when the stage is clicked
+ステージがクリックされたときにブロックを実行します
 
-change to number, letter or arrow keys
+数字、文字、または矢印キーに変更します
 
-run blocks when the microphone detects sound
+マイクが音を検出したときにブロックを実行します
 
-run blocks when the timer reaches 10 seconds
+タイマーが10秒に達したときにブロックを実行します
 
-delay for 1 second
+1秒間待ちます
 
-delay for one tenth of a second
+10分の1秒間待ちます
 
-run the blocks inside four time
+中のブロックを4回実行します
 
-run the blocks inside until stopped
+停止するまで中のブロックを実行します
 
-stop all scripts in all sprites
+すべてのスプライトのすべてのスクリプトを停止します
 
-delay until the condition is true
+条件が真になるまで待ちます
 
-repeat the blocks inside until the condtion is true
+条件が真になるまで、中のブロックを繰り返し実行します
 
-clones the sprite that runs this block
+このブロックを実行するスプライトのクローンを作成します
 
-clones another sprite in the project
+プロジェクト内の別のスプライトのクローンを作成します
 
-the script that runs when the clone is created
+クローンの作成時に実行されるスクリプト
 
-stops the clone's scripts and deletes it
+クローンのスクリプトを停止してクローンを削除します
 
-What's your name
+あなたのお名前は？
 
-the text the the user typed
+ユーザーが入力したテキスト
 
-hour, minute, ...
+時間、分、..。
 
-A number from 1 to 10
+1から10の間の数字
 
-talk
+しゃべる
 
-use the provided input
+与えられた入力を使用します
 
-words
+言葉
 
-hello
+こんにちは
 
-hi
+やあ
 
-transparent
+透明度
 
-speed
+速度
 
-angle
+角度
 
-delay
+待ち時間
 
-beat
+ビート
 
-move right
+右に動く
 
-move left
+左に動く
 
 right_1
 
