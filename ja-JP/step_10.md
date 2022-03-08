@@ -1,9 +1,9 @@
-## Control
+## 制御
 
-`Control`{:class="block3control"} blocks control the order that blocks run in, including decisions (selection) and loops (repetition).
+`制御`{:class="block3control"}ブロックは、決定(選択)やループ(繰り返し)など、ブロックが実行される順序を制御します。
 
 
-The `wait`{:class="block3control"} block delays for a number of seconds before running the next block.
+`待つ`{:class="block3control"}ブロックは、次のブロックを実行するのを指定した秒数だけ遅らせます。
 
 ```blocks3
 wait (1) seconds// delay for 1 second
@@ -11,7 +11,7 @@ wait (1) seconds// delay for 1 second
 wait (0.1) seconds// delay for one tenth of a second
 ```
 
-Loops control how many time the code inside them runs.
+ループは、ループ内のコードが実行される回数を制御します。
 
 ```blocks3
 repeat (4) // run the blocks inside four time
@@ -27,9 +27,9 @@ end
 
 [[[scratch3-forever-condition]]]
 
-**Tip:** You can stop a `forever`{:class="block3events"} block by clicking the Stop button above the Stage, or by using the `stop`{:class="block3control"} blocks.
+**ヒント:** ステージの上側にある[停止]ボタンをクリックするか、 `止める`{:class="block3control"}ブロックを使用して、`ずっと`{:class="block3events"}ブロックを止めることができます。
 
-There are three options for the `stop`{:class="block3events"} block:
+`止める`{:class="block3events"}ブロックには、次の3つのオプションがあります。
 
 ```blocks3
 stop [all v] // stop all scripts in all sprites
@@ -39,7 +39,7 @@ stop [this script v]
 stop [other scripts in sprite v]
 ```
 
-The `if...then`{:class="block3control"} and `if...then...else`{:class="block3control"} blocks are used to make decisions about which code blocks to run next. This is sometimes called **selection**. The `if...then`{:class="block3control"} block checks a hexagonal-shaped **condition** and runs the code blocks inside, if the condition is **true**. The `if...then..else`{:class="block3control"} block has an additional section to run the code blocks inside, if the condition is **false**.
+`もし...なら`{:class="block3control"}と`もし...なら...でなければ`{:class="block3control"}ブロックは、どのコードブロックを次に実行するか決めるのに使われます。 **選択**と呼ばれることもあります。 `もし... なら`{:class="block3control"}ブロックは、六角形の **条件**をチェックして**真**の場合、内部のコードブロックを実行します。 `もし... なら... でなければ` ブロックの場合、**偽**の場合に実行する追加のコードブロックセクションがあります。
 
 ```blocks3
 if <> then
@@ -55,9 +55,9 @@ end
 
 [[[scratch3-if-then-else]]]
 
-You can find hexagonal-shaped blocks to use as conditions in the `Operators`{:class="block3operators"} and `Sensing`{:class="block3sensing"} blocks menus.
+`演算`{:class="block3operators"}および `調べる`{:class="block3sensing"}ブロックメニューで、条件として使用する六角形のブロックを見つけることができます。
 
-The `wait until`{:class="block3control"} and `repeat until`{:class="block3control"} blocks also use conditions:
+`< >まで待つl`{:class="block3control"} と `< >まで繰り返す`{:class="block3control"} ブロックも条件を使います。
 
 ```blocks3
 wait until <> // delay until the condition is true
@@ -68,9 +68,9 @@ repeat until <> // repeat the blocks inside until the condtion is true
 end
 ```
 
-A **clone** is a copy of a sprite, it has the costumes, scripts and sounds held by the sprite it was cloned from at the time of cloning. There are a number of blocks that can be used to clone sprites.
+**クローン** はスプライトのコピーであり、クローン作成時にクローンされたスプライトが保持しているコスチューム、スクリプト、およびサウンドが含まれています。 スプライトのクローンを作成するために使用できるブロックは、いくつかあります。
 
-With the `create clone of [myself v]`{:class="block3control"} block, a sprite can create a clone of itself or of another sprite in the project.
+`[自分自身v]のクローンを作る`{:class="block3control"}ブロックで、スプライトはそれ自体またはプロジェクト内の別のスプライトのクローンを作成できます。
 
 ```blocks3
 create clone of [myself v] // clones the sprite that runs this block
@@ -79,9 +79,9 @@ create clone of [myself v] // clones the sprite that runs this block
 create clone of [Butterfly 1 v] // clones another sprite in the project
 ```
 
-The `when I start as a clone`{:class="block3control"} hat block is used to trigger a new script once the clone has been created. The clone will exist in the project until the `delete this clone`{:class="block3control"} cap block is used.
+`クローンされたとき`{;class="block3control"}ハットブロックは、クローンが作成された後、新しいスクリプトを起動するために使われます。 クローンは、`このクローンを削除する`{:class="block3control"}キャップブロックが使用されるまでプロジェクト内に存在します。
 
-Using the `when I start as a clone`{:class="block3control"} hat block then including the `create clone of [myself v]`{:class="block3control"} block in the script underneath means it is also possible for clones to create other clones.
+`クローンされたとき`{:class="block3control"} ハットブロックを使うとき、`[自分自身v]のクローンを作る`{:class="block3control"} ブロックをスクリプトに含めることができます。つまり、クローンがまたクローンを作ることができるということです。
 
 ```blocks3
 when I start as a clone // the script that runs when the clone is created
@@ -90,14 +90,14 @@ when I start as a clone // the script that runs when the clone is created
 delete this clone // stops the clone's scripts and deletes it
 ```
 
-There is a maximum number of clones a sprite can have at any point, at the time of writing this is `300`.
+スプライトが任意の時点で持つことができるクローンの最大数が決まっています。これを書いている時点では`300`です。
 
 --- collapse ---
 ---
-title: Clones of clones
+title: クローンのクローン
 ---
 
-**Clones**: [See inside](https://scratch.mit.edu/projects/567544298/editor){:target="_blank"}
+**クローンたち**: [中を見る](https://scratch.mit.edu/projects/567544298/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/567544298/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
