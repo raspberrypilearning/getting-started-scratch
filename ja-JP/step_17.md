@@ -1,15 +1,15 @@
-## Sound Editor
+## サウンドエディタ
 
-Use the Sound editor to add and edit existing sounds, and to record your own sounds.
+既存のサウンドの追加および編集、独自のサウンドの録音には、サウンドエディタを使用します。
 
-![An annotated screenshot of the Sound tab.](images/Scratch-Sound-tab.png){:width="600px"}
+![音タブの注釈付きスクリーンショット](images/Scratch-Sound-tab.png){:width="600px"}
 
-### Creating sounds
+### サウンドの作成
 
 \[[[scratch3-add-sound]]\] \[[[scratch3-record-sound\]]]
 
-### Editing sounds
+### サウンドの編集
 
-Edit whole sounds or parts of sounds.
+サウンド全体またはサウンドの一部を編集します。
 
 \[[[scratch3-reverse-sound]]\] \[[[scratch3-crop-sound\]]] [[[scratch3-sound-effects]]]
