@@ -1,16 +1,16 @@
-## Motion
+## 動き
 
-`Motion`{:class="block3motion"} blocks allow you to move your sprite around the Stage.
+`動き`{:class="block3motion"}ブロックを使用すると、スプライトをステージ内で移動させることができます。
 
-### Movement
+### 移動
 
-The `move`{:class="block3motion"} block is the simplest way to ge started with moving a sprite:
+`(10)歩動かす`{:class="block3motion"}ブロックは、まずスプライトを移動させてみる最も簡単な方法です。
 
 ```blocks3
 move [10] steps
 ```
 
-You can `go to`{:class="block3motion"} or `glide to`{:class="block3motion"} the mouse-pointer, a random position on the Stage (or your finger on a tablet), or another sprite:
+マウスポインタの示す(タブレットの場合は指を置いた)ステージ上のランダムな位置や、他のスプライトの位置に `行く`{:class="block3motion"} ことや `(1)秒で行く`{:class="block3motion"}ことができます。
 
 ```blocks3
 go to (random position v)
@@ -18,7 +18,7 @@ go to (random position v)
 glide [1] secs to (random position v)
 ```
 
-You can also `go to`{:class="block3motion"} or `glide to`{:class="block3motion"} a position given by `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates on the Stage.
+`x`{:class="block3motion"} 座標と `y`{:class="block3motion"} 座標で指定したステージ上の位置に`行く`{:class="block3motion"} ことや `(1)秒で行く`{:class="block3motion"}こともできます。
 
 ```blocks3
 go to x: [0] y: [0] 
@@ -28,12 +28,12 @@ glide [1] secs to x: [0] y: [0]
 
 [[[scratch3-glide-to-object]]]
 
-**Tip:** When you drag a sprite on the Stage, the motion blocks that use `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates update in the `Motion`{:class="block3motion"} blocks menu. The current `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates are show in the Sprite pane.
+**ヒント：**ステージ上のスプライトをドラッグすると、 `動き`{:class="block3motion"}ブロックメニューの`x`{:class="block3motion"} 座標と `y`{:class="block3motion"} 座標を使うブロックの座標も更新されます。 現在の `x`{:class="block3motion"} 座標と `y`{:class="block3motion"} 座標はスプライトペインに表示されます。
 
-### Rotation
-You can also change the `direction`{:class="block3motion"} that a sprite is pointing in. This changes the direction that the sprite will move in if you use a `move`{:class="block3motion"} block. It may also change the rotation of the sprite's costume depending on the `rotation-style`{:class="block3motion"} setting.
+### 回転
+スプライトが指している`方向`{:class="block3motion"}を変更することもできます。 `move`{:class="block3motion"}ブロックを使用した場合に、スプライトが移動する方向が変わります。 また、 `回転方向`{:class="block3motion"} の設定に応じてスプライトのコスチュームの向きも変えます。
 
-When you add a sprite, it will be facing right (90 degrees). You can change this in the Sprite pane or using code blocks.
+スプライトを追加すると、右向き（90度）になります。 これは、スプライトペインまたはコードブロックを使用して変更できます。
 
 ```blocks3
 turn right [15] degrees
@@ -55,12 +55,12 @@ set rotation style [left-right v] // or all-around or none
 
 --- collapse ---
 ---
-title: Spin around
+title: 回転する
 ---
 
 --- no-print ---
 
-**Spinning bat**: [See inside](https://scratch.mit.edu/projects/435704980/editor){:target="_blank"}
+**まわるコウモリ**: [中を見る](https://scratch.mit.edu/projects/435704980/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/435704980/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -68,7 +68,7 @@ title: Spin around
 
 --- /no-print ---
 
-This code makes a sprite spin when the green flag is clicked:
+このコードは、緑色の旗がクリックされたときにスプライトを回転させます。
 
 ```blocks3
 when flag clicked
@@ -76,20 +76,20 @@ forever
 turn right (1) degrees :: motion
 ```
 
-In a `turn`{:class="block3motion"} block within a `forever`{:class="block3control"} loop, change the number of degrees to `1` and your sprite will appear to spin.
+`ずっと`{:class="block3control"}ループの `(15)度回す`{:class="block3motion"}ブロックで、 角度の数字を`1` に変更すると、スプライトが回転しているように見えます。
 
-**Tip:** If you do not add a `move`{:class="block3motion"} block, your sprite will spin in the position that it is in.
+**ヒント:** `動かす`{:class="block3motion"}ブロックを追加しない場合、スプライトは現在の位置で回転します。
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Move in a circle
+title: 円を描くように動く
 ---
 
 --- no-print ---
 
-**Moon orbit**: [See inside](https://scratch.mit.edu/projects/435701055/editor){:target="_blank"}
+**月の軌道**: [中を見る](https://scratch.mit.edu/projects/435701055/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/435701055/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -97,7 +97,7 @@ title: Move in a circle
 
 --- /no-print ---
 
-This code makes a sprite fly in a circle when the green flag is clicked:
+このコードは、緑色の旗がクリックされたときにスプライトを円を描くように飛ばせます。
 
 ```blocks3
 when green flag clicked
@@ -106,30 +106,30 @@ move (1) steps
 turn right (1) degrees :: motion
 ```
 
-Change the values in a `move`{:class="block3motion"} block and `turn`{:class="block3motion"} block within a `forever`{:class="block3control"} loop to `1` and your sprite will appear to move in a big circle.
+`ずっと`{:class="block3control"}ループの `動かす`{:class="block3motion"}ブロックと `回す`{class="block3motion"}ブロックの値を`1`に変えてみましょう。スプライトは大きな円を描いて移動しているように見えます。
 
-**Tip:** If you want your sprite to always start in the centre of the Stage, you can add a `go to x:`{:class="block3motion"} `0` `y:`{:class="block3motion"} `0` block before the `forever`{:class="block3control"} block.
+**ヒント:** スプライトを常にステージの中央から開始するには、 `x座標を`{:class="block3motion"} `0` `、y座標を`{:class="block3motion "} `0` `にする`{:class="block3motion"}ブロックを <1>ずっと</1>{:class=" block3control "}ブロックの前に追加します。
 
 --- /collapse ---
 
-### Bouncing
+### 跳ね返る
 
-The `if on edge, bounce`{:class="block3motion"} block is really useful when you want to make a sprite bounce around and stay on the Stage:
+`もし端に着いたら、跳ね返る`{:class="block3motion"}ブロックは、スプライトを跳ね返らせてステージにとどまらせたい場合に非常に便利です。
 
 ```blocks3
 if on edge, bounce
 ```
 
-See some of the ways in which you can get your sprite to bounce around:
+スプライトを跳ね返らせる方法のいくつかをご覧ください。
 
 --- collapse ---
 ---
-title: Bounce across the Stage
+title: ステージを横切って跳ね返る
 ---
 
 --- no-print ---
 
-**Girl moving across the Stage**: [See inside](https://scratch.mit.edu/projects/433535326/editor){:target="_blank"}
+**ステージを横切って移動する女の子**: [中を見る](https://scratch.mit.edu/projects/433535326/editor){:target="_ blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/433535326/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -137,7 +137,7 @@ title: Bounce across the Stage
 
 --- /no-print ---
 
-This code makes a sprite bounce on the left-hand and right-hand edges of the Stage. Because the sprite rotates horizontally, it appears to flip when it changes its direction when the green flag is clicked:
+このコードは、ステージの左端と右端でスプライトを跳ね返らせます。 スプライトは水平方向に回転するため、緑色の旗をクリックしたときに方向を変えると、スプライトが反転しているように見えます。
 
 ```blocks3
 when green flag clicked
@@ -148,22 +148,22 @@ move (5) steps
 if on edge, bounce
 ```
 
-In this example, the `point in direction`{:class="block3motion"} block automatically points the sprite to the right (`90` degrees) when the green flag is clicked. If you change the number of degrees to `-90`, your sprite will point left.
+この例では、緑色のフラグがクリックされると、 `(90)度に向ける`{:class="block3motion"}ブロックにより自動的にスプライトは右向き(`90`度)になります。 度の数を `-90`に変更した場合、スプライトは左向きになります。
 
-Add a `set rotation style`{:class="block3motion"} block and select `left-right`{:class="block3motion"} in the drop-down menu, so that your sprite will not flip upside down when it bounces on the edge of the Stage.
+`回転方法を[左右のみ]にする`{:class="block3motion"}ブロックを追加し、 ドロップダウンメニューで`左右のみ`{:class="block3motion"}を選択すると、スプライトがステージの端で跳ね返るときに上下逆さまになりません。
 
-**Tip:** You can drag your sprite on the Stage to move it to the y (up–down) position that you want.
+**ヒント:** ステージ上でスプライトをドラッグして、目的のy（上下）位置に移動できます。
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Bounce up and down the Stage
+title: ステージの上下で跳ね返る
 ---
 
 --- no-print ---
 
-**Girl jumping**: [See inside](https://scratch.mit.edu/projects/433595822/editor){:target="_blank"}
+**ジャンプする女の子**:[中を見る](https://scratch.mit.edu/projects/433595822/editor){:target="_ blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/433595822/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -171,7 +171,7 @@ title: Bounce up and down the Stage
 
 --- /no-print ---
 
-This code makes a sprite bounce up and down the Stage when the green flag is clicked:
+このコードは、緑色の旗がクリックされたときにスプライトをステージの上下で跳ね返らせます。
 
 ```blocks3
 when green flag clicked
@@ -182,22 +182,22 @@ move (5) steps
 if on edge, bounce
 ```
 
-Change the number of degrees in the `point in direction`{:class="block3motion"} block to `0` to make a sprite point upwards.
+`(90)度に向ける`{:class="block3motion"}ブロックの度の数を `0` にするとスプライトは上向きになります。
 
-Add a `set rotation style`{:class="block3motion"} block and select `don't rotate`{:class="block3motion"} in the drop-down menu to stop your sprite rotating, even when it bounces.
+`回転方法を[左右のみ]にする`{:class="block3motion"}ブロックを追加し、ドロップダウンメニュ0で `回転しない`{:class="block3motion"}を選択すると、スプライトが跳ね返っても回転しないようになります。
 
-**Tip:** You can drag your sprite around the Stage to move it to the x (left–right) position that you want.
+**ヒント:** スプライトをステージ中にドラッグして、目的のx（左右）の位置に移動できます。
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Bounce at an angle
+title: 斜めに跳ね返る
 ---
 
 --- no-print ---
 
-**Football bouncing**: [See inside](https://scratch.mit.edu/projects/433536479/editor){:target="_blank"}
+**跳ね返るサッカーボール**: [中を見る](https://scratch.mit.edu/projects/433536479/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/433536479/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -205,7 +205,7 @@ title: Bounce at an angle
 
 --- /no-print ---
 
-This code makes a sprite appear to rotate randomly when the green flag is clicked:
+このコードは、緑色の旗がクリックされたときにスプライトがランダムに回転しているように見せます。
 
 ```blocks3
 when green flag clicked
@@ -216,15 +216,15 @@ move (5) steps
 if on edge, bounce
 ```
 
-If your sprite moves at `45` degrees, you will find that it appears to bounce on the edge of the Stage at an angle. Change the number of degrees in the `point in direction`{:class="block3motion"} block to `45` to make your sprite bounce all around.
+スプライトを `45` 度の角度で移動させて場合、ステージの端である角度で跳ね返るように見えることがわかります。 `(90)度に向ける`{:class="block3motion"}ブロックの度の数を `45` にするとスプライトは四方八方に跳ね返ります。
 
-Add a `set rotation style`{:class="block3motion"} block and select `all around`{:class="block3motion"} in the drop-down menu, so that your sprite will turn when it bounces on the edge of the Stage.
+`回転方法を[左右のみ]にする`{:class="block3motion"}ブロックを追加し、 ドロップダウンメニューで`自由に回転`{:class="block3motion"}を選択すると、スプライトがステージの端で跳ね返るとき回転するようになります。
 
 --- /collapse ---
 
-### Using coordinates
+### 座標を使用する
 
-You can also `change`{:class="block3motion"} and `set`{:class="block3motion"} the `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates and get their values to use in other blocks:
+`x座標`{:class="block3motion"} と `y座標`{:class="block3motion"を`(0)にする`{:class="block3motion"}ことや、 `(10)ずつ変える`{:class="block3motion"}こともでき、他のブロックて使うために値を取得することもできます。
 
 [[[generic-scratch3-coordinates]]]
 
@@ -244,12 +244,12 @@ set y to [0]
 
 --- collapse ---
 ---
-title: I can't see any Motion blocks
+title: 動きブロックが表示されません
 ---
 
-If you have the Stage selected then you won't see any `Motion`{:class="block3motion"} blocks, because the Stage can't move.
+ステージを選択している場合 `動き`{:class="block3motion"}ブロックは表示されません。ステージは動くことができないからです。
 
-Click on a sprite in the Sprite pane and then click on the **Code** tab to see the `Motion`{:class="block3motion"} blocks.
+スプライトペインでスプライトをクリックし、[**コード**]タブをクリックすると `動き`{:class="block3motion"}ブロックが表示されます。
 
 --- /collapse ---
 
