@@ -1,30 +1,30 @@
-## What is Scratch?
-Scratch is a graphical programming language developed by the Lifelong Kindergarten group at the MIT Media Lab. In Scratch, you can drag and combine code blocks to make a range of programs, including animations, stories, musical instruments, and games. It's a bit like the programming equivalent of building blocks!
+## Scratchとは？
+Scratchは、MITメディアラボのLifelong Kindergartenグループによって開発されたグラフィカルプログラミング言語です。 Scratchでは、コードブロックをドラッグして組み合わせて、アニメーション、ストーリー、楽器、ゲームなどのさまざまなプログラムを作成できます。 これは、ブロックのおもちゃのプログラム版のようなものです。
 
-![A screenshot of Scratch.](images/showcase_static.png)
+![Scratchのスクリーンショット](images/showcase_static.png)
 
-Scratch is used in many schools as part of the curriculum. It is free, and young people can use it at home as well as in clubs.
+スクラッチは、カリキュラムの一部として多くの学校で使われています。 無料であり、若い人たちがクラブだけでなく自宅でも利用できます。
 
-Scratch allows young people to learn coding concepts and create interactive projects without needing to learn a text-based programming language. You will not need to be able to type quickly or remember complex code to use Scratch.
+Scratchを使用すると、若い人たちがテキストベースのプログラミング言語を習得しなくても、コーディングの概念を学び、インタラクティブなプロジェクトを作成できます。 Scratchを使用するために、すばやくタイプしたり、複雑なコードを覚えたりする必要はありません。
 
-### How to use this reference guide
-If you have not used Scratch before, then this guide will help you to set up and create your first project.
+### このリファレンスガイドの使い方
+以前にScratchを使用したことがない場合、このガイドがセットアップと最初のプロジェクトの作成に役立ちます。
 
-You can return to this guide and use it to look up information that you need when you are making your own projects in Scratch.
+Scratchで独自のプロジェクトを作成するとき、このガイドに戻って必要な情報を検索するために使用できます。
 
-At the end of the guide you will find links to paths of Scratch projects, from beginner through to advanced, where you can learn coding by making fun and interesting apps, games, stories, animations, art and music.
+ガイドの最後には、初心者から上級者までのScratchプロジェクトのパスへのリンクがあり、楽しくて面白いアプリ、ゲーム、ストーリー、アニメーション、アート、音楽を作成してコーディングを学ぶことができます。
 
 --- collapse ---
 ---
-title: What you will need
+title: 必要なもの
 ---
-### Hardware
+### ハードウェア
 
-+ A computer or tablet capable of running Scratch 3
++ Scratch3を実行できるコンピューターまたはタブレット
 
-### Software
+### ソフトウェア
 
-+ This guide will explain how to get started with Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
++ このガイドでは、Scratch 3( [オンライン](https://scratch.mit.edu/){:target="_blank"}または [オフライン](https://scratch.mit.edu/download){:target="_ blank"})の使用を開始する方法について説明します。
 
 
 --- /collapse ---
