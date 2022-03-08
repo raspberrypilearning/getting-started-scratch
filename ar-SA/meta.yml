@@ -1,53 +1,53 @@
 ---
-title: Getting started with Scratch
+title: البدء مع Scratch
 hero_image: images/ScratchGuide_Banner.png
-description: Learn about Scratch and develop your skills to use Scratch independently
+description: تعلم عن Scratch و طور مهاراتك لاستخدام Scratch بصورة مستقلة
 version: 4
 listed: false
 copyedit: false
 last_tested: '2020-11-28'
 steps:
   - 
-    title: Introduction
-    completion: engaged
+    title: المقدمة
+    completion: مرتبط
   - 
-    title: Set up Scratch
+    title: إعداد Scratch
   - 
-    title: Set up a Scratch account
+    title: إنشاء حساب Scratch
   - 
-    title: The Scratch editor
+    title: محرر Scratch
   - 
-    title: Your first Scratch project
+    title: مشروعك الأول في Scratch
   - 
-    title: Motion
+    title: الحركة
   - 
-    title: Looks
+    title: الهيئة
   - 
-    title: Sound
+    title: الصوت
   - 
-    title: Events
+    title: الأحداث
   - 
-    title: Control
+    title: التحكم
   - 
-    title: Sensing
+    title: الإستشعار
   - 
-    title: Operators
+    title: العمليات
   - 
-    title: Variables
+    title: المتغيرات
   - 
-    title: My blocks
+    title: كتلي البرمجية
   - 
-    title: Extensions
+    title: الإضافات
   - 
-    title: Paint editor
+    title: محرر الرسام
   - 
-    title: Sound editor
+    title: محرر الصوت
   - 
-    title: Debug
+    title: التصحيح
   - 
-    title: Editing tips
+    title: نصائح للتحرير
   - 
-    title: Share and comment
-    completion: internal
+    title: شارك و علق
+    completion: داخلي
   - 
-    title: Our Scratch projects
+    title: مشاريعنا لـScratch
