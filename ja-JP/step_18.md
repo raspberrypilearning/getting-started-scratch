@@ -1,82 +1,82 @@
-## Debug
+## デバッグ
 
-**Debugging** is finding and fixing mistakes in your code that are called **bugs**.
+**デバッグ** とは**バグ**と呼ばれるコード内の間違いを見つけて修正することです。
 
-* It's easier to identify issues if you make one change at a time, and then run your program
+* 一度に1つの変更を加えてからプログラムを実行すると、問題を特定しやすくなります。
 
-* It might take a few experiments for your project to work in the way that you planned
+* プロジェクトが計画どおりに機能するには、実験を何度か行うことが必要になる場合があります
 
-Here are some tips that can help you to debug a project when it is not doing what you want it to do:
+プロジェクトが目的の動作をしていないときにプロジェクトをデバッグするのに役立つヒントを次に示します。
 
 --- collapse ---
 ---
-title: Run smaller pieces of code
+title: コードの小さな部分だけを実行する
 ---
 
-You do not have to run a whole program to check whether the last few new blocks that you have added work.
+追加した最後のいくつかの新しいブロックが機能するかどうかを確認するために、プログラム全体を実行する必要はありません。
 
-* Click on a block in the Code area to run it — it is a quick way to check that a block is working as you expect it to
+* コードエリアでブロックをクリックして実行します—ブロックが期待どおりに機能していることを確認する簡単な方法です
 
-* To test a set of blocks on their own, drag them away from their **containing** script, click on them to test them, then drag them back to the main script
+* ブロックのセットを単独でテストするには、**ブロックを含む ** スクリプトからブロックをドラッグし、クリックしてテストしてから、元のスクリプトにドラッグして戻します。
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Add temporary delays
+title: 遅延を一時的に追加する
 ---
 
-Slow down the **execution** of your code when it is run. To do this, add a `wait`{:class="block3control"} or `wait until key pressed`{:class="block3control"} block, then remove the block when you have finished debugging your code.
+あなたのコードを動かすときに **実行** 速度を遅くします。 これを行うには、 `待つ`{:class="block3control"}または `キーが押されるまで待つ`{:class="block3control"}ブロックを追加し、コードのデバッグが終了したらブロックを削除します。
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Show variables on the Stage
+title: ステージに変数を表示する
 ---
 
-If your project uses `variables`{:class="block3variables"} to store data, then it can be helpful to show those `variables`{:class="block3variables"} on the Stage.
+プロジェクトで `変数`{:class="block3variables"}を使ってデータを保存している場合は、`変数`{:class="block3variables"}をステージに表示すると便利です。
 
-Click on the checkbox next to a `variable`{:class="block3variables"} in the `Variables`{:class="block3variables"} blocks menu to show or hide it on the Stage.
+`変数`{:class="block3variables"}ブロックメニューの`変数`{:class="block3variables"}の横にあるチェックボックスをクリックして、ステージ上で表示または非表示にします。
 
-Does the variable always have the value that you expect?
+変数は常に思い通りの値になっていますか？
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Add comments
+title: コメントを追加する
 ---
 
-Add comments to blocks, sets of blocks, and/or scripts. Use everyday language to explain what the code does. Sometimes, this will make you realise that your code does not actually do what you want it to do!
+ブロック、ブロックのセット、および/またはスクリプトにコメントを追加します。 日常の言葉を使って、コードの機能を説明します。 コメントを書くことで、コードが実際にあなたがしたいことをしていないことに気付くことがあるでしょう！
 
-Comments are useful for when you want to understand your code later, and they help other people to understand your projects.
+コメントは、後でコードを理解したいときに役立ち、他の人があなたのプロジェクトを理解するのに役立ちます。
 
 --- /collapse ---
 
 
-There are common problems that lots of beginners (and experts!) experience in Scratch.
+多くの初心者(そして専門家も！) がScratchで経験する一般的な問題があります。
 
 --- collapse ---
 ---
-title: Debugging tips for specific problems
+title: 特定の問題のデバッグのヒント
 ---
 
-+ **My sprite is going upside down** — Add a `set rotation style left-right`{:class="block3motion"} or `set rotation style don't rotate`{:class="block3motion"} block.
++ **私のスプライトが上下逆になっています** ー `回転方法を左右のみにする`{:class="block3motion"}または `設定方法を回転しないにする`{:class="block3motion"}ブロックを追加します。
 
-+ **My sprite 'jumps' when it changes costume or bounces** — Make sure that the costume is centred in the Paint editor (line up the blue cross in the costume with the crosshair in the centre of the Paint editor).
++ **コスチュームを変更するときや、跳ね返るとき、スプライトが「ジャンプ」します** —コスチュームがペイントエディタの中央にあることを確認します(コスチュームの青い十字をペイントエディタの中央にある十字線に合わせます)。
 
-+ **My sprite stops when it gets to the edge of the Stage** — Add an `if on edge, bounce`{:class="block3motion"} block.
++ **スプライトがステージの端まで行くと停止します**ー `もし端に着いたら、跳ね返る`{:class="block3motion"}ブロックを追加します。
 
-+ **My sound does not play** — Have you added a block to `play sound`{:class="block3sound"} when the sprite is clicked? If you have copied code from another sprite, you will need to add the sound to this sprite in the **Sounds** tab. Check the volume on your computer or tablet, and make sure that you have not lowered the volume with code — try `set volume to`{:class="block3sound"} `100`.
++ **サウンドが再生されません** ー スプライトがクリックされたときに`音を鳴らす`{:class="block3sound"}ブロックを追加しましたか？ 別のスプライトからコードをコピーした場合は、 **音** タブでこのスプライトに音を追加する必要があります。 パソコンやタブレットのボリュームをチェックしてください、また、コードで音量を下げていないことを確認してください。 － `音量を・・・%にする`{:class="block3sound"}ブロックを`100`にしてみてください。
 
-+ **Other sprites keep going in front of my sprite** — Use a `go to front layer`{:class="block3looks"} block.
++ **他のスプライトが私のスプライトの前を移動します** ー `最前面へ移動する`{:class="block3looks"}ブロックを使ってみてください。
 
-+ **My sprite only moves/changes once** — Put your code inside a `forever`{:class="block3control"} block so that it keeps running.
++ **スプライトが1回だけしか移動/変化しません** — コードを `ずっと`{:class="block3control"} ブロック内に配置して、実行を継続します。
 
-+ **My sprite does not change when I move a variable slider** — Put your code inside a `forever`{:class="block3control"} block so that it keeps updating.
++ **可変スライダーを動かしてもスプライトが変わりません** ー `ずっと`{:class="block3control"} ブロック内に配置して、更新を継続します。
 
 --- /collapse ---
 
-**Tip:** If you cannot find the problem after you have tried these techniques, then take a break or work on a different part of your project. When you come back, you might find the bug straight away!
+**ヒント:** これらの手法を試しても問題が見つからない場合は、休憩するか、プロジェクトの別の部分の作業をしてみてください。 戻ってきたら、すぐにバグを見つけるかもしれません！
 
