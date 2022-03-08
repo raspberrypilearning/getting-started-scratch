@@ -1,10 +1,10 @@
-## My blocks
+## ブロック定義
 
-`My blocks`{:class="block3myblocks"} allow you to create new blocks for a sprite. You give the block a name and then `define`{:class="block3myblocks"} what the new block does using other Scratch blocks. You can use your new block in any script on the sprite that owns the block.
+`ブロック定義`{:class="block3myblocks"}を使用すると、スプライトの新しいブロックを作成できます。 ブロックに名前を付け、新しいブロックが、他のScratchブロックを使って何をするか`定義`{:class="block3myblocks"}します。 新しいブロックは、ブロックを所有するスプライトの任意のスクリプトで使用できます。
 
-This example defines a `talk`{:class="block3myblocks"} block that makes a sprite change costume:
+この例 ではスプライトのコスチュームを変える`トーク`{:class="block3myblocks"}ブロックを定義しています。
 
-**Penguin chirps**: [See inside](https://scratch.mit.edu/projects/567554899/editor){:target="_blank"}
+**ペンギンのさえずり**: [中を見る](https://scratch.mit.edu/projects/567554899/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/567554899/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -25,15 +25,15 @@ when [space v] key pressed
 talk
 ```
 
-You can use `My blocks`{:class="block3myblocks"} to **organise** your code. It's simpler to group together all the blocks that make a sprite talk and then just use one `talk`{:class="block3myblocks"} block when you want your sprite to talk.
+`ブロック定義`{:class="block3myblocks"}を使用して、コード を**整理**することができます。 スプライトに話させるときに、スプライトが話すのに使うすべてのブロックをグループ化して、1つの `トーク`{:class="block3myblocks"}ブロックとして使う方が簡単です。
 
-If you decide that you want to change the way your sprite talks then you only have to change the code in one place.
+スプライトの話し方を変更したい場合は、コードを1か所変更するだけです。
 
-### My blocks with inputs
+### 入力のあるブロック定義
 
-You can also add **inputs** to `My blocks`{:class="block3myblocks"} so that they use the values you provide when you use the block.
+**入力**を `ブロック定義`{:class="block3myblocks"}に追加することができます。ブロックを使用するときに、あなたが提供した値をスプライトが使用するようになります。
 
-**Penguin talks**: [See inside](https://scratch.mit.edu/projects/567538874/editor){:target="_blank"}
+**ペンギンのおしゃべり**: [中を見る](https://scratch.mit.edu/projects/567538874/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/567538874/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -60,9 +60,9 @@ talk [hi]
 
 --- collapse ---
 ---
-title: Use My Blocks to organise code
+title: ブロック定義を使用してコードを整理する
 ---
-The simplest way to use `My Blocks`{:class="block3myblocks"} is to help organise your code. Here is a simple example.
+`ブロック定義`{:class="block3myblocks"}の最も簡単な使い方は、コードを整理することです。 これが簡単な例です。
 
 ```blocks3
 define move right
@@ -96,4 +96,4 @@ move left
 
 --- /collapse ---
 
-`My blocks`{:class="block3myblocks"} are similar to 'procedures', 'functions' or 'methods' in other programming languages.
+`ブロック定義`{:class="block3myblocks"}は、他のプログラミング言語の「手続き」、「関数」、または「メソッド」に似ています。
