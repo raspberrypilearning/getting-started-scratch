@@ -1,21 +1,21 @@
-## Set up a Scratch account
+## スクラッチアカウントを設定する
 
 --- task ---
 
-If you set up a Scratch account, you can save and keep all your Scratch projects online, and work on them again in the future.
+Scratchアカウントを設定すると、すべてのScratchプロジェクトをオンラインで保存および保持し、将来それらに再び取り組むことができます。
 
-You can also share your projects and receive feedback, as well as comment on projects made by other people in the Scratch community.
+また、プロジェクトを共有してフィードバックを受け取ったり、Scratchコミュニティの他の人が作成したプロジェクトにコメントしたりすることもできます。
 
 [[[create-scratch-account]]]
 
-If you are an educator, you can set up Teacher and Student Accounts.
+教育者の場合は、教師アカウントと学生アカウントを設定できます。
 
 --- collapse ---
 ---
-title: Scratch Teacher Accounts
+title: Scratchティーチャーアカウント
 ---
 
-Please see the [Scratch Teacher Account FAQ](https://scratch.mit.edu/educators/faq){:target="_blank"} for information on setting up an account that gives educators additional features for managing student participation on Scratch.
+Scratchへの生徒の参加を管理するための追加機能を教育者に提供するアカウントの設定については、 [Scratch Teacher Account FAQ](https://scratch.mit.edu/educators/faq){:target="_blank"}
 
 --- /collapse ---
 
