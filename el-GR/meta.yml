@@ -1,0 +1,32 @@
+---
+title: Ξεκινώντας με το Scratch
+hero_image: images/ScratchGuide_Banner.png
+description: Μάθε για το Scratch και ανάπτυξε τις δεξιότητές σου για να χρησιμοποιείς το Scratch με αυτονομία
+version: 4
+listed: false
+copyedit: false
+last_tested: '2020-11-28'
+steps:
+  - title: Εισαγωγή
+    completion: αφοσιωμένος
+  - title: Ρύθμιση του Scratch
+  - title: Δημιούργησε έναν λογαριασμό Scratch
+  - title: Ο Επεξεργαστής του Scratch
+  - title: Το πρώτο σου έργο Scratch
+  - title: Κίνηση
+  - title: Όψεις
+  - title: Ήχος
+  - title: Συμβάντα
+  - title: Έλεγχος
+  - title: Αισθητήρες
+  - title: Τελεστές
+  - title: Μεταβλητές
+  - title: Οι Εντολές μου
+  - title: Επεκτάσεις
+  - title: Ο επεξεργαστής ζωγραφικής
+  - title: Ο επεξεργαστής ήχου
+  - title: Εντοπισμός σφαλμάτων
+  - title: Συμβουλές επεξεργασίας
+  - title: Μοιράσου και σχολίασε
+    completion: εσωτερικός
+  - title: Τα έργα μας Scratch
