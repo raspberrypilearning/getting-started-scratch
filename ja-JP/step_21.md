@@ -1,25 +1,25 @@
-## Our Scratch projects
+## Scratchプロジェクト
 
-Our Scratch paths have six projects each, to help you learn different skills in Scratch, in order to create your own projects independently.
+私たちのScratchコースにはそれぞれ6つのプロジェクトがあり、独自のプロジェクトを独自に作成するために、Scratchのさまざまなスキルを学ぶのに役立ちます。
 
-You can return to this reference guide, Getting started with Scratch, whenever you need to remind yourself of the skills you have learnt.
+習得したスキルを思い出す必要があるときはいつでも、このリファレンスガイド「Scratch入門」に戻ることができます。
 
-These projects can be completed on any computer or tablet that runs Scratch 3.
+これらのプロジェクトは、Scratch3が実行できるコンピューターまたはタブレットで実行することができます。
 
-### Beginner Scratch projects
+### 初心者向けScratchプロジェクト
 
-If you are new to Scratch, start with our pathways for beginners:
+Scratchを初めて使用する場合は、初心者向けのコースから始めてください。
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
-![](images/Intro-banner.png)
+![](images / Intro-banner.png)
 [Introduction to Scratch: sprites, scripts, and loops](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"}<br/>
-In this introduction for beginners, you will learn how to add code, costumes, and sounds to sprites as you make animations, a game, apps, and a story.
+この初心者向けの入門編では、アニメーション、ゲーム、アプリ、ストーリーを作成するときに必要な、スプライトにコード、コスチューム、サウンドを追加する方法を学びます。
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/LAY-banner.png)
 [Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself){:target="_blank"}<br/>
-Learn how to look after yourself and others with Scratch projects to make you laugh, relax, control, create, exercise, and focus.
+Scratchプロジェクトで自分や他の人の世話をして、笑ったり、リラックスしたり、コントロールしたり、創作したり、運動したり、集中したりする方法を学びます。
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
@@ -29,14 +29,14 @@ Learn how to look after yourself and others with Scratch projects to make you la
 
 <br clear="both"/>
 
-### Beyond the basics Scratch projects
+### 基本的なScratchプロジェクトの次に
 
-If you already know about sprites, costumes, backdrops, and loops then try these projects:
+スプライト、コスチューム、背景、ループについてすでに知っている場合は、次のプロジェクトを試してください。
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/more-banner.png)
 [More Scratch: broadcast, decisions, and variables](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank"}<br/>
-More Scratch moves beyond the basics introduced in Introduction to Scratch. You will make apps, games, and simulations using message broadcasting, if..then and if..then..else decisions, and variables.
+More Scratchは、Introduction to Scratchで紹介した基本を超えています。 メッセージを送る、もし..なら および もし..なら..でなければ の条件分岐、および変数を使用して、アプリ、ゲーム、およびシミュレーションを作成します。
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
@@ -46,20 +46,20 @@ More Scratch moves beyond the basics introduced in Introduction to Scratch. You 
 
 <br clear="both"/>
 
-### Advanced Scratch projects
+### 高度なScratchプロジェクト
 
-If you want to learn about lists, clones, and creating your own blocks, then try these projects:
+リスト、クローン、および独自のブロック定義について知りたい場合は、次のプロジェクトを試してください。
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/more-banner.png)
 [Further Scratch: clones, my blocks, and boolean logic](https://projects.raspberrypi.org/en/pathways/further-scratch){:target="_blank"}<br/>
-Further Scratch moves beyond the skills introduced in Introduction to Scratch and More Scratch. You will make apps, games, computer-generated art, and simulations using boolean logic, functions, clones, and more.
+Further Scratchは、「Introduction to Sctratch」および「More Scratach」で紹介したスキルを超えています。 You will make apps, games, computer-generated art, and simulations using boolean logic, functions, clones, and more.
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![desc](images/POP-banner.png)
 [Protect our planet](https://projects.raspberrypi.org/en/pathways/protect-our-planet){:target="_blank"}<br/>
-Use Scratch to learn about our planet and how to protect the environment for future generations.
+私たちの惑星と将来の世代のために環境を保護する方法について学ぶためにScratchを使用します。
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
@@ -74,9 +74,9 @@ Use Scratch to learn about our planet and how to protect the environment for fut
 
 <br clear="both"/>
 
-### Scratch GPIO hardware projects for the Raspberry Pi
+### RaspberryPi用のScratch GPIOハードウェアプロジェクト
 
-If you have a Raspberry Pi computer, then you can also try these projects. You will need additional electronic components.
+Raspberry Piコンピューターをお持ちの場合は、これらのプロジェクトを試すこともできます。 追加の電子部品が必要になります。
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;"><br/>
 ![](images/physical-computing-text.png)
@@ -90,4 +90,4 @@ If you have a Raspberry Pi computer, then you can also try these projects. You w
 
 <br clear="both"/>
 
-Did you enjoy the Scratch guide? Have you spotted an issue? Please click the **Send feedback** button below and let us know!
+Scratchガイドをお楽みいただけましたか？ 問題を見つかりましたか？ 下の[ **フィードバックを送信**] ボタンをクリックして、お知らせください。
