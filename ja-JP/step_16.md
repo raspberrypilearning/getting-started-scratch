@@ -1,8 +1,8 @@
-## Paint editor
+## ペイントエディタ
 
-Use the Paint editor to create your own backdrops and costumes, and to edit existing backdrops and costumes.
+ペイントエディタを使って、独自の背景やコスチュームを作成したり、既存の背景やコスチュームを編集したりできます。
 
-![An annotated screenshot of the Costumes tab.](images/Scratch-Costume-tab.png){:width="600px"}
+![コスチュームタブの注釈付きスクリーンショット](images/Scratch-Costume-tab.png){:width="600px"}
 
 [[[scratch3-paint-a-new-backdrop-extended]]]
 
@@ -18,193 +18,193 @@ Use the Paint editor to create your own backdrops and costumes, and to edit exis
 
 --- collapse ---
 ---
-title: Duplicate and edit a costume to use in an animation
+title: コスチュームを複製、編集してアニメーションで使う
 ---
 
-Some Scratch sprites just have one costume, or have multiple costumes that don't work as an animation. If you choose one costume, then duplicate it (make a copy of it) and make a small change, it can create an animation effect.
+一部のScratchスプライトには、コスチュームが1つしかない場合や、複数あっても、アニメーションとして機能しない場合があります。 コスチュームを1つ選び、それを複製(コピーを作成) して小さな変更を加えると、アニメーション効果を作成できます。
 
-**Robot animation**: [See inside](https://scratch.mit.edu/projects/436260207/editor){:target="_blank"}
+**ロボットのアニメーション**: [中を見る](https://scratch.mit.edu/projects/436260207/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/436260207/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Switch to the **Costumes** tab for your sprite.
+スプライトの**コスチューム**タブに切り替えます。
 
-Choose the costume that you want to use, and delete the other costumes, because you will not need them for your animation. For example, the **Robot** sprite comes with costumes for three different robots, so you should choose one of the costumes and delete the other costumes.
+使用するコスチュームを選択し、他のコスチュームはアニメーションに必要ないため、削除してください。 たとえば、 **Robot** スプライトには、3つの異なるロボットのコスチュームが付属しているため、コスチュームの1つを選択し、他のコスチュームを削除する必要があります。
 
-Right-click (or on a tablet, tap and hold) on the costume, and choose **duplicate**.
+コスチュームを右クリック(またはタブレットでは長押し) して、 **複製**を選択します。
 
-Make small changes to the copy of the costume. For example, you can move, rotate, or change all or part of the costume. You can also add movement lines.
+コスチュームのコピーに小さな変更を加えます。 たとえば、コスチュームの全部または一部を移動、回転、または変更できます。 移動線を追加することもできます。
 
-If your costume uses vector graphics, then you can select parts of a costume and change each part separately.
+コスチュームがベクターグラフィックを使用している場合は、コスチュームのパーツを選択して、各パーツを個別に変更できます。
 
-![Duplicating a robot costume, then making changes to parts of the copy of the costume.](images/edit-robot-costume.gif)
+![ロボットのコスチュームを複製し、コスチュームのコピーの一部に変更を加える](images/edit-robot-costume.gif)
 
-You can duplicate the costume again and make more changes to add more frames to your animation.
+コスチュームをもう一度複製し、さらに変更を加えて、アニメーションにフレームを追加することができます。
 
-You can now use your costumes in a simple sprite animation.
-
---- /collapse ---
-
---- collapse ---
----
-title: Use the Fill tool to change the colours in a costume
----
-
-You can change the colour of your sprite. First, select your sprite in the Sprite list below the Stage and then click on the **Costumes** tab.
-
-Use the **Select** (Arrow) tool to highlight the part of the costume you want to change colour.
-
-![The Select (Arrow) tool.](images/challenge1-arrow-tool.png){:width="200px"}
-
-![Selecting a shape.](images/challenge1-arrow-tool-selecting-shape.png){:width="300px"}
-
-Go to the **Fill** colour chooser and select a colour. It will automatically fill the shape that you have selected.
-
-![The Fill colour chooser in the Paint editor, and the shape filled with the colour chosen.](images/challenge1-fill-tool.png){:width="300px"}
-
-Repeat the steps above for any part of the costume that you have missed, or for any other part of the costume you want to change colour.
-
-![Selecting a different part of the costume.](images/challenge1-select-another-shape.png){:width="300px"}
-
-![Different parts of the costume have been changed to different colours.](images/challenge1-change-shape-colour.png){:width="300px"}
-
-![The changed sprite on the Stage.](images/challenge1-change-costume-colour.png){:width="300px"}
-
---- /collapse ---
-
-Use the tips below to help you to create your own designs for your sprites in the Paint editor.
-
---- collapse ---
----
-title: Create scenery as sprites
----
-
-**Hill as a sprite**: [See inside](https://scratch.mit.edu/projects/452582516/editor){:target="_blank"}
-
-![A hill sprite.](images/challenge2-sprite-hill.png){:width="400px"}
-
-To make your own **Hill** sprite, shown in the example above, you can use the **Circle** and **Rectangle** tools in the Paint editor:
-
-+ Go to **Choose a Sprite** and select **Paint** to create a new sprite costume.
-
-![Selecting a Fill colour of green, deselecting the Outline, and drawing a green oval with the Circle tool, in the Paint editor.](images/challenge2-backdrop-sprite-costume.gif){:width="400px"}
-
-+ Choose a **Fill** colour. Click on **Outline** and deselect it (to do this, click on the box with the diagonal line in the bottom left-hand corner of the menu). Now, use the **Circle** tool to draw an oval. Then, select the **Rectangle** tool and draw a rectangle underneath the oval.
-
-+ If you use varying colours for the shapes, you may need to use the **Front** and **Back** tools in the Paint editor to move your shapes forward or backward so that they are positioned correctly within your background.
-
-+ You can select all the shapes and **Group** them together so that you can adjust them or move them as one shape.
-
-![The Group tool highlighted in the Paint editor.](images/challenge2-group-shapes.png){:width="400px"}
-
-Now, make other sprites for your scenery, if this fits in with your project idea.
-
-Remember to name your sprite(s).
+これで、簡単なスプライトアニメーションでコスチュームを使用できます。
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Use the Line tool to create a triangle
+title: 塗りつぶしツールを使用して、コスチュームの色を変更する
 ---
 
-You can create polygons, such as a triangle, and use these shapes to create roofs or mountains.
+スプライトの色を変更できます。 まず、ステージの下のスプライトリストでスプライトを選択し、**コスチューム**タブをクリックします。
 
-Go to **Choose a Sprite** and select **Paint** to create a new sprite costume. In this example, you will make houses.
+**選択** (矢印) ツールを使用して、色を変更するコスチュームの部分を強調表示します。
 
-**House**: [See inside](https://scratch.mit.edu/projects/453595663/editor){:target="_blank"}
+![選択（矢印）ツール](images/challenge1-arrow-tool.png){:width="200px"}
 
-![Drawing a rectangle with the Rectangle tool, and a triangle with the Line tool, in the Paint editor.](images/challenge2-backdrop-sprite-costumes-line-tool.gif){:width="400px"}
+![図形の選択](images/challenge1-arrow-tool-selecting-shape.png){:width="300px"}
 
-If you follow the instructions below, you can use the **Line** tool to create any shape:
-+ Choose a **Fill** colour. To choose the colour black, decrease the **Brightness** to zero (`0`).
+**塗りつぶし** 色選択パネルに移動し、色を選択します。 選択した図形が自動的に塗りつぶされます。
 
-![Changing the Fill colour to black.](images/challenge2-black.png){:width="150px"}
+![ペイントエディタの塗りつぶし色選択パネルと選択した色で塗りつぶされたシェイプ](images/challenge1-fill-tool.png){:width="300px"}
 
-+ Select **No outline**.
+見逃したコスチュームの部分、または色を変更したいコスチュームの他の部分について、上記の手順を繰り返します。
 
-![The 'No outline' symbol highlighted.](images/challenge2-nooutline.png){:width="200x"}
+![コスチュームの別の部分を選択する](images/challenge1-select-another-shape.png){:width="300px"}
 
-+ Use the **Rectangle** tool to draw a rectangle.
-+ Use the **Line** tool to draw a triangle. Make sure that you complete the triangle, otherwise it will not fill with colour.
-+ Move the two shapes together.
-+ Select the **Fill** (Bucket) tool and fill the triangle with colour.
-+ Use the **Rectangle** tool to draw another rectangle for the chimney.
-+ You can use the **Front** and **Back** tools in the Paint editor to move your shapes forward or backward so that they are positioned correctly. In this example, you will not need to do this, because the shapes are black to make a silhouette.
-+ Select all the shapes and **Group** them together so that you can adjust them or move them as one shape.
+![コスチュームの別の部分が別の色に変更された](images/challenge1-change-shape-colour.png){:width="300px"}
 
-To create duplicate shapes of your house (for example, to make a skyline), follow the tips under **Duplicate shapes to create a scenery costume** below.
+![ステージ上の変更されたスプライト](images/challenge1-change-costume-colour.png){:width="300px"}
+
+--- /collapse ---
+
+以下のヒントを使用して、ペイントエディタでスプライトの独自のデザインを作成するのに役立ててください。
+
+--- collapse ---
+---
+title: スプライトの風景を作成する
+---
+
+**スプライトの丘**: [中を見る](https://scratch.mit.edu/projects/452582516/editor){:target="_blank"}
+
+![丘のスプライト](images/challenge2-sprite-hill.png){:width="400px"}
+
+上の例に示す、あなた自身の**丘**スプライトを作るには、ペイントエディタの **円** と **四角形** ツールを使います。
+
++ **スプライトを選ぶ** から **描く** を選択して、新しいスプライトコスチュームを作成します。
+
+![ペイントエディタで、塗りつぶしの色を緑色に選択し、枠線の選択を解除し、円ツールを使用して緑色の楕円を描画する](images/challenge2-backdrop-sprite-costume.gif){:width="400px"}
+
++ **塗りつぶし** を選択します。 **枠線** をクリックして選択を解除します(これを行うには、メニューの左下隅にある対角線のあるボックスをクリックします)。 そして、 **円** ツールを使って楕円を描きます。 次に、**四角形**ツールを選択し、楕円の下に長方形を描きます。
+
++ 図形にさまざまな色を使用する場合 **手前に出す** および **奥に下げる** ツールを使用して、図形を前後に移動し、背景内に正しく配置されるようにする必要があります。
+
++ すべての図形を選択し、**グループ化** でまとめると、1つの図形として調整したり、移動したりできます。
+
+![ペイントエディタで強調表示されたグループ化ツール](images/challenge2-group-shapes.png){:width="400px"}
+
+プロジェクトのアイデアに合う場合は、背景用に他のスプライトを作成します。
+
+スプライトに名前を付けることを忘れないでください。
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Duplicate shapes to create a scenery costume
+title: 直線ツールを使用して三角形を作成する
 ---
 
-You may want to duplicate shapes within a costume so that your scenery appears busier or more crowded.
+三角形などの多角形を作成し、それを使って屋根や山を作成できます。
 
-**Multiple clouds**: [See inside](https://scratch.mit.edu/projects/447278432/editor){:target="_blank"}
+**スプライトを選ぶ** から **描く** を選択して、新しいスプライトコスチュームを作成します。 この例では、家を作ります。
 
-![Multiple clouds on the Stage.](images/challenge2-sprite-costume-multiples.png){:width="400px"}
+**家**: [中を見る](https://scratch.mit.edu/projects/453595663/editor){:target="_blank"}
 
-The effect of multiplying shapes is used by professional animators to create the impression of weather patterns, such as rain or clouds; a cluster of objects, such as buildings or a wood; or a crowd of people in a scene.
+![ペイントエディタで、四角形ツールを使用して長方形を描画し、直線ツールを使用して三角形を描画する](images/challenge2-backdrop-sprite-costumes-line-tool.gif){:width="400px"}
+
+以下の手順に従って、 **直線** ツールで任意の形状を作成することができます。
++ **塗りつぶし** を選択します。 黒色を選択するには、 **明るさ** をゼロ(`0`) まで減らします。
+
+![塗りつぶしの色を黒に変更する](images/challenge2-black.png){:width="150px"}
+
++ **枠線なし**を選択します。
+
+![強調表示された「外枠なし」のシンボル](images/challenge2-nooutline.png){:width="200x"}
+
++ **四角形** ツールを使用して、長方形を描きます。
++ **直線** ツールを使用して、三角形を描きます。 三角形を完成させるようにしてください。でないと、塗りつぶしができません。
++ 2つの図形を一つに くっつけます。
++ **塗りつぶし** (バケツ) ツールを選択し、三角形を塗りつぶします。
++ **四角形** ツールを使用して、煙突用に別の長方形を描きます。
++ **手前に出す** および **奥に下げる** ツールを使用して図形を前後に移動し、正しく配置されるようにします。 この例では、図形がシルエットに見えるように黒く作っているので、これを行う必要はありません。
++ すべての図形を選択し、 **グループ化** でまとめると、1つの図形として調整したり、移動したりできます。
+
+家の形を(たとえば、街並みを作るのに使うために) 複製するには、 次の**図形を複製して風景のコスチュームを作成する** ヒントに従ってください。
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: 図形を複製して風景のコスチュームを作成する
+---
+
+コスチューム内で図形を複製して、風景がにぎわったり、または混雑しているように見せることができます。
+
+**たくさんの雲**: [中を見る](https://scratch.mit.edu/projects/447278432/editor){:target="_blank"}
+
+![ステージ上のたくさんの雲](images/challenge2-sprite-costume-multiples.png){:width="400px"}
+
+図形を増殖する効果は、プロのアニメーターが雨や雲などの気象パターンや、建物や木などの物体のかたまり、またはシーン内の人々のあつまりを表現するのに使われます。
 
 --- no-print ---
 
-![Using the Select, Copy, and Paste tools to make a costume with multiple cloud shapes.](images/challenge2-sprite-costume-multiples.gif)
+![選択、コピー、貼り付けツールを使用して、複数の雲の形をしたコスチュームを作成する](images/challenge2-sprite-costume-multiples.gif)
 
 --- /no-print ---
 
-To multiply any type of shape:
-+ Go to **Choose a Sprite** and select, in this example, the **Cloud** sprite
-+ In the **Costumes** tab, use the **Select** tool to highlight the whole of the shape
-+ Use the **Copy** and **Paste** tools to create duplicates of the shape
-+ Use the **Select** tool to move the shape within the Paint editor
-+ You can vary the size of the shapes to help to create a greater sense of 3D effects, for example
-+ You can select all the shapes and **Group** them together, so that you can adjust them or move them as one shape
+任意のタイプの図形を増殖するには：
++ **スプライトを選ぶ** から、この例では、 **雲** スプライトを選択します。
++ **コスチューム** タブで、 **選択** ツールを使用して、図形全体を強調表示します。
++ **コピー** および **貼り付け** ツールを使用して、図形を複製します。
++ ペイントエディタ内で図形を移動するには**選択** ツールを使用します。
++ たとえば、図形のサイズを変更して、3D効果の感覚を高めることができます。
++ すべての図形を選択し、 **グループ化** でまとめると、1つの図形として調整したり、移動したりできます。
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Use Saturation and Brightness to create depth
+title: 鮮やかさと明るさを使用して奥行きを作成する
 ---
 
-In the real world, objects that are further away appear lighter in colour. To achieve more realistic 3D scenery, you can **decrease** the colour **Saturation** and/or **Brightness** of each sprite so that they appear further and further away.
+現実の世界では、遠くにあるものは色が薄く見えます。 よりリアルな3D風景を作り上げるために、各スプライトの色の **鮮やかさ** および/または **明るさ**を**減少** して、ずっと遠くに見えるようにします。
 
-!['Saturation' and 'Brightness' highlighted in the Fill colour chooser.](images/challenge2-saturation.png){:width="400px"}
+![塗りつぶし色選択パネルで強調表示された「鮮やかさ」と「明るさ」](images/challenge2-saturation.png){:width="400px"}
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Create a sprite with gaps that you can see through
+title: 隙間から向こうが見えるスプライトを作成する
 ---
 
-You can create a sprite that has gaps that you can see through. If it is positioned as the front layer and is the size of the Stage, it can appear like a view through the bars of a cage or a window.
+隙間から向こうが見えるスプライトを作成することができます。 そのスプライトが、前の層に配置され、ステージいっぱいのサイズである場合、檻(おり) または窓のバーを通しての景色のように見えるでしょう。
 
 --- no-print ---
 
-**Caged lion**: [See inside](https://scratch.mit.edu/projects/445680159/editor){:target="_blank"}
+**檻(おり)の中のライオン**: [中を見る](https://scratch.mit.edu/projects/445680159/editor){:target="_blank"}
 
-![A cage sprite costume.](images/challenge2-sprite-costume-mask-cage.gif)
+![檻のスプライトコスチューム](images/challenge2-sprite-costume-mask-cage.gif)
 
 --- /no-print ---
 
-To create a type of masking sprite:
-+ Go to **Choose a Sprite** and select **Paint**
-+ Choose a **Fill** colour with no **Outline** and draw a vertical rectangle
-+ Use the **Copy** and **Paste** tools to repeat this shape
-+ Use the **Select** tool to move the shapes around
-+ As you place your shapes, make sure that they are touching the edge of the Stage to fit in with your project idea
+一部を覆い隠すタイプのスプライトを作成するには：
++ **スプライトを選ぶ** から、**描く** を選択します。
++ **塗りつぶし** 色と **枠線** なしを選択し、縦長の長方形を描画します
++ **コピー** および **貼り付け** ツールを使用して、図形を繰り返し複製します。
++ **選択** ツールを使用して、図形を移動します。
++ 図形をを配置するときは、プロジェクトのアイデアに合うように、ステージの端にぴったりと合うようにしてください。
 
-![The Copy and Paste tools highlighted in the Paint editor.](images/challenge2-sprite-costume-mask-copy.png)
+![ペイントエディタで強調表示されたコピーと貼り付けツール](images/challenge2-sprite-costume-mask-copy.png)
 
 --- /collapse ---
 
-**Tip:** If you find it hard to manage the sprites on your Stage, such as having a large sprite that keeps covering a much smaller one, you can click on **Hide** so that you don't see a sprite or sprites. Then, when you have finished, click on **Show** again.
+**ヒント:** 大きなスプライトが小さなスプライトを覆っているなど、ステージ上でスプライトを管理するのが難しい場合は、 **表示しない** をクリックして、スプライトが表示されないようにすることができます。 その後、作業が終了したら、また**表示する**をクリックしてください。
 
-![The 'Show' and 'Hide' icons highlighted in the Sprite pane.](images/hideSprites.png){:width="300px"}
+![スプライトペインで強調表示された「表示」および「非表示」アイコン](images/hideSprites.png){:width="300px"}
