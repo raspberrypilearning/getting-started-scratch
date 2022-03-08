@@ -103,11 +103,11 @@ clear graphic effects
 Για να δημιουργήσεις ένα εφέ κινουμένων σχεδίων για τα αντικείμενά σου, μπορείς να αλλάξεις τις ενδυμασίες τους.
 
 ```blocks3
-άλλαξε ενδυμασία σε (v)
+switch costume to ( v)
 
-επόμενη ενδυμασία 
+next costume
 
-(ενδυμασία [αριθμός v])
+(costume [number v])
 ```
 
 [[[scratch3-change-costumes-to-show-mood]]]
