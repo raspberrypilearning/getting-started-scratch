@@ -1,40 +1,40 @@
-## Share and comment
+## 共有してコメントする
 
 --- task ---
 
-To let other people access your project, make your project public. You can also share your project's unique web address with other people.
+他の人があなたのプロジェクトにアクセスできるようにするには、プロジェクトを公開します。 プロジェクトの一意のWebアドレスを他の人と共有することもできます。
 
 [[[share-scratch]]]
 
 --- collapse ---
 ---
-title: More on sharing your project's web address
+title: プロジェクトのWebアドレスの共有の詳細
 ---
 
-+ Your project will always start in the position that you last saved it in, so make sure that you save your project in the right starting position
-+ When you click on **See Project Page**, the web address of your project will appear in the browser bar: ![A web address.](images/from-me-webaddress.png){:width="400px"}
-+ Copy the web address and paste it into an email, or write down the web address and give it to the person who you want to share the project with
++ プロジェクトは常に最後に保存した位置から開始されるため、プロジェクトを正しい開始位置で保存するようにしてください。
++ **プロジェクトページを見る**をクリックすると 、プロジェクトのWebアドレスは、ブラウザのバーに表示されます。![A web address.](images/from-me-webaddress.png){:width="400px"}
++ Webアドレスをコピーして電子メールに貼り付けるか、Webアドレスを書き留めて、プロジェクトを共有する相手に渡します。
 
-**Tip:** You can access completed Scratch projects on a computer or mobile device.
+**ヒント:** 完了したScratchプロジェクトには、コンピューターまたはモバイルデバイスでアクセスできます。
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What to put in Instructions and Notes and Credits
+title: 使い方と、メモとクレジット に書き込むこと
 ---
 
-On the Project Page, you can fill in the Instructions to explain how to use your project, and complete your project’s Notes and Credits.
+プロジェクトページで、プロジェクトの使い方を説明する手順を入力し、プロジェクトのメモとクレジットを記入することができます。
 
-In the **Instructions** box, tell people how to use your project:
-+ Include all the instructions that the user needs to explore your project fully.
-+ Make sure that your instructions are given step by step and are simple. Instructions are easier to read if you write them in a list.
-+ Include all the user interaction, such as clicking on the green flag to start, and which sprites to click on.
-+ Let the user know if the project includes sound, as they may need to wear headphones or turn the volume up on their device.
+**使い方** ボックスで、プロジェクトの使用方法を人々に伝えます。
++ ユーザーがプロジェクトの全て見て回るために必要なすべての説明を含めます。
++ 説明が段階的で、簡単であることを確認してください。 リストに書くと、使い方が読みやすくなります。
++ ユーザーが行うすべての操作を含めます。緑の旗を押して始めることや、クリックするスプライトなどです。
++ プロジェクトに音が含まれているかどうかも記入します。ヘッドホンを装着するか、デバイスの音量を上げることが必要な場合があるためです。
 
-In the **Notes and Credits** box:
-+ Thank the people who created the projects that inspired you. You could even include the web addresses of the projects.
-+ Did you include images or sounds that were created by someone else? If so, credit the source(s) in this box.
+**メモとクレジット** ボックスでは：
++ あなたにインスピレーションを与えたプロジェクトを作成した人々に感謝します。 プロジェクトのWebアドレスを含めることもできます。
++ 他の人が作成した画像や音声を使っていますか？ その場合は、このボックスに参照元のをクレジットを記入します。
 
 --- /collapse ---
 
@@ -42,7 +42,7 @@ In the **Notes and Credits** box:
 
 --- task ---
 
-Give and receive feedback on projects.
+プロジェクトに関するフィードバックを送ったり受け取ったりします。
 
 [[[comments-feedback-scratch]]]
 
