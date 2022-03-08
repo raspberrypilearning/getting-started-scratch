@@ -1,40 +1,40 @@
-## Set up Scratch
-You can use Scratch on a laptop or desktop computer, or on a tablet. You can also use Scratch on a Raspberry Pi computer.
+## Scratchをセットアップする
+Scratchは、ノートパソコンまたはデスクトップコンピューター、あるいはタブレットで使用できます。 RaspberryPiコンピューターでScratchを使用することもできます。
 
 --- task ---
 
-Open a web browser on your computer or tablet and visit [rpf.io/scratch-new](https://rpf.io/scratch-new){:target="_blank"} to open a new project in the Scratch editor. Scratch will open in a new tab in your web browser.
+コンピューターまたはタブレットでウェブブラウザを開き、 [rpf.io/scratch-new](https://rpf.io/scratch-new){:target="_ blank"}にアクセスして、Scratchエディターで新しいプロジェクトを開きます。 Scratchは、ウェブブラウザの新しいタブで開きます。
 
-**Tip:** You can also visit [scratch.mit.edu](https://scratch.mit.edu/){:target="_blank"} and then click on **Create**.
+**ヒント:** [scratch.mit.edu](https://scratch.mit.edu/){:target="_blank"}にアクセスし、**作る**をクリックして始めることもできます 。
 
 --- collapse ---
 ---
-title: Working offline without an internet connection
+title: インターネットに接続せずにオフラインで作業する
 ---
 
-If you need to work offline (without an internet connection), then you can [download Scratch](https://scratch.mit.edu/download){:target="_blank"} and install it on a computer.
+もし、オフラインで(インターネットに接続せずに)作業する必要がある場合は、[Scratchをダウンロード](https://scratch.mit.edu/download){:target="_blank"}してコンピュータにインストールします。
 
-You cannot work offline if you are using a tablet.
+タブレットを使用している場合、オフラインで作業することはできません。
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Scratch on Raspberry Pi
+title: Raspberry PiのScratch
 ---
 
-If you are using a Raspberry Pi computer, Scratch may already be installed. Click on the **Raspberry Pi** icon to open the menu, then click on **Programming**, then select **Scratch 3**.
+Raspberry Piコンピューターを使用している場合は、Scratchが既にインストールされている可能性があります。 **Raspberry Pi**アイコンをクリックしてメニューを開き、 **プログラミング**をクリックし、**Scratch3**を選択します 。
 
-If you need to install Scratch, follow this process:
-+ Click on the Raspberry Pi icon to open the menu
-+ Click on **Preferences**
-+ Click on **Recommended Software**
-+ Select **Scratch 3**
-+ Click on **OK**
+Scratchをインストールする必要がある場合は、次のプロセスに従ってください。
++ Raspberry Piアイコンをクリックしてメニューを開きます
++ **設定**をクリックします。
++ **Recommended Software**クリックします
++ **Scratch3**を選択します。
++ **OK**をクリックします。
 
-![Recommended software dialogue with Scratch 3 selected.](images/recommended-software-scratch-3.png)
+![Scratch3が選択された推奨ソフトウェアダイアログ。](images/recommended-software-scratch-3.png)
 
-See [Scratch 3 Desktop for Raspberry Pi](https://www.raspberrypi.org/blog/scratch-3-desktop-for-raspbian-on-raspberry-pi/) for more information.
+詳細については [Raspberry PiのためのScratch3デスクトップ](https://www.raspberrypi.org/blog/scratch-3-desktop-for-raspbian-on-raspberry-pi/) を参照してください。
 
 --- /collapse ---
 
@@ -42,56 +42,56 @@ See [Scratch 3 Desktop for Raspberry Pi](https://www.raspberrypi.org/blog/scratc
 
 --- task ---
 
-When you use Scratch with this guide or one of our projects, you will need to switch between Scratch and the project instructions.
+このガイドや私たちのプロジェクトでScratchを使用する際は、Scratchとプロジェクトの説明を切り替える必要があります。
 
 --- collapse ---
 ---
-title: Switch between browser tabs
+title: ブラウザのタブを切り替える
 ---
 
-Click on (or on a tablet, tap) the title of a browser tab to switch between the Scratch editor and project instructions.
+ブラウザタブのタイトルをクリック(タブレットではタップ) して、Scratchエディタとプロジェクトの説明を切り替えます。
 
-![A browser with two tabs.](images/two-tabs.png)
+![2つのタブがあるブラウザ。](images/two-tabs.png)
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Side-by-side instructions and Scratch
+title: 説明とScratchを横並びで使う
 ---
 
-If your screen is big enough, you can view Scratch next to the project instructions.
+画面が十分に大きい場合は、プロジェクトの説明の横にScratchを表示できます。
 
-![Side-by-side instructions and Scratch.](images/side-by-side.png)
+![横並びに配置された説明とScratch](images/side-by-side.png)
 
-If you are using Microsoft Windows 10, drag the Scratch tab in your web browser so that it is in a separate window, and keep dragging until the cursor reaches the right-hand edge of your screen. The window will then be positioned on the right-hand side of the screen.
+Microsoft Windows 10を使用している場合は、ウェブブラウザの[Scratch] タブをドラッグして別のウィンドウに表示し、カーソルが画面の右端に到達するまでドラッグを続けます。 そうすると、ウィンドウは画面の右側に配置されます。
 
-Now, drag the window containing this guide or your project instructions to the left-hand side of your screen until the cursor reaches the left-hand edge. The window will take up the left half of your screen.
+次に、このガイドまたはプロジェクトの説明が含まれているウィンドウを、カーソルが左端に達するまで画面の左側にドラッグします。 ウィンドウは画面の左半分いっぱいに表示されます。
 
-You can resize the windows to get them just the way you want.
+ウィンドウのサイズを変更して、希望どおりのウィンドウにすることができます。
 
-**Tip:** You can also hold down the <kbd>Windows</kbd> key and press the <kbd>Left</kbd> arrow key or <kbd>Right</kbd> arrow key to position a window in the left or right half of your screen.
+**ヒント：** <kbd>Windows</kbd> キーを押しながら、 <kbd>左</kbd> 矢印キーまたは <kbd>右</kbd> 矢印キーを押して、画面の左半分または右半分にウィンドウを配置することもできます。
 
 --- /collapse ---
 
-Try it now and see how you prefer to work.
+今すぐ試して、どのやり方がいいかを確認してください。
 
 --- /task ---
 
 --- task ---
 
-When you are using Scratch in a web browser, you can zoom in or out to adjust the size.
+ウェブブラウザでScratchを使用している場合は、ズームインまたはズームアウトしてサイズを調整できます。
 
-For example, if you are using Microsoft Windows and you want to use zoom on a webpage in Google Chrome or Microsoft Edge, hold down the <kbd>Ctrl</kbd> key and press the <kbd>+</kbd> key or <kbd>-</kbd> key to zoom in or out.
+例えば、あなたがMicrosoft Windowsを使用していて、Google ChromeまたはMicrosoft Edgeのウェブページ上でズームを使いたい場合は、 <kbd>Ctrlキー</kbd>を押しながら <kbd>+</kbd> キーまたは <kbd>-</kbd> キーを押して、ズームインまたはズームアウトします。
 
 --- collapse ---
 ---
-title: Use zoom in the Code area
+title: コードエリアでズームを使用
 ---
 
-You can also use the zoom controls in the Code area in Scratch to change the size of the code blocks in the Code area.
+Scratchのコードエリアにあるズームコントロールを使用して、コードエリアのコードブロックのサイズを変更することもできます。
 
-![The zoom controls in the Code area.](images/zoom-code-area.png)
+![コードエリアのズームコントロール。](images/zoom-code-area.png)
 
 --- /collapse ---
 
