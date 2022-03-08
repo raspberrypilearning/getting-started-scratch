@@ -1,62 +1,62 @@
-## Editing tips
-It's useful to learn how to copy and delete code blocks, and duplicate sprites.
+## 編集のヒント
+コードブロックをコピーしたり削除したりするする方法や、スプライトを複製する方法を覚えておくと便利です。
 
-**Tip:** You can use <kbd>Ctrl-z</kbd> (hold down the Ctrl key and tap 'z') to undo lots of actions in Scratch. If you accidentally delete a Sprite or other item, you can use **Restore** from the **Edit** menu to get it back.
+**ヒント:** <kbd>Ctrl-z</kbd> (Ctrlキーを押しながら「z」を押す) を使用して、Scratchの多くのアクションを元に戻すことができます。 あなたが誤ってスプライトやその他の項目を削除した場合、元に戻すのに**編集** メニューの **削除の取り消し** が使えます 。
 
-You can delete code blocks you don't need any more:
+不要になったコードブロックを削除できます。
 
 [[[scratch-delete]]]
 
-Duplicating or copying code can save you time when making a project.
+コードを複製またはコピーすると、プロジェクトを作成する時間を節約できます。
 
 --- collapse ---
 ---
-title: Duplicate blocks
+title: ブロックを複製する
 ---
 
-Duplicate blocks or sets of blocks to reuse in a sprite's program:
+スプライトのプログラムで再利用するためにブロックまたはブロックのセットを複製します。
 
-* Go to the **Code** tab.
-* Right-click (or on a tablet, tap and hold) on the first block that you want to copy. It will select all the blocks below it too.
-* Select **Duplicate** in the drop-down menu. ![Selecting 'Duplicate' in the menu.](images/scratchguide-duplicate.png){:width="300px"}
-* Drag the duplicated code where you want it to go. ![Moving the duplicated code.](images/scratchguide-drag.png){:width="300px"}
-* Delete any blocks that you do not need.
+* **コード**タブをクリックします。
+* コピーする最初のブロックを右クリック(またはタブレットではタップアンドホールド) します。 その下のブロックもすべて選択されます。
+* ドロップダウンメニューから**複製**を選びます。 ![Selecting 'Duplicate' in the menu.](images/scratchguide-duplicate.png){:width="300px"}
+* 複製したコードを目的の場所にドラッグします。 ![Moving the duplicated code.](images/scratchguide-drag.png){:width="300px"}
+* 不要なブロックを削除します。
 
 --- /collapse ---
 
 [[[scratch3-duplicate-sprite]]]
 
-Create a new sprite and copy over all or some of the first sprite's code.
+新しいスプライトを作成し、最初のスプライトのコードのすべてまたは一部をコピーします。
 
 --- collapse ---
 ---
-title: Copy a sprite's code
+title: スプライトのコードをコピーする
 ---
 
-In the bottom right-hand corner of the Sprite list, click on **Choose a Sprite** and select the sprite that you want to add.
+スプライトリストの右下隅にある **スプライトを選ぶ** をクリックして、追加するスプライトを選択します。
 
-Click on the first sprite and go to its **Code** tab. Drag the code that is in the first sprite's Code area to the image of the second sprite in the Sprite list, then let go of the code to finish copying it to the second sprite. You may have one script that starts with a `when green flag clicked`{:class="block3events"} block, as well as another script that starts with `when this sprite clicked`{:class="block3events"}. Make sure that you copy **all** the code scripts that you have created.
+最初のスプライトをクリックして、その **コード** タブに移動します。 最初のスプライトのコード領域にあるコードをスプライトリストの2番目のスプライトの画像にドラッグし、コードを離して2番目のスプライトへのコピーを終了します。 `緑のフラグが押されたとき`{:class="block3events"}ブロックで始まるスクリプトもあれば、`このスプライトが押されたとき`{:class="block3events"}で始まるものもあるでしょう。 作成したコードスクリプトを **すべて** コピーしてください。
 
-![Copying code to another sprite.](images/challenge1-sprite-list.gif){:width="300px"}
+![コードを別のスプライトにコピーする](images/challenge1-sprite-list.gif){:width="300px"}
 
-Your second sprite will now have exactly the same code as your first sprite. Do not run the program until you have started to change the second sprite's code — you might not see the second sprite because it might be positioned underneath the first sprite.
+2番目のスプライトには、最初のスプライトとまったく同じコードがあります。 2番目のスプライトのコードの変更を開始するまでプログラムを実行しないでください。2番目のスプライトは最初のスプライトの下に配置されている可能性があるため、表示されない場合があります。
 
 --- /collapse ---
 
-If you want to copy costumes, sprites, sounds, and scripts between projects, drag them into the **Backpack**.
+プロジェクト間でコスチューム、スプライト、サウンド、スクリプトをコピーする場合は、それらを **バックパック**にドラッグします。
 
 [[[scratch-backpack]]]
 
-It's always worth spending some time making sure you have followed best practices so your project is easy to understand.
+プロジェクトを理解しやすくするために、ベストプラクティスに従っていることを確認するために時間を費やす価値は常にあります。
 
 --- collapse ---
 ---
-title: Best practices for Scratch projects
+title: Scratchプロジェクトのベストプラクティス
 ---
 
-- Name all sprites, costumes, sounds, variables, and messages sensibly. It’s much easier to understand projects that use helpful names.
-- Fill in the Project Page with a good title, instructions, and notes so that users know how to use your project and where you got ideas from.
-- Add short comments that explain what your code is doing.
-- Make sure your scripts are tidy in the **Code** tab. You can right-click and choose **Clean up Blocks** or arrange the scripts in a way that makes sense to you. Try and put similar scripts together.
+- すべてのスプライト、コスチューム、サウンド、変数、およびメッセージに適切な名前を付けます。 役立つ名前を使用するプロジェクトを理解する方がはるかに簡単です。
+- プロジェクトページに適切なタイトル、説明、メモを記入して、ユーザーがプロジェクトの使用方法とアイデアの入手先を理解できるようにします。
+- コードが何をしているのかを説明する短いコメントを追加します。
+- **コード** タブでスクリプトが整理されていることを確認してください。 右クリックして** きれいにする **を選択するか、スクリプトを適切な方法で配置できます。 同様のスクリプトをまとめてみてください。
 
 --- /collapse ---
