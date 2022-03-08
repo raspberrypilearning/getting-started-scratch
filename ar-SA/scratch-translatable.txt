@@ -1,83 +1,83 @@
-Click on 90 and drag the arrow to change
+أنقر على 90 وأسحب السهم للتغير
 
-or all-around or none
+أو في جميع الاتجاهات أو لا دوران
 
-hide speech after 2 seconds
+أخف الكلام بعد ثانيتين
 
-run blocks when the green flag above the Stage is clicked
+عندما يتم النقر على العلم الأخضر في أعلى المنصة نفذ الكتل البرمجية
 
-run the blocks when the sprite for this script is clicked
+عندما يتم النقر على الكائن الخاص بهذا النص نفذ الكتل البرمجية
 
-run the blocks when the stage is clicked
+عندما يتم النقر على المنصة نفذ الكتل البرمجية
 
-change to number, letter or arrow keys
+غير إلى مفاتيح أخرى رقم, حرف أو سهم
 
-run blocks when the microphone detects sound
+عندما يكتشف الميكروفون صوتاً نفذ الكتل البرمجية
 
-run blocks when the timer reaches 10 seconds
+نفذ الكتل البرمجية عندما يصل المؤقت إلى 10 ثوان
 
-delay for 1 second
+أخر لمدة 1 ثانية
 
-delay for one tenth of a second
+أخر لعُشر من الثانية
 
-run the blocks inside four time
+أعد تنفيذ الكتل البرمجية لأربع مرات
 
-run the blocks inside until stopped
+أعد تنفيذ الكتل البرمجية حتى تتوقف
 
-stop all scripts in all sprites
+وقف جميع النصوص في جميع الكائنات
 
-delay until the condition is true
+أخر إلى أن يكون الشرط صحيحاً
 
-repeat the blocks inside until the condtion is true
+أعد تنفيذ الكتل البرمجية إلى أن يكون الشرط صحيحاً
 
-clones the sprite that runs this block
+يستنسخ الكائن الذي ينفذ هذه الكتلة
 
-clones another sprite in the project
+يستنسخ كائنًا آخر في المشروع
 
-the script that runs when the clone is created
+النص الذي يعمل عندما يتم إنشاء النسخة
 
-stops the clone's scripts and deletes it
+أوقف نصوص النسخة و أحذفها
 
-What's your name
+ما أسمك
 
-the text the the user typed
+النص الذي كتبه المستخدم
 
-hour, minute, ...
+ساعة، دقيقة، ...
 
-A number from 1 to 10
+رقم من 1 إلى 10
 
-talk
+حديث
 
-use the provided input
+استخدم المدخلات المقدمة
 
-words
+كلمات
 
-hello
+مرحبا
 
-hi
+مرحبا
 
-transparent
+شفاف
 
-speed
+سرعة
 
-angle
+زاوية
 
-delay
+تأخير
 
-beat
+ضربة
 
-move right
+تحرك يميناً
 
-move left
+تحرك يساراً
 
-right_1
+يمين_1
 
-right_2
+يمين_2
 
-right_3
+يمين_3
 
-left_1
+يسار_1
 
-left_2
+يسار_2
 
-left_3
+يسار_3
