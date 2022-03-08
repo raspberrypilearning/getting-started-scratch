@@ -1,14 +1,14 @@
-## The Scratch editor
+## Scratchエディタ
 
-![An annotated screenshot of the Scratch editor.](images/scratch-interface.png)
+![Scratchエディタの注釈付きスクリーンショット](images/scratch-interface.png)
 
-The **Stage** is where the action takes place in your project. The Stage has one or more background images called **backdrops**.
+**ステージ** は、プロジェクトでアクションが実行される場所です。 ステージには**背景**と呼ばれる1つ以上の背景画像があります。
 
-**Sprites** are characters and objects that appear on the **Stage**. Sprites are given instructions using Scratch code blocks. This is called **programming**.
+**スプライト** は **ステージ** に表示されるキャラクターとオブジェクトです。 スプライトには、Scratchコードブロックを使用して指示が与えられます。 それは**プログラミング**と呼ばれます。
 
-Drag **code blocks** from the **Blocks menu** to the **Code area** to program your sprites and the Stage. Code blocks can make a sprite move around, change the way that it looks, and play sounds.
+**コードブロック** を **ブロックメニュー** から **コード領域** にドラッグして、スプライトとステージをプログラムします。 コードブロックを使用すると、スプライトを動かしたり、外観を変更したり、サウンドを再生したりできます。
 
-Sprites can have multiple **costumes**. You can change the costume to change the appearance of a sprite. This can be used for effects such as giving the appearance of walking.
+スプライトは、いくつもの**コスチューム**持つことができます。 コスチュームを変更して、スプライトの外観を変更できます。 歩いているような効果を出すときなどに使えます。
 
-A **script** is a series of blocks that are joined together to give instructions to the Stage or sprites. The Stage and sprites can each have many different scripts. 
+**スクリプト** は、ステージまたはスプライトに指示を与えるために結合される一連のブロックです。 ステージとスプライトには、それぞれ多くの異なるスクリプトを含めることができます。 
 
