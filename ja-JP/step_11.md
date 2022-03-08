@@ -1,10 +1,10 @@
-## Sensing
+## 調べる
 
-The blocks in the `Sensing`{:class="block3sensing"} blocks menu are used to get user text input, detect conditions, and report on values in your project.
+`調べる`{:class= block3sensing"}ブロックメニューのブロックは、ユーザーテキスト入力を取得し、状態を検出し、プロジェクトの値として伝えます。
 
-There are several hexagonal `Sensing`{:class="block3sensing"} blocks that you can use in `Control`{:class="block3control"} blocks to make decisions and control when blocks run.
+`制御`{:class="block3control"}ブロックのなかで、ブロックがいつ動くかの決定や制御に使う六角形の`調べる`{:class="block3sensing"} ブロックがいくつかあります。
 
-The `touching`{:class="block3sensing"} block has options for detecting whether the sprite that owns the script is touching the mouse pointer (where you finger last touched on a tablet), the edge of the Stage, or another sprite:
+`触れた`{:class="block3sensing"}ブロックは、スクリプトが書かれているスプライトが、マウスポインター(タブレットでは最後に指で触れた場所)、ステージの端、または別のスプライトに触れているかどうかを選んで検出することができます。
 
 ```blocks3
 <touching (mouse-pointer v) ?>
@@ -14,7 +14,7 @@ The `touching`{:class="block3sensing"} block has options for detecting whether t
 <touching (Sprite2 v) ?>
 ```
 
-There are blocks for detecting whether the sprite that owns the script is touching another colour (on the Stage or another sprite), or whether a colour on this sprite is touching another colour.
+スクリプトが書かれているスプライトが別の色(ステージまたは別のスプライト) に触れているかどうか、またはこのスプライトの色が別の色に触れているかどうかを検出するためのブロックがあります。
 
 ```blocks3
 <touching color (#c5a97b) ?>
@@ -22,19 +22,19 @@ There are blocks for detecting whether the sprite that owns the script is touchi
 <color (#c219ed) is touching (#62d1e0) ?>
 ```
 
-The `key pressed`{:class="block3sensing"} block has options for number, letter, and arrow keys. You need a keyboard to be able to enter keys. It detects whether the key is currently being pressed:
+`キーが押された`{:class="block3sensing"}ブロックでは、キーを数字、文字、および矢印キーから選ぶことができます。 キーを入力するにはキーボードが必要です。 キーが現在押されているかどうかを検出します。
 
 ```blocks3
 <key (space v) pressed?>
 ```
 
-The `mouse down`{:class="block3sensing"} block detects whether the mouse is currently pressed, or the screen is being tapped or touched on a touchscreen:
+`マウスが押された`{:class="block3sensing"}ブロックは、マウスが現在押されているか、タッチスクリーンでは画面がタップまたはタッチされているかを検出します。
 
 ```blocks3
 <mouse down?>
 ```
 
-The `ask`{:class="block3sensing"} and `answer`{:class="block3sensing"} blocks are used to get text input from the user:
+`聞いて待つ`{:class="block3sensing"}と `答え`{：class = "block3sensing"}ブロックは、ユーザーからのテキスト入力を取得するために使用されます。
 
 ```blocks3
 ask [What's your name] and wait
@@ -42,13 +42,13 @@ ask [What's your name] and wait
 (answer) // the text the the user typed 
 ```
 
-The `ask`{:class="block3sensing"} block works with a keyboard or with a virtual on-screen keyboard on a tablet.
+`聞いて待つ`{:class="block3sensing"}ブロックは、キーボードまたはタブレットの仮想オンスクリーンキーボードで機能します。
 
-The `answer`{:class="block3sensing"} block is a reporter block that reports a value and can be used as a variable.
+`答え`{:class="block3sensing"}ブロックは、値を報告し、変数として使用できるレポーターブロックです。
 
 [[[scratch3-ask-answer-chat]]]
 
-The `Sensing`{:class="block3sensing"} blocks menu also contains several reporter blocks that can be used to get values:
+`調べる`{:class="block3sensing"}ブロックメニューには、値を取得するために使用できるいくつかのレポーターブロックも含まれています。
 
 ```blocks3
 (distance to (mouse-pointer v))
@@ -56,7 +56,7 @@ The `Sensing`{:class="block3sensing"} blocks menu also contains several reporter
 (distance to (Sprite2 v))
 ```
 
-You can detect the current position of the mouse-pointer (or the current or most recent position of your finger on a tablet):
+マウスポインタの現在の位置(またはタブレット上の指の現在または最新の位置) を検出できます。
 
 ```blocks3
 (mouse x)
@@ -64,13 +64,13 @@ You can detect the current position of the mouse-pointer (or the current or most
 (mouse y)
 ```
 
-You can detect the `loudness`{:class="block3sensing"} of sound from the microphone. A pop-up window will ask the user for permission to use the microphone:
+マイクからの音の`音量`{:class="block3sensing"}を検出することができます。 ポップアップウィンドウがユーザーにマイクの使用許可を求めます。
 
 ```blocks3
 (loudness)
 ```
 
-The `timer`{:class="block3sensing"} starts counting when the project loads, and can be set back to `0` with `reset timer`{:class="block3sensing"}:
+`タイマー`{:class="block3sensing"} はプロジェクトが読み込まれた時にカウントし始め、`タイマーをリセット`{:class="block3sensing"}で`0`に戻すことができます。
 
 ```blocks3
 (timer)
@@ -78,7 +78,7 @@ The `timer`{:class="block3sensing"} starts counting when the project loads, and 
 reset timer
 ```
 
-You can also access reporters for the Stage and other sprites:
+ステージやその他のスプライトのレポーターにアクセスすることもできます。
 
 ```blocks3
 ([backdrop # v] of (_stage_ v))
@@ -88,7 +88,7 @@ You can also access reporters for the Stage and other sprites:
 ([costume # v] of (Sprite2 v))
 ```
 
-There are reporters related to the date and time in the real world, in your local timezone:
+あなたのローカルタイムゾーンで、現実の世界の日付と時刻に関連するレポーターがあります。
 
 ```blocks3
 (current [year v]) // hour, minute, ...
