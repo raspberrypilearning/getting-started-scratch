@@ -73,7 +73,7 @@ go to [front v] layer
 ```blocks3
 when flag clicked
 forever
-set [ghost v] effect to (transparent)
+set [ghost v] effect to (διαφανής)
 ```
 
 Δοκίμασε να χρησιμοποιήσεις την ίδια προσέγγιση με άλλα εφέ γραφικών, όπως `φωτεινότητα`{:class="block3looks"} ή `χρώμα`{:class="block3looks"}.
@@ -96,7 +96,7 @@ title: Έλεγξε την ταχύτητα κίνησης με μια μετα�
 ```blocks3
 when flag clicked
 forever
-move (speed) steps
+move (ταχύτητα) steps
 if on edge, bounce
 ```
 Όρισε τις ελάχιστες και μέγιστες τιμές για το εύρος της γραμμής κύλισης για να ταιριάζει στο έργο σου.
@@ -119,7 +119,7 @@ title: Έλεγξε την ταχύτητα στροφής με μια μετα�
 ```blocks3
 when flag clicked
 forever
-turn right (angle) degrees
+turn right (γωνία) degrees
 ```
 
 --- /collapse ---
@@ -140,7 +140,7 @@ title: Άλλαξε την καθυστέρηση σε ένα μπλοκ ανα�
 ```blocks3
 when flag clicked
 forever
-wait (delay) seconds
+wait (καθυστέρηση) seconds
 next costume
 ```
 

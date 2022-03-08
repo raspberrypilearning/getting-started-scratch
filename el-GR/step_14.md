@@ -65,7 +65,7 @@ title: Χρησιμοποίησε τις Εντολές μου για να ορ�
 Ο απλούστερος λόγος για να χρησιμοποιηθούν `Οι Εντολές μου`{:class="block3myblocks"} είναι για να βοηθηθείς στην οργάνωση του κώδικά σου. Εδώ είναι ένα απλό παράδειγμα.
 
 ```blocks3
-define move right
+define μετακίνηση προς τα δεξιά
 if <not <touching (edge v) ?>> then
 switch costume to [δεξιά_1 v]
 change x by (2)
@@ -75,7 +75,7 @@ switch costume to [δεξιά_3 v]
 change x by (2)
 end
 
-define move left
+define μετακίνηση προς τ' αριστερά
 if <not <touching (edge v) ?>> then
 switch costume to [αριστερά_1 v]
 change x by (-2)
@@ -88,10 +88,10 @@ end
 when flag clicked
 forever
 if <key (right arrow v) pressed> then
-move right
+μετακίνηση προς τα δεξιά
 end
 if <key (left arrow v) pressed> then
-move left
+μετακίνηση προς τ' αριστερά
 ```
 
 --- /collapse ---
