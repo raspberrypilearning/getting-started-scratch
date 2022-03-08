@@ -1,56 +1,56 @@
-## Your first Scratch project
+## 最初のScratchプロジェクト
 
-![An annotated screenshot of the Scratch editor, with key features labelled.](images/scratch-features.png)
+![Scratchエディターの注釈付きスクリーンショット(主要な機能ラベルが付き)](images/scratch-features.png)
 
 --- task ---
 
-When you create a new Scratch project, it includes a **cat** sprite.
+新しいスクラッチプロジェクトを作成すると、そこには **猫** スプライトがいます。
 
-Drag blocks from the Blocks menu to the Code area to make the cat do something.
+ブロックを[ブロック] メニューから[コード] エリアにドラッグして、猫に何かをさせます。
 
-To try an example, drag a `move`{:class="block3motion"} block from the `Motion`{:class="block3motion"} blocks menu. The blocks are colour-coded to help you find them.
+試してみるには、`動き`{:class="block3motion"}ブロックメニューから `(10)歩動かす`{:class="block3motion"}ブロックをドラッグします。 ブロックは、見つけやすいように色分けされています。
 
-![A 'move' block in the Code area.](images/move-block.png)
+![コードエリアの「動く」ブロック](images/move-block.png)
 
-You can click on blocks in the Code area to run them. Click on the `move`{:class="block3motion"} block and the cat will move.
+コードエリアのブロックをクリックして実行できます。 `(10)歩動く`{:class="block3motion"}ブロックをクリックすると、猫が移動します。
 
-**Tip:** If you are using Scratch on a tablet, you can tap an item to click on it.
+**ヒント:** タブレットでScratchを使用している場合は、アイテムをタップしてクリックできます。
 
-**Hat blocks** run the blocks below them when a particular event happens. The `when green flag clicked`{:class="block3events"} block runs code when you click on the green flag above the Stage to run your project.
+**ハットブロック** は、特定のイベントが発生したときに、その下のブロックを実行します。 `グリーンフラッグが押されたとき`{:class="block3events"}ブロックは、ステージの上にある緑色の旗をクリックすると、あなたのプロジェクトを実行するコードを実行します。
 
-Drag a `when green flag clicked`{:class="block3events"} block above the `move`{:class="block3motion"} block so that they snap together.
+`緑のフラグが押されたとき`{:class="block3events"}ブロックを `(10)歩動く`{:class="block3motion"}ブロックの上にドラッグするとブロック同士がつながります。
 
-![The 'move' block in the Code area.](images/green-flag-script.png)
+![コードエリアの「動く」ブロック](images/green-flag-script.png)
 
-Your code should look like this:
+コードは次のようになります。
 
 ```blocks3
 when flag clicked
 move (10) steps
 ```
 
-**Tip:** Scratch blocks are colour-coded, so you will find the `when green flag clicked`{:class="block3events"} block in the `Events`{:class="block3events"} blocks menu.
+**ヒント:** Scrathブロックは色分けされているため、`緑色のフラグが押されたとき `{:class="block3events"}ブロックを、 `イベント`{;class="block3events"}ブロックメニューで見つけることができます。
 
-Now, click on the green flag above the Stage and the cat will move.
+ステージの上にある緑色の旗をクリックしてみてください。猫が動きます。
 
 --- /task ---
 
-You can add more sprites to your project, and you can also add a backdrop.
+プロジェクトにスプライトを追加したり、背景を追加したりすることもできます。
 
 --- task ---
 
 --- collapse ---
 ---
-title: Choose a sprite
+title: スプライトを選ぶ
 ---
 
-In the Sprite list, click on **Choose a Sprite** to see the library of all Scratch sprites.
+スプライトリストで、 **スプライトを選ぶ** をクリックして、すべてのScratchスプライトのライブラリを表示します。
 
-![The 'Choose a Sprite' icon.](images/sprite-library.png)
+![「スプライトを選ぶ」アイコン](images/sprite-library.png)
 
-You can search for a sprite, or browse by category or theme. Click on a sprite to add it to your project.
+スプライトを検索したり、カテゴリやテーマ別に閲覧したりできます。 スプライトをクリックして、プロジェクトに追加します。
 
-![The Sprite Library.](images/sprite-choose.png)
+![スプライトライブラリ](images/sprite-choose.png)
 
 --- /collapse ---
 
@@ -60,16 +60,16 @@ You can search for a sprite, or browse by category or theme. Click on a sprite t
 
 --- collapse ---
 ---
-title: Choose a backdrop
+title: 背景を選ぶ
 ---
 
-In the bottom right-hand corner of the Stage pane, click on **Choose a Backdrop**.
+[ステージ] ペインの右下隅にある **[背景を選ぶ]**をクリックします。
 
-![The 'Choose a Backdrop' icon.](images/stage-choose.png)
+![「背景を選択」アイコン](images/stage-choose.png)
 
-You can search for a backdrop, or browse by category or theme. Click on a backdrop to add to your project.
+背景を検索したり、カテゴリやテーマ別に閲覧したりできます。 背景をクリックしてプロジェクトに追加します。
 
-![The Backdrop Library.](images/backdrop.png)
+![背景ライブラリー](images/backdrop.png)
 
 --- /collapse ---
 
@@ -79,25 +79,25 @@ You can search for a backdrop, or browse by category or theme. Click on a backdr
 
 --- collapse ---
 ---
-title: Name and save your project
+title: プロジェクトに名前をつけて保存する
 ---
 
-Go to **File** in the menu. If you have a Scratch account, click on **Save now**. If you do not have an account, click on **Save to your computer**.
+メニューの **ファイル** をクリックします。 Scratchアカウントを持っている場合は、**直ちに保存**をクリックします。 アカウントを持っていない場合は、 **コンピュータに保存する**をクリックします。
 
-Click in the project name box and change the name to match your project.
+プロジェクト名ボックスをクリックし、プロジェクトに一致するように名前を変更します。
 
-![The project name box highlighted.](images/change-project-name.png)
+![強調表示されているプロジェクト名ボックス](images/change-project-name.png)
 
-If you share your project, then other people will also see this name, so make sure that it makes sense.
+プロジェクトを共有すると、他の人にもこの名前が表示されるので、意味がある名前であることを確認してください。
 
 --- /collapse ---
 
 --- /task ---
 
-You have created your first Scratch project!
+あなたの最初のScratchプロジェクトが作成されました。
 
-You are now ready to learn Scratch. We recommend that you start with our [Scratch: Module 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} and/or [Look after yourself](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"} pathways, which are designed for beginners.
+これで、Scratchを学ぶ準備ができました。 初めての人のために設計された[Scratch: Module 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} か [Look after yourself](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"} コースから始めることおおすすめします。
 
- You can return to this guide if you need help using Scratch when you are working on our pathway projects or on your own independent projects. 
+ コースのプロジェクトまたはあなた自身が作成したプロジェクトで作業しているとき、Scratchの使いかたについてサポートが必要な場合は、このガイドに戻ることができます。 
 
 
