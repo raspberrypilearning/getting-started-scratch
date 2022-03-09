@@ -156,7 +156,7 @@ Cambia los números para obtener los valores mínimos y máximos que quieres que
 
 --- collapse ---
 ---
-título: Cambiar efectos de sonido
+title: Cambiar efectos de sonido
 ---
 
 **Tono de batería**: [Ver dentro](https://scratch.mit.edu/projects/451547017/editor){:target="_blank"}
