@@ -1,0 +1,83 @@
+Haz clic en 90 y arrastra la flecha para cambiar
+
+o en todas las direcciones o no rotar
+
+ocultar la frase después de 2 segundos
+
+ejecuta bloques al presionar la fecha verde que está sobre el Escenario
+
+ejecuta bloques al hacer clic en el objeto de este script
+
+ejecuta los bloques cuando se hace clic en el escenario
+
+cambiar a teclas de número, letra o flecha
+
+ejecuta bloques cuando el micrófono detecta sonido
+
+ejecuta bloques cuando el cronómetro llega a 10 segundos
+
+demora de 1 segundo
+
+demora una décima de segundo
+
+ejecuta los bloques interiores cuatro veces
+
+ejecuta los bloques interiores hasta que se detenga
+
+detener todos los scripts en todos los objetos
+
+demora hasta que la condición se cumpla
+
+repetir los bloques interiores hasta que la condición se cumpla
+
+crea un clon del objeto que ejecuta este bloque
+
+crea un clon de otro objeto en el proyecto
+
+el script que se ejecuta cuando el clon se ha creado
+
+detiene los scripts del clon y lo elimina
+
+Cómo te llamas
+
+el texto que el usuario escribió
+
+hora, minuto, ...
+
+Un número del 1 al 10
+
+hablar
+
+utiliza la entrada proporcionada
+
+palabras
+
+hola
+
+hola
+
+transparente
+
+velocidad
+
+ángulo
+
+retraso
+
+ritmo
+
+mover a la derecha
+
+mover a la izquierda
+
+derecha_1
+
+derecha_2
+
+derecha_3
+
+izquierda_1
+
+izquierda_2
+
+izquierda_3
