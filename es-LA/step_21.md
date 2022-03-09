@@ -12,7 +12,7 @@ Si eres nuevo en Scratch, comienza con nuestras rutas para principiantes:
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/Intro-banner.png)
-[Introducción a Scratch: objetos, scripts y ciclos(https://projects.raspberrypi.org/es-LA/pathways/scratch-intro){:target="_blank"}<br/>
+[Introducción a Scratch: objetos, scripts y ciclos](https://projects.raspberrypi.org/es-LA/pathways/scratch-intro){:target="_blank"}<br/>
 En esta introducción para principiantes, aprenderás a agregar código, disfraces y sonidos a los objetos mientras creas animaciones, un juego, aplicaciones, y una historia.
 </div>
 
