@@ -1,8 +1,8 @@
-## Motion
+## الحركة
 
-`Motion`{:class="block3motion"} blocks allow you to move your sprite around the Stage.
+كتل `الحركة`{: class = "block3motion"} تسمح لك تحريك الكائن حول المنصة.
 
-### Movement
+### الحركة
 
 The `move`{:class="block3motion"} block is the simplest way to ge started with moving a sprite:
 
