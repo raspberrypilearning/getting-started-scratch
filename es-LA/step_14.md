@@ -11,7 +11,7 @@ Este ejemplo define un bloque `hablar`{:class="block3myblocks"} que hace que un 
 </div>
 
 ```blocks3
-define palabras
+define hablar 
 switch costume to (penguin2-b v)
 repeat (2)
 play sound (chirp v) until done
@@ -19,10 +19,10 @@ end
 switch costume to (penguin2-a v)
 
 when this sprite clicked
-palabras
+hablar
 
 when [space v] key pressed
-palabras
+hablar
 ```
 
 Puedes utilizar `Mis Bloques`{:class="block3myblocks"} para **organizar** tu código. Es más sencillo agrupar todos los bloques que hacen que un objeto hable y luego usar un bloque `hablar`{:class="block3myblocks"} cuando quieras que tu objeto hable.
@@ -40,7 +40,7 @@ También puedes agregar **entradas** a `Mis bloques`{:class="block3myblocks"} pa
 </div>
 
 ```blocks3
-define palabras (palabras)
+define hablar (palabras)
 switch costume to (penguin2-b v)
 say (palabras) // utiliza la entrada proporcionada
 repeat (2)
@@ -50,10 +50,10 @@ say (palabras)
 switch costume to (penguin2-a v)
 
 when this sprite clicked
-palabras [hola]
+hablar [hola]
 
 when [space v] key pressed
-palabras [hola]
+hablar [hola]
 ```
 
 [[[generic-scratch3-make-block]]]
