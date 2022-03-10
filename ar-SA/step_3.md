@@ -1,4 +1,4 @@
-## Set up a Scratch account
+## قم بإعداد حساب او تسجيل حساب في موقع Scratch
 
 --- task ---
 
