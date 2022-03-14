@@ -67,21 +67,21 @@ title: ブロック定義を使用してコードを整理する
 ```blocks3
 define 右に動く
 if <not <touching (edge v) ?>> then
-switch costume to [right_1 v]
+switch costume to [右_1 v]
 change x by (2)
-switch costume to [right_2 v]
+switch costume to [右_2 v]
 change x by (2)
-switch costume to [right_3 v]
+switch costume to [右_3 v]
 change x by (2)
 end
 
 define 左に動く
 if <not <touching (edge v) ?>> then
-switch costume to [left_1 v]
+switch costume to [左_1 v]
 change x by (-2)
-switch costume to [left_2 v]
+switch costume to [左_2 v]
 change x by (-2)
-switch costume to [left_3 v]
+switch costume to [左_3 v]
 change x by (-2)
 end
 
