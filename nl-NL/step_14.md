@@ -60,7 +60,7 @@ praten [hoi]
 
 --- collapse ---
 ---
-titel: Mijn blokken gebruiken om code te ordenen
+title: Mijn blokken gebruiken om code te ordenen
 ---
 De eenvoudigste manier om `Mijn blokken`{:class="block3myblocks"} te gebruiken, is om je code te helpen organiseren. Hier is een eenvoudig voorbeeld.
 

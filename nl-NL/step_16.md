@@ -181,7 +181,7 @@ In de echte wereld lijken objecten die verder weg zijn lichter van kleur. Om een
 
 --- collapse ---
 ---
-titlel: Maak een sprite met gaten waar je doorheen kunt kijken
+title: Maak een sprite met gaten waar je doorheen kunt kijken
 ---
 
 Je kunt een sprite maken met gaten waar je doorheen kunt kijken. Als de sprite als de voorste laag is gezet en de grootte heeft van het werkgebied, kan het eruitzien als een kijkje door de tralies van een kooi of een raam.

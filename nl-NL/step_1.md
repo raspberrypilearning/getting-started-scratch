@@ -24,7 +24,7 @@ title: Wat heb je nodig
 
 ### Software
 
-+ In deze handleiding wordt uitgelegd hoe je aan de slag kunt gaan met Scratch 3 (ofwel [online](https://scratch.mit.edu/):target="_blank"} of [offline](https://scratch.mit.edu/download){:target="_blank"})
++ In deze handleiding wordt uitgelegd hoe je aan de slag kunt gaan met Scratch 3 (ofwel [online](https://scratch.mit.edu/){:target="_blank"} of [offline](https://scratch.mit.edu/download){:target="_blank"})
 
 
 --- /collapse ---
