@@ -1,0 +1,32 @@
+---
+title: Aan de slag met Scratch
+hero_image: images/ScratchGuide_Banner.png
+description: Leer meer over Scratch en ontwikkel je vaardigheden om Scratch zelfstandig te gebruiken
+version: 4
+listed: false
+copyedit: false
+last_tested: '2020-11-28'
+steps:
+  - title: Inleiding
+    completion: engaged
+  - title: Scratch installeren
+  - title: Een Scratch-account aanmaken
+  - title: De Scratch-editor
+  - title: Je eerste Scratch-project
+  - title: Beweging
+  - title: Uiterlijken
+  - title: Geluid
+  - title: Gebeurtenissen
+  - title: Besturen
+  - title: Waarnemen
+  - title: Functies
+  - title: Variabelen
+  - title: Mijn blokken
+  - title: Uitbreidingen
+  - title: Uiterlijken bewerken
+  - title: Geluid bewerken
+  - title: Fouten oplossen
+  - title: Bewerkingstips
+  - title: Deel en reageer
+    completion: internal
+  - title: Onze Scratch projecten
