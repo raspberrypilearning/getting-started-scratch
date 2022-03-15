@@ -1,0 +1,83 @@
+Klik op 90 en sleep de pijl om te wijzigen
+
+of helemaal rond of niet draaien
+
+spraak verbergen na 2 seconden
+
+blokken uitvoeren wanneer op de groene vlag boven het speelveld wordt geklikt
+
+voer de blokken uit wanneer op de sprite voor dit script wordt geklikt
+
+voer de blokken uit wanneer op het speelveld wordt geklikt
+
+wijzigen naar cijfer-, letter- of pijltoetsen
+
+blokken uitvoeren wanneer de microfoon geluid detecteert
+
+blokken uitvoeren wanneer de timer 10 seconden bereikt
+
+vertraag 1 seconde
+
+vertraag een tiende van een seconde
+
+voer de ingesloten blokken vier keer uit
+
+voer de ingesloten blokken uit tot de stop
+
+stop alle scripts in alle sprites
+
+wacht tot de voorwaarde waar is
+
+herhaal de ingesloten blokken totdat de voorwaarde waar is
+
+kloont de sprite die dit blok uitvoert
+
+kloont een andere sprite in het project
+
+het script dat wordt uitgevoerd wanneer de kloon wordt gemaakt
+
+stopt de scripts van de kloon en verwijdert deze
+
+Hoe heet jij
+
+de tekst die de gebruiker heeft getypt
+
+uur, minuut, ...
+
+Een getal van 1 tot 10
+
+praten
+
+gebruik de gegeven invoer
+
+woorden
+
+hallo
+
+hoi
+
+transparant
+
+snelheid
+
+hoek
+
+vertraging
+
+verslaan
+
+ga naar rechts
+
+ga naar links
+
+rechts_1
+
+rechts_2
+
+rechts_3
+
+links_1
+
+links_2
+
+links_3
