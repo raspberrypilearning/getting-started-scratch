@@ -1,32 +1,31 @@
 ---
 title: Introducción a Scratch
 hero_image: images/ScratchGuide_Banner.png
-description: Aprende sobre Scratch y desarrolla tus habilidades para usar Scratch de forma independiente
+description: Aprende sobre Scratch y desarrolla tus habilidades para usar Scratch
+  de forma independiente
 version: 4
 listed: false
 copyedit: false
 last_tested: '2020-11-28'
 steps:
-  - title: Introducción
-    completion: engaged
-  - title: Configurar Scratch
-  - title: Configurar una cuenta Scratch
-  - title: El editor de Scratch
-  - title: Tu primer proyecto Scratch
-  - title: Movimiento
-  - title: Apariencia
-  - title: Sonido
-  - title: Eventos
-  - title: Control
-  - title: Sensores
-  - title: Operadores
-  - title: Variables
-  - title: Mis bloques
-  - title: Extensiones
-  - title: Editor de dibujo
-  - title: Editor de sonido
-  - title: Depurar
-  - title: Consejos de edición
-  - title: Comparte y comenta
-    completion: internal
-  - title: Nuestros proyectos Scratch
+- title: Introducción
+- title: Configurar Scratch
+- title: Configurar una cuenta Scratch
+- title: El editor de Scratch
+- title: Tu primer proyecto Scratch
+- title: Movimiento
+- title: Apariencia
+- title: Sonido
+- title: Eventos
+- title: Control
+- title: Sensores
+- title: Operadores
+- title: Variables
+- title: Mis bloques
+- title: Extensiones
+- title: Editor de dibujo
+- title: Editor de sonido
+- title: Depurar
+- title: Consejos de edición
+- title: Comparte y comenta
+- title: Nuestros proyectos Scratch
