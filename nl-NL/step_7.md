@@ -86,7 +86,7 @@ Je kunt ook snel de grootte van een sprite instellen in de **Grootte** in het Sp
 
 ### Grafische effecten
 
-Stel een reeks visuele effecten zoals kleur, vissenoog, draaikolk, pixelleren, mozaïek, helderheid en transparant in of wijzig deze.
+Stel een reeks visuele effecten zoals kleur, vissenoog, draaikolk, pixeleren, mozaïek, helderheid en transparant in of wijzig deze.
 
 ```blocks3
 change [color v] effect by ()
