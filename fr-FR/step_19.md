@@ -35,7 +35,7 @@ title: Copier le code d'un sprite
 
 Dans le coin inférieur droit de la liste des Sprites, clique sur **Choisir un Sprite** et sélectionne le sprite que tu souhaites ajouter.
 
-Clique sur le premier sprite et accéde à son onglet **Code**. Fais glisser le code qui se trouve dans la zone Code du premier sprite vers l'image du deuxième sprite dans la liste Sprite, puis relâche le code pour terminer de le copier dans le deuxième sprite. Tu peux avoir un script qui commence par un bloc `quand le drapeau vert est cliqué`{:class="block3events"}, ainsi qu'un autre script qui commence par `quand ce sprite est cliqué`{:class="block3events"}. Assure-toi de copier **tous **les scripts de code que tu as créés.
+Clique sur le premier sprite et accéde à son onglet **Code**. Fais glisser le code qui se trouve dans la zone Code du premier sprite vers l'image du deuxième sprite dans la liste Sprite, puis relâche le code pour terminer de le copier dans le deuxième sprite. Tu peux avoir un script qui commence par un bloc `quand le drapeau vert est cliqué`{:class="block3events"}, ainsi qu'un autre script qui commence par `quand ce sprite est cliqué`{:class="block3events"}. Assure-toi de copier **tous ** les scripts de code que tu as créés.
 
 ![Copie de code vers un autre sprite.](images/challenge1-sprite-list.gif){:width="300px"}
 
