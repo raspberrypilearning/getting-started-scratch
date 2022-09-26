@@ -84,7 +84,7 @@ title: Nommer et enregistrer ton projet
 
 Va dans le menu **Fichier**. Si tu as un compte Scratch, clique sur **Enregistrer maintenant**. Si tu n'as pas de compte, clique sur **Sauvegarder sur votre ordinateur**.
 
-Clique dans le champ du nom du projet et modifiez le nom pour qu'il corresponde à ton projet.
+Clique dans le champ du nom du projet et modifie le nom pour qu'il corresponde à ton projet.
 
 ![La zone de nom du projet surlignée.](images/change-project-name.png)
 
