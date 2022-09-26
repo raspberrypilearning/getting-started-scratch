@@ -36,7 +36,7 @@ Si tu connais déjà les sprites, les costumes, les décors et les boucles, essa
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/more-banner.png)
 [Plus de Scratch : envoyer à tous, décisions et variables](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank" }<br/>
-Plus de Scratch va au-delà des bases introduites dans Introduction à Scratch. Vous créerez des applications, des jeux et des simulations en utilisant les blocs Envoyer à tous, des décisions si..alors et si..alors..sinon, ainsi que des variables.
+Plus de Scratch va au-delà des bases introduites dans Introduction à Scratch. Tu créeras des applications, des jeux et des simulations en utilisant les blocs Envoyer à tous, des décisions si..alors et si..alors..sinon, ainsi que des variables.
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
