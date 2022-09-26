@@ -1,0 +1,83 @@
+Click on 90 and drag the arrow to change
+
+or all-around or none
+
+hide speech after 2 seconds
+
+run blocks when the green flag above the Stage is clicked
+
+run the blocks when the sprite for this script is clicked
+
+run the blocks when the stage is clicked
+
+change to number, letter or arrow keys
+
+run blocks when the microphone detects sound
+
+run blocks when the timer reaches 10 seconds
+
+delay for 1 second
+
+delay for one tenth of a second
+
+run the blocks inside four time
+
+run the blocks inside until stopped
+
+stop all scripts in all sprites
+
+delay until the condition is true
+
+repeat the blocks inside until the condtion is true
+
+clones the sprite that runs this block
+
+clones another sprite in the project
+
+the script that runs when the clone is created
+
+stops the clone's scripts and deletes it
+
+What's your name
+
+the text the the user typed
+
+hour, minute, ...
+
+A number from 1 to 10
+
+talk
+
+use the provided input
+
+words
+
+hello
+
+hi
+
+transparent
+
+speed
+
+angle
+
+delay
+
+beat
+
+move right
+
+move left
+
+right_1
+
+right_2
+
+right_3
+
+left_1
+
+left_2
+
+left_3
