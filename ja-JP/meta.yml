@@ -9,7 +9,6 @@ last_tested: '2020-11-28'
 steps:
   - 
     title: はじめに
-    completion: engaged
   - 
     title: スクラッチを設定する
   - 
@@ -48,6 +47,5 @@ steps:
     title: 編集のヒント
   - 
     title: 共有してコメントする
-    completion: internal
   - 
     title: Scratchプロジェクト
