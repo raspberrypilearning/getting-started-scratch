@@ -1,30 +1,30 @@
 ## ما هو Scratch؟
-Scratch هو لغة برمجة رسومية، طورت من طرف مجموعة Lifelong Kindergarten في مخبر الوسائط معهد ماساتشوستس للتكنولوجيا (MIT). In Scratch, you can drag and combine code blocks to make a range of programs, including animations, stories, musical instruments, and games. It's a bit like the programming equivalent of building blocks!
+Scratch هو لغة برمجة رسومية, طورت من طرف مجموعةLifelong Kindergarten Lifelong Kindergarten في مخبر الوسائط معهد ماساتشوستش للتكنلوجيا (MIT). في Scratch, يمكنك جر و توليف كتل الأكواد لتشكيل مدى من البرامج, تتضمن متحركات, قصصا, آلات موسيقية, و ألعابا. إنه يشبه إلى حد ما المكافئ البرمجي لبناء الكتل !
 
-![A screenshot of Scratch.](images/showcase_static.png)
+![لقطة من Scratch.](images/showcase_static.png)
 
-Scratch is used in many schools as part of the curriculum. It is free, and young people can use it at home as well as in clubs.
+يستخدم Scratch في العديد من المدارس كجزء من المنهج الدراسي. إنه مجاني ، ويمكن للشباب استخدامه في المنزل وكذلك في النوادي.
 
-Scratch allows young people to learn coding concepts and create interactive projects without needing to learn a text-based programming language. You will not need to be able to type quickly or remember complex code to use Scratch.
+يسمح Scratch للشباب بتعلم مفاهيم البرمجة و إنشاء مشاريع تفاعلية دون الحاجة إلى تعلم إصطلاحات قواعدية. لن تحتاج لتكون قادراً على الكتابة بسرعة أو تذكر أكواد معقدة لتستعمل سكراتش.
 
-### How to use this reference guide
-If you have not used Scratch before, then this guide will help you to set up and create your first project.
+### كيف تستخدم هذا الدليل المرجعي؟
+إن لم تكن قد استخدمت Scratch من قبل، إذا هذا الدليل سيساعدك في إعداد و خلق مشروعك الأول.
 
-You can return to this guide and use it to look up information that you need when you are making your own projects in Scratch.
+يمكنك العودة إلى هذا الدليل واستخدامه للبحث عن معلومات تحتاجها بينما تنشئ مشاريعك الخاصة في سكراتش.
 
-At the end of the guide you will find links to paths of Scratch projects, from beginner through to advanced, where you can learn coding by making fun and interesting apps, games, stories, animations, art and music.
+عند نهاية الدليل ستجد روابط مسارات مشاريع Scratch, من البداية إلى الإحتراف, حيث يمكنك تعلم البرمجة صانعا تطبيقات, ألعابا, قصصا, متحركات, فنا و موسيقى ممتعة و جذابة.
 
 --- collapse ---
 ---
-title: What you will need
+title: ما ستحتاجه
 ---
-### Hardware
+### الأجهزة
 
-+ A computer or tablet capable of running Scratch 3
++ جهاز كمبيوتر أو جهاز لوحي قادر على تشغيل Scratch 3
 
-### Software
+### البرامج
 
-+ This guide will explain how to get started with Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
++ هذا الدليل سيشرح كيفية شروع البداية مع Scratch 3 (إما [متصلا بالانترنيت](https://scratch.mit.edu/){:target="_blank"} أو[بدون اتصال انترنيت](https://scratch.mit.edu/download){:target="_blank"})
 
 
 --- /collapse ---
