@@ -9,7 +9,6 @@ last_tested: '2020-11-28'
 steps:
   - 
     title: Εισαγωγή
-    completion: αφοσιωμένος
   - 
     title: Ρύθμιση του Scratch
   - 
@@ -48,6 +47,5 @@ steps:
     title: Συμβουλές επεξεργασίας
   - 
     title: Μοιράσου και σχολίασε
-    completion: εσωτερικός
   - 
     title: Τα έργα μας Scratch
