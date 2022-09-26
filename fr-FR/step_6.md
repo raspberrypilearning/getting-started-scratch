@@ -150,7 +150,7 @@ if on edge, bounce
 
 Dans cet exemple, le bloc `s'orienter à`{:class="block3motion"} pointe automatiquement le sprite vers la droite (`90` degrés) lorsque le drapeau vert est cliqué. Si tu changes le nombre de degrés à `-90`, ton sprite pointera vers la gauche.
 
-Ajoute un bloc `fixer le sens de rotation`{:class="block3motion"} et sélectionne `gauche-droite`{:class="block3motion"} dans le menu déroulant, afin que ton sprite ne retrouve pas tête en bas lorsqu'il rebondit sur le bord de la scène.
+Ajoute un bloc `fixer le sens de rotation`{:class="block3motion"} et sélectionne `gauche-droite`{:class="block3motion"} dans le menu déroulant, afin que ton sprite ne se retrouve pas tête en bas lorsqu'il rebondit sur le bord de la scène.
 
 **Astuce :** Tu peux faire glisser ton sprite sur la scène pour la déplacer vers la position y (haut-bas) souhaitée.
 
