@@ -1,56 +1,56 @@
-## Your first Scratch project
+## مشروعك الأول سكراتش
 
-![An annotated screenshot of the Scratch editor, with key features labelled.](images/scratch-features.png)
+![لقطة شاشة مشروحة لمحرر Scratch ، مع تسمية الميزات الرئيسية.](images/scratch-features.png)
 
 --- task ---
 
-When you create a new Scratch project, it includes a **cat** sprite.
+عند إنشاء مشروع Scratch جديد ، فإنه يشتمل على كائن **cat**.
 
-Drag blocks from the Blocks menu to the Code area to make the cat do something.
+اسحب كتلا من قائمة الكتل إلى منطقة الكود لجعل القط يفعل شيء.
 
-To try an example, drag a `move`{:class="block3motion"} block from the `Motion`{:class="block3motion"} blocks menu. The blocks are colour-coded to help you find them.
+لتجربة مثال ، اسحب كتلة `move`{: class = "block3motion"} من قائمة الكتل `Motion`{: class = "block3motion"}. يتم تمييز الكتل بالألوان لمساعدتك في العثور عليها.
 
-![A 'move' block in the Code area.](images/move-block.png)
+![كتلة "تحرك" في منطقة الكود.](images/move-block.png)
 
-You can click on blocks in the Code area to run them. Click on the `move`{:class="block3motion"} block and the cat will move.
+يمكنك النقر فوق الكتل في منطقة التعليمات البرمجية لتشغيلها. انقر على كتلة `تحرك`{:class="block3motion"} و القط سيتحرك.
 
-**Tip:** If you are using Scratch on a tablet, you can tap an item to click on it.
+**نصيحة:** إذا كنت تستخدم سكراتش على لوحة، يمكنك اللمس على عنصر للنقر عليه.
 
-**Hat blocks** run the blocks below them when a particular event happens. The `when green flag clicked`{:class="block3events"} block runs code when you click on the green flag above the Stage to run your project.
+**Hat block** قم بتشغيل الكتل تحتها عندما يقع حدث معين. تعمل الكتلة `عند النقر فوق العلم الأخضر على`{: class = "block3events"} على تشغيل التعليمات البرمجية عند النقر فوق العلم الأخضر أعلى المرحلة لتشغيل مشروعك.
 
-Drag a `when green flag clicked`{:class="block3events"} block above the `move`{:class="block3motion"} block so that they snap together.
+اسحب `عندما ينقر العلم الأخضر على كتلة`{: class = "block3events"} أعلى كتلة `move`{: class = "block3motion"} ليتم محاذاتهما معاً.
 
-![The 'move' block in the Code area.](images/green-flag-script.png)
+![كتلة "النقل" في منطقة الكود.](images/green-flag-script.png)
 
-Your code should look like this:
+يجب أن تبدو التعليمات البرمجية خاصتك بالشكل التالي:
 
 ```blocks3
 when flag clicked
 move (10) steps
 ```
 
-**Tip:** Scratch blocks are colour-coded, so you will find the `when green flag clicked`{:class="block3events"} block in the `Events`{:class="block3events"} blocks menu.
+**نصيحة:** كتل سكراتش مرمزة لونيا،لذا ستجد كتلة `عند نقر العلم الأخضر`{: class = "block3events"} في قائمة الكتل `الأحداث`.
 
-Now, click on the green flag above the Stage and the cat will move.
+الآن ، انقر على العلم الأخضر أعلى المنصة و سيتحرك القط.
 
 --- /task ---
 
-You can add more sprites to your project, and you can also add a backdrop.
+يمكنك إضافة المزيد من الكائنات لمشروعك، و يمكنك أيضا إضافة خلفية.
 
 --- task ---
 
 --- collapse ---
 ---
-title: Choose a sprite
+title: اختر كائنا
 ---
 
-In the Sprite list, click on **Choose a Sprite** to see the library of all Scratch sprites.
+في قائمة Sprite ، انقر فوق **اختر Sprite** لترى مكتبة جميع الكائنات Scratch.
 
-![The 'Choose a Sprite' icon.](images/sprite-library.png)
+![أيقونة 'اختر كائن'.](images/sprite-library.png)
 
-You can search for a sprite, or browse by category or theme. Click on a sprite to add it to your project.
+يمكنك البحث عن كائن, أو تصفحها بالصنف أو النمط. انقر على كائن لإضافته لمشروعك.
 
-![The Sprite Library.](images/sprite-choose.png)
+![مكتبة الكائنات.](images/sprite-choose.png)
 
 --- /collapse ---
 
@@ -60,16 +60,16 @@ You can search for a sprite, or browse by category or theme. Click on a sprite t
 
 --- collapse ---
 ---
-title: Choose a backdrop
+العنوان: اختر خلفية
 ---
 
-In the bottom right-hand corner of the Stage pane, click on **Choose a Backdrop**.
+في الركن أسفل يدك اليمنى من إطار المنصة, انقر على **اختر خلفية**.
 
-![The 'Choose a Backdrop' icon.](images/stage-choose.png)
+![أيقونة "اختيار الخلفية".](images/stage-choose.png)
 
-You can search for a backdrop, or browse by category or theme. Click on a backdrop to add to your project.
+يمكنك البحث عن خلفية ، أو التصفح حسب الفئة أو الموضوع. انقر فوق خلفية لإضافتها لمشروعك.
 
-![The Backdrop Library.](images/backdrop.png)
+![مكتبة الخلفيات.](images/backdrop.png)
 
 --- /collapse ---
 
@@ -79,25 +79,25 @@ You can search for a backdrop, or browse by category or theme. Click on a backdr
 
 --- collapse ---
 ---
-title: Name and save your project
+title: سمِّ و احفظ مشروعك
 ---
 
-Go to **File** in the menu. If you have a Scratch account, click on **Save now**. If you do not have an account, click on **Save to your computer**.
+في القائمة, إذهب إلى **ملف**. إذا كان لديك حساب Scratch ، فانقر فوق **حفظ الآن**. إذا لا تملك حساب، انقر على **الحفظ إلى حاسوبك**.
 
-Click in the project name box and change the name to match your project.
+انقر في مربع اسم المشروع وقم بتغيير الاسم ليطابق مشروعك.
 
-![The project name box highlighted.](images/change-project-name.png)
+![تم تمييز مربع اسم المشروع.](images/change-project-name.png)
 
-If you share your project, then other people will also see this name, so make sure that it makes sense.
+إذا شاركت مشروعك ، فسيرى الأشخاص الآخرون هذا الاسم أيضًا ، لذا تأكد من أنه منطقي.
 
 --- /collapse ---
 
 --- /task ---
 
-You have created your first Scratch project!
+لقد أنشأت مشروعك الأول سكراتش!
 
-You are now ready to learn Scratch. We recommend that you start with our [Scratch: Module 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} and/or [Look after yourself](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"} pathways, which are designed for beginners.
+أنت الآن جاهز لتعلم سكراتش. نوصي ببدئك مع مسارنا [سكراتش: المادة 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} أو [انتبه لنفسك](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"}, المصممان للممبتدئين.
 
- You can return to this guide if you need help using Scratch when you are working on our pathway projects or on your own independent projects. 
+ يمكنك العودة لهذا الدليل إذا احتجت للمساعدة في استخدام سكراتش عند عملك على مشاريع مسارنا أو على مشاريعك المستقلة. 
 
 
