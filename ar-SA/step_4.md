@@ -1,14 +1,14 @@
-## The Scratch editor
+## محرر Scratch
 
-![An annotated screenshot of the Scratch editor.](images/scratch-interface.png)
+![لقطة شاشة مشروحة لمحرر سكراتش.](images/scratch-interface.png)
 
-The **Stage** is where the action takes place in your project. The Stage has one or more background images called **backdrops**.
+**المنصة** هي المكان الذي يحدث فيه الإجراء في مشروعك. تحتوي المرحلة على صورة خلفية واحدة أو أكثر تسمى **الخلفيات**.
 
-**Sprites** are characters and objects that appear on the **Stage**. Sprites are given instructions using Scratch code blocks. This is called **programming**.
+**الكائنات** هي شخصيات واشياء تظهر في **المنصة**. تعطى التعليمات للكائنات باستعمال كتل كود سكراتش. هذا يسمى **البرمجة**.
 
-Drag **code blocks** from the **Blocks menu** to the **Code area** to program your sprites and the Stage. Code blocks can make a sprite move around, change the way that it looks, and play sounds.
+اسحب **كتل الكود** من **قائمة الكتل** إلى **منطقة الكود** لبرمجة كائناتك و المنصة. كتل الكود قادرة جعل كائن يتحرك جوارا, تغيير مظهره, أو لعب الأصوات.
 
-Sprites can have multiple **costumes**. يمكنك تغيير الزي لتغيير مظهر الكائن. يمكن استخدام هذا للمؤثرات مثل إعطاء مظهر المشي.
+تمكن الكائنات امتلاك عدة **أزياء**. يمكنك تغيير الزي لتغيير مظهر الكائن. يمكن استخدام هذا للحصول على تأثيرات مثل إعطاء مظهر المشي.
 
-A **script** is a series of blocks that are joined together to give instructions to the Stage or sprites. The Stage and sprites can each have many different scripts. 
+**النص** هو سلسلة كتل مضمومة معا لإعطاء تعليمات للمنصة أو الكائنات. يمكن للمنصة و الكائنات امتلاك نصوص مختلفة. 
 
