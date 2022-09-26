@@ -1,10 +1,10 @@
-## Sensing
+## الاستشعار
 
-The blocks in the `Sensing`{:class="block3sensing"} blocks menu are used to get user text input, detect conditions, and report on values in your project.
+يتم استخدام الكتل الموجودة في قائمة الكتل `Sensing`{: class = "block3sensing"} للحصول على إدخال نص المستخدم واكتشاف الحالات وإعداد تقرير عن القيم في مشروعك.
 
-There are several hexagonal `Sensing`{:class="block3sensing"} blocks that you can use in `Control`{:class="block3control"} blocks to make decisions and control when blocks run.
+هناك كتل `إستشعار`{:class="block3sensing"} سداسيات عديدة يمكنك استخدامها في كتل `التحكم`{:class="block3control"} لاتخاذ قرارات و التحكم عند تشغيل الكتل.
 
-The `touching`{:class="block3sensing"} block has options for detecting whether the sprite that owns the script is touching the mouse pointer (where you finger last touched on a tablet), the edge of the Stage, or another sprite:
+تحتوي الكتلة `التي تم لمس`{: class = "block3sensing"} على خيارات لاكتشاف ما إذا كان الكائن الذي يمتلك النص البرمجي يلامس مؤشر الماوس (حيث لمست إصبعك آخر مرة على جهاز لوحي) ، أو حافة المنصة ، أو كائن آخر:
 
 ```blocks3
 <touching (mouse-pointer v) ?>
@@ -14,7 +14,7 @@ The `touching`{:class="block3sensing"} block has options for detecting whether t
 <touching (Sprite2 v) ?>
 ```
 
-There are blocks for detecting whether the sprite that owns the script is touching another colour (on the Stage or another sprite), or whether a colour on this sprite is touching another colour.
+توجد كتل لاكتشاف ما إذا كان الكائن الذي يمتلك البرنامج النصي يلامس لونًا آخر (على المنصة أو كائن آخر) ، أو ما إذا كان اللون الموجود على هذا الكائن يلامس لونًا آخر.
 
 ```blocks3
 <touching color (#c5a97b) ?>
@@ -22,19 +22,19 @@ There are blocks for detecting whether the sprite that owns the script is touchi
 <color (#c219ed) is touching (#62d1e0) ?>
 ```
 
-The `key pressed`{:class="block3sensing"} block has options for number, letter, and arrow keys. You need a keyboard to be able to enter keys. It detects whether the key is currently being pressed:
+المفتاح `الذي تم الضغط عليه`{: class = "block3sensing"} يحتوي على خيارات للأرقام والحروف ومفاتيح الأسهم. تحتاج لوحة مفاتيح لتتمكن من إدخال المفاتيح. يكتشف ما إذا كان المفتاح مضغوطا حاليا:
 
 ```blocks3
 <key (space v) pressed?>
 ```
 
-The `mouse down`{:class="block3sensing"} block detects whether the mouse is currently pressed, or the screen is being tapped or touched on a touchscreen:
+تكتشف كتلة `الماوس لأسفل`{: class = "block3sensing"} ما إذا كان الماوس مضغوطًا حاليًا ، أو يتم النقر على الشاشة أو لمسها على شاشة تعمل باللمس:
 
 ```blocks3
 <mouse down?>
 ```
 
-The `ask`{:class="block3sensing"} and `answer`{:class="block3sensing"} blocks are used to get text input from the user:
+يتم استخدام كتل `ask`{: class = "block3sensing"} و `إجابة`{: class = "block3sensing"} للحصول على إدخال نص من المستخدم:
 
 ```blocks3
 ask [What's your name] and wait
@@ -42,13 +42,13 @@ ask [What's your name] and wait
 (answer) // the text the the user typed 
 ```
 
-The `ask`{:class="block3sensing"} block works with a keyboard or with a virtual on-screen keyboard on a tablet.
+تعمل مجموعة `ask`{: class = "block3sensing"} مع لوحة مفاتيح أو مع لوحة مفاتيح افتراضية على الشاشة على جهاز لوحي.
 
-The `answer`{:class="block3sensing"} block is a reporter block that reports a value and can be used as a variable.
+كتلة `answer`{: class = "block3sensing"} عبارة عن كتلة مجموعة تُبلغ عن قيمة ويمكن استخدامها كمتغير.
 
 [[[scratch3-ask-answer-chat]]]
 
-The `Sensing`{:class="block3sensing"} blocks menu also contains several reporter blocks that can be used to get values:
+قائمة كتل `الاستشعار`{:class="block3sensing"} تحتوي كذلك على العديد من كتل التبليغ التي يمكن استخدامها للحصول على القيم:
 
 ```blocks3
 (distance to (mouse-pointer v))
@@ -56,7 +56,7 @@ The `Sensing`{:class="block3sensing"} blocks menu also contains several reporter
 (distance to (Sprite2 v))
 ```
 
-You can detect the current position of the mouse-pointer (or the current or most recent position of your finger on a tablet):
+يمكنك كشف الموضع الحالي لمؤشر الماوس (أو الموضع الحالي أو الأحدث لإصبعك على اللوحة الإلكترونية):
 
 ```blocks3
 (mouse x)
@@ -64,13 +64,13 @@ You can detect the current position of the mouse-pointer (or the current or most
 (mouse y)
 ```
 
-You can detect the `loudness`{:class="block3sensing"} of sound from the microphone. A pop-up window will ask the user for permission to use the microphone:
+يمكنك كشف `صخب`{:class="block3sensing"} الصوت من لاقط الصوت. ستطلب نافذة منبثقة من المستخدم الإذن باستخدام اللاقط:
 
 ```blocks3
 (loudness)
 ```
 
-The `timer`{:class="block3sensing"} starts counting when the project loads, and can be set back to `0` with `reset timer`{:class="block3sensing"}:
+`المؤقت`{:class="block3sensing"} يبدأ العد عندما يُحمل المشروع, و يمكن إرجاعه ل`0` ب`إعادة تعيين المؤقت`{:class="block3sensing"}:
 
 ```blocks3
 (timer)
@@ -78,7 +78,7 @@ The `timer`{:class="block3sensing"} starts counting when the project loads, and 
 reset timer
 ```
 
-You can also access reporters for the Stage and other sprites:
+يمكنك أيضًا الوصول إلى المراسلين من أجل المسرح والكائنات الأخرى:
 
 ```blocks3
 ([backdrop # v] of (_stage_ v))
@@ -88,7 +88,7 @@ You can also access reporters for the Stage and other sprites:
 ([costume # v] of (Sprite2 v))
 ```
 
-There are reporters related to the date and time in the real world, in your local timezone:
+هناك مبلغين مرتبطين بالتاريخ والوقت في العالم الحقيقي, في منطقتك الزمنية المحلية:
 
 ```blocks3
 (current [year v]) // hour, minute, ...
