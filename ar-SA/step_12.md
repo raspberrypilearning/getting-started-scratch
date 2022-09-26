@@ -1,10 +1,10 @@
-## العمليات
+## العميلات
 
 كتل `العمليات`{:class="block3operators"} تستعمل لمقارنة المتغيرات و القيم, القيام بالحسابات بالأرقام, و العمل بالسلاسل(النص).
 
-The hexagonal 'Boolean' blocks are used as conditions, and return true or false. These blocks can be used in `Control`{:class="block3control"} blocks with a hexagonal input.
+يتم استخدام الكتل "المنطقية" سداسية الشكل كشرط ، ويتم إرجاع صواب أو خطأ. يمكن استخدام هذه الكتل في كتل التحكم `{`class = "block3control"} ذات الإدخال السداسي.
 
-Comparison operators:
+عمليات المقارنة:
 
 ```blocks3
 <[] > [50]>
@@ -14,10 +14,10 @@ Comparison operators:
 <[] = [50]>
 ```
 
-**Tip:** When you use `=`{:class="block3operators"} with text you can mix upper and lower case letters, so `<`{:class="block3operators"} `YES` `=`{:class="block3operators"} `yes` `>`{:class="block3operators"} returns **true**.
+**نصيحة:** عندما تستخدم `=`{:class="block3operators"} مع النص في اللغة الانكليزية، يمكنك مزج الاحرف الكبيرة بحيث `<`{:class="block3operators"} `YES` `=`{:class="block3operators"} `yes` `>`{:class="block3operators"} ترجع **true**.
 
 
-There are maths operations:
+هناك عمليات رياضية:
 
 ```blocks3
 ([] + [])
@@ -29,13 +29,13 @@ There are maths operations:
 ([] / [])
 ```
 
-You can choose random numbers between the smallest and largest number (including those numbers).
+يمكنك اختيار أرقام عشوائية بين أصغر وأكبر رقم (بما في ذلك تلك الأرقام).
 
 ```blocks3
 (pick random [1] to [10]) // A number from 1 to 10
 ```
 
-The `and`{:class="block3operators"}, `or`{:class="block3operators"}, and `not`{:class="block3operators"} operators can be used to combine conditions.
+الـ `و`{:class="block3operators"}, `أو`{:class="block3operators"}, و `ليس`{:class="block3operators"} هي عمليات تستخدم لدمج الشروط.
 
 ```blocks3
 <<> and <>>
@@ -45,7 +45,7 @@ The `and`{:class="block3operators"}, `or`{:class="block3operators"}, and `not`{:
 <not <> >
 ```
 
-There are blocks for working with text strings:
+توجد كتل للعمل مع السلاسل النصية:
 
 ```blocks3
 (join [apple ] [banana])
@@ -59,4 +59,4 @@ There are blocks for working with text strings:
 
 [[[scratch3-join-text]]]
 
-There are also more maths operators that are useful for some projects.
+هناك أيضًا المزيد من العمليات الرياضية المفيدة لبعض المشاريع.
