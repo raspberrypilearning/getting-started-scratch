@@ -1,10 +1,10 @@
-## Sensing
+## Sensores
 
-The blocks in the `Sensing`{:class="block3sensing"} blocks menu are used to get user text input, detect conditions, and report on values in your project.
+Os blocos no menu `Sensores`{:class="block3sensing"} são usados para obter textos do usuário, detectar condições e relatar valores em seu projeto.
 
-There are several hexagonal `Sensing`{:class="block3sensing"} blocks that you can use in `Control`{:class="block3control"} blocks to make decisions and control when blocks run.
+Existem vários blocos hexagonais na categoria `Sensores`{:class="block3sensing"} que você pode usar em blocos da categoria `Controle`{:class="block3control"} para tomar decisões e controlar quando os blocos são executados.
 
-The `touching`{:class="block3sensing"} block has options for detecting whether the sprite that owns the script is touching the mouse pointer (where you finger last touched on a tablet), the edge of the Stage, or another sprite:
+O bloco `tocando em`{:class="block3sensing"} tem opções para detectar se o ator que possui seu próprio script está tocando o ponteiro do mouse (onde seu dedo tocou por último na tela do tablet), na borda do Palco, ou um outro ator:
 
 ```blocks3
 <touching (mouse-pointer v) ?>
@@ -14,7 +14,7 @@ The `touching`{:class="block3sensing"} block has options for detecting whether t
 <touching (Sprite2 v) ?>
 ```
 
-There are blocks for detecting whether the sprite that owns the script is touching another colour (on the Stage or another sprite), or whether a colour on this sprite is touching another colour.
+Existem blocos para detectar se o ator que possui seu próprio script está tocando em outra cor (no Palco ou em outro ator), ou se uma cor neste ator está tocando em outra cor.
 
 ```blocks3
 <touching color (#c5a97b) ?>
@@ -22,7 +22,7 @@ There are blocks for detecting whether the sprite that owns the script is touchi
 <color (#c219ed) is touching (#62d1e0) ?>
 ```
 
-The `key pressed`{:class="block3sensing"} block has options for number, letter, and arrow keys. You need a keyboard to be able to enter keys. It detects whether the key is currently being pressed:
+A bloco `tecla pressionada`bloco{:class="block3sensing"} tem opções para números, letras e setas de direção. Você precisa de um teclado para pressionar as teclas. Ele detecta se uma tecla está sendo pressionada:
 
 ```blocks3
 <key (space v) pressed?>
