@@ -197,7 +197,7 @@ título: Pular em ângulo
 
 --- no-print ---
 
-**Football bouncing**: [See inside](https://scratch.mit.edu/projects/433536479/editor){:target="_blank"}
+**Jogador de futebol americano pulando**: [Ver interior](https://scratch.mit.edu/projects/433536479/editor){: target = "_ blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/433536479/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -205,7 +205,7 @@ título: Pular em ângulo
 
 --- /no-print ---
 
-This code makes a sprite appear to rotate randomly when the green flag is clicked:
+Este código faz um ator parecer rodar de forma aleatória quando a bandeira verde é clicada:
 
 ```blocks3
 when green flag clicked
@@ -216,15 +216,15 @@ move (5) steps
 if on edge, bounce
 ```
 
-If your sprite moves at `45` degrees, you will find that it appears to bounce on the edge of the Stage at an angle. Change the number of degrees in the `point in direction`{:class="block3motion"} block to `45` to make your sprite bounce all around.
+Se o seu ator se mover em `45` graus, você pode achar que ele parece pular em um ângulo na borda do Palco. Altere para `45` o número de graus no bloco `aponte para a direção`{: class = "block3motion"} para fazer um ator pular ao redor.
 
-Add a `set rotation style`{:class="block3motion"} block and select `all around`{:class="block3motion"} in the drop-down menu, so that your sprite will turn when it bounces on the edge of the Stage.
+Adicione um bloco `defina o estilo de rotação para`{: class = "block3motion"} e selecione `rotação completa`{: class = "block3motion"} no menu suspenso, então o seu ator vai virar quando ele quicar na borda do Palco.
 
 --- /collapse ---
 
-### Using coordinates
+### Usando coordenadas
 
-You can also `change`{:class="block3motion"} and `set`{:class="block3motion"} the `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates and get their values to use in other blocks:
+Você também pode `mudar`{: class = "block3motion"} e `definir`{: class = "block3motion"} as coordenadas `x`{: class = "block3motion"} e `y`{: class = "block3motion"} de modo que seus valores sejam utilizados em outros blocos:
 
 [[[generic-scratch3-coordinates]]]
 
@@ -244,12 +244,12 @@ set y to [0]
 
 --- collapse ---
 ---
-title: I can't see any Motion blocks
+título: Não consigo ver nenhum bloco da categoria Movimento
 ---
 
-If you have the Stage selected then you won't see any `Motion`{:class="block3motion"} blocks, because the Stage can't move.
+Se você selecionou o Palco então não verá nenhum bloco `Movimento`{: class = "block3motion"}, porque o Palco não pode se mover.
 
-Click on a sprite in the Sprite pane and then click on the **Code** tab to see the `Motion`{:class="block3motion"} blocks.
+Clique em um ator no painel do ator e então clique na aba **Código** para ver os blocos `Movimento`{: class = "block3motion"}.
 
 --- /collapse ---
 
