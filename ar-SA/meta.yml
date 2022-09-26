@@ -9,7 +9,6 @@ last_tested: '2020-11-28'
 steps:
   - 
     title: المقدمة
-    completion: مرتبط
   - 
     title: إعداد Scratch
   - 
@@ -39,15 +38,14 @@ steps:
   - 
     title: الإضافات
   - 
-    title: محرر الرسام
+    title: محرر الرسوم
   - 
     title: محرر الصوت
   - 
     title: التصحيح
   - 
-    title: نصائح للتحرير
+    title: نصائح التحرير
   - 
-    title: شارك و علق
-    completion: داخلي
+    title: المشاركة و التعليق
   - 
-    title: مشاريعنا لـScratch
+    title: مشاريع Scratch الخاصة بنا
