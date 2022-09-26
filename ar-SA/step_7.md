@@ -1,10 +1,10 @@
-## Looks
+## الهيئة
 
 `Looks`{:class="block3looks"} blocks control a sprite's appearance on the Stage.
 
-Sprites can communicate using `Looks`{:class="block3looks"}, through a `say`{:class="block3looks"} speech bubble, a `think`{:class="block3looks"} thought bubble, or through their `graphic effects`{:class="block3looks"}.
+تستطيع الكائنات التخاطب باستخدام `الهيئة`{:class="block3looks"}، من خلال فقاعة الكلام `قل`{:class="block3looks"}، فقاعة التفكير `فكّر`{:class="block3looks"}، أو من خلال `المؤثرات الرسومية`{:class="block3looks"}.
 
-### Say and think
+### قل وفكر
 
 ```blocks3
 say () for () seconds
@@ -34,19 +34,19 @@ The sprite will show a speech bubble for two seconds when clicked.
 
 **Space talk**: [See inside](https://scratch.mit.edu/projects/485673032/editor){:target="_blank"}
 
-Click on the sprites to see them communicate with speech and thought.
+انقر على الكائنات لرؤيتها تتواصل بالكلام والتفكير.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/485673032/?autostart=false" frameborder="0"></iframe>
 </div>
 
-The `say ()`{:class="block3looks"} and `think ()`{:class="block3looks"} blocks are used to say or think something, until another message or an empty `say ()`{:class="block3looks"} or `think ()`{:class="block3looks"} block replaces it.
+تستخدم كتل `قل ()`{:class="block3looks"} و`فكّر ()`{:class="block3looks"} للكلام والتفكير بشيء ما، الى ان تأتي كتلة رسالة ثانية او كتلة فارغة من كتل `قل()`{:class="block3looks"} او `فكّر()`{:class="block3looks"} وتستبدلها.
 
 --- /collapse ---
 
-### Size
+### الحجم
 
-Set or change the `size`{:class="block3looks"} of your sprites.
+قم بتعيين أو تغيير `الحجم`{:class="block3looks"} للكائنات الخاصة بك.
 
 ```blocks3
 change size by ()
@@ -58,35 +58,35 @@ set size to () %
 
 --- collapse ---
 ---
-title: Set the size of your sprite
+title: اضبط حجم الكائن الخاص بك
 ---
 
-When you add a sprite to your project, its size is set to `100` percent. This may be too big or too small for your project.
+عند إضافة كائن لمشروعك، يتم تعيين حجمها إلى `100` في المئة. قد يكون هذا كبيرًا جدًا أو صغيرًا جدًا بالنسبة لمشروعك.
 
-You can use code to set the size of a sprite. To do this, use a `set size to`{:class="block3looks"} block:
+يمكنك استخدام التعليمات البرمجية لتعيين حجم الكائن. للقيام بذلك، استخدم كتلة `اجعل الحجم مساويا`{:class="block3looks"}:
 
 ```blocks3
 set size to (50) %
 ```
 
-If you set the size of a sprite to `50` percent, it will be half as tall and half as wide. If you set the size of a sprite to `200` percent, it will be twice as tall and twice as wide.
+إذا قمت بتعيين حجم الكائن على `50` بالمائة، فسيكون نصف طوله ونصف عرضه. إذا قمت بتعيين حجم الكائن على `200` بالمائة، فسيكون ضعف طوله وضعف عرضه.
 
-To set the size of a sprite when the project is started, place a `set size to`{:class="block3looks"} block under a `when green flag clicked`{:class="block3events"} block:
+لتعيين حجم الكائن عند بدء المشروع، ضع كتلة `اجعل الحجم مساوياً`{: class = "block3looks"} أسفل كتلة `عند نقر العلم الأخضر`{:class="block3events"}:
 
 ```blocks3
 when green flag clicked
 set size to (50) %
 ```
 
-You can also quickly set the size of a sprite in the **Size** property in the Sprite pane below the Stage:
+يمكنك أيضًا تعيين حجم الكائن بسرعة في **الحجم** في جزء الكائن أسفل المنصة:
 
-![The Size box highlighted in the Sprite pane.](images/spriteSize.png){:width="400px"}
+![مربع الحجم مؤشر في قسم الكائنات.](images/spriteSize.png){:width="400px"}
 
 --- /collapse ---
 
-### Graphic effects
+### المؤثرات الصورية
 
-Set or change a range of visual effects, such as colour, fisheye, whirl, pixelate, mosaic, brightness and ghost.
+قم بتعيين أو تغيير مجموعة التأثيرات المرئية مثل اللون، عين السمكة، الدوامة ، البكسلة، الموزاييك، شدة الاضاءة والشبح.
 
 ```blocks3
 change [color v] effect by ()
@@ -98,9 +98,9 @@ clear graphic effects
 
 [[[scratch3-graphic-effects]]]
 
-### Costumes
+### المظاهر
 
-To create an animation effect with your sprites, you can change their costumes.
+لإنشاء تأثير الرسوم المتحركة للكائنات الخاصة بك، يمكنك تغيير مظاهرهم.
 
 ```blocks3
 switch costume to ( v)
@@ -114,18 +114,18 @@ next costume
 
 --- collapse ---
 ---
-title: Change looks to create an animation effect
+title: تغيير الهيئة لإنشاء تأثير حركة
 ---
 
-**Beating heart**: [See inside](https://scratch.mit.edu/projects/435725413/editor){:target="_blank"}
+**قلبن نابض**: [انظر في الداخل](https://scratch.mit.edu/projects/435725413/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435725413/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can use the `set size to`{:class="block3looks"} or `change size by`{:class="block3looks"} blocks to create a pulsing effect, such as a beating heart.
+يمكنك استخدام كتلة `اجعل الحجم مساويا`{:class="block3looks"} أو كتلة `غير الحجم بمقدار`{:class="block3looks"} لإنشاء تأثير نابض، مثل ضربات القلب.
 
-**Note:** The `set size to`{:class="block3looks"} block sets the size to a specific value, while the `change size by`{:class="block3looks"} block changes the value from what it was before, e.g. `change size by`{:class="block3looks"} `10` adds 10 to the value of the size.
+**ملاحظة:** كتلة `اجعل الحجم مساويا`{:class="block3looks"} تجعل الحجم بقيمة محددة، بينما كتلة `غيّر الحجم بمقدار`:class="block3looks"} تغير قيمة الحجم عما كان عليه قبل ذلك، على سبيل المثال ، `غيّر الحجم بمقدار`{:class="block3looks"} `10` يضيف ١٠ إلى قيمة الحجم.
 
 ```blocks3
 when green flag clicked
@@ -142,9 +142,9 @@ wait (0.2) seconds
 end
 ```
 
-This code uses a series of `change size by`{:class="block3looks"} and `wait`{:class="block3control"} blocks to make the heart grow and shrink. Try to create your own pulsing sprite.
+تستخدم هذا التعليمات البرمجية مجموعة من كتل `غيّر الحجم بمقدار`{:class="block3looks"} و كتلة `انتظر`{:class="block3control"} لجعل القلب ينمو ويتقلص. حاول إنشاء كائن ينبض خاص بك.
 
-You could also use the `change graphic effect by`{:class="block3looks"} block to create a sprite that continues to change its appearance.
+يمكنك أيضًا استخدام كتلة `غيّر مؤثر اللون بمقدار`{:class="block3looks"} لإنشاء كائن يستمر في تغيير مظهره.
 
 ```blocks3
 when green flag clicked
@@ -153,9 +153,9 @@ wait (1) seconds
 change [ghost v] effect by (-75)
 ```
 
-**Note:** If you use code that changes a graphic effect and then changes it back again, remember to use a `wait`{:class="block3control"} block in between the `change graphic effect by`{:class="block3looks"} blocks, otherwise, it will happen so fast that you won't see it!
+**ملاحظة:** إذا كنت تستخدم تعليمات برمجية لتغيير المؤثرات الصورية ثم تغيّره مرة أخرى، تذكر استخدام كتلة `انتظر`{:class="block3control"} بين `غيّر مؤثر اللون بمقدار`{:class="block3looks"}، وإلا فسيحدث التغيير سريعًا لدرجة أنك لن تراه!
 
-You can use a `clear graphic effects`{:class="block3looks"} block at any time to reset the effects:
+يمكنك استخدام كتلة `أزل المؤثرات الرسومية`{:class="block3looks"} في أي وقت لإعادة تعيين التأثيرات الى ماكانت عليه:
 
 ```blocks3
 clear graphic effects
@@ -165,18 +165,18 @@ clear graphic effects
 
 --- collapse ---
 ---
-title: Click to change and then change back
+title: انقر للتغيير ومن ثم تراجع عن التغيير
 ---
 
-You can add actions that make a change to a sprite and then reverse them, such as growing, waiting, and then shrinking.
+يمكنك إضافة الإجراءات التي تُحدث تغييراً في الكائن ثم عكسها، مثل النمو والانتظار ثم الانكماش.
 
-**Squash ball when clicked**: [See inside](https://scratch.mit.edu/projects/435723273/editor){:target="_blank"}
+**كرة منضغطة عند النقر عليها**: [انظر في الداخل](https://scratch.mit.edu/projects/435723273/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/435723273/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 </div>
 
-This code will grow a sprite, apply the `fisheye`{:class="block3looks"} effect for 0.5 seconds, and then return the sprite to its starting appearance:
+هذه التعليمات البرمجية ستنمي الكائن، طبّق تأثير `عين السمكة`{:class="block3looks"} لمدة 0.5 ثانية، ثم أعد الكائن إلى مظهره الأولي:
 
 ```blocks3
 when this sprite clicked
@@ -191,9 +191,9 @@ set size to (100)
 
 [[[scratch3-animate-movement-costumes]]]
 
-### Backdrops
+### الخلفيات
 
-You can use code to change the backdrop too.
+يمكنك استخدام تعليمات برمجية لتغيير الخلفية أيضًا.
 
 ```blocks3
 switch backdrop to ( v)
@@ -205,9 +205,9 @@ next backdrop
 
 [[[scratch3-changing-backdrops-pages-levels]]]
 
-### Visibility
+### الرؤية
 
-The `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks control the visibility of a sprite.
+كتل `اظهر`{:class="block3looks"} و`اختف`{:class="block3looks"} تتحكم في رؤية الكائن.
 
 ```blocks3
 show 
@@ -217,9 +217,9 @@ hide
 
 [[[scratch3-show-hide-sprites-backdrops]]]
 
-### Layers
+### طبقات
 
-To change how your sprites appear in relation to each other, you can use layers.
+لتغيير كيفية ظهور الكائنات الخاصة بك فيما يتعلق ببعضها البعض، يمكنك استخدام الطبقات.
 
 ```blocks3
 go to [front v] layer
@@ -231,18 +231,18 @@ go [forward v] () layers
 
 --- collapse ---
 ---
-title: Position sprites in many layers
+title: ضع الكائن في طبقات متعددة
 ---
 
-**Through the window with tree**: [See inside](https://scratch.mit.edu/projects/454188775/editor){:target="_blank"}
+**خلال النافذة مع شجرة**: [انظر في الداخل](https://scratch.mit.edu/projects/454188775/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/454188775/?autostart=false" frameborder="0"></iframe>
 </div>
 
-In the example, the **Window frame** sprite appears at the front and the **Sun** sprite appears at the back. The **Avery Walking** and **Tree** sprites are each in their own layers between the **Window frame** sprite and the **Sun** sprite.
+في هذا المثال، يظهر الكائن في الامام **Window frame** ويظهر الكائن **Sun** في الخلف. كائن **Avery Walking** و كائن **Tree** كل منها في طبقتها الخاصة بين كائن **Window frame** و كائن **Sun**.
 
-Use the `go backward`{:class="block3looks"} `1` `layers`{:class="block3looks"} block to place a sprite one layer behind the sprite at the front:
+استخدم كتلة `انتقل الى الخلف`{:class="block3looks"} `1` `طبقة`{:class="block3looks"} لوضع الكائن الحالي طبقة واحدة خلف الكائن الموجود حاليا في المقدمة:
 
 ``` blocks3
 when green flag clicked
@@ -250,7 +250,7 @@ go to [front v] layer
 +go [backward v] (1) layers
 ```
 
-Change the value in the `go backward`{:class="block3looks"} `1` `layers`{:class="block3looks"} block for each sprite, depending on where you want it to be positioned in relation to other sprites:
+غيّر القيمة في كتلة `انتقل الى الخلف`{:class="block3looks"} `1` `طبقة`{:class="block3looks"} لكل كائن، اعتمادًا على المكان الذي تريد وضعه فيه بالنسبة للكائنات الأخرى:
 
 ``` blocks3
 when green flag clicked
