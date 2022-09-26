@@ -24,7 +24,7 @@ title: Ce qu'il te faudra
 
 ### Logiciel
 
-+ Ce guide vous expliquera comment démarrer avec Scratch 3 (soit [en ligne](https://scratch.mit.edu/){:target="_blank"} ou [hors ligne](https://scratch.mit.edu/download){:target="_blank"})
++ Ce guide t'expliquera comment démarrer avec Scratch 3 (soit [en ligne](https://scratch.mit.edu/){:target="_blank"} ou [hors ligne](https://scratch.mit.edu/download){:target="_blank"})
 
 
 --- /collapse ---
