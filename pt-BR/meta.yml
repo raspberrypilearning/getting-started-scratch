@@ -9,7 +9,6 @@ last_tested: '2020-11-28'
 steps:
   - 
     title: Introdução
-    completion: engajado
   - 
     title: Configurando o Scratch
   - 
@@ -48,6 +47,5 @@ steps:
     title: Dicas de edição
   - 
     title: Compartilhe e comente
-    completion: interno
   - 
     title: Nossos projetos Scratch
