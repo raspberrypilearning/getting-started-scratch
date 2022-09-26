@@ -29,7 +29,7 @@ Il existe des opérations mathématiques :
 ([] / [])
 ```
 
-Vous pouvez tirer des nombres aléatoires entre le plus petit et le plus grand nombre (ces nombres y compris).
+Tu peux choisir des nombres aléatoires entre le plus petit et le plus grand nombre (ces nombres y compris).
 
 ```blocks3
 (pick random [1] to [10]) // A number from 1 to 10
