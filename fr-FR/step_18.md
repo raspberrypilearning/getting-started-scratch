@@ -78,5 +78,5 @@ title: Conseils de débogage pour des problèmes spécifiques
 
 --- /collapse ---
 
-**Astuce :** Si vous ne trouvez pas le problème après avoir essayé ces techniques, faites une pause ou travaillez sur une autre partie de votre projet. À ton retour, tu pourrais trouver le bogue tout de suite !
+**Astuce :** Si tu ne trouves pas le problème après avoir essayé ces techniques, fais une pause ou travaille sur une autre partie de ton projet. À ton retour, tu pourrais trouver le bogue tout de suite !
 
