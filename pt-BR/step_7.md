@@ -1,10 +1,10 @@
-## Looks
+## Aparência
 
-`Looks`{:class="block3looks"} blocks control a sprite's appearance on the Stage.
+Blocos da categoria `Aparência`{:class="block3looks"} controlam a aparência de um ator no Palco.
 
-Sprites can communicate using `Looks`{:class="block3looks"}, through a `say`{:class="block3looks"} speech bubble, a `think`{:class="block3looks"} thought bubble, or through their `graphic effects`{:class="block3looks"}.
+Sprites podem se comunicar usando o menu `Aparências`{:class="block3looks"}, através de um balão de `fala`{:class="block3looks"}, um balão de `pensamento`{:class="block3looks"}, ou através dos `efeitos gráficos`{:class="block3looks"}.
 
-### Say and think
+### Falar e pensar
 
 ```blocks3
 say () for () seconds
@@ -18,35 +18,35 @@ think ()
 
 --- collapse ---
 ---
-title: Use a speech bubble to communicate
+título: Use um balão de fala para se comunicar
 ---
 
-Sprites can `say`{:class="block3looks"} and `think`{:class="block3looks"} to communicate.
+Atores podem `falar`{:class="block3looks"} e `pensar`{:class="block3looks"} para se comunicar.
 
-The `say () for () seconds`{:class="block3looks"} and `think () for () seconds`{:class="block3looks"} blocks are used to say or think something for a set amount of time.
+Os blocos `diga () por () segundos `{:class="block3looks"} e `pense () por () segundos `{:class="block3looks"} são usados para falar ou pensar em algo por uma certa quantidade de tempo.
 
 ```blocks3
 when this sprite clicked
 say [Hello!] for [2] seconds // hide speech after 2 seconds
 ```
 
-The sprite will show a speech bubble for two seconds when clicked.
+A ator irá mostrar um balão de fala por 2 segundos quando for clicado.
 
-**Space talk**: [See inside](https://scratch.mit.edu/projects/485673032/editor){:target="_blank"}
+**Space talk**: [Ver interior](https://scratch.mit.edu/projects/485673032/editor){:target="_blank"}
 
-Click on the sprites to see them communicate with speech and thought.
+Clique nos atores para ver eles conversarem com falas e pensamentos.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/485673032/?autostart=false" frameborder="0"></iframe>
 </div>
 
-The `say ()`{:class="block3looks"} and `think ()`{:class="block3looks"} blocks are used to say or think something, until another message or an empty `say ()`{:class="block3looks"} or `think ()`{:class="block3looks"} block replaces it.
+Os blocos `diga ()`{:class="block3looks"} e `pense ()`{:class="block3looks"} são usados para falar ou pensar algo, até que outra mensagem ou um bloco `diga ()`{:class="block3looks"} ou `pense ()`{:class="block3looks"} que estejam vazios substitua o primeiro.
 
 --- /collapse ---
 
-### Size
+### Tamanho
 
-Set or change the `size`{:class="block3looks"} of your sprites.
+Defina ou altere o `tamanho`{:class="block3looks"} de seus atores.
 
 ```blocks3
 change size by ()
@@ -58,35 +58,35 @@ set size to () %
 
 --- collapse ---
 ---
-title: Set the size of your sprite
+título: Defina o tamanho do seu ator
 ---
 
-When you add a sprite to your project, its size is set to `100` percent. This may be too big or too small for your project.
+Quando você adiciona um ator ao seu projeto, o tamanho dele é definido como `100` por cento. Isso pode ser grande ou pequeno demais para o seu projeto.
 
-You can use code to set the size of a sprite. To do this, use a `set size to`{:class="block3looks"} block:
+Você pode usar código para redefinir o tamanho de um ator. Para fazer isso, use um bloco `defina o tamanho como`class="block3looks"}:
 
 ```blocks3
 set size to (50) %
 ```
 
-If you set the size of a sprite to `50` percent, it will be half as tall and half as wide. If you set the size of a sprite to `200` percent, it will be twice as tall and twice as wide.
+Se você definir tamanho de um ator para `50` por cento, ele ficará menor pela metade, tanto na altura como na largura. Se você definir o tamanho de um ator para `200` por cento, ele ficará duas vezes maior tanto na altura como na largura.
 
-To set the size of a sprite when the project is started, place a `set size to`{:class="block3looks"} block under a `when green flag clicked`{:class="block3events"} block:
+Para definir o tamanho de um ator quando o projeto é iniciado, coloque um bloco `defina o tamanho como`{:class="block3looks"} sob um bloco `quando a bandeira verde for clicada`{:class="block3events"}:
 
 ```blocks3
 when green flag clicked
 set size to (50) %
 ```
 
-You can also quickly set the size of a sprite in the **Size** property in the Sprite pane below the Stage:
+Você tambem pode definir rapidamente o tamanho de um ator pela propriedade **Tamanho** no painel do Ator abaixo do Palco:
 
-![The Size box highlighted in the Sprite pane.](images/spriteSize.png){:width="400px"}
+![A caixa de tamanho destacada no painel de Atores.](images/spriteSize.png){:width="400px"}
 
 --- /collapse ---
 
-### Graphic effects
+### Efeitos gráficos
 
-Set or change a range of visual effects, such as colour, fisheye, whirl, pixelate, mosaic, brightness and ghost.
+Defina ou altere uma gama de efeitos visuais, tais como cores, efeito olho-de-peixe, espiral, pixelado, mosaico, brilho e efeito fantasma.
 
 ```blocks3
 change [color v] effect by ()
@@ -98,9 +98,9 @@ clear graphic effects
 
 [[[scratch3-graphic-effects]]]
 
-### Costumes
+### Fantasias
 
-To create an animation effect with your sprites, you can change their costumes.
+Para criar um efeito de animação em seus sprites, você pode alterar seus trajes.
 
 ```blocks3
 switch costume to ( v)
@@ -114,18 +114,18 @@ next costume
 
 --- collapse ---
 ---
-title: Change looks to create an animation effect
+título: Mude a aparência para criar um efeito de animação
 ---
 
-**Beating heart**: [See inside](https://scratch.mit.edu/projects/435725413/editor){:target="_blank"}
+**Coração batendo**: [Ver interior](https://scratch.mit.edu/projects/435725413/editor){: target="_ blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435725413/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can use the `set size to`{:class="block3looks"} or `change size by`{:class="block3looks"} blocks to create a pulsing effect, such as a beating heart.
+Você pode usar os blocos `defina o tamanho como`{:class="block3looks"} ou `mude o tamanho`{:class="block3looks"} para criar efeitos, tal como, de um coração batendo.
 
-**Note:** The `set size to`{:class="block3looks"} block sets the size to a specific value, while the `change size by`{:class="block3looks"} block changes the value from what it was before, e.g. `change size by`{:class="block3looks"} `10` adds 10 to the value of the size.
+**Observação**: O bloco `defina o tamanho como`{:class="block3looks"}, define o tamanho de um ator para um valor específico, enquanto que o bloco `mude o tamanho`{:class="block3looks"}, altera o valor que estava anteriormente. Por exemplo, `mude o tamanho `{:class="block3looks"} para `10` adiciona 10 ao valor de tamanho anterior.
 
 ```blocks3
 when green flag clicked
@@ -142,9 +142,9 @@ wait (0.2) seconds
 end
 ```
 
-This code uses a series of `change size by`{:class="block3looks"} and `wait`{:class="block3control"} blocks to make the heart grow and shrink. Try to create your own pulsing sprite.
+Este código usa uma série de blocos `mude no tamanho`{:class="block3looks"} e `espere`{:class="block3control"} para fazer o coração crescer e depois diminuir. Tente criar o seu próprio ator animado.
 
-You could also use the `change graphic effect by`{:class="block3looks"} block to create a sprite that continues to change its appearance.
+Você poderia também usar o bloco `defina o efeito como`{:class="block3looks"} para criar um ator que continua a mudar sua aparência.
 
 ```blocks3
 when green flag clicked
@@ -153,9 +153,9 @@ wait (1) seconds
 change [ghost v] effect by (-75)
 ```
 
-**Note:** If you use code that changes a graphic effect and then changes it back again, remember to use a `wait`{:class="block3control"} block in between the `change graphic effect by`{:class="block3looks"} blocks, otherwise, it will happen so fast that you won't see it!
+**Observação:** Se você usar código que altere um efeito gráfico e depois volte ao normal, lembre de usar blocos `espere`{:class="block3control"} entre os blocos `defina o efeito como`{:class="block3looks"}, senão isso vai acontecer tão rápido que você não vai conseguir ver!
 
-You can use a `clear graphic effects`{:class="block3looks"} block at any time to reset the effects:
+Você pode usar um bloco `remova os efeitos gráficos`{:class="block3looks"} a qualquer momento para redefinir os efeitos:
 
 ```blocks3
 clear graphic effects
@@ -165,18 +165,18 @@ clear graphic effects
 
 --- collapse ---
 ---
-title: Click to change and then change back
+título: Clique para alterar e, em seguida, voltar ao normal
 ---
 
-You can add actions that make a change to a sprite and then reverse them, such as growing, waiting, and then shrinking.
+Você pode adicionar ações que alteram o ator e depois reverte-las. Ações como: aumentar, esperar e depois diminuir.
 
-**Squash ball when clicked**: [See inside](https://scratch.mit.edu/projects/435723273/editor){:target="_blank"}
+**A bola de squash quando clicada**: [Veja o exemplo](https://scratch.mit.edu/projects/435723273/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/435723273/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 </div>
 
-This code will grow a sprite, apply the `fisheye`{:class="block3looks"} effect for 0.5 seconds, and then return the sprite to its starting appearance:
+Este código vai aumentar um ator de tamanho, aplicar o efeito `olho de peixe`{:class="block3looks"} por 0,5 segundos, e em seguida, retornar o ator para sua aparência inicial:
 
 ```blocks3
 when this sprite clicked
@@ -191,9 +191,9 @@ set size to (100)
 
 [[[scratch3-animate-movement-costumes]]]
 
-### Backdrops
+### Cenários
 
-You can use code to change the backdrop too.
+Você pode usar código para alterar o cenário também.
 
 ```blocks3
 switch backdrop to ( v)
@@ -205,9 +205,9 @@ next backdrop
 
 [[[scratch3-changing-backdrops-pages-levels]]]
 
-### Visibility
+### Visibilidade
 
-The `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks control the visibility of a sprite.
+Os blocos `mostre`{:class="block3looks"} e `esconda`{:class="block3looks"} controlam a visibilidade de um ator.
 
 ```blocks3
 show 
@@ -217,9 +217,9 @@ hide
 
 [[[scratch3-show-hide-sprites-backdrops]]]
 
-### Layers
+### Camadas
 
-To change how your sprites appear in relation to each other, you can use layers.
+Para alterar como seus atores aparecem em relação uns aos outros, você pode usar camadas.
 
 ```blocks3
 go to [front v] layer
@@ -231,18 +231,18 @@ go [forward v] () layers
 
 --- collapse ---
 ---
-title: Position sprites in many layers
+título: Posicione atores em muitas camadas
 ---
 
-**Through the window with tree**: [See inside](https://scratch.mit.edu/projects/454188775/editor){:target="_blank"}
+**Através da janela com árvore**:[Ver interior](https://scratch.mit.edu/projects/454188775/editor){:target="_ blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/454188775/?autostart=false" frameborder="0"></iframe>
 </div>
 
-In the example, the **Window frame** sprite appears at the front and the **Sun** sprite appears at the back. The **Avery Walking** and **Tree** sprites are each in their own layers between the **Window frame** sprite and the **Sun** sprite.
+No exemplo, o ator **moldura de janela** aparece na frente e o ator**Sol** aparece atrás. Os atores **Avery Caminhando** e **Árvore** estão cada um em suas próprias camadas, entre o ator **Moldura de janela** e o ator **Sol**.
 
-Use the `go backward`{:class="block3looks"} `1` `layers`{:class="block3looks"} block to place a sprite one layer behind the sprite at the front:
+Use o bloco de `vá para trás`{:class="block3looks"} `1` `camadas`{:class="block3looks"} para colocar o ator uma camada atrás do ator da frente:
 
 ``` blocks3
 when green flag clicked
@@ -250,7 +250,7 @@ go to [front v] layer
 +go [backward v] (1) layers
 ```
 
-Change the value in the `go backward`{:class="block3looks"} `1` `layers`{:class="block3looks"} block for each sprite, depending on where you want it to be positioned in relation to other sprites:
+Altere o valor do bloco `vá para trás`{:class="block3looks"} `1``camadas`{:class="block3looks"} para cada ator, dependendo de onde você quer que ele seja posicionado em relação aos outros atores:
 
 ``` blocks3
 when green flag clicked
