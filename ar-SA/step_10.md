@@ -1,9 +1,9 @@
-## Control
+## التحكم
 
-`Control`{:class="block3control"} blocks control the order that blocks run in, including decisions (selection) and loops (repetition).
+مجموعات`التحكم`{:class="block3control"} تتحكم الترتيب الذي تشتغل فيه المجموعات, متضمنا القرارات (التعيين) و الحلقات ( التكرر).مجموعةمجموعة
 
 
-The `wait`{:class="block3control"} block delays for a number of seconds before running the next block.
+مجموعة `انتظر`{:class="block3control"} تأخر لعدد من الثواني قبل تشغيل المجموعة التالية.
 
 ```blocks3
 wait (1) seconds// delay for 1 second
@@ -11,7 +11,7 @@ wait (1) seconds// delay for 1 second
 wait (0.1) seconds// delay for one tenth of a second
 ```
 
-Loops control how many time the code inside them runs.
+الحلقات تتحكم كم مرة يتكرر الكود داخلها.
 
 ```blocks3
 repeat (4) // run the blocks inside four time
@@ -27,9 +27,9 @@ end
 
 [[[scratch3-forever-condition]]]
 
-**Tip:** You can stop a `forever`{:class="block3events"} block by clicking the Stop button above the Stage, or by using the `stop`{:class="block3control"} blocks.
+**نصيحة:** يمكنك إيقاف المجموعة `إلى الأبد`{:class="block3events"} بضغط زر قف أعلى المنصة, أو باستخدام مجموعة `قف`{:class="block3control"}.
 
-There are three options for the `stop`{:class="block3events"} block:
+هناك ثلاثة خيارات لمجموعة `قف`{:class="block3events"}:
 
 ```blocks3
 stop [all v] // stop all scripts in all sprites
@@ -39,7 +39,7 @@ stop [this script v]
 stop [other scripts in sprite v]
 ```
 
-The `if...then`{:class="block3control"} and `if...then...else`{:class="block3control"} blocks are used to make decisions about which code blocks to run next. This is sometimes called **selection**. The `if...then`{:class="block3control"} block checks a hexagonal-shaped **condition** and runs the code blocks inside, if the condition is **true**. The `if...then..else`{:class="block3control"} block has an additional section to run the code blocks inside, if the condition is **false**.
+المجموعات `if...then `{:class="block3control"} و `if...then...else `{:class="block3control"} تستعمل لاتخاذ قرار حول أي مجاميع كودات سوف يتم تشغيلها. هذه تسمى أحيانا **تعيين**. مجموعة `if...then`{:class="block3control"} تتحقق **شرط** سداسي الشكل و تشغل مجاميع الكود داخلها, إذا كان الشرط **صحيح**. The `if...then..else`{:class="block3control"} block has an additional section to run the code blocks inside, if the condition is **false**.
 
 ```blocks3
 if <> then
