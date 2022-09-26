@@ -135,7 +135,7 @@ start sound (Baa v)
 
 --- /collapse ---
 
-Als je eenmaal je geluiden hebt gekozen, wil je misschien de `volume`{:class="block3sound"}, `toonhoogte`{:class="block3sound"} of `kanaal`{:class="block3sound"} ( zodat je het geluid uit de linker- of rechterluidspreker hoort) veranderen.
+Als je eenmaal je geluiden hebt gekozen, wil je misschien `volume`{:class="block3sound"}, `toonhoogte`{:class="block3sound"} of `kanaal`{:class="block3sound"} ( zodat je het geluid uit de linker- of rechterluidspreker hoort) veranderen.
 
 --- collapse ---
 ---
