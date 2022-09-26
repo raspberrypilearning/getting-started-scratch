@@ -9,7 +9,6 @@ last_tested: '2020-11-28'
 steps:
   - 
     title: Introduction
-    completion: engaged
   - 
     title: Set up Scratch
   - 
@@ -48,6 +47,5 @@ steps:
     title: Editing tips
   - 
     title: Share and comment
-    completion: internal
   - 
     title: Our Scratch projects
