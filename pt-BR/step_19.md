@@ -1,62 +1,62 @@
-## Editing tips
-It's useful to learn how to copy and delete code blocks, and duplicate sprites.
+## Dicas de edição
+É útil aprender como copiar e excluir blocos de código e duplicar atores.
 
-**Tip:** You can use <kbd>Ctrl-z</kbd> (hold down the Ctrl key and tap 'z') to undo lots of actions in Scratch. If you accidentally delete a Sprite or other item, you can use **Restore** from the **Edit** menu to get it back.
+**Dica:** Você pode usar <kbd>Ctrl-z</kbd> (mantenha pressionada a tecla Ctrl e toque em 'z') para desfazer muitas ações no Scratch. Se você acidentalmente excluir um Ator ou outro item, você pode usar **Restaurar** no **Editar** do menu para recuperá-lo.
 
-You can delete code blocks you don't need any more:
+Você pode excluir blocos de código de que não precisa mais:
 
 [[[scratch-delete]]]
 
-Duplicating or copying code can save you time when making a project.
+Duplicar ou copiar o código pode economizar tempo ao fazer um projeto.
 
 --- collapse ---
 ---
-title: Duplicate blocks
+title: Blocos duplicados
 ---
 
-Duplicate blocks or sets of blocks to reuse in a sprite's program:
+Blocos duplicados ou conjuntos de blocos para reutilizar no programa de um ator:
 
-* Go to the **Code** tab.
-* Right-click (or on a tablet, tap and hold) on the first block that you want to copy. It will select all the blocks below it too.
-* Select **Duplicate** in the drop-down menu. ![Selecting 'Duplicate' in the menu.](images/scratchguide-duplicate.png){:width="300px"}
-* Drag the duplicated code where you want it to go. ![Moving the duplicated code.](images/scratchguide-drag.png){:width="300px"}
-* Delete any blocks that you do not need.
+* Vá para a guia **Código**.
+* Clique com o botão direito (ou, em um tablet, toque e segure) no primeiro bloco que você deseja copiar. Ele também selecionará todos os blocos abaixo dele.
+* Selecione **Duplicar** no menu suspenso. ![Selecting 'Duplicate' in the menu.](images/scratchguide-duplicate.png){: largura = "300px"}
+* Arraste o código duplicado para onde você deseja que ele vá. ![Moving the duplicated code.](images/scratchguide-drag.png){: largura = "300px"}
+* Exclua todos os blocos de que você não precisa.
 
 --- /collapse ---
 
 [[[scratch3-duplicate-sprite]]]
 
-Create a new sprite and copy over all or some of the first sprite's code.
+Crie um novo ator e copie todo ou parte do código do primeiro ator.
 
 --- collapse ---
 ---
-title: Copy a sprite's code
+title: Copie o código de um ator
 ---
 
-In the bottom right-hand corner of the Sprite list, click on **Choose a Sprite** and select the sprite that you want to add.
+No canto inferior direito da lista de Atores, clique em **Selecione um Ator** e selecione o ator que deseja adicionar.
 
-Click on the first sprite and go to its **Code** tab. Drag the code that is in the first sprite's Code area to the image of the second sprite in the Sprite list, then let go of the code to finish copying it to the second sprite. You may have one script that starts with a `when green flag clicked`{:class="block3events"} block, as well as another script that starts with `when this sprite clicked`{:class="block3events"}. Make sure that you copy **all** the code scripts that you have created.
+Clique no primeiro ator e vá para a guia **Código**. Arraste o código que está na área de código do primeiro ator para a imagem do segundo ator na lista de atores, então solte o código para terminar de copiá-lo para o segundo ator. Você pode ter um script que começa com o bloco `quando a bandeira verde for clicado em`{: class = "block3events"}, bem como outro script que começa com `quando este ator for clicado`{: class = "block3events"}. Certifique-se de copiar **todos** os scripts de código que você criou.
 
-![Copying code to another sprite.](images/challenge1-sprite-list.gif){:width="300px"}
+![Copiando código para outro ator.](images/challenge1-sprite-list.gif){:width="300px"}
 
-Your second sprite will now have exactly the same code as your first sprite. Do not run the program until you have started to change the second sprite's code — you might not see the second sprite because it might be positioned underneath the first sprite.
+Seu segundo ator agora terá exatamente o mesmo código do seu primeiro ator. Não execute o programa antes de começar a alterar o código do segundo ator - você pode não ver o segundo ator porque ele pode estar posicionado abaixo do primeiro.
 
 --- /collapse ---
 
-If you want to copy costumes, sprites, sounds, and scripts between projects, drag them into the **Backpack**.
+Se você deseja copiar fantasias, atores, sons e scripts entre projetos, arraste-os para a **Mochila **.
 
 [[[scratch-backpack]]]
 
-It's always worth spending some time making sure you have followed best practices so your project is easy to understand.
+Sempre vale a pena gastar algum tempo certificando-se de que você seguiu as práticas recomendadas para que seu projeto seja fácil de entender.
 
 --- collapse ---
 ---
-title: Best practices for Scratch projects
+title: Melhores práticas para projetos Scratch
 ---
 
-- Name all sprites, costumes, sounds, variables, and messages sensibly. It’s much easier to understand projects that use helpful names.
-- Fill in the Project Page with a good title, instructions, and notes so that users know how to use your project and where you got ideas from.
-- Add short comments that explain what your code is doing.
-- Make sure your scripts are tidy in the **Code** tab. You can right-click and choose **Clean up Blocks** or arrange the scripts in a way that makes sense to you. Try and put similar scripts together.
+- Nomeie todos os atores, fantasias, sons, variáveis e mensagens de maneira sensata. É muito mais fácil entender projetos que usam nomes úteis.
+- Preencha a página do projeto com um bom título, instruções e notas para que os usuários saibam como usar seu projeto e de onde você tirou as ideias.
+- Adicione comentários curtos que expliquem o que seu código está fazendo.
+- Certifique-se de que seus scripts estejam organizados na guia **Código**. Você pode clicar com o botão direito e escolher **Limpar Blocos** ou organizar os scripts de uma forma que faça sentido para você. Tente colocar scripts semelhantes juntos.
 
 --- /collapse ---
