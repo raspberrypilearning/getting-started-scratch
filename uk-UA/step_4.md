@@ -1,14 +1,14 @@
-## The Scratch editor
+## Редактор Scratch
 
-![An annotated screenshot of the Scratch editor.](images/scratch-interface.png)
+![Скріншот редактора Scratch з замітками.](images/scratch-interface.png)
 
-The **Stage** is where the action takes place in your project. The Stage has one or more background images called **backdrops**.
+**Сцена** - це місце, де відбуваються дії у твоєму проєкті. На Сцені знаходиться одне або декілька фонових зображень, які називаються - **тло**.
 
-**Sprites** are characters and objects that appear on the **Stage**. Sprites are given instructions using Scratch code blocks. This is called **programming**.
+**Спрайти** - це персонажі та об'єкти, які з'являються на **Сцені**. Спрайтам надаються інструкції за допомогою блоків коду Scratch. Це називається **програмування**.
 
-Drag **code blocks** from the **Blocks menu** to the **Code area** to program your sprites and the Stage. Code blocks can make a sprite move around, change the way that it looks, and play sounds.
+Перетягни **блок коду** з **Меню блоків** в **Область коду**, щоб програмувати свої спрайти та Сцену. Блоки коду можуть змусити спрайт рухатися, змінювати зовнішній вигляд і відтворювати звуки.
 
-Sprites can have multiple **costumes**. You can change the costume to change the appearance of a sprite. This can be used for effects such as giving the appearance of walking.
+Спрайти можуть мати декілька **образів**. Ти можеш змінювати образи, щоб змінити зовнішній вигляд спрайта. Це може бути використано для таких ефектів, як створення ефекту ходьби.
 
-A **script** is a series of blocks that are joined together to give instructions to the Stage or sprites. The Stage and sprites can each have many different scripts. 
+**Скрипт** - це серія блоків, які з'єднуються між собою та дають вказівки Сцені або спрайтам. Сцена та спрайти можуть мати багато різних скриптів. 
 
