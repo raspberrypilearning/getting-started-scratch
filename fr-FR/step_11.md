@@ -2,14 +2,14 @@
 
 Les blocs de la catégorie `Capteurs`{:class="block3sensing"} sont utilisés pour obtenir la saisie de texte de vos utilisateurs, détecter les conditions et propager les valeurs de votre projet.
 
-Il existe plusieurs blocs `Capteurs`{:class="block3sensing"} hexagonaux que vous pouvez imbriquer dans des blocs `Contrôle`{:class="block3control"} pour prendre des décisions et contrôler l'exécution des blocs.
+Il existe plusieurs blocs `Capteurs`{:class="block3sensing"} hexagonaux que tu peux imbriquer dans des blocs `Contrôle`{:class="block3control"} pour prendre des décisions et contrôler l'exécution des blocs.
 
-Le bloc `touche`{:class="block3sensing"} a des options pour détecter si le sprite qui possède le script touche le pointeur de la souris (où vous avez touché la dernière fois le doigt sur une tablette), le bord de la scène ou un autre sprite :
+Le bloc `touche`{:class="block3sensing"} a des options pour détecter si le sprite qui possède le script touche le pointeur de la souris (où tu as touché la dernière fois le doigt sur une tablette), le bord de la scène ou un autre sprite :
 
 ```blocks3
-<touching (mouse-pointer v) ?>
+<touching (pointeur de souris v) ?>
 
-<touching (edge v) ?>
+<touching (bord v) ?>
 
 <touching (Sprite2 v) ?>
 ```
@@ -25,7 +25,7 @@ Il existe des blocs pour détecter si le sprite qui possède le script touche un
 Le bloc `touche pressée ?`{:class="block3sensing"} a des options pour les touches numériques, alphabétiques et fléchées du clavier. Tu as besoin d'un clavier pour pouvoir saisir les touches. Il détecte si la touche est actuellement enfoncée :
 
 ```blocks3
-<key (space v) pressed?>
+<key (espace v) pressed?>
 ```
 
 Le bloc `souris pressée ?`{:class="block3sensing"} détecte si la souris est actuellement enfoncée ou si l'écran est tapé ou touché dans le cas d'un écran tactile :
@@ -51,7 +51,7 @@ Le bloc `réponse`{:class="block3sensing"} est un bloc qui rapporte une valeur e
 La catégorie de blocs `Capteurs`{:class="block3sensing"} contient également plusieurs blocs qui peuvent être utilisés pour obtenir des valeurs :
 
 ```blocks3
-(distance to (mouse-pointer v))
+(distance to (pointeur de souris v))
 
 (distance to (Sprite2 v))
 ```
