@@ -1,10 +1,10 @@
-## Events
+## الأحداث
 
-Blocks in the `Events`{:class="block3events"} menu control when scripts are started.
+الكتل البرمجية الموجودة في قائمة `الاحداث`{:class="block3events"} تتحكم في متى تبدأ الكائنات.
 
-**Hat blocks** run the blocks below them when a particular event happens. They are rounded at the top, like a hat, so no blocks can go above them.
+**مجموعة الكتل بشكل القبعة** تنفذ مجموعة الكتل البرمجية الموجودة اسفلها عند بدء حدث معين. هي مدورة من الأعلى، مثل القبعة، لذلك لا يمكن أن نضع الكتل فوقها.
 
-You can use:
+يمكنك استخدام:
 
 ```blocks3
 
@@ -16,22 +16,22 @@ when stage clicked // run the blocks when the stage is clicked
 
 ```
 
-**Tip:** The `when stage clicked`{:class="block3events"} block is only available when you are working in the Code area for the Stage.
+**نصيحة:** كتلة `عند نقر المنصة`{:class="block3events"} تكون متوفرة فقط عندما تعمل مع المقاطع البرمجية الخاصة بالمنصة.
 
-If you are on a computer with a keyboard, you can use `when key pressed`{:class="block3events"}:
+إذا كنت تستخدم جهاز كمبيوتر ولوحة مفاتيح، فيمكنك استخدام `عند ضغط مفتاح`{:class="block3events"}:
 
 ```blocks3
 when [space v] key pressed // change to number, letter or arrow keys
 ```
 
-You can also use a `when backdrop switches to`{:class="block3events"} block to start a script when the backdrop changes.
+يمكنك ايضا استخدام كتلة `عندما تتبدل الخلفية الى`{:class="block3events"} لبدء النص البرمجي عندما تتغير الخلفية.
 
 [[[scratch3-changing-backdrops-pages-levels]]]
 
 [[[scratch3-show-hide-sprites-backdrops]]]
 
 
-The `when >`{:class="block3events"} block has two versions:
+كتلة `عندما >` {:class="block3events"} لها نسختان:
 
 ```blocks3
 when [loudness v] > (10) // run blocks when the microphone detects sound
@@ -42,7 +42,7 @@ when [timer v] > (10) // run blocks when the timer reaches 10 seconds
 [[[scratch3-time-delay]]]
 
 
-The last two blocks in the `Events`{:class="block3events"} menu are `broadcast`{:class="block3events"} blocks. You can use `when i receive (message v)`{:class="block3events"} to start a script when any sprite runs a matching `broadcast (message v)`{:class="block3events"} block.
+الكتلتين الاخيرتين في قائمة `الاحداث`{:class="block3events"} هما مجموعة `بث`:class="block3events"}. يمكن استخدام `عندما استلم (رسالة ١)`{:class="block3events"} لبدء النص البرمجي عندما يشتغل اي مقطع برمجي مطابق للرسالة في كتلة `بث (رسالة ١)`{:class="block3events"}.
 
 [[[generic-scratch3-broadcast-message]]]
 
