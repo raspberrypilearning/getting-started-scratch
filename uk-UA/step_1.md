@@ -1,30 +1,30 @@
-## What is Scratch?
-Scratch is a graphical programming language developed by the Lifelong Kindergarten group at the MIT Media Lab. In Scratch, you can drag and combine code blocks to make a range of programs, including animations, stories, musical instruments, and games. It's a bit like the programming equivalent of building blocks!
+## Що таке Scratch?
+Scratch - це графічна мова програмування, розроблена групою Lifelong Kindergarten при MIT Media Lab. Scratch дозволяє перетягувати та комбінувати блоки коду для створення різноманітних програм, включаючи анімацію, сюжети, музичні інструменти та ігри. Це трохи нагадує аналог програмування будівельних блоків!
 
-![A screenshot of Scratch.](images/showcase_static.png)
+![Скріншот Scratch.](images/showcase_static.png)
 
-Scratch is used in many schools as part of the curriculum. It is free, and young people can use it at home as well as in clubs.
+Scratch використовується в багатьох школах як частина навчальної програми. Scratch є безкоштовним, і молодь може використовувати його як вдома, так і в клубах.
 
-Scratch allows young people to learn coding concepts and create interactive projects without needing to learn a text-based programming language. You will not need to be able to type quickly or remember complex code to use Scratch.
+Scratch дозволяє молоді вивчати принципи кодування та розробляти інтерактивні проєкти без необхідності вивчення текстової мови програмування. Тобі не потрібно вміти швидко друкувати або запам'ятовувати складний код, щоб використовувати Scratch.
 
-### How to use this reference guide
-If you have not used Scratch before, then this guide will help you to set up and create your first project.
+### Як використовувати це керівництво
+Якщо ти ніколи раніше не користувався Scratch, то це керівництво допоможе тобі налаштувати та створити перший проєкт.
 
-You can return to this guide and use it to look up information that you need when you are making your own projects in Scratch.
+Ти можеш повертатися до цього посібника і використовувати його для пошуку інформації, яка знадобиться тобі під час створення проєктів у Scratch.
 
-At the end of the guide you will find links to paths of Scratch projects, from beginner through to advanced, where you can learn coding by making fun and interesting apps, games, stories, animations, art and music.
+Наприкінці керівництва ти знайдеш посилання на проєкти Scratch, від початкових до просунутих, де можна навчитися кодувати, створюючи веселі та цікаві програми, ігри, історії, анімації, малюнки та музику.
 
 --- collapse ---
 ---
-title: What you will need
+title: Що тобі знадобиться
 ---
-### Hardware
+### Обладнання
 
-+ A computer or tablet capable of running Scratch 3
++ Комп'ютер або планшет з підтримкою Scratch 3
 
-### Software
+### Програмне забезпечення
 
-+ This guide will explain how to get started with Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
++ Це керівництво пояснює, як почати роботу зі Scratch 3 (або [онлайн](https://scratch.mit.edu/){:target="_blank"}, або [офлайн](https://scratch.mit.edu/download){:target="_blank"})
 
 
 --- /collapse ---
