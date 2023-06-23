@@ -1,9 +1,9 @@
 ## التحكم
 
-مجموعات`التحكم`{:class="block3control"} تتحكم الترتيب الذي تشتغل فيه المجموعات, متضمنا القرارات (التعيين) و الحلقات ( التكرر).مجموعةمجموعة
+كتل`التحكم`{:class="block3control"} تتحكم بالترتيب الذي تشتغل فيه الكتل, متضمنا القرارات (التعيين) و الحلقات ( التكرار).
 
 
-مجموعة `انتظر`{:class="block3control"} تأخر لعدد من الثواني قبل تشغيل المجموعة التالية.
+كتلة `انتظر`{:class="block3control"} تأخر لعدد من الثواني قبل تشغيل كتلة التالية.
 
 ```blocks3
 wait (1) seconds// delay for 1 second
@@ -27,9 +27,9 @@ end
 
 [[[scratch3-forever-condition]]]
 
-**نصيحة:** يمكنك إيقاف المجموعة `إلى الأبد`{:class="block3events"} بضغط زر قف أعلى المنصة, أو باستخدام مجموعة `قف`{:class="block3control"}.
+**نصيحة:** يمكنك إيقاف كتلة `إلى الأبد`{:class="block3events"} بضغط على زر قف أعلى المنصة, أو باستخدام كتل `قف`{:class="block3control"}.
 
-هناك ثلاثة خيارات لمجموعة `قف`{:class="block3events"}:
+هناك ثلاثة خيارات لكتلة `قف`{:class="block3events"}:
 
 ```blocks3
 stop [all v] // stop all scripts in all sprites
@@ -39,7 +39,7 @@ stop [this script v]
 stop [other scripts in sprite v]
 ```
 
-المجموعات `if...then `{:class="block3control"} و `if...then...else `{:class="block3control"} تستعمل لاتخاذ قرار حول أي مجاميع كودات سوف يتم تشغيلها. هذه تسمى أحيانا **تعيين**. مجموعة `if...then`{:class="block3control"} تتحقق **شرط** سداسي الشكل و تشغل مجاميع الكود داخلها, إذا كان الشرط **صحيح**. The `if...then..else`{:class="block3control"} block has an additional section to run the code blocks inside, if the condition is **false**.
+الكتل `إذا...إذن`{:class="block3control"} و `إذا...إذن...آخر`{:class="block3control"} تستعمل لاتخاذ قرار حول أي كتلة كود سوف يتم تشغيلها تاليا. هذه تسمى أحيانا **تعيين**. كتلة `إذا...إذن`{:class="block3control"} تتحقق **شرط** سداسي الشكل و تشغل كتل الكود داخلا, إذا كان الشرط **صحيح**. لكتلة `إذا...إذن..آخر`{:class="block3control"} قسم إضافي لتشغيل كتل الكود داخلا, إذا كان الشرط **خطأ**.
 
 ```blocks3
 if <> then
@@ -55,9 +55,9 @@ end
 
 [[[scratch3-if-then-else]]]
 
-You can find hexagonal-shaped blocks to use as conditions in the `Operators`{:class="block3operators"} and `Sensing`{:class="block3sensing"} blocks menus.
+يمكنك إيجاد كتل سداسية الشكل لتستخدمها كشروط في قائمة الكتلتين `العاملين`{:class="block3operators"} و `الاستشعار`{:class="block3sensing"}.
 
-The `wait until`{:class="block3control"} and `repeat until`{:class="block3control"} blocks also use conditions:
+كتلتي `انتظر حتى`{:class="block3control"} و `كرر حتى`{:class="block3control"} أيضا تستخدمان الشروط:
 
 ```blocks3
 wait until <> // delay until the condition is true
@@ -68,9 +68,9 @@ repeat until <> // repeat the blocks inside until the condtion is true
 end
 ```
 
-A **clone** is a copy of a sprite, it has the costumes, scripts and sounds held by the sprite it was cloned from at the time of cloning. There are a number of blocks that can be used to clone sprites.
+**المستنسخ** هو نسخة من الكائن, له زي, نص و صوت المحمول من قبل الكائن المستنسخ منه وقت النسخ. هناك عدد من الكتل التي يمكن استخدامها لاستنساخ الكائنات.
 
-With the `create clone of [myself v]`{:class="block3control"} block, a sprite can create a clone of itself or of another sprite in the project.
+بكتلة` خلق مستنسخ من [نفسي v]`{:class="block3control"}, يمكن لمخلوق خلق مستنسخا من نفسه أو من مخلوق آخر في المشروع.
 
 ```blocks3
 create clone of [myself v] // clones the sprite that runs this block
@@ -79,9 +79,9 @@ create clone of [myself v] // clones the sprite that runs this block
 create clone of [Butterfly 1 v] // clones another sprite in the project
 ```
 
-The `when I start as a clone`{:class="block3control"} hat block is used to trigger a new script once the clone has been created. The clone will exist in the project until the `delete this clone`{:class="block3control"} cap block is used.
+قبعة الكتلة `عندما أبدأ كمستنسخ`{:class="block3control"} تستخدم لإطلاق نص جديد بمجرد خلق المستنسخ. المستنسخ سيتواجد في المشروع حتى تستخدم قبعة كتلة `احذف هذا المستنسخ`{:class="block3control"}.
 
-Using the `when I start as a clone`{:class="block3control"} hat block then including the `create clone of [myself v]`{:class="block3control"} block in the script underneath means it is also possible for clones to create other clones.
+استعمل قبعة كتلة `عند بدئي كمستنسخ`{:class="block3control"} ثم إضافة كتلة ` اخلق مستنسخا من [نفسي v]`{:class="block3control"} في النص أسفله تعني أنه بإمكان المستنسخين خلق مستنسخين اخرين.
 
 ```blocks3
 when I start as a clone // the script that runs when the clone is created
@@ -90,14 +90,14 @@ when I start as a clone // the script that runs when the clone is created
 delete this clone // stops the clone's scripts and deletes it
 ```
 
-There is a maximum number of clones a sprite can have at any point, at the time of writing this is `300`.
+هناك عدد أقصى للمستنسخين الذين يمكن أن يملكهم مخلوق في أي مرحلة, في وقت كتابة هذا هو `300`.
 
 --- collapse ---
 ---
-title: Clones of clones
+title: مستنسخو المستنسخين
 ---
 
-**Clones**: [See inside](https://scratch.mit.edu/projects/567544298/editor){:target="_blank"}
+**المستنسخون**: [انظر في الداخل](https://scratch.mit.edu/projects/567544298/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/567544298/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
