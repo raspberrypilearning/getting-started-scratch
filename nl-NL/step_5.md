@@ -96,7 +96,7 @@ Als je je project deelt, zullen andere mensen deze naam ook zien, dus zorg ervoo
 
 Je hebt je eerste Scratch-project gemaakt!
 
-Je bent nu klaar om Scratch te leren. We recommend that you start with our [Introduction to Scratch](https://projects.raspberrypi.org/en/raspberrypi/scratch-intro){:target="_blank"}, [Scratch: Module 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} and/or [Look after yourself](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"} paths, which are designed for beginners.
+Je bent nu klaar om Scratch te leren. We raden je aan te beginnen met onze [Inleiding tot Scratch](https://projects.raspberrypi.org/en/raspberrypi/scratch-intro){:target="_blank"}, [Scratch Module 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} en/of [Pas goed op jezelf](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"}-paden, die zijn ontworpen voor beginners.
 
  Je kunt naar deze gids terugkeren als je hulp nodig hebt bij het gebruik van Scratch wanneer je aan onze trajectprojecten of aan je eigen projecten werkt. 
 
