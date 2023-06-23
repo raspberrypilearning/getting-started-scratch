@@ -1,15 +1,15 @@
-## Sound Editor
+## Редактор Звуку
 
-Use the Sound editor to add and edit existing sounds, and to record your own sounds.
+Використовуй Звуковий редактор для додавання та редагування наявних звуків, а також для запису своїх власних звуків.
 
-![An annotated screenshot of the Sound tab.](images/Scratch-Sound-tab.png){:width="600px"}
+![Скріншот вкладки Звуки.](images/Scratch-Sound-tab.png){:width="600px"}
 
-### Creating sounds
+### Створення звуків
 
 \[[[scratch3-add-sound]]\] \[[[scratch3-record-sound\]]]
 
-### Editing sounds
+### Редагування звуків
 
-Edit whole sounds or parts of sounds.
+Редагування цілих звуків або частин звуків.
 
 \[[[scratch3-reverse-sound]]\] \[[[scratch3-crop-sound\]]] [[[scratch3-sound-effects]]]
