@@ -12,7 +12,7 @@ Se você é um educador, pode criar contas de Professores e Alunos.
 
 --- collapse ---
 ---
-título: Contas de Professor do Scratch
+title: Contas de Professor do Scratch
 ---
 
 Por favor, consulte [Perguntas frequentes sobre a conta de Professor do Scratch](https://scratch.mit.edu/educators/faq){: target = "_ blank"} para obter informações sobre como criar uma conta que ofereça aos educadores recursos adicionais para gerenciar a participação dos alunos no Scratch.
