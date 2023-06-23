@@ -1,15 +1,15 @@
-## Sound Editor
+## محرر الصوت
 
-Use the Sound editor to add and edit existing sounds, and to record your own sounds.
+استخدم محرر الصوت لإضافة و تعديل الأصوات الموجودة, و لتسجيل أصواتك الخاصة.
 
-![An annotated screenshot of the Sound tab.](images/Scratch-Sound-tab.png){:width="600px"}
+![لقطة مشروحة لتبويب الصوت.](images/Scratch-Sound-tab.png){:width="600px"}
 
-### Creating sounds
+### إنشاء الأصوات
 
 \[[[scratch3-add-sound]]\] \[[[scratch3-record-sound\]]]
 
-### Editing sounds
+### تحرير الأصوات
 
-Edit whole sounds or parts of sounds.
+تحرير أصوات كاملة أو أجزاء منها.
 
 \[[[scratch3-reverse-sound]]\] \[[[scratch3-crop-sound\]]] [[[scratch3-sound-effects]]]
