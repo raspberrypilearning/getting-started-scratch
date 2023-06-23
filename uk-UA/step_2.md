@@ -1,40 +1,40 @@
-## Set up Scratch
-You can use Scratch on a laptop or desktop computer, or on a tablet. You can also use Scratch on a Raspberry Pi computer.
+## Налаштуй Scratch
+Ти можеш використовувати Scratch на ноутбуці або персональному комп'ютері, а також на планшеті. Також можна використовувати Scratch на комп'ютері Raspberry Pi.
 
 --- task ---
 
-Open a web browser on your computer or tablet and visit [rpf.io/scratch-new](https://rpf.io/scratch-new){:target="_blank"} to open a new project in the Scratch editor. Scratch will open in a new tab in your web browser.
+Відкрий браузер на комп'ютері або планшеті та зайди на сайт [rpf.io/scratch-new](https://rpf.io/scratch-new){:target="_blank"}, щоб відкрити новий проєкт у редакторі Scratch. Scratch відкриється у новій вкладці твого браузера.
 
-**Tip:** You can also visit [scratch.mit.edu](https://scratch.mit.edu/){:target="_blank"} and then click on **Create**.
+**Порада:** Також ти можеш зайти на сайт [scratch.mit.edu](https://scratch.mit.edu/){:target="_blank"} та натиснути на кнопку **Створити**.
 
 --- collapse ---
 ---
-title: Working offline without an internet connection
+title: Використання Scratch офлайн, без підключення до інтернету
 ---
 
-If you need to work offline (without an internet connection), then you can [download Scratch](https://scratch.mit.edu/download){:target="_blank"} and install it on a computer.
+Якщо ти хочеш використовувати Scratch в режимі офлайн (без підключення до інтернету), перейди на сайт [download Scratch](https://scratch.mit.edu/download){:target="_blank"} та встановити його на комп'ютер.
 
-You cannot work offline if you are using a tablet.
+Ти не можеш використовувати планшет для роботи в офлайн-режимі.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Scratch on Raspberry Pi
+title: Scratch на Raspberry Pi
 ---
 
-If you are using a Raspberry Pi computer, Scratch may already be installed. Click on the **Raspberry Pi** icon to open the menu, then click on **Programming**, then select **Scratch 3**.
+Якщо ти використовуєш комп'ютер Raspberry Pi, Scratch можливо уже встановлений. Клацни на іконку **Raspberry Pi**, щоб відкрити меню, далі натисни **Програмування**, потім вибери **Scratch 3**.
 
-If you need to install Scratch, follow this process:
-+ Click on the Raspberry Pi icon to open the menu
-+ Click on **Preferences**
-+ Click on **Recommended Software**
-+ Select **Scratch 3**
-+ Click on **OK**
+Якщо тобі необхідно встановити Scratch, скористайся цією інструкцією:
++ Клацни на іконку Raspberry Pi, щоб відкрити меню
++ Клацни на **Уподобання**
++ Натисни на **Рекомендоване програмне забезпечення**
++ Вибери **Scratch 3**
++ Клацни **Добре**
 
-![Recommended software dialogue with Scratch 3 selected.](images/recommended-software-scratch-3.png)
+![Діалог з рекомендованим програмним забезпеченням у Scratch 3 обрано.](images/recommended-software-scratch-3.png)
 
-See [Scratch 3 Desktop for Raspberry Pi](https://www.raspberrypi.org/blog/scratch-3-desktop-for-raspbian-on-raspberry-pi/) for more information.
+Подивись [Scratch 3 Desktop для Raspberry Pi](https://www.raspberrypi.org/blog/scratch-3-desktop-for-raspbian-on-raspberry-pi/) для більш детальної інформації.
 
 --- /collapse ---
 
@@ -42,56 +42,56 @@ See [Scratch 3 Desktop for Raspberry Pi](https://www.raspberrypi.org/blog/scratc
 
 --- task ---
 
-When you use Scratch with this guide or one of our projects, you will need to switch between Scratch and the project instructions.
+Коли ти використовуєш Scratch з цим керівництвом або одним з наших проєктів, тобі потрібно буде перемикатися між Scratch та інструкціями до проєкту.
 
 --- collapse ---
 ---
-title: Switch between browser tabs
+title: Перехід між вкладками браузера
 ---
 
-Click on (or on a tablet, tap) the title of a browser tab to switch between the Scratch editor and project instructions.
+Клацни (або на планшеті торкнись) назви вкладки браузера, щоб переключитися між редактором Scratch та інструкціями до проєкту.
 
-![A browser with two tabs.](images/two-tabs.png)
+![Браузер з двома вкладками.](images/two-tabs.png)
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Side-by-side instructions and Scratch
+title: Інструкція пліч-о-пліч та Scratch
 ---
 
-If your screen is big enough, you can view Scratch next to the project instructions.
+Якщо твій екран достатньо великий, ти можеш відкрити Scratch поруч з інструкціями до проєкту.
 
-![Side-by-side instructions and Scratch.](images/side-by-side.png)
+![Інструкція пліч-о-пліч та Scratch.](images/side-by-side.png)
 
-If you are using Microsoft Windows 10, drag the Scratch tab in your web browser so that it is in a separate window, and keep dragging until the cursor reaches the right-hand edge of your screen. The window will then be positioned on the right-hand side of the screen.
+Якщо ти використовуєш Microsoft Windows 10, перетягни вкладку Scratch у браузері так, щоб вона опинилась в окремому вікні, і продовжуй перетягувати, поки курсор не дійде до правого краю екрана. Після цього вікно буде розташовано в правій частині екрана.
 
-Now, drag the window containing this guide or your project instructions to the left-hand side of your screen until the cursor reaches the left-hand edge. The window will take up the left half of your screen.
+Тепер перетягни вікно, що містить це керівництво або інструкцію, в ліву частину екрана, поки курсор не дійде до лівого краю екрана. Після цього вікно буде розташовано в лівій частині екрана.
 
-You can resize the windows to get them just the way you want.
+Ти можеш змінювати розмір вікон, щоб вони були такими, як ти хочеш.
 
-**Tip:** You can also hold down the <kbd>Windows</kbd> key and press the <kbd>Left</kbd> arrow key or <kbd>Right</kbd> arrow key to position a window in the left or right half of your screen.
+**Порада:** Ти також можеш натиснути та утримувати клавішу <kbd>Windows</kbd> та натиснути клавішу зі стрілкою <kbd>Ліворуч</kbd> або клавішу зі стрілкою <kbd>Праворуч</kbd>, щоб розташувати вікно в лівій або правій половині екрана.
 
 --- /collapse ---
 
-Try it now and see how you prefer to work.
+Спробуй зараз і побачиш, як тобі буде зручніше працювати.
 
 --- /task ---
 
 --- task ---
 
-When you are using Scratch in a web browser, you can zoom in or out to adjust the size.
+Коли ти використовуєш Scratch у браузері, ти можеш збільшувати або зменшувати масштаб.
 
-For example, if you are using Microsoft Windows and you want to use zoom on a webpage in Google Chrome or Microsoft Edge, hold down the <kbd>Ctrl</kbd> key and press the <kbd>+</kbd> key or <kbd>-</kbd> key to zoom in or out.
+Наприклад, якщо ти використовуєш Microsoft Windows і хочеш скористатися масштабуванням на сторінці в Google Chrome або Microsoft Edge, утримуй клавішу <kbd>Ctrl</kbd> та натисни на клавішу <kbd>+</kbd> або <kbd>-</kbd>, щоб збільшити або зменшити масштаб.
 
 --- collapse ---
 ---
-title: Use zoom in the Code area
+title: Використання масштабування в Області коду
 ---
 
-You can also use the zoom controls in the Code area in Scratch to change the size of the code blocks in the Code area.
+Ти також можеш використовувати елементи керування масштабуванням, які розташовані в Області коду в Scratch, щоб регулювати масштабування.
 
-![The zoom controls in the Code area.](images/zoom-code-area.png)
+![Елементи управління масштабуванням в Області коду.](images/zoom-code-area.png)
 
 --- /collapse ---
 
