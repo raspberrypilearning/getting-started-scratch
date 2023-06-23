@@ -1,16 +1,16 @@
-## Motion
+## Рух
 
-`Motion`{:class="block3motion"} blocks allow you to move your sprite around the Stage.
+Блоки `Рух`{:class="block3motion"} призначені для того, щоб переміщати спрайт по Сцені.
 
-### Movement
+### Переміщення
 
-The `move`{:class="block3motion"} block is the simplest way to ge started with moving a sprite:
+Блок `перемістити на`{:class="block3motion"} - це найпростіший спосіб почати переміщення спрайта:
 
 ```blocks3
 move [10] steps
 ```
 
-You can `go to`{:class="block3motion"} or `glide to`{:class="block3motion"} the mouse-pointer, a random position on the Stage (or your finger on a tablet), or another sprite:
+Ти можеш `перейти до`{:class="block3motion"} або `ковзати до`{:class="block3motion"} курсора миші (або пальця на планшеті), випадкового місця на Сцені, або до іншого спрайта:
 
 ```blocks3
 go to (random position v)
@@ -18,7 +18,7 @@ go to (random position v)
 glide [1] secs to (random position v)
 ```
 
-You can also `go to`{:class="block3motion"} or `glide to`{:class="block3motion"} a position given by `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates on the Stage.
+Також ти можеш `перемістити в`{:class="block3motion"} або `ковзати до`{:class="block3motion"} позиції, яка задається координатами на Сцені `x`{:class="block3motion"} та `y`{:class="block3motion"}.
 
 ```blocks3
 go to x: [0] y: [0] 
@@ -28,12 +28,12 @@ glide [1] secs to x: [0] y: [0]
 
 [[[scratch3-glide-to-object]]]
 
-**Tip:** When you drag a sprite on the Stage, the motion blocks that use `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates update in the `Motion`{:class="block3motion"} blocks menu. The current `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates are show in the Sprite pane.
+**Порада:** Коли ти перетягуєш спрайт на Сцені, блоки Руху, які застосовують координати `x`{:class="block3motion"} та `y`{:class="block3motion"} оновлюються у меню блоків `Рух`{:class="block3motion"}. Нинішні координати `x`{:class="block3motion"} та `y`{:class="block3motion"} відображаються на панелі Спрайта.
 
-### Rotation
-You can also change the `direction`{:class="block3motion"} that a sprite is pointing in. This changes the direction that the sprite will move in if you use a `move`{:class="block3motion"} block. It may also change the rotation of the sprite's costume depending on the `rotation-style`{:class="block3motion"} setting.
+### Обертання
+Ти також можеш змінювати `напрям`{:class="block3motion"}, на який направлений спрайт. Це змінить напрямок, в якому буде рухатися спрайт, якщо ти використаєш блок `перемістити на`{:class="block3motion"}. Також можна змінювати обертання образу спрайта в залежності від налаштування `стиль обертання`{:class="block3motion"}.
 
-When you add a sprite, it will be facing right (90 degrees). You can change this in the Sprite pane or using code blocks.
+Коли ти додаєш новий спрайт, він буде направлений праворуч (90 градусів). Ти можеш змінювати це на панелі спрайтів або за допомогою блоків коду.
 
 ```blocks3
 turn right [15] degrees
@@ -55,12 +55,12 @@ set rotation style [left-right v] // or all-around or none
 
 --- collapse ---
 ---
-title: Spin around
+title: Обертатися навколо
 ---
 
 --- no-print ---
 
-**Spinning bat**: [See inside](https://scratch.mit.edu/projects/435704980/editor){:target="_blank"}
+**Кажан обертається**: [Переглянути код](https://scratch.mit.edu/projects/435704980/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/435704980/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -68,7 +68,7 @@ title: Spin around
 
 --- /no-print ---
 
-This code makes a sprite spin when the green flag is clicked:
+Цей код змушує спрайт обертатися при натисканні на зелений прапорець:
 
 ```blocks3
 when flag clicked
@@ -76,20 +76,20 @@ forever
 turn right (1) degrees :: motion
 ```
 
-In a `turn`{:class="block3motion"} block within a `forever`{:class="block3control"} loop, change the number of degrees to `1` and your sprite will appear to spin.
+У блоці `поворот на`{:class="block3motion"}, який має в собі цикл `завжди`{:class="block3control"}, зміни кількість градусів на `1` і твій спрайт почне обертатися.
 
-**Tip:** If you do not add a `move`{:class="block3motion"} block, your sprite will spin in the position that it is in.
+**Порада:** Якщо ти не додаєш блок `перемістити на`{:class="block3motion"}, твій спрайт буде обертатися в тому положенні, в якому він і знаходиться.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Move in a circle
+title: Рух по колу
 ---
 
 --- no-print ---
 
-**Moon orbit**: [See inside](https://scratch.mit.edu/projects/435701055/editor){:target="_blank"}
+**Орбіта Місяця**: [Переглянути код](https://scratch.mit.edu/projects/435701055/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/435701055/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -97,7 +97,7 @@ title: Move in a circle
 
 --- /no-print ---
 
-This code makes a sprite fly in a circle when the green flag is clicked:
+Цей код змушує спрайт літати по колу при натисканні на зелений прапорець:
 
 ```blocks3
 when green flag clicked
@@ -106,30 +106,30 @@ move (1) steps
 turn right (1) degrees :: motion
 ```
 
-Change the values in a `move`{:class="block3motion"} block and `turn`{:class="block3motion"} block within a `forever`{:class="block3control"} loop to `1` and your sprite will appear to move in a big circle.
+Зміни значення у блоці `рухатись на`{:class="block3motion"} та у блоці `поворот на`{:class="block3motion"}, які вставлені в цикл `завжди`{:class="block3control"} на `1`, і твій спрайт буде рухатися по колу.
 
-**Tip:** If you want your sprite to always start in the centre of the Stage, you can add a `go to x:`{:class="block3motion"} `0` `y:`{:class="block3motion"} `0` block before the `forever`{:class="block3control"} block.
+**Порада:** Якщо ти хочеш, щоб твій спрайт завжди починав рух з центру Сцени, ти можеш додати блок `перемістити в x:`{:class="block3motion"} `0` `y:`{:class="block3motion"} `0` перед блоком `завжди`{:class="block3control"}.
 
 --- /collapse ---
 
-### Bouncing
+### Відбивання
 
-The `if on edge, bounce`{:class="block3motion"} block is really useful when you want to make a sprite bounce around and stay on the Stage:
+Блок `якщо на межі, відбити`{:class="block3motion"} дуже корисний, коли ти хочеш змусити спрайт відбиватися і залишатися на Сцені:
 
 ```blocks3
 if on edge, bounce
 ```
 
-See some of the ways in which you can get your sprite to bounce around:
+Ось кілька способів, як можна змусити спрайт відбиватися:
 
 --- collapse ---
 ---
-title: Bounce across the Stage
+title: Відбивання по сцені
 ---
 
 --- no-print ---
 
-**Girl moving across the Stage**: [See inside](https://scratch.mit.edu/projects/433535326/editor){:target="_blank"}
+**Дівчинка рухається по сцені**: [Переглянути код](https://scratch.mit.edu/projects/433535326/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/433535326/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -137,7 +137,7 @@ title: Bounce across the Stage
 
 --- /no-print ---
 
-This code makes a sprite bounce on the left-hand and right-hand edges of the Stage. Because the sprite rotates horizontally, it appears to flip when it changes its direction when the green flag is clicked:
+Цей код змушує спрайт відбиватись від лівого та правого країв Сцени. Тому що спрайт обертається горизонтально, здається, що він обертається, коли змінює свій напрямок, при натисканні на зелений прапорець:
 
 ```blocks3
 when green flag clicked
@@ -148,22 +148,22 @@ move (5) steps
 if on edge, bounce
 ```
 
-In this example, the `point in direction`{:class="block3motion"} block automatically points the sprite to the right (`90` degrees) when the green flag is clicked. If you change the number of degrees to `-90`, your sprite will point left.
+У цьому прикладі, блок `повернути в напрямку`{:class="block3motion"} автоматично направляє спрайт вправо на (`90` градусів), при натисканні на зелений прапорець. Якщо ти зміниш кількість градусів на `-90`, твій спрайт буде направлений ліворуч.
 
-Add a `set rotation style`{:class="block3motion"} block and select `left-right`{:class="block3motion"} in the drop-down menu, so that your sprite will not flip upside down when it bounces on the edge of the Stage.
+Додай блок `стиль обертання`{:class="block3motion"} та вибери у спливаючому меню `зліва-направо`{:class="block3motion"}, щоб твій спрайт не перевертався догори ногами, коли відбивається від краю Сцени.
 
-**Tip:** You can drag your sprite on the Stage to move it to the y (up–down) position that you want.
+**Порада:** Ти можеш перетягнути свій спрайт по Сцені, щоб розташувати його в потрібній тобі позиції за віссю Y (вгору-вниз).
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Bounce up and down the Stage
+title: Відбивання по сцені вниз і вверх
 ---
 
 --- no-print ---
 
-**Girl jumping**: [See inside](https://scratch.mit.edu/projects/433595822/editor){:target="_blank"}
+**Дівчинка стрибає**: [Переглянути код](https://scratch.mit.edu/projects/433595822/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/433595822/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -171,7 +171,7 @@ title: Bounce up and down the Stage
 
 --- /no-print ---
 
-This code makes a sprite bounce up and down the Stage when the green flag is clicked:
+Цей код змушує спрайт відбиватися вгору і вниз по сцені при натисканні на зелений прапорець:
 
 ```blocks3
 when green flag clicked
@@ -182,22 +182,22 @@ move (5) steps
 if on edge, bounce
 ```
 
-Change the number of degrees in the `point in direction`{:class="block3motion"} block to `0` to make a sprite point upwards.
+Зміни число градусів у блоці `повернути в напрямку`{:class="block3motion"} на `0`, щоб спрайт був направлений вгору.
 
-Add a `set rotation style`{:class="block3motion"} block and select `don't rotate`{:class="block3motion"} in the drop-down menu to stop your sprite rotating, even when it bounces.
+Додай блок `стиль обертання`{:class="block3motion"} та вибери у спливаючому меню `не обертати`{:class="block3motion"}, щоб зупинити обертання спрайта, коли він відбивається.
 
-**Tip:** You can drag your sprite around the Stage to move it to the x (left–right) position that you want.
+**Порада:** Ти можеш перетягнути свій спрайт по Сцені, щоб розмістити його в потрібній тобі позиції x (ліворуч-праворуч).
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Bounce at an angle
+title: Відбивання від кута
 ---
 
 --- no-print ---
 
-**Football bouncing**: [See inside](https://scratch.mit.edu/projects/433536479/editor){:target="_blank"}
+**Футбольні відбивання**: [Переглянути код](https://scratch.mit.edu/projects/433536479/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/433536479/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -205,7 +205,7 @@ title: Bounce at an angle
 
 --- /no-print ---
 
-This code makes a sprite appear to rotate randomly when the green flag is clicked:
+Цей код змушує спрайт випадковим чином обертатися, при натисканні на зелений прапорець:
 
 ```blocks3
 when green flag clicked
@@ -216,15 +216,15 @@ move (5) steps
 if on edge, bounce
 ```
 
-If your sprite moves at `45` degrees, you will find that it appears to bounce on the edge of the Stage at an angle. Change the number of degrees in the `point in direction`{:class="block3motion"} block to `45` to make your sprite bounce all around.
+Якщо твій спрайт переміщується зі швидкістю `45` градусів, ти побачиш, що він відбивається від краю Сцени з певним нахилом. Зміни число градусів у блоці `повернути в напрямку`{:class="block3motion"} на `45`, щоб твій спрайт відбивався на всі сторони.
 
-Add a `set rotation style`{:class="block3motion"} block and select `all around`{:class="block3motion"} in the drop-down menu, so that your sprite will turn when it bounces on the edge of the Stage.
+Додай блок `стиль обертання`{:class="block3motion"} та вибери у спливаючому меню `навколо`{:class="block3motion"}, щоб твій спрайт обертався, коли буде відбиватися від краю Сцени.
 
 --- /collapse ---
 
-### Using coordinates
+### Використання координат
 
-You can also `change`{:class="block3motion"} and `set`{:class="block3motion"} the `x`{:class="block3motion"} and `y`{:class="block3motion"} coordinates and get their values to use in other blocks:
+Також ти можеш `змінити`{:class="block3motion"} та `задати`{:class="block3motion"} координати `x`{:class="block3motion"} та `y`{:class="block3motion"}, щоб отримати їх значення для використання в інших блоках:
 
 [[[generic-scratch3-coordinates]]]
 
@@ -244,12 +244,12 @@ set y to [0]
 
 --- collapse ---
 ---
-title: I can't see any Motion blocks
+title: Я не бачу ніяких блоків Руху
 ---
 
-If you have the Stage selected then you won't see any `Motion`{:class="block3motion"} blocks, because the Stage can't move.
+Якщо ти вибираєш Сцену, то ти не побачиш жодних блоків `Рух`{:class="block3motion"}, тому що Сцена не може рухатися.
 
-Click on a sprite in the Sprite pane and then click on the **Code** tab to see the `Motion`{:class="block3motion"} blocks.
+Клацни по спрайту на панелі Спрайт, а потім клацни по вкладці **Код**, щоб побачити блоки `Рух`{:class="block3motion"}.
 
 --- /collapse ---
 
