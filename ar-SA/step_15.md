@@ -1,6 +1,6 @@
-## Extensions
+## الاضافات
 
-The `extensions`{:class="block3extensions"} library allows you to add new blocks to the blocks menu with additional features.
+مكتبة `الاضافات`{:class="block3extensions"} تسمح لكم باضافة مجموعة جديدة من الكتل لقائمة الكتل مع اضافة خصائص جديدة.
 
 [[[scratch3-text-to-speech]]]
 
@@ -8,9 +8,9 @@ The `extensions`{:class="block3extensions"} library allows you to add new blocks
 
 [[[generic-scratch3-add-music-extension]]]
 
-There are also Video Sensing and Translate extensions.
+هناك أيضًا اضافات استشعار الفديو و الترجمة.
 
-If you are using a Raspberry Pi computer then you can also use extensions for using electronics with the Raspberry Pi (you will need extra components or a Sense Hat):
+إذا كنت تستخدم جهاز كمبيوتر Raspberry Pi، فيمكنك أيضًا استخدام اضافات لاستخدام الإلكترونيات مع Raspberry Pi (ستحتاج إلى مكونات إضافية أو Sense Hat):
 
 [[[rpi-scratch-add-simple-electronics]]]
 
