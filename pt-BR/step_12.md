@@ -1,10 +1,10 @@
-## Operators
+## Operadores
 
-The `Operators`{:class="block3operators"} blocks are used to compare variables and values, do calculations with numbers, and work with strings (text).
+Os blocos da categoria `Operadores`{:class="block3operators"} são usados para comparar variáveis e valores, fazer cálculos com números e trabalhar com strings (texto).
 
-The hexagonal 'Boolean' blocks are used as conditions, and return true or false. These blocks can be used in `Control`{:class="block3control"} blocks with a hexagonal input.
+Os blocos hexagonais 'Booleanos' são usados como condições e retornam verdadeiro ou falso. Esses blocos podem ser usado em blocos da categoria `Controle`{:class="block3control"} com uma entrada hexagonal.
 
-Comparison operators:
+Operadores de comparação:
 
 ```blocks3
 <[] > [50]>
@@ -14,10 +14,10 @@ Comparison operators:
 <[] = [50]>
 ```
 
-**Tip:** When you use `=`{:class="block3operators"} with text you can mix upper and lower case letters, so `<`{:class="block3operators"} `YES` `=`{:class="block3operators"} `yes` `>`{:class="block3operators"} returns **true**.
+**Dica:** Quando você usa`=`{:class="block3operators"} com texto, você pode misturar letras maiúsculas e minúsculas, assim`<`{:class="block3operators"} `SIM` `=`{:class="block3operators"} `sim` `>`{:class="block3operators"} retorna **verdadeiro**.
 
 
-There are maths operations:
+Existem operações matemáticas:
 
 ```blocks3
 ([] + [])
@@ -29,13 +29,13 @@ There are maths operations:
 ([] / [])
 ```
 
-You can choose random numbers between the smallest and largest number (including those numbers).
+Você pode escolher números aleatórios entre o menor e o maior número (incluindo esses números).
 
 ```blocks3
 (pick random [1] to [10]) // A number from 1 to 10
 ```
 
-The `and`{:class="block3operators"}, `or`{:class="block3operators"}, and `not`{:class="block3operators"} operators can be used to combine conditions.
+Os operadores `e`{:class="block3operators"}, `ou`{:class="block3operators"}, e `não`{:class="block3operators"} podem ser usados para combinar condições.
 
 ```blocks3
 <<> and <>>
@@ -45,7 +45,7 @@ The `and`{:class="block3operators"}, `or`{:class="block3operators"}, and `not`{:
 <not <> >
 ```
 
-There are blocks for working with text strings:
+Existem blocos para trabalhar com strings de texto:
 
 ```blocks3
 (join [apple ] [banana])
@@ -59,4 +59,4 @@ There are blocks for working with text strings:
 
 [[[scratch3-join-text]]]
 
-There are also more maths operators that are useful for some projects.
+Existem também mais operadores matemáticos que são úteis para alguns projetos.
