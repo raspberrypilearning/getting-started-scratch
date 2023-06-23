@@ -9,7 +9,7 @@ Abra um navegador da web em seu computador ou tablet e visite [rpf.io/scratch-ne
 
 --- collapse ---
 ---
-título: Trabalhar off-line sem conexão com a Internet
+title: Trabalhar off-line sem conexão com a Internet
 ---
 
 Se precisar trabalhar offline (sem uma conexão com a Internet), você pode [baixar o Scratch](https://scratch.mit.edu/download){:target="_blank"} e instalá-lo em um computador.
@@ -20,7 +20,7 @@ Você não pode trabalhar offline se estiver usando um tablet.
 
 --- collapse ---
 ---
-título: Scratch em um Raspberry Pi
+title: Scratch em um Raspberry Pi
 ---
 
 Se você estiver usando um computador Raspberry Pi, o Scratch pode já ter vindo instalado. Clique no ícone **Raspberry Pi** para abrir o menu, em seguida clique em **Programação**, e selecione **Scratch 3**.
@@ -46,7 +46,7 @@ Ao usar o Scratch com este guia ou um de nossos projetos, você precisará alter
 
 --- collapse ---
 ---
-título: Alternar entre as abas do navegador
+title: Alternar entre as guias do navegador
 ---
 
 Clique (ou toque, se estiver usando um tablet) no título de uma aba do navegador para alternar entre o editor Scratch e as instruções do projeto.
@@ -57,7 +57,7 @@ Clique (ou toque, se estiver usando um tablet) no título de uma aba do navegado
 
 --- collapse ---
 ---
-título: Instruções lado a lado e Scratch
+title: Instruções lado a lado e Scratch
 ---
 
 Se sua tela for grande o suficiente, você pode ver o Scratch ao lado das instruções do projeto.
@@ -86,7 +86,7 @@ Por exemplo, se você estiver usando o Windows e quiser usar o zoom em uma pági
 
 --- collapse ---
 ---
-título: Use o zoom na área de código
+title: Use o zoom na área de código
 ---
 
 Você também pode usar os controles de zoom na categoria Código do Scratch para alterar o tamanho dos blocos de código na aba Código.
