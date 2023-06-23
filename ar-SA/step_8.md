@@ -1,33 +1,33 @@
-## Sound
+## الصوت
 
-To add sound to your project, use `Sound`{:class="block3sound"} blocks. For example, you can create a continuous background soundtrack, or add sounds that play at regular intervals.
+لإضافة صوت لمشروعك, استعمل كتلة `صوت`{:class="block3sound"}. على سبيل المثال ، يمكنك إنشاء مسار صوتي مستمر في الخلفية ، أو إضافة أصوات يتم تشغيلها في فترات منتظمة.
 
-![An annotated screenshot of the Sounds tab.](images/Scratch-Sound-tab.png){:width="600px"}
+![لقطة شاشة شارحة لتبويب الصوت.](images/Scratch-Sound-tab.png){:width="600px"}
 
-First, select a sound from the Sound Library, or record your own sound.
+أولاً ، اختر صوتًا من مكتبة الأصوات ، أو سجل الصوت الخاص بك.
 
 [[[scratch3-add-sound]]]
 
 [[[scratch3-record-sound]]]
 
-Add code to run `Sound`{:class="block3sound"} blocks where you want sound in your project.
+أضف كودا لتشغيل كتل `الصوت`{:class="block3sound"} حيث تريد صوتا في مشروعك.
 
 --- collapse ---
 ---
-title: Add a long sound to create a continuous soundtrack
+title: أضف صوتًا طويلاً لإنشاء مسار صوتي متواصل
 ---
 
-Click on the green flag to hear the sounds.
+انقر على العلم الأخضر لسماع الأصوات.
 
-**Radio soundtrack**: [See inside](https://scratch.mit.edu/projects/444581851/editor){:target="_blank"}
+** مقطع صوت الراديو**: [انظر في الداخل](https://scratch.mit.edu/projects/444581851/editor){:target="_blank"}
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/444581851/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can use a `play sound until done`{:class="block3sound"} block inside a `forever`{:class="block3control"} loop. Once the sound has finished, the `forever`{:class="block3control"} loop makes the sound start again from the beginning.
+يمكنك استخدام كتلة ` شغل الصوت حتى الانتهاء`{:class="block3sound"} داخل حلقة `إلى الأبد`{:class="block3control"}. بمجرد انتهاء الصوت ،حلقة `إلى الأبد`{: class = "block3control"} تجعل الصوت يبدأ مجددا من البداية.
 
-This code uses a single long sound clip repeated as a soundtrack:
+هذا الكود يستخدم مقطع صوت واحدا طويلا متكررا كمقطع صوتي:
 
 ```blocks3
 when green flag clicked
@@ -36,28 +36,28 @@ play sound (Dance Snare Beat v) until done
 end
 ```
 
-**Note:** When you choose a new sound, if you select the **Loops** category, Scratch will only show you the sounds that are suitable for a single looping soundtrack.
+**ملاحظة:** عند اختيارك لصوت جديد, إذا اخترت فئه **الحلَقات**, سيعرض لك Scratch فقط الأصوات المناسبة لحلقة صوتيه واحد.
 
-![The 'Loops' category in the Sound Library.](images/loopSounds.png)
+![صنف ال'حلقات' في مكتبة الصوت.](images/loopSounds.png)
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Add a sequence of short sounds to create a continuous soundtrack
+title: أضف سلسلة من الأصوات القصيرة لانشاء مقطع صوتي متواصل
 ---
 
-Click on the green flag to hear the sounds.
+انقر على العلم الأخضر لسماع الأصوات.
 
-**Champ performance**: [See inside](https://scratch.mit.edu/projects/444673165/editor){:target="_blank"}
+**أداء البطل**: [انظر في الداخل](https://scratch.mit.edu/projects/444673165/editor){:target="_blank"}
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/444673165/?autostart=false" frameborder="0"></iframe>
 </div>
 
- Use a `forever`{:class="block3control"} block to create a looped sound. You can:
-+ Put a series of short sounds in a sequence, or
-+ Use different instrument notes and effects
+ استخدم كتلة `إلى الأبد`{:class="block3control"} لإنشاء حلقه صوت. تستطيع:
++ وضع سلسلة من الأصوات القصيرة في تسلسل، أو
++ استخدم ملاحظات تعليماتية و مؤثرات مختلفة
 
 ```blocks3
 when flag clicked
@@ -76,18 +76,18 @@ End
 
 --- collapse ---
 ---
-title: Add sounds that play at regular intervals
+title: أضف أصوات تشتغل في فترات منتظمة
 ---
 
-**Football sounds**: [See inside](https://scratch.mit.edu/projects/450870079/editor){:target="_blank"}
+**اصوات كرة القدم**: [أنظر في الداخل](https://scratch.mit.edu/projects/450870079/editor){:target="_blank"}
 
-Click on the green flag to hear the sounds.
+انقر على العلم الأخضر لسماع الأصوات.
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/450870079/?autostart=false" frameborder="0"></iframe>
 </div>
 
- In this project, the **Stage** has code to play a sound at regular intervals:
+ في هذا المشروع, **المنصة** لديها كود لتشغيل الصوت في فترات منتظمة:
 
  ```blocks3
  when flag clicked
@@ -97,7 +97,7 @@ Click on the green flag to hear the sounds.
  end
  ```
 
-The **Whistle** sprite also plays a sound at regular intervals:
+يقوم الكائن **Whistle** أيضًا بتشغيل صوت على فترات منتظمة:
 
  ```blocks3
  when this sprite clicked
@@ -111,18 +111,18 @@ The **Whistle** sprite also plays a sound at regular intervals:
 
 --- collapse ---
 ---
-title: Add sounds that start to play at the same time
+title: أضف أصواتا تبدأ في نفس الوقت
 ---
 
-There are two `Sound`{:class="block3sound"} blocks with an important difference:
+هناك كتلتان `صوت`{:class="block3sound"} مع اختلاف مهم:
 
-+ When you `play sound until done`{:class="block3sound"}, the sound will play all the way through. The next line of code in the script will not run until the sound has finished playing.
++ عندما ` تشغيل الصوت حتى الانتهاء`{:class="block3sound"}, الصوت سوف يشتغل حتى النهاية. السطر التالي من الكود لن يعمل حتى يتوقف الصوت.
 
-+ When you `start sound`{:class="block3sound"}, the sound will play, but the next block will run immediately and will not wait for the sound to finish playing first.
++ عندما `تشغيل الصوت`{:class="block3sound"}, الصوت سوف يبداء و الكتله ستبداء معه على الفور ولن تنتظر حتى يتوقف الصوت.
 
-This means that if you had a series of `start sound`{:class="block3sound"} blocks, the sounds would all play almost at the same time, layered on top of each other. The effect can be interesting and sometimes messy.
+هذا يعني أنه إذا كان لديك سلسلة من كتل `تشغيل الصوت`{:class="block3sound"}, جميع الأصوات ستشتغل بنفس الوقت تقريبا, بعضَها فوق بعض. يمكن للمؤثرات ان تكون مثيره وفي بعض الأحيان فوضويه.
 
-Have a play with it sometime!
+العب بها في وقت ما!
 
 ```blocks3
 when green flag clicked
@@ -135,22 +135,22 @@ start sound (Baa v)
 
 --- /collapse ---
 
-Once you have chosen your sounds, you may want to change the `volume`{:class="block3sound"}, `pitch`{:class="block3sound"}, or `pan`{:class="block3sound"} (so you hear the sound from the left- or right-hand speaker).
+عند ما تختار أصواتك, ربما تود تغيير `مستوى الصوت`{:class="block3sound"}, `النبره`{:class="block3sound"}, أو `التوزيع`{:class="block3sound"} (لتسمع الصوت من السماعة اليساريه أو اليمينيه).
 
 --- collapse ---
 ---
-title: Volume, pitch, and pan
+title: مستوى الصوت, ألنبره, و التوزيع
 ---
 
-Click on the green flag to hear the sounds.
+انقر على العلم الأخضر لسماع الأصوات.
 
-**Band practice**: [See inside](https://scratch.mit.edu/projects/451697380/editor){:target="_blank"}
+** تمرين الفرقة**: [انظر في الداخل](https://scratch.mit.edu/projects/451697380/editor){:target="_blank"}
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451697380/?autostart=false" frameborder="0"></iframe>
 </div>
 
-The **Drums** sprite uses `set volume to`{:class="block3sound"}, `set pitch effect to`{:class="block3sound"}, and `set pan left/right effect to`{:class="block3sound"} blocks to change the sound:
+كائن **الطبول** يستخدم كتل `ضع الحجم على`{:class="block3sound"}, `ضع تأثير النغمة على`{:class="block3sound"}, و `ضع تأثير التوزيع يسار/يمين على`{:class="block3sound"} لتغيير الصوت:
 
 ```blocks3
 set volume to (80) %
@@ -159,15 +159,15 @@ set [pan left/right v] effect to (-100) :: sound
 play sound (Drum Funky v) until done
 ```
 
-+ You can `set volume to`{:class="block3sound"} a value from `0` (silent) to `100` (full volume). This is useful if you want some sounds to play louder than others, or if you want a sprite to appear further away.
++ يمكنك `وضع الحجم على`{:class="block3sound"} قيمة من `0` (صامت) إلى `100` (الحجم الأقصى). هذا مفيد إذا أردت بعض الأصوات أن تشتغل أصخب من الأخرى, أو إذا أردت كائن أن يظهر بعيدا.
 
-+ The `pitch`{:class="block3sound"} effect controls how high or low a sound is. Setting the pitch to a higher value also makes a sound faster. You can `set pitch effect to`{:class="block3sound"} values between `-360` (very low) and `360` (very high).
++ تأثير `النغمة`{:class="block3sound"} يتحكم كم أعلى أو أخفض هو الصوت. وضع النغمة على قيمة أعلى أيضا يجعل الصوت أسرع. يمكنك `وضع تأثير النغمة على`{:class="block3sound"} قيم بين `-360` (جد منخفض) و `360` (جد عال).
 
-+ The `pan left/right`{:class="block3sound"} effect allows you to control whether a sound comes out of a left- or right-hand speaker or headphone or both. You can `set pan left/right effect to`{:class="block3sound"} values from `-100` (all sound from the left) to `100` (all sound from the right).
++ تأثير `التوزيع يسار/يمين`{:class="block3sound"} يخولك التحكم إذا ما الصوت يصدر من سماعة أو مكبر يسارك أو يمينك أو كليهما. يمكنك `وضع تأثير التوزيع يسار/يمين على`{:class="block3sound"} قيمة من `-100` (كل الصوت من اليسار) إلى`100` (كل الصوت من اليمن).
 
 --- /collapse ---
 
-You can also use the `Text to Speech`{:class="block3extensions"} extension:
+يمكنك أيضا استخدام إمتداد ال`نص إلى كلام`{:class="block3extensions"}:
 
 [[[scratch3-text-to-speech]]]
 
