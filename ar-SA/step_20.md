@@ -1,40 +1,40 @@
-## Share and comment
+## شارك وعلق
 
 --- task ---
 
-To let other people access your project, make your project public. You can also share your project's unique web address with other people.
+للسماح للآخرين بالوصول إلى مشروعك، اجعل مشروعك عامًا. يمكنك أيضًا مشاركة عنوان الويب الخاص بمشروعك مع أشخاص آخرين.
 
 [[[share-scratch]]]
 
 --- collapse ---
 ---
-title: More on sharing your project's web address
+title: المزيد عن مشاركة عنوان الويب الخاص بمشروعك
 ---
 
-+ Your project will always start in the position that you last saved it in, so make sure that you save your project in the right starting position
-+ When you click on **See Project Page**, the web address of your project will appear in the browser bar: ![A web address.](images/from-me-webaddress.png){:width="400px"}
-+ Copy the web address and paste it into an email, or write down the web address and give it to the person who you want to share the project with
++ سيبدأ مشروعك دائمًا في الموضع الذي حفظته فيه آخر مرة ، لذا تأكد من حفظ مشروعك في موضع البداية الصحيح
++ عند النقر فوق **شاهد صفحة المشروع**، سيظهر عنوان الويب الخاص بمشروعك في شريط المتصفح: ![A web address.](images/from-me-webaddress.png){:width="400px"}
++ انسخ عنوان الويب والصقه في رسالة بريد إلكتروني، أو اكتب عنوان الويب وأعطه للشخص الذي تريد مشاركة المشروع معه
 
-**Tip:** You can access completed Scratch projects on a computer or mobile device.
+**نصيحة:** يمكنك الوصول إلى مشاريع Scratch المكتملة على جهاز كمبيوتر أو جهاز محمول.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What to put in Instructions and Notes and Credits
+title: وا الذي يجب وضعه في ارشادات والملاحظات والاعتمادات
 ---
 
-On the Project Page, you can fill in the Instructions to explain how to use your project, and complete your project’s Notes and Credits.
+في صفحة المشروع ، يمكنك ملء التعليمات لشرح كيفية استخدام مشروعك وإكمال الملاحظات والاعتمادات الخاصة بمشروعك.
 
-In the **Instructions** box, tell people how to use your project:
-+ Include all the instructions that the user needs to explore your project fully.
-+ Make sure that your instructions are given step by step and are simple. Instructions are easier to read if you write them in a list.
-+ Include all the user interaction, such as clicking on the green flag to start, and which sprites to click on.
-+ Let the user know if the project includes sound, as they may need to wear headphones or turn the volume up on their device.
+في **إرشادات** ، أخبر الأشخاص بكيفية استخدام مشروعك:
++ قم بتضمين جميع التعليمات التي يحتاجها المستخدم لاستكشاف مشروعك بالكامل.
++ تأكد من إعطاء التعليمات خطوة بخطوة وبشكل بسيط. تكون التعليمات أسهل في القراءة إذا قمت بكتابتها في قائمة.
++ قم بتضمين كل تفاعلات المستخدم ، مثل النقر على العلم الأخضر للبدء ، وأي من الكائنات التي من الممكن النقر عليها.
++ دع المستخدم يعرف ما إذا كان المشروع يتضمن صوتًا ، حيث قد يحتاج إلى ارتداء سماعات رأس أو رفع مستوى الصوت على أجهزتهم.
 
-In the **Notes and Credits** box:
-+ Thank the people who created the projects that inspired you. You could even include the web addresses of the projects.
-+ Did you include images or sounds that were created by someone else? If so, credit the source(s) in this box.
+في مربع **الملاحظات والاعتمادات**:
++ اشكر الأشخاص الذين ابتكروا المشاريع التي ألهمتك. يمكنك حتى تضمين عناوين الويب الخاصة بالمشاريع.
++ هل قمت بتضمين الصور أو الأصوات التي أنشأها شخص آخر؟ إذا كان الأمر كذلك ، فأكتب المصدر (المصادر) في هذا المربع.
 
 --- /collapse ---
 
@@ -42,7 +42,7 @@ In the **Notes and Credits** box:
 
 --- task ---
 
-Give and receive feedback on projects.
+قم بإعطاء وتلقي ردود الفعل على المشاريع.
 
 [[[comments-feedback-scratch]]]
 
