@@ -55,7 +55,7 @@ set rotation style [left-right v] // or all-around or none
 
 --- collapse ---
 ---
-título: Girar
+title: Girar
 ---
 
 --- no-print ---
@@ -84,7 +84,7 @@ Em um bloco `gire`{: class = "block3motion"} dentro de um loop `sempre`{: class 
 
 --- collapse ---
 ---
-título: Mover em um círculo
+title: Mover em um círculo
 ---
 
 --- no-print ---
@@ -124,7 +124,7 @@ Veja algumas das maneiras pelas quais você pode fazer seu ator virar:
 
 --- collapse ---
 ---
-título: Virar de um lado do Palco ao outro
+title: Virar de um lado do Palco ao outro
 ---
 
 --- no-print ---
@@ -158,7 +158,7 @@ Adicione um bloco `defina o estilo de rotação para`{: class = "block3motion"} 
 
 --- collapse ---
 ---
-título: Pulando pelo palco
+title: Pulando pelo palco
 ---
 
 --- no-print ---
@@ -192,7 +192,7 @@ Adicione um bloco `defina o estilo de rotação para`{: class = "block3motion"} 
 
 --- collapse ---
 ---
-título: Pular em ângulo
+title: Pular em ângulo
 ---
 
 --- no-print ---
@@ -244,7 +244,7 @@ set y to [0]
 
 --- collapse ---
 ---
-título: Não consigo ver nenhum bloco da categoria Movimento
+title: Não consigo ver nenhum bloco da categoria Movimento
 ---
 
 Se você selecionou o Palco então não verá nenhum bloco `Movimento`{: class = "block3motion"}, porque o Palco não pode se mover.
