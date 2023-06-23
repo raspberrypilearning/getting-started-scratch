@@ -1,93 +1,93 @@
-## Our Scratch projects
+## Наші проєкти Scratch
 
-Our Scratch paths have six projects each, to help you learn different skills in Scratch, in order to create your own projects independently.
+Наші навчальні програми Scratch мають по шість проєктів, які допоможуть тобі освоїти різні навички роботи зі Scratch, щоб самостійно створювати свої власні проєкти.
 
-You can return to this reference guide, Getting started with Scratch, whenever you need to remind yourself of the skills you have learnt.
+Ти можеш повернутися до цього керівництва, Початок роботи у Scratch, щоразу, коли тобі потрібно буде пригадати вивчені навички.
 
-These projects can be completed on any computer or tablet that runs Scratch 3.
+Ці проєкти можна запустити на будь-якому комп'ютері або планшеті, який підтримує Scratch 3.
 
-### Beginner Scratch projects
+### Проєкти Scratch для новачків
 
-If you are new to Scratch, start with our pathways for beginners:
+Якщо ти новачок у Scratch, почни з наших навчальних курсів для початківців:
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/Intro-banner.png)
-[Introduction to Scratch: sprites, scripts, and loops](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"}<br/>
-In this introduction for beginners, you will learn how to add code, costumes, and sounds to sprites as you make animations, a game, apps, and a story.
+[Знайомство зі Scratch: спрайти, скрипти та цикли](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"}<br/>
+У цьому керівництві для початківців ти дізнаєшся, як додавати код, образи та звуки до спрайтів та створювати анімації, ігри, програми та історії.
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/LAY-banner.png)
-[Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself){:target="_blank"}<br/>
-Learn how to look after yourself and others with Scratch projects to make you laugh, relax, control, create, exercise, and focus.
+[Піклуйся про себе](https://projects.raspberrypi.org/en/pathways/look-after-yourself){:target="_blank"}<br/>
+Навчись піклуватися про себе та інших за допомогою проєктів Scratch, які допоможуть тобі розважитися, розслабитися, навчитися володіти собою, творити, займатися спортом та зосереджуватися.
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/scratch.png)
-[Scratch module 1](https://projects.raspberrypi.org/en/pathways/scratch-module-1){:target="_blank"}
+[Модуль Scratch 1](https://projects.raspberrypi.org/en/pathways/scratch-module-1){:target="_blank"}
 </div>
 
 <br clear="both"/>
 
-### Beyond the basics Scratch projects
+### За межами основ проєктів Scratch
 
-If you already know about sprites, costumes, backdrops, and loops then try these projects:
+Якщо ти вже знаєш про спрайти, образи, тло та цикли, спробуй ці проєкти:
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/more-banner.png)
-[More Scratch: broadcast, decisions, and variables](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank"}<br/>
-More Scratch moves beyond the basics introduced in Introduction to Scratch. You will make apps, games, and simulations using message broadcasting, if..then and if..then..else decisions, and variables.
+[Більше про Scratch: трансляція, рішення та змінні](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank"}<br/>
+Більше про Scratch виходить за межі основ, представлених у Знайомство зі Scratch. Ти будеш створювати програми, ігри та симулятори, використовуючи трансляцію повідомлень, рішення якщо...то та якщо...то...інакше, а також змінні.
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/scratch.png)
-[Scratch module 2](https://projects.raspberrypi.org/en/pathways/scratch-module-2){:target="_blank"}<br/>
+[Модуль Scratch 2](https://projects.raspberrypi.org/en/pathways/scratch-module-2){:target="_blank"}<br/>
 </div>
 
 <br clear="both"/>
 
-### Advanced Scratch projects
+### Просунуті проєкти Scratch
 
-If you want to learn about lists, clones, and creating your own blocks, then try these projects:
+Якщо ти хочеш дізнатися про списки, клони та створення власних блоків, спробуй ці проєкти:
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/more-banner.png)
-[Further Scratch: clones, my blocks, and boolean logic](https://projects.raspberrypi.org/en/pathways/further-scratch){:target="_blank"}<br/>
-Further Scratch moves beyond the skills introduced in Introduction to Scratch and More Scratch. You will make apps, games, computer-generated art, and simulations using boolean logic, functions, clones, and more.
+[Продовження Scratch: клони, мої блоки та булева логіка](https://projects.raspberrypi.org/en/pathways/further-scratch){:target="_blank"}<br/>
+Продовження Scratch виходить за рамки навичок, представлених у Знайомство зі Scratch та Більше про Scratch. Ти будеш створювати додатки, ігри, комп'ютерне мистецтво та симулятори, використовуючи булеву логіку, функції, клони та багато іншого.
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![desc](images/POP-banner.png)
-[Protect our planet](https://projects.raspberrypi.org/en/pathways/protect-our-planet){:target="_blank"}<br/>
-Use Scratch to learn about our planet and how to protect the environment for future generations.
+[Захистимо нашу планету](https://projects.raspberrypi.org/en/pathways/protect-our-planet){:target="_blank"}<br/>
+Використовуй Scratch, щоб дізнатися про нашу планету та про те, як зберегти навколишнє середовище для майбутніх поколінь.
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/cd-scratch.png)
-[Scratch for social enterprise](https://projects.raspberrypi.org/en/coderdojo/scratch-for-social-enterprise){:target="_blank"}<br/>
+[Scratch для соціального підприємництва](https://projects.raspberrypi.org/en/coderdojo/scratch-for-social-enterprise){:target="_blank"}<br/>
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/scratch.png)
-[Scratch module 3](https://projects.raspberrypi.org/en/pathways/scratch-module-3){:target="_blank"}<br/>
+[Модуль Scratch 3](https://projects.raspberrypi.org/en/pathways/scratch-module-3){:target="_blank"}<br/>
 </div>
 
 <br clear="both"/>
 
-### Scratch GPIO hardware projects for the Raspberry Pi
+### Scratch GPIO обладнання для проєктів Raspberry Pi
 
-If you have a Raspberry Pi computer, then you can also try these projects. You will need additional electronic components.
+Якщо у тебе є комп'ютер Raspberry Pi, ти також можеш спробувати ці проєкти. Тобі знадобляться додаткові електронні пристрої.
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;"><br/>
 ![](images/physical-computing-text.png)
-[Physical computing with Scratch path](https://projects.raspberrypi.org/en/pathways/physical-computing-with-scratch-and-the-raspberry-pi){:target="_blank"}
+[Фізичні обчислення за принципом Scratch](https://projects.raspberrypi.org/en/pathways/physical-computing-with-scratch-and-the-raspberry-pi){:target="_blank"}
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;"><br/>
 ![](images/physical-computing-text.png)
-[Physical computing with Scratch additional projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&hardware%5B%5D=raspberry-pi){:target="_blank"}
+[Фізичні обчислення з додатковими проєктами Scratch](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&hardware%5B%5D=raspberry-pi){:target="_blank"}
 </div>
 
 <br clear="both"/>
 
-Did you enjoy the Scratch guide? Have you spotted an issue? Please click the **Send feedback** button below and let us know!
+Чи сподобався тобі це керівництво по Scratch? Була виявлена помилка? Будь ласка, натисни кнопку **Надіслати відгук** нижче та розкажи нам про це!
