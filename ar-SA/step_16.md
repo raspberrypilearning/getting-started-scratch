@@ -1,8 +1,8 @@
-## Paint editor
+## محرر الرسام
 
-Use the Paint editor to create your own backdrops and costumes, and to edit existing backdrops and costumes.
+استخدم محرر الرسام لإنشاء الخلفيات والأزياء الخاصة بك ، ولتعديل الخلفيات والأزياء الموجودة.
 
-![An annotated screenshot of the Costumes tab.](images/Scratch-Costume-tab.png){:width="600px"}
+![لقطة شاشة مشروحة لعلامة تبويب الأزياء.](images/Scratch-Costume-tab.png){:width="600px"}
 
 [[[scratch3-paint-a-new-backdrop-extended]]]
 
@@ -18,193 +18,193 @@ Use the Paint editor to create your own backdrops and costumes, and to edit exis
 
 --- collapse ---
 ---
-title: Duplicate and edit a costume to use in an animation
+title: قم بتكرار وتعديل الزي لاستخدامه في الرسوم المتحركة
 ---
 
-Some Scratch sprites just have one costume, or have multiple costumes that don't work as an animation. If you choose one costume, then duplicate it (make a copy of it) and make a small change, it can create an animation effect.
+تحتوي بعض الكائنات في Scratch على زي واحد فقط ، أو لها عدة أزياء لا تعمل كرسوم متحركة. إذا اخترت زيًا واحدًا ، ثم قمت بتكرار ذلك (قم بعمل نسخة منه) وقمت بإجراء تغيير بسيط ، فيمكنك إنشاء تأثير متحرك.
 
-**Robot animation**: [See inside](https://scratch.mit.edu/projects/436260207/editor){:target="_blank"}
+**صورة متحركة للروبوت**: [انظر من الداخل](https://scratch.mit.edu/projects/436260207/editor){: target = "_ blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/436260207/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Switch to the **Costumes** tab for your sprite.
+قم بالتبديل إلى علامة التبويب **أزياء** للكائن الخاص بك.
 
-Choose the costume that you want to use, and delete the other costumes, because you will not need them for your animation. For example, the **Robot** sprite comes with costumes for three different robots, so you should choose one of the costumes and delete the other costumes.
+اختر الزي الذي تريد استخدامه ، واحذف الأزياء الأخرى ، لأنك لن تحتاجها في الرسوم المتحركة الخاصة بك. على سبيل المثال ، يأتي الكائن **Robot** مع أزياء لثلاثة روبوتات مختلفة ، لذلك يجب عليك اختيار أحد الأزياء وحذف الأزياء الأخرى.
 
-Right-click (or on a tablet, tap and hold) on the costume, and choose **duplicate**.
+للقيام بذلك، انقر بزر الماوس الأيمن (أو على جهاز لوحي، انقر مع الاستمرار) على المظهر او الزي واختر **تكرار**.
 
-Make small changes to the copy of the costume. For example, you can move, rotate, or change all or part of the costume. You can also add movement lines.
+قم بإجراء تغييرات صغيرة على نسخة المظهر او الزي. على سبيل المثال ، يمكنك نقل المظهر او الزي أو تدويره أو تغييره بالكامل أو جزء منه. يمكنك أيضًا إضافة خطوط الحركة.
 
-If your costume uses vector graphics, then you can select parts of a costume and change each part separately.
+إذا كان زيك او المظهر الخاص بالكائن يستخدم رسومات متجهة ، فيمكنك تحديد أجزاء من زي وتغيير كل جزء على حدة.
 
-![Duplicating a robot costume, then making changes to parts of the copy of the costume.](images/edit-robot-costume.gif)
+![تكرار زي او مظهر روبوت ، ثم إجراء تغييرات على أجزاء من نسخة الزي.](images/edit-robot-costume.gif)
 
-You can duplicate the costume again and make more changes to add more frames to your animation.
+يمكنك تكرار الزي مرة أخرى وإجراء المزيد من التغييرات لإضافة المزيد من الإطارات إلى الرسوم المتحركة الخاصة بك.
 
-You can now use your costumes in a simple sprite animation.
-
---- /collapse ---
-
---- collapse ---
----
-title: Use the Fill tool to change the colours in a costume
----
-
-You can change the colour of your sprite. First, select your sprite in the Sprite list below the Stage and then click on the **Costumes** tab.
-
-Use the **Select** (Arrow) tool to highlight the part of the costume you want to change colour.
-
-![The Select (Arrow) tool.](images/challenge1-arrow-tool.png){:width="200px"}
-
-![Selecting a shape.](images/challenge1-arrow-tool-selecting-shape.png){:width="300px"}
-
-Go to the **Fill** colour chooser and select a colour. It will automatically fill the shape that you have selected.
-
-![The Fill colour chooser in the Paint editor, and the shape filled with the colour chosen.](images/challenge1-fill-tool.png){:width="300px"}
-
-Repeat the steps above for any part of the costume that you have missed, or for any other part of the costume you want to change colour.
-
-![Selecting a different part of the costume.](images/challenge1-select-another-shape.png){:width="300px"}
-
-![Different parts of the costume have been changed to different colours.](images/challenge1-change-shape-colour.png){:width="300px"}
-
-![The changed sprite on the Stage.](images/challenge1-change-costume-colour.png){:width="300px"}
-
---- /collapse ---
-
-Use the tips below to help you to create your own designs for your sprites in the Paint editor.
-
---- collapse ---
----
-title: Create scenery as sprites
----
-
-**Hill as a sprite**: [See inside](https://scratch.mit.edu/projects/452582516/editor){:target="_blank"}
-
-![A hill sprite.](images/challenge2-sprite-hill.png){:width="400px"}
-
-To make your own **Hill** sprite, shown in the example above, you can use the **Circle** and **Rectangle** tools in the Paint editor:
-
-+ Go to **Choose a Sprite** and select **Paint** to create a new sprite costume.
-
-![Selecting a Fill colour of green, deselecting the Outline, and drawing a green oval with the Circle tool, in the Paint editor.](images/challenge2-backdrop-sprite-costume.gif){:width="400px"}
-
-+ Choose a **Fill** colour. Click on **Outline** and deselect it (to do this, click on the box with the diagonal line in the bottom left-hand corner of the menu). Now, use the **Circle** tool to draw an oval. Then, select the **Rectangle** tool and draw a rectangle underneath the oval.
-
-+ If you use varying colours for the shapes, you may need to use the **Front** and **Back** tools in the Paint editor to move your shapes forward or backward so that they are positioned correctly within your background.
-
-+ You can select all the shapes and **Group** them together so that you can adjust them or move them as one shape.
-
-![The Group tool highlighted in the Paint editor.](images/challenge2-group-shapes.png){:width="400px"}
-
-Now, make other sprites for your scenery, if this fits in with your project idea.
-
-Remember to name your sprite(s).
+يمكنك الآن استخدام الأزياء الخاصة بك في رسم متحرك بسيط للرموز المتحركة.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Use the Line tool to create a triangle
+title: استخدم أداة Fill (ملء) لتغيير الألوان في مظهر او زياَ ما
 ---
 
-You can create polygons, such as a triangle, and use these shapes to create roofs or mountains.
+يمكنك تغيير لون الكائن الخاص بك. أولاً ، حدد الكائن الخاص بك في قائمة الكائنات الموجودة أسفل منصة التنفيذ ، ثم انقر فوق علامة التبويب **الأزياء**.
 
-Go to **Choose a Sprite** and select **Paint** to create a new sprite costume. In this example, you will make houses.
+استخدم أداة السهم **Select** (Arrow) لتمييز جزء الزي الذي تريد تغيير لونه.
 
-**House**: [See inside](https://scratch.mit.edu/projects/453595663/editor){:target="_blank"}
+![أداة التحديد (السهم).](images/challenge1-arrow-tool.png){:width="200px"}
 
-![Drawing a rectangle with the Rectangle tool, and a triangle with the Line tool, in the Paint editor.](images/challenge2-backdrop-sprite-costumes-line-tool.gif){:width="400px"}
+![اختيار الشكل.](images/challenge1-arrow-tool-selecting-shape.png){:width="300px"}
 
-If you follow the instructions below, you can use the **Line** tool to create any shape:
-+ Choose a **Fill** colour. To choose the colour black, decrease the **Brightness** to zero (`0`).
+انتقل إلى منتقي الألوان **Fill** وحدد لونًا. سيقوم تلقائيًا بملء الشكل الذي حددته.
 
-![Changing the Fill colour to black.](images/challenge2-black.png){:width="150px"}
+![منتقي لون التعبئة في محرر الرسام والشكل المعبأ باللون المختار.](images/challenge1-fill-tool.png){:width="300px"}
 
-+ Select **No outline**.
+كرر الخطوات المذكورة أعلاه لأي جزء فاتك من الزي ، أو لأي جزء آخر من الزي الذي تريد تغيير لونه.
 
-![The 'No outline' symbol highlighted.](images/challenge2-nooutline.png){:width="200x"}
+![اختيار جزء مختلف من الزي.](images/challenge1-select-another-shape.png){:width="300px"}
 
-+ Use the **Rectangle** tool to draw a rectangle.
-+ Use the **Line** tool to draw a triangle. Make sure that you complete the triangle, otherwise it will not fill with colour.
-+ Move the two shapes together.
-+ Select the **Fill** (Bucket) tool and fill the triangle with colour.
-+ Use the **Rectangle** tool to draw another rectangle for the chimney.
-+ You can use the **Front** and **Back** tools in the Paint editor to move your shapes forward or backward so that they are positioned correctly. In this example, you will not need to do this, because the shapes are black to make a silhouette.
-+ Select all the shapes and **Group** them together so that you can adjust them or move them as one shape.
+![تم تغيير أجزاء مختلفة من الزي إلى ألوان مختلفة.](images/challenge1-change-shape-colour.png){:width="300px"}
 
-To create duplicate shapes of your house (for example, to make a skyline), follow the tips under **Duplicate shapes to create a scenery costume** below.
+![الكائن المتغير على المنصة.](images/challenge1-change-costume-colour.png){:width="300px"}
+
+--- /collapse ---
+
+استخدم النصائح أدناه لمساعدتك في إنشاء تصميماتك الخاصة للكائنات في محرر الرسام.
+
+--- collapse ---
+---
+title: إنشاء مشهد (منظر) ككائنات
+---
+
+**هيل كشخصية**: [انظر من الداخل](https://scratch.mit.edu/projects/452582516/editor){: target = "_ blank"}
+
+![كائن التل.](images/challenge2-sprite-hill.png){:width="400px"}
+
+لإنشاء كائن **Hill** الخاص بك ، كما هو موضح في المثال أعلاه ، يمكنك استخدام الأدوات **Circle** و **Rectangle** في محرر الرسام:
+
++ اذهب إلى **اختر Sprite** وحدد **Paint** لإنشاء زي كائن جديد.
+
+![تحديد لون تعبئة باللون الأخضر ، وإلغاء تحديد المخطط التفصيلي ، ورسم شكل بيضاوي أخضر باستخدام أداة الدائرة ، في محرر الرسام.](images/challenge2-backdrop-sprite-costume.gif){:width="400px"}
+
++ اختر لون **Fill**. انقر فوق **Outline** وقم بإلغاء تحديده (للقيام بذلك ، انقر فوق المربع الذي يحتوي على الخط القطري في الزاوية اليسرى السفلية من القائمة). الآن ، استخدم أداة **الدائرة** لرسم شكل بيضاوي. ثم حدد أداة **Rectangle** وارسم مستطيلاً أسفل الشكل البيضاوي.
+
++ إذا كنت تستخدم ألوانًا مختلفة للأشكال ، فقد تحتاج إلى استخدام أدوات **Front** و **Back** في محرر الرسام لتحريك الأشكال للأمام أو للخلف بحيث يتم وضعها بشكل صحيح داخل خلفيتك.
+
++ يمكنك تحديد كل الأشكال و **تجميعهم** معًا بحيث يمكنك تعديلها أو نقلها كشكل واحد.
+
+![تم تمييز أداة التجميع في محرر الرسام.](images/challenge2-group-shapes.png){:width="400px"}
+
+الآن ، اصنع كائنات أخرى لمشهدك ، إذا كان هذا يتناسب مع فكرة مشروعك.
+
+تذكر تسمية الكائنات الخاصة بك.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Duplicate shapes to create a scenery costume
+title: استخدم أداة الخط لإنشاء مثلث
 ---
 
-You may want to duplicate shapes within a costume so that your scenery appears busier or more crowded.
+يمكنك إنشاء مضلعات ، مثل المثلث ، واستخدام هذه الأشكال لإنشاء أسقف أو جبال.
 
-**Multiple clouds**: [See inside](https://scratch.mit.edu/projects/447278432/editor){:target="_blank"}
+اذهب إلى **اختر كائن** وحدد **الرسام** لإنشاء زي كائن جديد. في هذا المثال ، ستصنع منازل.
 
-![Multiple clouds on the Stage.](images/challenge2-sprite-costume-multiples.png){:width="400px"}
+**منزل**: [انظر من الداخل](https://scratch.mit.edu/projects/453595663/editor){: target = "_ blank"}
 
-The effect of multiplying shapes is used by professional animators to create the impression of weather patterns, such as rain or clouds; a cluster of objects, such as buildings or a wood; or a crowd of people in a scene.
+![رسم مستطيل باستخدام أداة Rectangle ، ومثلث باستخدام أداة Line ، في محرر الرسام.](images/challenge2-backdrop-sprite-costumes-line-tool.gif){:width="400px"}
+
+إذا اتبعت الإرشادات أدناه ، فيمكنك استخدام أداة **الخط** لإنشاء أي شكل:
++ اختر لون **Fill**. لاختيار اللون الأسود ، قم بتقليل **درجة السطوع** إلى صفر (`0`).
+
+![تغيير لون التعبئة إلى الأسود.](images/challenge2-black.png){:width="150px"}
+
++ حدد **بلا حدود خارجية**.
+
+![تم تمييز الرمز "بدون مخطط تفصيلي".](images/challenge2-nooutline.png){:width="200x"}
+
++ استخدم أداة **Rectangle** لرسم مستطيل.
++ استخدم أداة **الخط** لرسم مثلث. تأكد من إكمال المثلث ، وإلا فلن يمتلئ باللون.
++ حرك الشكلين معًا.
++ حدد أداة **Fill** (Bucket) واملأ المثلث باللون.
++ استخدم أداة **Rectangle** لرسم مستطيل آخر للمدخنة.
++ يمكنك استخدام أدوات **Front** و **Back** في محرر الرسام لتحريك الأشكال للأمام أو للخلف بحيث يتم وضعها بشكل صحيح. في هذا المثال ، لن تحتاج إلى القيام بذلك ، لأن الأشكال سوداء لتكوين صورة ظلية.
++ يمكنك تحديد كل الأشكال و **تجميعهم** معًا بحيث يمكنك تعديلها أو نقلها كشكل واحد.
+
+لإنشاء أشكال مكررة لمنزلك (على سبيل المثال ، لإنشاء أفق) ، اتبع النصائح الموجودة ضمن **أشكال مكررة لإنشاء زي مشهد** أدناه.
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: أشكال مكررة لإنشاء زي او مظهر بشكل مشهد
+---
+
+قد ترغب في تكرار الأشكال داخل الزي بحيث يبدو المشهد أكثر انشغالًا أو ازدحامًا.
+
+**سحابات متعددة**: [انظر من الداخل](https://scratch.mit.edu/projects/447278432/editor){: target = "_ blank"}
+
+![غيوم متعددة على المنصة.](images/challenge2-sprite-costume-multiples.png){:width="400px"}
+
+يستخدم الرسامون المحترفون تأثير مضاعفة الأشكال لخلق انطباع بأنماط الطقس ، مثل المطر أو السحب ؛ مجموعة من الأشياء ، مثل المباني أو الخشب ؛ أو حشد من الناس في مشهد.
 
 --- no-print ---
 
-![Using the Select, Copy, and Paste tools to make a costume with multiple cloud shapes.](images/challenge2-sprite-costume-multiples.gif)
+![استخدام أدوات التحديد والنسخ واللصق لعمل زي بأشكال سحابة متعددة.](images/challenge2-sprite-costume-multiples.gif)
 
 --- /no-print ---
 
-To multiply any type of shape:
-+ Go to **Choose a Sprite** and select, in this example, the **Cloud** sprite
-+ In the **Costumes** tab, use the **Select** tool to highlight the whole of the shape
-+ Use the **Copy** and **Paste** tools to create duplicates of the shape
-+ Use the **Select** tool to move the shape within the Paint editor
-+ You can vary the size of the shapes to help to create a greater sense of 3D effects, for example
-+ You can select all the shapes and **Group** them together, so that you can adjust them or move them as one shape
+لمضاعفة أي نوع من الأشكال:
++ اذهب إلى **اختر كائن** وحدد ، في هذا المثال ، **Cloud** الكائن
++ في علامة التبويب **أزياء** ، استخدم أداة **حدد** لتمييز الشكل بالكامل
++ استخدم أدوات **Copy** و **Paste** لإنشاء نسخ مكررة من الشكل
++ استخدم أداة **Select** لتحريك الشكل داخل محرر الرسام
++ يمكنك تنويع حجم الأشكال للمساعدة في خلق إحساس أكبر بالتأثيرات ثلاثية الأبعاد ، على سبيل المثال
++ يمكنك تحديد كل الأشكال و **تجميعهم** معًا بحيث يمكنك تعديلها أو نقلها كشكل واحد
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Use Saturation and Brightness to create depth
+title: استخدم التشبع والسطوع لإنشاء العمق
 ---
 
-In the real world, objects that are further away appear lighter in colour. To achieve more realistic 3D scenery, you can **decrease** the colour **Saturation** and/or **Brightness** of each sprite so that they appear further and further away.
+في العالم الحقيقي ، تبدو الكائنات البعيدة أفتح في درجة اللون. لتحقيق مشهد ثلاثي الأبعاد أكثر واقعية ، يمكنك **إنقاص** اللون **التشبع** و / أو **السطوع** لكل كائن بحيث تظهر أبعد وأبعد.
 
-!['Saturation' and 'Brightness' highlighted in the Fill colour chooser.](images/challenge2-saturation.png){:width="400px"}
+![تم تمييز "التشبع" و "السطوع" في منتقي ألوان التعبئة.](images/challenge2-saturation.png){:width="400px"}
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Create a sprite with gaps that you can see through
+title: قم بإنشاء كائن به فجوات يمكنك رؤيتها من خلالها
 ---
 
-You can create a sprite that has gaps that you can see through. If it is positioned as the front layer and is the size of the Stage, it can appear like a view through the bars of a cage or a window.
+العنوان: قم بإنشاء كائن به فجوات يمكنك رؤيتها من خلالها. إذا تم وضعه كطبقة أمامية وكان حجم المنصة ، فيمكن أن يظهر كعرض من خلال أشرطة قفص أو نافذة.
 
 --- no-print ---
 
-**Caged lion**: [See inside](https://scratch.mit.edu/projects/445680159/editor){:target="_blank"}
+**أسد محبوس**: [انظر من الداخل](https://scratch.mit.edu/projects/445680159/editor){: target = "_ blank"}
 
-![A cage sprite costume.](images/challenge2-sprite-costume-mask-cage.gif)
+![زي الكائن القفص.](images/challenge2-sprite-costume-mask-cage.gif)
 
 --- /no-print ---
 
-To create a type of masking sprite:
-+ Go to **Choose a Sprite** and select **Paint**
-+ Choose a **Fill** colour with no **Outline** and draw a vertical rectangle
-+ Use the **Copy** and **Paste** tools to repeat this shape
-+ Use the **Select** tool to move the shapes around
-+ As you place your shapes, make sure that they are touching the edge of the Stage to fit in with your project idea
+لإنشاء نوع من الكائنات المخفية:
++ اذهب إلى **اختر كائن** وحدد ،**الرسام**
++ اختر لون **Fill** بدون **الحدود الخارجية** وارسم مستطيلاً عمودياً
++ استخدم أدوات **Copy** و **Paste** لتكرار هذا الشكل
++ استخدم أداة **Select** لتحريك الأشكال حولها
++ أثناء قيامك بوضع الأشكال الخاصة بك ، تأكد من أنها تلامس حافة المنصة لتتلاءم مع فكرة مشروعك
 
-![The Copy and Paste tools highlighted in the Paint editor.](images/challenge2-sprite-costume-mask-copy.png)
+![تم تمييز أدوات النسخ واللصق في محرر الرسام.](images/challenge2-sprite-costume-mask-copy.png)
 
 --- /collapse ---
 
-**Tip:** If you find it hard to manage the sprites on your Stage, such as having a large sprite that keeps covering a much smaller one, you can click on **Hide** so that you don't see a sprite or sprites. Then, when you have finished, click on **Show** again.
+**نصيحة:** إذا وجدت صعوبة في إدارة الكائنات المتحركة الموجودة على منصتك ، مثل امتلاك كائن كبير يستمر في تغطية واحدة أصغر بكثير ، يمكنك النقر فوق **إخفاء** حتى لا ترى كائنًا أو كائنات. ثم ، عند الانتهاء ، انقر فوق **إظهار** مرة أخرى.
 
-![The 'Show' and 'Hide' icons highlighted in the Sprite pane.](images/hideSprites.png){:width="300px"}
+![تم تمييز رمزي "إظهار" و "إخفاء" في جزء الرموز المتحركة.](images/hideSprites.png){:width="300px"}
