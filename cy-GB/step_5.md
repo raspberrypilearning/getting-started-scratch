@@ -96,7 +96,7 @@ Os wyt ti wedi rhannu dy brosiect, yna bydd pobl eraill hefyd yn gweld yr enw hw
 
 Rwyt ti wedi creu dy brosiect Scratch cyntaf!
 
-Rwyt ti nawr yn barod i ddysgu Scratch. Rydyn ni'n argymell dy fod yn dechrau gyda ein llwybrau [Scratch: Modiwl 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} a/neu [Cymer ofal ohonat ti dy hun](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"}, sydd wedi'u cynllunio ar gyfer dechreuwyr.
+Rwyt ti nawr yn barod i ddysgu Scratch. We recommend that you start with our [Introduction to Scratch](https://projects.raspberrypi.org/en/raspberrypi/scratch-intro){:target="_blank"}, [Scratch: Module 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} and/or [Look after yourself](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"} paths, which are designed for beginners.
 
  Galli di ddychwelyd i'r canllaw yma os wyt ti angen help i ddefnyddio Scratch wrth weithio ar ein prosiectau llwybr neu ar dy brosiectau annibynnol dy hun. 
 
