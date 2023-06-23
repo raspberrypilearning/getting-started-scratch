@@ -1,93 +1,92 @@
-## Our Scratch projects
+## مشاريعنا للـScratch
 
-Our Scratch paths have six projects each, to help you learn different skills in Scratch, in order to create your own projects independently.
+تحتوي مسارات Scratch على ستة مشاريع لكل منها، لمساعدتك على تعلم مهارات مختلفة في Scratch، من أجل إنشاء مشاريعك الخاصة بشكل مستقل.
 
-You can return to this reference guide, Getting started with Scratch, whenever you need to remind yourself of the skills you have learnt.
+يمكنك العودة إلى هذا الدليل المرجعي، البدء في استخدام Scratch، متى احتجت إلى تذكير نفسك بالمهارات التي تعلمتها.
 
-These projects can be completed on any computer or tablet that runs Scratch 3.
+يمكن إكمال هذه المشاريع على أي جهاز كمبيوتر أو جهاز لوحي يقوم بتشغيل Scratch 3.
 
-### Beginner Scratch projects
+### مشاريع Scratch للمبتدئين
 
-If you are new to Scratch, start with our pathways for beginners:
+إذا كنت جديدًا على Scratch ، فابدأ بمساراتنا للمبتدئين:
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/Intro-banner.png)
-[Introduction to Scratch: sprites, scripts, and loops](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"}<br/>
-In this introduction for beginners, you will learn how to add code, costumes, and sounds to sprites as you make animations, a game, apps, and a story.
+[مقدمة الى Scratch: الكائنات والنصوص و التكرار](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"}<br/>
+في هذه المقدمة للمبتدئين، ستتعلم كيفية اضافة التعليمات البرمجية والازياء والاصوات الى الكائنات اثناء انشاء رسوم متحركة والالعاب والتطبيقات والقصة.
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
-![](images/LAY-banner.png)
-[Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself){:target="_blank"}<br/>
-Learn how to look after yourself and others with Scratch projects to make you laugh, relax, control, create, exercise, and focus.
+! [] (images / LAY-banner.png)
+[اعتني بنفسك] (https://projects.raspberrypi.org/en/pathways/look-after-yourself){:target="_blank"}<br/>
+تعلم كيف تعتني بنفسك وبالآخرين بمشاريع Scratch لتجعلك تضحك وتسترخي وتتحكم وتبدع وتتدرب وتركز.
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
-![](images/scratch.png)
-[Scratch module 1](https://projects.raspberrypi.org/en/pathways/scratch-module-1){:target="_blank"}
-</div>
-
-<br clear="both"/>
-
-### Beyond the basics Scratch projects
-
-If you already know about sprites, costumes, backdrops, and loops then try these projects:
-
-<div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
-![](images/more-banner.png)
-[More Scratch: broadcast, decisions, and variables](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank"}<br/>
-More Scratch moves beyond the basics introduced in Introduction to Scratch. You will make apps, games, and simulations using message broadcasting, if..then and if..then..else decisions, and variables.
-</div>
-
-<div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
-![](images/scratch.png)
-[Scratch module 2](https://projects.raspberrypi.org/en/pathways/scratch-module-2){:target="_blank"}<br/>
+! [] (images / scratch.png)
+[Scratch المستوى 1] (https://projects.raspberrypi.org/en/pathways/scratch-module-1){:target="_blank"}
 </div>
 
 <br clear="both"/>
 
-### Advanced Scratch projects
+### ما وراء أساسيات مشاريع Scratch
 
-If you want to learn about lists, clones, and creating your own blocks, then try these projects:
+إذا كنت تعرف بالفعل عن الكائنات والأزياء والخلفيات والحلقات، فجرب هذه المشاريع:
+
+<div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
+! [] (images / more-banner.png)
+[المزيد من Scratch: البث والقرارات والمتغيرات](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank"}<br/>
+يتخطى المزيد من Scratch الأساسيات التي تم تقديمها في مقدمة إلى Scratch. ستقوم بعمل تطبيقات وألعاب ومحاكاة باستخدام بث الرسائل ، إذا.. ثم إذا.. ثم.. قرارات أخرى ، والمتغيرات.
+</div>
+
+<div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
+![](images/scratch.png)
+[Scratch المستوى 2](https://projects.raspberrypi.org/en/pathways/scratch-module-2){:target="_blank"}<br/>
+</div>
+
+<br clear="both"/>
+
+### مشاريع Scratch متقدمة
+
+إذا كنت تريد التعرف على القوائم، والنسخ، وإنشاء الكتل الخاصة بك، فجرّب هذه المشاريع:
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/more-banner.png)
-[Further Scratch: clones, my blocks, and boolean logic](https://projects.raspberrypi.org/en/pathways/further-scratch){:target="_blank"}<br/>
-Further Scratch moves beyond the skills introduced in Introduction to Scratch and More Scratch. You will make apps, games, computer-generated art, and simulations using boolean logic, functions, clones, and more.
+[Scratch أكثر: النسخ, كتلي البرمجية, والمنطق الثنائي](https://projects.raspberrypi.org/en/pathways/further-scratch){:target="_blank"}<br/> Scratch أكثر يتخطى المهارات المقدمة في مسار مقدمة الى Scratch ومسار المزيد من Scratch. ستنشئ تطبيقات وألعاب وفنون تم إنشاؤه بواسطة الكمبيوتر وعمليات محاكاة باستخدام المنطق الثنائي والدوال والاستنساخ والمزيد.
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![desc](images/POP-banner.png)
-[Protect our planet](https://projects.raspberrypi.org/en/pathways/protect-our-planet){:target="_blank"}<br/>
-Use Scratch to learn about our planet and how to protect the environment for future generations.
+[جماية كوكبنا](https://projects.raspberrypi.org/en/pathways/protect-our-planet){:target="_blank"}<br/>
+استخدم Scratch للتعرف على كوكبنا وكيفية حماية البيئة للاجيال القادمة.
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/cd-scratch.png)
-[Scratch for social enterprise](https://projects.raspberrypi.org/en/coderdojo/scratch-for-social-enterprise){:target="_blank"}<br/>
+[Scratch للمؤسسات المجتمعية](https://projects.raspberrypi.org/en/coderdojo/scratch-for-social-enterprise){:target="_blank"}<br/>
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/scratch.png)
-[Scratch module 3](https://projects.raspberrypi.org/en/pathways/scratch-module-3){:target="_blank"}<br/>
+[Scratch المستوى ٣](https://projects.raspberrypi.org/en/pathways/scratch-module-3){:target="_blank"}<br/>
 </div>
 
 <br clear="both"/>
 
-### Scratch GPIO hardware projects for the Raspberry Pi
+### Scratch مع أجهزة GPIO الخاصة بـ Raspberry Pi
 
-If you have a Raspberry Pi computer, then you can also try these projects. You will need additional electronic components.
+إذا كان لديك جهاز كمبيوتر Raspberry Pi ، فيمكنك أيضًا تجربة هذه المشاريع. سوف تحتاج إلى مكونات إلكترونية إضافية.
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;"><br/>
 ![](images/physical-computing-text.png)
-[Physical computing with Scratch path](https://projects.raspberrypi.org/en/pathways/physical-computing-with-scratch-and-the-raspberry-pi){:target="_blank"}
+[الحوسبة المادية في مسار Scratch](https://projects.raspberrypi.org/en/pathways/physical-computing-with-scratch-and-the-raspberry-pi){:target="_blank"}
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;"><br/>
 ![](images/physical-computing-text.png)
-[Physical computing with Scratch additional projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&hardware%5B%5D=raspberry-pi){:target="_blank"}
+[ الحوسبة المادية من خلال مشاريع اضافية في Scratch](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&hardware%5B%5D=raspberry-pi){:target="_blank"}
 </div>
 
 <br clear="both"/>
 
-Did you enjoy the Scratch guide? Have you spotted an issue? Please click the **Send feedback** button below and let us know!
+هل استمتعت بدليل Scratch؟ هل لاحظت مشكلة؟ الرجاء النقر فوق الزر **إرسال ملاحظات** أدناه وإخبارنا بذلك!
