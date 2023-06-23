@@ -28,13 +28,13 @@ A bloco `tecla pressionada`bloco{:class="block3sensing"} tem opções para núme
 <key (space v) pressed?>
 ```
 
-The `mouse down`{:class="block3sensing"} block detects whether the mouse is currently pressed, or the screen is being tapped or touched on a touchscreen:
+O bloco `mouse pressionado`{:class="block3sensing"} detecta se o mouse está sendo pressionado no momento ou se a tela está sendo tocada em uma tela sensível ao toque:
 
 ```blocks3
 <mouse down?>
 ```
 
-The `ask`{:class="block3sensing"} and `answer`{:class="block3sensing"} blocks are used to get text input from the user:
+Os blocos `pergunte e espere`{:class="block3sensing"} e `resposta`{:class="block3sensing"} são usados para obter texto do usuário:
 
 ```blocks3
 ask [What's your name] and wait
@@ -42,13 +42,13 @@ ask [What's your name] and wait
 (answer) // the text the the user typed 
 ```
 
-The `ask`{:class="block3sensing"} block works with a keyboard or with a virtual on-screen keyboard on a tablet.
+O bloco `perguntar`{:class="block3sensing"} funciona com um teclado ou com um teclado virtual na tela de um tablet.
 
-The `answer`{:class="block3sensing"} block is a reporter block that reports a value and can be used as a variable.
+O bloco `resposta`{:class="block3sensing"} é um bloco que informa um valor e pode ser usado como uma variável.
 
 [[[scratch3-ask-answer-chat]]]
 
-The `Sensing`{:class="block3sensing"} blocks menu also contains several reporter blocks that can be used to get values:
+O menu `Sensores`{:class="block3sensing"} tem vários blocos que podem ser usados para obter ou informar valores:
 
 ```blocks3
 (distance to (mouse-pointer v))
@@ -56,7 +56,7 @@ The `Sensing`{:class="block3sensing"} blocks menu also contains several reporter
 (distance to (Sprite2 v))
 ```
 
-You can detect the current position of the mouse-pointer (or the current or most recent position of your finger on a tablet):
+Você pode detectar a posição atual do ponteiro do mouse (ou a posição atual ou mais recente do seu dedo em um tablet):
 
 ```blocks3
 (mouse x)
@@ -64,13 +64,13 @@ You can detect the current position of the mouse-pointer (or the current or most
 (mouse y)
 ```
 
-You can detect the `loudness`{:class="block3sensing"} of sound from the microphone. A pop-up window will ask the user for permission to use the microphone:
+Você pode detectar a `ruído`{:class="block3sensing"} do som do microfone. Uma janela pop-up solicitará permissão ao usuário para usar o microfone:
 
 ```blocks3
 (loudness)
 ```
 
-The `timer`{:class="block3sensing"} starts counting when the project loads, and can be set back to `0` with `reset timer`{:class="block3sensing"}:
+O bloco `cronômetro`{:class="block3sensing"} começa a contar quando o projeta começa a carregar, e pode ser redefinido para `0` com `zere o cronômetro`{:class="block3sensing"}:
 
 ```blocks3
 (timer)
@@ -78,7 +78,7 @@ The `timer`{:class="block3sensing"} starts counting when the project loads, and 
 reset timer
 ```
 
-You can also access reporters for the Stage and other sprites:
+Você também pode acessar blocos que informam para o Palco e outros atores:
 
 ```blocks3
 ([backdrop # v] of (_stage_ v))
@@ -88,7 +88,7 @@ You can also access reporters for the Stage and other sprites:
 ([costume # v] of (Sprite2 v))
 ```
 
-There are reporters related to the date and time in the real world, in your local timezone:
+Existem blocos que informam informações relacionadas à data e hora no mundo real, em seu fuso horário local:
 
 ```blocks3
 (current [year v]) // hour, minute, ...
