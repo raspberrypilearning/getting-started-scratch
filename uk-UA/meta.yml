@@ -1,51 +1,51 @@
 ---
-title: Getting started with Scratch
+title: Початок роботи в Scratch
 hero_image: images/ScratchGuide_Banner.png
-description: Learn about Scratch and develop your skills to use Scratch independently
+description: Дізнайся про Scratch та розвивай свої навички для самостійного використання Scratch
 version: 4
 listed: false
 copyedit: false
 last_tested: '2020-11-28'
 steps:
   - 
-    title: Introduction
+    title: Вступ
   - 
-    title: Set up Scratch
+    title: Налаштуй Scratch
   - 
-    title: Set up a Scratch account
+    title: Створи обліковий запис Scratch
   - 
-    title: The Scratch editor
+    title: Редактор Scratch
   - 
-    title: Your first Scratch project
+    title: Твій перший проєкт у Scratch
   - 
-    title: Motion
+    title: Рух
   - 
-    title: Looks
+    title: Вигляд
   - 
-    title: Sound
+    title: Звук
   - 
-    title: Events
+    title: Події
   - 
-    title: Control
+    title: Керування
   - 
-    title: Sensing
+    title: Датчики
   - 
-    title: Operators
+    title: Оператори
   - 
-    title: Variables
+    title: Змінні
   - 
-    title: My blocks
+    title: Мої блоки
   - 
-    title: Extensions
+    title: Розширення
   - 
-    title: Paint editor
+    title: Редактор Малювання
   - 
-    title: Sound editor
+    title: Редактор Звуку
   - 
-    title: Debug
+    title: Налагодження
   - 
-    title: Editing tips
+    title: Поради щодо редагування
   - 
-    title: Share and comment
+    title: Поділися та коментуй
   - 
-    title: Our Scratch projects
+    title: Наші проєкти Scratch
