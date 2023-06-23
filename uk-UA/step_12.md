@@ -1,10 +1,10 @@
-## Operators
+## Оператори
 
-The `Operators`{:class="block3operators"} blocks are used to compare variables and values, do calculations with numbers, and work with strings (text).
+Блоки `Оператори`{:class="block3operators"} використовуються для порівняння змінних і значень, здійснення розрахунків з числами, а також для роботи з рядками (текстом).
 
-The hexagonal 'Boolean' blocks are used as conditions, and return true or false. These blocks can be used in `Control`{:class="block3control"} blocks with a hexagonal input.
+Шестигранні блоки 'Логічний тип даних 'Bolean' використовуються як умови та повертатимуть true або false. Ці блоки можна використовувати в блоках `Керування`{:class="block3control"} з можливістю введення шестигранного блоку.
 
-Comparison operators:
+Порівняння операторів:
 
 ```blocks3
 <[] > [50]>
@@ -14,10 +14,10 @@ Comparison operators:
 <[] = [50]>
 ```
 
-**Tip:** When you use `=`{:class="block3operators"} with text you can mix upper and lower case letters, so `<`{:class="block3operators"} `YES` `=`{:class="block3operators"} `yes` `>`{:class="block3operators"} returns **true**.
+**Порада:** Коли ти використовуєш текст в блоках `=`{:class="block3operators"}, можна поєднувати великі та малі літери, тому `<`{:class="block3operators"} `ТАК` `=`{:class="block3operators"} `так` `>`{:class="block3operators"} буде **true**.
 
 
-There are maths operations:
+Також є математичні операції:
 
 ```blocks3
 ([] + [])
@@ -29,13 +29,13 @@ There are maths operations:
 ([] / [])
 ```
 
-You can choose random numbers between the smallest and largest number (including those numbers).
+Ти можеш вибирати випадкові числа від найменшого до найбільшого (включаючи ці числа).
 
 ```blocks3
 (pick random [1] to [10]) // A number from 1 to 10
 ```
 
-The `and`{:class="block3operators"}, `or`{:class="block3operators"}, and `not`{:class="block3operators"} operators can be used to combine conditions.
+Оператори `і`{:class="block3operators"}, `або`{:class="block3operators"}, та `не`{:class="block3operators"} можна використовувати для поєднання умов.
 
 ```blocks3
 <<> and <>>
@@ -45,7 +45,7 @@ The `and`{:class="block3operators"}, `or`{:class="block3operators"}, and `not`{:
 <not <> >
 ```
 
-There are blocks for working with text strings:
+Також є блоки для роботи з текстовими рядками:
 
 ```blocks3
 (join [apple ] [banana])
@@ -59,4 +59,4 @@ There are blocks for working with text strings:
 
 [[[scratch3-join-text]]]
 
-There are also more maths operators that are useful for some projects.
+Також є більше математичних операторів, які є корисними для деяких проєктів.
