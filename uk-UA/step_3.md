@@ -1,21 +1,21 @@
-## Set up a Scratch account
+## Створи обліковий запис Scratch
 
 --- task ---
 
-If you set up a Scratch account, you can save and keep all your Scratch projects online, and work on them again in the future.
+Якщо ти створиш обліковий запис Scratch, ти зможеш зберігати всі свої проєкти Scratch онлайн, а також працювати над ними в майбутньому.
 
-You can also share your projects and receive feedback, as well as comment on projects made by other people in the Scratch community.
+Також ти можеш ділитися своїми проєктами та отримувати відгуки, а також коментувати проєкти, які створили інші учасники спільноти Scratch.
 
 [[[create-scratch-account]]]
 
-If you are an educator, you can set up Teacher and Student Accounts.
+Якщо ти є викладачем, то можеш створити облікові записи Викладача та Учня.
 
 --- collapse ---
 ---
-title: Scratch Teacher Accounts
+title: Обліковий запис Вчителя в Scratch
 ---
 
-Please see the [Scratch Teacher Account FAQ](https://scratch.mit.edu/educators/faq){:target="_blank"} for information on setting up an account that gives educators additional features for managing student participation on Scratch.
+Будь ласка, подивись [Scratch Teacher Account FAQ](https://scratch.mit.edu/educators/faq){:target="_blank"}, щоб ознайомитися з інформацією про створення облікового запису, який надає вчителям додаткові можливості для управління навчальним процесом учнів у Scratch.
 
 --- /collapse ---
 
