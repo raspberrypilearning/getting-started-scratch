@@ -96,7 +96,7 @@ title: Ονόμασε και αποθήκευσε το έργο σου
 
 Έχεις γράψει το πρώτο σου πρόγραμμα στο Scratch!
 
-Τώρα είσαι έτοιμος να μάθεις Scratch. Συνιστούμε να ξεκινήσετε με τα μονοπάτια [Scratch: Ενότητα 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} ή/και [Φρόντισε τον εαυτό σου](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"}, τα οποία έχουν σχεδιαστεί για αρχάριους.
+Τώρα είσαι έτοιμος να μάθεις Scratch. We recommend that you start with our [Introduction to Scratch](https://projects.raspberrypi.org/en/raspberrypi/scratch-intro){:target="_blank"}, [Scratch: Module 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} and/or [Look after yourself](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"} paths, which are designed for beginners.
 
  Μπορείς να επιστρέψεις σε αυτόν τον οδηγό εάν χρειάζεσαι βοήθεια στη χρήση του Scratch όταν εργάζεσαι σε έργα από τα δικά μας μονοπάτια ή σε δικά σου ανεξάρτητα έργα. 
 
