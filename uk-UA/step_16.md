@@ -1,8 +1,8 @@
-## Paint editor
+## Редактор Малювання
 
-Use the Paint editor to create your own backdrops and costumes, and to edit existing backdrops and costumes.
+Використовуй редактор Малювання для створення власного тла та образів, а також для редагування вже наявних образів і тла.
 
-![An annotated screenshot of the Costumes tab.](images/Scratch-Costume-tab.png){:width="600px"}
+![Скріншот вкладки Образи.](images/Scratch-Costume-tab.png){:width="600px"}
 
 [[[scratch3-paint-a-new-backdrop-extended]]]
 
@@ -18,193 +18,193 @@ Use the Paint editor to create your own backdrops and costumes, and to edit exis
 
 --- collapse ---
 ---
-title: Duplicate and edit a costume to use in an animation
+title: Копіювання та редагування образа для використання в анімації
 ---
 
-Some Scratch sprites just have one costume, or have multiple costumes that don't work as an animation. If you choose one costume, then duplicate it (make a copy of it) and make a small change, it can create an animation effect.
+Деякі спрайти Scratch мають лише один образ або декілька образів, які не працюють як анімація. Якщо ти вибереш один образ, продублюєш його (зробиш його копію) та внесеш невеликі зміни - це може створити ефект анімації.
 
-**Robot animation**: [See inside](https://scratch.mit.edu/projects/436260207/editor){:target="_blank"}
+**Анімація робота**: [Переглянути код](https://scratch.mit.edu/projects/436260207/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/436260207/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Switch to the **Costumes** tab for your sprite.
+Перейди на вкладку **Образи** для твого спрайта.
 
-Choose the costume that you want to use, and delete the other costumes, because you will not need them for your animation. For example, the **Robot** sprite comes with costumes for three different robots, so you should choose one of the costumes and delete the other costumes.
+Вибери образ, який хочеш використати, а інші видали, тому що вони не потрібні для твоєї анімації. Наприклад, спрайт **Robot** містить образи для трьох різних роботів, тому тобі потрібно вибрати один з образів, а інші видалити.
 
-Right-click (or on a tablet, tap and hold) on the costume, and choose **duplicate**.
+Клацни правою кнопкою миші (або на планшеті торкнись і утримуй) по образу та вибери **дублювати**.
 
-Make small changes to the copy of the costume. For example, you can move, rotate, or change all or part of the costume. You can also add movement lines.
+Внеси невеликі зміни в копію образа. Наприклад, ти можеш переміщати, обертати, змінювати весь костюм або його частину. Також ти можеш додавати лінії руху.
 
-If your costume uses vector graphics, then you can select parts of a costume and change each part separately.
+Якщо у твоєму образі використовується векторна графіка, ти можеш виділяти частини костюма і змінювати кожну частину окремо.
 
-![Duplicating a robot costume, then making changes to parts of the copy of the costume.](images/edit-robot-costume.gif)
+![Дублювання образу робота, потім внесення змін до частин копії образу.](images/edit-robot-costume.gif)
 
-You can duplicate the costume again and make more changes to add more frames to your animation.
+Ти можеш продублювати костюм ще раз і внести більше змін, щоб додати більше кадрів до твоєї анімації.
 
-You can now use your costumes in a simple sprite animation.
-
---- /collapse ---
-
---- collapse ---
----
-title: Use the Fill tool to change the colours in a costume
----
-
-You can change the colour of your sprite. First, select your sprite in the Sprite list below the Stage and then click on the **Costumes** tab.
-
-Use the **Select** (Arrow) tool to highlight the part of the costume you want to change colour.
-
-![The Select (Arrow) tool.](images/challenge1-arrow-tool.png){:width="200px"}
-
-![Selecting a shape.](images/challenge1-arrow-tool-selecting-shape.png){:width="300px"}
-
-Go to the **Fill** colour chooser and select a colour. It will automatically fill the shape that you have selected.
-
-![The Fill colour chooser in the Paint editor, and the shape filled with the colour chosen.](images/challenge1-fill-tool.png){:width="300px"}
-
-Repeat the steps above for any part of the costume that you have missed, or for any other part of the costume you want to change colour.
-
-![Selecting a different part of the costume.](images/challenge1-select-another-shape.png){:width="300px"}
-
-![Different parts of the costume have been changed to different colours.](images/challenge1-change-shape-colour.png){:width="300px"}
-
-![The changed sprite on the Stage.](images/challenge1-change-costume-colour.png){:width="300px"}
-
---- /collapse ---
-
-Use the tips below to help you to create your own designs for your sprites in the Paint editor.
-
---- collapse ---
----
-title: Create scenery as sprites
----
-
-**Hill as a sprite**: [See inside](https://scratch.mit.edu/projects/452582516/editor){:target="_blank"}
-
-![A hill sprite.](images/challenge2-sprite-hill.png){:width="400px"}
-
-To make your own **Hill** sprite, shown in the example above, you can use the **Circle** and **Rectangle** tools in the Paint editor:
-
-+ Go to **Choose a Sprite** and select **Paint** to create a new sprite costume.
-
-![Selecting a Fill colour of green, deselecting the Outline, and drawing a green oval with the Circle tool, in the Paint editor.](images/challenge2-backdrop-sprite-costume.gif){:width="400px"}
-
-+ Choose a **Fill** colour. Click on **Outline** and deselect it (to do this, click on the box with the diagonal line in the bottom left-hand corner of the menu). Now, use the **Circle** tool to draw an oval. Then, select the **Rectangle** tool and draw a rectangle underneath the oval.
-
-+ If you use varying colours for the shapes, you may need to use the **Front** and **Back** tools in the Paint editor to move your shapes forward or backward so that they are positioned correctly within your background.
-
-+ You can select all the shapes and **Group** them together so that you can adjust them or move them as one shape.
-
-![The Group tool highlighted in the Paint editor.](images/challenge2-group-shapes.png){:width="400px"}
-
-Now, make other sprites for your scenery, if this fits in with your project idea.
-
-Remember to name your sprite(s).
+Тепер ти можеш використовувати свої образи в простій анімації зі спрайтів.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Use the Line tool to create a triangle
+title: Використання інструменту Заповнення для зміни кольорів у образі
 ---
 
-You can create polygons, such as a triangle, and use these shapes to create roofs or mountains.
+Ти можеш змінювати колір свого спрайта. Спочатку вибери свій спрайт у списку Спрайт під Сценою, а потім перейди на вкладку **Образи**.
 
-Go to **Choose a Sprite** and select **Paint** to create a new sprite costume. In this example, you will make houses.
+Використовуй інструмент **Обрати** (Стрілочка), щоб вибрати частину костюма, колір якої ти хочеш змінити.
 
-**House**: [See inside](https://scratch.mit.edu/projects/453595663/editor){:target="_blank"}
+![Інструмент Обрати (Стрілочка).](images/challenge1-arrow-tool.png){:width="200px"}
 
-![Drawing a rectangle with the Rectangle tool, and a triangle with the Line tool, in the Paint editor.](images/challenge2-backdrop-sprite-costumes-line-tool.gif){:width="400px"}
+![Вибір форми.](images/challenge1-arrow-tool-selecting-shape.png){:width="300px"}
 
-If you follow the instructions below, you can use the **Line** tool to create any shape:
-+ Choose a **Fill** colour. To choose the colour black, decrease the **Brightness** to zero (`0`).
+Клацни на інструмент вибору кольору **Заповнення** та вибери колір. Це автоматично заповнить обрану тобою форму.
 
-![Changing the Fill colour to black.](images/challenge2-black.png){:width="150px"}
+![Інструмент вибору кольору в редакторі Малювання, та форма, яка заповнена обраним кольором.](images/challenge1-fill-tool.png){:width="300px"}
 
-+ Select **No outline**.
+Повтори наведені вище кроки для будь-якої частини образу, яку ти пропустив, або для будь-якої іншої частини образу, колір якої ти хочеш змінити.
 
-![The 'No outline' symbol highlighted.](images/challenge2-nooutline.png){:width="200x"}
+![Вибір різної частини образа.](images/challenge1-select-another-shape.png){:width="300px"}
 
-+ Use the **Rectangle** tool to draw a rectangle.
-+ Use the **Line** tool to draw a triangle. Make sure that you complete the triangle, otherwise it will not fill with colour.
-+ Move the two shapes together.
-+ Select the **Fill** (Bucket) tool and fill the triangle with colour.
-+ Use the **Rectangle** tool to draw another rectangle for the chimney.
-+ You can use the **Front** and **Back** tools in the Paint editor to move your shapes forward or backward so that they are positioned correctly. In this example, you will not need to do this, because the shapes are black to make a silhouette.
-+ Select all the shapes and **Group** them together so that you can adjust them or move them as one shape.
+![Окремі частини образа були змінені на інші кольори.](images/challenge1-change-shape-colour.png){:width="300px"}
 
-To create duplicate shapes of your house (for example, to make a skyline), follow the tips under **Duplicate shapes to create a scenery costume** below.
+![Змінений спрайт на Сцені.](images/challenge1-change-costume-colour.png){:width="300px"}
+
+--- /collapse ---
+
+Скористайся наведеними нижче порадами, які допоможуть тобі створювати власні дизайни для своїх спрайтів у редакторі Малювання.
+
+--- collapse ---
+---
+title: Створення пейзажів за допомогою спрайтів
+---
+
+**Пагорб у вигляді спрайта**: [Переглянути код](https://scratch.mit.edu/projects/452582516/editor){:target="_blank"}
+
+![Спрайт пагорба.](images/challenge2-sprite-hill.png){:width="400px"}
+
+Щоб зробити свій власний спрайт**пагорба**, який зображений на прикладі вище, ти можеш скористатися інструментами **Коло** та **Прямокутник** у редакторі Малювання:
+
++ Клацни на кнопку **Обрати спрайт** та вибери **Малювати**, щоб створити новий образ для спрайта.
+
+![Вибір зеленого кольору Заповнення, зняття позначки з інструмента Межа та малювання зеленого овалу за допомогою інструмента Коло в редакторі Малювання.](images/challenge2-backdrop-sprite-costume.gif){:width="400px"}
+
++ Вибери колір для **Заповнення**. Клацни на **Межа** та зніми позначку (для цього необхідно натиснути на поле з діагональною лінією в лівому нижньому кутку меню). Тепер, використовуй інструмент **Коло**, щоб намалювати овал. Далі, вибери інструмент **Прямокутник** та намалюй прямокутник під овалом.
+
++ Якщо ти використовуєш різні кольори для фігур, тобі можуть знадобитися інструменти **Попереду** та **Позаду** в редакторі Малювання, щоб переміщати фігури вперед або назад так, щоб вони правильно стояли на тлі.
+
++ Ти можеш виділити всі фігури та **Групувати** їх разом, щоб можна було редагувати або переміщувати їх як одну фігуру.
+
+![Інструмент Групувати в редакторі Малювання виділено.](images/challenge2-group-shapes.png){:width="400px"}
+
+Тепер створи інші спрайти для декорації, якщо це відповідає ідеї твого проєкту.
+
+Не забувай давати назви своїм спрайтам.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Duplicate shapes to create a scenery costume
+title: Використання інструменту Лінія для створення трикутника
 ---
 
-You may want to duplicate shapes within a costume so that your scenery appears busier or more crowded.
+Ти можеш створювати багатокутники, наприклад, трикутник, і використовувати ці фігури для створення дахів або гір.
 
-**Multiple clouds**: [See inside](https://scratch.mit.edu/projects/447278432/editor){:target="_blank"}
+Клацни на кнопку **Обрати спрайт** та вибери **Малювати**, щоб створити новий образ для спрайта. В даному прикладі ти будеш робити будинки.
 
-![Multiple clouds on the Stage.](images/challenge2-sprite-costume-multiples.png){:width="400px"}
+**Будинок**: [Переглянути код](https://scratch.mit.edu/projects/453595663/editor){:target="_blank"}
 
-The effect of multiplying shapes is used by professional animators to create the impression of weather patterns, such as rain or clouds; a cluster of objects, such as buildings or a wood; or a crowd of people in a scene.
+![Створення прямокутника інструментом Прямокутник та трикутника інструментом Лінія в редакторі Малювання.](images/challenge2-backdrop-sprite-costumes-line-tool.gif){:width="400px"}
+
+Якщо ти будеш дотримуватися наведених нижче інструкцій, то зможеш за допомогою інструмента **Лінія** створити будь-яку фігуру:
++ Вибери колір для **Заповнення**. Щоб вибрати чорний колір, зменшуй значення **Яскравість** до нуля (`0`).
+
+![Зміна кольору Заповнення на чорний.](images/challenge2-black.png){:width="150px"}
+
++ Вибери **Без межі**.
+
+![Символ 'Без межі' виділено.](images/challenge2-nooutline.png){:width="200x"}
+
++ Використовуй інструмент **Прямокутник**, щоб намалювати прямокутник.
++ Використовуй інструмент **Лінія**, щоб намалювати трикутник. Переконайся, що ти повністю завершив трикутник, інакше він не заповниться кольором.
++ Перемісти обидві фігури разом.
++ Вибери інструмент **Заповнення** (Відро) та заповни трикутник кольором.
++ Використовуй інструмент **Прямокутник**, щоб намалювати ще один прямокутник для димоходу.
++ Ти можеш скористатися інструментом **Попереду** та **Позаду** в редакторі Малювання, щоб переміщати фігури вперед або назад так, щоб вони були правильно розташовані. У цьому прикладі тобі не потрібно це робити, тому що фігури замальовані чорним кольором, щоб створити ефект силуету.
++ Виділи всі фігури та натисни **Групувати**, щоб їх можна було регулювати або переміщати як одну фігуру.
+
+Щоб створити дублікати фігур будинку (наприклад, для створення лінії горизонту), дотримуйся порад у розділі **Дублювання фігур для створення пейзажу** нижче.
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Дублювання фігур для створення пейзажу
+---
+
+Можливо, ти захочеш продублювати фігури в образі, щоб твій пейзаж виглядав більш насиченим або наповненим.
+
+**Декілька хмар**: [Переглянути код](https://scratch.mit.edu/projects/447278432/editor){:target="_blank"}
+
+![Декілька хмар на Сцені.](images/challenge2-sprite-costume-multiples.png){:width="400px"}
+
+Ефект множення фігур використовується професійними аніматорами, щоб створювати ефект погодних явищ, таких як дощ або хмари; скупчення об'єктів, таких як будівлі або ліс; або натовп на сцені.
 
 --- no-print ---
 
-![Using the Select, Copy, and Paste tools to make a costume with multiple cloud shapes.](images/challenge2-sprite-costume-multiples.gif)
+![Використовуй інструменти Обрати, Копія та Вставити, щоб створити образ з декількома фігурами хмаринок.](images/challenge2-sprite-costume-multiples.gif)
 
 --- /no-print ---
 
-To multiply any type of shape:
-+ Go to **Choose a Sprite** and select, in this example, the **Cloud** sprite
-+ In the **Costumes** tab, use the **Select** tool to highlight the whole of the shape
-+ Use the **Copy** and **Paste** tools to create duplicates of the shape
-+ Use the **Select** tool to move the shape within the Paint editor
-+ You can vary the size of the shapes to help to create a greater sense of 3D effects, for example
-+ You can select all the shapes and **Group** them together, so that you can adjust them or move them as one shape
+Для розмноження фігур будь-якого типу:
++ Натисни на **Обрати спрайт** та вибери, для цього прикладу, спрайт **Cloud**
++ На вкладці **Образи**, використовуй інструмент **Обрати**, щоб виділити всі елементи фігури
++ Використовуй інструменти **Копія** та **Вставити**, щоб створити дублікати фігури
++ Використовуй інструмент**Обрати**, щоб переміщувати фігуру в межах редактора Малювання
++ Наприклад, ти можеш змінювати розмір фігур для створення 3D ефекту
++ Ти можеш вибрати всі фігури та **Групувати** їх разом, щоб можна було регулювати або переміщати їх як одну фігуру
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Use Saturation and Brightness to create depth
+title: Використання насиченості та яскравості для створення ефекту глибини
 ---
 
-In the real world, objects that are further away appear lighter in colour. To achieve more realistic 3D scenery, you can **decrease** the colour **Saturation** and/or **Brightness** of each sprite so that they appear further and further away.
+У реальному світі об'єкти, які знаходяться далі, здаються світлішими за кольором. Для досягнення більш реалістичних 3D пейзажів, ти можеш **зменшити** **Насиченість** та/або **Яскравість** кольорів кожного спрайта так, щоб здавалось, що вони віддалялися все далі й далі.
 
-!['Saturation' and 'Brightness' highlighted in the Fill colour chooser.](images/challenge2-saturation.png){:width="400px"}
+!['Насиченість' та 'Яскравість' виділені в панелі вибору кольору Заповнення.](images/challenge2-saturation.png){:width="400px"}
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Create a sprite with gaps that you can see through
+title: Створення спрайта з проміжками, через які можна бачити
 ---
 
-You can create a sprite that has gaps that you can see through. If it is positioned as the front layer and is the size of the Stage, it can appear like a view through the bars of a cage or a window.
+Ти можеш створити спрайт, який має проміжки, через які ти можеш бачити. Якщо він розташований на передньому плані та має розмір Сцени, виникає враження, що це вид крізь ґрати клітки або вікна.
 
 --- no-print ---
 
-**Caged lion**: [See inside](https://scratch.mit.edu/projects/445680159/editor){:target="_blank"}
+**Лев у клітці**: [Переглянути код](https://scratch.mit.edu/projects/445680159/editor){:target="_blank"}
 
-![A cage sprite costume.](images/challenge2-sprite-costume-mask-cage.gif)
+![Образ спрайта у вигляді ґрат.](images/challenge2-sprite-costume-mask-cage.gif)
 
 --- /no-print ---
 
-To create a type of masking sprite:
-+ Go to **Choose a Sprite** and select **Paint**
-+ Choose a **Fill** colour with no **Outline** and draw a vertical rectangle
-+ Use the **Copy** and **Paste** tools to repeat this shape
-+ Use the **Select** tool to move the shapes around
-+ As you place your shapes, make sure that they are touching the edge of the Stage to fit in with your project idea
+Створення типу маскувального спрайта:
++ Натисни на **Обрати спрайт** та вибери **Малювати**
++ Вибери колір **Заповнення** без **Межі** та намалюй вертикальний прямокутник
++ Використовуй інструменти **Копія** та **Вставити**, щоб повторювати цю фігуру
++ Використовуй інструмент **Обрати**, щоб переміщати фігури
++ Розміщуючи фігури, переконайся, що вони торкаються краю Сцени, щоб відповідати твоїй ідеї проєкту
 
-![The Copy and Paste tools highlighted in the Paint editor.](images/challenge2-sprite-costume-mask-copy.png)
+![Інструменти Копія та Вставити виділені в редакторі Малювання.](images/challenge2-sprite-costume-mask-copy.png)
 
 --- /collapse ---
 
-**Tip:** If you find it hard to manage the sprites on your Stage, such as having a large sprite that keeps covering a much smaller one, you can click on **Hide** so that you don't see a sprite or sprites. Then, when you have finished, click on **Show** again.
+**Порада:** Якщо тобі важко керувати спрайтами на сцені, наприклад, коли великий спрайт закриває собою менший, ти можеш натиснути на **Приховати**, щоб не бачити спрайт або декілька спрайтів. Далі, коли ти завершиш, натисни на **Показати** ще раз.
 
-![The 'Show' and 'Hide' icons highlighted in the Sprite pane.](images/hideSprites.png){:width="300px"}
+![Іконки 'Показати' та 'Приховати' виділені на панелі Спрайт.](images/hideSprites.png){:width="300px"}
