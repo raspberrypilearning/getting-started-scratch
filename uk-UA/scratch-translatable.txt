@@ -1,83 +1,83 @@
-Click on 90 and drag the arrow to change
+Клацни на 90 і перетягни стрілку, щоб змінити значення
 
-or all-around or none
+або навколо, або ніяк
 
-hide speech after 2 seconds
+приховати мову через 2 секунди
 
-run blocks when the green flag above the Stage is clicked
+запускає блоки коли натискається зелений прапорець над Сценою
 
-run the blocks when the sprite for this script is clicked
+запускає блоки при натисканні на спрайт для цього скрипту
 
-run the blocks when the stage is clicked
+запускає блоки при натисканні на сцену
 
-change to number, letter or arrow keys
+змінюй на цифрові, літерні або клавіші зі стрілками
 
-run blocks when the microphone detects sound
+запускає блоки коли мікрофон виявляє звук
 
-run blocks when the timer reaches 10 seconds
+запускає блоки коли таймер досягне 10 секунд
 
-delay for 1 second
+затримка на 1 секунду
 
-delay for one tenth of a second
+затримка на одну десяту долю секунди
 
-run the blocks inside four time
+запускає блоки всередині чотири рази
 
-run the blocks inside until stopped
+запускає блоки всередині поки не зупиниться
 
-stop all scripts in all sprites
+зупиняє всі скрипти в усіх спрайтах
 
-delay until the condition is true
+робить затримку до тих пір, поки не виконається умова
 
-repeat the blocks inside until the condtion is true
+повторює блоки всередині до тих пір, поки умова не виконається
 
-clones the sprite that runs this block
+клонує спрайт, який запускає цей блок
 
-clones another sprite in the project
+клонує інший спрайт у проєкті
 
-the script that runs when the clone is created
+скрипт, який виконується при створенні клону
 
-stops the clone's scripts and deletes it
+зупиняє скрипти клону та видаляє його
 
-What's your name
+Як тебе звати
 
-the text the the user typed
+текст, який набрав користувач
 
-hour, minute, ...
+година, хвилина, ...
 
-A number from 1 to 10
+Число від 1 до 10
 
-talk
+розмови
 
-use the provided input
+використовує надані вхідні дані
 
-words
+слова
 
-hello
+привіт
 
-hi
+привіт
 
-transparent
+прозорість
 
-speed
+швидкість
 
-angle
+кут
 
-delay
+затримка
 
-beat
+ритм
 
-move right
+рухатися праворуч
 
-move left
+рухатися ліворуч
 
-right_1
+праворуч_1
 
-right_2
+праворуч_2
 
-right_3
+праворуч_3
 
-left_1
+ліворуч_1
 
-left_2
+ліворуч_2
 
-left_3
+ліворуч_3
