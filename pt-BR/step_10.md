@@ -94,7 +94,7 @@ Há um número máximo de clones que um ator pode; até o momento em que este te
 
 --- collapse ---
 ---
-título: Clones de clones
+title: Clones de clones
 ---
 
 **Clones**: [Ver interior](https://scratch.mit.edu/projects/567544298/editor){:target="_blank"}
