@@ -2,9 +2,9 @@
 
 Les blocs de la catégorie `Capteurs`{:class="block3sensing"} sont utilisés pour obtenir la saisie de texte de vos utilisateurs, détecter les conditions et propager les valeurs de votre projet.
 
-Il existe plusieurs blocs `Capteurs`{:class="block3sensing"} hexagonaux que vous pouvez imbriquer dans des blocs `Contrôle`{:class="block3control"} pour prendre des décisions et contrôler l'exécution des blocs.
+Il existe plusieurs blocs `Capteurs`{:class="block3sensing"} hexagonaux que tu peux imbriquer dans des blocs `Contrôle`{:class="block3control"} pour prendre des décisions et contrôler l'exécution des blocs.
 
-Le bloc `touche`{:class="block3sensing"} a des options pour détecter si le sprite qui possède le script touche le pointeur de la souris (où vous avez touché la dernière fois le doigt sur une tablette), le bord de la scène ou un autre sprite :
+Le bloc `touche`{:class="block3sensing"} a des options pour détecter si le sprite qui possède le script touche le pointeur de la souris (où tu as touché la dernière fois le doigt sur une tablette), le bord de la scène ou un autre sprite :
 
 ```blocks3
 <touching (mouse-pointer v) ?>
