@@ -1,10 +1,10 @@
-## My blocks
+## كتلي (التعليمات البرمجية الخاصة بالمستخدم)
 
-`My blocks`{:class="block3myblocks"} allow you to create new blocks for a sprite. You give the block a name and then `define`{:class="block3myblocks"} what the new block does using other Scratch blocks. You can use your new block in any script on the sprite that owns the block.
+`لبناتي`{: class = "block3myblocks"} تسمح لك بإنشاء كتل جديدة للكائن. تقوم بتسمية الكتلة البرمجية ثم `تحدد`{: class = "block3myblocks"} ما تفعله الكتلة البرمجية الجديدة باستخدام كتل Scratch الأخرى. يمكنك استخدام الكتلة البرمجية الجديدة في أي جزء من المشروع على الكائن الذي يمتلك كتلة من لبناتي.
 
-This example defines a `talk`{:class="block3myblocks"} block that makes a sprite change costume:
+يعرّف هذا المثال كتلة برمجية من لبناتي `talk`{: class = "block3myblocks"} و التي تعمل على تغيير المظهر الخارجي للكائن:
 
-**Penguin chirps**: [See inside](https://scratch.mit.edu/projects/567554899/editor){:target="_blank"}
+**تغريد البطريق**: [انظر من الداخل](https://scratch.mit.edu/projects/567554899/editor){: target = "_ blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/567554899/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -25,15 +25,15 @@ when [space v] key pressed
 talk
 ```
 
-You can use `My blocks`{:class="block3myblocks"} to **organise** your code. It's simpler to group together all the blocks that make a sprite talk and then just use one `talk`{:class="block3myblocks"} block when you want your sprite to talk.
+يمكنك استخدام `My Blocks`{: class = "block3myblocks"} لتنظيم **** الشفرة البرمجية لمشروعك. من الأسهل تجميع كل الكتل البرمجية التي تجعل كائنًا يتحدث ثم استخدم كتلة واحدة `talk`{: class = "block3myblocks"} عندما تريد أن يتحدث الكائن.
 
-If you decide that you want to change the way your sprite talks then you only have to change the code in one place.
+إذا قررت أنك تريد تغيير الطريقة التي يتحدث بها الكائن ، فعليك تغيير الشفرة البرمجية في مكان واحد فقط.
 
-### My blocks with inputs
+### لبناتي مع المدخلات
 
-You can also add **inputs** to `My blocks`{:class="block3myblocks"} so that they use the values you provide when you use the block.
+يمكنك أيضًا إضافة **مدخلات ** إلى `لبناتي`{: class = "block3myblocks"} بحيث تستخدم القيم التي تقدمها لها المستخدم عند استخدام الكتلة.
 
-**Penguin talks**: [See inside](https://scratch.mit.edu/projects/567538874/editor){:target="_blank"}
+**محادثات البطريق**: [انظر من الداخل](https://scratch.mit.edu/projects/567538874/editor){: target = "_ blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/567538874/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -60,9 +60,9 @@ talk [hi]
 
 --- collapse ---
 ---
-title: Use My Blocks to organise code
+العنوان: استخدم لبناتي لتنظيم التعليمات البرمجية
 ---
-The simplest way to use `My Blocks`{:class="block3myblocks"} is to help organise your code. Here is a simple example.
+إن أبسط طريقة لاستخدام `لبناتي`{: class = "block3myblocks"} هي المساعدة في تنظيم التعليمات البرمجية الخاصة بك. اليك مثال بسيط.
 
 ```blocks3
 define move right
@@ -96,4 +96,4 @@ move left
 
 --- /collapse ---
 
-`My blocks`{:class="block3myblocks"} are similar to 'procedures', 'functions' or 'methods' in other programming languages.
+`لبناتي`{: class = "block3myblocks"} تشبه "الإجراءات" أو "الوظائف" أو "الدوال" في لغات البرمجة الأخرى.
