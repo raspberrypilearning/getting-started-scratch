@@ -1,82 +1,82 @@
-## Debug
+## التصحيح
 
-**Debugging** is finding and fixing mistakes in your code that are called **bugs**.
+**التصحيح** هو البحث عن الأخطاء وإصلاحها في شفرة برمجية الخاصة بك والتي تسمى **bugs**.
 
-* It's easier to identify issues if you make one change at a time, and then run your program
+* من الأسهل تحديد المشكلات إذا قمت بإجراء تغيير واحد في كل مرة ، ثم قمت بتشغيل برنامجك
 
-* It might take a few experiments for your project to work in the way that you planned
+* قد يستغرق الأمر بعض التجارب حتى يعمل مشروعك بالطريقة التي خططت لها
 
-Here are some tips that can help you to debug a project when it is not doing what you want it to do:
+فيما يلي بعض النصائح التي يمكن أن تساعدك في تصحيح أخطاء مشروع عندما لا يقوم بما تريده أن يفعله:
 
 --- collapse ---
 ---
-title: Run smaller pieces of code
+title: تشغيل أجزاء أصغر من شفرة برمجية
 ---
 
-You do not have to run a whole program to check whether the last few new blocks that you have added work.
+لا يتعين عليك تشغيل برنامج كامل للتحقق مما إذا كانت مجموعة القليلة الأخيرة التي أضفتها تعمل أم لا.
 
-* Click on a block in the Code area to run it — it is a quick way to check that a block is working as you expect it to
+* انقر فوق مجموعة في منطقة شفرة برمجية لتشغيلها - إنها طريقة سريعة للتحقق من أن مجموعة تعمل بالشكل الذي تتوقعه
 
-* To test a set of blocks on their own, drag them away from their **containing** script, click on them to test them, then drag them back to the main script
+* اختبر مجموعة بمفردها، اسحبها بعيدًا عن النص **الذي يحتويها** ، وانقر عليها لاختبارها، ثم اسحبها مرة أخرى إلى النص الرئيسي
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Add temporary delays
+title: أضف تأخيرات مؤقتة
 ---
 
-Slow down the **execution** of your code when it is run. To do this, add a `wait`{:class="block3control"} or `wait until key pressed`{:class="block3control"} block, then remove the block when you have finished debugging your code.
+إبطاء **تنفيذ** التعليمات البرمجية الخاصة بك عند تشغيلها. للقيام بذلك ، أضف كتلة `انتظر`{: class = "block3control"} أو كتلة `عند ضغط مفتاح`{:class="block3control"}، ثم قم بإزالة الكتلة عند الانتهاء من تصحيح التعليمات البرمجية الخاصة بك.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Show variables on the Stage
+title: إظهار المتغيرات على المنصة
 ---
 
-If your project uses `variables`{:class="block3variables"} to store data, then it can be helpful to show those `variables`{:class="block3variables"} on the Stage.
+إذا كان مشروعك يستخدم ` متغيرات ` {: class = "block3variables"} لتخزين البيانات ، فقد يكون من المفيد إظهار هذه `متغيرات ` {: class = "block3variables"} على المسرح.
 
-Click on the checkbox next to a `variable`{:class="block3variables"} in the `Variables`{:class="block3variables"} blocks menu to show or hide it on the Stage.
+انقر فوق مربع الاختيار بجوار `متغير`{:class="block3variables"} في مجموعة الكتل `متغيرات`{:class="block3variables"} لإظهارها أو إخفائها على المنصة.
 
-Does the variable always have the value that you expect?
+هل المتغير دائما لديه القيمة التي تتوقعها؟
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Add comments
+title: أضف تعليقات
 ---
 
-Add comments to blocks, sets of blocks, and/or scripts. Use everyday language to explain what the code does. Sometimes, this will make you realise that your code does not actually do what you want it to do!
+أضف تعليقات إلى الكتل، مجموعة الكتل و / أو النصوص البرمجية. استخدم اللغة اليومية لشرح ما يفعله شفرة برمجية. في بعض الأحيان ، سيجعلك هذا تدرك أن شفرتك برمجية لا تفعل ما تريده أن تفعله بالفعل!
 
-Comments are useful for when you want to understand your code later, and they help other people to understand your projects.
+التعليقات مفيدة عندما تريد فهم شفرة برمجية الخاص بك لاحقًا ، وتساعد الآخرين على فهم مشاريعك.
 
 --- /collapse ---
 
 
-There are common problems that lots of beginners (and experts!) experience in Scratch.
+هناك مشاكل شائعة يواجهها الكثير من المبتدئين (والخبراء!) في سكراتش.
 
 --- collapse ---
 ---
-title: Debugging tips for specific problems
+title: نصائح تتبع الخطأ لمشاكل محددة
 ---
 
-+ **My sprite is going upside down** — Add a `set rotation style left-right`{:class="block3motion"} or `set rotation style don't rotate`{:class="block3motion"} block.
++ **ينقلب الكائن الخاص بي رأسًا على عقب** - أضف كتلة `اجعل نمط الدوران يمين-يسار`{:class="block3motion"} أو كتلة `اجعل نمط الدوران لادوران`{:class="block3motion"}.
 
-+ **My sprite 'jumps' when it changes costume or bounces** — Make sure that the costume is centred in the Paint editor (line up the blue cross in the costume with the crosshair in the centre of the Paint editor).
++ **"يقفز" الكائن الخاص بي عندما يغير الزي أو يرتد** - تأكد من أن الزي يتم توسيطه في محرر الرسام (قم بمحاذاة التقاطع الأزرق في الزي مع علامة التقاطع في وسط محرر الرسام).
 
-+ **My sprite stops when it gets to the edge of the Stage** — Add an `if on edge, bounce`{:class="block3motion"} block.
++ **يتوقف الكائن الخاص بي عندما يصل إلى حافة المنصة** - أضف كتلة `ارتد اذا كنت عند الحافة`{:class="block3motion"}.
 
-+ **My sound does not play** — Have you added a block to `play sound`{:class="block3sound"} when the sprite is clicked? If you have copied code from another sprite, you will need to add the sound to this sprite in the **Sounds** tab. Check the volume on your computer or tablet, and make sure that you have not lowered the volume with code — try `set volume to`{:class="block3sound"} `100`.
++ **صوتي لا يعمل** - هل أضفت كتلة لـ `تشغيل الصوت`{:class="block3sound"} عند النقر على الكائن؟ إذا نسخت شفرة برمجية من كائن آخر ، فستحتاج إلى إضافة الصوت إلى هذا الكائن في علامة التبويب **الأصوات**. تحقق من مستوى الصوت على جهاز الكمبيوتر أو الجهاز اللوحي، وتأكد من أنك لم تخفض مستوى الصوت في الشفرة البرمجية خاصتك - جرب `اجعل شدة الصوت مساوية`{: "class = "block3sound} `100`.
 
-+ **Other sprites keep going in front of my sprite** — Use a `go to front layer`{:class="block3looks"} block.
++ **تستمر الكائنات الأخرى بالظهور أمام الكائن الخاص بي** - استخدم كتلة `انتقل إلى الطبقة الاولى`{:class="block3looks"}.
 
-+ **My sprite only moves/changes once** — Put your code inside a `forever`{:class="block3control"} block so that it keeps running.
++ **يتحرك/يتغير الكائن الخاص بي مرة واحدة فقط** — ضع الشفرة البرمجية الخاصة بك داخل كتلة `كرر باستمرار`{:class="block3control"} حتى يستمر العمل.
 
-+ **My sprite does not change when I move a variable slider** — Put your code inside a `forever`{:class="block3control"} block so that it keeps updating.
++ **لا يتغير الكائن الخاص بي عندما أقوم بتحريك منزلق المتغير** — ضع الشفرة البرمجية الخاص بك داخل كتلة `كرر باستمرار`{:class="block3control"} بحيث يستمر في التحديث.
 
 --- /collapse ---
 
-**Tip:** If you cannot find the problem after you have tried these techniques, then take a break or work on a different part of your project. When you come back, you might find the bug straight away!
+**نصيحة:** إذا لم تتمكن من العثور على المشكلة بعد أن جربت هذه الأساليب ، فخذ قسطًا من الراحة أو اعمل على جزء مختلف من مشروعك. عندما تعود ، قد تجد الخطأ على الفور!
 
