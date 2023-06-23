@@ -1,62 +1,62 @@
-## Editing tips
-It's useful to learn how to copy and delete code blocks, and duplicate sprites.
+## Поради щодо редагування
+Корисно навчитися копіювати та видаляти блоки коду, та дублювати спрайти.
 
-**Tip:** You can use <kbd>Ctrl-z</kbd> (hold down the Ctrl key and tap 'z') to undo lots of actions in Scratch. If you accidentally delete a Sprite or other item, you can use **Restore** from the **Edit** menu to get it back.
+**Порада:** Ти можеш використовувати <kbd>Ctrl-z</kbd> (утримуй клавішу Ctrl та натисни клавішу Z), щоб скасувати дії у Scratch. Якщо ти випадково видалив спрайт або інший елемент, ти можеш скористатися кнопкою **Скасувати** з меню **Редагування**, щоб повернути його назад.
 
-You can delete code blocks you don't need any more:
+Ти можеш видаляти блоки коду, які тобі більше не потрібні:
 
 [[[scratch-delete]]]
 
-Duplicating or copying code can save you time when making a project.
+Дублювання або копіювання коду може заощадити твій час при розробці проєкту.
 
 --- collapse ---
 ---
-title: Duplicate blocks
+title: Дублювання блоків
 ---
 
-Duplicate blocks or sets of blocks to reuse in a sprite's program:
+Дублюй блоки або набори блоків для повторного використання у програмі спрайта:
 
-* Go to the **Code** tab.
-* Right-click (or on a tablet, tap and hold) on the first block that you want to copy. It will select all the blocks below it too.
-* Select **Duplicate** in the drop-down menu. ![Selecting 'Duplicate' in the menu.](images/scratchguide-duplicate.png){:width="300px"}
-* Drag the duplicated code where you want it to go. ![Moving the duplicated code.](images/scratchguide-drag.png){:width="300px"}
-* Delete any blocks that you do not need.
+* Перейди до вкладки **Код**.
+* Клацни правою кнопкою миші (або на планшеті торкнись і утримуй) по першому блоку, який потрібно скопіювати. Це також виділить всі блоки, що знаходяться під цим блоком.
+* У спливаючому меню вибери **Дублювати**. ![Selecting 'Duplicate' in the menu.](images/scratchguide-duplicate.png){:width="300px"}
+* Перетягни скопійований код в потрібне тобі місце. ![Moving the duplicated code.](images/scratchguide-drag.png){:width="300px"}
+* Видаляй всі блоки, які тобі більше не потрібні.
 
 --- /collapse ---
 
 [[[scratch3-duplicate-sprite]]]
 
-Create a new sprite and copy over all or some of the first sprite's code.
+Створи новий спрайт і скопіюй повністю або частково код першого спрайта.
 
 --- collapse ---
 ---
-title: Copy a sprite's code
+title: Копіювання коду спрайта
 ---
 
-In the bottom right-hand corner of the Sprite list, click on **Choose a Sprite** and select the sprite that you want to add.
+У правому нижньому куті списку спрайтів натисни на **Обрати спрайт** та вибери спрайт, який ти хочеш додати.
 
-Click on the first sprite and go to its **Code** tab. Drag the code that is in the first sprite's Code area to the image of the second sprite in the Sprite list, then let go of the code to finish copying it to the second sprite. You may have one script that starts with a `when green flag clicked`{:class="block3events"} block, as well as another script that starts with `when this sprite clicked`{:class="block3events"}. Make sure that you copy **all** the code scripts that you have created.
+Клацни на перший спрайт та перейди на вкладку **Код**. Перетягни код, який знаходиться в Області коду першого спрайта, на зображення другого спрайта в списку Спрайт, а потім відпусти код, щоб завершити його копіювання на другий спрайт. У тебе може бути один скрипт, який запускається блоком `коли зелений прапорець натиснуто`{:class="block3events"}, а також інший скрипт, який запускається за допомогою блоку `коли спрайт натиснуто`{:class="block3events"}. Переконайся, що ти скопіював **всі** коди скриптів, які ти створив.
 
-![Copying code to another sprite.](images/challenge1-sprite-list.gif){:width="300px"}
+![Копіювання коду на інший спрайт.](images/challenge1-sprite-list.gif){:width="300px"}
 
-Your second sprite will now have exactly the same code as your first sprite. Do not run the program until you have started to change the second sprite's code — you might not see the second sprite because it might be positioned underneath the first sprite.
+Тепер твій другий спрайт буде мати такий самий код, як і твій перший спрайт. Не запускай програму, поки не почнеш змінювати код другого спрайту — ти можеш не побачити другий спрайт, тому що він може бути розташований під першим спрайтом.
 
 --- /collapse ---
 
-If you want to copy costumes, sprites, sounds, and scripts between projects, drag them into the **Backpack**.
+Якщо ти хочеш копіювати образи, спрайти, звуки та скрипти між проєктами, перетягуй їх до вкладки **Сховок**.
 
 [[[scratch-backpack]]]
 
-It's always worth spending some time making sure you have followed best practices so your project is easy to understand.
+Варто завжди приділяти час тому, щоб переконатися, що ти дотримуєшся найкращих практик та рекомендацій, щоб твій проєкт був легким для розуміння.
 
 --- collapse ---
 ---
-title: Best practices for Scratch projects
+title: Найкращі практики для проєктів Scratch
 ---
 
-- Name all sprites, costumes, sounds, variables, and messages sensibly. It’s much easier to understand projects that use helpful names.
-- Fill in the Project Page with a good title, instructions, and notes so that users know how to use your project and where you got ideas from.
-- Add short comments that explain what your code is doing.
-- Make sure your scripts are tidy in the **Code** tab. You can right-click and choose **Clean up Blocks** or arrange the scripts in a way that makes sense to you. Try and put similar scripts together.
+- Називай розсудливо всі спрайти, образи, звуки, змінні та повідомлення. Набагато легше зрозуміти проєкти, які використовують зрозумілі назви.
+- Заповни Сторінку проєкту гарним заголовком, інструкціями та примітками, щоб інші користувачі знали, як користуватися проєктом і звідки ти взяв ідеї.
+- Додай короткі коментарі, які пояснюють, що робить твій код.
+- Переконайся, що твої скрипти охайно виглядають на вкладці **Код**. Ти можеш клацнути правою кнопкою миші та вибрати **Впорядкувати блоки** або розташувати скрипти так, як тобі зручно. Спробуй поєднати схожі скрипти разом.
 
 --- /collapse ---
