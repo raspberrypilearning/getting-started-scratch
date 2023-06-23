@@ -1,10 +1,10 @@
-## Looks
+## Вигляд
 
-`Looks`{:class="block3looks"} blocks control a sprite's appearance on the Stage.
+Блоки `Вигляд`{:class="block3looks"} керують появою спрайта на Сцені.
 
-Sprites can communicate using `Looks`{:class="block3looks"}, through a `say`{:class="block3looks"} speech bubble, a `think`{:class="block3looks"} thought bubble, or through their `graphic effects`{:class="block3looks"}.
+Спрайти можуть спілкуватися між собою за допомогою блоків `Вигляд`{:class="block3looks"}, використовуючи мовну бульбашку `говорити`{:class="block3looks"}, або бульбашку думок `подумати`{:class="block3looks"}, або через їхні `графічні ефекти`{:class="block3looks"}.
 
-### Say and think
+### Говорити та подумати
 
 ```blocks3
 say () for () seconds
@@ -18,35 +18,35 @@ think ()
 
 --- collapse ---
 ---
-title: Use a speech bubble to communicate
+title: Використання мовної бульбашки для спілкування
 ---
 
-Sprites can `say`{:class="block3looks"} and `think`{:class="block3looks"} to communicate.
+Щоб спілкуватися, спрайти можуть `говорити`{:class="block3looks"} та `подумати`{:class="block3looks"}.
 
-The `say () for () seconds`{:class="block3looks"} and `think () for () seconds`{:class="block3looks"} blocks are used to say or think something for a set amount of time.
+Блоки `говорити () () сек`{:class="block3looks"} та `подумати () () сек`{:class="block3looks"} використовуються для того, щоб сказати або подумати щось протягом певного часу.
 
 ```blocks3
 when this sprite clicked
 say [Hello!] for [2] seconds // hide speech after 2 seconds
 ```
 
-The sprite will show a speech bubble for two seconds when clicked.
+Якщо натиснути, спрайт покаже мовну бульбашку на дві секунди.
 
-**Space talk**: [See inside](https://scratch.mit.edu/projects/485673032/editor){:target="_blank"}
+**Космічна розмова**: [Переглянути код](https://scratch.mit.edu/projects/485673032/editor){:target="_blank"}
 
-Click on the sprites to see them communicate with speech and thought.
+Клацни по спрайтах, щоб побачити, як вони спілкуються мовою та думками.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/485673032/?autostart=false" frameborder="0"></iframe>
 </div>
 
-The `say ()`{:class="block3looks"} and `think ()`{:class="block3looks"} blocks are used to say or think something, until another message or an empty `say ()`{:class="block3looks"} or `think ()`{:class="block3looks"} block replaces it.
+Блоки `говорити ()`{:class="block3looks"} та `подумати ()`{:class="block3looks"} використовуються для того, щоб щось говорити або думати, поки не з'явиться інше повідомлення або порожній блок, який замінить`говорити ()`{:class="block3looks"} або `подумати ()`{:class="block3looks"}.
 
 --- /collapse ---
 
-### Size
+### Розмір
 
-Set or change the `size`{:class="block3looks"} of your sprites.
+Встанови або зміни `розмір`{:class="block3looks"} твоїх спрайтів.
 
 ```blocks3
 change size by ()
@@ -58,35 +58,35 @@ set size to () %
 
 --- collapse ---
 ---
-title: Set the size of your sprite
+title: Встанови розмір спрайта
 ---
 
-When you add a sprite to your project, its size is set to `100` percent. This may be too big or too small for your project.
+Коли ти додаєш спрайт до проєкту, його розмір встановлено на `100` відсотків. Це може бути занадто великим або занадто малим для твого проєкту.
 
-You can use code to set the size of a sprite. To do this, use a `set size to`{:class="block3looks"} block:
+Ти можеш задати розмір спрайта за допомогою коду. Для цього використовуй блок `задати розмір`{:class="block3looks"}:
 
 ```blocks3
 set size to (50) %
 ```
 
-If you set the size of a sprite to `50` percent, it will be half as tall and half as wide. If you set the size of a sprite to `200` percent, it will be twice as tall and twice as wide.
+Якщо ти встановиш розмір спрайта на `50` відсотків, то він буде вдвічі меншим у висоту і вдвічі меншим у ширину. Якщо ти встановиш розмір спрайта на `200` відсотків, то він буде вдвічі вищим і вдвічі ширшим.
 
-To set the size of a sprite when the project is started, place a `set size to`{:class="block3looks"} block under a `when green flag clicked`{:class="block3events"} block:
+Щоб задати розмір спрайта при запуску проєкту, додай блок `задати розмір`{:class="block3looks"} під блоком `коли зелений прапорець натиснуто`{:class="block3events"}:
 
 ```blocks3
 when green flag clicked
 set size to (50) %
 ```
 
-You can also quickly set the size of a sprite in the **Size** property in the Sprite pane below the Stage:
+Також ти можеш швидко встановити розмір спрайта у параметрі **Розмір** на панелі Спрайт, який знаходиться під Сценою:
 
-![The Size box highlighted in the Sprite pane.](images/spriteSize.png){:width="400px"}
+![Поле параметру Розмір на панелі Спрайт виділено.](images/spriteSize.png){:width="400px"}
 
 --- /collapse ---
 
-### Graphic effects
+### Графічні ефекти
 
-Set or change a range of visual effects, such as colour, fisheye, whirl, pixelate, mosaic, brightness and ghost.
+Встановлення або зміна різних візуальних ефектів, таких як колір, роздуття, закручування, пікселями, мозаїка, яскравість та привид.
 
 ```blocks3
 change [color v] effect by ()
@@ -98,9 +98,9 @@ clear graphic effects
 
 [[[scratch3-graphic-effects]]]
 
-### Costumes
+### Образи
 
-To create an animation effect with your sprites, you can change their costumes.
+Щоб створити ефект анімації зі своїми спрайтами, ти можеш змінювати їх образи.
 
 ```blocks3
 switch costume to ( v)
@@ -114,18 +114,18 @@ next costume
 
 --- collapse ---
 ---
-title: Change looks to create an animation effect
+title: Створення анімації за допомогою зміни вигляду
 ---
 
-**Beating heart**: [See inside](https://scratch.mit.edu/projects/435725413/editor){:target="_blank"}
+**Серцебиття**: [Переглянути код](https://scratch.mit.edu/projects/435725413/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435725413/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can use the `set size to`{:class="block3looks"} or `change size by`{:class="block3looks"} blocks to create a pulsing effect, such as a beating heart.
+Ти можеш використовувати блоки `задати розмір`{:class="block3looks"} або `змінити розмір на`{:class="block3looks"}, щоб створити ефект, що пульсує, наприклад серцебиття.
 
-**Note:** The `set size to`{:class="block3looks"} block sets the size to a specific value, while the `change size by`{:class="block3looks"} block changes the value from what it was before, e.g. `change size by`{:class="block3looks"} `10` adds 10 to the value of the size.
+**Порада:** Блок `задати розмір`{:class="block3looks"} встановлює розмір на певне значення, тоді як блок `змінити розмір на`{:class="block3looks"} змінює значення в порівнянні з тим, яке було раніше, наприклад `змінити розмір на`{:class="block3looks"} `10` збільшує значення розміру на 10.
 
 ```blocks3
 when green flag clicked
@@ -142,9 +142,9 @@ wait (0.2) seconds
 end
 ```
 
-This code uses a series of `change size by`{:class="block3looks"} and `wait`{:class="block3control"} blocks to make the heart grow and shrink. Try to create your own pulsing sprite.
+Цей код використовує ряд блоків `змінити розмір на`{:class="block3looks"} та `чекати`{:class="block3control"}, щоб змусити серце збільшуватися і зменшуватися. Спробуй створити свій власний спрайт, який пульсує.
 
-You could also use the `change graphic effect by`{:class="block3looks"} block to create a sprite that continues to change its appearance.
+Ти також можеш використовувати блок `змінити графічний ефект на`{:class="block3looks"}, щоб створити спрайт, який буде продовжувати змінювати свій зовнішній вигляд.
 
 ```blocks3
 when green flag clicked
@@ -153,9 +153,9 @@ wait (1) seconds
 change [ghost v] effect by (-75)
 ```
 
-**Note:** If you use code that changes a graphic effect and then changes it back again, remember to use a `wait`{:class="block3control"} block in between the `change graphic effect by`{:class="block3looks"} blocks, otherwise, it will happen so fast that you won't see it!
+**Порада:** Якщо ти використовуєш код, який спочатку змінює графічний ефект, а потім повертає його назад, не забудь використати блок `чекати`{:class="block3control"} між блоками `змінити графічний ефект на`{:class="block3looks"}, інакше це станеться так швидко, що ти й не помітиш!
 
-You can use a `clear graphic effects`{:class="block3looks"} block at any time to reset the effects:
+Ти можеш використати в будь-який момент блок `очистити графічні ефекти`{:class="block3looks"}, щоб скасувати дію ефектів:
 
 ```blocks3
 clear graphic effects
@@ -165,18 +165,18 @@ clear graphic effects
 
 --- collapse ---
 ---
-title: Click to change and then change back
+title: Клацни, щоб змінити, а потім повернути назад
 ---
 
-You can add actions that make a change to a sprite and then reverse them, such as growing, waiting, and then shrinking.
+Ти можеш додавати дії, які змінюють спрайт, а потім поверти все назад, наприклад, роздутись, чекати, а потім стиснутись.
 
-**Squash ball when clicked**: [See inside](https://scratch.mit.edu/projects/435723273/editor){:target="_blank"}
+**Роздуття м'яча при натисканні**: [Переглянути код](https://scratch.mit.edu/projects/435723273/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/435723273/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 </div>
 
-This code will grow a sprite, apply the `fisheye`{:class="block3looks"} effect for 0.5 seconds, and then return the sprite to its starting appearance:
+Цей код буде роздувати спрайт - застосуй ефект `роздуття `{:class="block3looks"} на 0,5 секунд, а потім поверни спрайт до початкового вигляду:
 
 ```blocks3
 when this sprite clicked
@@ -191,9 +191,9 @@ set size to (100)
 
 [[[scratch3-animate-movement-costumes]]]
 
-### Backdrops
+### Тло
 
-You can use code to change the backdrop too.
+Також можна використовувати код, щоб змінити тло.
 
 ```blocks3
 switch backdrop to ( v)
@@ -205,9 +205,9 @@ next backdrop
 
 [[[scratch3-changing-backdrops-pages-levels]]]
 
-### Visibility
+### Видимість
 
-The `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks control the visibility of a sprite.
+Блоки `показати`{:class="block3looks"} та `сховати`{:class="block3looks"} керують видимість спрайта.
 
 ```blocks3
 show 
@@ -217,9 +217,9 @@ hide
 
 [[[scratch3-show-hide-sprites-backdrops]]]
 
-### Layers
+### Плани
 
-To change how your sprites appear in relation to each other, you can use layers.
+Щоб змінювати розташування спрайтів відносно один одного, ти можеш використовувати плани.
 
 ```blocks3
 go to [front v] layer
@@ -231,18 +231,18 @@ go [forward v] () layers
 
 --- collapse ---
 ---
-title: Position sprites in many layers
+title: Розташування спрайтів у багатьох планах
 ---
 
-**Through the window with tree**: [See inside](https://scratch.mit.edu/projects/454188775/editor){:target="_blank"}
+**Крізь вікно з деревом**: [Переглянути код](https://scratch.mit.edu/projects/454188775/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/454188775/?autostart=false" frameborder="0"></iframe>
 </div>
 
-In the example, the **Window frame** sprite appears at the front and the **Sun** sprite appears at the back. The **Avery Walking** and **Tree** sprites are each in their own layers between the **Window frame** sprite and the **Sun** sprite.
+На приклад, спрайт **Window frame** відображається спереду, а спрайт **Sun** відображається ззаду. Спрайти **Avery Walking** та **Tree** знаходяться кожен на своїх планах, між спрайтом **Window frame** та спрайтом **Sun**.
 
-Use the `go backward`{:class="block3looks"} `1` `layers`{:class="block3looks"} block to place a sprite one layer behind the sprite at the front:
+Використовуй блок `перемістити назад на`{:class="block3looks"} `1` `шар`{:class="block3looks"}, щоб перемістити спрайт на один план позаду спрайта, який знаходиться спереду:
 
 ``` blocks3
 when green flag clicked
@@ -250,7 +250,7 @@ go to [front v] layer
 +go [backward v] (1) layers
 ```
 
-Change the value in the `go backward`{:class="block3looks"} `1` `layers`{:class="block3looks"} block for each sprite, depending on where you want it to be positioned in relation to other sprites:
+Зміни значення в полі блока `перемістити назад`{:class="block3looks"} `1` `шар`{:class="block3looks"} для кожного спрайта, залежно від того, як ти хочеш його розташувати стосовно до інших спрайтів:
 
 ``` blocks3
 when green flag clicked
