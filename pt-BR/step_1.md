@@ -16,7 +16,7 @@ No final do guia você encontrará links de projetos do Scratch, do iniciante ao
 
 --- collapse ---
 ---
-título: O que você vai precisar
+title: O que você vai precisar
 ---
 ### Equipamento
 
