@@ -74,7 +74,7 @@ Répéte les étapes ci-dessus pour toute partie du costume que tu as manquée, 
 
 --- /collapse ---
 
-Utilisez les conseils ci-dessous pour vous aider à créer vos propres modèles de sprites dans l'éditeur graphique.
+Utilise les conseils ci-dessous pour t'aider à créer tes propres modèles de sprites dans l'éditeur graphique.
 
 --- collapse ---
 ---

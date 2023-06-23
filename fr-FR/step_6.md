@@ -13,9 +13,9 @@ move [10] steps
 Tu peux `aller à`{:class="block3motion"} ou `glisser en`{:class="block3motion"} le pointeur de la souris, une position aléatoire sur la scène (ou votre doigt sur une tablette), ou un autre sprite :
 
 ```blocks3
-go to (random position v)
+go to (position aléatoire v)
 
-glide [1] secs to (random position v)
+glide [1] secs to (position aléatoire v)
 ```
 
 Tu peux aussi `aller à`{:class="block3motion"} ou `glisser en`{:class="block3motion"} une position donnée par des coordonnées `x`{:class="block3motion"} et `y`{:class="block3motion"} sur la scène.
@@ -42,11 +42,11 @@ turn left [15] degrees
 
 point in direction [90] // Clique sur 90 et fais glisser la flèche pour changer
 
-point towards (mouse-pointer v)
+point towards (pointeur de souris v)
 
 (direction)
 
-set rotation style [left-right v] // ou ne tourne pas ou 360°
+set rotation style [gauche-droite v] // ou ne tourne pas ou 360°
 ```
 
 [[[scratch3-sprite-direction]]]
@@ -142,7 +142,7 @@ Ce code fait rebondir un sprite sur les bords gauche et droit de la Scène. Éta
 ```blocks3
 when green flag clicked
 point in direction (90)
-set rotation style [left-right v]
+set rotation style [gauche-droite v]
 forever
 move (5) steps
 if on edge, bounce
@@ -150,7 +150,7 @@ if on edge, bounce
 
 Dans cet exemple, le bloc `s'orienter à`{:class="block3motion"} pointe automatiquement le sprite vers la droite (`90` degrés) lorsque le drapeau vert est cliqué. Si tu changes le nombre de degrés à `-90`, ton sprite pointera vers la gauche.
 
-Ajoute un bloc `fixer le sens de rotation`{:class="block3motion"} et sélectionne `gauche-droite`{:class="block3motion"} dans le menu déroulant, afin que ton sprite ne retrouve pas tête en bas lorsqu'il rebondit sur le bord de la scène.
+Ajoute un bloc `fixer le sens de rotation`{:class="block3motion"} et sélectionne `gauche-droite`{:class="block3motion"} dans le menu déroulant, afin que ton sprite ne se retrouve pas tête en bas lorsqu'il rebondit sur le bord de la scène.
 
 **Astuce :** Tu peux faire glisser ton sprite sur la scène pour la déplacer vers la position y (haut-bas) souhaitée.
 
@@ -176,7 +176,7 @@ Ce code fait rebondir un sprite de haut en bas de la scène lorsque tu cliques s
 ```blocks3
 when green flag clicked
 point in direction (0)
-set rotation style [don't rotate v]
+set rotation style [ne tourne pas v]
 forever
 move (5) steps
 if on edge, bounce
@@ -210,7 +210,7 @@ Ce code fait apparaître un sprite qui tourne de manière aléatoire lorsque l'o
 ```blocks3
 when green flag clicked
 point in direction (45)
-set rotation style [all around v]
+set rotation style [à 360° v]
 forever
 move (5) steps
 if on edge, bounce
