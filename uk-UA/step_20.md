@@ -1,40 +1,40 @@
-## Share and comment
+## Поділися та коментуй
 
 --- task ---
 
-To let other people access your project, make your project public. You can also share your project's unique web address with other people.
+Щоб дозволити іншим людям отримати доступ до твого проєкту, зроби його публічним. Також ти можеш поділитися з іншими людьми унікальним посиланням на твій проєкт.
 
 [[[share-scratch]]]
 
 --- collapse ---
 ---
-title: More on sharing your project's web address
+title: Детальніше про поширення посилання на твій проєкт
 ---
 
-+ Your project will always start in the position that you last saved it in, so make sure that you save your project in the right starting position
-+ When you click on **See Project Page**, the web address of your project will appear in the browser bar: ![A web address.](images/from-me-webaddress.png){:width="400px"}
-+ Copy the web address and paste it into an email, or write down the web address and give it to the person who you want to share the project with
++ Твій проєкт завжди буде починатися з положення, з якого він був збережений востаннє, тому переконайся, що ти зберігаєш свій проєкт у правильній початковій позиції
++ Коли ти натиснеш на кнопку **Перегляд сторінки проєкту**, у браузері відкриється нова сторінка твоїм проєктом: ![A web address.](images/from-me-webaddress.png){:width="400px"}
++ Скопіюй посилання та вставляй в електронний лист, або запиши посилання та передай її людині, з якою хочеш поділитися проєктом
 
-**Tip:** You can access completed Scratch projects on a computer or mobile device.
+**Порада:** Ти можеш переглядати завершені проєкти Scratch на комп'ютері або смартфоні.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What to put in Instructions and Notes and Credits
+title: Що вказувати у вказівках, замітках та подяках
 ---
 
-On the Project Page, you can fill in the Instructions to explain how to use your project, and complete your project’s Notes and Credits.
+На Сторінці проєкту ти можеш заповнити Вказівки, щоб пояснити, як можна використовувати твій проєкт, а також заповнити Замітки й Замітки та подяки.
 
-In the **Instructions** box, tell people how to use your project:
-+ Include all the instructions that the user needs to explore your project fully.
-+ Make sure that your instructions are given step by step and are simple. Instructions are easier to read if you write them in a list.
-+ Include all the user interaction, such as clicking on the green flag to start, and which sprites to click on.
-+ Let the user know if the project includes sound, as they may need to wear headphones or turn the volume up on their device.
+У полі **Вказівки** розкажи людям, як користуватися твоїм проєктом:
++ Включай всі вказівки, які можуть знадобитися іншим користувачам для повного вивчення твого проєкту.
++ Переконайся, що твої вказівки надані послідовно та є зрозумілими й повростими. Вказівки легше читати, якщо записати їх у вигляді списку.
++ Включай всю інформацію про взаємодію з користувачем, наприклад, натискання на зелений прапорець для запуску та на які спрайти потрібно натискати.
++ Повідомляй користувачам про те, чи включає проєкт звук, оскільки їм може знадобитися вдягнути навушники або збільшити гучність на своєму пристрої.
 
-In the **Notes and Credits** box:
-+ Thank the people who created the projects that inspired you. You could even include the web addresses of the projects.
-+ Did you include images or sounds that were created by someone else? If so, credit the source(s) in this box.
+У полі **Замітки та подяки**:
++ Дякуй людям, які створили проєкти та надихнули тебе. Можна навіть вказати посилання на проєкти.
++ Чи були використані зображення або звуки, які створені іншими користувачами? Якщо так, зазнач джерело (ла) у цьому полі.
 
 --- /collapse ---
 
@@ -42,7 +42,7 @@ In the **Notes and Credits** box:
 
 --- task ---
 
-Give and receive feedback on projects.
+Давай та отримуй зворотний зв'язок до проєктів.
 
 [[[comments-feedback-scratch]]]
 
