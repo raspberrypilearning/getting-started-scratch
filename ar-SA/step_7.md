@@ -1,6 +1,6 @@
 ## الهيئة
 
-`Looks`{:class="block3looks"} blocks control a sprite's appearance on the Stage.
+كتل `الهيئة`{:class="block3looks"} تتحكم بشكل الكائن على المنصة.
 
 تستطيع الكائنات التخاطب باستخدام `الهيئة`{:class="block3looks"}، من خلال فقاعة الكلام `قل`{:class="block3looks"}، فقاعة التفكير `فكّر`{:class="block3looks"}، أو من خلال `المؤثرات الرسومية`{:class="block3looks"}.
 
@@ -18,21 +18,21 @@ think ()
 
 --- collapse ---
 ---
-title: Use a speech bubble to communicate
+title: استخدام فقاعة الكلام للتخاطب
 ---
 
-Sprites can `say`{:class="block3looks"} and `think`{:class="block3looks"} to communicate.
+تستطيع الكائنات أن تتحدث باسخدام `قل`{:class="block3looks"} و تفكر باستخدام `فكّر`:class="block3looks"} للتخاطب.
 
-The `say () for () seconds`{:class="block3looks"} and `think () for () seconds`{:class="block3looks"} blocks are used to say or think something for a set amount of time.
+تستخدم كتل `قل () لمدة () ثانية`{:class="block3looks"} و`فكّر () لمدة () ثانية`{:class="block3looks"} للحديث او التفكير بشيء ما لمدة محددة من الزمن.
 
 ```blocks3
 when this sprite clicked
 say [Hello!] for [2] seconds // hide speech after 2 seconds
 ```
 
-The sprite will show a speech bubble for two seconds when clicked.
+سيعرض الكائن فقاعة كلام لمدة ثانيتين عند النقر عليه.
 
-**Space talk**: [See inside](https://scratch.mit.edu/projects/485673032/editor){:target="_blank"}
+**حديث الفضاء**:[انظر في الداخل](https://scratch.mit.edu/projects/485673032/editor){:target="_blank"}
 
 انقر على الكائنات لرؤيتها تتواصل بالكلام والتفكير.
 
