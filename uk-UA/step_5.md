@@ -96,7 +96,7 @@ title: Назви та збережи свій проєкт
 
 Ти створив свій перший проєкт у Scratch!
 
-Тепер ти готовий до вивчення Scratch. Ми радимо тобі почати з наших проєктів [Scratch: Module 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} та/або [Піклуйся про себе](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"}, які розроблені для новачків.
+Тепер ти готовий до вивчення Scratch. We recommend that you start with our [Introduction to Scratch](https://projects.raspberrypi.org/en/raspberrypi/scratch-intro){:target="_blank"}, [Scratch: Module 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} and/or [Look after yourself](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"} paths, which are designed for beginners.
 
  Ти можеш повернутися до цього керівництва, якщо тобі знадобиться допомога у використанні Scratch під час роботи з нашими навчальними проєктами або над власними самостійними проєктами. 
 
