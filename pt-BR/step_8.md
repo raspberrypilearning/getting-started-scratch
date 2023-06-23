@@ -14,7 +14,7 @@ Adicione código para executar blocos de `Som`{:class="block3sound"} no lugar qu
 
 --- collapse ---
 ---
-título: Adicione um som de longa duração para criar uma trilha sonora contínua
+title: Adicione um som de longa duração para criar uma trilha sonora contínua
 ---
 
 Clique na bandeira verde para ouvir os sons.
@@ -36,7 +36,7 @@ play sound (Dance Snare Beat v) until done
 end
 ```
 
-**Note:** When you choose a new sound, if you select the **Loops** category, Scratch will only show you the sounds that are suitable for a single looping soundtrack.
+**Nota:** Ao escolher um novo som, se você selecionar a categoria **Loops**, o Scratch só mostrará os sons adequados para uma única trilha sonora repetida ao longo da execução do código.
 
 ![A categoria 'Loops' na Biblioteca de sons.](images/loopSounds.png)
 
@@ -44,7 +44,7 @@ end
 
 --- collapse ---
 ---
-título: Adicione uma sequência de sons curtos para criar uma trilha sonora contínua
+title: Adicione uma sequência de sons curtos para criar uma trilha sonora contínua
 ---
 
 Clique na bandeira verde para ouvir o som.
@@ -76,7 +76,7 @@ End
 
 --- collapse ---
 ---
-título: Adicione sons que serão reproduzidos em intervalos regulares
+title: Adicione sons que serão reproduzidos em intervalos regulares
 ---
 
 **Sons de futebol**: [Ver interior](https://scratch.mit.edu/projects/450870079/editor){: target = "_ blank"}
@@ -111,7 +111,7 @@ O ator **Apito** também toca um som em intervalos regulares:
 
 --- collapse ---
 ---
-título: Adicione sons que irão tocar ao mesmo tempo
+title: Adicionar sons que começam a tocar ao mesmo tempo
 ---
 
 Existem dois blocos de `Som`{:class="block3sound"} com uma importante diferença:
@@ -139,12 +139,12 @@ Depois de escolher seus sons, você pode alterar o `volume`{: class="block3sound
 
 --- collapse ---
 ---
-título: Volume, tom e balanço esquerda/direita
+title: Volume, tom e balanço esquerda/direita
 ---
 
 Clique na bandeira verde para ouvir o som.
 
-**Band practice**: [See inside](https://scratch.mit.edu/projects/451697380/editor){:target="_blank"}
+**Treino de banda**: [Ver interior](https://scratch.mit.edu/projects/451697380/editor){: target="_ blank"}
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451697380/?autostart=false" frameborder="0"></iframe>
