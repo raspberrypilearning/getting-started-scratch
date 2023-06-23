@@ -1,21 +1,21 @@
-## Set up a Scratch account
+## إنشاء حساب Scratch
 
 --- task ---
 
-If you set up a Scratch account, you can save and keep all your Scratch projects online, and work on them again in the future.
+إذا أعددت حساب سكراتش ، يمكنك حفظ و ابقاء كل مشاريعك سكراتش على النت و العمل عليها مجددا مستقبلا.
 
-You can also share your projects and receive feedback, as well as comment on projects made by other people in the Scratch community.
+يمكنك أيضًا مشاركة مشاريعك وتلقي التعليقات، وكذلك التعليق على المشاريع التي صنعها أشخاص آخرون في مجتمع سكراتش Scratch.
 
 [[[create-scratch-account]]]
 
-If you are an educator, you can set up Teacher and Student Accounts.
+إذا كنت معلمًا، فيمكنك انشاء حسابات مدرس وطالب.
 
 --- collapse ---
 ---
-title: Scratch Teacher Accounts
+title: حساب المعلم في Scratch
 ---
 
-Please see the [Scratch Teacher Account FAQ](https://scratch.mit.edu/educators/faq){:target="_blank"} for information on setting up an account that gives educators additional features for managing student participation on Scratch.
+يرجى الاطلاع على الأسئلة الشائعة حول حساب المعلم في Scratch [](https://scratch.mit.edu/educators/faq){: target = "_ blank"} للحصول على معلومات حول انشاء حساب يمنح المعلمين ميزات إضافية لإدارة مشاركات الطلاب في منصة Scratch.
 
 --- /collapse ---
 
