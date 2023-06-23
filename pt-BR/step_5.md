@@ -41,7 +41,7 @@ Você pode adicionar mais atores ao seu projeto e também pode adicionar um cen�
 
 --- collapse ---
 ---
-título: Escolha um ator
+title: Escolha um ator
 ---
 
 Na lista de Atores, clique em **Selecione um Ator** para ver a biblioteca com todos os atores do Scratch.
@@ -60,7 +60,7 @@ Você pode pesquisar por um stor ou navegar por uma categoria ou tema. Clique no
 
 --- collapse ---
 ---
-título: Escolha um cenário
+title: Escolha um cenário
 ---
 
 No canto inferior direito no painel do Palco, clique em **Selecionar Cenário**.
@@ -79,7 +79,7 @@ Você pode pesquisar por um cenário ou navegar por categoria ou tema. Clique no
 
 --- collapse ---
 ---
-título: Nomeie e salve seu projeto
+title: Nomeie e salve seu projeto
 ---
 
 Vá para **Arquivo** no menu. Se você tiver uma conta Scratch, clique em **Salvar agora**. Se você não possui uma conta, clique em **Salvar no seu computador**.
