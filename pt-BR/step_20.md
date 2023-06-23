@@ -1,40 +1,40 @@
-## Share and comment
+## Compartilhe e comente
 
 --- task ---
 
-To let other people access your project, make your project public. You can also share your project's unique web address with other people.
+Para permitir que outras pessoas acessem seu projeto, torne-o público. Você também pode compartilhar o endereço web exclusivo do seu projeto com outras pessoas.
 
 [[[share-scratch]]]
 
 --- collapse ---
 ---
-title: More on sharing your project's web address
+title: Mais sobre como compartilhar o endereço da web do seu projeto
 ---
 
-+ Your project will always start in the position that you last saved it in, so make sure that you save your project in the right starting position
-+ When you click on **See Project Page**, the web address of your project will appear in the browser bar: ![A web address.](images/from-me-webaddress.png){:width="400px"}
-+ Copy the web address and paste it into an email, or write down the web address and give it to the person who you want to share the project with
++ Seu projeto sempre começará na posição em que você o salvou pela última vez, então certifique-se de salvar seu projeto na posição inicial correta
++ Quando vocês clicar em **Ver Página do Projeto**, o endereço web do seu projeto aparecerá na barra de endereços do navegador: ![A web address.](images/from-me-webaddress.png){:largura="400px"}
++ Copie o endereço web e cole-o em um e-mail ou anote o endereço para dá-lo à pessoa com quem você deseja compartilhar o projeto
 
-**Tip:** You can access completed Scratch projects on a computer or mobile device.
+**Dica:** Você pode acessar projetos completos do Scratch em um computador ou dispositivo móvel.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What to put in Instructions and Notes and Credits
+title: O que inserir nas Instruções e Notas e Créditos
 ---
 
-On the Project Page, you can fill in the Instructions to explain how to use your project, and complete your project’s Notes and Credits.
+Na página do projeto, você pode preencher as instruções para explicar como usa-lo e colocar notas e créditos sobre seu projeto.
 
-In the **Instructions** box, tell people how to use your project:
-+ Include all the instructions that the user needs to explore your project fully.
-+ Make sure that your instructions are given step by step and are simple. Instructions are easier to read if you write them in a list.
-+ Include all the user interaction, such as clicking on the green flag to start, and which sprites to click on.
-+ Let the user know if the project includes sound, as they may need to wear headphones or turn the volume up on their device.
+Na caixa **Instruções**, diga às pessoas como usar seu projeto:
++ Inclua todas as instruções para que o usuário entenda a explorar totalmente o seu projeto.
++ Certifique-se de que suas instruções são fornecidas passo a passo e são simples. As instruções são mais fáceis de ler se você as escrever em uma lista.
++ Inclua toda a interação do usuário, como clicar na bandeira verde para iniciar e em quais atores clicar.
++ Informe ao usuário se o projeto inclui som, pois pode ser necessário usar fones de ouvido ou aumentar o volume do dispositivo.
 
-In the **Notes and Credits** box:
-+ Thank the people who created the projects that inspired you. You could even include the web addresses of the projects.
-+ Did you include images or sounds that were created by someone else? If so, credit the source(s) in this box.
+Na caixa **Notas e Créditos**:
++ Agradeça às pessoas que criaram os projetos que inspiraram você. Você pode até incluir os endereços web dos projetos.
++ Você incluiu imagens ou sons criados por outra pessoa? Em caso afirmativo, credite a(s) fonte(s) nesta caixa.
 
 --- /collapse ---
 
@@ -42,7 +42,7 @@ In the **Notes and Credits** box:
 
 --- task ---
 
-Give and receive feedback on projects.
+Dê e receba feedback em projetos.
 
 [[[comments-feedback-scratch]]]
 
