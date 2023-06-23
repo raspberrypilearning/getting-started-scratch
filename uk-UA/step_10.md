@@ -1,9 +1,9 @@
-## Control
+## Керування
 
-`Control`{:class="block3control"} blocks control the order that blocks run in, including decisions (selection) and loops (repetition).
+Блоки `Керування`{:class="block3control"} контролюють порядок виконання блоків, включаючи прийняття рішень (вибір) та цикли (повторення).
 
 
-The `wait`{:class="block3control"} block delays for a number of seconds before running the next block.
+Блок `чекати`{:class="block3control"} створює затримку певну кількість секунд перед запуском наступного блоку.
 
 ```blocks3
 wait (1) seconds// delay for 1 second
@@ -11,7 +11,7 @@ wait (1) seconds// delay for 1 second
 wait (0.1) seconds// delay for one tenth of a second
 ```
 
-Loops control how many time the code inside them runs.
+Цикли керують тим, скільки разів буде виконуватися код, який знаходиться всередині них.
 
 ```blocks3
 repeat (4) // run the blocks inside four time
@@ -27,9 +27,9 @@ end
 
 [[[scratch3-forever-condition]]]
 
-**Tip:** You can stop a `forever`{:class="block3events"} block by clicking the Stop button above the Stage, or by using the `stop`{:class="block3control"} blocks.
+**Порада:** Ти можеш зупинити блок `завжди`{:class="block3events"} натиснувши кнопку Зупинити, яка знаходиться над Сценою, або за допомогою блоків `зупинити`{:class="block3control"}.
 
-There are three options for the `stop`{:class="block3events"} block:
+Існує три опції для блоку `зупинити`{:class="block3events"}:
 
 ```blocks3
 stop [all v] // stop all scripts in all sprites
@@ -39,7 +39,7 @@ stop [this script v]
 stop [other scripts in sprite v]
 ```
 
-The `if...then`{:class="block3control"} and `if...then...else`{:class="block3control"} blocks are used to make decisions about which code blocks to run next. This is sometimes called **selection**. The `if...then`{:class="block3control"} block checks a hexagonal-shaped **condition** and runs the code blocks inside, if the condition is **true**. The `if...then..else`{:class="block3control"} block has an additional section to run the code blocks inside, if the condition is **false**.
+Блоки `якщо...то`{:class="block3control"} та `якщо...то...інакше`{:class="block3control"} приймають рішення про те, які блоки коду запускати наступними. Інколи це називається **вибір**. Блок `якщо...то`{:class="block3control"} перевіряє шестигранну форму **умова** і запускає блоки коду, які знаходяться всередині, якщо виконується умова **true**. Блок `якщо...то...інакше`{:class="block3control"} має додаткову секцію для виконання блоків коду, якщо виконується умова **false**.
 
 ```blocks3
 if <> then
@@ -55,9 +55,9 @@ end
 
 [[[scratch3-if-then-else]]]
 
-You can find hexagonal-shaped blocks to use as conditions in the `Operators`{:class="block3operators"} and `Sensing`{:class="block3sensing"} blocks menus.
+Ти можеш знайти блоки шестигранної форми та використовувати їх як умови у меню блоках`Оператори`{:class="block3operators"} та `Датчики`{:class="block3sensing"}.
 
-The `wait until`{:class="block3control"} and `repeat until`{:class="block3control"} blocks also use conditions:
+Блоки `чекати поки`{:class="block3control"} та `повторити до`{:class="block3control"} також використовують умови:
 
 ```blocks3
 wait until <> // delay until the condition is true
@@ -68,9 +68,9 @@ repeat until <> // repeat the blocks inside until the condtion is true
 end
 ```
 
-A **clone** is a copy of a sprite, it has the costumes, scripts and sounds held by the sprite it was cloned from at the time of cloning. There are a number of blocks that can be used to clone sprites.
+**Клон** це копія спрайта, який має образи, скрипти та звуки, якими володів спрайт, з якого він був створений на момент клонування. Є декілька блоків, які можна використовувати для клонування спрайтів.
 
-With the `create clone of [myself v]`{:class="block3control"} block, a sprite can create a clone of itself or of another sprite in the project.
+За допомогою блока `створити клон з [мене v]`{:class="block3control"}, спрайт може створити клон самого себе або іншого спрайта в проєкті.
 
 ```blocks3
 create clone of [myself v] // clones the sprite that runs this block
@@ -79,9 +79,9 @@ create clone of [myself v] // clones the sprite that runs this block
 create clone of [Butterfly 1 v] // clones another sprite in the project
 ```
 
-The `when I start as a clone`{:class="block3control"} hat block is used to trigger a new script once the clone has been created. The clone will exist in the project until the `delete this clone`{:class="block3control"} cap block is used.
+Блок з шапкою `коли я починаю як клон`{:class="block3control"} використовується для запуску нового скрипту одразу після створення клону. Клон буде існувати в проєкті до тих пір, поки не буде використано блок `вилучити цей клон`{:class="block3control"}.
 
-Using the `when I start as a clone`{:class="block3control"} hat block then including the `create clone of [myself v]`{:class="block3control"} block in the script underneath means it is also possible for clones to create other clones.
+Використовуючи блок з шапкою `коли я починаю як клон`{:class="block3control"}, який містить в собі блок `створити клон з [мене v]`{:class="block3control"} означає, що клони також зможуть створювати інші клони.
 
 ```blocks3
 when I start as a clone // the script that runs when the clone is created
@@ -90,14 +90,14 @@ when I start as a clone // the script that runs when the clone is created
 delete this clone // stops the clone's scripts and deletes it
 ```
 
-There is a maximum number of clones a sprite can have at any point, at the time of writing this is `300`.
+Максимальна кількість клонів, яку може мати спрайт одночасно, на момент написання статті становить `300`.
 
 --- collapse ---
 ---
-title: Clones of clones
+title: Клони клонів
 ---
 
-**Clones**: [See inside](https://scratch.mit.edu/projects/567544298/editor){:target="_blank"}
+**Клони**: [Переглянути код](https://scratch.mit.edu/projects/567544298/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe src="https://scratch.mit.edu/projects/567544298/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
