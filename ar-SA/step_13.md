@@ -1,42 +1,42 @@
-## Variables
+## المتغيرات
 
-A `variable`{:class="block3variables"} is a way of storing numbers and/or text.
+`المتغير`{:class="block3variables"} هو وسيلة لتخزين الأرقام و/أو النصوص.
 
-You can make your own variables and choose whether they show on the Stage:
+يمكنك انشاء المتغيرات الخاصة بك واختيار ما إذا كانت ستظهر على المنصة:
 
 [[[generic-scratch3-add-variable]]]
 
-You should think about whether you need to set a starting value when you make a variable:
+يجب أن تفكر فيما إذا كنت بحاجة إلى تعيين قيمة بداية عند إنشاء متغير:
 
 [[[scratch3-create-set-variable]]]
 
-You can rename a variable if you change your mind:
+يمكنك إعادة تسمية متغير إذا غيرت رأيك:
 
 --- collapse ---
 ---
-title: Rename a variable
+title: إعادة تسمية متغير
 ---
 
-Sometimes you think of a better name for a variable.
+أحيانًا تفكر في اسم أفضل للمتغير.
 
-You can give a variable a new name: go to the `Variables`{:class="block3variables"} blocks menu, right-click (or on a tablet, tap and hold) on the `variable`{:class="block3variables"}, and choose **Rename variable**.
+يمكنك تسمية متغير باسم جديد: انتقل إلى `المتغيرات`{:class="block3variables"}، انقر بزر الماوس الأيمن (أو اذا كنت على جهاز لوحي، انقر مع الاستمرار) على `المتغير`{:class="block3variables"}، واختر **إعادة تسمية المتغير**.
 
-![Selecting 'Rename variable' in the menu.](images/rename-variable.png)
+![اختيار "إعادة تسمية المتغير" في القائمة.](images/rename-variable.png)
 
-This will change the name of the variable in all the blocks in which you have used it.
+سيؤدي هذا إلى تغيير اسم المتغير في جميع الكتل التي استخدمته فيها.
 
 --- /collapse ---
 
-**Tip:** Make sure you know the difference between `set`{:class="block3variables"} and `change by`{:class="block3variables"}. `set`{:class="block3variables"} will replace the value stored in a variable. `change by`{:class="block3variables"} will change the value of a number variable by the amount you choose, `change by`{:class="block3variables"}`1` will add one to a variable. `change by`{:class="block3variables"}`-1` will take one away from a variable.
+**نصيحة:** تأكد من أنك تعرف الفرق بين `اجعل`{:class="block3variables"} و `غيّر`{:class="block3variables"}. `اجعل`{:class="block3variables"} ستحل محل القيمة المخزنة في المتغير. كتلة `غيّر بمقدار`{:class="block3variables"} ستغير قيمة متغير رقمي بالمقدار الذي تختاره، `غيّر بمقدار`{:class="block3variables"}`1` ستضيف واحدًا إلى المتغير. `غيّر بمقدار`{:class="block3variables"}`-1` سينقص أو يأخذ واحدًا من المتغير.
 
 
-**Tip:** Variables on the Stage always appear in a layer above all of the sprites. If you have a moving sprite, the sprite will go under any variables on the Stage.
+**نصيحة:** المتغيرات الموجودة على المسرح دائمًا في طبقة أعلى من كل الكائنات. إذا كان لديك كائن متحرك، فسيكون الكائن أسفل أي متغيرات موجودة على المنصة.
 
-You can use a slider to control the value in a variable.
+يمكنك استخدام شريط التمرير للتحكم في قيمة المتغير.
 
 [[[scratch3-slider-variable]]]
 
-More ideas for using variables:
+المزيد من الأفكار لاستخدام المتغيرات:
 
 [[[generic-scratch3-high-score]]]
 
@@ -49,21 +49,21 @@ More ideas for using variables:
 
 --- collapse ---
 ---
-title: Control graphic effects with a variable slider
+title: التحكم في تأثيرات الرسوم باستخدام شريط تمرير متغير
 ---
 
-Here are some examples of how you can use your variable slider:
+فيما يلي بعض الأمثلة عن كيفية استخدام شريط التمرير للمتغير:
 
 
-This example changes the `ghost`{:class="block3looks"} graphic effect so you can see through the rainbow.
+يغير هذا المثال التأثيرات الصورية بالمؤثر `الشبح`{:class="block3looks"} حتى تتمكن من الرؤية من خلال قوس قزح.
 
-**Transparent rainbow**: [See inside](https://scratch.mit.edu/projects/451544795/editor){:target="_blank"}
+**قوس قزح شفاف**: [انظر في الداخل](https://scratch.mit.edu/projects/451544795/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451544795/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can use a `transparent`{:class="block3variables"} variable to control the `ghost`{:class="block3looks"} effect on a sprite at the `front`{:class="block3looks"}, and use it to reveal or hide sprites in lower layers.
+يمكنك استخدام متغير `شفاف`{:class="block3variables"} للتحكم في تأثير `الشبح`{:class="block3looks"} على الكائن الموجود في `الامام`{:class="block3looks"}، واستخدامه لكشف أو إخفاء الكائنات المتحركة في الطبقات السفلية.
 
 ```blocks3
 when flag clicked
@@ -76,22 +76,22 @@ forever
 set [ghost v] effect to (transparent)
 ```
 
-Try using the same approach with other graphic effects such as `brightness`{:class="block3looks"} or `color`{:class="block3looks"}.
+جرب استخدام نفس الأسلوب مع التأثيرات الرسومية الأخرى مثل `شدة الاضاءة`{:class="block3looks"} أو `اللون`{:class="block3looks"}.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Control movement speed with a variable
+title: التحكم في سرعة الحركة مع متغير
 ---
 
-**Ladybug on a wall**: [See inside](https://scratch.mit.edu/projects/451545341/editor){:target="_blank"}
+**خنفساء على الحائط**: [انظر في الداخل](https://scratch.mit.edu/projects/451545341/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451545341/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Use the `speed`{:class="block3variables"} variable as the input to a `move`{:class="block3motion"} block:
+استخدم المتغير `سرعة`{:class="block3variables"} كمدخل إلى كتلة `تحرك`{:class="block3motion"}:
 
 ```blocks3
 when flag clicked
@@ -99,22 +99,22 @@ forever
 move (speed) steps
 if on edge, bounce
 ```
-Set the minimum and maximum values for the range of the slider to suit your project.
+قم بتعيين القيم الدنيا والحد الأقصى لنطاق شريط التمرير ليناسب مشروعك.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Control turn speed with a variable
+title: التحكم في سرعة الدوران مع متغير
 ---
 
-**Space dog**: [See inside](https://scratch.mit.edu/projects/451543041/editor){:target="_blank"}
+**كلب الفضاء**:[انظر في الداخل](https://scratch.mit.edu/projects/451543041/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451543041/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Use an `angle`{:class="block3variables"} variable as the input to a `turn right`{:class="block3motion"} block:
+استخدم متغير `زاوية`{:class="block3variables"} كمدخل إلى كتلة `انعطف يمينًا`{:class="block3motion"}:
 
 ```blocks3
 when flag clicked
@@ -126,16 +126,16 @@ turn right (angle) degrees
 
 --- collapse ---
 ---
-title: Change the delay in a wait block
+title: تغيير التأخير في كتلة انتظر
 ---
 
-**Skeleton dance**: [See inside](https://scratch.mit.edu/projects/451536565/editor){:target="_blank"}
+**رقصة الهيكل العظمي**: [انظر في الداخل](https://scratch.mit.edu/projects/451536565/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451536565/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Use a `delay`{:class="block3variables"} variable as the input to a `wait`{:class="block3control"} block:
+استخدم المتغير `تأخير`{:class="block3variables"} كمدخل إلى كتلة `انتظر`{:class="block3control"}:
 
 ```blocks3
 when flag clicked
@@ -144,28 +144,28 @@ wait (delay) seconds
 next costume
 ```
 
-A delay of more than one second is quite a long time. If you include a decimal number in the range of a slider, then you can change the value by a 100th of a second at a time.
+التأخير لأكثر من ثانية هو وقت طويل جدا. إذا قمت بتضمين رقم عشري في نطاق شريط التمرير، فيمكنك تغيير القيمة بمقدار 100 جزء من الثانية في كل مرة.
 
-A range of `0.00` to `1.00` allows you to choose a delay between `0` seconds (no delay) and `1` second.
+يسمح لك النطاق من `0.00` إلى `1.00` باختيار تأخير بين `0` ثوانٍ (بدون تأخير) و `1` ثانية.
 
-![Changing the slider range to 0.00 to 1.00.](images/decimal-delay.png)
+![تغيير مجال المنزلقة من 0.00 إلى 1.00.](images/decimal-delay.png)
 
-Change the numbers to get the minimum and maximum values that you want users to be able to use in your project.
+قم بتغيير الأرقام للحصول على الحد الأدنى والحد الأقصى للقيم التي تريد أن يتمكن المستخدمون من استخدامها في مشروعك.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Change sound effects
+title: تغيير المؤثرات الصوتية
 ---
 
-**Drum pitch**: [See inside](https://scratch.mit.edu/projects/451547017/editor){:target="_blank"}
+**طبقة طبل**: [انظر في الداخل](https://scratch.mit.edu/projects/451547017/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451547017/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can use a `variable`{:class="block3variables"} in a `set pitch effect to`{:class="block3sound"} block. If you increase the pitch of a sound, the notes get higher and the sound speeds up.
+يمكنك استخدام `متغير`{:class="block3variables"} في كتلة `اجعل مؤثر الصوت مساوياً`{:class="block3sound"}. إذا قمت بزيادة حدة الصوت، فسترتفع النغمات ويزداد الصوت.
 
 ```blocks3
 when flag clicked
@@ -173,7 +173,7 @@ forever
 set [pitch v] effect to (beat) :: sound
 ```
 
-Play the sound in a separate `forever`{:class="block3control"} loop, so that the pitch will change immediately, rather than waiting until the sound has finished playing:
+قم بتشغيل الصوت في كتلة حلقة `كرر باستمرار`{:class="block3control"} منفصلة، بحيث تتغير درجة الصوت على الفور ، بدلاً من الانتظار حتى انتهاء تشغيل الصوت:
 
 ```blocks3
 when flag clicked
@@ -181,7 +181,7 @@ forever
 play sound [Dance Head Nod v] until done
 ```
 
-You can also use a `variable`{:class="block3variables"} to change the volume and pan (tilt) effect.
+يمكنك أيضًا استخدام `متغير`{:class="block3variables"} لتغيير مستوى الصوت وتأثير التدوير (الإمالة).
 
 --- /collapse ---
 
