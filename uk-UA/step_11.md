@@ -1,10 +1,10 @@
-## Sensing
+## Датчики
 
-The blocks in the `Sensing`{:class="block3sensing"} blocks menu are used to get user text input, detect conditions, and report on values in your project.
+Блоки в меню блоків `Датчики`{:class="block3sensing"} використовуються для отримання тексту, що вводиться користувачем, виявлення умов та створення звітів щодо величин у проєкті.
 
-There are several hexagonal `Sensing`{:class="block3sensing"} blocks that you can use in `Control`{:class="block3control"} blocks to make decisions and control when blocks run.
+Існує декілька шестигранних блоків `Датчики`{:class="block3sensing"}, які можна використовувати у блоках `Керування`{:class="block3control"}, щоб приймати рішення і контролювати, коли блоки запускаються.
 
-The `touching`{:class="block3sensing"} block has options for detecting whether the sprite that owns the script is touching the mouse pointer (where you finger last touched on a tablet), the edge of the Stage, or another sprite:
+Блок `торкається`{:class="block3sensing"} має опції для визначення того, чи торкається спрайт, якому належить скрипт, курсора миші (або місця останнього торкання пальцем на планшеті), краю Сцени або іншого спрайта:
 
 ```blocks3
 <touching (mouse-pointer v) ?>
@@ -14,7 +14,7 @@ The `touching`{:class="block3sensing"} block has options for detecting whether t
 <touching (Sprite2 v) ?>
 ```
 
-There are blocks for detecting whether the sprite that owns the script is touching another colour (on the Stage or another sprite), or whether a colour on this sprite is touching another colour.
+Існують блоки для визначення того, чи торкається спрайт, якому належить скрипт, іншого кольору (на Сцені або іншого спрайта), або чи торкається колір іншого кольору.
 
 ```blocks3
 <touching color (#c5a97b) ?>
@@ -22,19 +22,19 @@ There are blocks for detecting whether the sprite that owns the script is touchi
 <color (#c219ed) is touching (#62d1e0) ?>
 ```
 
-The `key pressed`{:class="block3sensing"} block has options for number, letter, and arrow keys. You need a keyboard to be able to enter keys. It detects whether the key is currently being pressed:
+Блок `клавішу натиснуто?`{:class="block3sensing"} має опції цифрових, літерних та стрілкових клавіш. Тобі необхідна клавіатура, щоб мати можливість натискати на клавіші. Він визначає, чи натиснута клавіша у цей момент:
 
 ```blocks3
 <key (space v) pressed?>
 ```
 
-The `mouse down`{:class="block3sensing"} block detects whether the mouse is currently pressed, or the screen is being tapped or touched on a touchscreen:
+Блок `мишку натиснуто`{:class="block3sensing"} визначає, чи натиснута у цей момент кнопка миші, або чи здійснюється торкання екрана, або дотик до сенсорного екрана:
 
 ```blocks3
 <mouse down?>
 ```
 
-The `ask`{:class="block3sensing"} and `answer`{:class="block3sensing"} blocks are used to get text input from the user:
+Блок `запитати`{:class="block3sensing"} та `відповідь`{:class="block3sensing"} використовуються для приймання тексту, що вводиться користувачем:
 
 ```blocks3
 ask [What's your name] and wait
@@ -42,13 +42,13 @@ ask [What's your name] and wait
 (answer) // the text the the user typed 
 ```
 
-The `ask`{:class="block3sensing"} block works with a keyboard or with a virtual on-screen keyboard on a tablet.
+Блок `запитати`{:class="block3sensing"} працює з клавіатурою або з віртуальною екранною клавіатурою на планшеті.
 
-The `answer`{:class="block3sensing"} block is a reporter block that reports a value and can be used as a variable.
+Блок `запитати`{:class="block3sensing"} є блоком-репортером, який доповідає про значення і може бути використаний як змінна.
 
 [[[scratch3-ask-answer-chat]]]
 
-The `Sensing`{:class="block3sensing"} blocks menu also contains several reporter blocks that can be used to get values:
+Меню блоків `Датчики`{:class="block3sensing"} також містить декілька блоків-репортерів, які можуть бути використані для отримання значень:
 
 ```blocks3
 (distance to (mouse-pointer v))
@@ -56,7 +56,7 @@ The `Sensing`{:class="block3sensing"} blocks menu also contains several reporter
 (distance to (Sprite2 v))
 ```
 
-You can detect the current position of the mouse-pointer (or the current or most recent position of your finger on a tablet):
+Ти можеш визначити поточне положення курсора миші (або актуальне чи останнє положення пальця на планшеті):
 
 ```blocks3
 (mouse x)
@@ -64,13 +64,13 @@ You can detect the current position of the mouse-pointer (or the current or most
 (mouse y)
 ```
 
-You can detect the `loudness`{:class="block3sensing"} of sound from the microphone. A pop-up window will ask the user for permission to use the microphone:
+Ти можеш визначити `гучність`{:class="block3sensing"} звуку з мікрофона. У спливаючому вікні буде запитано дозвіл на використання мікрофона:
 
 ```blocks3
 (loudness)
 ```
 
-The `timer`{:class="block3sensing"} starts counting when the project loads, and can be set back to `0` with `reset timer`{:class="block3sensing"}:
+`Таймер`{:class="block3sensing"} почне відлік, коли проєкт завантажиться, і може бути повернутий до `0` із блоком `перезапустити таймер`{:class="block3sensing"}:
 
 ```blocks3
 (timer)
@@ -78,7 +78,7 @@ The `timer`{:class="block3sensing"} starts counting when the project loads, and 
 reset timer
 ```
 
-You can also access reporters for the Stage and other sprites:
+Ти також можеш отримати доступ до репортерів для Сцени та інших спрайтів:
 
 ```blocks3
 ([backdrop # v] of (_stage_ v))
@@ -88,7 +88,7 @@ You can also access reporters for the Stage and other sprites:
 ([costume # v] of (Sprite2 v))
 ```
 
-There are reporters related to the date and time in the real world, in your local timezone:
+Існують репортери, які пов'язані з датою і часом в реальному світі, у твоєму місцевому часовому поясі:
 
 ```blocks3
 (current [year v]) // hour, minute, ...
