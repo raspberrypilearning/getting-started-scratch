@@ -1,33 +1,33 @@
-## Sound
+## Звук
 
-To add sound to your project, use `Sound`{:class="block3sound"} blocks. For example, you can create a continuous background soundtrack, or add sounds that play at regular intervals.
+Щоб додати звук твого проєкту, використовуй блоки`Звук`{:class="block3sound"}. Наприклад, ти можеш створити неперервний фоновий саундтрек, або додати звуки, які будуть звучати через певні інтервали часу.
 
-![An annotated screenshot of the Sounds tab.](images/Scratch-Sound-tab.png){:width="600px"}
+![Скріншот вкладки Звуки.](images/Scratch-Sound-tab.png){:width="600px"}
 
-First, select a sound from the Sound Library, or record your own sound.
+Спочатку вибери звук з бібліотеки звуків або запиши свій власний звук.
 
 [[[scratch3-add-sound]]]
 
 [[[scratch3-record-sound]]]
 
-Add code to run `Sound`{:class="block3sound"} blocks where you want sound in your project.
+Додай код для запуску блоків `Звук`{:class="block3sound"} там, де тобі потрібен звук у твоєму проєкті.
 
 --- collapse ---
 ---
-title: Add a long sound to create a continuous soundtrack
+title: Додавання тривалого звуку для створення безперервного саундтреку
 ---
 
-Click on the green flag to hear the sounds.
+Клацни на зелений прапорець, щоб послухати звуки.
 
-**Radio soundtrack**: [See inside](https://scratch.mit.edu/projects/444581851/editor){:target="_blank"}
+**Саундтрек до радіо**: [Переглянути код](https://scratch.mit.edu/projects/444581851/editor){:target="_blank"}
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/444581851/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can use a `play sound until done`{:class="block3sound"} block inside a `forever`{:class="block3control"} loop. Once the sound has finished, the `forever`{:class="block3control"} loop makes the sound start again from the beginning.
+Ти можеш скористатися блоком `відтворити звук до кінця`{:class="block3sound"}, який знаходиться всередині циклу `завжди`{:class="block3control"}. Після того, як звук закінчиться, цикл `завжди`{:class="block3control"} змусить звук відтворитися з самого початку.
 
-This code uses a single long sound clip repeated as a soundtrack:
+У цьому коді використовується один довгий звук, який повторюється як саундтрек:
 
 ```blocks3
 when green flag clicked
@@ -36,28 +36,28 @@ play sound (Dance Snare Beat v) until done
 end
 ```
 
-**Note:** When you choose a new sound, if you select the **Loops** category, Scratch will only show you the sounds that are suitable for a single looping soundtrack.
+**Порада:** При виборі нового звуку, якщо ти вибереш категорію **Фрагменти**, Scratch покаже тільки ті звуки, які підходять для одного зацикленого саундтреку.
 
-![The 'Loops' category in the Sound Library.](images/loopSounds.png)
+![Категорія 'Фрагменти' у Бібліотеці Звуку.](images/loopSounds.png)
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Add a sequence of short sounds to create a continuous soundtrack
+title: Додавання послідовності з коротких звуків для створення безперервної звукової доріжки
 ---
 
-Click on the green flag to hear the sounds.
+Клацни на зелений прапорець, щоб послухати звуки.
 
-**Champ performance**: [See inside](https://scratch.mit.edu/projects/444673165/editor){:target="_blank"}
+**Виступ Чемпіона**: [Переглянути код](https://scratch.mit.edu/projects/444673165/editor){:target="_blank"}
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/444673165/?autostart=false" frameborder="0"></iframe>
 </div>
 
- Use a `forever`{:class="block3control"} block to create a looped sound. You can:
-+ Put a series of short sounds in a sequence, or
-+ Use different instrument notes and effects
+ Використовуй код `завжди`{:class="block3control"}, щоб створити зациклений звук. Ти можеш:
++ Виставити серію коротких звуків у певну послідовність, або
++ Використовувати різні інструментальні ноти та ефекти
 
 ```blocks3
 when flag clicked
@@ -76,18 +76,18 @@ End
 
 --- collapse ---
 ---
-title: Add sounds that play at regular intervals
+title: Додавання звуків, які звучать через однакові проміжки часу
 ---
 
-**Football sounds**: [See inside](https://scratch.mit.edu/projects/450870079/editor){:target="_blank"}
+**Футбольні звуки**: [Переглянути код](https://scratch.mit.edu/projects/450870079/editor){:target="_blank"}
 
-Click on the green flag to hear the sounds.
+Клацни на зелений прапорець, щоб послухати звуки.
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/450870079/?autostart=false" frameborder="0"></iframe>
 </div>
 
- In this project, the **Stage** has code to play a sound at regular intervals:
+ У цьому проєкті, **Сцена** має код для відтворення звуку через певні проміжки часу:
 
  ```blocks3
  when flag clicked
@@ -97,7 +97,7 @@ Click on the green flag to hear the sounds.
  end
  ```
 
-The **Whistle** sprite also plays a sound at regular intervals:
+Спрайт **Whistle** також відтворює звук через однакові інтервали часу:
 
  ```blocks3
  when this sprite clicked
@@ -111,18 +111,18 @@ The **Whistle** sprite also plays a sound at regular intervals:
 
 --- collapse ---
 ---
-title: Add sounds that start to play at the same time
+title: Додавання звуків, які будуть відтворюватись одночасно
 ---
 
-There are two `Sound`{:class="block3sound"} blocks with an important difference:
+Є два блоки `Звук`{:class="block3sound"} з суттєвою відмінністю:
 
-+ When you `play sound until done`{:class="block3sound"}, the sound will play all the way through. The next line of code in the script will not run until the sound has finished playing.
++ Коли ти використовуєш блок `відтворити звук до кінця`{:class="block3sound"}, звук буде грати до кінця. Наступний фрагмент коду в скрипті не буде виконуватися до тих пір, поки не закінчиться відтворення звуку.
 
-+ When you `start sound`{:class="block3sound"}, the sound will play, but the next block will run immediately and will not wait for the sound to finish playing first.
++ Коли ти використовуєш блок `відтворити звук`{:class="block3sound"}, звук буде грати, але наступний блок запуститься відразу і не буде чекати, поки звук закінчить грати.
 
-This means that if you had a series of `start sound`{:class="block3sound"} blocks, the sounds would all play almost at the same time, layered on top of each other. The effect can be interesting and sometimes messy.
+Тобто, якщо у тебе є серія блоків `відтворити звук`{:class="block3sound"}, то всі звуки будуть грати майже одночасно, накладаючись один на одного. Ефект може бути цікавим, а іноді й безладним.
 
-Have a play with it sometime!
+Спробуй як-небудь пограти з ним!
 
 ```blocks3
 when green flag clicked
@@ -135,22 +135,22 @@ start sound (Baa v)
 
 --- /collapse ---
 
-Once you have chosen your sounds, you may want to change the `volume`{:class="block3sound"}, `pitch`{:class="block3sound"}, or `pan`{:class="block3sound"} (so you hear the sound from the left- or right-hand speaker).
+Після того, як ти вибрав свої звуки, ти можеш змінити ефекти `гучність`{:class="block3sound"}, `висота`{:class="block3sound"}, або `панорама`{:class="block3sound"} (щоб звук було чути з лівого або правого динаміка).
 
 --- collapse ---
 ---
-title: Volume, pitch, and pan
+title: Гучність, висота тону та панорамування
 ---
 
-Click on the green flag to hear the sounds.
+Клацни на зелений прапорець, щоб послухати звуки.
 
-**Band practice**: [See inside](https://scratch.mit.edu/projects/451697380/editor){:target="_blank"}
+**Практика в оркестрі**: [Переглянути код](https://scratch.mit.edu/projects/451697380/editor){:target="_blank"}
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/451697380/?autostart=false" frameborder="0"></iframe>
 </div>
 
-The **Drums** sprite uses `set volume to`{:class="block3sound"}, `set pitch effect to`{:class="block3sound"}, and `set pan left/right effect to`{:class="block3sound"} blocks to change the sound:
+Спрайт **Drums** використовує блоки `встановити гучність`{:class="block3sound"}, `встановити ефект висота в`{:class="block3sound"}, або `встановити ефект панорама в`{:class="block3sound"}, щоб змінювати звук:
 
 ```blocks3
 set volume to (80) %
@@ -159,15 +159,15 @@ set [pan left/right v] effect to (-100) :: sound
 play sound (Drum Funky v) until done
 ```
 
-+ You can `set volume to`{:class="block3sound"} a value from `0` (silent) to `100` (full volume). This is useful if you want some sounds to play louder than others, or if you want a sprite to appear further away.
++ Ти можеш `встановити гучність`{:class="block3sound"} на значення від `0` (silent) до `100` (повна гучність). Це корисно, якщо ти хочеш, щоб деякі звуки грали голосніше, ніж інші, або якщо ти хочеш, щоб спрайт відображався на більшій відстані.
 
-+ The `pitch`{:class="block3sound"} effect controls how high or low a sound is. Setting the pitch to a higher value also makes a sound faster. You can `set pitch effect to`{:class="block3sound"} values between `-360` (very low) and `360` (very high).
++ Ефект `висота`{:class="block3sound"} контролює, наскільки високим або низьким є звук. Встановлення висоти тону на більше значення також робить звук швидшим. Ти можеш `встановити ефект висота в`{:class="block3sound"} у значення між `-360` (дуже низько) та`360` (дуже високо).
 
-+ The `pan left/right`{:class="block3sound"} effect allows you to control whether a sound comes out of a left- or right-hand speaker or headphone or both. You can `set pan left/right effect to`{:class="block3sound"} values from `-100` (all sound from the left) to `100` (all sound from the right).
++ Ефект `pan left/right`{:class="block3sound"} дозволяє тобі налаштувати відтворення звуку з лівого чи правого динаміка або навушників, або з обох динаміків. Ти можеш `встановити ефект панорама в`{:class="block3sound"} в значення від `-100` (всі звуки зліва) до `100` (всі звуки справа).
 
 --- /collapse ---
 
-You can also use the `Text to Speech`{:class="block3extensions"} extension:
+Також ти можеш використати розширення `Текст у мову`{:class="block3extensions"}:
 
 [[[scratch3-text-to-speech]]]
 
