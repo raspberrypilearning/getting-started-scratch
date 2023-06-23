@@ -1,56 +1,56 @@
-## Your first Scratch project
+## Твій перший проєкт у Scratch
 
-![An annotated screenshot of the Scratch editor, with key features labelled.](images/scratch-features.png)
+![Скріншот редактора Scratch з позначенням ключових функцій.](images/scratch-features.png)
 
 --- task ---
 
-When you create a new Scratch project, it includes a **cat** sprite.
+Коли ти створюєш новий проєкт у Scratch, він містить спрайт - **кіт**.
 
-Drag blocks from the Blocks menu to the Code area to make the cat do something.
+Перетягуй блоки з меню Блоки в Область коду, щоб змусити кота щось зробити.
 
-To try an example, drag a `move`{:class="block3motion"} block from the `Motion`{:class="block3motion"} blocks menu. The blocks are colour-coded to help you find them.
+Щоб спробувати приклад, перетягни блок `перемістити на`{:class="block3motion"} із меню блоків `Рух`{:class="block3motion"}. Блоки мають колір, який полегшує їх знаходження.
 
-![A 'move' block in the Code area.](images/move-block.png)
+![Блок 'перемістити на' в Області коду.](images/move-block.png)
 
-You can click on blocks in the Code area to run them. Click on the `move`{:class="block3motion"} block and the cat will move.
+Ти можеш натиснути на блоки в Області коду, щоб запустити їх. Клацни на блок `перемістити на`{:class="block3motion"} і кіт буде рухатися.
 
-**Tip:** If you are using Scratch on a tablet, you can tap an item to click on it.
+**Порада:** Якщо ти використовуєш Scratch на планшеті, торкнись елемента, щоб вибрати його.
 
-**Hat blocks** run the blocks below them when a particular event happens. The `when green flag clicked`{:class="block3events"} block runs code when you click on the green flag above the Stage to run your project.
+**Блоки з шапкою** запускають блоки під ними, коли відбувається певна подія. Блок `коли зелений прапорець натиснуто`{:class="block3events"} запускає код, коли ти натискаєш на зелений прапорець над Сценою, щоб запустити проєкт.
 
-Drag a `when green flag clicked`{:class="block3events"} block above the `move`{:class="block3motion"} block so that they snap together.
+Перетягни блок `коли зелений прапорець натиснуто`{:class="block3events"} та розмісти його над блоком `перемістити на`{:class="block3motion"} так, щоб вони з'єдналися.
 
-![The 'move' block in the Code area.](images/green-flag-script.png)
+![Блок 'перемістити на' в Області коду.](images/green-flag-script.png)
 
-Your code should look like this:
+Твій код повинен виглядати так:
 
 ```blocks3
 when flag clicked
 move (10) steps
 ```
 
-**Tip:** Scratch blocks are colour-coded, so you will find the `when green flag clicked`{:class="block3events"} block in the `Events`{:class="block3events"} blocks menu.
+**Порада:** Блоки Scratch мають кольорове позначення, тому ти легко знайдеш блок `коли зелений прапорець натиснуто`{:class="block3events"} в меню блоків `Події`{:class="block3events"}.
 
-Now, click on the green flag above the Stage and the cat will move.
+Тепер клацни на зелений прапорець над Сценою, і кіт почне рухатися.
 
 --- /task ---
 
-You can add more sprites to your project, and you can also add a backdrop.
+Ти можеш додати більше спрайтів до свого проєкту, а також можеш додати тло.
 
 --- task ---
 
 --- collapse ---
 ---
-title: Choose a sprite
+title: Обираємо спрайт
 ---
 
-In the Sprite list, click on **Choose a Sprite** to see the library of all Scratch sprites.
+У Списку спрайтів клацни на **Обрати спрайт**, щоб переглянути бібліотеку всіх спрайтів Scratch.
 
-![The 'Choose a Sprite' icon.](images/sprite-library.png)
+![Іконка 'Обрати спрайт'.](images/sprite-library.png)
 
-You can search for a sprite, or browse by category or theme. Click on a sprite to add it to your project.
+Ти можеш виконати пошук спрайта або знайти його за категорією чи темою. Натисни на спрайт, щоб додати його до свого проєкту.
 
-![The Sprite Library.](images/sprite-choose.png)
+![Бібліотека Спрайтів.](images/sprite-choose.png)
 
 --- /collapse ---
 
@@ -60,16 +60,16 @@ You can search for a sprite, or browse by category or theme. Click on a sprite t
 
 --- collapse ---
 ---
-title: Choose a backdrop
+title: Обираємо тло
 ---
 
-In the bottom right-hand corner of the Stage pane, click on **Choose a Backdrop**.
+У правому нижньому куті панелі Сцена, клацни на **Обрати тло**.
 
-![The 'Choose a Backdrop' icon.](images/stage-choose.png)
+![Іконка 'Обрати тло'.](images/stage-choose.png)
 
-You can search for a backdrop, or browse by category or theme. Click on a backdrop to add to your project.
+Ти можеш виконати пошук тла або знайти його за категорією чи темою. Клацни на тло, щоб додати його до свого проєкту.
 
-![The Backdrop Library.](images/backdrop.png)
+![Бібліотеки Тлів.](images/backdrop.png)
 
 --- /collapse ---
 
@@ -79,25 +79,25 @@ You can search for a backdrop, or browse by category or theme. Click on a backdr
 
 --- collapse ---
 ---
-title: Name and save your project
+title: Назви та збережи свій проєкт
 ---
 
-Go to **File** in the menu. If you have a Scratch account, click on **Save now**. If you do not have an account, click on **Save to your computer**.
+Натисни на **Файл** в меню. Якщо у тебе є обліковий запис Scratch, натисни на **Зберегти негайно**. Якщо у тебе немає облікового запису, натисни на **Вивантажити на ваш комп'ютер**.
 
-Click in the project name box and change the name to match your project.
+Клацни на поле назви проєкту та зміни назву, щоб вона відповідала твоєму проєкту.
 
-![The project name box highlighted.](images/change-project-name.png)
+![Поле назви проєкту виділено.](images/change-project-name.png)
 
-If you share your project, then other people will also see this name, so make sure that it makes sense.
+Якщо ти поділишся своїм проєктом, інші люди також побачать цю назву, тому переконайся, що вона має певний сенс.
 
 --- /collapse ---
 
 --- /task ---
 
-You have created your first Scratch project!
+Ти створив свій перший проєкт у Scratch!
 
-You are now ready to learn Scratch. We recommend that you start with our [Scratch: Module 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} and/or [Look after yourself](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"} pathways, which are designed for beginners.
+Тепер ти готовий до вивчення Scratch. Ми радимо тобі почати з наших проєктів [Scratch: Module 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} та/або [Піклуйся про себе](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"}, які розроблені для новачків.
 
- You can return to this guide if you need help using Scratch when you are working on our pathway projects or on your own independent projects. 
+ Ти можеш повернутися до цього керівництва, якщо тобі знадобиться допомога у використанні Scratch під час роботи з нашими навчальними проєктами або над власними самостійними проєктами. 
 
 
