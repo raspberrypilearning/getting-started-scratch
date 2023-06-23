@@ -96,7 +96,7 @@ title: プロジェクトに名前をつけて保存する
 
 あなたの最初のScratchプロジェクトが作成されました。
 
-これで、Scratchを学ぶ準備ができました。 初めての人のために設計された[Scratch: Module 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} か [Look after yourself](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"} コースから始めることおおすすめします。
+これで、Scratchを学ぶ準備ができました。 We recommend that you start with our [Introduction to Scratch](https://projects.raspberrypi.org/en/raspberrypi/scratch-intro){:target="_blank"}, [Scratch: Module 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} and/or [Look after yourself](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"} paths, which are designed for beginners.
 
  コースのプロジェクトまたはあなた自身が作成したプロジェクトで作業しているとき、Scratchの使いかたについてサポートが必要な場合は、このガイドに戻ることができます。 
 
