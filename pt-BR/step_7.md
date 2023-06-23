@@ -18,7 +18,7 @@ think ()
 
 --- collapse ---
 ---
-título: Use um balão de fala para se comunicar
+title: Use um balão de fala para se comunicar
 ---
 
 Atores podem `falar`{:class="block3looks"} e `pensar`{:class="block3looks"} para se comunicar.
@@ -58,7 +58,7 @@ set size to () %
 
 --- collapse ---
 ---
-título: Defina o tamanho do seu ator
+title: Defina o tamanho do seu ator
 ---
 
 Quando você adiciona um ator ao seu projeto, o tamanho dele é definido como `100` por cento. Isso pode ser grande ou pequeno demais para o seu projeto.
@@ -114,7 +114,7 @@ next costume
 
 --- collapse ---
 ---
-título: Mude a aparência para criar um efeito de animação
+title: Mude a aparência para criar um efeito de animação
 ---
 
 **Coração batendo**: [Ver interior](https://scratch.mit.edu/projects/435725413/editor){: target="_ blank"}
@@ -165,7 +165,7 @@ clear graphic effects
 
 --- collapse ---
 ---
-título: Clique para alterar e, em seguida, voltar ao normal
+title: Clique para alterar e, em seguida, voltar ao normal
 ---
 
 Você pode adicionar ações que alteram o ator e depois reverte-las. Ações como: aumentar, esperar e depois diminuir.
@@ -231,7 +231,7 @@ go [forward v] () layers
 
 --- collapse ---
 ---
-título: Posicione atores em muitas camadas
+title: Posicione atores em muitas camadas
 ---
 
 **Através da janela com árvore**:[Ver interior](https://scratch.mit.edu/projects/454188775/editor){:target="_ blank"}
