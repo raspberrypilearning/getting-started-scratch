@@ -96,7 +96,7 @@ title: سمِّ و احفظ مشروعك
 
 لقد أنشأت مشروعك الأول سكراتش!
 
-أنت الآن جاهز لتعلم سكراتش. We recommend that you start with our [Introduction to Scratch](https://projects.raspberrypi.org/en/raspberrypi/scratch-intro){:target="_blank"}, [Scratch: Module 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} and/or [Look after yourself](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"} paths, which are designed for beginners.
+أنت الآن جاهز لتعلم سكراتش. نوصي ببدئك مع مسارنا [سكراتش: المادة 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} أو [انتبه لنفسك](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"}, المصممان للممبتدئين.
 
  يمكنك العودة لهذا الدليل إذا احتجت للمساعدة في استخدام سكراتش عند عملك على مشاريع مسارنا أو على مشاريعك المستقلة. 
 
