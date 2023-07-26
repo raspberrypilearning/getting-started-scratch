@@ -73,7 +73,7 @@ go to [front v] layer
 ```blocks3
 when flag clicked
 forever
-set [ghost v] effect to (transparent)
+set [ghost v] effect to (شفاف)
 ```
 
 جرب استخدام نفس الأسلوب مع التأثيرات الرسومية الأخرى مثل `شدة الاضاءة`{:class="block3looks"} أو `اللون`{:class="block3looks"}.
@@ -96,7 +96,7 @@ title: التحكم في سرعة الحركة مع متغير
 ```blocks3
 when flag clicked
 forever
-move (speed) steps
+move (سرعة) steps
 if on edge, bounce
 ```
 قم بتعيين القيم الدنيا والحد الأقصى لنطاق شريط التمرير ليناسب مشروعك.
@@ -119,7 +119,7 @@ title: التحكم في سرعة الدوران مع متغير
 ```blocks3
 when flag clicked
 forever
-turn right (angle) degrees
+turn right (زاوية) degrees
 ```
 
 --- /collapse ---
@@ -140,7 +140,7 @@ title: تغيير التأخير في كتلة انتظر
 ```blocks3
 when flag clicked
 forever
-wait (delay) seconds
+wait (تأخير) seconds
 next costume
 ```
 
@@ -170,7 +170,7 @@ title: تغيير المؤثرات الصوتية
 ```blocks3
 when flag clicked
 forever
-set [pitch v] effect to (beat) :: sound
+set [pitch v] effect to (ضربة) :: sound
 ```
 
 قم بتشغيل الصوت في كتلة حلقة `كرر باستمرار`{:class="block3control"} منفصلة، بحيث تتغير درجة الصوت على الفور ، بدلاً من الانتظار حتى انتهاء تشغيل الصوت:

@@ -25,7 +25,7 @@ when [space v] key pressed
 talk
 ```
 
-يمكنك استخدام `My Blocks`{:class="block3myblocks"} لتنظيم **** الشفرة البرمجية لمشروعك. من الأسهل تجميع كل الكتل البرمجية التي تجعل كائنًا يتحدث ثم استخدم كتلة واحدة `talk`{:class="block3myblocks"} عندما تريد أن يتحدث الكائن.
+يمكنك استخدام `My Blocks`{:class="block3myblocks"} لتنظيم الشفرة البرمجية لمشروعك. من الأسهل تجميع كل الكتل البرمجية التي تجعل كائنًا يتحدث ثم استخدم كتلة واحدة `talk`{:class="block3myblocks"} عندما تريد أن يتحدث الكائن.
 
 إذا قررت أنك تريد تغيير الطريقة التي يتحدث بها الكائن ، فعليك تغيير الشفرة البرمجية في مكان واحد فقط.
 
@@ -40,20 +40,20 @@ talk
 </div>
 
 ```blocks3
-define talk (words)
+define talk (كلمات)
 switch costume to (penguin2-b v)
-say (words) // use the provided input
+say (كلمات) // استخدم المدخلات المقدمة
 repeat (2)
 play sound (chirp v) until done
 end
-say (words)
+say (كلمات)
 switch costume to (penguin2-a v)
 
 when this sprite clicked
-talk [hello]
+talk [مرحبا]
 
 when [space v] key pressed
-talk [hi]
+talk [مرحبا]
 ```
 
 [[[generic-scratch3-make-block]]]
@@ -68,21 +68,21 @@ title: استخدم لبناتي لتنظيم التعليمات البرمجي�
 ```blocks3
 define move right
 if <not <touching (edge v) ?>> then
-switch costume to [right_1 v]
+switch costume to [يمين_1 v]
 change x by (2)
-switch costume to [right_2 v]
+switch costume to [يمين_2 v]
 change x by (2)
-switch costume to [right_3 v]
+switch costume to [يمين_3 v]
 change x by (2)
 end
 
 define move left
 if <not <touching (edge v) ?>> then
-switch costume to [left_1 v]
+switch costume to [يسار_1 v]
 change x by (-2)
-switch costume to [left_2 v]
+switch costume to [يسار_2 v]
 change x by (-2)
-switch costume to [left_3 v]
+switch costume to [يسار_3 v]
 change x by (-2)
 end
 
