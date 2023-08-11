@@ -53,7 +53,7 @@ More Scratchは、Introduction to Scratchで紹介した基本を超えていま
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
 ![](images/more-banner.png)
 [Further Scratch: clones, my blocks, and boolean logic](https://projects.raspberrypi.org/en/pathways/further-scratch){:target="_blank"}<br/>
-Further Scratchは、「Introduction to Sctratch」および「More Scratach」で紹介したスキルを超えています。 You will make apps, games, computer-generated art, and simulations using boolean logic, functions, clones, and more.
+Further Scratchは、「Introduction to Sctratch」および「More Scratach」で紹介したスキルを超えています。 真偽値、関数、クローンなどを使用して、アプリ、ゲーム、コンピューターアート、シミュレーションを作成します。
 </div>
 
 <div style="display: inline-block; max-width: 250px; float: left; padding-left: 10px;">
