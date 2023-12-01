@@ -96,7 +96,7 @@ Jeśli udostępnisz swój projekt, inne osoby również zobaczą tę nazwę, wi�
 
 Stworzyłeś swój pierwszy projekt Scratch!
 
-Jesteś teraz gotowy do nauki Scratcha. We recommend that you start with our [Introduction to Scratch](https://projects.raspberrypi.org/en/raspberrypi/scratch-intro){:target="_blank"}, [Scratch: Module 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} and/or [Look after yourself](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"} paths, which are designed for beginners.
+Jesteś teraz gotowy do nauki Scratcha. Zalecamy zacząć od naszych śceżek [Wprowadzenie do Scratch](https://projects.raspberrypi.org/en/raspberrypi/scratch-intro){:target="_blank"}, [Scratch: Moduł 1](https://projects.raspberrypi.org/en/raspberrypi/scratch-module-1){:target="_blank"} i/lub [Dbaj o siebie](https://projects.raspberrypi.org/en/raspberrypi/look-after-yourself){:target="_blank"}, które są przeznaczone dla początkujących.
 
  Możesz wrócić do tego przewodnika, jeśli potrzebujesz pomocy w korzystaniu ze Scratcha gdy pracujesz nad naszymi ścieżkami projektów lub nad własnymi niezależnymi projektami. 
 
