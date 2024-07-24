@@ -1,0 +1,83 @@
+Clique em 90 e mova a seta para mudar o valor
+
+ou rotação completa ou não rotacionar
+
+esconde a fala após 2 segundos
+
+executa os blocos quando a bandeira verde acima do Palco é clicada
+
+executa os blocos quando o personagem dessa animação é clicado
+
+executa os blocos quando o palco for clicado
+
+muda para número, letra ou setas de direção
+
+executa blocos quando o microfone detectar som
+
+executa blocos quando o cronômetro chegar a 10 segundos
+
+atraso de 1 segundo
+
+atraso de um décimo de segundo
+
+executa quatro vezes os blocos posicionados dentro
+
+executa os blocos posicionados dentro até ser parado
+
+para todos os scripts em todos os atores
+
+atrasa até que a condição seja verdadeira
+
+repete os blocos posicionados dentro até que a condição seja verdadeira
+
+cria uma cópia do ator que executa este bloco
+
+cria uma cópia de um outro ator no projeto
+
+o script que é executado quando a cópia é criada
+
+para e deleta os scripts das cópias
+
+Qual é o seu nome
+
+o texto que o usuário digitou
+
+hora, minuto, ...
+
+Um número entre 1 e 10
+
+fala
+
+usa a entrada fornecida
+
+palavras
+
+olá
+
+oi
+
+transparente
+
+velocidade
+
+ângulo
+
+atraso
+
+batimento
+
+mova para a direita
+
+mova para a esquerda
+
+direita_1
+
+direita_2
+
+direita_3
+
+esquerda_1
+
+esquerda_2
+
+esquerda_3
