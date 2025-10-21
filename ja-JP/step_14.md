@@ -65,7 +65,7 @@ title: ブロック定義を使用してコードを整理する
 `ブロック定義`{:class="block3myblocks"}の最も簡単な使い方は、コードを整理することです。 これが簡単な例です。
 
 ```blocks3
-define move right
+define 右に動く
 if <not <touching (端 v) ?>> then
 switch costume to [right_1 v]
 change x by (2)
@@ -75,7 +75,7 @@ switch costume to [right_3 v]
 change x by (2)
 end
 
-define move left
+define 左に動く
 if <not <touching (端 v) ?>> then
 switch costume to [left_1 v]
 change x by (-2)
@@ -88,10 +88,10 @@ end
 when flag clicked
 forever
 if <key (右向き矢印 v) pressed> then
-move right
+右に動く
 end
 if <key (左向き矢印 v) pressed> then
-move left
+左に動く
 ```
 
 --- /collapse ---
